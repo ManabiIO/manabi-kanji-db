@@ -1,0 +1,28 @@
+---
+id: visual-u2ecc-road-walk-to-advance
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u2ecc
+revision: fbf26a563515ce4b5ee36dd281c2e9cfe7982b58d54552b464a84cc404f747d3
+localizedRevision: fbf26a563515ce4b5ee36dd281c2e9cfe7982b58d54552b464a84cc404f747d3
+status: candidate
+claimText: road, walk, to advance
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanji-alive-radicals-csv
+  claimField: claimText
+  supportType: selected-component-label
+  selector: row=85; literal=⻌
+- reference: kanjivg-9053
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09053-g4; strokes=kvg:09053-s10,kvg:09053-s11,kvg:09053-s12
+review:
+  state: pending

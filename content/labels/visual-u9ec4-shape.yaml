@@ -1,0 +1,28 @@
+---
+id: visual-u9ec4-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9ec4
+revision: 6bd62a6c711c7d0a89d23c763a1794cdc5f685885bbe3601433bcfe1669fcc7a
+localizedRevision: 6bd62a6c711c7d0a89d23c763a1794cdc5f685885bbe3601433bcfe1669fcc7a
+status: candidate
+claimText: 黄 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6a2a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06a2a-g2; strokes=kvg:06a2a-s10,kvg:06a2a-s11,kvg:06a2a-s12,kvg:06a2a-s13,kvg:06a2a-s14,kvg:06a2a-s15,kvg:06a2a-s5,kvg:06a2a-s6,kvg:06a2a-s7,kvg:06a2a-s8,kvg:06a2a-s9
+- reference: kanjivg-6a2a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06a2a-g2; strokes=kvg:06a2a-s10,kvg:06a2a-s11,kvg:06a2a-s12,kvg:06a2a-s13,kvg:06a2a-s14,kvg:06a2a-s15,kvg:06a2a-s5,kvg:06a2a-s6,kvg:06a2a-s7,kvg:06a2a-s8,kvg:06a2a-s9
+review:
+  state: pending

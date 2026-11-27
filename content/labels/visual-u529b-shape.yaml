@@ -1,0 +1,28 @@
+---
+id: visual-u529b-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u529b
+revision: 3d3b0f636784084b554fe9b24545786317dbbaeff4e12c80368a31ea03b048b0
+localizedRevision: 3d3b0f636784084b554fe9b24545786317dbbaeff4e12c80368a31ea03b048b0
+status: candidate
+claimText: 力 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7537
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07537-g2; strokes=kvg:07537-s6,kvg:07537-s7
+- reference: kanjivg-7537
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07537-g2; strokes=kvg:07537-s6,kvg:07537-s7
+review:
+  state: pending

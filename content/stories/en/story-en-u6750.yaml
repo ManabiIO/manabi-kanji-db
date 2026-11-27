@@ -1,0 +1,57 @@
+---
+id: story-en-u6750
+kind: mnemonic
+subject:
+  type: character
+  literal: 材
+  codepoint: U+6750
+revision: c4668f1bfe4ef7bc3e920ec6b1119d1217e673bff37725ac603056b8720d5a90
+localizedRevision: 2cee796a91208f9802064e136db23661bf3bf993486156b8d9d080e38bb064e8
+status: candidate
+claimText: With a talent for sawing, the carpenter turned one fallen tree into enough lumber for a bridge.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='材']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6750
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06750-g1; strokes=kvg:06750-s1,kvg:06750-s2,kvg:06750-s3,kvg:06750-s4
+- reference: kanjivg-6750
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06750-g2; strokes=kvg:06750-s5,kvg:06750-s6,kvg:06750-s7
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: c4668f1bfe4ef7bc3e920ec6b1119d1217e673bff37725ac603056b8720d5a90
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:590d37589371eccd303029434c91e1b8a4169999259d27a9af44a326d1dd2175|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:590d37589371eccd303029434c91e1b8a4169999259d27a9af44a326d1dd2175
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='材']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6750
+    occurrence: kvg:06750-g1
+    labelClaim: visual-u6728-tree
+    authoredForm: 木
+    crosswalk: null
+  - structure: kv-6750
+    occurrence: kvg:06750-g2
+    labelClaim: visual-u624d-talent
+    authoredForm: 才
+    crosswalk: null
+  fiction: true
+  textRevision: 2cee796a91208f9802064e136db23661bf3bf993486156b8d9d080e38bb064e8

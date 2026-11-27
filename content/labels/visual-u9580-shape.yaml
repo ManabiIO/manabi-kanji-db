@@ -1,0 +1,28 @@
+---
+id: visual-u9580-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9580
+revision: 356f1b7f3fd406d13ff9a294b9e37068995d5453b998ea4f0cc04e01b8dcb78b
+localizedRevision: 356f1b7f3fd406d13ff9a294b9e37068995d5453b998ea4f0cc04e01b8dcb78b
+status: candidate
+claimText: 門 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-554f
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0554f-g1; strokes=kvg:0554f-s1,kvg:0554f-s2,kvg:0554f-s3,kvg:0554f-s4,kvg:0554f-s5,kvg:0554f-s6,kvg:0554f-s7,kvg:0554f-s8
+- reference: kanjivg-554f
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0554f-g1; strokes=kvg:0554f-s1,kvg:0554f-s2,kvg:0554f-s3,kvg:0554f-s4,kvg:0554f-s5,kvg:0554f-s6,kvg:0554f-s7,kvg:0554f-s8
+review:
+  state: pending

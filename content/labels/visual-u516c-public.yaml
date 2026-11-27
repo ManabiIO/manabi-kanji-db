@@ -1,0 +1,34 @@
+---
+id: visual-u516c-public
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u516c
+revision: 8a51c221a0debe62520b6a3c104c21791387cc59d799ac8c1668de74fb985055
+localizedRevision: 8a51c221a0debe62520b6a3c104c21791387cc59d799ac8c1668de74fb985055
+status: candidate
+claimText: public
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-677e
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0677e-g2; strokes=kvg:0677e-s5,kvg:0677e-s6,kvg:0677e-s7,kvg:0677e-s8
+- reference: kanjivg-677e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0677e-g2; strokes=kvg:0677e-s5,kvg:0677e-s6,kvg:0677e-s7,kvg:0677e-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 8a51c221a0debe62520b6a3c104c21791387cc59d799ac8c1668de74fb985055
+  sourceRevision: kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e37194c1ccf303c0df0d6dec6d1448b05e6a512860d4b9837a1afda27c764714|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e37194c1ccf303c0df0d6dec6d1448b05e6a512860d4b9837a1afda27c764714
+  rationale: Approved as an original fictional mnemonic cue bound to the cited Japanese glyph occurrences; this
+    cue is not asserted as ordinary dictionary meaning or historical component function.

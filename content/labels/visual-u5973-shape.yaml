@@ -1,0 +1,28 @@
+---
+id: visual-u5973-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5973
+revision: 250de85bd4e135893157096c068297deeda68f0911a04fa9883f8e2d621eefc7
+localizedRevision: 250de85bd4e135893157096c068297deeda68f0911a04fa9883f8e2d621eefc7
+status: candidate
+claimText: 女 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5b89
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05b89-g3; strokes=kvg:05b89-s4,kvg:05b89-s5,kvg:05b89-s6
+- reference: kanjivg-5b89
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05b89-g3; strokes=kvg:05b89-s4,kvg:05b89-s5,kvg:05b89-s6
+review:
+  state: pending

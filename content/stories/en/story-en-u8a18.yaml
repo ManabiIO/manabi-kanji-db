@@ -1,0 +1,57 @@
+---
+id: story-en-u8a18
+kind: mnemonic
+subject:
+  type: character
+  literal: 記
+  codepoint: U+8A18
+revision: 881661e5de571ec895d983fcdec6e7f3fc8b43a1300ab763f81cef829b38d71c
+localizedRevision: 91a77c79c674b8c8c11e49d28667a1f4a2162ef60cfe3b57193a191465fe95b0
+status: candidate
+claimText: Before the bats woke, the explorer wrote down the cave’s echoes in her own words.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanji-alive-meaning-u8a18
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: ka_data.csv[kanji='記']/kmeaning
+- reference: kanjivg-8a18
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08a18-g1; strokes=kvg:08a18-s1,kvg:08a18-s2,kvg:08a18-s3,kvg:08a18-s4,kvg:08a18-s5,kvg:08a18-s6,kvg:08a18-s7
+- reference: kanjivg-8a18
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08a18-g3; strokes=kvg:08a18-s10,kvg:08a18-s8,kvg:08a18-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 881661e5de571ec895d983fcdec6e7f3fc8b43a1300ab763f81cef829b38d71c
+  sourceRevision: kanji-alive-scoped-kmeaning:966def0104648e83c3f95538c414c4862cba1bbf:7b463876a0837bfb1f754a4e1bec43617b62f92b9839bbdf060d6ad0d8dbaf65|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c23eb8296df406028601d1866b23769a4f1480e2f684433135ce2018fddea45d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c23eb8296df406028601d1866b23769a4f1480e2f684433135ce2018fddea45d
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanji-alive-meaning-u8a18
+  targetSelector: ka_data.csv[kanji='記']/kmeaning
+  occurrences:
+  - structure: kv-8a18
+    occurrence: kvg:08a18-g1
+    labelClaim: visual-u8a00-word
+    authoredForm: 言
+    crosswalk: null
+  - structure: kv-8a18
+    occurrence: kvg:08a18-g3
+    labelClaim: visual-u5df1-self
+    authoredForm: 己
+    crosswalk: null
+  fiction: true
+  textRevision: 91a77c79c674b8c8c11e49d28667a1f4a2162ef60cfe3b57193a191465fe95b0

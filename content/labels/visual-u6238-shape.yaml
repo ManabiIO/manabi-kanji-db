@@ -1,0 +1,28 @@
+---
+id: visual-u6238-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u6238
+revision: 9611e5bcb6ae298cfc90ec15cf80ed2f15e4736925be89951dd3efd8f7bdc35b
+localizedRevision: 9611e5bcb6ae298cfc90ec15cf80ed2f15e4736925be89951dd3efd8f7bdc35b
+status: candidate
+claimText: 戸 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-80a9
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:080a9-g1; strokes=kvg:080a9-s1,kvg:080a9-s2,kvg:080a9-s3,kvg:080a9-s4
+- reference: kanjivg-80a9
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:080a9-g1; strokes=kvg:080a9-s1,kvg:080a9-s2,kvg:080a9-s3,kvg:080a9-s4
+review:
+  state: pending

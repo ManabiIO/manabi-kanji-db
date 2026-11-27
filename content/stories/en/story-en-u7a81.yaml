@@ -1,0 +1,57 @@
+---
+id: story-en-u7a81
+kind: mnemonic
+subject:
+  type: character
+  literal: 突
+  codepoint: U+7A81
+revision: fedaf661570f3da16321f951048960c34c643318a33930c9bd8ac842cbaa612e
+localizedRevision: c1479b88cd8aa59670874ee1daf908c1e25ab4b596841227022f9c6fff31fd58
+status: candidate
+claimText: A giant needle thrust through a hole in the ceiling and stitched the carpet to the floor.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='突']/reading_meaning/rmgroup[1]/meaning[3]
+- reference: kanjivg-7a81
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:07a81-g1; strokes=kvg:07a81-s1,kvg:07a81-s2,kvg:07a81-s3,kvg:07a81-s4,kvg:07a81-s5
+- reference: kanjivg-7a81
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:07a81-g5; strokes=kvg:07a81-s6,kvg:07a81-s7,kvg:07a81-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: fedaf661570f3da16321f951048960c34c643318a33930c9bd8ac842cbaa612e
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ca9f4b4242dbda6e109d427ef9086ba987a08e72e33e990684a2250040ecc247|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ca9f4b4242dbda6e109d427ef9086ba987a08e72e33e990684a2250040ecc247
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='突']/reading_meaning/rmgroup[1]/meaning[3]
+  occurrences:
+  - structure: kv-7a81
+    occurrence: kvg:07a81-g1
+    labelClaim: visual-u7a74-hole
+    authoredForm: 穴
+    crosswalk: null
+  - structure: kv-7a81
+    occurrence: kvg:07a81-g5
+    labelClaim: visual-u5927-big
+    authoredForm: 大
+    crosswalk: null
+  fiction: true
+  textRevision: c1479b88cd8aa59670874ee1daf908c1e25ab4b596841227022f9c6fff31fd58

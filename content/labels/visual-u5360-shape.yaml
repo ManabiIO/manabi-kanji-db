@@ -1,0 +1,28 @@
+---
+id: visual-u5360-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5360
+revision: 88039cf5b8f17bdb8ac500b7f9a7dccc99091c23d0a40c6c4220ee412e627c64
+localizedRevision: 88039cf5b8f17bdb8ac500b7f9a7dccc99091c23d0a40c6c4220ee412e627c64
+status: candidate
+claimText: 占 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5e97
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05e97-g3; strokes=kvg:05e97-s4,kvg:05e97-s5,kvg:05e97-s6,kvg:05e97-s7,kvg:05e97-s8
+- reference: kanjivg-5e97
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05e97-g3; strokes=kvg:05e97-s4,kvg:05e97-s5,kvg:05e97-s6,kvg:05e97-s7,kvg:05e97-s8
+review:
+  state: pending

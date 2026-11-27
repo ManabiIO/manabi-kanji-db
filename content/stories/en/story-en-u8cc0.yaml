@@ -1,0 +1,57 @@
+---
+id: story-en-u8cc0
+kind: mnemonic
+subject:
+  type: character
+  literal: 賀
+  codepoint: U+8CC0
+revision: 7644daaeff4b47d8411e59b8491cf7b185a460819abd497e4551b42abd301468
+localizedRevision: e596fd6596d0139daac26ddc07aca3d77be6675a51801b7303251b4e6e66de25
+status: candidate
+claimText: Guests added shells to a mosaic to spell out congratulations to the newlyweds.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='賀']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-8cc0
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08cc0-g1; strokes=kvg:08cc0-s1,kvg:08cc0-s2,kvg:08cc0-s3,kvg:08cc0-s4,kvg:08cc0-s5
+- reference: kanjivg-8cc0
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08cc0-g4; strokes=kvg:08cc0-s10,kvg:08cc0-s11,kvg:08cc0-s12,kvg:08cc0-s6,kvg:08cc0-s7,kvg:08cc0-s8,kvg:08cc0-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 7644daaeff4b47d8411e59b8491cf7b185a460819abd497e4551b42abd301468
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7313ae631e2beea463850b23e8ecc54f30cc36ed7d70c11d9642d8415463cbda|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7313ae631e2beea463850b23e8ecc54f30cc36ed7d70c11d9642d8415463cbda
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='賀']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-8cc0
+    occurrence: kvg:08cc0-g1
+    labelClaim: visual-u52a0-add
+    authoredForm: 加
+    crosswalk: null
+  - structure: kv-8cc0
+    occurrence: kvg:08cc0-g4
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  fiction: true
+  textRevision: e596fd6596d0139daac26ddc07aca3d77be6675a51801b7303251b4e6e66de25

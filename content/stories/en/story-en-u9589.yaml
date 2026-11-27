@@ -1,0 +1,57 @@
+---
+id: story-en-u9589
+kind: mnemonic
+subject:
+  type: character
+  literal: 閉
+  codepoint: U+9589
+revision: 68e818b112831b63c0e2308bfdedb9ea2e600a005f4e9bdb8a817c2013e140d0
+localizedRevision: b3aa7a94ac4dae28cf723773d52a3659c8ef53e1ad7219900aae7e4823b54669
+status: candidate
+claimText: The magician's greatest talent was making a squeaky gate close without a sound.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='閉']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-9589
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:09589-g1; strokes=kvg:09589-s1,kvg:09589-s2,kvg:09589-s3,kvg:09589-s4,kvg:09589-s5,kvg:09589-s6,kvg:09589-s7,kvg:09589-s8
+- reference: kanjivg-9589
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:09589-g4; strokes=kvg:09589-s10,kvg:09589-s11,kvg:09589-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 68e818b112831b63c0e2308bfdedb9ea2e600a005f4e9bdb8a817c2013e140d0
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4d78f442d992514404cb4c5fcf9de0335fc3f82f409a133a3423fae48ea3a010|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4d78f442d992514404cb4c5fcf9de0335fc3f82f409a133a3423fae48ea3a010
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='閉']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-9589
+    occurrence: kvg:09589-g1
+    labelClaim: visual-u9580-gate
+    authoredForm: 門
+    crosswalk: null
+  - structure: kv-9589
+    occurrence: kvg:09589-g4
+    labelClaim: visual-u624d-talent
+    authoredForm: 才
+    crosswalk: null
+  fiction: true
+  textRevision: b3aa7a94ac4dae28cf723773d52a3659c8ef53e1ad7219900aae7e4823b54669

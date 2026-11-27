@@ -1,0 +1,28 @@
+---
+id: visual-u5915-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5915
+revision: bfd98b245d33cdd84244f98eea7802c50e4c2e0cb76b977e01d003182ffb5570
+localizedRevision: bfd98b245d33cdd84244f98eea7802c50e4c2e0cb76b977e01d003182ffb5570
+status: candidate
+claimText: 夕 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-540d
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0540d-g1; strokes=kvg:0540d-s1,kvg:0540d-s2,kvg:0540d-s3
+- reference: kanjivg-540d
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0540d-g1; strokes=kvg:0540d-s1,kvg:0540d-s2,kvg:0540d-s3
+review:
+  state: pending

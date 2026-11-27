@@ -1,0 +1,57 @@
+---
+id: story-en-u5e8a
+kind: mnemonic
+subject:
+  type: character
+  literal: 床
+  codepoint: U+5E8A
+revision: c62a889ff1f703530ec162b871ec84f5091cd341559365703ecca6bcb7a4135b
+localizedRevision: dba51b1d8e35ea5d47619922682401c7bed7d38565fb25c3d52e4f5aed8249f4
+status: candidate
+claimText: A traveler dragged a fallen tree under the shelter of a cliff and slept on it like a bed.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='床']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-5e8a
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:05e8a-g1; strokes=kvg:05e8a-s1,kvg:05e8a-s2,kvg:05e8a-s3
+- reference: kanjivg-5e8a
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:05e8a-g3; strokes=kvg:05e8a-s4,kvg:05e8a-s5,kvg:05e8a-s6,kvg:05e8a-s7
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: c62a889ff1f703530ec162b871ec84f5091cd341559365703ecca6bcb7a4135b
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9d3bbeede32cbde2bd39081e534d043c25a3a9cfa9f5f10253975bb0d01cd0e5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9d3bbeede32cbde2bd39081e534d043c25a3a9cfa9f5f10253975bb0d01cd0e5
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='床']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-5e8a
+    occurrence: kvg:05e8a-g1
+    labelClaim: visual-u5e7f-shelter
+    authoredForm: 广
+    crosswalk: null
+  - structure: kv-5e8a
+    occurrence: kvg:05e8a-g3
+    labelClaim: visual-u6728-tree
+    authoredForm: 木
+    crosswalk: null
+  fiction: true
+  textRevision: dba51b1d8e35ea5d47619922682401c7bed7d38565fb25c3d52e4f5aed8249f4

@@ -1,0 +1,28 @@
+---
+id: visual-u5df7-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5df7
+revision: a1b5b21248a6efdfe251506c6b91f173e7d904ea1868ddc1d52a5af934e4817a
+localizedRevision: a1b5b21248a6efdfe251506c6b91f173e7d904ea1868ddc1d52a5af934e4817a
+status: candidate
+claimText: 巷 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6e2f
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06e2f-g2; strokes=kvg:06e2f-s10,kvg:06e2f-s11,kvg:06e2f-s12,kvg:06e2f-s4,kvg:06e2f-s5,kvg:06e2f-s6,kvg:06e2f-s7,kvg:06e2f-s8,kvg:06e2f-s9
+- reference: kanjivg-6e2f
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06e2f-g2; strokes=kvg:06e2f-s10,kvg:06e2f-s11,kvg:06e2f-s12,kvg:06e2f-s4,kvg:06e2f-s5,kvg:06e2f-s6,kvg:06e2f-s7,kvg:06e2f-s8,kvg:06e2f-s9
+review:
+  state: pending

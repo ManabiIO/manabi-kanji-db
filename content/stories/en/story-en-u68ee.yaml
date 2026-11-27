@@ -1,0 +1,57 @@
+---
+id: story-en-u68ee
+kind: mnemonic
+subject:
+  type: character
+  literal: 森
+  codepoint: U+68EE
+revision: a3b763e88d8a4ef73ecfb04013247ea58d754a6ff9b5f49552e065d0f43069f5
+localizedRevision: d939a7db7ce84e50782df5e4f55a38498b7f0accf5b5d0b3089fabc27ea2c787
+status: candidate
+claimText: One enormous tree scattered seeds across a grove, and within a week a forest had swallowed the road.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='森']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-68ee
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:068ee-g1; strokes=kvg:068ee-s1,kvg:068ee-s2,kvg:068ee-s3,kvg:068ee-s4
+- reference: kanjivg-68ee
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:068ee-g2; strokes=kvg:068ee-s10,kvg:068ee-s11,kvg:068ee-s12,kvg:068ee-s5,kvg:068ee-s6,kvg:068ee-s7,kvg:068ee-s8,kvg:068ee-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: a3b763e88d8a4ef73ecfb04013247ea58d754a6ff9b5f49552e065d0f43069f5
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a6a066aa5824d08f01a00f86c996fe22cc499abcb41ba6fc32628b3785ea8e51|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a6a066aa5824d08f01a00f86c996fe22cc499abcb41ba6fc32628b3785ea8e51
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='森']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-68ee
+    occurrence: kvg:068ee-g1
+    labelClaim: visual-u6728-tree
+    authoredForm: 木
+    crosswalk: null
+  - structure: kv-68ee
+    occurrence: kvg:068ee-g2
+    labelClaim: visual-u6797-grove
+    authoredForm: 林
+    crosswalk: null
+  fiction: true
+  textRevision: d939a7db7ce84e50782df5e4f55a38498b7f0accf5b5d0b3089fabc27ea2c787

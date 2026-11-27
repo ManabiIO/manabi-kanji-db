@@ -1,0 +1,57 @@
+---
+id: story-en-u6642
+kind: mnemonic
+subject:
+  type: character
+  literal: 時
+  codepoint: U+6642
+revision: 52781cbeb86c819600f3cf7d2121d7e5b7671c61eca501fe9c2e6548d3484372
+localizedRevision: 609934f8210e90506523b38c703dd160949df641b9b63feb04ce47eb5daa354e
+status: candidate
+claimText: At the temple, a beam of sunlight touched the bell rope when it was time for tea.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='時']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6642
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06642-g1; strokes=kvg:06642-s1,kvg:06642-s2,kvg:06642-s3,kvg:06642-s4
+- reference: kanjivg-6642
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06642-g2; strokes=kvg:06642-s10,kvg:06642-s5,kvg:06642-s6,kvg:06642-s7,kvg:06642-s8,kvg:06642-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 52781cbeb86c819600f3cf7d2121d7e5b7671c61eca501fe9c2e6548d3484372
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:60cf47d21e23a15ac8f9c83603e1789be9a3a4e37371f8f5290b0f170973ec6d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:60cf47d21e23a15ac8f9c83603e1789be9a3a4e37371f8f5290b0f170973ec6d
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='時']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6642
+    occurrence: kvg:06642-g1
+    labelClaim: visual-u65e5-sun
+    authoredForm: 日
+    crosswalk: null
+  - structure: kv-6642
+    occurrence: kvg:06642-g2
+    labelClaim: visual-u5bfa-temple
+    authoredForm: 寺
+    crosswalk: null
+  fiction: true
+  textRevision: 609934f8210e90506523b38c703dd160949df641b9b63feb04ce47eb5daa354e

@@ -1,0 +1,57 @@
+---
+id: story-en-u8ca8
+kind: mnemonic
+subject:
+  type: character
+  literal: 貨
+  codepoint: U+8CA8
+revision: b90d910f5f4b7b8a6e5f15058006e046e67c5994ce633b142c804ff8f1b608ef
+localizedRevision: 92a339a55b83d181a4700e339b3d3872e553dbb0f5a2dcac90e0c82be315e3e1
+status: candidate
+claimText: Every shell in the ship's freight changed into a china teacup as it crossed the equator.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='貨']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-8ca8
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca8-g1; strokes=kvg:08ca8-s1,kvg:08ca8-s2,kvg:08ca8-s3,kvg:08ca8-s4
+- reference: kanjivg-8ca8
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca8-g4; strokes=kvg:08ca8-s10,kvg:08ca8-s11,kvg:08ca8-s5,kvg:08ca8-s6,kvg:08ca8-s7,kvg:08ca8-s8,kvg:08ca8-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: b90d910f5f4b7b8a6e5f15058006e046e67c5994ce633b142c804ff8f1b608ef
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='貨']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-8ca8
+    occurrence: kvg:08ca8-g1
+    labelClaim: visual-u5316-change
+    authoredForm: 化
+    crosswalk: null
+  - structure: kv-8ca8
+    occurrence: kvg:08ca8-g4
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  fiction: true
+  textRevision: 92a339a55b83d181a4700e339b3d3872e553dbb0f5a2dcac90e0c82be315e3e1

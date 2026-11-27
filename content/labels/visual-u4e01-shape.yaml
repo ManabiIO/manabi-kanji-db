@@ -1,0 +1,28 @@
+---
+id: visual-u4e01-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e01
+revision: 0ac52fe5aeb3f8acdcdaf22c254aebedc1304dc2d7d29d174042b3f307f83b2a
+localizedRevision: 0ac52fe5aeb3f8acdcdaf22c254aebedc1304dc2d7d29d174042b3f307f83b2a
+status: candidate
+claimText: 丁 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6253
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06253-g2; strokes=kvg:06253-s4,kvg:06253-s5
+- reference: kanjivg-6253
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06253-g2; strokes=kvg:06253-s4,kvg:06253-s5
+review:
+  state: pending

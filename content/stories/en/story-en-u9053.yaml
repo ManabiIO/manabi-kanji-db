@@ -1,0 +1,61 @@
+---
+id: story-en-u9053
+kind: mnemonic
+subject:
+  type: character
+  literal: 道
+  codepoint: U+9053
+revision: c33678775e8ce807236b3f39bda623c68e637ce34ef95d3b7c7cb48c9a6477c9
+localizedRevision: 5d7519a748f684ccfcdb4bd16b36a054edd411e43cc096b64cf0b41c5df10f48
+status: candidate
+claimText: A walker carried a statue's missing head down the road to the museum in a shopping basket.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='道']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-9053
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:09053-g4; strokes=kvg:09053-s10,kvg:09053-s11,kvg:09053-s12
+- reference: kanjivg-9053
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:09053-g1; strokes=kvg:09053-s1,kvg:09053-s2,kvg:09053-s3,kvg:09053-s4,kvg:09053-s5,kvg:09053-s6,kvg:09053-s7,kvg:09053-s8,kvg:09053-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: c33678775e8ce807236b3f39bda623c68e637ce34ef95d3b7c7cb48c9a6477c9
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:826fd1adbf301491c5c726fedb4d3dec4089760dd40a6824c83403f0c4b86418|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:826fd1adbf301491c5c726fedb4d3dec4089760dd40a6824c83403f0c4b86418
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='道']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-9053
+    occurrence: kvg:09053-g4
+    labelClaim: visual-u2ecc-walk
+    authoredForm: 辶
+    crosswalk:
+      fromCodepoint: U+2ECC
+      toCodepoint: U+8FB6
+      sourceAttribute: original
+      reference: kanjivg-9053
+  - structure: kv-9053
+    occurrence: kvg:09053-g1
+    labelClaim: visual-u9996-head
+    authoredForm: 首
+    crosswalk: null
+  fiction: true
+  textRevision: 5d7519a748f684ccfcdb4bd16b36a054edd411e43cc096b64cf0b41c5df10f48

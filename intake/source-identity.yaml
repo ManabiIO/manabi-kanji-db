@@ -1,0 +1,16 @@
+---
+version: 1
+items:
+- id: source-identity-kanjivg-u6a45
+  kind: source-identity-mismatch
+  subject:
+    type: character
+    literal: 橅
+    codepoint: U+6A45
+  references:
+  - kanjivg-6a45
+  reason: 'pinned KanjiVG file kanji/06a45.svg has root literal 機, while the indexed character is 橅'
+  nextAction: human source editor to inspect the exact SVG path and decide whether to withhold or add an explicit
+    crosswalk
+  disposition: withheld
+  publishable: false

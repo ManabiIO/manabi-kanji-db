@@ -1,0 +1,28 @@
+---
+id: visual-u7f8a-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7f8a
+revision: 8d254f738c15514333a2b944376f70bdf83c781fe21a9077e79dfc702c1d56a0
+localizedRevision: 8d254f738c15514333a2b944376f70bdf83c781fe21a9077e79dfc702c1d56a0
+status: candidate
+claimText: 羊 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6d0b
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06d0b-g2; strokes=kvg:06d0b-s4,kvg:06d0b-s5,kvg:06d0b-s6,kvg:06d0b-s7,kvg:06d0b-s8,kvg:06d0b-s9
+- reference: kanjivg-6d0b
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06d0b-g2; strokes=kvg:06d0b-s4,kvg:06d0b-s5,kvg:06d0b-s6,kvg:06d0b-s7,kvg:06d0b-s8,kvg:06d0b-s9
+review:
+  state: pending

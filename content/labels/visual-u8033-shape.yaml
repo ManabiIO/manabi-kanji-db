@@ -1,0 +1,28 @@
+---
+id: visual-u8033-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u8033
+revision: ffb3bc7dbe277793f0092869b45f9cb1b3eb2fb3f8ff36a90d78a65258dddad4
+localizedRevision: ffb3bc7dbe277793f0092869b45f9cb1b3eb2fb3f8ff36a90d78a65258dddad4
+status: candidate
+claimText: 耳 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-805e
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0805e-g4; strokes=kvg:0805e-s10,kvg:0805e-s11,kvg:0805e-s12,kvg:0805e-s13,kvg:0805e-s14,kvg:0805e-s9
+- reference: kanjivg-805e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0805e-g4; strokes=kvg:0805e-s10,kvg:0805e-s11,kvg:0805e-s12,kvg:0805e-s13,kvg:0805e-s14,kvg:0805e-s9
+review:
+  state: pending

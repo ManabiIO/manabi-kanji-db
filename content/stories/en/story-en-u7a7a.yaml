@@ -1,0 +1,57 @@
+---
+id: story-en-u7a7a
+kind: mnemonic
+subject:
+  type: character
+  literal: 空
+  codepoint: U+7A7A
+revision: 01b5349f7a57906faca225f8cd49bfaf1dc1f036fdcfae47b11d1274577137f1
+localizedRevision: 581b920414a1d107a7dcb7cc02abbbcdaa718dd3f067586e5776cd584a74157d
+status: candidate
+claimText: A craftsperson lowered a lantern into a hole and found an empty room painted blue.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='空']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-7a7a
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:07a7a-g1; strokes=kvg:07a7a-s1,kvg:07a7a-s2,kvg:07a7a-s3,kvg:07a7a-s4,kvg:07a7a-s5
+- reference: kanjivg-7a7a
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:07a7a-g5; strokes=kvg:07a7a-s6,kvg:07a7a-s7,kvg:07a7a-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 01b5349f7a57906faca225f8cd49bfaf1dc1f036fdcfae47b11d1274577137f1
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2613d7b8db35b9ad053b9708dd6888af9abe2bbe3ce09dd5ceca322fd6d8b21|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2613d7b8db35b9ad053b9708dd6888af9abe2bbe3ce09dd5ceca322fd6d8b21
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='空']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-7a7a
+    occurrence: kvg:07a7a-g1
+    labelClaim: visual-u7a74-hole
+    authoredForm: 穴
+    crosswalk: null
+  - structure: kv-7a7a
+    occurrence: kvg:07a7a-g5
+    labelClaim: visual-u5de5-craft
+    authoredForm: 工
+    crosswalk: null
+  fiction: true
+  textRevision: 581b920414a1d107a7dcb7cc02abbbcdaa718dd3f067586e5776cd584a74157d

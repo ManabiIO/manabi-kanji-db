@@ -1,0 +1,57 @@
+---
+id: story-en-u706f
+kind: mnemonic
+subject:
+  type: character
+  literal: 灯
+  codepoint: U+706F
+revision: 35218a816cbfd31e4e9336fac79d65696242003a81c6a77f7654239a00b038c8
+localizedRevision: 206c8df3aeb641cc07e262949a88f73669da974d4887884902e1418e8236bc5e
+status: candidate
+claimText: A lamp with a tiny blue fire inside lit the whole city block.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='灯']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-706f
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0706f-g1; strokes=kvg:0706f-s1,kvg:0706f-s2,kvg:0706f-s3,kvg:0706f-s4
+- reference: kanjivg-706f
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0706f-g2; strokes=kvg:0706f-s5,kvg:0706f-s6
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 35218a816cbfd31e4e9336fac79d65696242003a81c6a77f7654239a00b038c8
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9066c838eef9d87ec655e35a5d0a3ab8f7ef31b7dab6f0a327a6c7d4fd66e5b0|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9066c838eef9d87ec655e35a5d0a3ab8f7ef31b7dab6f0a327a6c7d4fd66e5b0
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='灯']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-706f
+    occurrence: kvg:0706f-g1
+    labelClaim: visual-u706b-fire
+    authoredForm: 火
+    crosswalk: null
+  - structure: kv-706f
+    occurrence: kvg:0706f-g2
+    labelClaim: visual-u4e01-city-block
+    authoredForm: 丁
+    crosswalk: null
+  fiction: true
+  textRevision: 206c8df3aeb641cc07e262949a88f73669da974d4887884902e1418e8236bc5e

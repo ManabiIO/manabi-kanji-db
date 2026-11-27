@@ -1,0 +1,57 @@
+---
+id: story-en-u690d
+kind: mnemonic
+subject:
+  type: character
+  literal: 植
+  codepoint: U+690D
+revision: bbccfc95f7cc853a0c05296241a6bf3515b5a0dba6f08581559ea1aa367d4f99
+localizedRevision: 07b863c1f2f458a47658a6cfd365639d27f2f3ca904b9e2656e9178e10b32597
+status: candidate
+claimText: The mayor decided to plant the tree straight after a crooked one walked away on its roots.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='植']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-690d
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0690d-g1; strokes=kvg:0690d-s1,kvg:0690d-s2,kvg:0690d-s3,kvg:0690d-s4
+- reference: kanjivg-690d
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0690d-g2; strokes=kvg:0690d-s10,kvg:0690d-s11,kvg:0690d-s12,kvg:0690d-s5,kvg:0690d-s6,kvg:0690d-s7,kvg:0690d-s8,kvg:0690d-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: bbccfc95f7cc853a0c05296241a6bf3515b5a0dba6f08581559ea1aa367d4f99
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:584c27c6a97c7267adc8d4e70873c53b660e9c86c5efae6ec76b4117747f4972|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:584c27c6a97c7267adc8d4e70873c53b660e9c86c5efae6ec76b4117747f4972
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='植']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-690d
+    occurrence: kvg:0690d-g1
+    labelClaim: visual-u6728-tree
+    authoredForm: 木
+    crosswalk: null
+  - structure: kv-690d
+    occurrence: kvg:0690d-g2
+    labelClaim: visual-u76f4-straight
+    authoredForm: 直
+    crosswalk: null
+  fiction: true
+  textRevision: 07b863c1f2f458a47658a6cfd365639d27f2f3ca904b9e2656e9178e10b32597

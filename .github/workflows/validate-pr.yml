@@ -1,0 +1,117 @@
+name: Validate a pull request
+on:
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: Pull request number targeting main
+        required: true
+        type: string
+      head:
+        description: Full expected head SHA
+        required: true
+        type: string
+permissions: {}
+jobs:
+  identify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      pull-requests: read
+    steps:
+      - name: Verify open pull request and immutable head
+        env:
+          NUMBER: ${{ inputs.pr }}
+          HEAD_SHA: ${{ inputs.head }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          [[ "$NUMBER" =~ ^[1-9][0-9]*$ && "$HEAD_SHA" =~ ^[0-9a-f]{40}$ ]]
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$NUMBER" |
+            jq -e --arg sha "$HEAD_SHA" '.state == "open" and .base.ref == "main" and .head.sha == $sha'
+  trusted:
+    needs: identify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          path: baseline
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: refs/pull/${{ inputs.pr }}/head
+          path: proposed
+          persist-credentials: false
+      - name: Validate proposed content with main's parser and schema
+        env:
+          EXPECTED: ${{ inputs.head }}
+        run: |
+          set -euo pipefail
+          test "$(git -C proposed rev-parse HEAD)" = "$EXPECTED"
+          python3 -m venv "$RUNNER_TEMP/validator"
+          "$RUNNER_TEMP/validator/bin/pip" install -r baseline/requirements.txt
+          for name in data content sources intake assets; do
+            if [[ -e "baseline/$name" ]]; then mv "baseline/$name" "$RUNNER_TEMP/main-$name"; fi
+            if [[ -e "proposed/$name" ]]; then
+              test -d "proposed/$name"
+              test -z "$(find "proposed/$name" -type l -print -quit)"
+              cp -R "proposed/$name" "baseline/$name"
+            fi
+          done
+          cd baseline
+          "$RUNNER_TEMP/validator/bin/python" -m kanjidb validate
+  candidate:
+    needs: identify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: refs/pull/${{ inputs.pr }}/head
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          path: .trusted-tests
+          persist-credentials: false
+      - name: Test candidate
+        env:
+          EXPECTED: ${{ inputs.head }}
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$EXPECTED"
+          python3 -m venv "$RUNNER_TEMP/candidate"
+          source "$RUNNER_TEMP/candidate/bin/activate"
+          pip install -r requirements.txt
+          python -m unittest discover -s tests
+          python -m kanjidb verify-reproducible
+          mv tests "$RUNNER_TEMP/proposed-tests"
+          cp -R .trusted-tests/tests tests
+          python -m unittest discover -s tests
+  report:
+    if: always() && github.ref == 'refs/heads/main' && needs.identify.result == 'success'
+    needs: [identify, trusted, candidate]
+    runs-on: ubuntu-24.04
+    permissions:
+      statuses: write
+      pull-requests: read
+    steps:
+      - name: Record result on verified revision
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ inputs.pr }}
+          HEAD_SHA: ${{ inputs.head }}
+          TRUSTED: ${{ needs.trusted.result }}
+          CANDIDATE: ${{ needs.candidate.result }}
+        run: |
+          set -euo pipefail
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$NUMBER" |
+            jq -e --arg sha "$HEAD_SHA" '.state == "open" and .base.ref == "main" and .head.sha == $sha'
+          state=failure
+          if [[ "$TRUSTED" == success && "$CANDIDATE" == success ]]; then state=success; fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$HEAD_SHA" \
+            -f state="$state" -f context='kanji-db/manual-validation' \
+            -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"

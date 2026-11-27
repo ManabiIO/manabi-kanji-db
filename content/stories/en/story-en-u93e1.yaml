@@ -1,0 +1,57 @@
+---
+id: story-en-u93e1
+kind: mnemonic
+subject:
+  type: character
+  literal: 鏡
+  codepoint: U+93E1
+revision: 9a07a600741d3c58d0d761a8a4530e6c246001cd406a806fd3a97935e67a1424
+localizedRevision: 8a7e977c29e136d350b8df6ce97f8d5fab95580f7d45aad8303d2f4b16d531ba
+status: candidate
+claimText: At the end of the passage, a metal mirror showed every visitor wearing an enormous crown.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='鏡']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-93e1
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:093e1-g1; strokes=kvg:093e1-s1,kvg:093e1-s2,kvg:093e1-s3,kvg:093e1-s4,kvg:093e1-s5,kvg:093e1-s6,kvg:093e1-s7,kvg:093e1-s8
+- reference: kanjivg-93e1
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:093e1-g2; strokes=kvg:093e1-s10,kvg:093e1-s11,kvg:093e1-s12,kvg:093e1-s13,kvg:093e1-s14,kvg:093e1-s15,kvg:093e1-s16,kvg:093e1-s17,kvg:093e1-s18,kvg:093e1-s19,kvg:093e1-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 9a07a600741d3c58d0d761a8a4530e6c246001cd406a806fd3a97935e67a1424
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9b44591302e7927fdd4ac81863a7ed03066eec93b2f460a153a8a056e11e124b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9b44591302e7927fdd4ac81863a7ed03066eec93b2f460a153a8a056e11e124b
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='鏡']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-93e1
+    occurrence: kvg:093e1-g1
+    labelClaim: visual-u91d1-metal
+    authoredForm: 金
+    crosswalk: null
+  - structure: kv-93e1
+    occurrence: kvg:093e1-g2
+    labelClaim: visual-u7adf-end
+    authoredForm: 竟
+    crosswalk: null
+  fiction: true
+  textRevision: 8a7e977c29e136d350b8df6ce97f8d5fab95580f7d45aad8303d2f4b16d531ba

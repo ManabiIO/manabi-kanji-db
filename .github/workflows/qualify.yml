@@ -1,0 +1,58 @@
+name: Qualify and optionally publish main
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the qualified snapshot as a GitHub release
+        type: boolean
+        default: false
+permissions: {}
+jobs:
+  qualify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Qualify exact revision
+        run: |
+          set -euo pipefail
+          python3 -m venv "$RUNNER_TEMP/build"
+          source "$RUNNER_TEMP/build/bin/activate"
+          pip install -r requirements.txt
+          python -m unittest discover -s tests
+          python -m kanjidb validate
+          python -m kanjidb verify-reproducible
+          mkdir -p release
+          python -m kanjidb build --output release/kanji.sqlite
+          git -c tar.umask=0022 archive --format=tar.gz --prefix=manabi-kanji-db/ --output=release/source.tar.gz "$GITHUB_SHA"
+          (cd release && sha256sum kanji.sqlite source.tar.gz > checksums.txt)
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: snapshot-${{ github.sha }}
+          path: release/
+          if-no-files-found: error
+  publish:
+    if: inputs.publish && github.ref == 'refs/heads/main'
+    needs: qualify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: snapshot-${{ github.sha }}
+          path: release
+      - name: Publish qualified bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq .object.sha)" = "$GITHUB_SHA"
+          (cd release && sha256sum --check checksums.txt)
+          gh release create "snapshot-$GITHUB_SHA" release/* --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" --title "Kanji database snapshot ${GITHUB_SHA:0:12}" \
+            --notes "Generated from $GITHUB_SHA. Source, attribution and license notices accompany the database."

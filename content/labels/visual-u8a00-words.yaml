@@ -1,0 +1,28 @@
+---
+id: visual-u8a00-words
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u8a00
+revision: 5da27bdde4d812a24ed75a507b1a2372fe4d4a007273ac1298148e0d5dfc1d5a
+localizedRevision: 5da27bdde4d812a24ed75a507b1a2372fe4d4a007273ac1298148e0d5dfc1d5a
+status: candidate
+claimText: words
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8a9e
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08a9e-g1; strokes=kvg:08a9e-s1,kvg:08a9e-s2,kvg:08a9e-s3,kvg:08a9e-s4,kvg:08a9e-s5,kvg:08a9e-s6,kvg:08a9e-s7
+- reference: kanjivg-8a9e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08a9e-g1; strokes=kvg:08a9e-s1,kvg:08a9e-s2,kvg:08a9e-s3,kvg:08a9e-s4,kvg:08a9e-s5,kvg:08a9e-s6,kvg:08a9e-s7
+review:
+  state: pending

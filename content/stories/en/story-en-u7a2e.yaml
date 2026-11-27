@@ -1,0 +1,57 @@
+---
+id: story-en-u7a2e
+kind: mnemonic
+subject:
+  type: character
+  literal: 種
+  codepoint: U+7A2E
+revision: 50404cdd9b8dc5f1a077043036937955795dae6d51042169bfc06ae99ecd15b6
+localizedRevision: 6cd9ca9ce23a2fa1b71a9a1cd7dec5e209fa43b152a934d40afad60fc71010ed
+status: candidate
+claimText: The seed that dropped from a grain stalk was so heavy it dented the bucket.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='種']/reading_meaning/rmgroup[1]/meaning[5]
+- reference: kanjivg-7a2e
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:07a2e-g1; strokes=kvg:07a2e-s1,kvg:07a2e-s2,kvg:07a2e-s3,kvg:07a2e-s4,kvg:07a2e-s5
+- reference: kanjivg-7a2e
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:07a2e-g4; strokes=kvg:07a2e-s10,kvg:07a2e-s11,kvg:07a2e-s12,kvg:07a2e-s13,kvg:07a2e-s14,kvg:07a2e-s6,kvg:07a2e-s7,kvg:07a2e-s8,kvg:07a2e-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 50404cdd9b8dc5f1a077043036937955795dae6d51042169bfc06ae99ecd15b6
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f0a8430cb46ccb04c73ac5b40754d26f3602b8be8ce0faf2e6363258239816d2|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f0a8430cb46ccb04c73ac5b40754d26f3602b8be8ce0faf2e6363258239816d2
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='種']/reading_meaning/rmgroup[1]/meaning[5]
+  occurrences:
+  - structure: kv-7a2e
+    occurrence: kvg:07a2e-g1
+    labelClaim: visual-u79be-grain
+    authoredForm: 禾
+    crosswalk: null
+  - structure: kv-7a2e
+    occurrence: kvg:07a2e-g4
+    labelClaim: visual-u91cd-heavy
+    authoredForm: 重
+    crosswalk: null
+  fiction: true
+  textRevision: 6cd9ca9ce23a2fa1b71a9a1cd7dec5e209fa43b152a934d40afad60fc71010ed

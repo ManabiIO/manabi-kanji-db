@@ -1,0 +1,28 @@
+---
+id: visual-u9ce5-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9ce5
+revision: b9e2f147ad551d226f33f159c5a340d0eb5bd154dbf144f55b2c4e929b435267
+localizedRevision: b9e2f147ad551d226f33f159c5a340d0eb5bd154dbf144f55b2c4e929b435267
+status: candidate
+claimText: 鳥 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9cf4
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09cf4-g2; strokes=kvg:09cf4-s10,kvg:09cf4-s11,kvg:09cf4-s12,kvg:09cf4-s13,kvg:09cf4-s14,kvg:09cf4-s4,kvg:09cf4-s5,kvg:09cf4-s6,kvg:09cf4-s7,kvg:09cf4-s8,kvg:09cf4-s9
+- reference: kanjivg-9cf4
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09cf4-g2; strokes=kvg:09cf4-s10,kvg:09cf4-s11,kvg:09cf4-s12,kvg:09cf4-s13,kvg:09cf4-s14,kvg:09cf4-s4,kvg:09cf4-s5,kvg:09cf4-s6,kvg:09cf4-s7,kvg:09cf4-s8,kvg:09cf4-s9
+review:
+  state: pending

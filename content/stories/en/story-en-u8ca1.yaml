@@ -1,0 +1,57 @@
+---
+id: story-en-u8ca1
+kind: mnemonic
+subject:
+  type: character
+  literal: 財
+  codepoint: U+8CA1
+revision: 576ca20c7bcfb4e7e10793e1dc5eca1561c84252c628edf0468ee9372df01ca0
+localizedRevision: 91cb8580d5561b3246c71b36dae158816d627c4dd0715d88d8f7cf5840df4172
+status: candidate
+claimText: With a talent for carving faces into shells, the artist gained enough wealth to buy an island.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='財']/reading_meaning/rmgroup[1]/meaning[3]
+- reference: kanjivg-8ca1
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca1-g1; strokes=kvg:08ca1-s1,kvg:08ca1-s2,kvg:08ca1-s3,kvg:08ca1-s4,kvg:08ca1-s5,kvg:08ca1-s6,kvg:08ca1-s7
+- reference: kanjivg-8ca1
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca1-g4; strokes=kvg:08ca1-s10,kvg:08ca1-s8,kvg:08ca1-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 576ca20c7bcfb4e7e10793e1dc5eca1561c84252c628edf0468ee9372df01ca0
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:df64d14ac2803bb9b400a62ff1d1c6385b9e8f010dea44587d5342ae1d04aa62|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:df64d14ac2803bb9b400a62ff1d1c6385b9e8f010dea44587d5342ae1d04aa62
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='財']/reading_meaning/rmgroup[1]/meaning[3]
+  occurrences:
+  - structure: kv-8ca1
+    occurrence: kvg:08ca1-g1
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  - structure: kv-8ca1
+    occurrence: kvg:08ca1-g4
+    labelClaim: visual-u624d-talent
+    authoredForm: 才
+    crosswalk: null
+  fiction: true
+  textRevision: 91cb8580d5561b3246c71b36dae158816d627c4dd0715d88d8f7cf5840df4172

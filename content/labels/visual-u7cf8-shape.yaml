@@ -1,0 +1,28 @@
+---
+id: visual-u7cf8-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7cf8
+revision: eae17e91d668b29acf3fdf2b61fb46f5a312c08f35d31b6d775e92162863d9c3
+localizedRevision: eae17e91d668b29acf3fdf2b61fb46f5a312c08f35d31b6d775e92162863d9c3
+status: candidate
+claimText: 糸 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7d30
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07d30-g1; strokes=kvg:07d30-s1,kvg:07d30-s2,kvg:07d30-s3,kvg:07d30-s4,kvg:07d30-s5,kvg:07d30-s6
+- reference: kanjivg-7d30
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07d30-g1; strokes=kvg:07d30-s1,kvg:07d30-s2,kvg:07d30-s3,kvg:07d30-s4,kvg:07d30-s5,kvg:07d30-s6
+review:
+  state: pending

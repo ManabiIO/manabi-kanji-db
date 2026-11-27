@@ -1,0 +1,28 @@
+---
+id: visual-u55ac-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u55ac
+revision: 29d9c16ab42ea02811ddef3c304519ee3d9439e206683227fe930984bc8b9a5c
+localizedRevision: 29d9c16ab42ea02811ddef3c304519ee3d9439e206683227fe930984bc8b9a5c
+status: candidate
+claimText: 喬 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6a4b
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06a4b-g2; strokes=kvg:06a4b-s10,kvg:06a4b-s11,kvg:06a4b-s12,kvg:06a4b-s13,kvg:06a4b-s14,kvg:06a4b-s15,kvg:06a4b-s16,kvg:06a4b-s5,kvg:06a4b-s6,kvg:06a4b-s7,kvg:06a4b-s8,kvg:06a4b-s9
+- reference: kanjivg-6a4b
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06a4b-g2; strokes=kvg:06a4b-s10,kvg:06a4b-s11,kvg:06a4b-s12,kvg:06a4b-s13,kvg:06a4b-s14,kvg:06a4b-s15,kvg:06a4b-s16,kvg:06a4b-s5,kvg:06a4b-s6,kvg:06a4b-s7,kvg:06a4b-s8,kvg:06a4b-s9
+review:
+  state: pending

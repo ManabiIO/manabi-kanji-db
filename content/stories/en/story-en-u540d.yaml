@@ -1,0 +1,57 @@
+---
+id: story-en-u540d
+kind: mnemonic
+subject:
+  type: character
+  literal: 名
+  codepoint: U+540D
+revision: fa46761805eb6ff845fc2878e92ff555f6c01372705417349a7e79ba22f58964
+localizedRevision: e135569ca141883978cfb3fd07a6e47d7d8271cf6bf3f81b8eb618a2878a0d70
+status: candidate
+claimText: At evening roll call, a mouth on each lantern called the name of the person carrying it.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='名']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-540d
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0540d-g1; strokes=kvg:0540d-s1,kvg:0540d-s2,kvg:0540d-s3
+- reference: kanjivg-540d
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0540d-g2; strokes=kvg:0540d-s4,kvg:0540d-s5,kvg:0540d-s6
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: fa46761805eb6ff845fc2878e92ff555f6c01372705417349a7e79ba22f58964
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:95574ac3cdfacbde4eca7627564ea855b6cd5fa4acc87a4d6260aa7448372bf9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:95574ac3cdfacbde4eca7627564ea855b6cd5fa4acc87a4d6260aa7448372bf9
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='名']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-540d
+    occurrence: kvg:0540d-g1
+    labelClaim: visual-u5915-evening
+    authoredForm: 夕
+    crosswalk: null
+  - structure: kv-540d
+    occurrence: kvg:0540d-g2
+    labelClaim: visual-u53e3-mouth
+    authoredForm: 口
+    crosswalk: null
+  fiction: true
+  textRevision: e135569ca141883978cfb3fd07a6e47d7d8271cf6bf3f81b8eb618a2878a0d70

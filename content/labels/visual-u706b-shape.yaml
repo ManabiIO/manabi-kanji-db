@@ -1,0 +1,28 @@
+---
+id: visual-u706b-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u706b
+revision: b407540e5b2268ea833982f2316a0be335e6aa5eb75a715a79ee7982e1c1e45f
+localizedRevision: b407540e5b2268ea833982f2316a0be335e6aa5eb75a715a79ee7982e1c1e45f
+status: candidate
+claimText: 火 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7070
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07070-g2; strokes=kvg:07070-s3,kvg:07070-s4,kvg:07070-s5,kvg:07070-s6
+- reference: kanjivg-7070
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07070-g2; strokes=kvg:07070-s3,kvg:07070-s4,kvg:07070-s5,kvg:07070-s6
+review:
+  state: pending

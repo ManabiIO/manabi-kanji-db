@@ -1,0 +1,28 @@
+---
+id: visual-u7389-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7389
+revision: 020d6b552b5201e84d6c891c17a7eb63b74dbdc4325fa248a739cdc2e4aaa63a
+localizedRevision: 020d6b552b5201e84d6c891c17a7eb63b74dbdc4325fa248a739cdc2e4aaa63a
+status: candidate
+claimText: 玉 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5b9d
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05b9d-g3; strokes=kvg:05b9d-s4,kvg:05b9d-s5,kvg:05b9d-s6,kvg:05b9d-s7,kvg:05b9d-s8
+- reference: kanjivg-5b9d
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05b9d-g3; strokes=kvg:05b9d-s4,kvg:05b9d-s5,kvg:05b9d-s6,kvg:05b9d-s7,kvg:05b9d-s8
+review:
+  state: pending

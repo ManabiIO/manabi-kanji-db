@@ -1,0 +1,57 @@
+---
+id: story-en-u6d17
+kind: mnemonic
+subject:
+  type: character
+  literal: 洗
+  codepoint: U+6D17
+revision: 80af72245a2eeaefeee4d1a79a27e93e26330459e31026f9ffe39dca64ce16b1
+localizedRevision: 3cc6c61b0f834a23bcc9da363596899d3090e524fb1860b0bf9dbff4f30db6ef
+status: candidate
+claimText: The camp cook turned on the water and asked the children to wash their muddy hands first.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='洗']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6d17
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06d17-g1; strokes=kvg:06d17-s1,kvg:06d17-s2,kvg:06d17-s3
+- reference: kanjivg-6d17
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06d17-g2; strokes=kvg:06d17-s4,kvg:06d17-s5,kvg:06d17-s6,kvg:06d17-s7,kvg:06d17-s8,kvg:06d17-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 80af72245a2eeaefeee4d1a79a27e93e26330459e31026f9ffe39dca64ce16b1
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d190f3efed34da1ad8e5879665777bbe72b0468ec1d74a528f2ae56d5d3d6312|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d190f3efed34da1ad8e5879665777bbe72b0468ec1d74a528f2ae56d5d3d6312
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='洗']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6d17
+    occurrence: kvg:06d17-g1
+    labelClaim: visual-u6c35-water
+    authoredForm: 氵
+    crosswalk: null
+  - structure: kv-6d17
+    occurrence: kvg:06d17-g2
+    labelClaim: visual-u5148-first
+    authoredForm: 先
+    crosswalk: null
+  fiction: true
+  textRevision: 3cc6c61b0f834a23bcc9da363596899d3090e524fb1860b0bf9dbff4f30db6ef

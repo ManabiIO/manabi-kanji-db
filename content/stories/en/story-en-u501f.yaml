@@ -1,0 +1,57 @@
+---
+id: story-en-u501f
+kind: mnemonic
+subject:
+  type: character
+  literal: 借
+  codepoint: U+501F
+revision: 233f753b256797ccf4b1fa03ed3796490c07f6c322c6575e2c4a4608595998d5
+localizedRevision: de52f8866733a678a76db82a8cc5c32694a388f86ba2580a89d3d974b0af95a7
+status: candidate
+claimText: A traveler from long ago stepped out of a photograph to borrow my umbrella.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='借']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-501f
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0501f-g1; strokes=kvg:0501f-s1,kvg:0501f-s2
+- reference: kanjivg-501f
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0501f-g2; strokes=kvg:0501f-s10,kvg:0501f-s3,kvg:0501f-s4,kvg:0501f-s5,kvg:0501f-s6,kvg:0501f-s7,kvg:0501f-s8,kvg:0501f-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 233f753b256797ccf4b1fa03ed3796490c07f6c322c6575e2c4a4608595998d5
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cc0e0e7ec6ad894609eaa3e78c62857dac73c00cff07b51d576d1348006a1f44|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cc0e0e7ec6ad894609eaa3e78c62857dac73c00cff07b51d576d1348006a1f44
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='借']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-501f
+    occurrence: kvg:0501f-g1
+    labelClaim: visual-u4ebb-person
+    authoredForm: 亻
+    crosswalk: null
+  - structure: kv-501f
+    occurrence: kvg:0501f-g2
+    labelClaim: visual-u6614-long-ago
+    authoredForm: 昔
+    crosswalk: null
+  fiction: true
+  textRevision: de52f8866733a678a76db82a8cc5c32694a388f86ba2580a89d3d974b0af95a7

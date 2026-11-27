@@ -1,0 +1,58 @@
+---
+id: story-en-u8a8d
+kind: mnemonic
+subject:
+  type: character
+  literal: 認
+  codepoint: U+8A8D
+revision: 7993fdff30d78cde3abffb822fbfefe838e4b3d76e26f1b79c0057d07d48f365
+localizedRevision: 38d94fad18328cb0898b9f74cbd88446df3a266ca3b07c3a5b3db4504f097f4b
+status: candidate
+claimText: After enduring an hour of speeches, a boy perked up when he began to recognize words from his grandmother's
+  lullaby.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='認']/reading_meaning/rmgroup[1]/meaning[4]
+- reference: kanjivg-8a8d
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08a8d-g1; strokes=kvg:08a8d-s1,kvg:08a8d-s2,kvg:08a8d-s3,kvg:08a8d-s4,kvg:08a8d-s5,kvg:08a8d-s6,kvg:08a8d-s7
+- reference: kanjivg-8a8d
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08a8d-g3; strokes=kvg:08a8d-s10,kvg:08a8d-s11,kvg:08a8d-s12,kvg:08a8d-s13,kvg:08a8d-s14,kvg:08a8d-s8,kvg:08a8d-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 7993fdff30d78cde3abffb822fbfefe838e4b3d76e26f1b79c0057d07d48f365
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1713400facb1e573d23b47c5d493066e0df2e598aaf13f41e15adc94ba46ad58|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1713400facb1e573d23b47c5d493066e0df2e598aaf13f41e15adc94ba46ad58
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='認']/reading_meaning/rmgroup[1]/meaning[4]
+  occurrences:
+  - structure: kv-8a8d
+    occurrence: kvg:08a8d-g1
+    labelClaim: visual-u8a00-word
+    authoredForm: 言
+    crosswalk: null
+  - structure: kv-8a8d
+    occurrence: kvg:08a8d-g3
+    labelClaim: visual-u5fcd-endure
+    authoredForm: 忍
+    crosswalk: null
+  fiction: true
+  textRevision: 38d94fad18328cb0898b9f74cbd88446df3a266ca3b07c3a5b3db4504f097f4b

@@ -1,0 +1,58 @@
+---
+id: story-en-u66dc
+kind: mnemonic
+subject:
+  type: character
+  literal: 曜
+  codepoint: U+66DC
+revision: d02a695e2685875b00c1304dcd0108854bb5e89e4606c036f716904e4f035862
+localizedRevision: 7f1a1c30068fa7881d30d0068e2c53db4cd0fde6e485b0e2360be7756ae1775b
+status: candidate
+claimText: A pheasant circled the sun once for each day—Monday, Tuesday, Wednesday, Thursday, Friday, Saturday,
+  and Sunday—so the village could count the full week.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanji-alive-meaning-u8a18
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: ka_data.csv[kanji='曜']/kmeaning
+- reference: kanjivg-66dc
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:066dc-g1; strokes=kvg:066dc-s1,kvg:066dc-s2,kvg:066dc-s3,kvg:066dc-s4
+- reference: kanjivg-66dc
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:066dc-g2; strokes=kvg:066dc-s10,kvg:066dc-s11,kvg:066dc-s12,kvg:066dc-s13,kvg:066dc-s14,kvg:066dc-s15,kvg:066dc-s16,kvg:066dc-s17,kvg:066dc-s18,kvg:066dc-s5,kvg:066dc-s6,kvg:066dc-s7,kvg:066dc-s8,kvg:066dc-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: d02a695e2685875b00c1304dcd0108854bb5e89e4606c036f716904e4f035862
+  sourceRevision: kanji-alive-scoped-kmeaning:966def0104648e83c3f95538c414c4862cba1bbf:7b463876a0837bfb1f754a4e1bec43617b62f92b9839bbdf060d6ad0d8dbaf65|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ada763c6685e1e685c7f532a000e171335e4146c16f746d40c2de7b72ede7d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ada763c6685e1e685c7f532a000e171335e4146c16f746d40c2de7b72ede7d
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanji-alive-meaning-u8a18
+  targetSelector: ka_data.csv[kanji='曜']/kmeaning
+  occurrences:
+  - structure: kv-66dc
+    occurrence: kvg:066dc-g1
+    labelClaim: visual-u65e5-sun
+    authoredForm: 日
+    crosswalk: null
+  - structure: kv-66dc
+    occurrence: kvg:066dc-g2
+    labelClaim: visual-u7fdf-pheasant
+    authoredForm: 翟
+    crosswalk: null
+  fiction: true
+  textRevision: 7f1a1c30068fa7881d30d0068e2c53db4cd0fde6e485b0e2360be7756ae1775b

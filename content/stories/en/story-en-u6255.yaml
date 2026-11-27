@@ -1,0 +1,57 @@
+---
+id: story-en-u6255
+kind: mnemonic
+subject:
+  type: character
+  literal: 払
+  codepoint: U+6255
+revision: d87b361d65d461e730f61d96ca5e5e9864ceb1dc50fe2e098e2793f5547d0655
+localizedRevision: 2518eb353fa5983dfa87320bf3a05b427605b6e78d493c1bfdcb76a7efc5b35b
+status: candidate
+claimText: A customer put her hand through a private booth's curtain to pay for a secret fortune.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='払']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6255
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06255-g1; strokes=kvg:06255-s1,kvg:06255-s2,kvg:06255-s3
+- reference: kanjivg-6255
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06255-g2; strokes=kvg:06255-s4,kvg:06255-s5
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: d87b361d65d461e730f61d96ca5e5e9864ceb1dc50fe2e098e2793f5547d0655
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3dd362b06e9af798535f97958ec8cfef2c07a50ee481e2ab9a0572c4ce278d59|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3dd362b06e9af798535f97958ec8cfef2c07a50ee481e2ab9a0572c4ce278d59
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='払']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6255
+    occurrence: kvg:06255-g1
+    labelClaim: visual-u624c-hand
+    authoredForm: 扌
+    crosswalk: null
+  - structure: kv-6255
+    occurrence: kvg:06255-g2
+    labelClaim: visual-u53b6-private
+    authoredForm: 厶
+    crosswalk: null
+  fiction: true
+  textRevision: 2518eb353fa5983dfa87320bf3a05b427605b6e78d493c1bfdcb76a7efc5b35b

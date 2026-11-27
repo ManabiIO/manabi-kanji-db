@@ -1,0 +1,57 @@
+---
+id: story-en-u99d2
+kind: mnemonic
+subject:
+  type: character
+  literal: 駒
+  codepoint: U+99D2
+revision: 4ba1059d4538cd95a5c1d0b73535153778a592ec3f6fb54d7f44b6d6a425a610
+localizedRevision: c50abec4fa45e66a124db5e6c0369d51957a022272d7b5e64c68e2d6d3b82059
+status: candidate
+claimText: The horse played a musical phrase on the piano each time the pony tapped its hoof.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='駒']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-99d2
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:099d2-g1; strokes=kvg:099d2-s1,kvg:099d2-s10,kvg:099d2-s2,kvg:099d2-s3,kvg:099d2-s4,kvg:099d2-s5,kvg:099d2-s6,kvg:099d2-s7,kvg:099d2-s8,kvg:099d2-s9
+- reference: kanjivg-99d2
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:099d2-g3; strokes=kvg:099d2-s11,kvg:099d2-s12,kvg:099d2-s13,kvg:099d2-s14,kvg:099d2-s15
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 4ba1059d4538cd95a5c1d0b73535153778a592ec3f6fb54d7f44b6d6a425a610
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:869eb117042eaa3fb801654d2ad43e0f805b0d421ef2ef83756009925f33f0f8|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:869eb117042eaa3fb801654d2ad43e0f805b0d421ef2ef83756009925f33f0f8
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='駒']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-99d2
+    occurrence: kvg:099d2-g1
+    labelClaim: visual-u99ac-horse
+    authoredForm: 馬
+    crosswalk: null
+  - structure: kv-99d2
+    occurrence: kvg:099d2-g3
+    labelClaim: visual-u53e5-phrase
+    authoredForm: 句
+    crosswalk: null
+  fiction: true
+  textRevision: c50abec4fa45e66a124db5e6c0369d51957a022272d7b5e64c68e2d6d3b82059

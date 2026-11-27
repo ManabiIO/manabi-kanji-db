@@ -1,0 +1,28 @@
+---
+id: visual-u65a4-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u65a4
+revision: 7872eb18687510f025ac4bc50b8adda58bf361064c28f4d8f5957416be6fc404
+localizedRevision: 7872eb18687510f025ac4bc50b8adda58bf361064c28f4d8f5957416be6fc404
+status: candidate
+claimText: 斤 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6790
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06790-g2; strokes=kvg:06790-s5,kvg:06790-s6,kvg:06790-s7,kvg:06790-s8
+- reference: kanjivg-6790
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06790-g2; strokes=kvg:06790-s5,kvg:06790-s6,kvg:06790-s7,kvg:06790-s8
+review:
+  state: pending

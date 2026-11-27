@@ -1,0 +1,28 @@
+---
+id: visual-u5315-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5315
+revision: 647687f571cb2e102cee88b3b1a28e6b07d735a3a68ca573e689122f32a2ea07
+localizedRevision: 647687f571cb2e102cee88b3b1a28e6b07d735a3a68ca573e689122f32a2ea07
+status: candidate
+claimText: 匕 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5316
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05316-g2; strokes=kvg:05316-s3,kvg:05316-s4
+- reference: kanjivg-5316
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05316-g2; strokes=kvg:05316-s3,kvg:05316-s4
+review:
+  state: pending

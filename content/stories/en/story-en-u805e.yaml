@@ -1,0 +1,57 @@
+---
+id: story-en-u805e
+kind: mnemonic
+subject:
+  type: character
+  literal: 聞
+  codepoint: U+805E
+revision: b01985fea839e41b3323e467dc89ac1f5c3785446de9ab86ac2a81c0387dad51
+localizedRevision: b3d37d1843c7c1eaee20506d74d15b8a0c72222b5368f02433331f4db9ad7f5d
+status: candidate
+claimText: A girl pressed her ear against the gate to hear the orchestra rehearsing inside.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='聞']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-805e
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0805e-g1; strokes=kvg:0805e-s1,kvg:0805e-s2,kvg:0805e-s3,kvg:0805e-s4,kvg:0805e-s5,kvg:0805e-s6,kvg:0805e-s7,kvg:0805e-s8
+- reference: kanjivg-805e
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0805e-g4; strokes=kvg:0805e-s10,kvg:0805e-s11,kvg:0805e-s12,kvg:0805e-s13,kvg:0805e-s14,kvg:0805e-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: b01985fea839e41b3323e467dc89ac1f5c3785446de9ab86ac2a81c0387dad51
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:57845cec420c337f86522e2b4a7284a5cd8c10796254f7f161d0a6453fc413df|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:57845cec420c337f86522e2b4a7284a5cd8c10796254f7f161d0a6453fc413df
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='聞']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-805e
+    occurrence: kvg:0805e-g1
+    labelClaim: visual-u9580-gate
+    authoredForm: 門
+    crosswalk: null
+  - structure: kv-805e
+    occurrence: kvg:0805e-g4
+    labelClaim: visual-u8033-ear
+    authoredForm: 耳
+    crosswalk: null
+  fiction: true
+  textRevision: b3d37d1843c7c1eaee20506d74d15b8a0c72222b5368f02433331f4db9ad7f5d

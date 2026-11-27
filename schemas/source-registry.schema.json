@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ManabiIO/manabi-kanji-db/blob/main/schemas/source-registry.schema.json",
+  "title": "Manabi Kanji DB source and exact reference registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "sources", "references"],
+  "properties": {
+    "version": {"const": 1},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "references": {"type": "array", "items": {"$ref": "#/$defs/reference"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:[-.][a-z0-9]+)*$"},
+    "https": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "author", "project", "url", "license", "licenseVersion", "licenseEvidenceURL", "scope", "attribution", "modifications", "sourceLanguage", "upstream", "revision", "acquisitionMethod", "retrievedAt"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "author": {"type": "string", "minLength": 1},
+        "project": {"type": "string", "minLength": 1}, "url": {"$ref": "#/$defs/https"},
+        "license": {"type": "string", "minLength": 1}, "licenseVersion": {"type": "string", "minLength": 1},
+        "licenseEvidenceURL": {"$ref": "#/$defs/https"}, "scope": {"type": "string", "minLength": 1},
+        "attribution": {"type": "string", "minLength": 1}, "modifications": {"type": "string", "minLength": 1},
+        "sourceLanguage": {"type": "string", "pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9-]+)?$"},
+        "upstream": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "revision": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha256"},
+        "acquisitionMethod": {"type": "string", "minLength": 1}, "retrievedAt": {"type": "string", "format": "date-time"}
+      }
+    },
+    "reference": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source", "url", "externalId", "locator", "revision", "snapshotHash", "retrievedAt", "supports"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "source": {"$ref": "#/$defs/id"},
+        "url": {"$ref": "#/$defs/https"}, "externalId": {"type": "string", "minLength": 1},
+        "locator": {"type": "string", "minLength": 1}, "revision": {"type": "string", "minLength": 1},
+        "snapshotHash": {"$ref": "#/$defs/sha256"}, "retrievedAt": {"type": "string", "format": "date-time"},
+        "supports": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    }
+  }
+}

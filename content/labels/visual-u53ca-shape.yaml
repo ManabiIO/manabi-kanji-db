@@ -1,0 +1,28 @@
+---
+id: visual-u53ca-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u53ca
+revision: f6accdfea64ba74c71fa48fa2a29119cd45630350d6df6e90e04d186d760ef07
+localizedRevision: f6accdfea64ba74c71fa48fa2a29119cd45630350d6df6e90e04d186d760ef07
+status: candidate
+claimText: 及 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7d1a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07d1a-g2; strokes=kvg:07d1a-s7,kvg:07d1a-s8,kvg:07d1a-s9
+- reference: kanjivg-7d1a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07d1a-g2; strokes=kvg:07d1a-s7,kvg:07d1a-s8,kvg:07d1a-s9
+review:
+  state: pending

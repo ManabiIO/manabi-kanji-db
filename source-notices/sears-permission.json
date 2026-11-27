@@ -1,0 +1,26 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 1907855,
+        "ns": 4,
+        "title": "Commons:Ancient Chinese characters/Richard Sears Agreement",
+        "revisions": [
+          {
+            "revid": 560294416,
+            "parentid": 460418833,
+            "timestamp": "2021-05-14T08:28:50Z",
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "content": "{{PermissionTicket|id=2007040410013753}}\n{| class=\"wikitable\"\n|\nFrom: [[user:Micheletb|Micheletb]]\n<br>To: searsrichard@msn.com\n<br>CC: permissions-commons@wikimedia.org\n<br>Subject: Image copy on Wikipedia\n<br>Date: Wed, 04 Apr 2007 08:37:17 +0200\n\nHello Richard,\n\nI have been copying some images from your site http://www.internationalscientific.org/ for nearly a year, since you mailed me the authorisation to do so. The images uploaded so far are classified in the following categories:\n\n*http://commons.wikimedia.org/wiki/Category:Seal_script_GIFs \n*http://commons.wikimedia.org/wiki/Category:Great_seal_script_GIFs \n*http://commons.wikimedia.org/wiki/Category:Bronze_script_GIFs \n*http://commons.wikimedia.org/wiki/Category:Oracle_script_GIFs \nSome images previously uploaded have been deleted, after the creation of a .svg equivalent. These equivalents (vector versions) are classified here:\n*http://commons.wikimedia.org/wiki/Category:Seal_script \n*http://commons.wikimedia.org/wiki/Category:Great_seal_script \n*http://commons.wikimedia.org/wiki/Category:Bronze_script \n*http://commons.wikimedia.org/wiki/Category:Oracle_script \nMy questions are:\n\n(1) These images have been systematically placed under the GPL licence (http://en.wikipedia.org/wiki/GNU_General_Public_License), can you officially confirm to Wikipedia (by sending a copy of your answer to permissions-commons@wikimedia.org, cf the mailing list) that this is OK for you?\n\n(2) When a .svg equivalent is made, do you request that some kind of acknowledgement be made to the .gif model that has been used?\n\nThanks in advance for your answers. —[[user:Micheletb|Micheletb]]\n|}\n→ He answered positively, required acknowledgement for .svg pictures, and sent a copy at \"'permissions-commons(at)wikimedia.etc'\" on (mer. 04/04/2007 18:33).\n\n:Please note: the images themselves are in the public domain and therefore not subject to the terms of the GPL.  However, the GPL does apply to the database schema and Sears's methods of organizing the images.  Additionally, as Sears has gone to a great deal of trouble to convert these ancient images into GIFs and is releasing his work under a free license, we should comply with his requests as faithfully as we can. - [[User:Jredmond|Jredmond]] ([[User talk:Jredmond|<span class=\"signature-talk\">talk</span>]]) 17:44, 23 January 2009 (UTC)\n\n=== References ===\n\n::Richard Sear's answer to my question \"''where do the pictures come from? with respect to the wikipedian criterium of \"verifiability\" (http://en.wikipedia.org/wiki/Wikipedia:Verifiability), my reference in the wikipedian world is simply \"because Richard Sears says so\", and there is no serious reason to doubt it of course, but still I guess some details on the sources you used would be welcome (and increase your credibility as a reliable source).''\" - His answer [Date: 21/04/2011 23:10:44] has been :\n\n{| class=\"wikitable\"\n|\n''The sources you ask for are :\n* ''ShuoWenJieZi 說文解字 The earliest complete 987 copy by XuXuan 徐鉉. My main seal character database comes from the 11109 clearly printed characters found in this version of the ShuoWen.\n* ''LioShuTong 六書通 A Ming Dynasty collection of non standard seal type characters. My extended database of seal characters takes 38,596 characters from this source.\n* ''JinWenBian 金文编 by RungGeng 容庚. Used for my database of 24,223 bronze characters. This is the most accurate book of character samples from the bronze artifacts.\n* ''XuJaGuWenBian 續甲骨文编 by JinXiangHeng 金祥恒. My database of 31,876 oracle characters is taken from this reference.\n\n''I am trying to find volunteers to go through my data and correct errors.\nI have the work broken into small pieces which should take 2 or 3 days each.\nI am also looking for the best input method editor for Chinese Extension B, C, D and a font for C and D.\nI would like to find some volunteers to fill in the extension B characters. — Richard Sears\n|}"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

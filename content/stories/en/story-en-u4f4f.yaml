@@ -1,0 +1,57 @@
+---
+id: story-en-u4f4f
+kind: mnemonic
+subject:
+  type: character
+  literal: 住
+  codepoint: U+4F4F
+revision: 7c5cefb9de9dd53de69384ad6d45bcb1e328c6a82739f90ec552ed501f109936
+localizedRevision: d2d9ff1f8a64796f7825dc32b5c293c6b30ba2119d133b2f1c911631afe9bdc5
+status: candidate
+claimText: A person asked the lord of the castle for permission to dwell in its abandoned bell tower.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='住']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-4f4f
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:04f4f-g1; strokes=kvg:04f4f-s1,kvg:04f4f-s2
+- reference: kanjivg-4f4f
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:04f4f-g2; strokes=kvg:04f4f-s3,kvg:04f4f-s4,kvg:04f4f-s5,kvg:04f4f-s6,kvg:04f4f-s7
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 7c5cefb9de9dd53de69384ad6d45bcb1e328c6a82739f90ec552ed501f109936
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d8d64e79830d95d1a09bd3bfffbcf08c31899b0ba99d815fb55b2332742d28ed|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d8d64e79830d95d1a09bd3bfffbcf08c31899b0ba99d815fb55b2332742d28ed
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='住']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-4f4f
+    occurrence: kvg:04f4f-g1
+    labelClaim: visual-u4ebb-person
+    authoredForm: 亻
+    crosswalk: null
+  - structure: kv-4f4f
+    occurrence: kvg:04f4f-g2
+    labelClaim: visual-u4e3b-lord
+    authoredForm: 主
+    crosswalk: null
+  fiction: true
+  textRevision: d2d9ff1f8a64796f7825dc32b5c293c6b30ba2119d133b2f1c911631afe9bdc5

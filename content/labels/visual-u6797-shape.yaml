@@ -1,0 +1,28 @@
+---
+id: visual-u6797-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u6797
+revision: f3bbd43f5d1be158e63c9ef4fb22c7922c54fd2e0311150c09ce8bc08fb1ea01
+localizedRevision: f3bbd43f5d1be158e63c9ef4fb22c7922c54fd2e0311150c09ce8bc08fb1ea01
+status: candidate
+claimText: 林 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-68ee
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:068ee-g2; strokes=kvg:068ee-s10,kvg:068ee-s11,kvg:068ee-s12,kvg:068ee-s5,kvg:068ee-s6,kvg:068ee-s7,kvg:068ee-s8,kvg:068ee-s9
+- reference: kanjivg-68ee
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:068ee-g2; strokes=kvg:068ee-s10,kvg:068ee-s11,kvg:068ee-s12,kvg:068ee-s5,kvg:068ee-s6,kvg:068ee-s7,kvg:068ee-s8,kvg:068ee-s9
+review:
+  state: pending

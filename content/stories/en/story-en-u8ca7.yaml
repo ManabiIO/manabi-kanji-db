@@ -1,0 +1,57 @@
+---
+id: story-en-u8ca7
+kind: mnemonic
+subject:
+  type: character
+  literal: 貧
+  codepoint: U+8CA7
+revision: 035ad9c13795845e8c7e20f72848117cfad09798136573e751f806594baaa3b6
+localizedRevision: 7d07d5ebf1f7e15d26b7d13a54fbe415017cbe4911e8b8ffe207f90c77973874
+status: candidate
+claimText: After the captain divided the shells among the crew, the poor cabin boy finally had enough to buy shoes.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='貧']/reading_meaning/rmgroup[1]/meaning[2]
+- reference: kanjivg-8ca7
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca7-g1; strokes=kvg:08ca7-s1,kvg:08ca7-s2,kvg:08ca7-s3,kvg:08ca7-s4
+- reference: kanjivg-8ca7
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca7-g4; strokes=kvg:08ca7-s10,kvg:08ca7-s11,kvg:08ca7-s5,kvg:08ca7-s6,kvg:08ca7-s7,kvg:08ca7-s8,kvg:08ca7-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 035ad9c13795845e8c7e20f72848117cfad09798136573e751f806594baaa3b6
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cd822b2fc99966ffa1da4ac3c015ec52e018934b4dde0c1fc035e9dcaef5e528|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cd822b2fc99966ffa1da4ac3c015ec52e018934b4dde0c1fc035e9dcaef5e528
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='貧']/reading_meaning/rmgroup[1]/meaning[2]
+  occurrences:
+  - structure: kv-8ca7
+    occurrence: kvg:08ca7-g1
+    labelClaim: visual-u5206-divide
+    authoredForm: 分
+    crosswalk: null
+  - structure: kv-8ca7
+    occurrence: kvg:08ca7-g4
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  fiction: true
+  textRevision: 7d07d5ebf1f7e15d26b7d13a54fbe415017cbe4911e8b8ffe207f90c77973874

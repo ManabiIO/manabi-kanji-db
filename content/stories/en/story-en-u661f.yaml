@@ -1,0 +1,57 @@
+---
+id: story-en-u661f
+kind: mnemonic
+subject:
+  type: character
+  literal: 星
+  codepoint: U+661F
+revision: d6087c6ece6c6984668e8722d3c59a6276688c7e0c1d5f1d0885fe3d2e785e64
+localizedRevision: 22d7333e3b328b7559573242dd24cc838817027e4d8577661e70f00107c746b1
+status: candidate
+claimText: A tiny star was born inside the sun and rolled out through a sunspot.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='星']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-661f
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0661f-g1; strokes=kvg:0661f-s1,kvg:0661f-s2,kvg:0661f-s3,kvg:0661f-s4
+- reference: kanjivg-661f
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0661f-g2; strokes=kvg:0661f-s5,kvg:0661f-s6,kvg:0661f-s7,kvg:0661f-s8,kvg:0661f-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: d6087c6ece6c6984668e8722d3c59a6276688c7e0c1d5f1d0885fe3d2e785e64
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:27d5024cc4329253d6a354b82af86601e968cd5d08c3fcb24aab2e4c8c147fe9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:27d5024cc4329253d6a354b82af86601e968cd5d08c3fcb24aab2e4c8c147fe9
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='星']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-661f
+    occurrence: kvg:0661f-g1
+    labelClaim: visual-u65e5-sun
+    authoredForm: 日
+    crosswalk: null
+  - structure: kv-661f
+    occurrence: kvg:0661f-g2
+    labelClaim: visual-u751f-born
+    authoredForm: 生
+    crosswalk: null
+  fiction: true
+  textRevision: 22d7333e3b328b7559573242dd24cc838817027e4d8577661e70f00107c746b1

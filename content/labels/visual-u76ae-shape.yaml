@@ -1,0 +1,28 @@
+---
+id: visual-u76ae-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u76ae
+revision: ffb1fda41480fd29f3451daef8952f556b42ea9c93119f6d55606597fc0addf1
+localizedRevision: ffb1fda41480fd29f3451daef8952f556b42ea9c93119f6d55606597fc0addf1
+status: candidate
+claimText: 皮 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6ce2
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06ce2-g2; strokes=kvg:06ce2-s4,kvg:06ce2-s5,kvg:06ce2-s6,kvg:06ce2-s7,kvg:06ce2-s8
+- reference: kanjivg-6ce2
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06ce2-g2; strokes=kvg:06ce2-s4,kvg:06ce2-s5,kvg:06ce2-s6,kvg:06ce2-s7,kvg:06ce2-s8
+review:
+  state: pending

@@ -1,0 +1,28 @@
+---
+id: visual-u679c-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u679c
+revision: f8f683295caef271483513d189f4758f62b0a3732aa6f875c1fb9d89dc4ac266
+localizedRevision: f8f683295caef271483513d189f4758f62b0a3732aa6f875c1fb9d89dc4ac266
+status: candidate
+claimText: 果 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8ab2
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08ab2-g3; strokes=kvg:08ab2-s10,kvg:08ab2-s11,kvg:08ab2-s12,kvg:08ab2-s13,kvg:08ab2-s14,kvg:08ab2-s15,kvg:08ab2-s8,kvg:08ab2-s9
+- reference: kanjivg-8ab2
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08ab2-g3; strokes=kvg:08ab2-s10,kvg:08ab2-s11,kvg:08ab2-s12,kvg:08ab2-s13,kvg:08ab2-s14,kvg:08ab2-s15,kvg:08ab2-s8,kvg:08ab2-s9
+review:
+  state: pending

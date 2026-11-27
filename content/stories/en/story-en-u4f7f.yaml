@@ -1,0 +1,57 @@
+---
+id: story-en-u4f7f
+kind: mnemonic
+subject:
+  type: character
+  literal: 使
+  codepoint: U+4F7F
+revision: 25b6aa4f40113f850203844359b0d90fe3920f934aa233a2549d34abf2d9f12e
+localizedRevision: 53d17b36ab292215264ee082a6590cc2a28e68d12138f8117598598083e0c51c
+status: candidate
+claimText: At customs, a traveler had to use a silver whistle to call the officer down from his tower.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='使']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-4f7f
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:04f7f-g1; strokes=kvg:04f7f-s1,kvg:04f7f-s2
+- reference: kanjivg-4f7f
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:04f7f-g2; strokes=kvg:04f7f-s3,kvg:04f7f-s4,kvg:04f7f-s5,kvg:04f7f-s6,kvg:04f7f-s7,kvg:04f7f-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 25b6aa4f40113f850203844359b0d90fe3920f934aa233a2549d34abf2d9f12e
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b8cb4df515c6257c1a43810d09acfa8dd0797dd353bba9ae8c9fb94759a46c33|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b8cb4df515c6257c1a43810d09acfa8dd0797dd353bba9ae8c9fb94759a46c33
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='使']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-4f7f
+    occurrence: kvg:04f7f-g1
+    labelClaim: visual-u4ebb-person
+    authoredForm: 亻
+    crosswalk: null
+  - structure: kv-4f7f
+    occurrence: kvg:04f7f-g2
+    labelClaim: visual-u540f-officer
+    authoredForm: 吏
+    crosswalk: null
+  fiction: true
+  textRevision: 53d17b36ab292215264ee082a6590cc2a28e68d12138f8117598598083e0c51c

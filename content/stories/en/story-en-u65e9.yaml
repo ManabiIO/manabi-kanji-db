@@ -1,0 +1,57 @@
+---
+id: story-en-u65e9
+kind: mnemonic
+subject:
+  type: character
+  literal: 早
+  codepoint: U+65E9
+revision: 5b58f91efe66b1815474b608e1c1c3d383e5231160e7dfc7840ce93043055785
+localizedRevision: 7d4ca2fc9bac2ebfcc7e4b53c639a326c5c2431649fe27113795837042091d16
+status: candidate
+claimText: The sun rose ten minutes early so it could watch the balloon race.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='早']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-65e9
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:065e9-g1; strokes=kvg:065e9-s1,kvg:065e9-s2,kvg:065e9-s3,kvg:065e9-s4
+- reference: kanjivg-65e9
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:065e9-g2; strokes=kvg:065e9-s5,kvg:065e9-s6
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 5b58f91efe66b1815474b608e1c1c3d383e5231160e7dfc7840ce93043055785
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:99752be82384cff050b13096f9e4633018749bcf757e4350b2f1bdca93055cf5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:99752be82384cff050b13096f9e4633018749bcf757e4350b2f1bdca93055cf5
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='早']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-65e9
+    occurrence: kvg:065e9-g1
+    labelClaim: visual-u65e5-sun
+    authoredForm: 日
+    crosswalk: null
+  - structure: kv-65e9
+    occurrence: kvg:065e9-g2
+    labelClaim: visual-u5341-ten
+    authoredForm: 十
+    crosswalk: null
+  fiction: true
+  textRevision: 7d4ca2fc9bac2ebfcc7e4b53c639a326c5c2431649fe27113795837042091d16

@@ -1,0 +1,57 @@
+---
+id: story-en-u7537
+kind: mnemonic
+subject:
+  type: character
+  literal: 男
+  codepoint: U+7537
+revision: 0cddde797abe2bb87e1ce7c4a98b17ffd4e8d2dbafc8d204bdc94cf233b1ce03
+localizedRevision: 66f4ae15bf0cc70a31d8001df55a49d9b68ba0b3f87f9733e4b40788488e2d2c
+status: candidate
+claimText: At the fair, a male ox showed its strength by pulling a plow straight across the rice field.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='男']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-7537
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:07537-g1; strokes=kvg:07537-s1,kvg:07537-s2,kvg:07537-s3,kvg:07537-s4,kvg:07537-s5
+- reference: kanjivg-7537
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:07537-g2; strokes=kvg:07537-s6,kvg:07537-s7
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 0cddde797abe2bb87e1ce7c4a98b17ffd4e8d2dbafc8d204bdc94cf233b1ce03
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d817d29345fa070ce0d17e0533f8bb0b472a87c7053c46898f99e2875a220d50|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d817d29345fa070ce0d17e0533f8bb0b472a87c7053c46898f99e2875a220d50
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='男']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-7537
+    occurrence: kvg:07537-g1
+    labelClaim: visual-u7530-rice-field
+    authoredForm: 田
+    crosswalk: null
+  - structure: kv-7537
+    occurrence: kvg:07537-g2
+    labelClaim: visual-u529b-strength
+    authoredForm: 力
+    crosswalk: null
+  fiction: true
+  textRevision: 66f4ae15bf0cc70a31d8001df55a49d9b68ba0b3f87f9733e4b40788488e2d2c

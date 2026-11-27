@@ -1,0 +1,28 @@
+---
+id: visual-u8eca-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u8eca
+revision: 6bf7bd1e94e887338de5b39cb5c3a5c1fa8a0963f161b2d2ee6b1ee4e0b23935
+localizedRevision: 6bf7bd1e94e887338de5b39cb5c3a5c1fa8a0963f161b2d2ee6b1ee4e0b23935
+status: candidate
+claimText: 車 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5eab
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05eab-g3; strokes=kvg:05eab-s10,kvg:05eab-s4,kvg:05eab-s5,kvg:05eab-s6,kvg:05eab-s7,kvg:05eab-s8,kvg:05eab-s9
+- reference: kanjivg-5eab
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05eab-g3; strokes=kvg:05eab-s10,kvg:05eab-s4,kvg:05eab-s5,kvg:05eab-s6,kvg:05eab-s7,kvg:05eab-s8,kvg:05eab-s9
+review:
+  state: pending

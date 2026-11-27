@@ -1,0 +1,57 @@
+---
+id: story-en-u62db
+kind: mnemonic
+subject:
+  type: character
+  literal: 招
+  codepoint: U+62DB
+revision: ed7bb9947f532b36af8be18912f857119670f59c6a22b880c2d42b781608cf30
+localizedRevision: cccd568a222664b1c334d08802f94909b8fa17995f9ba4a6296702f3f33ba506
+status: candidate
+claimText: A queen summoned her jester by using one hand to beckon him out of a painting.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='招']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-62db
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:062db-g1; strokes=kvg:062db-s1,kvg:062db-s2,kvg:062db-s3
+- reference: kanjivg-62db
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:062db-g2; strokes=kvg:062db-s4,kvg:062db-s5,kvg:062db-s6,kvg:062db-s7,kvg:062db-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: ed7bb9947f532b36af8be18912f857119670f59c6a22b880c2d42b781608cf30
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:deba046c7d3984f6f3ffa29b15f9f5989be68ed7b426f8bbfcfec3cd4145cf9c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:deba046c7d3984f6f3ffa29b15f9f5989be68ed7b426f8bbfcfec3cd4145cf9c
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='招']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-62db
+    occurrence: kvg:062db-g1
+    labelClaim: visual-u624c-hand
+    authoredForm: 扌
+    crosswalk: null
+  - structure: kv-62db
+    occurrence: kvg:062db-g2
+    labelClaim: visual-u53ec-summon
+    authoredForm: 召
+    crosswalk: null
+  fiction: true
+  textRevision: cccd568a222664b1c334d08802f94909b8fa17995f9ba4a6296702f3f33ba506

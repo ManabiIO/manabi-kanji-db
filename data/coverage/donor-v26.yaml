@@ -1,0 +1,63 @@
+---
+schemaVersion: 1
+source: ManabiDictionaries KanjiExplanation reviewed.json v26
+sourceRevision: 1f6357d491bdf2b81e9f87faaa45ca403ac25576
+sourceSHA256: 5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+sourceLicense: CC-BY-SA-4.0
+categoriesOverlap: true
+counts:
+  globalMeaningLabels: 129
+  occurrenceReviewCharacters: 22
+  occurrenceReviewRows: 25
+  wholeCharacterLessons: 167
+  localMeaningLabelReviews: 9
+  recordOverrides: 38
+  componentOverrides: 51
+  historyLessons: 12
+  ordinaryExamples: 100
+  parentMappings: 8
+  historyPresentationSettings: 3
+  candidateRowsPreserved: 491
+disposition: All reviewed.json fields preserved as nonpublishable imported candidates. Source-level prior review
+  labels are retained only as provenance; new independent evidence, Japanese-applicability and editorial review
+  are required before promotion.
+pendingWork:
+- 129 global labels lack per-label public source selectors
+- Whole-character and occurrence claims require exact source-support review
+- 100 vocabulary examples need JMdict entry identities and reading alignment
+- Parent mappings require exact source-to-KanjiVG group verification
+relationshipImports:
+  Kanjium:
+    revision: 9ebca4589565c696e7c39e089e2e928ad65f678c
+    phoneticFamilyRows: 448
+    phoneticMembershipRows: 1553
+    compactMeaningRows: 1909
+    componentStructureRows: 6813
+    radicalNameRows: 287
+    sourceFiles:
+      phonetics.txt: a98e4ccec7bc379de9e035f0463ab481f05669850f9c39ff79a0f3b0fb8a18df
+      kanjidict.txt: 78afcdee20b3291268ef1a85595b2e33c415547beb98b02413097ac759886419
+      elements.txt: bc8efa460a03a3d022771c71dd70a09b6b9e29cb034f8c3047ff3a1e5a6995e9
+      radicals.txt: f1b4cb8d63d5eda1ff3cf45a3f9ee2f2f4069c1d8cd9fed29ebd699bc6057250
+      radicals_variants.txt: 6cd63cad7111150768dff9ccccbb2315a091ce79270f681d28f9042928e03740
+  kanji-db.com:
+    revision: a0ca332b153a7538d1f8fd93d515dea4088e87f6
+    rowsByTable:
+      antonyms.tsv: 555
+      phonetic-series.tsv: 5743
+      similar-kanji.tsv: 22331
+      kunyomi-groups.tsv: 291
+      homophone-groups.tsv: 1275
+      unlisted-variants.tsv: 831
+    sourceFiles:
+      antonyms.tsv: a399a2dbc5aa05ecf8876549cf0685bb6ce70561a5be7431cd45a70b6b8499ff
+      phonetic-series.tsv: 74ba093c2824cca3d9b7e6e329f925c6d8f7026179453a33a96dcc614e3f5056
+      similar-kanji.tsv: 50dfff2c178e6ca2195e48e3c997007910c256c09f97b6ba24574be0f468e3f9
+      kunyomi-groups.tsv: fffaa4679075159be74de8b39f483d01041d74c6d442b40366430ec697ecdec2
+      homophone-groups.tsv: 2a36905c67faf8a655ea4ced07836f86d1bced244f89b9fa5ffc82466e51567d
+      unlisted-variants.tsv: 4e6ead6676454172fc5743cc553e12a3a3de93cb47df8c5e5eda3eb75b39f87e
+    disposition: All table rows retained as source-lineage candidates; no row promoted to a Japanese teaching cue.
+  historicalAssets:
+    commonsIndividuallyPinnedSVGs: 18
+    kanjiAliveEducationalDrawings: 3
+    allAssetsPendingDistinctAssetReview: true

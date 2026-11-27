@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manabi-kanji-db"
+version = "0.1.0"
+description = "Evidence-backed, multilingual kanji knowledge overlay"
+requires-python = ">=3.11"
+dependencies = ["PyYAML==6.0.3"]
+
+[project.scripts]
+manabi-kanji-db = "kanjidb.cli:main"
+
+[tool.setuptools]
+packages = ["kanjidb"]

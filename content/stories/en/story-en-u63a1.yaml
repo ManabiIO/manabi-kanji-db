@@ -1,0 +1,57 @@
+---
+id: story-en-u63a1
+kind: mnemonic
+subject:
+  type: character
+  literal: 採
+  codepoint: U+63A1
+revision: c46f72010288e67ab724021f05c6df3c8385ca59925527babfb412f387f3c107
+localizedRevision: 634909e69d14ca13e22601d61c5577b2cad8817a1d4ebedfb8d661c8a43cb4e8
+status: candidate
+claimText: She reached out a hand to pick one of the dice, and it landed on seven.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='採']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-63a1
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:063a1-g1; strokes=kvg:063a1-s1,kvg:063a1-s2,kvg:063a1-s3
+- reference: kanjivg-63a1
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:063a1-g2; strokes=kvg:063a1-s10,kvg:063a1-s11,kvg:063a1-s4,kvg:063a1-s5,kvg:063a1-s6,kvg:063a1-s7,kvg:063a1-s8,kvg:063a1-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: c46f72010288e67ab724021f05c6df3c8385ca59925527babfb412f387f3c107
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d0fac7e3d03166b5e554987695f0406bade69a711b14ed00ccb4ed50e77135b9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d0fac7e3d03166b5e554987695f0406bade69a711b14ed00ccb4ed50e77135b9
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='採']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-63a1
+    occurrence: kvg:063a1-g1
+    labelClaim: visual-u624c-hand
+    authoredForm: 扌
+    crosswalk: null
+  - structure: kv-63a1
+    occurrence: kvg:063a1-g2
+    labelClaim: visual-u91c7-dice
+    authoredForm: 采
+    crosswalk: null
+  fiction: true
+  textRevision: 634909e69d14ca13e22601d61c5577b2cad8817a1d4ebedfb8d661c8a43cb4e8

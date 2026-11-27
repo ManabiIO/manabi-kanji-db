@@ -1,0 +1,57 @@
+---
+id: story-en-u5e9c
+kind: mnemonic
+subject:
+  type: character
+  literal: 府
+  codepoint: U+5E9C
+revision: fe4bb7ed78ceb2dd1e70e2f2a050b7458656b91f9d79d6c0d8f05217e80fbca4
+localizedRevision: 82005e1a99a4fcb9801c2b5409020241b6ad4e9b5b9965a6bf83f8f76e6b2432
+status: candidate
+claimText: A clerk attached a copper sign to a rain shelter and declared it the new government office.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='府']/reading_meaning/rmgroup[1]/meaning[3]
+- reference: kanjivg-5e9c
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:05e9c-g1; strokes=kvg:05e9c-s1,kvg:05e9c-s2,kvg:05e9c-s3
+- reference: kanjivg-5e9c
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:05e9c-g3; strokes=kvg:05e9c-s4,kvg:05e9c-s5,kvg:05e9c-s6,kvg:05e9c-s7,kvg:05e9c-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: fe4bb7ed78ceb2dd1e70e2f2a050b7458656b91f9d79d6c0d8f05217e80fbca4
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5338b1e558eabdc301e3d5a2ceba011f57885f3f9deff46491647800506de371|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5338b1e558eabdc301e3d5a2ceba011f57885f3f9deff46491647800506de371
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='府']/reading_meaning/rmgroup[1]/meaning[3]
+  occurrences:
+  - structure: kv-5e9c
+    occurrence: kvg:05e9c-g1
+    labelClaim: visual-u5e7f-shelter
+    authoredForm: 广
+    crosswalk: null
+  - structure: kv-5e9c
+    occurrence: kvg:05e9c-g3
+    labelClaim: visual-u4ed8-attach
+    authoredForm: 付
+    crosswalk: null
+  fiction: true
+  textRevision: 82005e1a99a4fcb9801c2b5409020241b6ad4e9b5b9965a6bf83f8f76e6b2432

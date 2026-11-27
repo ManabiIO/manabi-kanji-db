@@ -1,0 +1,28 @@
+---
+id: visual-u7f94-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7f94
+revision: 82835d5f08a39e1298440500f0182ad6d4aa9296c9252ce26e8526ca8992ccc0
+localizedRevision: 82835d5f08a39e1298440500f0182ad6d4aa9296c9252ce26e8526ca8992ccc0
+status: candidate
+claimText: 羔 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7aaf
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07aaf-g5; strokes=kvg:07aaf-s10,kvg:07aaf-s11,kvg:07aaf-s12,kvg:07aaf-s13,kvg:07aaf-s14,kvg:07aaf-s15,kvg:07aaf-s6,kvg:07aaf-s7,kvg:07aaf-s8,kvg:07aaf-s9
+- reference: kanjivg-7aaf
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07aaf-g5; strokes=kvg:07aaf-s10,kvg:07aaf-s11,kvg:07aaf-s12,kvg:07aaf-s13,kvg:07aaf-s14,kvg:07aaf-s15,kvg:07aaf-s6,kvg:07aaf-s7,kvg:07aaf-s8,kvg:07aaf-s9
+review:
+  state: pending

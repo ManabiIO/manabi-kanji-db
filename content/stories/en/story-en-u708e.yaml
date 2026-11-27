@@ -1,0 +1,57 @@
+---
+id: story-en-u708e
+kind: mnemonic
+subject:
+  type: character
+  literal: 炎
+  codepoint: U+708E
+revision: 6f2312610fa76194bbdfad51ca7a7665b72830ecb115efa8d20d2327552146f6
+localizedRevision: c8cfd0c4dc632743d97408c68a9ba2fd15b90ef4d73b3e2ec2bd04be757388a9
+status: candidate
+claimText: Two candle fires leaned toward each other and rose as one tall flame.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='炎']/reading_meaning/rmgroup[1]/meaning[2]
+- reference: kanjivg-708e
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:0708e-g1; strokes=kvg:0708e-s1,kvg:0708e-s2,kvg:0708e-s3,kvg:0708e-s4
+- reference: kanjivg-708e
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:0708e-g2; strokes=kvg:0708e-s5,kvg:0708e-s6,kvg:0708e-s7,kvg:0708e-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 6f2312610fa76194bbdfad51ca7a7665b72830ecb115efa8d20d2327552146f6
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d52394f2e2a075e6fea0e1d3ca9f767bfddfaec5b97a5d23c4ca3b35e8c7a81f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d52394f2e2a075e6fea0e1d3ca9f767bfddfaec5b97a5d23c4ca3b35e8c7a81f
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='炎']/reading_meaning/rmgroup[1]/meaning[2]
+  occurrences:
+  - structure: kv-708e
+    occurrence: kvg:0708e-g1
+    labelClaim: visual-u706b-fire
+    authoredForm: 火
+    crosswalk: null
+  - structure: kv-708e
+    occurrence: kvg:0708e-g2
+    labelClaim: visual-u706b-fire
+    authoredForm: 火
+    crosswalk: null
+  fiction: true
+  textRevision: c8cfd0c4dc632743d97408c68a9ba2fd15b90ef4d73b3e2ec2bd04be757388a9

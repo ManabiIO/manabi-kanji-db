@@ -1,0 +1,57 @@
+---
+id: story-en-u5229
+kind: mnemonic
+subject:
+  type: character
+  literal: 利
+  codepoint: U+5229
+revision: 5a078cbc0f47de35968514ab0c0e80a7f367efa166a14cce693e0bba83849fd6
+localizedRevision: bc44a5b186de292b8d3f8311147f03ecae911d4723d170c6ffdfad775200259f
+status: candidate
+claimText: With one sharp knife, the farmer harvested enough grain in a day to make a profit.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='利']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-5229
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:05229-g1; strokes=kvg:05229-s1,kvg:05229-s2,kvg:05229-s3,kvg:05229-s4,kvg:05229-s5
+- reference: kanjivg-5229
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:05229-g4; strokes=kvg:05229-s6,kvg:05229-s7
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 5a078cbc0f47de35968514ab0c0e80a7f367efa166a14cce693e0bba83849fd6
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2b7e40403a545b6e0dac071fa2008d968e235df94106d296cc424d12a65ddf4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2b7e40403a545b6e0dac071fa2008d968e235df94106d296cc424d12a65ddf4
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='利']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-5229
+    occurrence: kvg:05229-g1
+    labelClaim: visual-u79be-grain
+    authoredForm: 禾
+    crosswalk: null
+  - structure: kv-5229
+    occurrence: kvg:05229-g4
+    labelClaim: visual-u5202-knife
+    authoredForm: 刂
+    crosswalk: null
+  fiction: true
+  textRevision: bc44a5b186de292b8d3f8311147f03ecae911d4723d170c6ffdfad775200259f

@@ -1,0 +1,57 @@
+---
+id: story-en-u6253
+kind: mnemonic
+subject:
+  type: character
+  literal: 打
+  codepoint: U+6253
+revision: 98492bbb9f3d8966f1c2956311d10f09302c196d239d51b6335048fdcbbd1446
+localizedRevision: 61f6f204226bb16e7f83cbcb17a78a14959b5dc5acf5d60fbe7fcdaa665e0951
+status: candidate
+claimText: A clockmaker used her bare hand to strike a bell loud enough to wake the whole block.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='打']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6253
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06253-g1; strokes=kvg:06253-s1,kvg:06253-s2,kvg:06253-s3
+- reference: kanjivg-6253
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06253-g2; strokes=kvg:06253-s4,kvg:06253-s5
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 98492bbb9f3d8966f1c2956311d10f09302c196d239d51b6335048fdcbbd1446
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8c0f71dedf4c4ebaf0fac1a5912d27b1bc4ffc54666f900f93b05c1e81595c0d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8c0f71dedf4c4ebaf0fac1a5912d27b1bc4ffc54666f900f93b05c1e81595c0d
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='打']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6253
+    occurrence: kvg:06253-g1
+    labelClaim: visual-u624c-hand
+    authoredForm: 扌
+    crosswalk: null
+  - structure: kv-6253
+    occurrence: kvg:06253-g2
+    labelClaim: visual-u4e01-city-block
+    authoredForm: 丁
+    crosswalk: null
+  fiction: true
+  textRevision: 61f6f204226bb16e7f83cbcb17a78a14959b5dc5acf5d60fbe7fcdaa665e0951

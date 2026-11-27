@@ -1,0 +1,57 @@
+---
+id: story-en-u5e97
+kind: mnemonic
+subject:
+  type: character
+  literal: 店
+  codepoint: U+5E97
+revision: 43f62d4075d17787b9caaf336c82614d50fe6a4242c2e677c9b3563348c9c6c8
+localizedRevision: bbd70d7a5c751309570ba3b175c4b38714e33ba5bacd844611275989387e1fa0
+status: candidate
+claimText: A fortune-teller opened a store under a cliff shelter and sold umbrellas whenever she predicted rain.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='店']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-5e97
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:05e97-g1; strokes=kvg:05e97-s1,kvg:05e97-s2,kvg:05e97-s3
+- reference: kanjivg-5e97
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:05e97-g3; strokes=kvg:05e97-s4,kvg:05e97-s5,kvg:05e97-s6,kvg:05e97-s7,kvg:05e97-s8
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 43f62d4075d17787b9caaf336c82614d50fe6a4242c2e677c9b3563348c9c6c8
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:86de6ccfd4c835a9840cfd5816cf4ba318266bce0a064a24bb8b9d310909d6a1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:86de6ccfd4c835a9840cfd5816cf4ba318266bce0a064a24bb8b9d310909d6a1
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='店']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-5e97
+    occurrence: kvg:05e97-g1
+    labelClaim: visual-u5e7f-shelter
+    authoredForm: 广
+    crosswalk: null
+  - structure: kv-5e97
+    occurrence: kvg:05e97-g3
+    labelClaim: visual-u5360-divination
+    authoredForm: 占
+    crosswalk: null
+  fiction: true
+  textRevision: bbd70d7a5c751309570ba3b175c4b38714e33ba5bacd844611275989387e1fa0

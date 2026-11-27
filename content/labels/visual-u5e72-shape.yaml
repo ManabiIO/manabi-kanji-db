@@ -1,0 +1,28 @@
+---
+id: visual-u5e72-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5e72
+revision: c50895222621afe9207454cecdd73a83538fb2820373fc39665865b14840e58c
+localizedRevision: c50895222621afe9207454cecdd73a83538fb2820373fc39665865b14840e58c
+status: candidate
+claimText: 干 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-809d
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0809d-g2; strokes=kvg:0809d-s5,kvg:0809d-s6,kvg:0809d-s7
+- reference: kanjivg-809d
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0809d-g2; strokes=kvg:0809d-s5,kvg:0809d-s6,kvg:0809d-s7
+review:
+  state: pending

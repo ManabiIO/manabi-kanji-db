@@ -1,0 +1,28 @@
+---
+id: visual-u543e-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u543e
+revision: 311f761102e913833344275d64eae00709e04f972ae24512b61ad35619e62949
+localizedRevision: 311f761102e913833344275d64eae00709e04f972ae24512b61ad35619e62949
+status: candidate
+claimText: 吾 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8a9e
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08a9e-g3; strokes=kvg:08a9e-s10,kvg:08a9e-s11,kvg:08a9e-s12,kvg:08a9e-s13,kvg:08a9e-s14,kvg:08a9e-s8,kvg:08a9e-s9
+- reference: kanjivg-8a9e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08a9e-g3; strokes=kvg:08a9e-s10,kvg:08a9e-s11,kvg:08a9e-s12,kvg:08a9e-s13,kvg:08a9e-s14,kvg:08a9e-s8,kvg:08a9e-s9
+review:
+  state: pending

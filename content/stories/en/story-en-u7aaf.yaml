@@ -1,0 +1,57 @@
+---
+id: story-en-u7aaf
+kind: mnemonic
+subject:
+  type: character
+  literal: 窯
+  codepoint: U+7AAF
+revision: 2fa130905c60af8a22ddb7ece871fe32149a7c7db0b7f04258fa3e9ce85760d9
+localizedRevision: 31682423058fb7be76ab2a3fa14f3d6139069b275ee7c8c13dc826690879be5c
+status: candidate
+claimText: A lamb poked its head through a hole in the cold kiln to watch the potter stack bowls.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='窯']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-7aaf
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:07aaf-g1; strokes=kvg:07aaf-s1,kvg:07aaf-s2,kvg:07aaf-s3,kvg:07aaf-s4,kvg:07aaf-s5
+- reference: kanjivg-7aaf
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:07aaf-g5; strokes=kvg:07aaf-s10,kvg:07aaf-s11,kvg:07aaf-s12,kvg:07aaf-s13,kvg:07aaf-s14,kvg:07aaf-s15,kvg:07aaf-s6,kvg:07aaf-s7,kvg:07aaf-s8,kvg:07aaf-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 2fa130905c60af8a22ddb7ece871fe32149a7c7db0b7f04258fa3e9ce85760d9
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ac8d0a7d82ef5ff69ef319d56e4f9e7b78035a7960c7ed2feb751c557f4ed756|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ac8d0a7d82ef5ff69ef319d56e4f9e7b78035a7960c7ed2feb751c557f4ed756
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='窯']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-7aaf
+    occurrence: kvg:07aaf-g1
+    labelClaim: visual-u7a74-hole
+    authoredForm: 穴
+    crosswalk: null
+  - structure: kv-7aaf
+    occurrence: kvg:07aaf-g5
+    labelClaim: visual-u7f94-lamb
+    authoredForm: 羔
+    crosswalk: null
+  fiction: true
+  textRevision: 31682423058fb7be76ab2a3fa14f3d6139069b275ee7c8c13dc826690879be5c

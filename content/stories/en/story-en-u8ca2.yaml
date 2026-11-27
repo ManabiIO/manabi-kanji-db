@@ -1,0 +1,57 @@
+---
+id: story-en-u8ca2
+kind: mnemonic
+subject:
+  type: character
+  literal: 貢
+  codepoint: U+8CA2
+revision: 9dc9840c5f49f5e5c3cb1773d09b4c5a47035a0e700d5426057caf4a4d995137
+localizedRevision: 5a430ce7ce33fb62277efb30ef93a6aa40aa1bedde9571fdbbc774dd1e8500d5
+status: candidate
+claimText: A craftsperson carved little ships out of shells as a tribute to the harbor's first captain.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='貢']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-8ca2
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca2-g1; strokes=kvg:08ca2-s1,kvg:08ca2-s2,kvg:08ca2-s3
+- reference: kanjivg-8ca2
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08ca2-g2; strokes=kvg:08ca2-s10,kvg:08ca2-s4,kvg:08ca2-s5,kvg:08ca2-s6,kvg:08ca2-s7,kvg:08ca2-s8,kvg:08ca2-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 9dc9840c5f49f5e5c3cb1773d09b4c5a47035a0e700d5426057caf4a4d995137
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7ab4193bc24fc7b7bae2a6e448a7d7f3db57fbded94725930c23977247004c5e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7ab4193bc24fc7b7bae2a6e448a7d7f3db57fbded94725930c23977247004c5e
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='貢']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-8ca2
+    occurrence: kvg:08ca2-g1
+    labelClaim: visual-u5de5-craft
+    authoredForm: 工
+    crosswalk: null
+  - structure: kv-8ca2
+    occurrence: kvg:08ca2-g2
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  fiction: true
+  textRevision: 5a430ce7ce33fb62277efb30ef93a6aa40aa1bedde9571fdbbc774dd1e8500d5

@@ -1,0 +1,28 @@
+---
+id: visual-u6597-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u6597
+revision: 1399f7403bd88bd801f85a11445f0e052a84482f1dc0ffe553742fd43e5958de
+localizedRevision: 1399f7403bd88bd801f85a11445f0e052a84482f1dc0ffe553742fd43e5958de
+status: candidate
+claimText: 斗 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-79d1
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:079d1-g4; strokes=kvg:079d1-s6,kvg:079d1-s7,kvg:079d1-s8,kvg:079d1-s9
+- reference: kanjivg-79d1
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:079d1-g4; strokes=kvg:079d1-s6,kvg:079d1-s7,kvg:079d1-s8,kvg:079d1-s9
+review:
+  state: pending

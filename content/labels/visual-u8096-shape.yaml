@@ -1,0 +1,28 @@
+---
+id: visual-u8096-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u8096
+revision: 5c04ce3f3e3105fe82401f143d83da96040c6801a17f04cbad3e60a7333aa549
+localizedRevision: 5c04ce3f3e3105fe82401f143d83da96040c6801a17f04cbad3e60a7333aa549
+status: candidate
+claimText: 肖 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6d88
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06d88-g2; strokes=kvg:06d88-s10,kvg:06d88-s4,kvg:06d88-s5,kvg:06d88-s6,kvg:06d88-s7,kvg:06d88-s8,kvg:06d88-s9
+- reference: kanjivg-6d88
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06d88-g2; strokes=kvg:06d88-s10,kvg:06d88-s4,kvg:06d88-s5,kvg:06d88-s6,kvg:06d88-s7,kvg:06d88-s8,kvg:06d88-s9
+review:
+  state: pending

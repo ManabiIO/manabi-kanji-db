@@ -1,0 +1,57 @@
+---
+id: story-en-u8cde
+kind: mnemonic
+subject:
+  type: character
+  literal: 賞
+  codepoint: U+8CDE
+revision: 58c6205e8cd5b41815d4981566d4f5753259ae7846e2d761aa2114f42d26d330
+localizedRevision: 2733189548b266282fd9400ce11f3fedd584d344966426d9d80f48116933b664
+status: candidate
+claimText: The judges held the carver in such esteem that they awarded her a prize made from a rare shell.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='賞']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-8cde
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08cde-g1; strokes=kvg:08cde-s1,kvg:08cde-s2,kvg:08cde-s3,kvg:08cde-s4,kvg:08cde-s5,kvg:08cde-s6,kvg:08cde-s7,kvg:08cde-s8
+- reference: kanjivg-8cde
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08cde-g6; strokes=kvg:08cde-s10,kvg:08cde-s11,kvg:08cde-s12,kvg:08cde-s13,kvg:08cde-s14,kvg:08cde-s15,kvg:08cde-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 58c6205e8cd5b41815d4981566d4f5753259ae7846e2d761aa2114f42d26d330
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a9df505bef043b040c2a374948e06dc6ad0c0a7a20843a46010f1419068eee33|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a9df505bef043b040c2a374948e06dc6ad0c0a7a20843a46010f1419068eee33
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='賞']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-8cde
+    occurrence: kvg:08cde-g1
+    labelClaim: visual-u5c1a-esteem
+    authoredForm: 尚
+    crosswalk: null
+  - structure: kv-8cde
+    occurrence: kvg:08cde-g6
+    labelClaim: visual-u8c9d-shell
+    authoredForm: 貝
+    crosswalk: null
+  fiction: true
+  textRevision: 2733189548b266282fd9400ce11f3fedd584d344966426d9d80f48116933b664

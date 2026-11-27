@@ -1,0 +1,28 @@
+---
+id: visual-u5446-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5446
+revision: abb10f6931993d469eb3a208bf40af720f73b9984908b17db6a2dea506a61375
+localizedRevision: abb10f6931993d469eb3a208bf40af720f73b9984908b17db6a2dea506a61375
+status: candidate
+claimText: 呆 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-4fdd
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04fdd-g2; strokes=kvg:04fdd-s3,kvg:04fdd-s4,kvg:04fdd-s5,kvg:04fdd-s6,kvg:04fdd-s7,kvg:04fdd-s8,kvg:04fdd-s9
+- reference: kanjivg-4fdd
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04fdd-g2; strokes=kvg:04fdd-s3,kvg:04fdd-s4,kvg:04fdd-s5,kvg:04fdd-s6,kvg:04fdd-s7,kvg:04fdd-s8,kvg:04fdd-s9
+review:
+  state: pending

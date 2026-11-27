@@ -1,0 +1,463 @@
+---
+version: 1
+items:
+- id: commons-u5c71-bronze-svg
+  kind: historical-transcription
+  subject: 山
+  path: assets/historical-forms/山-bronze.svg
+  sha256: fe694d7639fb2c6f3b46bc9f294abfd320d9095c5dc227c890be895a8c95830a
+  source: commons-acc-sears
+  revision: '982022800'
+  descriptionReference: commons-u5c71-bronze-svg-description
+  mediaReference: commons-u5c71-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:山-bronze.svg?oldid=982022800
+  attribution: Yug; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">山-bronze-bronze.svg</span>” vector image is depicting the character
+    山 (3-stroke traditional <i>Kangxi</i> radical 046 山 + 7 strokes) in the <a href="//commons.wikimedia.org/wiki/Category:Bronze_script_characters_(SVG)"
+    title="Category:Bronze script characters (SVG)"><i>bronze</i> script style</a>.<br> See also Wiktionary: <a
+    href="https://en.wiktionary.org/wiki/en:%E5%B1%B1" class="extiw" title="wikt:en:山">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E5%B1%B1"
+    class="extiw" title="wikt:fr:山">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E5%B1%B1" class="extiw"
+    title="wikt:ja:山">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E5%B1%B1" class="extiw" title="wikt:zh:山">zh</a>.'
+  selector: pageRevision=982022800; upload=2007-04-07T01:13:31Z; SHA-256=fe694d7639fb2c6f3b46bc9f294abfd320d9095c5dc227c890be895a8c95830a
+  dateIsUploadDateOnly: true
+- id: commons-u6728-oracle-svg
+  kind: historical-transcription
+  subject: 木
+  path: assets/historical-forms/木-oracle.svg
+  sha256: 0aca5417d0d08868ec1b73b577e1adce36480405dd317f5a194a0f934b7b1c7a
+  source: commons-acc-sears
+  revision: '1151497772'
+  descriptionReference: commons-u6728-oracle-svg-description
+  mediaReference: commons-u6728-oracle-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:木-oracle.svg?oldid=1151497772
+  attribution: Yug; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">木-oracle-oracle.svg</span>” vector image is depicting the character
+    木 (4-stroke traditional <i>Kangxi</i> radical 075 木) in the <a href="//commons.wikimedia.org/wiki/Category:Shang_oracle_script_characters_(SVG)"
+    title="Category:Shang oracle script characters (SVG)"><i>Shang oracle</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E6%9C%A8" class="extiw" title="wikt:en:木">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%9C%A8"
+    class="extiw" title="wikt:fr:木">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%9C%A8" class="extiw"
+    title="wikt:ja:木">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%9C%A8" class="extiw" title="wikt:zh:木">zh</a>.'
+  selector: pageRevision=1151497772; upload=2007-04-10T16:09:24Z; SHA-256=0aca5417d0d08868ec1b73b577e1adce36480405dd317f5a194a0f934b7b1c7a
+  dateIsUploadDateOnly: true
+- id: commons-u6728-bronze-svg
+  kind: historical-transcription
+  subject: 木
+  path: assets/historical-forms/木-bronze.svg
+  sha256: 6149344c27a50879b183eb63510688fb145d30ae2027db8800e7f7e86d438091
+  source: commons-acc-sears
+  revision: '681910674'
+  descriptionReference: commons-u6728-bronze-svg-description
+  mediaReference: commons-u6728-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:木-bronze.svg?oldid=681910674
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">木-bronze-bronze.svg</span>” vector image is depicting the character
+    木 (4-stroke traditional <i>Kangxi</i> radical 075 木 + 5 strokes) in the <a href="//commons.wikimedia.org/wiki/Category:Bronze_script_characters_(SVG)"
+    title="Category:Bronze script characters (SVG)"><i>bronze</i> script style</a>.<br> See also Wiktionary: <a
+    href="https://en.wiktionary.org/wiki/en:%E6%9C%A8" class="extiw" title="wikt:en:木">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%9C%A8"
+    class="extiw" title="wikt:fr:木">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%9C%A8" class="extiw"
+    title="wikt:ja:木">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%9C%A8" class="extiw" title="wikt:zh:木">zh</a>.'
+  selector: pageRevision=681910674; upload=2007-04-19T13:32:44Z; SHA-256=6149344c27a50879b183eb63510688fb145d30ae2027db8800e7f7e86d438091
+  dateIsUploadDateOnly: true
+- id: commons-u6708-bronze-svg
+  kind: historical-transcription
+  subject: 月
+  path: assets/historical-forms/月-bronze.svg
+  sha256: 948135d7fd7f6bd7f671fbcbbf2c59d8ba49e0cde95fb2e67f166acc0d4f2dd9
+  source: commons-acc-sears
+  revision: '341820306'
+  descriptionReference: commons-u6708-bronze-svg-description
+  mediaReference: commons-u6708-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:月-bronze.svg?oldid=341820306
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">月-bronze-bronze.svg</span>” vector image is depicting the character
+    月 (4-stroke traditional <i>Kangxi</i> radical 074 月 + 3 strokes) in the <a href="//commons.wikimedia.org/wiki/Category:Bronze_script_characters_(SVG)"
+    title="Category:Bronze script characters (SVG)"><i>bronze</i> script style</a>.<br> See also Wiktionary: <a
+    href="https://en.wiktionary.org/wiki/en:%E6%9C%88" class="extiw" title="wikt:en:月">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%9C%88"
+    class="extiw" title="wikt:fr:月">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%9C%88" class="extiw"
+    title="wikt:ja:月">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%9C%88" class="extiw" title="wikt:zh:月">zh</a>.'
+  selector: pageRevision=341820306; upload=2007-04-12T15:43:46Z; SHA-256=948135d7fd7f6bd7f671fbcbbf2c59d8ba49e0cde95fb2e67f166acc0d4f2dd9
+  dateIsUploadDateOnly: true
+- id: commons-u65e5-bronze-svg
+  kind: historical-transcription
+  subject: 日
+  path: assets/historical-forms/日-bronze.svg
+  sha256: f38c8e118185e7caa5a66faa1fb2fcf0d71403af3ffc2fc35bef72b375084fb6
+  source: commons-acc-sears
+  revision: '1003798224'
+  descriptionReference: commons-u65e5-bronze-svg-description
+  mediaReference: commons-u65e5-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:日-bronze.svg?oldid=1003798224
+  attribution: AnonMoos; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">日-bronze-western.svg</span>” vector image is depicting the character
+    日 (4-stroke traditional <i>Kangxi</i> radical 072 日 + 2 strokes, ancient <i>Shuowen</i> radical 231) in the
+    <a href="//commons.wikimedia.org/wiki/Category:Western_Zhou_bronze_script_characters_(SVG)" title="Category:Western
+    Zhou bronze script characters (SVG)"><i>Western Zhou bronze</i> script style</a>.<br> See also Wiktionary: <a
+    href="https://en.wiktionary.org/wiki/en:%E6%97%A5" class="extiw" title="wikt:en:日">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%97%A5"
+    class="extiw" title="wikt:fr:日">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%97%A5" class="extiw"
+    title="wikt:ja:日">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%97%A5" class="extiw" title="wikt:zh:日">zh</a>.'
+  selector: pageRevision=1003798224; upload=2011-03-01T10:57:58Z; SHA-256=f38c8e118185e7caa5a66faa1fb2fcf0d71403af3ffc2fc35bef72b375084fb6
+  dateIsUploadDateOnly: true
+- id: commons-u76ee-bronze-svg
+  kind: historical-transcription
+  subject: 目
+  path: assets/historical-forms/目-bronze.svg
+  sha256: d06b683411dcf71931e4f4717a2907c4c8fb59602a9dabff29a9d18749a94d91
+  source: commons-acc-sears
+  revision: '965380757'
+  descriptionReference: commons-u76ee-bronze-svg-description
+  mediaReference: commons-u76ee-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:目-bronze.svg?oldid=965380757
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">目-bronze-western.svg</span>” vector image is depicting the character
+    目 (5-stroke traditional <i>Kangxi</i> radical 109 目 + 5 strokes, ancient <i>Shuowen</i> radical 099) in the
+    <a href="//commons.wikimedia.org/wiki/Category:Western_Zhou_bronze_script_characters_(SVG)" title="Category:Western
+    Zhou bronze script characters (SVG)"><i>Western Zhou bronze</i> script style</a>.<br> See also Wiktionary: <a
+    href="https://en.wiktionary.org/wiki/en:%E7%9B%AE" class="extiw" title="wikt:en:目">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E7%9B%AE"
+    class="extiw" title="wikt:fr:目">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E7%9B%AE" class="extiw"
+    title="wikt:ja:目">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E7%9B%AE" class="extiw" title="wikt:zh:目">zh</a>.'
+  selector: pageRevision=965380757; upload=2007-04-21T02:12:23Z; SHA-256=d06b683411dcf71931e4f4717a2907c4c8fb59602a9dabff29a9d18749a94d91
+  dateIsUploadDateOnly: true
+- id: commons-u9ce5-oracle-svg
+  kind: historical-transcription
+  subject: 鳥
+  path: assets/historical-forms/鳥-oracle.svg
+  sha256: ce0f88e1e8ea728aee0a0bf0cde1a60d24eebce5f48bbd96a05bdb36461ef6b7
+  source: commons-acc-sears
+  revision: '1275869215'
+  descriptionReference: commons-u9ce5-oracle-svg-description
+  mediaReference: commons-u9ce5-oracle-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:鳥-oracle.svg?oldid=1275869215
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">鳥-oracle-oracle.svg</span>” vector image is depicting the character
+    鳥 in the <a href="//commons.wikimedia.org/wiki/Category:Shang_oracle_script_characters_(SVG)" title="Category:Shang
+    oracle script characters (SVG)"><i>Shang oracle</i> script style</a>.<br>  It can be drawn with 11 <a href="https://en.wikipedia.org/wiki/pen"
+    class="extiw" title="w:pen">pen</a> strokes.<br> See also Wiktionary: <a href="https://en.wiktionary.org/wiki/en:%E9%B3%A5"
+    class="extiw" title="wikt:en:鳥">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%B3%A5" class="extiw"
+    title="wikt:fr:鳥">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%B3%A5" class="extiw" title="wikt:ja:鳥">ja</a>,
+    <a href="https://en.wiktionary.org/wiki/zh:%E9%B3%A5" class="extiw" title="wikt:zh:鳥">zh</a>.'
+  selector: pageRevision=1275869215; upload=2007-05-19T09:44:44Z; SHA-256=ce0f88e1e8ea728aee0a0bf0cde1a60d24eebce5f48bbd96a05bdb36461ef6b7
+  dateIsUploadDateOnly: true
+- id: commons-u9ce5-bronze-svg
+  kind: historical-transcription
+  subject: 鳥
+  path: assets/historical-forms/鳥-bronze.svg
+  sha256: 929b2c0b7019037270f6c1634672c59ddfdc86678b443b5ffe94e65651b1db14
+  source: commons-acc-sears
+  revision: '1072856170'
+  descriptionReference: commons-u9ce5-bronze-svg-description
+  mediaReference: commons-u9ce5-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:鳥-bronze.svg?oldid=1072856170
+  attribution: Justinrleung; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">鳥-bronze.svg</span>” vector image is depicting the character 鳥 in
+    the <a href="//commons.wikimedia.org/wiki/Category:Bronze_script_characters_(SVG)" title="Category:Bronze script
+    characters (SVG)"><i>bronze</i> script style</a>.<br> See also Wiktionary: <a href="https://en.wiktionary.org/wiki/en:%E9%B3%A5"
+    class="extiw" title="wikt:en:鳥">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%B3%A5" class="extiw"
+    title="wikt:fr:鳥">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%B3%A5" class="extiw" title="wikt:ja:鳥">ja</a>,
+    <a href="https://en.wiktionary.org/wiki/zh:%E9%B3%A5" class="extiw" title="wikt:zh:鳥">zh</a>.'
+  selector: pageRevision=1072856170; upload=2017-04-04T13:41:24Z; SHA-256=929b2c0b7019037270f6c1634672c59ddfdc86678b443b5ffe94e65651b1db14
+  dateIsUploadDateOnly: true
+- id: commons-u99ac-bronze-svg
+  kind: historical-transcription
+  subject: 馬
+  path: assets/historical-forms/馬-bronze.svg
+  sha256: 935caf1366512e4b3309b9155d421dbfb8532830ba92f3677d8897a144762c5a
+  source: commons-acc-sears
+  revision: '875535207'
+  descriptionReference: commons-u99ac-bronze-svg-description
+  mediaReference: commons-u99ac-bronze-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:馬-bronze.svg?oldid=875535207
+  attribution: Erin Silversmith; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: '<p>This “<span style="color:#080">馬-bronze-west.svg</span>” vector image is depicting the character
+    馬 in the <a href="//commons.wikimedia.org/wiki/Category:Western_Zhou_bronze_script_characters_(SVG)" title="Category:Western
+    Zhou bronze script characters (SVG)"><i>Western Zhou bronze</i> script style</a>.<br>  It can be drawn with
+    1
+
+    </p>
+
+    3 <a href="https://en.wikipedia.org/wiki/pen" class="extiw" title="w:pen">pen</a> strokes.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E9%A6%AC" class="extiw" title="wikt:en:馬">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%A6%AC"
+    class="extiw" title="wikt:fr:馬">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%A6%AC" class="extiw"
+    title="wikt:ja:馬">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E9%A6%AC" class="extiw" title="wikt:zh:馬">zh</a>.'
+  selector: pageRevision=875535207; upload=2006-07-09T09:53:16Z; SHA-256=935caf1366512e4b3309b9155d421dbfb8532830ba92f3677d8897a144762c5a
+  dateIsUploadDateOnly: true
+- id: commons-u65e5-seal-svg
+  kind: historical-transcription
+  subject: 日
+  path: assets/historical-forms/日-seal.svg
+  sha256: c1fb040a26ed701c23da46a718a697f6b924d22888050608d6279e3316b441da
+  source: commons-acc-sears
+  revision: '1181977724'
+  descriptionReference: commons-u65e5-seal-svg-description
+  mediaReference: commons-u65e5-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:日-seal.svg?oldid=1181977724
+  attribution: Erin Silversmith; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">日-seal.svg</span>” vector image is depicting the character 日 (4-stroke
+    traditional <i>Kangxi</i> radical 072 日 + 2 strokes, ancient <i>Shuowen</i> radical 231) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E6%97%A5" class="extiw" title="wikt:en:日">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%97%A5"
+    class="extiw" title="wikt:fr:日">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%97%A5" class="extiw"
+    title="wikt:ja:日">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%97%A5" class="extiw" title="wikt:zh:日">zh</a>.'
+  selector: pageRevision=1181977724; upload=2006-07-10T10:21:03Z; SHA-256=c1fb040a26ed701c23da46a718a697f6b924d22888050608d6279e3316b441da
+  dateIsUploadDateOnly: true
+- id: commons-u6708-seal-svg
+  kind: historical-transcription
+  subject: 月
+  path: assets/historical-forms/月-seal.svg
+  sha256: 72a3ec2ce7cf9f20760dbd14f660e3c67afcf751ddabe6a4933204d95ad6a731
+  source: commons-acc-sears
+  revision: '1005397745'
+  descriptionReference: commons-u6708-seal-svg-description
+  mediaReference: commons-u6708-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:月-seal.svg?oldid=1005397745
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">月-seal-seal.svg</span>” vector image is depicting the character 月
+    (4-stroke traditional <i>Kangxi</i> radical 074 月 + 3 strokes) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E6%9C%88" class="extiw" title="wikt:en:月">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%9C%88"
+    class="extiw" title="wikt:fr:月">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%9C%88" class="extiw"
+    title="wikt:ja:月">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%9C%88" class="extiw" title="wikt:zh:月">zh</a>.'
+  selector: pageRevision=1005397745; upload=2007-04-13T14:00:10Z; SHA-256=72a3ec2ce7cf9f20760dbd14f660e3c67afcf751ddabe6a4933204d95ad6a731
+  dateIsUploadDateOnly: true
+- id: commons-u99ac-oracle-svg
+  kind: historical-transcription
+  subject: 馬
+  path: assets/historical-forms/馬-oracle.svg
+  sha256: 67e96fad29a57aa72739ef75a40c4ac5424986452867ef2fd3358a896828d245
+  source: commons-acc-sears
+  revision: '1231720610'
+  descriptionReference: commons-u99ac-oracle-svg-description
+  mediaReference: commons-u99ac-oracle-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:馬-oracle.svg?oldid=1231720610
+  attribution: Erin Silversmith; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">馬-oracle-shang.svg</span>” vector image is depicting the character
+    馬 in the <a href="//commons.wikimedia.org/wiki/Category:Shang_oracle_script_characters_(SVG)" title="Category:Shang
+    oracle script characters (SVG)"><i>Shang oracle</i> script style</a>.<br>  It can be drawn with 14 <a href="https://en.wikipedia.org/wiki/pen"
+    class="extiw" title="w:pen">pen</a> strokes.<br> See also Wiktionary: <a href="https://en.wiktionary.org/wiki/en:%E9%A6%AC"
+    class="extiw" title="wikt:en:馬">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%A6%AC" class="extiw"
+    title="wikt:fr:馬">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%A6%AC" class="extiw" title="wikt:ja:馬">ja</a>,
+    <a href="https://en.wiktionary.org/wiki/zh:%E9%A6%AC" class="extiw" title="wikt:zh:馬">zh</a>.'
+  selector: pageRevision=1231720610; upload=2006-07-09T10:05:31Z; SHA-256=67e96fad29a57aa72739ef75a40c4ac5424986452867ef2fd3358a896828d245
+  dateIsUploadDateOnly: true
+- id: commons-u99ac-seal-svg
+  kind: historical-transcription
+  subject: 馬
+  path: assets/historical-forms/馬-seal.svg
+  sha256: 91c8f81141d6760fcf24c9e7b27e427281e3884b7b30459760c3ad9065a2aa70
+  source: commons-acc-sears
+  revision: '1249295131'
+  descriptionReference: commons-u99ac-seal-svg-description
+  mediaReference: commons-u99ac-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:馬-seal.svg?oldid=1249295131
+  attribution: Erin Silversmith; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">馬-seal.svg</span>” vector image is depicting the character 馬 in the
+    <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)" title="Category:Shuowen
+    seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary: <a href="https://en.wiktionary.org/wiki/en:%E9%A6%AC"
+    class="extiw" title="wikt:en:馬">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%A6%AC" class="extiw"
+    title="wikt:fr:馬">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%A6%AC" class="extiw" title="wikt:ja:馬">ja</a>,
+    <a href="https://en.wiktionary.org/wiki/zh:%E9%A6%AC" class="extiw" title="wikt:zh:馬">zh</a>.'
+  selector: pageRevision=1249295131; upload=2006-07-09T09:01:17Z; SHA-256=91c8f81141d6760fcf24c9e7b27e427281e3884b7b30459760c3ad9065a2aa70
+  dateIsUploadDateOnly: true
+- id: commons-u6c34-seal-svg
+  kind: historical-transcription
+  subject: 水
+  path: assets/historical-forms/水-seal.svg
+  sha256: 460c690b953c3421bc4031a1ffccf49366d4f65099d3eda86d3262c880607922
+  source: commons-acc-sears
+  revision: '453257161'
+  descriptionReference: commons-u6c34-seal-svg-description
+  mediaReference: commons-u6c34-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:水-seal.svg?oldid=453257161
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">水-seal.svg</span>” vector image is depicting the character 水 (4-stroke
+    traditional <i>Kangxi</i> radical 085 水 + 5 strokes, ancient <i>Shuowen</i> radical 410) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E6%B0%B4" class="extiw" title="wikt:en:水">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E6%B0%B4"
+    class="extiw" title="wikt:fr:水">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E6%B0%B4" class="extiw"
+    title="wikt:ja:水">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E6%B0%B4" class="extiw" title="wikt:zh:水">zh</a>.'
+  selector: pageRevision=453257161; upload=2007-04-12T16:24:28Z; SHA-256=460c690b953c3421bc4031a1ffccf49366d4f65099d3eda86d3262c880607922
+  dateIsUploadDateOnly: true
+- id: commons-u706b-seal-svg
+  kind: historical-transcription
+  subject: 火
+  path: assets/historical-forms/火-seal.svg
+  sha256: 6ed75a6f51dfc28dac41caed990472c32da319aa7211cc8b16688653d8070473
+  source: commons-acc-sears
+  revision: '457651196'
+  descriptionReference: commons-u706b-seal-svg-description
+  mediaReference: commons-u706b-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:火-seal.svg?oldid=457651196
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">火-seal.svg</span>” vector image is depicting the character 火 (4-stroke
+    traditional <i>Kangxi</i> radical 086 火 + 4 strokes, ancient <i>Shuowen</i> radical 382) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E7%81%AB" class="extiw" title="wikt:en:火">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E7%81%AB"
+    class="extiw" title="wikt:fr:火">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E7%81%AB" class="extiw"
+    title="wikt:ja:火">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E7%81%AB" class="extiw" title="wikt:zh:火">zh</a>.'
+  selector: pageRevision=457651196; upload=2007-05-10T15:52:15Z; SHA-256=6ed75a6f51dfc28dac41caed990472c32da319aa7211cc8b16688653d8070473
+  dateIsUploadDateOnly: true
+- id: commons-u9ce5-seal-svg
+  kind: historical-transcription
+  subject: 鳥
+  path: assets/historical-forms/鳥-seal.svg
+  sha256: 0252f54826350c1039a53fd0f2c1111347a85009920226b4549624250b5b4bce
+  source: commons-acc-sears
+  revision: '1179934099'
+  descriptionReference: commons-u9ce5-seal-svg-description
+  mediaReference: commons-u9ce5-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:鳥-seal.svg?oldid=1179934099
+  attribution: Chanueting; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">鳥-seal-seal.svg</span>” vector image is depicting the character 鳥
+    (11-stroke traditional <i>Kangxi</i> radical 196 鳥 + 7 strokes) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E9%B3%A5" class="extiw" title="wikt:en:鳥">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E9%B3%A5"
+    class="extiw" title="wikt:fr:鳥">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E9%B3%A5" class="extiw"
+    title="wikt:ja:鳥">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E9%B3%A5" class="extiw" title="wikt:zh:鳥">zh</a>.'
+  selector: pageRevision=1179934099; upload=2007-05-19T09:50:12Z; SHA-256=0252f54826350c1039a53fd0f2c1111347a85009920226b4549624250b5b4bce
+  dateIsUploadDateOnly: true
+- id: commons-u76ee-seal-svg
+  kind: historical-transcription
+  subject: 目
+  path: assets/historical-forms/目-seal.svg
+  sha256: b4938812aefc02c07c6974af4ca64acf7ec68c6efed6af4415ad3452682620ec
+  source: commons-acc-sears
+  revision: '457680101'
+  descriptionReference: commons-u76ee-seal-svg-description
+  mediaReference: commons-u76ee-seal-svg-binary
+  license: LicenseRef-ACC-Public-Domain-with-Fallback
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:目-seal.svg?oldid=457680101
+  attribution: Dewclouds; Richard Sears transcription with per-file permission, see source-notices/HISTORICAL-FORMS-NOTICE.md
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">目-seal.svg</span>” vector image is depicting the character 目 (5-stroke
+    traditional <i>Kangxi</i> radical 109 目 + 3 strokes, ancient <i>Shuowen</i> radical 099) in the <a href="//commons.wikimedia.org/wiki/Category:Shuowen_seal_script_characters_(SVG)"
+    title="Category:Shuowen seal script characters (SVG)"><i>Shuowen seal</i> script style</a>.<br> See also Wiktionary:
+    <a href="https://en.wiktionary.org/wiki/en:%E7%9B%AE" class="extiw" title="wikt:en:目">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E7%9B%AE"
+    class="extiw" title="wikt:fr:目">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E7%9B%AE" class="extiw"
+    title="wikt:ja:目">ja</a>, <a href="https://en.wiktionary.org/wiki/zh:%E7%9B%AE" class="extiw" title="wikt:zh:目">zh</a>.'
+  selector: pageRevision=457680101; upload=2013-05-04T03:58:17Z; SHA-256=b4938812aefc02c07c6974af4ca64acf7ec68c6efed6af4415ad3452682620ec
+  dateIsUploadDateOnly: true
+- id: commons-u5c71-oracle-svg
+  kind: historical-transcription
+  subject: 山
+  path: assets/historical-forms/山-oracle.svg
+  sha256: 21a08b3b031b6df86cdd834b879f343dc677b897f1da2f393106d97df67979f5
+  source: commons-wargaz-shan
+  revision: '318110029'
+  descriptionReference: commons-u5c71-oracle-svg-description
+  mediaReference: commons-u5c71-oracle-svg-binary
+  license: Public-Domain
+  licenseEvidenceURL: https://commons.wikimedia.org/wiki/File:山-oracle.svg?oldid=318110029
+  attribution: Wargaz via Wikimedia Commons
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: 'This “<span style="color:#080">山-oracle-Shang.svg</span>” vector image is depicting the character
+    山 (3-stroke traditional <i>Kangxi</i> radical 046 山 + 7 strokes, ancient <i>Shuowen</i> radical 350) in the
+    <a href="//commons.wikimedia.org/wiki/Category:Shang_oracle_script_characters_(SVG)" title="Category:Shang oracle
+    script characters (SVG)"><i>Shang oracle</i> script style</a>.<br> See also Wiktionary: <a href="https://en.wiktionary.org/wiki/en:%E5%B1%B1"
+    class="extiw" title="wikt:en:山">en</a>, <a href="https://en.wiktionary.org/wiki/fr:%E5%B1%B1" class="extiw"
+    title="wikt:fr:山">fr</a>, <a href="https://en.wiktionary.org/wiki/ja:%E5%B1%B1" class="extiw" title="wikt:ja:山">ja</a>,
+    <a href="https://en.wiktionary.org/wiki/zh:%E5%B1%B1" class="extiw" title="wikt:zh:山">zh</a>.'
+  selector: pageRevision=318110029; upload=2018-05-17T07:09:00Z; SHA-256=21a08b3b031b6df86cdd834b879f343dc677b897f1da2f393106d97df67979f5
+  dateIsUploadDateOnly: true
+- id: kanji-alive-drawing-u5c71
+  kind: educational-radical-illustration
+  subject: 山
+  path: assets/educational-radicals/山.svg
+  sha256: ca59c5f464594230c4915292efefd04d9a112d85ca52d93d9af7ea136af68759
+  source: kanji-alive-radical-media
+  revision: e1e24d39fc43e839948a8c7e99743b0994dedad5
+  descriptionReference: kanji-alive-radical-animations
+  mediaReference: kanji-alive-radical-animations
+  selector: archive-member=radical-animations/yama0.svg; memberSHA256=ca59c5f464594230c4915292efefd04d9a112d85ca52d93d9af7ea136af68759;
+    title=Mountain
+  license: CC-BY
+  licenseEvidenceURL: https://creativecommons.org/licenses/by/4.0/
+  attribution: Kanji Alive; https://kanjialive.com/credits/
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: Mountain
+  dateIsUploadDateOnly: false
+- id: kanji-alive-drawing-u6728
+  kind: educational-radical-illustration
+  subject: 木
+  path: assets/educational-radicals/木.svg
+  sha256: 8fe35d6ae5e22dd9cb23390ac949c73682cfaced09002b6ca4510cb89f2863b8
+  source: kanji-alive-radical-media
+  revision: e1e24d39fc43e839948a8c7e99743b0994dedad5
+  descriptionReference: kanji-alive-radical-animations
+  mediaReference: kanji-alive-radical-animations
+  selector: archive-member=radical-animations/ki0.svg; memberSHA256=8fe35d6ae5e22dd9cb23390ac949c73682cfaced09002b6ca4510cb89f2863b8;
+    title=Tree / wood
+  license: CC-BY
+  licenseEvidenceURL: https://creativecommons.org/licenses/by/4.0/
+  attribution: Kanji Alive; https://kanjialive.com/credits/
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: Tree / wood
+  dateIsUploadDateOnly: false
+- id: kanji-alive-drawing-u8c9d
+  kind: educational-radical-illustration
+  subject: 貝
+  path: assets/educational-radicals/貝.svg
+  sha256: 2339bae6421aadb818a1670c11f27ec57ab71fdfcfbdefb9b9a8db641207d598
+  source: kanji-alive-radical-media
+  revision: e1e24d39fc43e839948a8c7e99743b0994dedad5
+  descriptionReference: kanji-alive-radical-animations
+  mediaReference: kanji-alive-radical-animations
+  selector: archive-member=radical-animations/kai0.svg; memberSHA256=2339bae6421aadb818a1670c11f27ec57ab71fdfcfbdefb9b9a8db641207d598;
+    title=Shell
+  license: CC-BY
+  licenseEvidenceURL: https://creativecommons.org/licenses/by/4.0/
+  attribution: Kanji Alive; https://kanjialive.com/credits/
+  status: candidate
+  reviewState: pending-distinct-asset-review
+  scriptLabel: Shell
+  dateIsUploadDateOnly: false

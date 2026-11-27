@@ -1,0 +1,28 @@
+---
+id: visual-u6208-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u6208
+revision: ab57565a8ab5e494e96cdf511bf28c547fa1e9331c971ca4ac26ed225008e8d7
+localizedRevision: ab57565a8ab5e494e96cdf511bf28c547fa1e9331c971ca4ac26ed225008e8d7
+status: candidate
+claimText: 戈 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6226
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06226-g8; strokes=kvg:06226-s10,kvg:06226-s11,kvg:06226-s12,kvg:06226-s13
+- reference: kanjivg-6226
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06226-g8; strokes=kvg:06226-s10,kvg:06226-s11,kvg:06226-s12,kvg:06226-s13
+review:
+  state: pending

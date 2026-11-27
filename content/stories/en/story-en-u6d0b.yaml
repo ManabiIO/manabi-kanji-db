@@ -1,0 +1,57 @@
+---
+id: story-en-u6d0b
+kind: mnemonic
+subject:
+  type: character
+  literal: 洋
+  codepoint: U+6D0B
+revision: 9890c27b35a91d0c43f462e2a90d424eadad25976bf03a59f963a3e9a679286e
+localizedRevision: 425a6dce1d165e12116f6337a864cf914517a03ca9bbd954f0bd79229d9537eb
+status: candidate
+claimText: A sheep dipped a hoof in the water and sent a ripple across the entire ocean.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='洋']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6d0b
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06d0b-g1; strokes=kvg:06d0b-s1,kvg:06d0b-s2,kvg:06d0b-s3
+- reference: kanjivg-6d0b
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06d0b-g2; strokes=kvg:06d0b-s4,kvg:06d0b-s5,kvg:06d0b-s6,kvg:06d0b-s7,kvg:06d0b-s8,kvg:06d0b-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 9890c27b35a91d0c43f462e2a90d424eadad25976bf03a59f963a3e9a679286e
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:56f8558a94a7fa9f72e68e8448f55e03823531dd45bc26b527c9abcb0ee364f5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:56f8558a94a7fa9f72e68e8448f55e03823531dd45bc26b527c9abcb0ee364f5
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='洋']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6d0b
+    occurrence: kvg:06d0b-g1
+    labelClaim: visual-u6c35-water
+    authoredForm: 氵
+    crosswalk: null
+  - structure: kv-6d0b
+    occurrence: kvg:06d0b-g2
+    labelClaim: visual-u7f8a-sheep
+    authoredForm: 羊
+    crosswalk: null
+  fiction: true
+  textRevision: 425a6dce1d165e12116f6337a864cf914517a03ca9bbd954f0bd79229d9537eb

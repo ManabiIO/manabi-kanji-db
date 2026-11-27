@@ -1,0 +1,57 @@
+---
+id: story-en-u67cf
+kind: mnemonic
+subject:
+  type: character
+  literal: 柏
+  codepoint: U+67CF
+revision: b8c78ef746244e32e899682c72b585fe150cfa63de13ce9ca3aed67ac6594ffd
+localizedRevision: f54bd24e5cd721f6812f438bd01cf363d156c3bf159e4f38622b1c113d009241
+status: candidate
+claimText: After a snowfall, a fox looked out from its burrow and saw that the old oak tree had turned white.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='柏']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-67cf
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:067cf-g1; strokes=kvg:067cf-s1,kvg:067cf-s2,kvg:067cf-s3,kvg:067cf-s4
+- reference: kanjivg-67cf
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:067cf-g2; strokes=kvg:067cf-s5,kvg:067cf-s6,kvg:067cf-s7,kvg:067cf-s8,kvg:067cf-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: b8c78ef746244e32e899682c72b585fe150cfa63de13ce9ca3aed67ac6594ffd
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9c9d2908c2718e10da54ffe48685e03980755837c45e6cfe59e82e7a5e8e56dc|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9c9d2908c2718e10da54ffe48685e03980755837c45e6cfe59e82e7a5e8e56dc
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='柏']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-67cf
+    occurrence: kvg:067cf-g1
+    labelClaim: visual-u6728-tree
+    authoredForm: 木
+    crosswalk: null
+  - structure: kv-67cf
+    occurrence: kvg:067cf-g2
+    labelClaim: visual-u767d-white
+    authoredForm: 白
+    crosswalk: null
+  fiction: true
+  textRevision: f54bd24e5cd721f6812f438bd01cf363d156c3bf159e4f38622b1c113d009241

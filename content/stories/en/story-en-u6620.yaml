@@ -1,0 +1,57 @@
+---
+id: story-en-u6620
+kind: mnemonic
+subject:
+  type: character
+  literal: 映
+  codepoint: U+6620
+revision: fc380ef5bc844b5b0aee3233292a23f98133ff8f535024f7981a766b5fa3aae9
+localizedRevision: 73c439f0af0ec6fd736868d7ba93fbf860a53aaa91205d9966dcb87a692c086e
+status: candidate
+claimText: A mirror at the center of the plaza could reflect the sun onto every balcony at once.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='映']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-6620
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:06620-g1; strokes=kvg:06620-s1,kvg:06620-s2,kvg:06620-s3,kvg:06620-s4
+- reference: kanjivg-6620
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:06620-g2; strokes=kvg:06620-s5,kvg:06620-s6,kvg:06620-s7,kvg:06620-s8,kvg:06620-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: fc380ef5bc844b5b0aee3233292a23f98133ff8f535024f7981a766b5fa3aae9
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5ed36e6da7584a5febd583797e4f6c8e8ec0dba9a5c8ac524234b96a707dbef2|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5ed36e6da7584a5febd583797e4f6c8e8ec0dba9a5c8ac524234b96a707dbef2
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='映']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-6620
+    occurrence: kvg:06620-g1
+    labelClaim: visual-u65e5-sun
+    authoredForm: 日
+    crosswalk: null
+  - structure: kv-6620
+    occurrence: kvg:06620-g2
+    labelClaim: visual-u592e-center
+    authoredForm: 央
+    crosswalk: null
+  fiction: true
+  textRevision: 73c439f0af0ec6fd736868d7ba93fbf860a53aaa91205d9966dcb87a692c086e

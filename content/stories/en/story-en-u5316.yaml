@@ -1,0 +1,57 @@
+---
+id: story-en-u5316
+kind: mnemonic
+subject:
+  type: character
+  literal: 化
+  codepoint: U+5316
+revision: 01048b25c8a620e372991717e22c1f9b2dc1c0a7caedb1d0ab11a86ee09251f8
+localizedRevision: e80a0ba56954ebb53e4ef865ca5719f73da8e8c1a8f995e7ca2746613c623c0a
+status: candidate
+claimText: A person stirred the pond with a silver spoon and watched the water change into ink.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='化']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-5316
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:05316-g1; strokes=kvg:05316-s1,kvg:05316-s2
+- reference: kanjivg-5316
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:05316-g2; strokes=kvg:05316-s3,kvg:05316-s4
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 01048b25c8a620e372991717e22c1f9b2dc1c0a7caedb1d0ab11a86ee09251f8
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:839e2d5100af3d1ffe56c0dea3d01dd9393b8921bae0b4b9915c06a8666cc332|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:839e2d5100af3d1ffe56c0dea3d01dd9393b8921bae0b4b9915c06a8666cc332
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='化']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-5316
+    occurrence: kvg:05316-g1
+    labelClaim: visual-u4ebb-person
+    authoredForm: 亻
+    crosswalk: null
+  - structure: kv-5316
+    occurrence: kvg:05316-g2
+    labelClaim: visual-u5315-spoon
+    authoredForm: 匕
+    crosswalk: null
+  fiction: true
+  textRevision: e80a0ba56954ebb53e4ef865ca5719f73da8e8c1a8f995e7ca2746613c623c0a

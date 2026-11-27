@@ -1,0 +1,57 @@
+---
+id: story-en-u8aad
+kind: mnemonic
+subject:
+  type: character
+  literal: 読
+  codepoint: U+8AAD
+revision: 4cc12dac7d6dc0835ff7ab4d37ac039dd90a02633d461c33f8af4974f5753488
+localizedRevision: 12ede38f5b7e3c7dd1c525f419f4952e4d44200a18cbc0d469c1492188a1734a
+status: candidate
+claimText: A vendor made it a rule to sell a letter only after the buyer could read its words aloud.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='読']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-8aad
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:08aad-g1; strokes=kvg:08aad-s1,kvg:08aad-s2,kvg:08aad-s3,kvg:08aad-s4,kvg:08aad-s5,kvg:08aad-s6,kvg:08aad-s7
+- reference: kanjivg-8aad
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:08aad-g3; strokes=kvg:08aad-s10,kvg:08aad-s11,kvg:08aad-s12,kvg:08aad-s13,kvg:08aad-s14,kvg:08aad-s8,kvg:08aad-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 4cc12dac7d6dc0835ff7ab4d37ac039dd90a02633d461c33f8af4974f5753488
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f4969a80b133b1112eae12993b6dc3b7a70a43d6db07c233c902dafaf19c2593|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f4969a80b133b1112eae12993b6dc3b7a70a43d6db07c233c902dafaf19c2593
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='読']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-8aad
+    occurrence: kvg:08aad-g1
+    labelClaim: visual-u8a00-word
+    authoredForm: 言
+    crosswalk: null
+  - structure: kv-8aad
+    occurrence: kvg:08aad-g3
+    labelClaim: visual-u58f2-sell
+    authoredForm: 売
+    crosswalk: null
+  fiction: true
+  textRevision: 12ede38f5b7e3c7dd1c525f419f4952e4d44200a18cbc0d469c1492188a1734a

@@ -1,0 +1,28 @@
+---
+id: visual-u7a74-shape
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7a74
+revision: fbda407fa2594008b24faef2be4625224e6fbbc82e5213fc2b8f9b4eabdb64c4
+localizedRevision: fbda407fa2594008b24faef2be4625224e6fbbc82e5213fc2b8f9b4eabdb64c4
+status: candidate
+claimText: 穴 shape
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi Kanji DB import adapter
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7a7a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07a7a-g1; strokes=kvg:07a7a-s1,kvg:07a7a-s2,kvg:07a7a-s3,kvg:07a7a-s4,kvg:07a7a-s5
+- reference: kanjivg-7a7a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07a7a-g1; strokes=kvg:07a7a-s1,kvg:07a7a-s2,kvg:07a7a-s3,kvg:07a7a-s4,kvg:07a7a-s5
+review:
+  state: pending

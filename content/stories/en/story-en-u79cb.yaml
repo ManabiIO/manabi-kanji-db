@@ -1,0 +1,57 @@
+---
+id: story-en-u79cb
+kind: mnemonic
+subject:
+  type: character
+  literal: 秋
+  codepoint: U+79CB
+revision: 884453776df095b0f0540e8962d397bc470eab0cf3fa1f98f6b55689c82a1e4d
+localizedRevision: ef21d1f20e7481942bdfce9b34430b4cedf58a6c733b80e778389d85e1ff719b
+status: candidate
+claimText: In autumn, the farmer lit a fire beside the grain field and roasted chestnuts at dusk.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/stories
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjidic2-identity-snapshot
+  claimField: story.targetReference
+  supportType: exact-source-meaning-selector
+  selector: character[literal='秋']/reading_meaning/rmgroup[1]/meaning[1]
+- reference: kanjivg-79cb
+  claimField: story.occurrences[0]
+  supportType: exact-component-occurrence
+  selector: kvg:079cb-g1; strokes=kvg:079cb-s1,kvg:079cb-s2,kvg:079cb-s3,kvg:079cb-s4,kvg:079cb-s5
+- reference: kanjivg-79cb
+  claimField: story.occurrences[1]
+  supportType: exact-component-occurrence
+  selector: kvg:079cb-g4; strokes=kvg:079cb-s6,kvg:079cb-s7,kvg:079cb-s8,kvg:079cb-s9
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/sources
+  reviewedAt: '2026-11-27'
+  claimRevision: 884453776df095b0f0540e8962d397bc470eab0cf3fa1f98f6b55689c82a1e4d
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:23babbf0a3a699a3cd39a7430114dd8719ef39ba1080c76047f9dc2a3deb20be|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:23babbf0a3a699a3cd39a7430114dd8719ef39ba1080c76047f9dc2a3deb20be
+  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
+    occurrences match the cited Japanese glyph strokes.
+story:
+  locale: en
+  originality: original
+  targetReference: kanjidic2-identity-snapshot
+  targetSelector: character[literal='秋']/reading_meaning/rmgroup[1]/meaning[1]
+  occurrences:
+  - structure: kv-79cb
+    occurrence: kvg:079cb-g1
+    labelClaim: visual-u79be-grain
+    authoredForm: 禾
+    crosswalk: null
+  - structure: kv-79cb
+    occurrence: kvg:079cb-g4
+    labelClaim: visual-u706b-fire
+    authoredForm: 火
+    crosswalk: null
+  fiction: true
+  textRevision: ef21d1f20e7481942bdfce9b34430b4cedf58a6c733b80e778389d85e1ff719b
