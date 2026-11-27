@@ -7,7 +7,7 @@ subject:
   codepoint: U+601D
 revision: 6ba4a67da5bdf4fabbfd245fec6ec016dca551577a318525e9e682f48f9bd6ba
 localizedRevision: 8ee762d0593b84c04569e49643f7e7e9b1108d1258c6577e6b326ec60c214edf
-status: candidate
+status: approved
 claimText: With her heart pounding, the farmer tried to think of a way to coax a sleeping bear out of the rice field.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 6ba4a67da5bdf4fabbfd245fec6ec016dca551577a318525e9e682f48f9bd6ba
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:fb848f8214527a4b46082707b98ef0f5beb4a04b9c36161091840c06c7c1950e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:fb848f8214527a4b46082707b98ef0f5beb4a04b9c36161091840c06c7c1950e
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

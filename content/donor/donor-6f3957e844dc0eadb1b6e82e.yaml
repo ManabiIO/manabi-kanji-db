@@ -1,0 +1,32 @@
+id: donor-6f3957e844dc0eadb1b6e82e
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-631f
+  occurrence: kvg:0631f-g2
+revision: 13e125dc864afd9fe30299491d0eb3f8f8eaaa0139a162b5fc9821e2afecf18b
+localizedRevision: f10d0cdc450ee505745059b3245f873012decd5e2226e6aa7e4cd15b484d6b18
+status: candidate
+claimText: 挟 uses the 夹-shaped component corresponding to 夾 as a historical sound clue; Japanese readings can differ.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93444252-e047671b3d3a
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/挟/1
+- reference: kanjivg-631f
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0631f-g2
+review:
+  state: pending

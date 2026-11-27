@@ -1,0 +1,29 @@
+id: donor-30365deb1ca6b2994e1debbc
+kind: historical-origin
+subject:
+  type: character
+  literal: 愛
+  codepoint: U+611B
+revision: a184a2388b95096c9c318a662ad61d35f2b0026ca9444d574dfb90498e35a666
+localizedRevision: 189e656b8c77ca7c75ecf5af37000e3dfc90890eed58d6e8bcad575f1348e78f
+status: candidate
+claimText: Earlier forms combined 心, heart, with a sound element written 旡. The upper shape changed over time; 心
+  remains recognizable.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93580139-165ee4d81dfc
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/愛/1
+review:
+  state: pending

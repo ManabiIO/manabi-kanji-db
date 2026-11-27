@@ -7,7 +7,7 @@ subject:
   codepoint: U+805E
 revision: b01985fea839e41b3323e467dc89ac1f5c3785446de9ab86ac2a81c0387dad51
 localizedRevision: b3d37d1843c7c1eaee20506d74d15b8a0c72222b5368f02433331f4db9ad7f5d
-status: candidate
+status: approved
 claimText: A girl pressed her ear against the gate to hear the orchestra rehearsing inside.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: b01985fea839e41b3323e467dc89ac1f5c3785446de9ab86ac2a81c0387dad51
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:57845cec420c337f86522e2b4a7284a5cd8c10796254f7f161d0a6453fc413df|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:57845cec420c337f86522e2b4a7284a5cd8c10796254f7f161d0a6453fc413df
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

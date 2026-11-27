@@ -1,0 +1,28 @@
+id: donor-3b7484ca193155a85f5216e1
+kind: historical-origin
+subject:
+  type: character
+  literal: 高
+  codepoint: U+9AD8
+revision: cf84a8d7afd7cc6094b3d45c209ed3673d026a39bc9d9ae390fce9bace90373b
+localizedRevision: ffddef754cd2949fe3f0a822b793c71978c19e054892f8d7dce1c3d9068223df
+status: candidate
+claimText: An early picture of a tall building.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93421465-2f83fadb2863
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/高/1
+review:
+  state: pending

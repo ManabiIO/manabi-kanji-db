@@ -7,7 +7,7 @@ subject:
   codepoint: U+6674
 revision: 9b32fbe1ef925ca6de467b8c8c808340a095d41e09a583ae49c9a4e37937d43c
 localizedRevision: 24150ee745088f25da06557f314c3bc860e6dc51fbddf5eaf941dc4c86d1819a
-status: candidate
+status: approved
 claimText: The sun saw a patch of blue over the harbor and decided the weather could finally clear up.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9b32fbe1ef925ca6de467b8c8c808340a095d41e09a583ae49c9a4e37937d43c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8d92bcc62a8ef381873e409d76a463092db196e94526bad763f7e9e1fdfd78e1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8d92bcc62a8ef381873e409d76a463092db196e94526bad763f7e9e1fdfd78e1
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

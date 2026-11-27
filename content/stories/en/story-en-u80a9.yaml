@@ -7,7 +7,7 @@ subject:
   codepoint: U+80A9
 revision: f36fd52fa01eecfd0f7554ef49817edeaeddbefe70fdfbb081e7765417598a33
 localizedRevision: 39c52222bea3fcf7363391e4fdd2eb8fa304ee24539f53d0ffcd74baa1bfe3a3
-status: candidate
+status: approved
 claimText: A tiny door rested on the giant's shoulder; when he lifted his arm, its hinge pressed into the flesh
   beneath it.
 targetLanguage: ja
@@ -36,8 +36,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f36fd52fa01eecfd0f7554ef49817edeaeddbefe70fdfbb081e7765417598a33
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3fbdb06690743124ae86049cbaaa2be28b9327e83f74eeea59ea3255542980e5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3fbdb06690743124ae86049cbaaa2be28b9327e83f74eeea59ea3255542980e5
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

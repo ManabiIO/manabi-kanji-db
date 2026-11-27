@@ -7,7 +7,7 @@ subject:
   codepoint: U+8A18
 revision: 881661e5de571ec895d983fcdec6e7f3fc8b43a1300ab763f81cef829b38d71c
 localizedRevision: 91a77c79c674b8c8c11e49d28667a1f4a2162ef60cfe3b57193a191465fe95b0
-status: candidate
+status: approved
 claimText: Before the bats woke, the explorer wrote down the cave’s echoes in her own words.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 881661e5de571ec895d983fcdec6e7f3fc8b43a1300ab763f81cef829b38d71c
   sourceRevision: kanji-alive-scoped-kmeaning:966def0104648e83c3f95538c414c4862cba1bbf:7b463876a0837bfb1f754a4e1bec43617b62f92b9839bbdf060d6ad0d8dbaf65|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c23eb8296df406028601d1866b23769a4f1480e2f684433135ce2018fddea45d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c23eb8296df406028601d1866b23769a4f1480e2f684433135ce2018fddea45d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

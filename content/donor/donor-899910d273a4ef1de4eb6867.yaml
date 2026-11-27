@@ -1,0 +1,32 @@
+id: donor-899910d273a4ef1de4eb6867
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-6674
+  occurrence: kvg:06674-g1
+revision: d05fb3ea1ce69e83f68f686b4d4bdf89ee67727f8b65b7c10d4c565a54a37eac
+localizedRevision: b1ad89b7901425a445cbd32d7b56b3e21a80cf6d781a72b871f1a347022c9bbf
+status: candidate
+claimText: 日 represents the sun in 晴, clear weather.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92200676-d3f06740356b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/晴/1
+- reference: kanjivg-6674
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06674-g1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-dcec7e178011bcc2d43c934d
+kind: historical-origin
+subject:
+  type: character
+  literal: 大
+  codepoint: U+5927
+revision: b3bec6a07a49658120c1cbe72a17cc1a04f6532ddfc4119e0b05ae98f512c848
+localizedRevision: 7548c867c7488d241e5e79a2ea26a2bae2e3412e64c72a7e08e8d20bcb52fba4
+status: candidate
+claimText: A picture of a person seen from the front.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93531344-6ef688e36184
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/大/1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-8bbf6cfc802d73989db8d4cc
+kind: historical-origin
+subject:
+  type: character
+  literal: 鳴
+  codepoint: U+9CF4
+revision: 71ae112dafd716d8e2dbb1a83431d5918ac0631785bda935342241b68d64504b
+localizedRevision: a51a4a869556a50958881a6f40041701cad555e307b2507f3c5864a5082ad874
+status: candidate
+claimText: 口 mouth combines with 鳥 bird for a bird's cry.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-87588760-2bce8d7ec21d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/鳴/1
+review:
+  state: pending

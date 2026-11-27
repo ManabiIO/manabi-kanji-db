@@ -7,7 +7,7 @@ subject:
   codepoint: U+548C
 revision: 018211540989fada72817b712c08829c4668b91d58a50258a6ea79401fa72635
 localizedRevision: 24e4f0270bc46355b9a764ad279b854e4e0d466fbedd1486b2124f1265b432dc
-status: candidate
+status: approved
 claimText: Workers chewing grain with their mouths full somehow hummed in perfect harmony.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 018211540989fada72817b712c08829c4668b91d58a50258a6ea79401fa72635
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6429e36758a2b421d56adc70e682a00e024f410aed08055a1bbf47f3a943aa76|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6429e36758a2b421d56adc70e682a00e024f410aed08055a1bbf47f3a943aa76
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

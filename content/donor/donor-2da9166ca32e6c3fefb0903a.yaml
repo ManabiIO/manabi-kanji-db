@@ -1,0 +1,28 @@
+id: donor-2da9166ca32e6c3fefb0903a
+kind: historical-origin
+subject:
+  type: character
+  literal: 腕
+  codepoint: U+8155
+revision: 16cb84a89cce5d103db3e8bb4b86321d29fefad23e433abce9323165df3bf0e2
+localizedRevision: 646bfc98485dc048d681e9fba845d376ab961673d592678feb2ba04530824c37
+status: candidate
+claimText: In 腕, arm, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93606098-4206a8ce44ac
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/腕/1
+review:
+  state: pending

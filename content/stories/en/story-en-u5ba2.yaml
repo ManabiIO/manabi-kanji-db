@@ -7,7 +7,7 @@ subject:
   codepoint: U+5BA2
 revision: d7c393407ebe5ea694b485b491b0f7fa02e8bd6335dc4d6cb5edc9c25fac6830
 localizedRevision: c7320224bdf302ea98220b88b95c00b1933cef64b1ad4850a1b4373ba989685a
-status: candidate
+status: approved
 claimText: Each guest at the inn tied a ribbon to the roof beam before sitting down to supper.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d7c393407ebe5ea694b485b491b0f7fa02e8bd6335dc4d6cb5edc9c25fac6830
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2df05691c4e9c23a184cf985d5d761ea12903363da77ba954d1787f518c52e98|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2df05691c4e9c23a184cf985d5d761ea12903363da77ba954d1787f518c52e98
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

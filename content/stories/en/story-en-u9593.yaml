@@ -7,7 +7,7 @@ subject:
   codepoint: U+9593
 revision: 2ba5d41fcebe6bd66cc45a273a02925016ebc41ca0669e1591517332a9c22884
 localizedRevision: ac06fcd7bf053bd97d482d3fcee139cc2a5c86950e268756a8cb0c6f4db32019
-status: candidate
+status: approved
 claimText: When the sun shone through the gate, the monk knew his brief interval of silence had begun.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 2ba5d41fcebe6bd66cc45a273a02925016ebc41ca0669e1591517332a9c22884
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:150c46920c85cea9b2537bdb6ac4241c778bd11be2a04e59e80729ccdb58bdfd|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:150c46920c85cea9b2537bdb6ac4241c778bd11be2a04e59e80729ccdb58bdfd
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

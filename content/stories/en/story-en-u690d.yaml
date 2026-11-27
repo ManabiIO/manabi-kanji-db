@@ -7,7 +7,7 @@ subject:
   codepoint: U+690D
 revision: bbccfc95f7cc853a0c05296241a6bf3515b5a0dba6f08581559ea1aa367d4f99
 localizedRevision: 07b863c1f2f458a47658a6cfd365639d27f2f3ca904b9e2656e9178e10b32597
-status: candidate
+status: approved
 claimText: The mayor decided to plant the tree straight after a crooked one walked away on its roots.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: bbccfc95f7cc853a0c05296241a6bf3515b5a0dba6f08581559ea1aa367d4f99
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:584c27c6a97c7267adc8d4e70873c53b660e9c86c5efae6ec76b4117747f4972|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:584c27c6a97c7267adc8d4e70873c53b660e9c86c5efae6ec76b4117747f4972
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

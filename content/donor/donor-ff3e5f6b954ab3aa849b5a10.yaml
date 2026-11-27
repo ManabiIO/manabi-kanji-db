@@ -1,0 +1,28 @@
+id: donor-ff3e5f6b954ab3aa849b5a10
+kind: historical-origin
+subject:
+  type: character
+  literal: 車
+  codepoint: U+8ECA
+revision: 0bdaaf84fc36c918625e3f7e4bfeed5162dee9101363ed83e21e8a2f554fe2ee
+localizedRevision: 87d6ef996b68bfd19e866d4ec275790d1254ae2aae852f671edab792a9d5b12f
+status: candidate
+claimText: An early picture of a carriage seen from above, with wheels on either side.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94513764-50e457d1818f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/車/1
+review:
+  state: pending

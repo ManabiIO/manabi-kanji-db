@@ -1,0 +1,32 @@
+id: donor-071fa6a658f3ec09c1d9919f
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-6d77
+  occurrence: kvg:06d77-g1
+revision: 2f750c00f56c6e99dba069ffeb86bcc559441c617c842d64f9b1d7694b987973
+localizedRevision: 6ed648e043cad3163ff90f7a9f0f1e23390d125608f389b524dfc39a8b32801f
+status: candidate
+claimText: 氵 is the water component in 海, sea.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93388184-75ce86708472
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/海/1
+- reference: kanjivg-6d77
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06d77-g1
+review:
+  state: pending

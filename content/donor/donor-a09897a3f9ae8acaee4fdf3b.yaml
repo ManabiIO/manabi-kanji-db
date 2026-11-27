@@ -1,0 +1,28 @@
+id: donor-a09897a3f9ae8acaee4fdf3b
+kind: historical-origin
+subject:
+  type: character
+  literal: 火
+  codepoint: U+706B
+revision: 2e9025d492834b2da55989ed0b804cf6326b53c25b13605d5ab855a2ee9af077
+localizedRevision: 5416a7b2f946cdc9fafe216ea69bb308e68a178c4ecaa7e2a02394e5b02bd3ca
+status: candidate
+claimText: 火 began as a picture of fire, with strokes spreading upward like flames.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94507178-82eec6723712
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/火/1
+review:
+  state: pending

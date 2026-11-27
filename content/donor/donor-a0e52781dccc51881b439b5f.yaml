@@ -1,0 +1,28 @@
+id: donor-a0e52781dccc51881b439b5f
+kind: historical-origin
+subject:
+  type: character
+  literal: 土
+  codepoint: U+571F
+revision: 3b0dc9f50afa590d2b9458e4227b86e6ee9a4366888a00da38b7789000a61dab
+localizedRevision: 0e60bbca221dae7b640251631eb9923dff149f47713f477a3fef95eab44408d0
+status: candidate
+claimText: An early picture of a mound of earth.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94507204-8ea2dd0050dd
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/土/1
+review:
+  state: pending

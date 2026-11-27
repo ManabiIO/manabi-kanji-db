@@ -1,0 +1,28 @@
+id: donor-48122b43471b53b25b9dd16b
+kind: historical-origin
+subject:
+  type: character
+  literal: 立
+  codepoint: U+7ACB
+revision: 40c2215f1e060494d4391d3132a19a6d7400107ac6d293dfe5444f8b06c6eea4
+localizedRevision: 70b07fcfa7849f813b4c45abeb1a245d2fed6182456af66fe945126eb89254af
+status: candidate
+claimText: A picture of a person standing on the ground.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92474276-6206736dd721
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/立/1
+review:
+  state: pending

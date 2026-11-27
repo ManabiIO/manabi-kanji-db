@@ -7,7 +7,7 @@ subject:
   codepoint: U+5229
 revision: 5a078cbc0f47de35968514ab0c0e80a7f367efa166a14cce693e0bba83849fd6
 localizedRevision: bc44a5b186de292b8d3f8311147f03ecae911d4723d170c6ffdfad775200259f
-status: candidate
+status: approved
 claimText: With one sharp knife, the farmer harvested enough grain in a day to make a profit.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 5a078cbc0f47de35968514ab0c0e80a7f367efa166a14cce693e0bba83849fd6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2b7e40403a545b6e0dac071fa2008d968e235df94106d296cc424d12a65ddf4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c2b7e40403a545b6e0dac071fa2008d968e235df94106d296cc424d12a65ddf4
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

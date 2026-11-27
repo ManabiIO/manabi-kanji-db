@@ -10,7 +10,9 @@ fields or media. Each notice is retained beside a pinned source record in
   Original notice: `KANJIVG-COPYING.txt`. Only Japanese stroke/group structure
   is imported; the complete KanjiVG drawings are not bundled in this project.
 - **KANJIDIC2** (`2026-331`, file version 4): EDRDG and contributors, CC BY-SA
-  4.0. Only literal and codepoint are retained as the overlay join.
+  4.0. Literal and codepoint provide the overlay join. Individual teaching
+  claims cite exact selected sense or Japanese-reading fields; general reading
+  and meaning lists are not copied.
 - **Kanji Alive Japanese Radicals**: Kanji Alive, CC BY 4.0 for the radical
   language data. Radical names and variant relations are imported from the two
   pinned CSV files. Mnemonic hints, images, animation and font files are
@@ -34,6 +36,16 @@ fields or media. Each notice is retained beside a pinned source record in
   under CC BY 4.0. The exact attribution is in
   `KANJI-ALIVE-ANIMATIONS-NOTICE.md`; these are not historical forms. Hints,
   other graphics, and fonts are excluded.
+- **JMdict and JmdictFurigana**: EDRDG and contributors, and Doublevil and
+  contributors, CC BY-SA 4.0. Selected teaching examples cite exact spelling,
+  reading, and per-character ruby alignment records. Bulk dictionaries and
+  generator code are not included. See `VOCABULARY-EVIDENCE-NOTICE.md`.
+- **CODH 篆書字体データセット v2**: one identified TE00039 seal-script crop
+  under CC BY-SA 4.0. Its original image providers are listed in
+  `CODH-provider.ja.txt`; no full book scan is included.
+- **Academia Sinica 小學堂**: three individual glyph images under CC0 1.0.
+  The selected fontcode identifies each record; fonts and full scans are not
+  included. These assets remain candidates pending distinct asset review.
 
 The corresponding license evidence URLs and exact pins are recorded in the
 source registry. Changes to upstream bytes require a new source revision and

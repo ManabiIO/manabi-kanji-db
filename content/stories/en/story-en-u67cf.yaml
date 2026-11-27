@@ -7,7 +7,7 @@ subject:
   codepoint: U+67CF
 revision: b8c78ef746244e32e899682c72b585fe150cfa63de13ce9ca3aed67ac6594ffd
 localizedRevision: f54bd24e5cd721f6812f438bd01cf363d156c3bf159e4f38622b1c113d009241
-status: candidate
+status: approved
 claimText: After a snowfall, a fox looked out from its burrow and saw that the old oak tree had turned white.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: b8c78ef746244e32e899682c72b585fe150cfa63de13ce9ca3aed67ac6594ffd
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9c9d2908c2718e10da54ffe48685e03980755837c45e6cfe59e82e7a5e8e56dc|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9c9d2908c2718e10da54ffe48685e03980755837c45e6cfe59e82e7a5e8e56dc
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

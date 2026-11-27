@@ -1,0 +1,40 @@
+---
+id: reading-example-u66f8-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 書
+  codepoint: U+66F8
+revision: 20f9c9875239289bdbedf40c809fd52b5eb889b715ce57d746c77e15ea22fff7
+localizedRevision: 4f4499fc153e00f642ac4f2be2c7b01273b2d3741f9c6743018822378f387cd7
+status: approved
+claimText: In 書店 (しょてん), 書 is read しょ.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1344120; keb=書店; reb=しょてん; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=27640; text=書店; reading=しょてん; Unicode scalar index=0 (zero-based); ruby=書; rt=しょ
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/書
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 20f9c9875239289bdbedf40c809fd52b5eb889b715ce57d746c77e15ea22fff7
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

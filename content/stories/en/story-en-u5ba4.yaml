@@ -7,7 +7,7 @@ subject:
   codepoint: U+5BA4
 revision: 8588cab6048d3b9485d6682b6549f5a2803c426dcdf409637af034bb92c5b480
 localizedRevision: b5aed912c2feb1821d8338beff1607fd58a541d1ddae86c82c4a2b0a9d19b0c1
-status: candidate
+status: approved
 claimText: As soon as the family arrived under the new roof, each child raced to claim a room.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 8588cab6048d3b9485d6682b6549f5a2803c426dcdf409637af034bb92c5b480
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:81d43ae2369bc9efeb6bb5bbbf79db7dc5e95c4b5b74ec0b03e2f0fe5ecd5dba|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:81d43ae2369bc9efeb6bb5bbbf79db7dc5e95c4b5b74ec0b03e2f0fe5ecd5dba
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

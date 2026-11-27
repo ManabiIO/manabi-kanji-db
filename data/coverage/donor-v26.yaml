@@ -22,9 +22,9 @@ disposition: All reviewed.json fields preserved as nonpublishable imported candi
   labels are retained only as provenance; new independent evidence, Japanese-applicability and editorial review
   are required before promotion.
 pendingWork:
-- 129 global labels lack per-label public source selectors
-- Whole-character and occurrence claims require exact source-support review
-- 100 vocabulary examples need JMdict entry identities and reading alignment
+- See donor-global-label-evidence.json for term-specific evidence and decisions on all 129 global labels
+- See donor-passages.json for verified public revisions and passage selectors for lessons, occurrences and mappings
+- See donor-v26-reading-examples.yaml for exact JMdict and ruby bindings for 98 examples and the two withheld decisions
 - Parent mappings require exact source-to-KanjiVG group verification
 relationshipImports:
   Kanjium:

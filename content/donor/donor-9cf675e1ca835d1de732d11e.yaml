@@ -1,0 +1,32 @@
+id: donor-9cf675e1ca835d1de732d11e
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-91d0
+  occurrence: kvg:091d0-g1
+revision: 05736255d79c1b944867d20ba3947a8cbf1350b277c94b7f6ff18c01a2884bc2
+localizedRevision: 568ad487e1281c979dfaffe29d43993a21c3a74c50bb3281de1a713155bcfae1
+status: candidate
+claimText: 𠩺 supplies a historical sound component in 釐. Its meaning contribution is disputed.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93594668-5b047d3e9a6c
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/釐/1
+- reference: kanjivg-91d0
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:091d0-g1
+review:
+  state: pending

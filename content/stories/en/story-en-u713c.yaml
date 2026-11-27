@@ -7,7 +7,7 @@ subject:
   codepoint: U+713C
 revision: 64417a68284bd0e6cffba23e4b85f8a198789752a0f434c8948a5e8d713f73e5
 localizedRevision: 2cd4f16442a9be14f03f44647a9e813162fda0141873556ccd2da5884a748c33
-status: candidate
+status: approved
 claimText: The baker stacked the loaves so high in the oven that the fire began to burn the top loaf.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 64417a68284bd0e6cffba23e4b85f8a198789752a0f434c8948a5e8d713f73e5
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6fcefcd36f919234952f91c74171cbaced61be060df8d38f2571cce74cc4cdb3|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6fcefcd36f919234952f91c74171cbaced61be060df8d38f2571cce74cc4cdb3
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

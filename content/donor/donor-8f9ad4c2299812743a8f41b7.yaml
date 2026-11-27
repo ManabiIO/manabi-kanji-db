@@ -1,0 +1,28 @@
+id: donor-8f9ad4c2299812743a8f41b7
+kind: historical-origin
+subject:
+  type: character
+  literal: 利
+  codepoint: U+5229
+revision: 9925fe60d3565c48d7b54cd55d8bd77e5039d8b61a8aa5906af25c0bac34d5cc
+localizedRevision: d76f0dd8782eaa7776f5abf5cd85ddb00e038f86b297fff64f71fc22ef228f6d
+status: candidate
+claimText: 利 combines grain and a knife, expressing reaping grain.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92924034-7199910df4b8
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/利/1
+review:
+  state: pending

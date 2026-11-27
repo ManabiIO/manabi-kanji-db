@@ -1,0 +1,28 @@
+id: donor-e81fa69d263e8e7b4fad2647
+kind: historical-origin
+subject:
+  type: character
+  literal: 毛
+  codepoint: U+6BDB
+revision: 706e3ea7b665d600bef673f0e644509ca204a207d3645600d618d7e8b9bf7fc0
+localizedRevision: d3805580697ea0e3c57d6639ddfe40d76ade6eb896de489cec64233597fcdb64
+status: candidate
+claimText: The older form of 毛 pictures hair or a feather.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93659552-7b445bf523ee
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/毛/1
+review:
+  state: pending

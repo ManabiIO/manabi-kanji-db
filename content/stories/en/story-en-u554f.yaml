@@ -7,7 +7,7 @@ subject:
   codepoint: U+554F
 revision: a0f26885c22a60b8d0db08bfad27a7a0e47eb45312b37780f61a1bde8b0c9189
 localizedRevision: 32cedd23c2cf966d05e1dfe910b23c54d1634f69cdd3cbafc4e20ae16b7548ef
-status: candidate
+status: approved
 claimText: A mouth appeared on the gate and asked a question before it would open.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: a0f26885c22a60b8d0db08bfad27a7a0e47eb45312b37780f61a1bde8b0c9189
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ecd6c690c55d80063cb022b1942f805789a5a1e3ff7979cdb5d8e21307e234ec|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ecd6c690c55d80063cb022b1942f805789a5a1e3ff7979cdb5d8e21307e234ec
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

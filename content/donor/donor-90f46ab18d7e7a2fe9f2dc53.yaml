@@ -1,0 +1,28 @@
+id: donor-90f46ab18d7e7a2fe9f2dc53
+kind: historical-origin
+subject:
+  type: character
+  literal: 求
+  codepoint: U+6C42
+revision: 7ccd954d135d62f53b94ec57dd35957231f49ce861b3c6b4c20e1d14192366d0
+localizedRevision: c54c4d63380dbe6e6d9d2239f22f99caf54392b9eb21896557253accd4a8a44d
+status: candidate
+claimText: The older form of 求 pictures a centipede.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92701689-0242064bab56
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/求/1
+review:
+  state: pending

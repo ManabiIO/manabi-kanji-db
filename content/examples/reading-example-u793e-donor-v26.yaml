@@ -1,0 +1,40 @@
+---
+id: reading-example-u793e-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 社
+  codepoint: U+793E
+revision: 95d7ef64ffb39e8af0e4d9a65ec29dbaeb345c93c8cb9992e6a7ee50781af222
+localizedRevision: 06b8bd8b265525e97ad5a2c61fd6320d2cf35388341aaa056664b0acd73beda7
+status: approved
+claimText: In 社会 (しゃかい), 社 is read しゃ.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1322700; keb=社会; reb=しゃかい; applicable sense indices=1,2
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=24760; text=社会; reading=しゃかい; Unicode scalar index=0 (zero-based); ruby=社; rt=しゃ
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/社
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 95d7ef64ffb39e8af0e4d9a65ec29dbaeb345c93c8cb9992e6a7ee50781af222
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

@@ -1,0 +1,28 @@
+id: donor-afec1291320d88c66747e55d
+kind: historical-origin
+subject:
+  type: character
+  literal: 皮
+  codepoint: U+76AE
+revision: 0ecd95688521c64b9b76b5243d385e314eeaae9bdea534b2c80dbe04bb89d2e9
+localizedRevision: 86a26a52ef52f1dc9acb04783354f47440cd9bae3a5d7b8561a568b8ddb913ee
+status: candidate
+claimText: The older form pictures a hand removing an animal's skin or fur.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93363725-1c4de1adfb29
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/皮/1
+review:
+  state: pending

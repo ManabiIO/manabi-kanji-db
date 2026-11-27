@@ -1,0 +1,28 @@
+id: donor-5b7c8c39415b4d33c4ae5336
+kind: historical-origin
+subject:
+  type: character
+  literal: 足
+  codepoint: U+8DB3
+revision: 7bcc220b3dc322c3e79d9a1f499c0b2767b8069771ff89df0f86cda7305e7c4b
+localizedRevision: 45fe6626185e8c0906b60633be59993c98302b5016bb761b928b1840d289c4cb
+status: candidate
+claimText: An early picture of a leg.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93378193-eb4ea20a4dba
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/足/1
+review:
+  state: pending

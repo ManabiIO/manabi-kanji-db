@@ -1,0 +1,29 @@
+id: donor-eba12bad2a3ed0ad45966f1c
+kind: historical-origin
+subject:
+  type: character
+  literal: 馬
+  codepoint: U+99AC
+revision: 4a95d505d27397a12d5dbb5a81e3d3eec159a77022388ded0483485b76e5064f
+localizedRevision: 741c4e6403580c58756f394b9ca3ae33d71dc5e59b8a03a867547941f45b63c2
+status: candidate
+claimText: The older form pictures a horse with a head, mane and legs. The bottom dots in 馬 developed from legs;
+  they do not mean fire here.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93388368-547255b2b247
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/馬/1
+review:
+  state: pending

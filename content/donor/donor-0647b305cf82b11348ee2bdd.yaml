@@ -1,0 +1,28 @@
+id: donor-0647b305cf82b11348ee2bdd
+kind: historical-origin
+subject:
+  type: character
+  literal: 隻
+  codepoint: U+96BB
+revision: 085d9583def20d520bacb16a19032868eb62c1a9c5a5d961ce3509f5528a89b1
+localizedRevision: 61974972de5bb02ad1a619404245bad063099cb6c1438f7f9807fa17b19d30f2
+status: candidate
+claimText: 隻 combines a bird and a hand, expressing holding one bird.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93449853-48f7fc015cc2
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/隻/1
+review:
+  state: pending

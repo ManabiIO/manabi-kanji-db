@@ -1,0 +1,40 @@
+---
+id: reading-example-u8fd1-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 近
+  codepoint: U+8FD1
+revision: 7cc77d5b5572e207ecb5ed98b5891dc28ca97f367a30d4e137a5b9d40bd74cee
+localizedRevision: fad1390b4a73bf3e0fac5ebedead75891017ef7f5693f1382b959f1e68ae0d55
+status: approved
+claimText: In 近所 (きんじょ), 近 is read きん.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1242350; keb=近所; reb=きんじょ; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=14133; text=近所; reading=きんじょ; Unicode scalar index=0 (zero-based); ruby=近; rt=きん
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/近
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 7cc77d5b5572e207ecb5ed98b5891dc28ca97f367a30d4e137a5b9d40bd74cee
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

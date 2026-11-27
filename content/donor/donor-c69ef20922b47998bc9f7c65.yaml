@@ -1,0 +1,28 @@
+id: donor-c69ef20922b47998bc9f7c65
+kind: historical-origin
+subject:
+  type: character
+  literal: 刃
+  codepoint: U+5203
+revision: 152ed58152a697b1b86d67ea3c3d07632cbe77a2d56ca40cdccc3bfbc0a3398d
+localizedRevision: eff057d89e43de0ffaeb1ab641b19284f945877677cfd557417b7726c47c4a57
+status: candidate
+claimText: 刃 adds a mark to 刀, knife, to identify the blade.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92724746-f594d7a1c165
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/刃/1
+review:
+  state: pending

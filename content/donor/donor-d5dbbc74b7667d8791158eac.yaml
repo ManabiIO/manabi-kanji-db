@@ -1,0 +1,32 @@
+id: donor-d5dbbc74b7667d8791158eac
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-73e0
+  occurrence: kvg:073e0-g1
+revision: f4f2594fb7cfaf22b914a95ed9e1f650bcf23e25606b0438c3ca9947c2cf8fd9
+localizedRevision: 104f1d8c607f90a82371b3a82384745048fb1e098ecb97c4d9ef5d223fd54ecd
+status: candidate
+claimText: This 王 form represents 玉, jade, and supplies the meaning in 珠.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92678570-81a749209882
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/珠/1
+- reference: kanjivg-73e0
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:073e0-g1
+review:
+  state: pending

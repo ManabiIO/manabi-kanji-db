@@ -1,0 +1,29 @@
+id: donor-52db2e0e426ca68166389855
+kind: historical-origin
+subject:
+  type: character
+  literal: 能
+  codepoint: U+80FD
+revision: 1e0a628b7e8bd04b9f49c1befe0a13c0c427c4c2e2c4ecb991610713c7cbd5b3
+localizedRevision: fafcfab8ffc78a0386b248cb1d0ffdc6ee2ee6551f15385b82a7dab121ef66ef
+status: candidate
+claimText: 能 began as a bear picture. The two 匕-shaped parts represent paws, and the 月-shaped part developed from
+  its face and open mouth.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93546319-db35b7df3da1
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/能/1
+review:
+  state: pending

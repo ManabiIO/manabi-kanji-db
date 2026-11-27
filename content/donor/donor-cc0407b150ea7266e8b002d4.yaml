@@ -1,0 +1,29 @@
+id: donor-cc0407b150ea7266e8b002d4
+kind: historical-origin
+subject:
+  type: character
+  literal: 東
+  codepoint: U+6771
+revision: 2c59b8e62fe2156e87fece16f4880dd2f43710f68cadf08c77a83c8477e5a9ed
+localizedRevision: 7f29d06f451c674b8eebaad910ed035188fa23a305ac18519c8406d19f5969aa
+status: candidate
+claimText: The older form pictures a full bag tied at both ends. The sun-and-tree interpretation does not match
+  the early shape.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93776654-30bec5091a5e
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/東/1
+review:
+  state: pending

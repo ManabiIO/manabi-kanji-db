@@ -310,7 +310,12 @@ def main() -> int:
                 "parentMappings": len(donor_doc.get("parentMappings", {})), "historyPresentationSettings": len(donor_doc.get("historyPresentation", {})),
                 "candidateRowsPreserved": len(donor_items)},
                 "disposition": "All reviewed.json fields preserved as nonpublishable imported candidates. Source-level prior review labels are retained only as provenance; new independent evidence, Japanese-applicability and editorial review are required before promotion.",
-                "pendingWork": ["129 global labels lack per-label public source selectors", "Whole-character and occurrence claims require exact source-support review", "100 vocabulary examples need JMdict entry identities and reading alignment", "Parent mappings require exact source-to-KanjiVG group verification"]}
+                "pendingWork": [
+                    "See donor-global-label-evidence.json for term-specific evidence and decisions on all 129 global labels",
+                    "See donor-passages.json for verified public revisions and passage selectors for lessons, occurrences and mappings",
+                    "See donor-v26-reading-examples.yaml for exact JMdict and ruby bindings for 98 examples and the two withheld decisions",
+                    "Parent mappings require exact source-to-KanjiVG group verification",
+                ]}
     coverage["relationshipImports"] = {
         "Kanjium": {"revision": KANJIUM_COMMIT, "phoneticFamilyRows": len(phonetics),
                     "phoneticMembershipRows": sum(row["kind"] == "kanjium-phonetic-membership" for row in import_rows),
@@ -418,11 +423,19 @@ def main() -> int:
 
     def jsonl(rows: list[dict]) -> bytes:
         return b"".join(json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode() + b"\n" for row in rows)
+    asset_manifest = root / "assets/assets.yaml"
+    owned_sources = {"commons-acc-sears", "commons-wargaz-shan", "kanji-alive-radical-media"}
+    if asset_manifest.is_file():
+        from kanjidb.yamlio import load
+        asset_rows.extend(row for row in load(asset_manifest)["items"] if row["source"] not in owned_sources)
+    asset_doc = {"version": 1, "items": asset_rows}
+    asset_bytes = (asset_manifest.read_bytes() if asset_manifest.is_file() and load(asset_manifest) == asset_doc
+                   else yaml_bytes(asset_doc))
     outputs = {
         root / "data/imports/relationships.jsonl": jsonl([row for row in import_rows if row["source"] != "manabidictionaries-editorial-v26"]),
         root / "data/imports/donor-v26.jsonl": b"".join(json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode() + b"\n" for row in import_rows if row["source"] == "manabidictionaries-editorial-v26"),
         root / "data/coverage/donor-v26.yaml": yaml_bytes(coverage),
-        root / "assets/assets.yaml": yaml_bytes({"version": 1, "items": asset_rows}),
+        asset_manifest: asset_bytes,
     }
     registry_path = root / "sources/registry.yaml"
     if registry_path.is_symlink():

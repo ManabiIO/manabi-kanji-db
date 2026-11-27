@@ -1,0 +1,28 @@
+id: donor-b8a14a47c71ba47b314ea436
+kind: historical-origin
+subject:
+  type: character
+  literal: 口
+  codepoint: U+53E3
+revision: bc60ef2be7296e13dc66507e1d352e5741da5a36d4e2a9031bd8ef8c4c654b32
+localizedRevision: 36a405755a00d91495cd3701bb194eb0f98ffaf348649288913cc51d949d96a2
+status: candidate
+claimText: The outline represents an open mouth.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93606013-eaf0c4a3e10d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/口/1
+review:
+  state: pending

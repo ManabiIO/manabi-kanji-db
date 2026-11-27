@@ -1,0 +1,28 @@
+id: donor-d5046d02ac120e54fde629c8
+kind: historical-origin
+subject:
+  type: character
+  literal: 肺
+  codepoint: U+80BA
+revision: e59356a5923a271b32bd7075ce54a24b025be56c695d9b2b99b6efd57dd431f0
+localizedRevision: 51992d59270f4f3208180c1c1114900b3d66c49e1497eac0ee6878181d69afa2
+status: candidate
+claimText: In 肺, lung, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93384308-37a3dff8d472
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/肺/1
+review:
+  state: pending

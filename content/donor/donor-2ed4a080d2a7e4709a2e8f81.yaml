@@ -1,0 +1,28 @@
+id: donor-2ed4a080d2a7e4709a2e8f81
+kind: historical-origin
+subject:
+  type: character
+  literal: 血
+  codepoint: U+8840
+revision: 6f33c4d5fb4192694aa0f0d286c79e767bcf455d5f4f4f85b5bd2e31e08ee877
+localizedRevision: 136e9be139b60ea5182d7a252c23fa425539f38817f042a7a7887db6e014a655
+status: candidate
+claimText: 血 combines a blood-drop mark with 皿, a container.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93374847-9ecc724c85ba
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/血/1
+review:
+  state: pending

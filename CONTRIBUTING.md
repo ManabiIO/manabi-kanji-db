@@ -10,6 +10,10 @@ Choose the kind of contribution before writing the explanation. Visual labels de
 
 ## Supply evidence for each fact
 
+For an independently authored formation explanation, run `python -m kanjidb draft-history --help`.
+The command checks the reference against the current registry and prints candidate YAML. Save it in
+`content/` with a new claim ID, run validation, and request an independent review.
+
 Reuse the source record when it already exists. Add an exact reference identifying an upstream record, its public URL and the passage, row, or group that supports the claim. Include the immutable revision or retrieval timestamp and content hash. Bind each claim to its references. Check whether two sources derive from the same dataset before treating them as corroboration.
 
 For an example, identify the intended JMdict entry and spelling/reading combination. Check that the alignment supports the reading assigned to this kanji. A grouped ruby annotation may cover several characters. A missing common example leaves an attested reading eligible for further investigation.
@@ -29,6 +33,8 @@ Specify the target language and reader locale separately. An English explanation
 ## Review and qualify
 
 A different reviewer checks the cited evidence, Japanese applicability, rights, and usefulness of the actual wording. Record the reviewed revisions, date, reviewer identity and type, decision, and reason. Identify automated or agent review explicitly. Reassess approvals when the facts, evidence, labels, or text they depend on change.
+
+After an independent review approves a claim, record its exact fingerprint in `data/reviewed-claim-revisions.yaml` alongside the claim update. Compute it with `kanjidb.validation.claim_review_fingerprint`, passing the reviewed claim, claims by ID, registered references by ID, and imported structures by ID. The fingerprint binds the wording, citations, selectors, and any source text and labeled occurrences used by the claim. A change to those inputs requires a fresh review for each affected approved claim. While that review is pending, use `status: stale` and retain the historical review record. Rebuilding or importing claims does not renew approval.
 
 Run the shared validator and tests from the repository root.
 

@@ -7,7 +7,7 @@ subject:
   codepoint: U+6885
 revision: 20f8b701477bfbeec4a947bc6285af9696b2e8c2a042aec19cc1570470c1d221
 localizedRevision: cae24becb88ca72e843818c6c9b342cbb63e383e3c965115c14102a8c4f2d1c9
-status: candidate
+status: approved
 claimText: Every morning, a crow took one plum from the tree and dropped a pebble in its place.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 20f8b701477bfbeec4a947bc6285af9696b2e8c2a042aec19cc1570470c1d221
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ea62598e0e1772e2e7f991ba6d540722d5ef21f5d30830f3b7f12df24f5111c4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ea62598e0e1772e2e7f991ba6d540722d5ef21f5d30830f3b7f12df24f5111c4
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

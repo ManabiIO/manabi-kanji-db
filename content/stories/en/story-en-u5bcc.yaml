@@ -7,7 +7,7 @@ subject:
   codepoint: U+5BCC
 revision: a3e0483088a694a0b952d9acb9bff82a10c78298ab2faf94009416e3495defa9
 localizedRevision: 724916deea58964669c7a13050fe203d03dfe7af0d3dd1c23a70b27d5e1e9beb
-status: candidate
+status: approved
 claimText: The miser's wealth filled the attic so completely that coins spilled through the roof tiles.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: a3e0483088a694a0b952d9acb9bff82a10c78298ab2faf94009416e3495defa9
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:741bdd7893af27c1516044a4d8cdbac2f14096e47e64a0e852d5aebe9ff4401c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:741bdd7893af27c1516044a4d8cdbac2f14096e47e64a0e852d5aebe9ff4401c
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

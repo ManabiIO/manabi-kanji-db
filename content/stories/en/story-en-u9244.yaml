@@ -7,7 +7,7 @@ subject:
   codepoint: U+9244
 revision: 6ca8d436c0b30f621a68296cf5ff2437050518d6ea6f5480a5b931a3a1b2fefb
 localizedRevision: 7d1a1a4a1bc25258081ad482132c637a6a61870aecf6f67df91951d471ff1732
-status: candidate
+status: approved
 claimText: A smith lost her metal key in a bucket and found it stuck to a bar of magnetic iron.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 6ca8d436c0b30f621a68296cf5ff2437050518d6ea6f5480a5b931a3a1b2fefb
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:897a84baf7b41fafc2270bff0245270b1210142055e71f43642cd5d1a6f3fba2|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:897a84baf7b41fafc2270bff0245270b1210142055e71f43642cd5d1a6f3fba2
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

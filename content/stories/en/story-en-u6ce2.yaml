@@ -7,7 +7,7 @@ subject:
   codepoint: U+6CE2
 revision: 29c9f3fc8bebb2c33112bd3f7ca6ef8947d3a3fcb93a11ee3aad1e924197a9d0
 localizedRevision: be77a7e3e2ace8abb54cdd3b48b92cd4f94f24f881d477cf068524d928dcb622
-status: candidate
+status: approved
 claimText: One wave hit the seal so hard that water drummed against its skin.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 29c9f3fc8bebb2c33112bd3f7ca6ef8947d3a3fcb93a11ee3aad1e924197a9d0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8c44996230ef9681effbd4a0d5c88db187e059f88a97c3136ef86492e8f188f1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8c44996230ef9681effbd4a0d5c88db187e059f88a97c3136ef86492e8f188f1
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

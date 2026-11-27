@@ -1,0 +1,29 @@
+id: donor-be16ef2cdded6889c2c75518
+kind: historical-origin
+subject:
+  type: character
+  literal: 華
+  codepoint: U+83EF
+revision: 5321b37fc1b99678750815042e371f808dacede33b4e83b2c1d4ad10450d4aad
+localizedRevision: 55af082cf49f28efcccc2c5c629fdb50e25d3903180729e482cc56eae0ecbfb6
+status: candidate
+claimText: The early form shows flowers above a plant's stalk and leaves. A plant component was added at the top
+  later.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93576349-03d58309beea
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/華/1
+review:
+  state: pending

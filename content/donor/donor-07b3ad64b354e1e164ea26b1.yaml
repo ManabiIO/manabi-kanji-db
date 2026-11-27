@@ -1,0 +1,32 @@
+id: donor-07b3ad64b354e1e164ea26b1
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-817a
+  occurrence: kvg:0817a-g2
+revision: 266a9f97e7bdd2b9c6f5350e80e7af7c4024769f38a478d809b5375e380d718e
+localizedRevision: 5979d2fa5ca23b5e34e3e1ec28333c88f1457ff030a71d6611936d68adfd32ca
+status: candidate
+claimText: 腺 was coined in Japan with 泉 supplying the reading セン.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92162673-3aa3b93ec65a
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Japanese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/腺/2
+- reference: kanjivg-817a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0817a-g2
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-93bc956c01e2cfb1e62dc627
+kind: historical-origin
+subject:
+  type: character
+  literal: 己
+  codepoint: U+5DF1
+revision: 470304260a5bf11099ca4a8817180f46951d0a8773ab669e6eea9b47667b47e0
+localizedRevision: 562b10d0b1fdc81e32705ebc6ee6c9e8541a09d3d9275d359405fa24cc92ef94
+status: candidate
+claimText: 己 may picture a silk rope used to bind things. It is distinct from 已 and 巳.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93813320-227809e9f8a8
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/己/1
+review:
+  state: pending

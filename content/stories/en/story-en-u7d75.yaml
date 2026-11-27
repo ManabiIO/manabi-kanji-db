@@ -7,7 +7,7 @@ subject:
   codepoint: U+7D75
 revision: 94f22c2503db75ac1920697216380004490eee23eab1ca0f040245f56472ad58
 localizedRevision: f9938b951dc74a905c8b67d0e9d35f51ab608b229d935ab9fc778114b787432d
-status: candidate
+status: approved
 claimText: At the club meeting, every member brought a different color of thread to sew a picture of the village.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 94f22c2503db75ac1920697216380004490eee23eab1ca0f040245f56472ad58
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:77f480a5993d8f292fdb01e58efff5d7b65c78822eb7c4b71aa1207a4d268a48|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:77f480a5993d8f292fdb01e58efff5d7b65c78822eb7c4b71aa1207a4d268a48
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

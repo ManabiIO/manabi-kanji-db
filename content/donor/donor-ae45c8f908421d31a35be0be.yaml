@@ -1,0 +1,28 @@
+id: donor-ae45c8f908421d31a35be0be
+kind: historical-origin
+subject:
+  type: character
+  literal: 革
+  codepoint: U+9769
+revision: fea45966164cc1690e08c447141de55e49e7bd78e799a0f33170f97fe2bae24a
+localizedRevision: f180d1aac4cd2b36f66876ce5bde88e11989175d585ac9c620c014ea2899a92b
+status: candidate
+claimText: The older form pictures a stretched animal hide, with its head above and tail and legs below.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93647842-05fae22c9b95
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/革/1
+review:
+  state: pending

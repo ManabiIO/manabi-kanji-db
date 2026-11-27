@@ -1,0 +1,32 @@
+id: donor-2042157a8d3636d5e9dff704
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-8179
+  occurrence: kvg:08179-g1
+revision: 64f160dd738f2de36e8c554c7c13b85bb5b000832bcbfb2b84f1a1625b0e7353
+localizedRevision: d5f244328de687beb01ad56ebac2260333741c3d32f8c03eb89119f2cbb214f1
+status: candidate
+claimText: The 月-shaped part in 腹 represents 肉, flesh. Here it relates to the body, not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93600917-a7683a6e107d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/腹/1
+- reference: kanjivg-8179
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08179-g1
+review:
+  state: pending

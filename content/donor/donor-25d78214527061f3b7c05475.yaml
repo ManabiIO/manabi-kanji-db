@@ -1,0 +1,28 @@
+id: donor-25d78214527061f3b7c05475
+kind: historical-origin
+subject:
+  type: character
+  literal: 冊
+  codepoint: U+518A
+revision: cbc12ef51aee1249e1a8eee1ad5929b959c2b465296ab0f74b34906cd53a2921
+localizedRevision: 0f16b0adfbfa3a605ba94fe6a16b27ad8602d2e7c33822995ce474cd47b0c91d
+status: candidate
+claimText: 冊 pictures bamboo slips strung together.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-87963527-c1ef21034e27
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/冊/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+7537
 revision: 0cddde797abe2bb87e1ce7c4a98b17ffd4e8d2dbafc8d204bdc94cf233b1ce03
 localizedRevision: 66f4ae15bf0cc70a31d8001df55a49d9b68ba0b3f87f9733e4b40788488e2d2c
-status: candidate
+status: approved
 claimText: At the fair, a male ox showed its strength by pulling a plow straight across the rice field.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0cddde797abe2bb87e1ce7c4a98b17ffd4e8d2dbafc8d204bdc94cf233b1ce03
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d817d29345fa070ce0d17e0533f8bb0b472a87c7053c46898f99e2875a220d50|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d817d29345fa070ce0d17e0533f8bb0b472a87c7053c46898f99e2875a220d50
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

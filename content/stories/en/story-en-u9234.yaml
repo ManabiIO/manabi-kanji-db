@@ -7,7 +7,7 @@ subject:
   codepoint: U+9234
 revision: f83c8046fe783f5e43ad71b91ef6f2cf3b41b58193650e58878cd026aee147b6
 localizedRevision: 526ba6e2561e7cfc36a844ef1519a4ec9f6402c4727e64086fc3dc2b64c9df9a
-status: candidate
+status: approved
 claimText: At the captain's command, a sailor rang a small metal bell to guide the rowboat through the fog.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f83c8046fe783f5e43ad71b91ef6f2cf3b41b58193650e58878cd026aee147b6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a85c28342e4db2fca97190724ea14ec3454b85a20e1988fd3b82e2303bc66ecf|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a85c28342e4db2fca97190724ea14ec3454b85a20e1988fd3b82e2303bc66ecf
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

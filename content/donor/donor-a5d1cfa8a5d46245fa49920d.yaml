@@ -1,0 +1,28 @@
+id: donor-a5d1cfa8a5d46245fa49920d
+kind: historical-origin
+subject:
+  type: character
+  literal: 士
+  codepoint: U+58EB
+revision: a4db4abb49edba57629620db4d7ba4498117ad5ff45ffb0655e4c4e038ecd009
+localizedRevision: 1403f26fa2e9e28a9c809a6766dd08ce44bca108297533cd02e938f45dba9bc4
+status: candidate
+claimText: The older form of 士 pictures a war axe.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93756827-34b6290a1232
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/士/1
+review:
+  state: pending

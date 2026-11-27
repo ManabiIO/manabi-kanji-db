@@ -1,0 +1,40 @@
+---
+id: reading-example-u98df-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 食
+  codepoint: U+98DF
+revision: 2204e0c6241b01a8765682de0ae892351e5c9d42ce2b0b300baf77c315609f3a
+localizedRevision: 36c6222644009aac5551647e611ac38a689062d71a0da51e96d36fe7a7262ceb
+status: approved
+claimText: In 食事 (しょくじ), 食 is read しょく.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1358490; keb=食事; reb=しょくじ; applicable sense indices=1,2
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=29589; text=食事; reading=しょくじ; Unicode scalar index=0 (zero-based); ruby=食; rt=しょく
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/食
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 2204e0c6241b01a8765682de0ae892351e5c9d42ce2b0b300baf77c315609f3a
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

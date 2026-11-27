@@ -1,16 +1,18 @@
 from __future__ import annotations
 
 import copy
+import sqlite3
 import json
 import shutil
 import sys
 import tempfile
 import unittest
+from contextlib import closing
 from pathlib import Path
 
 import yaml
 
-from kanjidb.database import _assets, _imported_candidates, input_files
+from kanjidb.database import _assets, _imported_candidates, build, input_files
 from kanjidb.validation import ValidationError, load_project, validate, validate_claim
 from kanjidb.yamlio import loads
 
@@ -38,15 +40,45 @@ class StrictYamlTests(unittest.TestCase):
 
 class ProjectValidationTests(unittest.TestCase):
     def test_project_validates_with_reviewed_story_content(self) -> None:
-        self.assertEqual(validate(ROOT), (413, 11, 6471))
+        self.assertEqual(validate(ROOT), (709, 16, 6681))
         manifest = yaml.safe_load((ROOT / "data/story-seed-manifest.yaml").read_text())
         self.assertEqual(manifest["reviewDisposition"]["approvedStoryCount"], 150)
         self.assertEqual(manifest["reviewDisposition"]["approvedVisualNameCount"], 141)
         self.assertEqual(len(manifest["claims"]), 291)
 
+    def test_donor_vocabulary_manifest_accounts_for_bound_and_withheld_examples(self) -> None:
+        manifest = yaml.safe_load((ROOT / "data/coverage/donor-v26-reading-examples.yaml").read_text())
+        self.assertEqual(manifest["counts"], {"donorExamples": 100, "boundExamples": 98, "withheldExamples": 2})
+        self.assertEqual(len(manifest["items"]), 100)
+        self.assertEqual(sum("claim" in item for item in manifest["items"]), 98)
+        self.assertEqual(sum("intake" in item for item in manifest["items"]), 2)
+
     def test_upstream_source_snapshots_are_excluded_from_build_inputs(self) -> None:
         paths = input_files(ROOT)
         self.assertFalse(any("source-files" in path.parts for path in paths))
+
+    def test_reviewed_stories_and_linked_labels_reach_the_learner_view(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            database = Path(temp) / "learner-view.sqlite"
+            build(ROOT, database)
+            with closing(sqlite3.connect(database)) as db:
+                story_count = db.execute("SELECT count(*) FROM current_approved_claim WHERE kind='mnemonic'").fetchone()[0]
+                label_count = db.execute("SELECT count(*) FROM current_approved_claim WHERE kind='visual-name'").fetchone()[0]
+                reading_example_count = db.execute("SELECT count(*) FROM current_approved_claim WHERE kind='reading-example'").fetchone()[0]
+                linked_count = db.execute("""
+                    SELECT count(*) FROM story_occurrence occurrence
+                    JOIN current_approved_claim story ON story.id=occurrence.claim_id
+                    JOIN current_approved_claim label ON label.id=occurrence.label_claim_id
+                    WHERE story.kind='mnemonic' AND label.kind='visual-name'
+                """).fetchone()[0]
+                orphan_candidates = db.execute("""
+                    SELECT count(*) FROM claim WHERE kind='visual-name' AND status='candidate' AND review_state='pending'
+                """).fetchone()[0]
+            self.assertEqual(story_count, 150)
+            self.assertEqual(label_count, 141)
+            self.assertEqual(reading_example_count, 98)
+            self.assertEqual(linked_count, 300)
+            self.assertEqual(orphan_candidates, 122)
 
     def test_approved_claim_review_must_bind_exact_revision(self) -> None:
         claims, _, refs = load_project(ROOT)
@@ -73,14 +105,20 @@ class ProjectValidationTests(unittest.TestCase):
         _, sources, refs = load_project(ROOT)
         assets = yaml.safe_load((ROOT / "assets/assets.yaml").read_text())
         with tempfile.TemporaryDirectory() as temp:
-            root = Path(temp)
+            root = Path(temp).resolve(strict=True)
             shutil.copytree(ROOT / "assets", root / "assets")
             document = yaml.safe_load((root / "assets/assets.yaml").read_text())
             document["items"][0]["license"] = "CC-BY-SA"
             (root / "assets/assets.yaml").write_text(yaml.safe_dump(document, allow_unicode=True))
             with self.assertRaisesRegex(ValidationError, "unknown or excluded asset license"):
                 _assets(root, sources, refs)
-        self.assertEqual(len(assets["items"]), 21)
+            codh = next(item for item in document["items"] if item["source"] == "codh-tensho-v2-te00039")
+            document["items"][0]["license"] = assets["items"][0]["license"]
+            codh["selector"] = codh["selector"].replace("TE00039", "TE00041")
+            (root / "assets/assets.yaml").write_text(yaml.safe_dump(document, allow_unicode=True))
+            with self.assertRaisesRegex(ValidationError, "only crops from TE00039"):
+                _assets(root, sources, refs)
+        self.assertEqual(len(assets["items"]), 25)
 
     def test_exact_target_selector_uses_requested_ordinary_sense(self) -> None:
         senses = [[(1, 1, "day"), (1, 2, "day of the week")]]

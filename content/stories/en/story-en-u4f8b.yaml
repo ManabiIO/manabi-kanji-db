@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F8B
 revision: 8f6ea4d5860a7f87b5c5a3f5f7cf53e90ddf5a6b17472791247cec439e55f1de
 localizedRevision: 3c685e474394216635fa62a4596d1ae4ae51b17f3917e4bc9ef9343964205911
-status: candidate
+status: approved
 claimText: One person stepped out of the line to give an example of the dance step.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 8f6ea4d5860a7f87b5c5a3f5f7cf53e90ddf5a6b17472791247cec439e55f1de
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8f5dd999194fc1360cc35a1e162b32e742ba96269a3c604f51b072b19a56247a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8f5dd999194fc1360cc35a1e162b32e742ba96269a3c604f51b072b19a56247a
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

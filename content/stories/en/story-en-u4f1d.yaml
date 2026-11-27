@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F1D
 revision: 2984f59e30f07301a2875907215ed0ace162c534e978e9602491e5e17c1d44ab
 localizedRevision: aa709c4da5545f01d2bcc6630e843b2cb476e7363dc343bab710913733fd6b51
-status: candidate
+status: approved
 claimText: During a blackout, each person said the message aloud to transmit it down the stairwell.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 2984f59e30f07301a2875907215ed0ace162c534e978e9602491e5e17c1d44ab
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8ccd5799cf09e41005a7f96af8115112a86702ca172c31d80a5fec1ec3dd5028|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8ccd5799cf09e41005a7f96af8115112a86702ca172c31d80a5fec1ec3dd5028
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

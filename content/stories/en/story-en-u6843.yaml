@@ -7,7 +7,7 @@ subject:
   codepoint: U+6843
 revision: feb8f828be42ce541aa50fdc876478aefa09c5314d196d2d74e01338a18adf93
 localizedRevision: e7abfa3198f92a584167f30b270c4ddf724e5c8c4772025de386351dda3f33b7
-status: candidate
+status: approved
 claimText: When a single peach fell from the bare tree in winter, the villagers took it as an omen of spring.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: feb8f828be42ce541aa50fdc876478aefa09c5314d196d2d74e01338a18adf93
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:175fe6e1dfce9676a28ced4575149da9131394f3dace067fe30077cdf90d5aad|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:175fe6e1dfce9676a28ced4575149da9131394f3dace067fe30077cdf90d5aad
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -7,7 +7,7 @@ subject:
   codepoint: U+82D7
 revision: b9552903729dc2ccbce4accb4cb7990557075448b5c3bcc8f791a2bf5d6b4923
 localizedRevision: 12722c5d1d4b2d1cf2c54e5428c74709611b78efc2ad8ab2b12c94c06c4b1d86
-status: candidate
+status: approved
 claimText: A seedling of grass sprouted in the rice field and grew high enough to hide a heron.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: b9552903729dc2ccbce4accb4cb7990557075448b5c3bcc8f791a2bf5d6b4923
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4ca524af8732710d63196cebe6056b4b390469c656c7512744dd2d126319555|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4ca524af8732710d63196cebe6056b4b390469c656c7512744dd2d126319555
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

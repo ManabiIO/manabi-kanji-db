@@ -7,7 +7,7 @@ subject:
   codepoint: U+79D1
 revision: 9c9faa20a43edfebbf14ad287c6e2cc3a44f7187ba80fe637feaa1f91c60affc
 localizedRevision: d7ef348b0e1bc73eb1b8542619abe7877d50eb8579fdedd92ef2c51c835385cb
-status: candidate
+status: approved
 claimText: The grain department stamped a picture of a dipper on every sack it inspected.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9c9faa20a43edfebbf14ad287c6e2cc3a44f7187ba80fe637feaa1f91c60affc
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:207e72e3b77c90c228de02df3bbb88820c42c35bfc5fc24de82c522c06e9814e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:207e72e3b77c90c228de02df3bbb88820c42c35bfc5fc24de82c522c06e9814e
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

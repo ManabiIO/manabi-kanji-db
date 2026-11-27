@@ -1,0 +1,28 @@
+id: donor-59bc42a9b74dc3fc2ade693d
+kind: historical-origin
+subject:
+  type: character
+  literal: 欠
+  codepoint: U+6B20
+revision: 02ee097ee2c574dc9739185984efef8f0ead712b68428a5c828a158e7e3baebb
+localizedRevision: 9f7a200420a149619c9878ae8423fd0f4a10ddf32c9d5970eab73a7f8403503f
+status: candidate
+claimText: The older form pictures a kneeling person with an open mouth.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-89922818-7ed127cb33e5
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/欠/1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-223d91cb3f87b80df43e228e
+kind: historical-origin
+subject:
+  type: character
+  literal: 日
+  codepoint: U+65E5
+revision: aff355a4e91cc56e4ce0a0676a1124278ba790daeeab9c37d82d84cc9eb50412
+localizedRevision: d9c651295a17d1650ecbd29d1e12f8bac76b30e6f35762259aed8fd803e9cc6c
+status: candidate
+claimText: The older round sun picture has a mark in its center. 日 keeps that central mark inside a squared outline.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93408319-0a55322b6d53
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/日/1
+review:
+  state: pending

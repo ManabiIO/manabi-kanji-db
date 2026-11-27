@@ -1,0 +1,28 @@
+id: donor-5e1c4f37e9e4fc7148f3872f
+kind: historical-origin
+subject:
+  type: character
+  literal: 尿
+  codepoint: U+5C3F
+revision: 19beac1efb21d1c4cde76c1028a9363bfbfaab5fd4aeba6683282d56864ffad3
+localizedRevision: 88c0af400b9e9a2c01d67fa3410297c3a2735ab1dfb0faaec634ec15504fec30
+status: candidate
+claimText: The early form pictures a person urinating. Its later written form combines a body-shaped part with water.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92160982-58b4379df324
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/尿/1
+review:
+  state: pending

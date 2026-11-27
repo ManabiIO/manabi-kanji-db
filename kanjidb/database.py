@@ -125,7 +125,7 @@ CREATE INDEX claim_subject_kind_status ON claim(subject_type, subject_id, kind, 
 CREATE TABLE claim_evidence(
   claim_id TEXT NOT NULL REFERENCES claim(id), reference_id TEXT NOT NULL REFERENCES reference(id),
   claim_field TEXT NOT NULL, support_type TEXT NOT NULL, selector TEXT NOT NULL,
-  PRIMARY KEY(claim_id, reference_id, claim_field)
+  PRIMARY KEY(claim_id, reference_id, claim_field, support_type, selector)
 ) STRICT;
 CREATE INDEX claim_evidence_reference ON claim_evidence(reference_id);
 CREATE TABLE story(
@@ -362,7 +362,7 @@ def _assets(root: Path, sources: dict[str, dict], refs: dict[str, dict]) -> list
         nonempty(row.get("id"), path, field + ".id")
         need(row["id"] not in ids, path, field + ".id", "duplicate asset ID")
         ids.add(row["id"])
-        need(row.get("kind") in {"historical-transcription", "educational-radical-illustration"}, path, field + ".kind", "unknown asset kind")
+        need(row.get("kind") in {"historical-transcription", "historical-scan-crop", "educational-radical-illustration"}, path, field + ".kind", "unknown asset kind")
         need(isinstance(row.get("subject"), str) and len(row["subject"]) == 1, path, field + ".subject", "must be one exact Unicode scalar")
         nonempty(row.get("path"), path, field + ".path")
         need(row["path"] not in files, path, field + ".path", "duplicate asset path")
@@ -372,12 +372,19 @@ def _assets(root: Path, sources: dict[str, dict], refs: dict[str, dict]) -> list
         for key in ("revision", "attribution", "status", "reviewState", "selector", "scriptLabel"):
             nonempty(row.get(key), path, field + "." + key)
         validate_url(row.get("licenseEvidenceURL"), path, field + ".licenseEvidenceURL")
-        need(row.get("license") in {"CC-BY", "LicenseRef-ACC-Public-Domain-with-Fallback", "Public-Domain"}, path,
+        need(row.get("license") in {"CC-BY", "CC-BY-SA", "CC0", "LicenseRef-ACC-Public-Domain-with-Fallback", "Public-Domain"}, path,
              field + ".license", "unknown or excluded asset license")
+        need(row["license"] == sources[row["source"]]["license"], path, field + ".license",
+             "unknown or excluded asset license for the scoped upstream grant")
         for ref_key in ("descriptionReference", "mediaReference"):
             ref_id = row.get(ref_key)
             need(ref_id in refs and refs[ref_id]["source"] == row["source"], path, field + "." + ref_key,
                  "must resolve to this asset source")
+        if row["source"] == "codh-tensho-v2-te00039":
+            media = refs[row["mediaReference"]]["url"]
+            need(media.startswith("https://codh.rois.ac.jp/tensho/book/TE00039/characters/") and
+                 "_TE00039_" in row["selector"], path, field + ".mediaReference",
+                 "the scope of this source covers only crops from TE00039")
         need(row.get("status") == "candidate" and row.get("reviewState") == "pending-distinct-asset-review", path,
              field, "asset source eligibility does not replace distinct asset review")
         need(isinstance(row.get("dateIsUploadDateOnly"), bool), path, field + ".dateIsUploadDateOnly", "must be a boolean")

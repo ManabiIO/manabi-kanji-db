@@ -7,7 +7,7 @@ subject:
   codepoint: U+660E
 revision: a5a6e1529ed0d8dbde6cbfc0841c23f2496cbe53beca97301c954f0c369cd7e8
 localizedRevision: 67db54c03c3aa748ed92494399046518fcbf7f9a8f26e9cc600d37e0739678d9
-status: candidate
+status: approved
 claimText: The sun and moon shone together, and the harbor was bright enough for fishermen to mend their nets at
   midnight.
 targetLanguage: ja
@@ -36,8 +36,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: a5a6e1529ed0d8dbde6cbfc0841c23f2496cbe53beca97301c954f0c369cd7e8
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e1e9ab7d4f47c182b4efb1a1a8a61d93cf746f6059501d9bfac7d341b184c2b1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e1e9ab7d4f47c182b4efb1a1a8a61d93cf746f6059501d9bfac7d341b184c2b1
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

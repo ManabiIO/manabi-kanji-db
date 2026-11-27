@@ -1,0 +1,28 @@
+id: donor-675bdab7bb1593ed5445a782
+kind: historical-origin
+subject:
+  type: character
+  literal: 出
+  codepoint: U+51FA
+revision: e2e7477dbab298cd621c9006e763d151e27b5aa43ea36110e963de4b5de6b686
+localizedRevision: 3e82402791e6b3ca2fcd898c464f7a766da47532a966d911c049d7708328f82a
+status: candidate
+claimText: The older form shows a foot stepping out of a cave.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92491778-2b5db443ef63
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/出/1
+review:
+  state: pending

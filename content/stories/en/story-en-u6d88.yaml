@@ -7,7 +7,7 @@ subject:
   codepoint: U+6D88
 revision: 4f23705c0723b4bbcb75e89ec9a67061602f80adf82d0d03011031ae8a6496d0
 localizedRevision: b524b33585b4768899acb1355a3a003110df7e3de8373d329cf432c5fc81a880
-status: candidate
+status: approved
 claimText: A firefighter used water to extinguish the bonfire just as its flames began to resemble a dragon.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 4f23705c0723b4bbcb75e89ec9a67061602f80adf82d0d03011031ae8a6496d0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1fe9b22bee52affd0c7b7a156ef5e5bef572a6451510239f856628c522fdd8b6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1fe9b22bee52affd0c7b7a156ef5e5bef572a6451510239f856628c522fdd8b6
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

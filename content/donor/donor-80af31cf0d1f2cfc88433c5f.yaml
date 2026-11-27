@@ -1,0 +1,28 @@
+id: donor-80af31cf0d1f2cfc88433c5f
+kind: historical-origin
+subject:
+  type: character
+  literal: 缶
+  codepoint: U+7F36
+revision: 72947a0bfba5ea4b6a669a0153778038a01f020f94efbf9fb642928db4faae62
+localizedRevision: 290092f2612ab6eadb3b42be9915a1bb99a79c13f111bb3bd406a77bc3de0a5b
+status: candidate
+claimText: 缶 began as an earthenware jar with a lid.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93660939-59d5a9bfa7c1
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/缶/1
+review:
+  state: pending

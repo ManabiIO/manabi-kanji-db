@@ -1,0 +1,28 @@
+id: donor-96bf7263bffdfaa67b14fd7a
+kind: historical-origin
+subject:
+  type: character
+  literal: 門
+  codepoint: U+9580
+revision: 3ff82dde0d75a7925122c8017b21598dad202e409dc53f2c773b4febb91dd5e9
+localizedRevision: 2a66d6abdc2acf7b89336751ee74c1427b0a6098bcfdcb784291393eb81d59c1
+status: candidate
+claimText: A picture of a gate. 戶 represents a single door.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94513836-f427e70de322
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/門/1
+review:
+  state: pending

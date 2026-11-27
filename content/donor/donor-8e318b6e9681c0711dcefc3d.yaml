@@ -1,0 +1,32 @@
+id: donor-8e318b6e9681c0711dcefc3d
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-5ce1
+  occurrence: kvg:05ce1-g2
+revision: c2c43395c05ad3bca7eb258d8ba278ce34019441af083ce96a5b20a2bd863604
+localizedRevision: 0a237691e370f84770b523712f43e56a3ea60a8d325ca7220e288af96528cbb8
+status: candidate
+claimText: 峡 uses the 夹-shaped component corresponding to 夾 as a historical sound clue; Japanese readings can differ.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93449307-58c1a4ce0af7
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/峡/1
+- reference: kanjivg-5ce1
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05ce1-g2
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-b625c57c41d1030721a2406b
+kind: historical-origin
+subject:
+  type: character
+  literal: 人
+  codepoint: U+4EBA
+revision: 28852b3fa1800e70833191f917d5b62a420038b8e1b71b487f78d94a472633ee
+localizedRevision: cfb677e246bc7e8bad51ac120411d974dbbfd68cbbc33f62bfa845e0c3d44866
+status: candidate
+claimText: A picture of a standing person seen from the side.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93756831-671d653bc6d4
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/人/1
+review:
+  state: pending

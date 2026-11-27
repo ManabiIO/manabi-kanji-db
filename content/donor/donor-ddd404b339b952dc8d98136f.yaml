@@ -1,0 +1,28 @@
+id: donor-ddd404b339b952dc8d98136f
+kind: historical-origin
+subject:
+  type: character
+  literal: 子
+  codepoint: U+5B50
+revision: 5fe1fc798335bc1456538aeac60435948d9fe28788a59ba62b50db78d5633abc
+localizedRevision: 8ff3b0e56a04c51403f4e69d0e56736dfed1cf5c36d237b4cd5f2d001d9a9adc
+status: candidate
+claimText: The older picture shows a baby with a large head, spread arms and wrapped legs.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93763142-20baf7f5594b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/子/1
+review:
+  state: pending

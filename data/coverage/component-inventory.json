@@ -1,0 +1,3711 @@
+{
+  "scope": "KANJIDIC2 grades 1–6 and 8; KanjiVG descendant groups; exact displayed keys",
+  "baselineArchiveSHA256": "af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773",
+  "joyo": 2136,
+  "namedForms": 866,
+  "formsWithReviewedEnglishVisualLabel": 140,
+  "lookupGaps": [
+    "CDP-8BC4",
+    "CDP-8CB8",
+    "マ",
+    "㐄",
+    "㐭",
+    "㳟",
+    "䏍",
+    "䩗",
+    "丆",
+    "业",
+    "习",
+    "乡",
+    "亚",
+    "亩",
+    "俞",
+    "劦",
+    "堇",
+    "壴",
+    "夋",
+    "夗",
+    "巜",
+    "显",
+    "桼",
+    "电",
+    "甶",
+    "菐",
+    "駦",
+    "龰",
+    "龶",
+    "龷",
+    "龹",
+    "𠂇",
+    "𠂉",
+    "𠔉",
+    "𠦝",
+    "𡗗",
+    "𡰪",
+    "𢆉",
+    "𧘇",
+    "𬀷"
+  ],
+  "formsWithoutReviewedEnglishVisualLabel": [
+    "CDP-8BC4",
+    "CDP-8CB8",
+    "⺌",
+    "⺍",
+    "⺕",
+    "⺗",
+    "⺤",
+    "⺦",
+    "⺨",
+    "⺷",
+    "⻏",
+    "⻖",
+    "⻞",
+    "マ",
+    "㐄",
+    "㐬",
+    "㐭",
+    "㐮",
+    "㑒",
+    "㓁",
+    "㔾",
+    "㕣",
+    "㝵",
+    "㳟",
+    "䍃",
+    "䏍",
+    "䒑",
+    "䚯",
+    "䩗",
+    "一",
+    "丂",
+    "七",
+    "丆",
+    "万",
+    "丈",
+    "三",
+    "上",
+    "下",
+    "不",
+    "与",
+    "丑",
+    "且",
+    "世",
+    "丗",
+    "丘",
+    "丙",
+    "业",
+    "丞",
+    "両",
+    "並",
+    "丨",
+    "丩",
+    "中",
+    "丰",
+    "串",
+    "丶",
+    "丸",
+    "丿",
+    "乂",
+    "乃",
+    "久",
+    "乇",
+    "之",
+    "乍",
+    "乎",
+    "乕",
+    "乗",
+    "乙",
+    "乞",
+    "也",
+    "习",
+    "乡",
+    "亅",
+    "了",
+    "予",
+    "争",
+    "二",
+    "于",
+    "五",
+    "井",
+    "亘",
+    "亚",
+    "亜",
+    "亟",
+    "亠",
+    "亡",
+    "亢",
+    "亥",
+    "亦",
+    "亩",
+    "享",
+    "京",
+    "亭",
+    "亶",
+    "今",
+    "从",
+    "代",
+    "以",
+    "任",
+    "伐",
+    "何",
+    "余",
+    "佰",
+    "侖",
+    "侯",
+    "保",
+    "俞",
+    "倉",
+    "儿",
+    "兀",
+    "允",
+    "元",
+    "兄",
+    "充",
+    "光",
+    "兌",
+    "免",
+    "入",
+    "全",
+    "兪",
+    "六",
+    "共",
+    "关",
+    "兵",
+    "其",
+    "具",
+    "兹",
+    "兼",
+    "冂",
+    "内",
+    "冉",
+    "冊",
+    "冋",
+    "再",
+    "冏",
+    "冒",
+    "冓",
+    "冖",
+    "冘",
+    "冢",
+    "冫",
+    "冬",
+    "几",
+    "凡",
+    "処",
+    "凵",
+    "凶",
+    "出",
+    "刀",
+    "刃",
+    "切",
+    "刑",
+    "利",
+    "到",
+    "制",
+    "則",
+    "前",
+    "劦",
+    "劵",
+    "勇",
+    "動",
+    "務",
+    "勹",
+    "勺",
+    "勿",
+    "匀",
+    "匂",
+    "匃",
+    "匈",
+    "匊",
+    "北",
+    "匚",
+    "匸",
+    "匹",
+    "区",
+    "卂",
+    "千",
+    "卅",
+    "卆",
+    "升",
+    "卉",
+    "卑",
+    "卓",
+    "南",
+    "卜",
+    "卦",
+    "卩",
+    "卬",
+    "卯",
+    "即",
+    "却",
+    "卸",
+    "厄",
+    "厓",
+    "原",
+    "厷",
+    "去",
+    "参",
+    "又",
+    "友",
+    "叔",
+    "取",
+    "叚",
+    "叟",
+    "古",
+    "右",
+    "司",
+    "吊",
+    "名",
+    "君",
+    "呂",
+    "呈",
+    "呉",
+    "告",
+    "呑",
+    "周",
+    "咅",
+    "咢",
+    "咨",
+    "咸",
+    "咼",
+    "品",
+    "員",
+    "哥",
+    "唐",
+    "啇",
+    "善",
+    "喿",
+    "囗",
+    "回",
+    "因",
+    "固",
+    "土",
+    "圣",
+    "圭",
+    "坐",
+    "坴",
+    "垂",
+    "垔",
+    "埶",
+    "執",
+    "堇",
+    "壬",
+    "壮",
+    "壳",
+    "壴",
+    "夂",
+    "夅",
+    "夆",
+    "夋",
+    "夌",
+    "复",
+    "夗",
+    "夜",
+    "天",
+    "太",
+    "夫",
+    "夬",
+    "夭",
+    "夸",
+    "夹",
+    "夾",
+    "奄",
+    "奇",
+    "奉",
+    "奐",
+    "契",
+    "奚",
+    "奞",
+    "奴",
+    "妻",
+    "妾",
+    "委",
+    "娄",
+    "孚",
+    "孛",
+    "孝",
+    "孟",
+    "孫",
+    "孰",
+    "宁",
+    "它",
+    "守",
+    "安",
+    "完",
+    "宓",
+    "宗",
+    "官",
+    "定",
+    "宛",
+    "客",
+    "害",
+    "家",
+    "容",
+    "宿",
+    "寉",
+    "寍",
+    "察",
+    "寿",
+    "専",
+    "尃",
+    "射",
+    "将",
+    "尉",
+    "尊",
+    "小",
+    "尓",
+    "尗",
+    "尞",
+    "尢",
+    "尤",
+    "就",
+    "尸",
+    "尹",
+    "尼",
+    "居",
+    "屈",
+    "屋",
+    "屏",
+    "属",
+    "屮",
+    "屯",
+    "屰",
+    "山",
+    "岡",
+    "崔",
+    "巛",
+    "巜",
+    "川",
+    "州",
+    "左",
+    "巨",
+    "巴",
+    "巻",
+    "巽",
+    "巾",
+    "市",
+    "布",
+    "帛",
+    "帝",
+    "帯",
+    "平",
+    "并",
+    "幸",
+    "幺",
+    "幾",
+    "広",
+    "庄",
+    "府",
+    "度",
+    "庶",
+    "廴",
+    "延",
+    "建",
+    "廾",
+    "廿",
+    "开",
+    "弋",
+    "式",
+    "弓",
+    "弔",
+    "弗",
+    "弯",
+    "弱",
+    "彑",
+    "彔",
+    "彖",
+    "彡",
+    "彦",
+    "彭",
+    "彳",
+    "従",
+    "復",
+    "徴",
+    "忄",
+    "必",
+    "志",
+    "忝",
+    "忩",
+    "念",
+    "思",
+    "息",
+    "恵",
+    "愈",
+    "意",
+    "愛",
+    "感",
+    "憂",
+    "戉",
+    "戊",
+    "戋",
+    "戌",
+    "戍",
+    "戎",
+    "成",
+    "我",
+    "戒",
+    "戔",
+    "或",
+    "戠",
+    "戻",
+    "扁",
+    "手",
+    "折",
+    "攵",
+    "攸",
+    "放",
+    "敏",
+    "敕",
+    "敖",
+    "敝",
+    "敢",
+    "敫",
+    "敬",
+    "文",
+    "斉",
+    "斥",
+    "斬",
+    "新",
+    "斿",
+    "旁",
+    "旉",
+    "旡",
+    "既",
+    "旧",
+    "早",
+    "旬",
+    "昆",
+    "昌",
+    "明",
+    "昏",
+    "易",
+    "昜",
+    "星",
+    "是",
+    "昷",
+    "显",
+    "普",
+    "景",
+    "暴",
+    "曲",
+    "更",
+    "曷",
+    "曹",
+    "曼",
+    "曽",
+    "替",
+    "最",
+    "有",
+    "朔",
+    "朕",
+    "朝",
+    "未",
+    "末",
+    "朮",
+    "朱",
+    "朿",
+    "束",
+    "枼",
+    "某",
+    "柬",
+    "栗",
+    "桀",
+    "桼",
+    "楚",
+    "楽",
+    "欠",
+    "止",
+    "正",
+    "此",
+    "武",
+    "歩",
+    "歯",
+    "歹",
+    "死",
+    "段",
+    "毋",
+    "比",
+    "毛",
+    "氐",
+    "民",
+    "气",
+    "氺",
+    "求",
+    "沓",
+    "波",
+    "洛",
+    "涂",
+    "溥",
+    "滕",
+    "潘",
+    "澡",
+    "灰",
+    "炎",
+    "為",
+    "烝",
+    "焦",
+    "然",
+    "爰",
+    "父",
+    "爻",
+    "爾",
+    "片",
+    "牙",
+    "牛",
+    "犬",
+    "玄",
+    "王",
+    "瓜",
+    "瓦",
+    "甘",
+    "甚",
+    "用",
+    "甫",
+    "甬",
+    "申",
+    "电",
+    "甶",
+    "男",
+    "畀",
+    "留",
+    "畜",
+    "番",
+    "異",
+    "疋",
+    "疑",
+    "疒",
+    "疾",
+    "癶",
+    "発",
+    "登",
+    "百",
+    "皃",
+    "皆",
+    "皿",
+    "盍",
+    "監",
+    "目",
+    "相",
+    "盾",
+    "県",
+    "眞",
+    "真",
+    "睘",
+    "矛",
+    "矢",
+    "矣",
+    "知",
+    "石",
+    "示",
+    "礻",
+    "票",
+    "祭",
+    "禁",
+    "禸",
+    "禹",
+    "禺",
+    "离",
+    "秀",
+    "秋",
+    "空",
+    "窄",
+    "立",
+    "竜",
+    "章",
+    "童",
+    "竹",
+    "筑",
+    "米",
+    "粦",
+    "系",
+    "絜",
+    "維",
+    "縣",
+    "缶",
+    "罔",
+    "義",
+    "羽",
+    "耂",
+    "考",
+    "者",
+    "而",
+    "耑",
+    "耒",
+    "聿",
+    "肉",
+    "肋",
+    "肙",
+    "育",
+    "胃",
+    "胡",
+    "胥",
+    "能",
+    "臣",
+    "自",
+    "臭",
+    "致",
+    "臼",
+    "舄",
+    "舎",
+    "舛",
+    "舜",
+    "舟",
+    "般",
+    "艮",
+    "良",
+    "色",
+    "苗",
+    "苟",
+    "若",
+    "荅",
+    "荒",
+    "莧",
+    "莫",
+    "菐",
+    "菫",
+    "蒦",
+    "蔵",
+    "虍",
+    "虚",
+    "虫",
+    "蜀",
+    "血",
+    "行",
+    "衣",
+    "衤",
+    "表",
+    "袁",
+    "西",
+    "覀",
+    "要",
+    "見",
+    "角",
+    "谷",
+    "豆",
+    "豊",
+    "象",
+    "豦",
+    "豸",
+    "貞",
+    "貫",
+    "責",
+    "貴",
+    "賁",
+    "賞",
+    "赤",
+    "赫",
+    "走",
+    "足",
+    "路",
+    "身",
+    "躬",
+    "軍",
+    "辛",
+    "辟",
+    "辰",
+    "農",
+    "辶",
+    "迷",
+    "逢",
+    "道",
+    "郎",
+    "郷",
+    "酉",
+    "酋",
+    "釆",
+    "里",
+    "量",
+    "長",
+    "閏",
+    "間",
+    "闌",
+    "陏",
+    "隊",
+    "隶",
+    "隹",
+    "隻",
+    "隼",
+    "隽",
+    "雇",
+    "雍",
+    "雨",
+    "雲",
+    "需",
+    "非",
+    "面",
+    "革",
+    "韋",
+    "頁",
+    "頃",
+    "頼",
+    "風",
+    "食",
+    "飠",
+    "駦",
+    "骨",
+    "高",
+    "髟",
+    "鬯",
+    "鬲",
+    "鬼",
+    "鹿",
+    "麦",
+    "麻",
+    "黒",
+    "鼡",
+    "龍",
+    "龰",
+    "龶",
+    "龷",
+    "龹",
+    "𠂇",
+    "𠂉",
+    "𠂊",
+    "𠂢",
+    "𠂤",
+    "𠔉",
+    "𠦝",
+    "𡗗",
+    "𡰪",
+    "𢆉",
+    "𢦏",
+    "𦥑",
+    "𧘇",
+    "𩵋",
+    "𬀷"
+  ],
+  "unnamedLeaves": 586,
+  "unnamedMultistrokeLeaves": 351,
+  "unnamedLeafSelectors": [
+    {
+      "character": "乾",
+      "group": "kvg:04e7e-g7",
+      "strokes": 2
+    },
+    {
+      "character": "二",
+      "group": "kvg:04e8c-g1",
+      "strokes": 1
+    },
+    {
+      "character": "二",
+      "group": "kvg:04e8c-g2",
+      "strokes": 1
+    },
+    {
+      "character": "仁",
+      "group": "kvg:04ec1-g3",
+      "strokes": 1
+    },
+    {
+      "character": "仁",
+      "group": "kvg:04ec1-g4",
+      "strokes": 1
+    },
+    {
+      "character": "仰",
+      "group": "kvg:04ef0-g3",
+      "strokes": 2
+    },
+    {
+      "character": "伯",
+      "group": "kvg:04f2f-g3",
+      "strokes": 1
+    },
+    {
+      "character": "位",
+      "group": "kvg:04f4d-g4",
+      "strokes": 3
+    },
+    {
+      "character": "佐",
+      "group": "kvg:04f50-g3",
+      "strokes": 2
+    },
+    {
+      "character": "併",
+      "group": "kvg:04f75-g3",
+      "strokes": 2
+    },
+    {
+      "character": "供",
+      "group": "kvg:04f9b-g3",
+      "strokes": 4
+    },
+    {
+      "character": "依",
+      "group": "kvg:04f9d-g4",
+      "strokes": 4
+    },
+    {
+      "character": "侯",
+      "group": "kvg:04faf-g3",
+      "strokes": 2
+    },
+    {
+      "character": "俊",
+      "group": "kvg:04fca-g7",
+      "strokes": 1
+    },
+    {
+      "character": "俗",
+      "group": "kvg:04fd7-g3",
+      "strokes": 2
+    },
+    {
+      "character": "俳",
+      "group": "kvg:04ff3-g3",
+      "strokes": 4
+    },
+    {
+      "character": "俳",
+      "group": "kvg:04ff3-g4",
+      "strokes": 4
+    },
+    {
+      "character": "俵",
+      "group": "kvg:04ff5-g8",
+      "strokes": 4
+    },
+    {
+      "character": "倍",
+      "group": "kvg:0500d-g5",
+      "strokes": 3
+    },
+    {
+      "character": "倣",
+      "group": "kvg:05023-g5",
+      "strokes": 2
+    },
+    {
+      "character": "偉",
+      "group": "kvg:05049-g3",
+      "strokes": 3
+    },
+    {
+      "character": "傍",
+      "group": "kvg:0508d-g10",
+      "strokes": 2
+    },
+    {
+      "character": "傍",
+      "group": "kvg:0508d-g6",
+      "strokes": 2
+    },
+    {
+      "character": "傲",
+      "group": "kvg:050b2-g8",
+      "strokes": 2
+    },
+    {
+      "character": "傾",
+      "group": "kvg:050be-g5",
+      "strokes": 2
+    },
+    {
+      "character": "億",
+      "group": "kvg:05104-g6",
+      "strokes": 3
+    },
+    {
+      "character": "儒",
+      "group": "kvg:05112-g5",
+      "strokes": 2
+    },
+    {
+      "character": "優",
+      "group": "kvg:0512a-g5",
+      "strokes": 1
+    },
+    {
+      "character": "優",
+      "group": "kvg:0512a-g7",
+      "strokes": 1
+    },
+    {
+      "character": "充",
+      "group": "kvg:05145-g9",
+      "strokes": 1
+    },
+    {
+      "character": "兆",
+      "group": "kvg:05146-g4",
+      "strokes": 1
+    },
+    {
+      "character": "兆",
+      "group": "kvg:05146-g5",
+      "strokes": 1
+    },
+    {
+      "character": "先",
+      "group": "kvg:05148-g1",
+      "strokes": 4
+    },
+    {
+      "character": "免",
+      "group": "kvg:0514d-g5",
+      "strokes": 1
+    },
+    {
+      "character": "児",
+      "group": "kvg:05150-g6",
+      "strokes": 1
+    },
+    {
+      "character": "八",
+      "group": "kvg:0516b-g1",
+      "strokes": 1
+    },
+    {
+      "character": "八",
+      "group": "kvg:0516b-g2",
+      "strokes": 1
+    },
+    {
+      "character": "共",
+      "group": "kvg:05171-g1",
+      "strokes": 4
+    },
+    {
+      "character": "兵",
+      "group": "kvg:05175-g6",
+      "strokes": 1
+    },
+    {
+      "character": "兵",
+      "group": "kvg:05175-g7",
+      "strokes": 1
+    },
+    {
+      "character": "典",
+      "group": "kvg:05178-g8",
+      "strokes": 1
+    },
+    {
+      "character": "典",
+      "group": "kvg:05178-g9",
+      "strokes": 1
+    },
+    {
+      "character": "兼",
+      "group": "kvg:0517c-g2",
+      "strokes": 1
+    },
+    {
+      "character": "兼",
+      "group": "kvg:0517c-g3",
+      "strokes": 1
+    },
+    {
+      "character": "円",
+      "group": "kvg:05186-g2",
+      "strokes": 2
+    },
+    {
+      "character": "冬",
+      "group": "kvg:051ac-g3",
+      "strokes": 1
+    },
+    {
+      "character": "冬",
+      "group": "kvg:051ac-g4",
+      "strokes": 1
+    },
+    {
+      "character": "冶",
+      "group": "kvg:051b6-g2",
+      "strokes": 1
+    },
+    {
+      "character": "冶",
+      "group": "kvg:051b6-g3",
+      "strokes": 1
+    },
+    {
+      "character": "冷",
+      "group": "kvg:051b7-g2",
+      "strokes": 1
+    },
+    {
+      "character": "冷",
+      "group": "kvg:051b7-g3",
+      "strokes": 1
+    },
+    {
+      "character": "凄",
+      "group": "kvg:051c4-g2",
+      "strokes": 1
+    },
+    {
+      "character": "凄",
+      "group": "kvg:051c4-g3",
+      "strokes": 1
+    },
+    {
+      "character": "准",
+      "group": "kvg:051c6-g2",
+      "strokes": 1
+    },
+    {
+      "character": "准",
+      "group": "kvg:051c6-g3",
+      "strokes": 1
+    },
+    {
+      "character": "凍",
+      "group": "kvg:051cd-g2",
+      "strokes": 1
+    },
+    {
+      "character": "凍",
+      "group": "kvg:051cd-g3",
+      "strokes": 1
+    },
+    {
+      "character": "凝",
+      "group": "kvg:051dd-g2",
+      "strokes": 1
+    },
+    {
+      "character": "凝",
+      "group": "kvg:051dd-g3",
+      "strokes": 1
+    },
+    {
+      "character": "券",
+      "group": "kvg:05238-g3",
+      "strokes": 1
+    },
+    {
+      "character": "剖",
+      "group": "kvg:05256-g4",
+      "strokes": 3
+    },
+    {
+      "character": "剤",
+      "group": "kvg:05264-g4",
+      "strokes": 2
+    },
+    {
+      "character": "剤",
+      "group": "kvg:05264-g7",
+      "strokes": 1
+    },
+    {
+      "character": "剤",
+      "group": "kvg:05264-g8",
+      "strokes": 1
+    },
+    {
+      "character": "勉",
+      "group": "kvg:052c9-g6",
+      "strokes": 1
+    },
+    {
+      "character": "勘",
+      "group": "kvg:052d8-g11",
+      "strokes": 1
+    },
+    {
+      "character": "勢",
+      "group": "kvg:052e2-g6",
+      "strokes": 1
+    },
+    {
+      "character": "北",
+      "group": "kvg:05317-g1",
+      "strokes": 3
+    },
+    {
+      "character": "匹",
+      "group": "kvg:05339-g5",
+      "strokes": 1
+    },
+    {
+      "character": "卵",
+      "group": "kvg:05375-g2",
+      "strokes": 2
+    },
+    {
+      "character": "吹",
+      "group": "kvg:05439-g3",
+      "strokes": 2
+    },
+    {
+      "character": "吹",
+      "group": "kvg:05439-g4",
+      "strokes": 2
+    },
+    {
+      "character": "呉",
+      "group": "kvg:05449-g5",
+      "strokes": 1
+    },
+    {
+      "character": "呉",
+      "group": "kvg:05449-g6",
+      "strokes": 1
+    },
+    {
+      "character": "唆",
+      "group": "kvg:05506-g7",
+      "strokes": 1
+    },
+    {
+      "character": "問",
+      "group": "kvg:0554f-g2",
+      "strokes": 4
+    },
+    {
+      "character": "問",
+      "group": "kvg:0554f-g3",
+      "strokes": 4
+    },
+    {
+      "character": "喉",
+      "group": "kvg:05589-g5",
+      "strokes": 2
+    },
+    {
+      "character": "喚",
+      "group": "kvg:0559a-g8",
+      "strokes": 1
+    },
+    {
+      "character": "喪",
+      "group": "kvg:055aa-g8",
+      "strokes": 3
+    },
+    {
+      "character": "嚇",
+      "group": "kvg:05687-g5",
+      "strokes": 4
+    },
+    {
+      "character": "嚇",
+      "group": "kvg:05687-g8",
+      "strokes": 4
+    },
+    {
+      "character": "圏",
+      "group": "kvg:0570f-g5",
+      "strokes": 1
+    },
+    {
+      "character": "圏",
+      "group": "kvg:0570f-g6",
+      "strokes": 1
+    },
+    {
+      "character": "均",
+      "group": "kvg:05747-g7",
+      "strokes": 1
+    },
+    {
+      "character": "均",
+      "group": "kvg:05747-g8",
+      "strokes": 1
+    },
+    {
+      "character": "坊",
+      "group": "kvg:0574a-g4",
+      "strokes": 2
+    },
+    {
+      "character": "培",
+      "group": "kvg:057f9-g5",
+      "strokes": 3
+    },
+    {
+      "character": "堪",
+      "group": "kvg:0582a-g12",
+      "strokes": 1
+    },
+    {
+      "character": "塀",
+      "group": "kvg:05840-g5",
+      "strokes": 2
+    },
+    {
+      "character": "塁",
+      "group": "kvg:05841-g4",
+      "strokes": 1
+    },
+    {
+      "character": "塁",
+      "group": "kvg:05841-g5",
+      "strokes": 1
+    },
+    {
+      "character": "塊",
+      "group": "kvg:0584a-g9",
+      "strokes": 1
+    },
+    {
+      "character": "境",
+      "group": "kvg:05883-g10",
+      "strokes": 1
+    },
+    {
+      "character": "境",
+      "group": "kvg:05883-g6",
+      "strokes": 3
+    },
+    {
+      "character": "壁",
+      "group": "kvg:058c1-g9",
+      "strokes": 3
+    },
+    {
+      "character": "壊",
+      "group": "kvg:058ca-g7",
+      "strokes": 4
+    },
+    {
+      "character": "声",
+      "group": "kvg:058f0-g2",
+      "strokes": 4
+    },
+    {
+      "character": "夜",
+      "group": "kvg:0591c-g5",
+      "strokes": 1
+    },
+    {
+      "character": "妨",
+      "group": "kvg:059a8-g4",
+      "strokes": 2
+    },
+    {
+      "character": "姿",
+      "group": "kvg:059ff-g3",
+      "strokes": 1
+    },
+    {
+      "character": "姿",
+      "group": "kvg:059ff-g4",
+      "strokes": 1
+    },
+    {
+      "character": "娯",
+      "group": "kvg:05a2f-g7",
+      "strokes": 1
+    },
+    {
+      "character": "娯",
+      "group": "kvg:05a2f-g8",
+      "strokes": 1
+    },
+    {
+      "character": "嫌",
+      "group": "kvg:05acc-g4",
+      "strokes": 1
+    },
+    {
+      "character": "嫌",
+      "group": "kvg:05acc-g5",
+      "strokes": 1
+    },
+    {
+      "character": "宇",
+      "group": "kvg:05b87-g5",
+      "strokes": 1
+    },
+    {
+      "character": "宇",
+      "group": "kvg:05b87-g6",
+      "strokes": 1
+    },
+    {
+      "character": "宗",
+      "group": "kvg:05b97-g4",
+      "strokes": 2
+    },
+    {
+      "character": "宗",
+      "group": "kvg:05b97-g5",
+      "strokes": 3
+    },
+    {
+      "character": "宰",
+      "group": "kvg:05bb0-g6",
+      "strokes": 3
+    },
+    {
+      "character": "容",
+      "group": "kvg:05bb9-g4",
+      "strokes": 2
+    },
+    {
+      "character": "宿",
+      "group": "kvg:05bbf-g7",
+      "strokes": 1
+    },
+    {
+      "character": "寒",
+      "group": "kvg:05bd2-g10",
+      "strokes": 1
+    },
+    {
+      "character": "寒",
+      "group": "kvg:05bd2-g11",
+      "strokes": 1
+    },
+    {
+      "character": "寒",
+      "group": "kvg:05bd2-g13",
+      "strokes": 1
+    },
+    {
+      "character": "寒",
+      "group": "kvg:05bd2-g14",
+      "strokes": 1
+    },
+    {
+      "character": "尉",
+      "group": "kvg:05c09-g5",
+      "strokes": 2
+    },
+    {
+      "character": "尉",
+      "group": "kvg:05c09-g6",
+      "strokes": 3
+    },
+    {
+      "character": "尊",
+      "group": "kvg:05c0a-g3",
+      "strokes": 1
+    },
+    {
+      "character": "尊",
+      "group": "kvg:05c0a-g4",
+      "strokes": 1
+    },
+    {
+      "character": "尽",
+      "group": "kvg:05c3d-g6",
+      "strokes": 1
+    },
+    {
+      "character": "尽",
+      "group": "kvg:05c3d-g7",
+      "strokes": 1
+    },
+    {
+      "character": "崇",
+      "group": "kvg:05d07-g6",
+      "strokes": 2
+    },
+    {
+      "character": "崇",
+      "group": "kvg:05d07-g7",
+      "strokes": 3
+    },
+    {
+      "character": "左",
+      "group": "kvg:05de6-g1",
+      "strokes": 2
+    },
+    {
+      "character": "巻",
+      "group": "kvg:05dfb-g3",
+      "strokes": 1
+    },
+    {
+      "character": "布",
+      "group": "kvg:05e03-g1",
+      "strokes": 2
+    },
+    {
+      "character": "幻",
+      "group": "kvg:05e7b-g2",
+      "strokes": 1
+    },
+    {
+      "character": "廃",
+      "group": "kvg:05ec3-g10",
+      "strokes": 1
+    },
+    {
+      "character": "廃",
+      "group": "kvg:05ec3-g13",
+      "strokes": 1
+    },
+    {
+      "character": "廃",
+      "group": "kvg:05ec3-g5",
+      "strokes": 2
+    },
+    {
+      "character": "廃",
+      "group": "kvg:05ec3-g6",
+      "strokes": 3
+    },
+    {
+      "character": "廃",
+      "group": "kvg:05ec3-g9",
+      "strokes": 1
+    },
+    {
+      "character": "廉",
+      "group": "kvg:05ec9-g5",
+      "strokes": 1
+    },
+    {
+      "character": "廉",
+      "group": "kvg:05ec9-g6",
+      "strokes": 1
+    },
+    {
+      "character": "弐",
+      "group": "kvg:05f10-g4",
+      "strokes": 1
+    },
+    {
+      "character": "弐",
+      "group": "kvg:05f10-g5",
+      "strokes": 1
+    },
+    {
+      "character": "弱",
+      "group": "kvg:05f31-g4",
+      "strokes": 1
+    },
+    {
+      "character": "弱",
+      "group": "kvg:05f31-g5",
+      "strokes": 1
+    },
+    {
+      "character": "弱",
+      "group": "kvg:05f31-g8",
+      "strokes": 1
+    },
+    {
+      "character": "弱",
+      "group": "kvg:05f31-g9",
+      "strokes": 1
+    },
+    {
+      "character": "彰",
+      "group": "kvg:05f70-g4",
+      "strokes": 3
+    },
+    {
+      "character": "恣",
+      "group": "kvg:06063-g3",
+      "strokes": 1
+    },
+    {
+      "character": "恣",
+      "group": "kvg:06063-g4",
+      "strokes": 1
+    },
+    {
+      "character": "恭",
+      "group": "kvg:0606d-g2",
+      "strokes": 4
+    },
+    {
+      "character": "悦",
+      "group": "kvg:060a6-g4",
+      "strokes": 1
+    },
+    {
+      "character": "悦",
+      "group": "kvg:060a6-g5",
+      "strokes": 1
+    },
+    {
+      "character": "悲",
+      "group": "kvg:060b2-g2",
+      "strokes": 4
+    },
+    {
+      "character": "悲",
+      "group": "kvg:060b2-g3",
+      "strokes": 4
+    },
+    {
+      "character": "惰",
+      "group": "kvg:060f0-g4",
+      "strokes": 2
+    },
+    {
+      "character": "意",
+      "group": "kvg:0610f-g4",
+      "strokes": 3
+    },
+    {
+      "character": "慨",
+      "group": "kvg:06168-g8",
+      "strokes": 1
+    },
+    {
+      "character": "慰",
+      "group": "kvg:06170-g5",
+      "strokes": 2
+    },
+    {
+      "character": "慰",
+      "group": "kvg:06170-g6",
+      "strokes": 3
+    },
+    {
+      "character": "憂",
+      "group": "kvg:06182-g5",
+      "strokes": 1
+    },
+    {
+      "character": "憧",
+      "group": "kvg:061a7-g5",
+      "strokes": 3
+    },
+    {
+      "character": "憶",
+      "group": "kvg:061b6-g6",
+      "strokes": 3
+    },
+    {
+      "character": "懐",
+      "group": "kvg:061d0-g7",
+      "strokes": 4
+    },
+    {
+      "character": "房",
+      "group": "kvg:0623f-g4",
+      "strokes": 2
+    },
+    {
+      "character": "扇",
+      "group": "kvg:06247-g3",
+      "strokes": 3
+    },
+    {
+      "character": "扇",
+      "group": "kvg:06247-g4",
+      "strokes": 3
+    },
+    {
+      "character": "扉",
+      "group": "kvg:06249-g3",
+      "strokes": 4
+    },
+    {
+      "character": "扉",
+      "group": "kvg:06249-g4",
+      "strokes": 4
+    },
+    {
+      "character": "批",
+      "group": "kvg:06279-g3",
+      "strokes": 2
+    },
+    {
+      "character": "抑",
+      "group": "kvg:06291-g3",
+      "strokes": 2
+    },
+    {
+      "character": "拉",
+      "group": "kvg:062c9-g4",
+      "strokes": 3
+    },
+    {
+      "character": "拍",
+      "group": "kvg:062cd-g3",
+      "strokes": 1
+    },
+    {
+      "character": "拳",
+      "group": "kvg:062f3-g3",
+      "strokes": 1
+    },
+    {
+      "character": "拳",
+      "group": "kvg:062f3-g4",
+      "strokes": 1
+    },
+    {
+      "character": "挙",
+      "group": "kvg:06319-g4",
+      "strokes": 1
+    },
+    {
+      "character": "挙",
+      "group": "kvg:06319-g5",
+      "strokes": 1
+    },
+    {
+      "character": "排",
+      "group": "kvg:06392-g3",
+      "strokes": 4
+    },
+    {
+      "character": "排",
+      "group": "kvg:06392-g4",
+      "strokes": 4
+    },
+    {
+      "character": "探",
+      "group": "kvg:063a2-g8",
+      "strokes": 1
+    },
+    {
+      "character": "接",
+      "group": "kvg:063a5-g5",
+      "strokes": 3
+    },
+    {
+      "character": "換",
+      "group": "kvg:063db-g8",
+      "strokes": 1
+    },
+    {
+      "character": "摂",
+      "group": "kvg:06442-g7",
+      "strokes": 1
+    },
+    {
+      "character": "摂",
+      "group": "kvg:06442-g8",
+      "strokes": 1
+    },
+    {
+      "character": "放",
+      "group": "kvg:0653e-g3",
+      "strokes": 2
+    },
+    {
+      "character": "敷",
+      "group": "kvg:06577-g7",
+      "strokes": 2
+    },
+    {
+      "character": "斉",
+      "group": "kvg:06589-g6",
+      "strokes": 1
+    },
+    {
+      "character": "斉",
+      "group": "kvg:06589-g7",
+      "strokes": 1
+    },
+    {
+      "character": "新",
+      "group": "kvg:065b0-g4",
+      "strokes": 3
+    },
+    {
+      "character": "方",
+      "group": "kvg:065b9-g2",
+      "strokes": 2
+    },
+    {
+      "character": "施",
+      "group": "kvg:065bd-g3",
+      "strokes": 2
+    },
+    {
+      "character": "旅",
+      "group": "kvg:065c5-g3",
+      "strokes": 2
+    },
+    {
+      "character": "旋",
+      "group": "kvg:065cb-g3",
+      "strokes": 2
+    },
+    {
+      "character": "族",
+      "group": "kvg:065cf-g3",
+      "strokes": 2
+    },
+    {
+      "character": "旗",
+      "group": "kvg:065d7-g3",
+      "strokes": 2
+    },
+    {
+      "character": "既",
+      "group": "kvg:065e2-g6",
+      "strokes": 1
+    },
+    {
+      "character": "昆",
+      "group": "kvg:06606-g3",
+      "strokes": 2
+    },
+    {
+      "character": "晩",
+      "group": "kvg:06669-g7",
+      "strokes": 1
+    },
+    {
+      "character": "暗",
+      "group": "kvg:06697-g5",
+      "strokes": 3
+    },
+    {
+      "character": "暴",
+      "group": "kvg:066b4-g4",
+      "strokes": 4
+    },
+    {
+      "character": "曜",
+      "group": "kvg:066dc-g4",
+      "strokes": 3
+    },
+    {
+      "character": "曜",
+      "group": "kvg:066dc-g5",
+      "strokes": 3
+    },
+    {
+      "character": "枕",
+      "group": "kvg:06795-g6",
+      "strokes": 1
+    },
+    {
+      "character": "桁",
+      "group": "kvg:06841-g5",
+      "strokes": 3
+    },
+    {
+      "character": "楷",
+      "group": "kvg:06977-g4",
+      "strokes": 2
+    },
+    {
+      "character": "楷",
+      "group": "kvg:06977-g7",
+      "strokes": 1
+    },
+    {
+      "character": "楽",
+      "group": "kvg:0697d-g3",
+      "strokes": 1
+    },
+    {
+      "character": "概",
+      "group": "kvg:06982-g8",
+      "strokes": 1
+    },
+    {
+      "character": "標",
+      "group": "kvg:06a19-g5",
+      "strokes": 2
+    },
+    {
+      "character": "標",
+      "group": "kvg:06a19-g6",
+      "strokes": 3
+    },
+    {
+      "character": "欄",
+      "group": "kvg:06b04-g4",
+      "strokes": 4
+    },
+    {
+      "character": "欄",
+      "group": "kvg:06b04-g5",
+      "strokes": 4
+    },
+    {
+      "character": "欠",
+      "group": "kvg:06b20-g1",
+      "strokes": 2
+    },
+    {
+      "character": "欠",
+      "group": "kvg:06b20-g2",
+      "strokes": 2
+    },
+    {
+      "character": "次",
+      "group": "kvg:06b21-g2",
+      "strokes": 1
+    },
+    {
+      "character": "次",
+      "group": "kvg:06b21-g3",
+      "strokes": 1
+    },
+    {
+      "character": "欧",
+      "group": "kvg:06b27-g7",
+      "strokes": 2
+    },
+    {
+      "character": "欧",
+      "group": "kvg:06b27-g8",
+      "strokes": 2
+    },
+    {
+      "character": "欲",
+      "group": "kvg:06b32-g2",
+      "strokes": 2
+    },
+    {
+      "character": "欲",
+      "group": "kvg:06b32-g6",
+      "strokes": 2
+    },
+    {
+      "character": "欲",
+      "group": "kvg:06b32-g7",
+      "strokes": 2
+    },
+    {
+      "character": "欺",
+      "group": "kvg:06b3a-g10",
+      "strokes": 2
+    },
+    {
+      "character": "欺",
+      "group": "kvg:06b3a-g9",
+      "strokes": 2
+    },
+    {
+      "character": "款",
+      "group": "kvg:06b3e-g4",
+      "strokes": 2
+    },
+    {
+      "character": "款",
+      "group": "kvg:06b3e-g5",
+      "strokes": 3
+    },
+    {
+      "character": "款",
+      "group": "kvg:06b3e-g7",
+      "strokes": 2
+    },
+    {
+      "character": "款",
+      "group": "kvg:06b3e-g8",
+      "strokes": 2
+    },
+    {
+      "character": "歓",
+      "group": "kvg:06b53-g6",
+      "strokes": 2
+    },
+    {
+      "character": "歓",
+      "group": "kvg:06b53-g7",
+      "strokes": 2
+    },
+    {
+      "character": "段",
+      "group": "kvg:06bb5-g1",
+      "strokes": 5
+    },
+    {
+      "character": "殿",
+      "group": "kvg:06bbf-g4",
+      "strokes": 4
+    },
+    {
+      "character": "比",
+      "group": "kvg:06bd4-g1",
+      "strokes": 2
+    },
+    {
+      "character": "汚",
+      "group": "kvg:06c5a-g4",
+      "strokes": 1
+    },
+    {
+      "character": "汚",
+      "group": "kvg:06c5a-g5",
+      "strokes": 1
+    },
+    {
+      "character": "沈",
+      "group": "kvg:06c88-g6",
+      "strokes": 1
+    },
+    {
+      "character": "沿",
+      "group": "kvg:06cbf-g4",
+      "strokes": 1
+    },
+    {
+      "character": "沿",
+      "group": "kvg:06cbf-g5",
+      "strokes": 1
+    },
+    {
+      "character": "泉",
+      "group": "kvg:06cc9-g3",
+      "strokes": 1
+    },
+    {
+      "character": "泊",
+      "group": "kvg:06cca-g3",
+      "strokes": 1
+    },
+    {
+      "character": "泣",
+      "group": "kvg:06ce3-g4",
+      "strokes": 3
+    },
+    {
+      "character": "洗",
+      "group": "kvg:06d17-g3",
+      "strokes": 4
+    },
+    {
+      "character": "洪",
+      "group": "kvg:06d2a-g3",
+      "strokes": 4
+    },
+    {
+      "character": "浜",
+      "group": "kvg:06d5c-g7",
+      "strokes": 1
+    },
+    {
+      "character": "浜",
+      "group": "kvg:06d5c-g8",
+      "strokes": 1
+    },
+    {
+      "character": "浴",
+      "group": "kvg:06d74-g3",
+      "strokes": 2
+    },
+    {
+      "character": "深",
+      "group": "kvg:06df1-g8",
+      "strokes": 1
+    },
+    {
+      "character": "混",
+      "group": "kvg:06df7-g5",
+      "strokes": 2
+    },
+    {
+      "character": "済",
+      "group": "kvg:06e08-g8",
+      "strokes": 1
+    },
+    {
+      "character": "済",
+      "group": "kvg:06e08-g9",
+      "strokes": 1
+    },
+    {
+      "character": "渋",
+      "group": "kvg:06e0b-g7",
+      "strokes": 1
+    },
+    {
+      "character": "渋",
+      "group": "kvg:06e0b-g8",
+      "strokes": 1
+    },
+    {
+      "character": "溶",
+      "group": "kvg:06eb6-g6",
+      "strokes": 2
+    },
+    {
+      "character": "溺",
+      "group": "kvg:06eba-g10",
+      "strokes": 1
+    },
+    {
+      "character": "溺",
+      "group": "kvg:06eba-g11",
+      "strokes": 1
+    },
+    {
+      "character": "溺",
+      "group": "kvg:06eba-g6",
+      "strokes": 1
+    },
+    {
+      "character": "溺",
+      "group": "kvg:06eba-g7",
+      "strokes": 1
+    },
+    {
+      "character": "滑",
+      "group": "kvg:06ed1-g3",
+      "strokes": 6
+    },
+    {
+      "character": "滝",
+      "group": "kvg:06edd-g5",
+      "strokes": 3
+    },
+    {
+      "character": "滝",
+      "group": "kvg:06edd-g6",
+      "strokes": 5
+    },
+    {
+      "character": "漂",
+      "group": "kvg:06f02-g5",
+      "strokes": 2
+    },
+    {
+      "character": "漂",
+      "group": "kvg:06f02-g6",
+      "strokes": 3
+    },
+    {
+      "character": "演",
+      "group": "kvg:06f14-g11",
+      "strokes": 1
+    },
+    {
+      "character": "演",
+      "group": "kvg:06f14-g12",
+      "strokes": 1
+    },
+    {
+      "character": "潤",
+      "group": "kvg:06f64-g4",
+      "strokes": 4
+    },
+    {
+      "character": "潤",
+      "group": "kvg:06f64-g5",
+      "strokes": 4
+    },
+    {
+      "character": "澄",
+      "group": "kvg:06f84-g4",
+      "strokes": 2
+    },
+    {
+      "character": "澄",
+      "group": "kvg:06f84-g5",
+      "strokes": 3
+    },
+    {
+      "character": "澄",
+      "group": "kvg:06f84-g7",
+      "strokes": 1
+    },
+    {
+      "character": "激",
+      "group": "kvg:06fc0-g10",
+      "strokes": 2
+    },
+    {
+      "character": "激",
+      "group": "kvg:06fc0-g5",
+      "strokes": 1
+    },
+    {
+      "character": "濯",
+      "group": "kvg:06fef-g4",
+      "strokes": 3
+    },
+    {
+      "character": "濯",
+      "group": "kvg:06fef-g5",
+      "strokes": 3
+    },
+    {
+      "character": "炊",
+      "group": "kvg:0708a-g3",
+      "strokes": 2
+    },
+    {
+      "character": "炊",
+      "group": "kvg:0708a-g4",
+      "strokes": 2
+    },
+    {
+      "character": "熱",
+      "group": "kvg:071b1-g6",
+      "strokes": 1
+    },
+    {
+      "character": "爆",
+      "group": "kvg:07206-g6",
+      "strokes": 4
+    },
+    {
+      "character": "父",
+      "group": "kvg:07236-g1",
+      "strokes": 2
+    },
+    {
+      "character": "父",
+      "group": "kvg:07236-g2",
+      "strokes": 2
+    },
+    {
+      "character": "猶",
+      "group": "kvg:07336-g4",
+      "strokes": 1
+    },
+    {
+      "character": "猶",
+      "group": "kvg:07336-g5",
+      "strokes": 1
+    },
+    {
+      "character": "率",
+      "group": "kvg:07387-g5",
+      "strokes": 1
+    },
+    {
+      "character": "率",
+      "group": "kvg:07387-g6",
+      "strokes": 1
+    },
+    {
+      "character": "瑠",
+      "group": "kvg:07460-g4",
+      "strokes": 3
+    },
+    {
+      "character": "璧",
+      "group": "kvg:074a7-g9",
+      "strokes": 3
+    },
+    {
+      "character": "璽",
+      "group": "kvg:074bd-g4",
+      "strokes": 1
+    },
+    {
+      "character": "璽",
+      "group": "kvg:074bd-g5",
+      "strokes": 1
+    },
+    {
+      "character": "瓶",
+      "group": "kvg:074f6-g2",
+      "strokes": 2
+    },
+    {
+      "character": "甚",
+      "group": "kvg:0751a-g11",
+      "strokes": 1
+    },
+    {
+      "character": "留",
+      "group": "kvg:07559-g2",
+      "strokes": 3
+    },
+    {
+      "character": "異",
+      "group": "kvg:07570-g3",
+      "strokes": 4
+    },
+    {
+      "character": "痘",
+      "group": "kvg:075d8-g3",
+      "strokes": 1
+    },
+    {
+      "character": "癖",
+      "group": "kvg:07656-g10",
+      "strokes": 3
+    },
+    {
+      "character": "発",
+      "group": "kvg:0767a-g10",
+      "strokes": 1
+    },
+    {
+      "character": "発",
+      "group": "kvg:0767a-g2",
+      "strokes": 2
+    },
+    {
+      "character": "発",
+      "group": "kvg:0767a-g3",
+      "strokes": 3
+    },
+    {
+      "character": "発",
+      "group": "kvg:0767a-g6",
+      "strokes": 1
+    },
+    {
+      "character": "発",
+      "group": "kvg:0767a-g7",
+      "strokes": 1
+    },
+    {
+      "character": "登",
+      "group": "kvg:0767b-g2",
+      "strokes": 2
+    },
+    {
+      "character": "登",
+      "group": "kvg:0767b-g3",
+      "strokes": 3
+    },
+    {
+      "character": "登",
+      "group": "kvg:0767b-g5",
+      "strokes": 1
+    },
+    {
+      "character": "白",
+      "group": "kvg:0767d-g1",
+      "strokes": 1
+    },
+    {
+      "character": "百",
+      "group": "kvg:0767e-g3",
+      "strokes": 1
+    },
+    {
+      "character": "的",
+      "group": "kvg:07684-g2",
+      "strokes": 1
+    },
+    {
+      "character": "皆",
+      "group": "kvg:07686-g2",
+      "strokes": 2
+    },
+    {
+      "character": "皆",
+      "group": "kvg:07686-g5",
+      "strokes": 1
+    },
+    {
+      "character": "皇",
+      "group": "kvg:07687-g2",
+      "strokes": 1
+    },
+    {
+      "character": "益",
+      "group": "kvg:076ca-g3",
+      "strokes": 1
+    },
+    {
+      "character": "益",
+      "group": "kvg:076ca-g4",
+      "strokes": 1
+    },
+    {
+      "character": "盗",
+      "group": "kvg:076d7-g3",
+      "strokes": 1
+    },
+    {
+      "character": "盗",
+      "group": "kvg:076d7-g4",
+      "strokes": 1
+    },
+    {
+      "character": "着",
+      "group": "kvg:07740-g3",
+      "strokes": 3
+    },
+    {
+      "character": "睦",
+      "group": "kvg:07766-g6",
+      "strokes": 1
+    },
+    {
+      "character": "瞳",
+      "group": "kvg:077b3-g5",
+      "strokes": 3
+    },
+    {
+      "character": "短",
+      "group": "kvg:077ed-g5",
+      "strokes": 1
+    },
+    {
+      "character": "示",
+      "group": "kvg:0793a-g1",
+      "strokes": 2
+    },
+    {
+      "character": "示",
+      "group": "kvg:0793a-g2",
+      "strokes": 3
+    },
+    {
+      "character": "票",
+      "group": "kvg:07968-g3",
+      "strokes": 2
+    },
+    {
+      "character": "票",
+      "group": "kvg:07968-g4",
+      "strokes": 3
+    },
+    {
+      "character": "禁",
+      "group": "kvg:07981-g5",
+      "strokes": 2
+    },
+    {
+      "character": "禁",
+      "group": "kvg:07981-g6",
+      "strokes": 3
+    },
+    {
+      "character": "税",
+      "group": "kvg:07a0e-g6",
+      "strokes": 1
+    },
+    {
+      "character": "税",
+      "group": "kvg:07a0e-g7",
+      "strokes": 1
+    },
+    {
+      "character": "立",
+      "group": "kvg:07acb-g2",
+      "strokes": 3
+    },
+    {
+      "character": "竜",
+      "group": "kvg:07adc-g4",
+      "strokes": 3
+    },
+    {
+      "character": "竜",
+      "group": "kvg:07adc-g5",
+      "strokes": 5
+    },
+    {
+      "character": "章",
+      "group": "kvg:07ae0-g4",
+      "strokes": 3
+    },
+    {
+      "character": "童",
+      "group": "kvg:07ae5-g3",
+      "strokes": 3
+    },
+    {
+      "character": "端",
+      "group": "kvg:07aef-g3",
+      "strokes": 3
+    },
+    {
+      "character": "端",
+      "group": "kvg:07aef-g7",
+      "strokes": 2
+    },
+    {
+      "character": "競",
+      "group": "kvg:07af6-g12",
+      "strokes": 3
+    },
+    {
+      "character": "競",
+      "group": "kvg:07af6-g4",
+      "strokes": 3
+    },
+    {
+      "character": "竹",
+      "group": "kvg:07af9-g1",
+      "strokes": 3
+    },
+    {
+      "character": "竹",
+      "group": "kvg:07af9-g2",
+      "strokes": 3
+    },
+    {
+      "character": "笑",
+      "group": "kvg:07b11-g2",
+      "strokes": 3
+    },
+    {
+      "character": "笑",
+      "group": "kvg:07b11-g3",
+      "strokes": 3
+    },
+    {
+      "character": "笛",
+      "group": "kvg:07b1b-g2",
+      "strokes": 3
+    },
+    {
+      "character": "笛",
+      "group": "kvg:07b1b-g3",
+      "strokes": 3
+    },
+    {
+      "character": "符",
+      "group": "kvg:07b26-g2",
+      "strokes": 3
+    },
+    {
+      "character": "符",
+      "group": "kvg:07b26-g3",
+      "strokes": 3
+    },
+    {
+      "character": "第",
+      "group": "kvg:07b2c-g2",
+      "strokes": 3
+    },
+    {
+      "character": "第",
+      "group": "kvg:07b2c-g3",
+      "strokes": 3
+    },
+    {
+      "character": "筆",
+      "group": "kvg:07b46-g2",
+      "strokes": 3
+    },
+    {
+      "character": "筆",
+      "group": "kvg:07b46-g3",
+      "strokes": 3
+    },
+    {
+      "character": "等",
+      "group": "kvg:07b49-g2",
+      "strokes": 3
+    },
+    {
+      "character": "等",
+      "group": "kvg:07b49-g3",
+      "strokes": 3
+    },
+    {
+      "character": "筋",
+      "group": "kvg:07b4b-g2",
+      "strokes": 3
+    },
+    {
+      "character": "筋",
+      "group": "kvg:07b4b-g3",
+      "strokes": 3
+    },
+    {
+      "character": "筒",
+      "group": "kvg:07b52-g2",
+      "strokes": 3
+    },
+    {
+      "character": "筒",
+      "group": "kvg:07b52-g3",
+      "strokes": 3
+    },
+    {
+      "character": "答",
+      "group": "kvg:07b54-g2",
+      "strokes": 3
+    },
+    {
+      "character": "答",
+      "group": "kvg:07b54-g3",
+      "strokes": 3
+    },
+    {
+      "character": "策",
+      "group": "kvg:07b56-g2",
+      "strokes": 3
+    },
+    {
+      "character": "策",
+      "group": "kvg:07b56-g3",
+      "strokes": 3
+    },
+    {
+      "character": "箇",
+      "group": "kvg:07b87-g2",
+      "strokes": 3
+    },
+    {
+      "character": "箇",
+      "group": "kvg:07b87-g3",
+      "strokes": 3
+    },
+    {
+      "character": "箋",
+      "group": "kvg:07b8b-g2",
+      "strokes": 3
+    },
+    {
+      "character": "箋",
+      "group": "kvg:07b8b-g3",
+      "strokes": 3
+    },
+    {
+      "character": "算",
+      "group": "kvg:07b97-g2",
+      "strokes": 3
+    },
+    {
+      "character": "算",
+      "group": "kvg:07b97-g3",
+      "strokes": 3
+    },
+    {
+      "character": "管",
+      "group": "kvg:07ba1-g2",
+      "strokes": 3
+    },
+    {
+      "character": "管",
+      "group": "kvg:07ba1-g3",
+      "strokes": 3
+    },
+    {
+      "character": "箱",
+      "group": "kvg:07bb1-g2",
+      "strokes": 3
+    },
+    {
+      "character": "箱",
+      "group": "kvg:07bb1-g3",
+      "strokes": 3
+    },
+    {
+      "character": "箸",
+      "group": "kvg:07bb8-g2",
+      "strokes": 3
+    },
+    {
+      "character": "箸",
+      "group": "kvg:07bb8-g3",
+      "strokes": 3
+    },
+    {
+      "character": "節",
+      "group": "kvg:07bc0-g2",
+      "strokes": 3
+    },
+    {
+      "character": "節",
+      "group": "kvg:07bc0-g3",
+      "strokes": 3
+    },
+    {
+      "character": "範",
+      "group": "kvg:07bc4-g2",
+      "strokes": 3
+    },
+    {
+      "character": "範",
+      "group": "kvg:07bc4-g3",
+      "strokes": 3
+    },
+    {
+      "character": "築",
+      "group": "kvg:07bc9-g3",
+      "strokes": 3
+    },
+    {
+      "character": "築",
+      "group": "kvg:07bc9-g4",
+      "strokes": 3
+    },
+    {
+      "character": "篤",
+      "group": "kvg:07be4-g2",
+      "strokes": 3
+    },
+    {
+      "character": "篤",
+      "group": "kvg:07be4-g3",
+      "strokes": 3
+    },
+    {
+      "character": "簡",
+      "group": "kvg:07c21-g2",
+      "strokes": 3
+    },
+    {
+      "character": "簡",
+      "group": "kvg:07c21-g3",
+      "strokes": 3
+    },
+    {
+      "character": "簡",
+      "group": "kvg:07c21-g6",
+      "strokes": 4
+    },
+    {
+      "character": "簡",
+      "group": "kvg:07c21-g7",
+      "strokes": 4
+    },
+    {
+      "character": "簿",
+      "group": "kvg:07c3f-g2",
+      "strokes": 3
+    },
+    {
+      "character": "簿",
+      "group": "kvg:07c3f-g3",
+      "strokes": 3
+    },
+    {
+      "character": "籍",
+      "group": "kvg:07c4d-g2",
+      "strokes": 3
+    },
+    {
+      "character": "籍",
+      "group": "kvg:07c4d-g3",
+      "strokes": 3
+    },
+    {
+      "character": "籠",
+      "group": "kvg:07c60-g10",
+      "strokes": 7
+    },
+    {
+      "character": "籠",
+      "group": "kvg:07c60-g2",
+      "strokes": 3
+    },
+    {
+      "character": "籠",
+      "group": "kvg:07c60-g3",
+      "strokes": 3
+    },
+    {
+      "character": "籠",
+      "group": "kvg:07c60-g8",
+      "strokes": 3
+    },
+    {
+      "character": "粒",
+      "group": "kvg:07c92-g4",
+      "strokes": 3
+    },
+    {
+      "character": "紡",
+      "group": "kvg:07d21-g4",
+      "strokes": 2
+    },
+    {
+      "character": "統",
+      "group": "kvg:07d71-g11",
+      "strokes": 1
+    },
+    {
+      "character": "綿",
+      "group": "kvg:07dbf-g4",
+      "strokes": 1
+    },
+    {
+      "character": "線",
+      "group": "kvg:07dda-g4",
+      "strokes": 1
+    },
+    {
+      "character": "緯",
+      "group": "kvg:07def-g3",
+      "strokes": 3
+    },
+    {
+      "character": "縮",
+      "group": "kvg:07e2e-g9",
+      "strokes": 1
+    },
+    {
+      "character": "罪",
+      "group": "kvg:07f6a-g3",
+      "strokes": 4
+    },
+    {
+      "character": "罪",
+      "group": "kvg:07f6a-g4",
+      "strokes": 4
+    },
+    {
+      "character": "羨",
+      "group": "kvg:07fa8-g6",
+      "strokes": 2
+    },
+    {
+      "character": "羨",
+      "group": "kvg:07fa8-g7",
+      "strokes": 2
+    },
+    {
+      "character": "翁",
+      "group": "kvg:07fc1-g5",
+      "strokes": 3
+    },
+    {
+      "character": "翁",
+      "group": "kvg:07fc1-g6",
+      "strokes": 3
+    },
+    {
+      "character": "翌",
+      "group": "kvg:07fcc-g2",
+      "strokes": 3
+    },
+    {
+      "character": "翌",
+      "group": "kvg:07fcc-g3",
+      "strokes": 3
+    },
+    {
+      "character": "翌",
+      "group": "kvg:07fcc-g6",
+      "strokes": 3
+    },
+    {
+      "character": "習",
+      "group": "kvg:07fd2-g3",
+      "strokes": 1
+    },
+    {
+      "character": "翻",
+      "group": "kvg:07ffb-g7",
+      "strokes": 3
+    },
+    {
+      "character": "翻",
+      "group": "kvg:07ffb-g8",
+      "strokes": 3
+    },
+    {
+      "character": "翼",
+      "group": "kvg:07ffc-g2",
+      "strokes": 3
+    },
+    {
+      "character": "翼",
+      "group": "kvg:07ffc-g3",
+      "strokes": 3
+    },
+    {
+      "character": "翼",
+      "group": "kvg:07ffc-g7",
+      "strokes": 4
+    },
+    {
+      "character": "耐",
+      "group": "kvg:08010-g2",
+      "strokes": 2
+    },
+    {
+      "character": "耐",
+      "group": "kvg:08010-g3",
+      "strokes": 4
+    },
+    {
+      "character": "聞",
+      "group": "kvg:0805e-g2",
+      "strokes": 4
+    },
+    {
+      "character": "聞",
+      "group": "kvg:0805e-g3",
+      "strokes": 4
+    },
+    {
+      "character": "肪",
+      "group": "kvg:080aa-g4",
+      "strokes": 2
+    },
+    {
+      "character": "背",
+      "group": "kvg:080cc-g2",
+      "strokes": 3
+    },
+    {
+      "character": "脊",
+      "group": "kvg:0810a-g4",
+      "strokes": 1
+    },
+    {
+      "character": "脊",
+      "group": "kvg:0810a-g5",
+      "strokes": 1
+    },
+    {
+      "character": "脊",
+      "group": "kvg:0810a-g7",
+      "strokes": 1
+    },
+    {
+      "character": "脊",
+      "group": "kvg:0810a-g8",
+      "strokes": 1
+    },
+    {
+      "character": "脱",
+      "group": "kvg:08131-g4",
+      "strokes": 1
+    },
+    {
+      "character": "脱",
+      "group": "kvg:08131-g5",
+      "strokes": 1
+    },
+    {
+      "character": "腺",
+      "group": "kvg:0817a-g4",
+      "strokes": 1
+    },
+    {
+      "character": "臆",
+      "group": "kvg:081c6-g6",
+      "strokes": 3
+    },
+    {
+      "character": "舶",
+      "group": "kvg:08236-g3",
+      "strokes": 1
+    },
+    {
+      "character": "艶",
+      "group": "kvg:08276-g10",
+      "strokes": 1
+    },
+    {
+      "character": "艶",
+      "group": "kvg:08276-g11",
+      "strokes": 6
+    },
+    {
+      "character": "芋",
+      "group": "kvg:0828b-g4",
+      "strokes": 1
+    },
+    {
+      "character": "芋",
+      "group": "kvg:0828b-g5",
+      "strokes": 1
+    },
+    {
+      "character": "芳",
+      "group": "kvg:082b3-g4",
+      "strokes": 2
+    },
+    {
+      "character": "茨",
+      "group": "kvg:08328-g4",
+      "strokes": 1
+    },
+    {
+      "character": "茨",
+      "group": "kvg:08328-g5",
+      "strokes": 1
+    },
+    {
+      "character": "薪",
+      "group": "kvg:085aa-g6",
+      "strokes": 3
+    },
+    {
+      "character": "薬",
+      "group": "kvg:085ac-g5",
+      "strokes": 1
+    },
+    {
+      "character": "藤",
+      "group": "kvg:085e4-g7",
+      "strokes": 1
+    },
+    {
+      "character": "藤",
+      "group": "kvg:085e4-g8",
+      "strokes": 1
+    },
+    {
+      "character": "虎",
+      "group": "kvg:0864e-g6",
+      "strokes": 1
+    },
+    {
+      "character": "虐",
+      "group": "kvg:08650-g4",
+      "strokes": 3
+    },
+    {
+      "character": "虞",
+      "group": "kvg:0865e-g10",
+      "strokes": 1
+    },
+    {
+      "character": "虞",
+      "group": "kvg:0865e-g9",
+      "strokes": 1
+    },
+    {
+      "character": "行",
+      "group": "kvg:0884c-g3",
+      "strokes": 3
+    },
+    {
+      "character": "街",
+      "group": "kvg:08857-g8",
+      "strokes": 3
+    },
+    {
+      "character": "衛",
+      "group": "kvg:0885b-g5",
+      "strokes": 3
+    },
+    {
+      "character": "衛",
+      "group": "kvg:0885b-g9",
+      "strokes": 3
+    },
+    {
+      "character": "衝",
+      "group": "kvg:0885d-g12",
+      "strokes": 3
+    },
+    {
+      "character": "衣",
+      "group": "kvg:08863-g2",
+      "strokes": 4
+    },
+    {
+      "character": "表",
+      "group": "kvg:08868-g7",
+      "strokes": 4
+    },
+    {
+      "character": "袋",
+      "group": "kvg:0888b-g7",
+      "strokes": 4
+    },
+    {
+      "character": "裁",
+      "group": "kvg:088c1-g8",
+      "strokes": 4
+    },
+    {
+      "character": "裂",
+      "group": "kvg:088c2-g8",
+      "strokes": 4
+    },
+    {
+      "character": "装",
+      "group": "kvg:088c5-g6",
+      "strokes": 4
+    },
+    {
+      "character": "裕",
+      "group": "kvg:088d5-g3",
+      "strokes": 2
+    },
+    {
+      "character": "製",
+      "group": "kvg:088fd-g9",
+      "strokes": 4
+    },
+    {
+      "character": "襟",
+      "group": "kvg:0895f-g7",
+      "strokes": 2
+    },
+    {
+      "character": "襟",
+      "group": "kvg:0895f-g8",
+      "strokes": 3
+    },
+    {
+      "character": "襲",
+      "group": "kvg:08972-g5",
+      "strokes": 3
+    },
+    {
+      "character": "襲",
+      "group": "kvg:08972-g7",
+      "strokes": 7
+    },
+    {
+      "character": "覇",
+      "group": "kvg:08987-g6",
+      "strokes": 5
+    },
+    {
+      "character": "親",
+      "group": "kvg:089aa-g4",
+      "strokes": 3
+    },
+    {
+      "character": "角",
+      "group": "kvg:089d2-g2",
+      "strokes": 5
+    },
+    {
+      "character": "解",
+      "group": "kvg:089e3-g3",
+      "strokes": 5
+    },
+    {
+      "character": "触",
+      "group": "kvg:089e6-g3",
+      "strokes": 5
+    },
+    {
+      "character": "訪",
+      "group": "kvg:08a2a-g5",
+      "strokes": 2
+    },
+    {
+      "character": "誇",
+      "group": "kvg:08a87-g7",
+      "strokes": 1
+    },
+    {
+      "character": "誇",
+      "group": "kvg:08a87-g8",
+      "strokes": 1
+    },
+    {
+      "character": "誉",
+      "group": "kvg:08a89-g4",
+      "strokes": 1
+    },
+    {
+      "character": "誉",
+      "group": "kvg:08a89-g5",
+      "strokes": 1
+    },
+    {
+      "character": "誤",
+      "group": "kvg:08aa4-g8",
+      "strokes": 1
+    },
+    {
+      "character": "誤",
+      "group": "kvg:08aa4-g9",
+      "strokes": 1
+    },
+    {
+      "character": "説",
+      "group": "kvg:08aac-g5",
+      "strokes": 1
+    },
+    {
+      "character": "説",
+      "group": "kvg:08aac-g6",
+      "strokes": 1
+    },
+    {
+      "character": "諧",
+      "group": "kvg:08ae7-g5",
+      "strokes": 2
+    },
+    {
+      "character": "諧",
+      "group": "kvg:08ae7-g8",
+      "strokes": 1
+    },
+    {
+      "character": "諮",
+      "group": "kvg:08aee-g6",
+      "strokes": 1
+    },
+    {
+      "character": "諮",
+      "group": "kvg:08aee-g7",
+      "strokes": 1
+    },
+    {
+      "character": "謄",
+      "group": "kvg:08b04-g6",
+      "strokes": 1
+    },
+    {
+      "character": "謙",
+      "group": "kvg:08b19-g5",
+      "strokes": 1
+    },
+    {
+      "character": "謙",
+      "group": "kvg:08b19-g6",
+      "strokes": 1
+    },
+    {
+      "character": "谷",
+      "group": "kvg:08c37-g1",
+      "strokes": 2
+    },
+    {
+      "character": "豆",
+      "group": "kvg:08c46-g1",
+      "strokes": 1
+    },
+    {
+      "character": "豊",
+      "group": "kvg:08c4a-g8",
+      "strokes": 1
+    },
+    {
+      "character": "貌",
+      "group": "kvg:08c8c-g4",
+      "strokes": 1
+    },
+    {
+      "character": "貌",
+      "group": "kvg:08c8c-g9",
+      "strokes": 1
+    },
+    {
+      "character": "貿",
+      "group": "kvg:08cbf-g2",
+      "strokes": 3
+    },
+    {
+      "character": "資",
+      "group": "kvg:08cc7-g3",
+      "strokes": 1
+    },
+    {
+      "character": "資",
+      "group": "kvg:08cc7-g4",
+      "strokes": 1
+    },
+    {
+      "character": "賠",
+      "group": "kvg:08ce0-g7",
+      "strokes": 3
+    },
+    {
+      "character": "赤",
+      "group": "kvg:08d64-g2",
+      "strokes": 4
+    },
+    {
+      "character": "赦",
+      "group": "kvg:08d66-g3",
+      "strokes": 4
+    },
+    {
+      "character": "踪",
+      "group": "kvg:08e2a-g7",
+      "strokes": 2
+    },
+    {
+      "character": "踪",
+      "group": "kvg:08e2a-g8",
+      "strokes": 3
+    },
+    {
+      "character": "躍",
+      "group": "kvg:08e8d-g5",
+      "strokes": 3
+    },
+    {
+      "character": "躍",
+      "group": "kvg:08e8d-g6",
+      "strokes": 3
+    },
+    {
+      "character": "軟",
+      "group": "kvg:08edf-g3",
+      "strokes": 2
+    },
+    {
+      "character": "軟",
+      "group": "kvg:08edf-g4",
+      "strokes": 2
+    },
+    {
+      "character": "輩",
+      "group": "kvg:08f29-g2",
+      "strokes": 4
+    },
+    {
+      "character": "輩",
+      "group": "kvg:08f29-g3",
+      "strokes": 4
+    },
+    {
+      "character": "辛",
+      "group": "kvg:08f9b-g3",
+      "strokes": 3
+    },
+    {
+      "character": "辞",
+      "group": "kvg:08f9e-g7",
+      "strokes": 3
+    },
+    {
+      "character": "辣",
+      "group": "kvg:08fa3-g4",
+      "strokes": 3
+    },
+    {
+      "character": "迎",
+      "group": "kvg:08fce-g2",
+      "strokes": 2
+    },
+    {
+      "character": "迫",
+      "group": "kvg:08feb-g2",
+      "strokes": 1
+    },
+    {
+      "character": "逓",
+      "group": "kvg:09013-g5",
+      "strokes": 1
+    },
+    {
+      "character": "逓",
+      "group": "kvg:09013-g6",
+      "strokes": 1
+    },
+    {
+      "character": "逸",
+      "group": "kvg:09038-g6",
+      "strokes": 1
+    },
+    {
+      "character": "遊",
+      "group": "kvg:0904a-g4",
+      "strokes": 2
+    },
+    {
+      "character": "違",
+      "group": "kvg:09055-g2",
+      "strokes": 3
+    },
+    {
+      "character": "遵",
+      "group": "kvg:09075-g4",
+      "strokes": 1
+    },
+    {
+      "character": "遵",
+      "group": "kvg:09075-g5",
+      "strokes": 1
+    },
+    {
+      "character": "選",
+      "group": "kvg:09078-g6",
+      "strokes": 4
+    },
+    {
+      "character": "避",
+      "group": "kvg:0907f-g9",
+      "strokes": 3
+    },
+    {
+      "character": "那",
+      "group": "kvg:090a3-g3",
+      "strokes": 1
+    },
+    {
+      "character": "那",
+      "group": "kvg:090a3-g4",
+      "strokes": 1
+    },
+    {
+      "character": "部",
+      "group": "kvg:090e8-g4",
+      "strokes": 3
+    },
+    {
+      "character": "酸",
+      "group": "kvg:09178-g10",
+      "strokes": 1
+    },
+    {
+      "character": "醜",
+      "group": "kvg:0919c-g12",
+      "strokes": 1
+    },
+    {
+      "character": "金",
+      "group": "kvg:091d1-g1",
+      "strokes": 2
+    },
+    {
+      "character": "金",
+      "group": "kvg:091d1-g3",
+      "strokes": 2
+    },
+    {
+      "character": "鉛",
+      "group": "kvg:0925b-g4",
+      "strokes": 1
+    },
+    {
+      "character": "鉛",
+      "group": "kvg:0925b-g5",
+      "strokes": 1
+    },
+    {
+      "character": "銃",
+      "group": "kvg:09283-g11",
+      "strokes": 1
+    },
+    {
+      "character": "鋭",
+      "group": "kvg:092ed-g4",
+      "strokes": 1
+    },
+    {
+      "character": "鋭",
+      "group": "kvg:092ed-g5",
+      "strokes": 1
+    },
+    {
+      "character": "錦",
+      "group": "kvg:09326-g4",
+      "strokes": 1
+    },
+    {
+      "character": "鍛",
+      "group": "kvg:0935b-g3",
+      "strokes": 5
+    },
+    {
+      "character": "鎌",
+      "group": "kvg:0938c-g4",
+      "strokes": 1
+    },
+    {
+      "character": "鎌",
+      "group": "kvg:0938c-g5",
+      "strokes": 1
+    },
+    {
+      "character": "鏡",
+      "group": "kvg:093e1-g10",
+      "strokes": 1
+    },
+    {
+      "character": "鏡",
+      "group": "kvg:093e1-g6",
+      "strokes": 3
+    },
+    {
+      "character": "鐘",
+      "group": "kvg:09418-g5",
+      "strokes": 3
+    },
+    {
+      "character": "門",
+      "group": "kvg:09580-g1",
+      "strokes": 4
+    },
+    {
+      "character": "門",
+      "group": "kvg:09580-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閉",
+      "group": "kvg:09589-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閉",
+      "group": "kvg:09589-g3",
+      "strokes": 4
+    },
+    {
+      "character": "開",
+      "group": "kvg:0958b-g2",
+      "strokes": 4
+    },
+    {
+      "character": "開",
+      "group": "kvg:0958b-g3",
+      "strokes": 4
+    },
+    {
+      "character": "閑",
+      "group": "kvg:09591-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閑",
+      "group": "kvg:09591-g3",
+      "strokes": 4
+    },
+    {
+      "character": "間",
+      "group": "kvg:09593-g2",
+      "strokes": 4
+    },
+    {
+      "character": "間",
+      "group": "kvg:09593-g3",
+      "strokes": 4
+    },
+    {
+      "character": "関",
+      "group": "kvg:095a2-g2",
+      "strokes": 4
+    },
+    {
+      "character": "関",
+      "group": "kvg:095a2-g3",
+      "strokes": 4
+    },
+    {
+      "character": "閣",
+      "group": "kvg:095a3-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閣",
+      "group": "kvg:095a3-g3",
+      "strokes": 4
+    },
+    {
+      "character": "閥",
+      "group": "kvg:095a5-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閥",
+      "group": "kvg:095a5-g3",
+      "strokes": 4
+    },
+    {
+      "character": "閲",
+      "group": "kvg:095b2-g2",
+      "strokes": 4
+    },
+    {
+      "character": "閲",
+      "group": "kvg:095b2-g3",
+      "strokes": 4
+    },
+    {
+      "character": "閲",
+      "group": "kvg:095b2-g6",
+      "strokes": 1
+    },
+    {
+      "character": "閲",
+      "group": "kvg:095b2-g7",
+      "strokes": 1
+    },
+    {
+      "character": "闇",
+      "group": "kvg:095c7-g2",
+      "strokes": 4
+    },
+    {
+      "character": "闇",
+      "group": "kvg:095c7-g3",
+      "strokes": 4
+    },
+    {
+      "character": "闇",
+      "group": "kvg:095c7-g7",
+      "strokes": 3
+    },
+    {
+      "character": "闘",
+      "group": "kvg:095d8-g2",
+      "strokes": 4
+    },
+    {
+      "character": "闘",
+      "group": "kvg:095d8-g3",
+      "strokes": 4
+    },
+    {
+      "character": "闘",
+      "group": "kvg:095d8-g5",
+      "strokes": 1
+    },
+    {
+      "character": "防",
+      "group": "kvg:09632-g4",
+      "strokes": 2
+    },
+    {
+      "character": "陛",
+      "group": "kvg:0965b-g4",
+      "strokes": 2
+    },
+    {
+      "character": "陪",
+      "group": "kvg:0966a-g5",
+      "strokes": 3
+    },
+    {
+      "character": "陵",
+      "group": "kvg:09675-g6",
+      "strokes": 1
+    },
+    {
+      "character": "陸",
+      "group": "kvg:09678-g6",
+      "strokes": 1
+    },
+    {
+      "character": "階",
+      "group": "kvg:0968e-g4",
+      "strokes": 2
+    },
+    {
+      "character": "階",
+      "group": "kvg:0968e-g7",
+      "strokes": 1
+    },
+    {
+      "character": "障",
+      "group": "kvg:0969c-g5",
+      "strokes": 3
+    },
+    {
+      "character": "隷",
+      "group": "kvg:096b7-g4",
+      "strokes": 2
+    },
+    {
+      "character": "隷",
+      "group": "kvg:096b7-g5",
+      "strokes": 3
+    },
+    {
+      "character": "需",
+      "group": "kvg:09700-g3",
+      "strokes": 2
+    },
+    {
+      "character": "非",
+      "group": "kvg:0975e-g1",
+      "strokes": 4
+    },
+    {
+      "character": "非",
+      "group": "kvg:0975e-g2",
+      "strokes": 4
+    },
+    {
+      "character": "靴",
+      "group": "kvg:09774-g4",
+      "strokes": 5
+    },
+    {
+      "character": "韓",
+      "group": "kvg:097d3-g7",
+      "strokes": 3
+    },
+    {
+      "character": "音",
+      "group": "kvg:097f3-g3",
+      "strokes": 3
+    },
+    {
+      "character": "韻",
+      "group": "kvg:097fb-g4",
+      "strokes": 3
+    },
+    {
+      "character": "響",
+      "group": "kvg:097ff-g9",
+      "strokes": 3
+    },
+    {
+      "character": "頃",
+      "group": "kvg:09803-g3",
+      "strokes": 2
+    },
+    {
+      "character": "須",
+      "group": "kvg:09808-g3",
+      "strokes": 2
+    },
+    {
+      "character": "頓",
+      "group": "kvg:09813-g7",
+      "strokes": 2
+    },
+    {
+      "character": "頭",
+      "group": "kvg:0982d-g2",
+      "strokes": 1
+    },
+    {
+      "character": "頰",
+      "group": "kvg:09830-g8",
+      "strokes": 2
+    },
+    {
+      "character": "頻",
+      "group": "kvg:0983b-g8",
+      "strokes": 2
+    },
+    {
+      "character": "額",
+      "group": "kvg:0984d-g8",
+      "strokes": 2
+    },
+    {
+      "character": "顎",
+      "group": "kvg:0984e-g10",
+      "strokes": 2
+    },
+    {
+      "character": "顎",
+      "group": "kvg:0984e-g7",
+      "strokes": 1
+    },
+    {
+      "character": "顎",
+      "group": "kvg:0984e-g8",
+      "strokes": 1
+    },
+    {
+      "character": "顕",
+      "group": "kvg:09855-g5",
+      "strokes": 2
+    },
+    {
+      "character": "餅",
+      "group": "kvg:09905-g3",
+      "strokes": 2
+    },
+    {
+      "character": "首",
+      "group": "kvg:09996-g1",
+      "strokes": 3
+    },
+    {
+      "character": "骨",
+      "group": "kvg:09aa8-g1",
+      "strokes": 6
+    },
+    {
+      "character": "骸",
+      "group": "kvg:09ab8-g2",
+      "strokes": 6
+    },
+    {
+      "character": "髄",
+      "group": "kvg:09ac4-g2",
+      "strokes": 6
+    },
+    {
+      "character": "鬼",
+      "group": "kvg:09b3c-g8",
+      "strokes": 1
+    },
+    {
+      "character": "魂",
+      "group": "kvg:09b42-g11",
+      "strokes": 1
+    },
+    {
+      "character": "魅",
+      "group": "kvg:09b45-g8",
+      "strokes": 1
+    },
+    {
+      "character": "魔",
+      "group": "kvg:09b54-g14",
+      "strokes": 1
+    }
+  ]
+}

@@ -7,7 +7,7 @@ subject:
   codepoint: U+8CA9
 revision: f9eb7751c9f7e53af5eeec5b44898d9d8ab9c1e68a5e36eb6114d4307902df9a
 localizedRevision: dede92a13e09e3477e16294f63edad2c293dff4c46bf8597ba3b0328d7cab769
-status: candidate
+status: approved
 claimText: A vendor flipped a shell over to sell it once she saw the tiny painted portrait on its reverse.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f9eb7751c9f7e53af5eeec5b44898d9d8ab9c1e68a5e36eb6114d4307902df9a
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6dbcf13eeeb5f340e5134f479355381e5d50f87eab536b32ae410062d1ec5e91|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6dbcf13eeeb5f340e5134f479355381e5d50f87eab536b32ae410062d1ec5e91
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

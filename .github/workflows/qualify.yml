@@ -27,9 +27,8 @@ jobs:
           python -m kanjidb validate
           python -m kanjidb verify-reproducible
           mkdir -p release
-          python -m kanjidb build --output release/kanji.sqlite
-          git -c tar.umask=0022 archive --format=tar.gz --prefix=manabi-kanji-db/ --output=release/source.tar.gz "$GITHUB_SHA"
-          (cd release && sha256sum kanji.sqlite source.tar.gz > checksums.txt)
+          python -m kanjidb package --output release/manabi-kanji-db.zip
+          (cd release && sha256sum manabi-kanji-db.zip > checksums.txt)
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: snapshot-${{ github.sha }}
@@ -55,4 +54,4 @@ jobs:
           (cd release && sha256sum --check checksums.txt)
           gh release create "snapshot-$GITHUB_SHA" release/* --repo "$GITHUB_REPOSITORY" \
             --target "$GITHUB_SHA" --title "Kanji database snapshot ${GITHUB_SHA:0:12}" \
-            --notes "Generated from $GITHUB_SHA. Source, attribution and license notices accompany the database."
+            --notes "Generated from $GITHUB_SHA. The archive contains the database, schemas, manifest, and license notices."

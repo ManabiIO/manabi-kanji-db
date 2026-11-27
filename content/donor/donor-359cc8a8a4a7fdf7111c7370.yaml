@@ -1,0 +1,28 @@
+id: donor-359cc8a8a4a7fdf7111c7370
+kind: historical-origin
+subject:
+  type: character
+  literal: 父
+  codepoint: U+7236
+revision: 3f47fc5979047a8ef7952a88aaf63eb964b04e1b6876351eccfc5fb283410778
+localizedRevision: 82b2f80fef3982a5df85087768366e821a988d7b3c39fd722b56da1d802d0c7e
+status: candidate
+claimText: The older form pictures a hand holding an object, possibly a rod or axe.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93807524-1ef9bddbb6cf
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/父/1
+review:
+  state: pending

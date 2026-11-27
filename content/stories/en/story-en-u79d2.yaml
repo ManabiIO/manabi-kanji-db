@@ -7,7 +7,7 @@ subject:
   codepoint: U+79D2
 revision: 7c3bad5f37177cc2d13394a052f9e3b91de84d95bba4072f9b01a728bf3166a4
 localizedRevision: 9bad30ed882793d8c6f9fc7f0d20bd4edf84ba951e9968b12f5dc78b59d1440d
-status: candidate
+status: approved
 claimText: A mouse needed only a second to steal a few grains from the farmer's bowl.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 7c3bad5f37177cc2d13394a052f9e3b91de84d95bba4072f9b01a728bf3166a4
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:46e60152ea6b48407b8c83b52c56f77d589debcf3c7f7763d8d194c7a6cfee9c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:46e60152ea6b48407b8c83b52c56f77d589debcf3c7f7763d8d194c7a6cfee9c
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

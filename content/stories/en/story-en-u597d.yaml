@@ -7,7 +7,7 @@ subject:
   codepoint: U+597D
 revision: fcc6449bd920db0c6bfb6ae5606eedbbad6ea0730c32f71f2780fc111bc3116e
 localizedRevision: 71785760ca5b1da1d33f85613adb576d303d28f21872e559221794f55792c34d
-status: candidate
+status: approved
 claimText: A woman grew fond of the child who brought her a paper tulip every Tuesday.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: fcc6449bd920db0c6bfb6ae5606eedbbad6ea0730c32f71f2780fc111bc3116e
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7c5262b7555d686ba7b2bc82dd0ee04207adb2c96ed8080793de0f67a8582222|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7c5262b7555d686ba7b2bc82dd0ee04207adb2c96ed8080793de0f67a8582222
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

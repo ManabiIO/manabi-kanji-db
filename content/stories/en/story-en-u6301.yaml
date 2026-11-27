@@ -7,7 +7,7 @@ subject:
   codepoint: U+6301
 revision: 3b93ac2bccf97156a9c93a3a5084bc2b5d8b45fd3d346b555c1af7c94024a2b2
 localizedRevision: 6ebbf2bd55868b2a52328a36cd56ae0276258a8e2b8c533a1d39939babd1736a
-status: candidate
+status: approved
 claimText: At the temple, a child used both hands to hold a candle taller than he was.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3b93ac2bccf97156a9c93a3a5084bc2b5d8b45fd3d346b555c1af7c94024a2b2
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5b603a2df64d2749c7cc53aad7323425f9786a1afd0cfcd58152e64fb5123980|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5b603a2df64d2749c7cc53aad7323425f9786a1afd0cfcd58152e64fb5123980
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

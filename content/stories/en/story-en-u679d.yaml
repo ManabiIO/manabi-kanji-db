@@ -7,7 +7,7 @@ subject:
   codepoint: U+679D
 revision: 3ac47ae934558729177500910570cd24e5602fc3f4a423d9e98a94d73597897f
 localizedRevision: 6cbae56aae86b24f3235e247311241b4851f62a0494a4892818de6eb503cf6b0
-status: candidate
+status: approved
 claimText: A low branch of the tree supported an entire squirrel orchestra.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3ac47ae934558729177500910570cd24e5602fc3f4a423d9e98a94d73597897f
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2f6ad74b0e4cafbc286e6a1a6c58d713d5f9198a43602d4472b66cbe5ba06234|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2f6ad74b0e4cafbc286e6a1a6c58d713d5f9198a43602d4472b66cbe5ba06234
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

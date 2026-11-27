@@ -7,7 +7,7 @@ subject:
   codepoint: U+5EAD
 revision: 39f8b88c473b1a44b1e30ae676f7ba3a6a666b25679d5ad120c831f9597ab6d0
 localizedRevision: 6524b02afa2ad8eb094e1d4dbe61eda3d6406359867a4e5851bbcc033e0e5bcc
-status: candidate
+status: approved
 claimText: During a sudden downpour, the royal court crowded under the narrow shelter that surrounded the courtyard.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 39f8b88c473b1a44b1e30ae676f7ba3a6a666b25679d5ad120c831f9597ab6d0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8f6b81a7d4da57498146b7abc888ba5876cee29155de654f7373ea641771f201|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8f6b81a7d4da57498146b7abc888ba5876cee29155de654f7373ea641771f201
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

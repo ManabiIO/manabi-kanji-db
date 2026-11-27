@@ -6,7 +6,7 @@ subject:
   id: cmp-u670b
 revision: 3dd6e8d455b215030bb05a68fcd1c75897059257c281c54b3851dafa2a08ffc0
 localizedRevision: 3dd6e8d455b215030bb05a68fcd1c75897059257c281c54b3851dafa2a08ffc0
-status: candidate
+status: approved
 claimText: friends
 targetLanguage: ja
 locale: en
@@ -30,5 +30,5 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3dd6e8d455b215030bb05a68fcd1c75897059257c281c54b3851dafa2a08ffc0
   sourceRevision: kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:de983f0e44fdb99b98dbf4af8d8eaacdd3fef6cd905bc94b0c4ba306b3395b41|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:de983f0e44fdb99b98dbf4af8d8eaacdd3fef6cd905bc94b0c4ba306b3395b41
-  rationale: Approved as an original fictional mnemonic cue bound to the cited Japanese glyph occurrences; this
-    cue is not asserted as ordinary dictionary meaning or historical component function.
+  rationale: Approved as an original fictional mnemonic cue bound to exact Japanese glyph occurrences; no ordinary
+    dictionary meaning or historical component function is asserted.

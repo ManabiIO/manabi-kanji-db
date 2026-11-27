@@ -1,0 +1,28 @@
+id: donor-13688470f7da8dfd5b796410
+kind: historical-origin
+subject:
+  type: character
+  literal: 取
+  codepoint: U+53D6
+revision: 8b4298f9566d07500dd30e5158081929e531765012d3027847f23e98f3b84d72
+localizedRevision: 52268df75fc922167d25c4322e87c7cbee495857956887298c94ca7793f7a79e
+status: candidate
+claimText: 耳 ear and 又 hand show taking an ear.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93429888-99694b87c63f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/取/1
+review:
+  state: pending

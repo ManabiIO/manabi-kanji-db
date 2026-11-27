@@ -1,0 +1,28 @@
+id: donor-89a315331c7251dcca60f3e1
+kind: historical-origin
+subject:
+  type: character
+  literal: 竹
+  codepoint: U+7AF9
+revision: 5965aafbbab916597a405002c63189f939f10d0d81c12b4e27e4095c97695ff2
+localizedRevision: 44cc0144efb2eed31f7f3ae6d001cceac1826950cdbefcdc238bc0fd4760e837
+status: candidate
+claimText: Two bamboo stalks with leaves.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92810007-1875eb6c0617
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/竹/1
+review:
+  state: pending

@@ -6,7 +6,7 @@ subject:
   id: cmp-u5316
 revision: 029f0b6f4f827c149b78c85fb1f6d3dc2f9a8383828a9c5db4ec35f91ea07aef
 localizedRevision: 029f0b6f4f827c149b78c85fb1f6d3dc2f9a8383828a9c5db4ec35f91ea07aef
-status: candidate
+status: approved
 claimText: change
 targetLanguage: ja
 locale: en
@@ -30,5 +30,5 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 029f0b6f4f827c149b78c85fb1f6d3dc2f9a8383828a9c5db4ec35f91ea07aef
   sourceRevision: kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496
-  rationale: Approved as an original fictional mnemonic cue bound to the cited Japanese glyph occurrences; this
-    cue is not asserted as ordinary dictionary meaning or historical component function.
+  rationale: Approved as an original fictional mnemonic cue bound to exact Japanese glyph occurrences; no ordinary
+    dictionary meaning or historical component function is asserted.

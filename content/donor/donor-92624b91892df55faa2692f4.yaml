@@ -1,0 +1,28 @@
+id: donor-92624b91892df55faa2692f4
+kind: historical-origin
+subject:
+  type: character
+  literal: 止
+  codepoint: U+6B62
+revision: 3671409a62d5157a4810358f4e10f4e785a9b42343044c4779595395c4bded8a
+localizedRevision: fc7d0587c3d78fffbb13465bb820910a4c59a6dd642cfb4492dbdfc5c232f77e
+status: candidate
+claimText: 止 began as a footprint with three toes and a sole.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93297076-32fa068ac0bd
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/止/1
+review:
+  state: pending

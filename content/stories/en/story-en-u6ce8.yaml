@@ -7,7 +7,7 @@ subject:
   codepoint: U+6CE8
 revision: 4027ae4c4fcf80d61b773efde861a716418eb366f86afb3e98eaf2615bca9dd4
 localizedRevision: 01d2c2f03b7d77a68c036a006ac29f9f5628e8b87c68f5da24be0adbc68e4859
-status: candidate
+status: approved
 claimText: The lord of the castle asked his guest to pour water into his crown for a thirsty sparrow.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 4027ae4c4fcf80d61b773efde861a716418eb366f86afb3e98eaf2615bca9dd4
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:92a9040b68e3bba8cea8cbc869370fc62f19f69b23300f6ff7463b4ad2d48743|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:92a9040b68e3bba8cea8cbc869370fc62f19f69b23300f6ff7463b4ad2d48743
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

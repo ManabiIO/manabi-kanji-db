@@ -7,7 +7,7 @@ subject:
   codepoint: U+6307
 revision: 2ae79f63b04e0c853a740ed8a380f667e21ce4dad4e9df1962093967b6dd2ce2
 localizedRevision: 5c0e6e60380265ebd4550c479b9e6768b83d3ebe8a91feb779a1db7986cb4988
-status: candidate
+status: approved
 claimText: A girl pointed a finger at the delicious cake, and the baker put the last piece in her hand.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 2ae79f63b04e0c853a740ed8a380f667e21ce4dad4e9df1962093967b6dd2ce2
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:916452a4c8bc27880645ea02871342e008703482b6fbfd231c799ca158b2874f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:916452a4c8bc27880645ea02871342e008703482b6fbfd231c799ca158b2874f
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

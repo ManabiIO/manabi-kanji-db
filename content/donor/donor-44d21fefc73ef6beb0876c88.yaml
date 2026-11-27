@@ -1,0 +1,28 @@
+id: donor-44d21fefc73ef6beb0876c88
+kind: historical-origin
+subject:
+  type: character
+  literal: 鼻
+  codepoint: U+9F3B
+revision: 3e50fee6afb58b70e915f1407e4371e90dfc4c89b71077ba0b7ac5363227e351
+localizedRevision: f187fee117aba562acb983afee6805bc042d3e7d16241beb671b39a58dffed69
+status: candidate
+claimText: The top 自 preserves the older nose shape; its use for self came later.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93606002-981f932f611e
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/鼻/1
+review:
+  state: pending

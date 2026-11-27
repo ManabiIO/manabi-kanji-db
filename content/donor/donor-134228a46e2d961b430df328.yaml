@@ -1,0 +1,28 @@
+id: donor-134228a46e2d961b430df328
+kind: historical-origin
+subject:
+  type: character
+  literal: 囚
+  codepoint: U+56DA
+revision: fd0580319554bdb666a914aa17e20e95a22b7925fbc308df25a3df7aff1d497f
+localizedRevision: 66970e7151452fa7482d3b5dbd50296fdee43713249694cab26bf88a211bed15
+status: candidate
+claimText: A person 人 inside an enclosure 囗 represents a prisoner.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93448317-a770a29189b0
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/囚/1
+review:
+  state: pending

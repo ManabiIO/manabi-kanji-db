@@ -1,0 +1,28 @@
+id: donor-ea37a82c56167eae4d7f2713
+kind: historical-origin
+subject:
+  type: character
+  literal: 屯
+  codepoint: U+5C6F
+revision: 07b0451ee7db81824f643d44f95c1f5bd1e5ffdca20133f5a6a61db2aa1ab677
+localizedRevision: 231a5b5db2defb34376404c09e777a5761a6a5e7bd153b7f29dd3925119b9d00
+status: candidate
+claimText: The older form pictures a swollen bud or sprout beginning to emerge.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93475815-ade6d5f00255
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/屯/1
+review:
+  state: pending

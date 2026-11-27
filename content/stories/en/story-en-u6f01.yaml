@@ -7,7 +7,7 @@ subject:
   codepoint: U+6F01
 revision: 9434a69b0775c0669fb94414fc68d252ba813837e1e90ee4655eed9b357a2171
 localizedRevision: 66d9e7b91b9afc68e9a9134a1fbff86f3391ef8fc5b40b95eb15baa851c12035
-status: candidate
+status: approved
 claimText: A child went fishing after a silver fish leaped out of the water and landed in her hat.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9434a69b0775c0669fb94414fc68d252ba813837e1e90ee4655eed9b357a2171
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6b9fb53fd96f87167e1870498d2e24f37219b197fbdf652002eae2c0c57e0728|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6b9fb53fd96f87167e1870498d2e24f37219b197fbdf652002eae2c0c57e0728
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

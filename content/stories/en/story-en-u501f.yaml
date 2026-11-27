@@ -7,7 +7,7 @@ subject:
   codepoint: U+501F
 revision: 233f753b256797ccf4b1fa03ed3796490c07f6c322c6575e2c4a4608595998d5
 localizedRevision: de52f8866733a678a76db82a8cc5c32694a388f86ba2580a89d3d974b0af95a7
-status: candidate
+status: approved
 claimText: A traveler from long ago stepped out of a photograph to borrow my umbrella.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 233f753b256797ccf4b1fa03ed3796490c07f6c322c6575e2c4a4608595998d5
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cc0e0e7ec6ad894609eaa3e78c62857dac73c00cff07b51d576d1348006a1f44|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:cc0e0e7ec6ad894609eaa3e78c62857dac73c00cff07b51d576d1348006a1f44
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

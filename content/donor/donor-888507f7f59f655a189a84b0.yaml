@@ -1,0 +1,28 @@
+id: donor-888507f7f59f655a189a84b0
+kind: historical-origin
+subject:
+  type: character
+  literal: 水
+  codepoint: U+6C34
+revision: 2fc9080fdc2977cb3b225fa862eb872cc1c2d983741a494101115610cb343ece
+localizedRevision: e0425b2061df9efd4bef39b787c688d4efc5eae9003e4a5662fb9e2a515e82e7
+status: candidate
+claimText: The older form pictures flowing water. Its central flowing line and side marks help you remember 水.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94507192-27ede412a6fe
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/水/1
+review:
+  state: pending

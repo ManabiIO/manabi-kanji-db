@@ -7,7 +7,7 @@ subject:
   codepoint: U+7D19
 revision: ca3e71de7e7ed865aee16a319537edaa0b2aa2e158365cbc17eeab5f2e2b4f9b
 localizedRevision: bf790b3bf61f596b53beaac23ec3c4cfa4be0ec83cb38765f9d8d09f46ef072d
-status: candidate
+status: approved
 claimText: The stationer stitched a family's surname onto a sheet of paper with red thread.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: ca3e71de7e7ed865aee16a319537edaa0b2aa2e158365cbc17eeab5f2e2b4f9b
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a2bcccb9ef66784f8ce9bfc499c19e122f5697fe4191334d536078b7d70863ff|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a2bcccb9ef66784f8ce9bfc499c19e122f5697fe4191334d536078b7d70863ff
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

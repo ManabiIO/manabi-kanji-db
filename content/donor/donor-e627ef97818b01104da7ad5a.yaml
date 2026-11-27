@@ -1,0 +1,29 @@
+id: donor-e627ef97818b01104da7ad5a
+kind: historical-origin
+subject:
+  type: character
+  literal: 胃
+  codepoint: U+80C3
+revision: 88bda9edfa76c5100268dab4f6dbffed0fba499fc83923cc65dd48ebe10bd463
+localizedRevision: c8174ca0f26b9c5ed52ccce51ec03b019c6e765d7ee3e7d08ae01fd0ea19ee45
+status: candidate
+claimText: 胃 began as a picture of a stomach with food inside. Its modern 田-shaped top is a changed shape, not a
+  field; flesh was added below.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92754596-2458903a96b3
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/胃/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+62B1
 revision: 0c5b12040f00204d138aa703560de593cf25d989e67332073709c74005b3308b
 localizedRevision: b16addb2ebf12f52773bf4bbf1695b93f8499c30d58d38f2010f4d0ab0f5c4e8
-status: candidate
+status: approved
 claimText: A child drew the parcel into an embrace when two tiny hands reached out of it.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0c5b12040f00204d138aa703560de593cf25d989e67332073709c74005b3308b
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f00852d09f6229d0d53b16909df8219dafcfb35ffdaed8004660e574f6aec445|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f00852d09f6229d0d53b16909df8219dafcfb35ffdaed8004660e574f6aec445
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -1,0 +1,28 @@
+id: donor-eb42a20e18f7819e8cf75c4c
+kind: historical-origin
+subject:
+  type: character
+  literal: 弓
+  codepoint: U+5F13
+revision: 29bbe82706f70a7f431cf1a0b75a37ca684f497b892f216bed0ae574da8d1b05
+localizedRevision: fc687fcfd7cda9144b2c49494d82b9504c3752234480836a0757fd2d5e45f5c6
+status: candidate
+claimText: A picture of a bow.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93473994-1161c81814d8
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/弓/1
+review:
+  state: pending

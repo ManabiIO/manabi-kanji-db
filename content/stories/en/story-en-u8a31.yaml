@@ -7,7 +7,7 @@ subject:
   codepoint: U+8A31
 revision: d733570fbe6b47f3a6cde83828bb89a76fe1bc8f9ce36439981e9ff3e29397d2
 localizedRevision: 29e465f1d231c6f2edf97e9acee7dffd90a264a650ef76d52765b133e6e07657
-status: candidate
+status: approved
 claimText: At noon, the head librarian said the words that would permit the tortoise to borrow its first book.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d733570fbe6b47f3a6cde83828bb89a76fe1bc8f9ce36439981e9ff3e29397d2
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b612d87a4954de6f7e2de06fdf8ded195b9a0c3478e051a95d019f028e8896d9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b612d87a4954de6f7e2de06fdf8ded195b9a0c3478e051a95d019f028e8896d9
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -1,0 +1,28 @@
+id: donor-1bde753e94a9203e11c2dd7e
+kind: historical-origin
+subject:
+  type: character
+  literal: 見
+  codepoint: U+898B
+revision: b8e443b41504f359d000a82bdd505a8d03566519a07578f9aa08ee223639fbc3
+localizedRevision: 62a779995d5c2eefcf611b1d6fd6bacf5fe8e5f9c0d826742b02b9657bf3258b
+status: candidate
+claimText: 見 shows an eye above a person. Historical sources identify the older person shape differently.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201717-04c0b8f8111e
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/見/1
+review:
+  state: pending

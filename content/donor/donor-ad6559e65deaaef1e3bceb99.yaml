@@ -1,0 +1,28 @@
+id: donor-ad6559e65deaaef1e3bceb99
+kind: historical-origin
+subject:
+  type: character
+  literal: 衰
+  codepoint: U+8870
+revision: fde4b958a9ec73aa7c0947f55143276e89cf7bb67fc00c69ed1602f111f270ce
+localizedRevision: a684141539ec09597edb393a3f98ca332ef7e446725f7d2f5298e41f3492f1fa
+status: candidate
+claimText: The older form pictures a raincoat woven from plant fibers.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93466925-151e616ab8cc
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/衰/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+7AAF
 revision: 2fa130905c60af8a22ddb7ece871fe32149a7c7db0b7f04258fa3e9ce85760d9
 localizedRevision: 31682423058fb7be76ab2a3fa14f3d6139069b275ee7c8c13dc826690879be5c
-status: candidate
+status: approved
 claimText: A lamb poked its head through a hole in the cold kiln to watch the potter stack bowls.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 2fa130905c60af8a22ddb7ece871fe32149a7c7db0b7f04258fa3e9ce85760d9
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ac8d0a7d82ef5ff69ef319d56e4f9e7b78035a7960c7ed2feb751c557f4ed756|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ac8d0a7d82ef5ff69ef319d56e4f9e7b78035a7960c7ed2feb751c557f4ed756
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

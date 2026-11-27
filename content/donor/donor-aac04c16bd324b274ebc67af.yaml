@@ -1,0 +1,28 @@
+id: donor-aac04c16bd324b274ebc67af
+kind: historical-origin
+subject:
+  type: character
+  literal: 回
+  codepoint: U+56DE
+revision: b27cc35ce5436e1c463226773f903969747bb10c7f9a5169b53748e8e2de0b3c
+localizedRevision: 0fde2f5ac64851c42b0e18a9e0cb5d0e1086076e57f4beeb023e94966b3b2681
+status: candidate
+claimText: The older form was a spiral representing rotation; the modern outline is squared.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92684097-709792afe926
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/回/1
+review:
+  state: pending

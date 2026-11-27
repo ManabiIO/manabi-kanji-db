@@ -7,7 +7,7 @@ subject:
   codepoint: U+7D50
 revision: 00bd345e1c53658b8b6e8ff2e9cf5ec97d855e8093f5b58421a4147632845a4e
 localizedRevision: 48c76b58a0b03b014b1661377498d878916eb87600316e15c930ed0fa537aed8
-status: candidate
+status: approved
 claimText: A sailor used red thread to tie a good-luck charm to the mast.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 00bd345e1c53658b8b6e8ff2e9cf5ec97d855e8093f5b58421a4147632845a4e
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c6dee6cb4b37fc080e6353ad0d98732e4f06a6bc5ebd001dc77494235fc2edfa|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c6dee6cb4b37fc080e6353ad0d98732e4f06a6bc5ebd001dc77494235fc2edfa
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

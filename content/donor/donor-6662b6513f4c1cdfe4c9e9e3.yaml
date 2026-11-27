@@ -1,0 +1,32 @@
+id: donor-6662b6513f4c1cdfe4c9e9e3
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-72f9
+  occurrence: kvg:072f9-g2
+revision: c3393627d5fc8c66fc4c47f4ec9a56dbc1c07c6bf9c9af817d63eccc39639ecf
+localizedRevision: 44abc4eedc248e1bee033646d754f63030088d3740d975015063c1ae91ec5b40
+status: candidate
+claimText: 夾 supplies the historical sound clue in 狹; Japanese readings can differ.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93506827-4b172edff9f7
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/狹/1
+- reference: kanjivg-72f9
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:072f9-g2
+review:
+  state: pending

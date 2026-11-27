@@ -7,7 +7,7 @@ subject:
   codepoint: U+6697
 revision: f3d2e266205d08e862f9b4b5686773586f9d1edc292dd5ccf3240b14c939a530
 localizedRevision: 12c8d9552779871d8758c5df85d1f7cd4473639102dba1761392a617509031fc
-status: candidate
+status: approved
 claimText: When the sun disappeared, the sound of a single cricket filled the darkness.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f3d2e266205d08e862f9b4b5686773586f9d1edc292dd5ccf3240b14c939a530
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:addb1063797dda69bbd9c525036b0119ecb86c7cf8da058ca7a1621e2e7b80d3|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:addb1063797dda69bbd9c525036b0119ecb86c7cf8da058ca7a1621e2e7b80d3
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

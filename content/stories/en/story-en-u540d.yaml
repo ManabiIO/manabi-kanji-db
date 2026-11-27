@@ -7,7 +7,7 @@ subject:
   codepoint: U+540D
 revision: fa46761805eb6ff845fc2878e92ff555f6c01372705417349a7e79ba22f58964
 localizedRevision: e135569ca141883978cfb3fd07a6e47d7d8271cf6bf3f81b8eb618a2878a0d70
-status: candidate
+status: approved
 claimText: At evening roll call, a mouth on each lantern called the name of the person carrying it.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: fa46761805eb6ff845fc2878e92ff555f6c01372705417349a7e79ba22f58964
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:95574ac3cdfacbde4eca7627564ea855b6cd5fa4acc87a4d6260aa7448372bf9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:95574ac3cdfacbde4eca7627564ea855b6cd5fa4acc87a4d6260aa7448372bf9
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

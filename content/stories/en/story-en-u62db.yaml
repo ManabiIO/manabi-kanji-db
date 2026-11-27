@@ -7,7 +7,7 @@ subject:
   codepoint: U+62DB
 revision: ed7bb9947f532b36af8be18912f857119670f59c6a22b880c2d42b781608cf30
 localizedRevision: cccd568a222664b1c334d08802f94909b8fa17995f9ba4a6296702f3f33ba506
-status: candidate
+status: approved
 claimText: A queen summoned her jester by using one hand to beckon him out of a painting.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: ed7bb9947f532b36af8be18912f857119670f59c6a22b880c2d42b781608cf30
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:deba046c7d3984f6f3ffa29b15f9f5989be68ed7b426f8bbfcfec3cd4145cf9c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:deba046c7d3984f6f3ffa29b15f9f5989be68ed7b426f8bbfcfec3cd4145cf9c
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

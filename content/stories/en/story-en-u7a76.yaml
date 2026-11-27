@@ -7,7 +7,7 @@ subject:
   codepoint: U+7A76
 revision: 3530cf3407da17c98010ebd674090a01d045026db79101474cbb1512374dd1e4
 localizedRevision: 57425c538ff36fd20636aea66d750a4ac92e81d86066d1a9122aa01e20e81ab2
-status: candidate
+status: approved
 claimText: For her research, a biologist dug a hole and found nine beetles sharing a single leaf for a roof.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3530cf3407da17c98010ebd674090a01d045026db79101474cbb1512374dd1e4
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f88b92cc9b4602892987ca8f78370a6835cde938e4b3c5aa29eeffb652a26215|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f88b92cc9b4602892987ca8f78370a6835cde938e4b3c5aa29eeffb652a26215
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

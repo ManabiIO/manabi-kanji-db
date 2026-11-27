@@ -1,0 +1,40 @@
+---
+id: reading-example-u8a71-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 話
+  codepoint: U+8A71
+revision: 71661c1b8723253b1b2369a46815d33df5db8bae459be2df20251672f347b703
+localizedRevision: 98ddd3a6520bc9ddec216b1569d5f1b73898191d9e6ed06ff17619ea1e05873f
+status: approved
+claimText: In 会話 (かいわ), 話 is read わ.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1198880; keb=会話; reb=かいわ; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=8490; text=会話; reading=かいわ; Unicode scalar index=1 (zero-based); ruby=話; rt=わ
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/話
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 71661c1b8723253b1b2369a46815d33df5db8bae459be2df20251672f347b703
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

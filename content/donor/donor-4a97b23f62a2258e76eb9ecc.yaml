@@ -1,0 +1,28 @@
+id: donor-4a97b23f62a2258e76eb9ecc
+kind: historical-origin
+subject:
+  type: character
+  literal: 田
+  codepoint: U+7530
+revision: 76331b53bc016a230dd44bf76b6d321c467b7c6e0facd818f967f986c6c6e3f4
+localizedRevision: 8b98e5dc7ca31a04f93b5327c94844f3c0e550d27e17e0c005778d8698ada227
+status: candidate
+claimText: A picture of a field divided into sections.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93549154-f7653a2c83c4
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/田/1
+review:
+  state: pending

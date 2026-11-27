@@ -1,0 +1,28 @@
+id: donor-63caf949569489e0c3e3322b
+kind: historical-origin
+subject:
+  type: character
+  literal: 初
+  codepoint: U+521D
+revision: 091adc43232948d090743ea786c5b8c3caa763a2857b0b0ac950536229f680c4
+localizedRevision: a3a1b3917cc644936c9b39b13add40b65d5f174cdb1f759c84ccaa90ca6a025b
+status: candidate
+claimText: '初 combines 衤 clothing and 刀 knife: cutting cloth begins making clothes.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92199988-1042c44b2444
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/初/1
+review:
+  state: pending

@@ -1,0 +1,29 @@
+id: donor-ca9de146d8fb44140009affc
+kind: historical-origin
+subject:
+  type: character
+  literal: 行
+  codepoint: U+884C
+revision: bb4e90dc18d8bbf432ed520aae6b09ee5d5c12921fb990116d7752541ea3608c
+localizedRevision: 5c17b2c631e7f132aca944ba2e4f0e1a1fe9c59820309dc64505fcbccdac7235
+status: candidate
+claimText: The older form pictures a street intersection. Modern 行 writes its two sides as 彳 and 亍; it was originally
+  one picture.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92642053-e740ed13df0d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/行/1
+review:
+  state: pending

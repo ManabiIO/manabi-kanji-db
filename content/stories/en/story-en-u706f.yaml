@@ -7,7 +7,7 @@ subject:
   codepoint: U+706F
 revision: 35218a816cbfd31e4e9336fac79d65696242003a81c6a77f7654239a00b038c8
 localizedRevision: 206c8df3aeb641cc07e262949a88f73669da974d4887884902e1418e8236bc5e
-status: candidate
+status: approved
 claimText: A lamp with a tiny blue fire inside lit the whole city block.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 35218a816cbfd31e4e9336fac79d65696242003a81c6a77f7654239a00b038c8
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9066c838eef9d87ec655e35a5d0a3ab8f7ef31b7dab6f0a327a6c7d4fd66e5b0|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9066c838eef9d87ec655e35a5d0a3ab8f7ef31b7dab6f0a327a6c7d4fd66e5b0
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

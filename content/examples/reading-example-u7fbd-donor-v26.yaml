@@ -1,0 +1,40 @@
+---
+id: reading-example-u7fbd-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 羽
+  codepoint: U+7FBD
+revision: 21bdee8a5deccf0e2f9c453d19dd7db2802ed7a6bc1a1fadabab2eb9d51f7a18
+localizedRevision: d0d332774bac63a88ab73e365764dc4f22d3d0df7f725b3ef9703c66bbfc0358
+status: approved
+claimText: In 羽根 (はね), 羽 is read は.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1171680; keb=羽根; reb=はね; applicable sense indices=1,2,3,4,5,6
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=4945; text=羽根; reading=はね; Unicode scalar index=0 (zero-based); ruby=羽; rt=は
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/羽
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 21bdee8a5deccf0e2f9c453d19dd7db2802ed7a6bc1a1fadabab2eb9d51f7a18
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

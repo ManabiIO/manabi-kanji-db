@@ -7,7 +7,7 @@ subject:
   codepoint: U+62CD
 revision: 75a2192c43c06c841f75d8b38b2fd1855260b533a67d22ea3df0c8ae250ff2e6
 localizedRevision: 2336b04afa15ed9ce3adfd71d7c283efe4c7327355fd70740abf087bafaef374
-status: candidate
+status: approved
 claimText: When the white curtains lifted, every pair of hands began to clap for the acrobats.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 75a2192c43c06c841f75d8b38b2fd1855260b533a67d22ea3df0c8ae250ff2e6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b5a85d3eebf273023a9fc0d1d0cfd8073dabceb90305c58eccbe58a33c31fd83|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b5a85d3eebf273023a9fc0d1d0cfd8073dabceb90305c58eccbe58a33c31fd83
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

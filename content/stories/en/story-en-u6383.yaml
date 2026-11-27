@@ -7,7 +7,7 @@ subject:
   codepoint: U+6383
 revision: d99a51bf037d092cf455dab1023c8331416cf1a7688809c890eceb0e6e4977be
 localizedRevision: 94d69c04d717645114835706cbce9025fc4b1015842f03a5474ce26ae109b926
-status: candidate
+status: approved
 claimText: With a wave of her hand, the wizard made a broom sweep a ballroom full of confetti.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d99a51bf037d092cf455dab1023c8331416cf1a7688809c890eceb0e6e4977be
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1a6c4fd68ac50d713821c900d133fe1cbca7f8f06bbb50230f390178bae27d2d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1a6c4fd68ac50d713821c900d133fe1cbca7f8f06bbb50230f390178bae27d2d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

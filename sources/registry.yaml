@@ -24,11 +24,9 @@ sources:
   license: CC-BY-SA
   licenseVersion: '4.0'
   licenseEvidenceURL: https://www.edrdg.org/edrdg/licence.html
-  scope: Literal and Unicode codepoint identity plus exact selected-sense references; no readings, meanings, grades,
-    counts, or indexes copied into this database
+  scope: Literal and Unicode codepoint identity plus exact selected-sense and Japanese-reading references; no general reading or meaning lists, grades, counts, or indexes copied
   attribution: EDRDG, KANJIDIC2; https://www.edrdg.org/edrdg/licence.html
-  modifications: Selected literal and UCS codepoint for exact identity joins; selected sense paths are referenced
-    by selector only
+  modifications: Selected literal and UCS codepoint for exact identity joins; selected sense and Japanese reading fields support individual teaching claims
   sourceLanguage: en
   upstream: []
   revision: file-4/database-2026-331
@@ -195,6 +193,101 @@ sources:
   acquisitionMethod: Pinned raw CSV SHA-256 checked; only one exact field selected
   retrievedAt: '2026-11-27T07:57:00Z'
   sha256: 7b463876a0837bfb1f754a4e1bec43617b62f92b9839bbdf060d6ad0d8dbaf65
+- id: jmdict-e-2026-11-27
+  author: "Electronic Dictionary Research and Development Group and JMdict contributors"
+  project: "JMdict English-edition XML"
+  url: https://www.edrdg.org/jmdict/j_jmdict.html
+  license: CC-BY-SA
+  licenseVersion: '4.0'
+  licenseEvidenceURL: https://www.edrdg.org/edrdg/licence.html
+  scope: "Selected written-form and reading pairs with exact entry IDs and restrictions; no dictionary glosses or bulk XML redistribution"
+  attribution: "JMdict, EDRDG and contributors; https://www.edrdg.org/edrdg/licence.html"
+  modifications: "Checked selected spelling and reading pairs against reading and sense restrictions; recorded exact entry and pair selectors"
+  sourceLanguage: ja
+  upstream: []
+  revision: "2026-11-27"
+  sha256: 3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43
+  acquisitionMethod: "Official EDRDG gzip archive, XML creation date and SHA-256 verified"
+  retrievedAt: "2026-11-27T18:20:28Z"
+- id: jmdict-furigana-2.3.1-2026-10-25
+  author: "Doublevil and JmdictFurigana contributors, with upstream JMdict by EDRDG"
+  project: "JmdictFurigana data"
+  url: https://github.com/Doublevil/JmdictFurigana/releases/tag/2.3.1%2B2026-10-25
+  license: CC-BY-SA
+  licenseVersion: '4.0'
+  licenseEvidenceURL: https://raw.githubusercontent.com/Doublevil/JmdictFurigana/2.3.1%2B2026-10-25/README.md
+  scope: "Exact selected JP spelling/reading and per-character ruby alignment rows from JmdictFurigana.json; no generator code or bulk alignment redistribution"
+  attribution: "JmdictFurigana, Doublevil and contributors; upstream JMdict, EDRDG and contributors"
+  modifications: "Checked selected ruby spans against exact written forms and readings; retained the selected span and original alignment row selector"
+  sourceLanguage: ja
+  upstream:
+  - JMdict
+  revision: "2.3.1+2026-10-25"
+  sha256: e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472
+  acquisitionMethod: "Versioned GitHub release ZIP with SHA-256 verified against the release asset digest"
+  retrievedAt: "2026-11-27T18:20:28Z"
+- id: enwiktionary-glyph-origin
+  author: English Wiktionary contributors
+  project: English Wiktionary
+  url: https://en.wiktionary.org/wiki/Wiktionary:Main_Page
+  license: CC-BY-SA
+  licenseVersion: '4.0'
+  licenseEvidenceURL: https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+  scope: Revision-pinned Glyph origin passages as factual references; passage text and images excluded
+  attribution: English Wiktionary contributors, linked article histories
+  modifications: Selected section identities and hashes. No article bodies distributed.
+  sourceLanguage: en
+  upstream: []
+  revision: per-article oldid
+  acquisitionMethod: Verified cached UTF-8 passage bytes from revision-specific pages
+  retrievedAt: '2026-11-27T00:00:00Z'
+  sha256: 58cf079cc98f8a134d34ba8b7fd4d3c02f0a4f314fef460ac69abdd94231931a
+- id: "codh-tensho-v2-te00039"
+  author: "NIJL, CODH and DHII"
+  project: "CODH 篆書字体データセット"
+  url: "https://codh.rois.ac.jp/tensho/book/TE00039/"
+  license: "CC-BY-SA"
+  licenseVersion: "4.0"
+  licenseEvidenceURL: "https://codh.rois.ac.jp/tensho/book/TE00039/"
+  scope: "Only the selected TE00039 crop from 説文解字; excludes other volumes and full source scans."
+  attribution: "NIJL, CODH and DHII, 篆書字体データセット v2, DOI 10.20676/00000390; original image providers in CODH-provider.ja.txt"
+  modifications: "Selected a single identified crop with its original bytes."
+  sourceLanguage: "ja"
+  upstream: ["説文解字 TE00039"]
+  revision: "v2/TE00039"
+  acquisitionMethod: "Publisher character index, individual work license and selected crop verified"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+- id: "sinica-xiaoxuetang-query"
+  author: "Academia Sinica, Institute of Information Science"
+  project: "小學堂 Xiaoxuetang"
+  url: "https://xiaoxue.iis.sinica.edu.tw/"
+  license: "CC0"
+  licenseVersion: "1.0"
+  licenseEvidenceURL: "https://xiaoxue.iis.sinica.edu.tw/License/License"
+  scope: "Glyph images and attributes returned through the query interface; excludes fonts and full source scans."
+  attribution: "Academia Sinica, 小學堂"
+  modifications: "Selected query glyph bytes and retained individual fontcode identifiers."
+  sourceLanguage: "zh-Hant"
+  upstream: []
+  revision: "per-record retrieved SHA-256"
+  acquisitionMethod: "Selected individual query pages and corresponding glyph images"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+- id: "dong-character-wiki"
+  author: "Dong Chinese Character Wiki contributors"
+  project: "Dong Chinese Character Wiki"
+  url: "https://www.dong-chinese.com/wiki/"
+  license: "CC-BY-SA"
+  licenseVersion: "4.0"
+  licenseEvidenceURL: "https://www.dong-chinese.com/wiki/"
+  scope: "Component character and meaning/sound flags only for selected records attributed to Dong. Outlier records, free text, readings, embedded geometry, and media excluded."
+  attribution: "Dong Chinese and the upstream contributors identified by each candidate"
+  modifications: "Extracted normalized role candidates, with exact row and component indices. Modern Japanese usefulness requires separate evidence."
+  sourceLanguage: "zh"
+  upstream: ["academia-sinica","baxter-sagart","makemeahanzi","unicode"]
+  revision: "2025-12-27"
+  sha256: "046249581c3414baa12b6eff4a8d3c31ef1be7f70634fe919dfa1c01e99ab3eb"
+  acquisitionMethod: "Downloaded the dated dictionary JSONL and verified its exact SHA-256"
+  retrievedAt: "2026-11-27T19:20:20.072Z"
 references:
 - id: kanjidic2-identity-snapshot
   source: kanjidic2-2026-331
@@ -207,6 +300,16 @@ references:
   supports:
   - literal/codepoint identity
   - exact selected sense reference only; no baseline text lists copied
+- id: kanjidic2-selected-japanese-readings
+  source: kanjidic2-2026-331
+  url: https://www.edrdg.org/kanjidic/kanjidic2.xml.gz
+  externalId: KANJIDIC2 compressed XML
+  locator: header/file_version=4; header/database_version=2026-331; character/reading_meaning/rmgroup/reading with exact literal, reading type, and value selectors
+  revision: 2026-331
+  snapshotHash: af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773
+  retrievedAt: '2026-11-27T07:57:00Z'
+  supports:
+  - Exact selected Japanese on and kun readings used as evidence for localized teaching claims
 - id: kanji-alive-radicals-csv
   source: kanji-alive-radicals-v2.4
   url: https://raw.githubusercontent.com/kanjialive/kanji-data-media/966def0104648e83c3f95538c414c4862cba1bbf/language-data/japanese-radicals.csv
@@ -64907,3 +65010,2094 @@ references:
   retrievedAt: '2026-11-27T07:57:00Z'
   supports:
   - Exact selected English meaning fields for Japanese characters 記 and 曜
+- id: jmdict-e-2026-11-27-spelling-reading
+  source: jmdict-e-2026-11-27
+  url: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz
+  externalId: "JMdict_e.gz"
+  locator: "JMdict entries by ent_seq, exact k_ele/keb and r_ele/reb; re_restr, re_nokanji, stagk and stagr checked"
+  revision: "2026-11-27"
+  snapshotHash: 3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43
+  retrievedAt: "2026-11-27T18:20:28Z"
+  supports:
+  - "Attested Japanese vocabulary spellings and matching readings, with applicable JMdict entry IDs"
+- id: jmdict-furigana-2.3.1-2026-10-25-ruby
+  source: jmdict-furigana-2.3.1-2026-10-25
+  url: https://github.com/Doublevil/JmdictFurigana/releases/download/2.3.1%2B2026-10-25/JmdictFurigana.json.zip
+  externalId: "JmdictFurigana.json.zip!JmdictFurigana.json"
+  locator: "One-based JSON array row, exact text and reading, and target ruby span at the specified Unicode-scalar index"
+  revision: "2.3.1+2026-10-25"
+  snapshotHash: e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472
+  retrievedAt: "2026-11-27T18:20:28Z"
+  supports:
+  - "Selected ruby segmentation and exact per-character reading within an attested word"
+- id: wikt-origin-87587250-4c00d52fa737
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%8F%8C&oldid=87587250#Glyph_origin
+  externalId: 菌
+  locator: Chinese / Glyph origin
+  revision: '87587250'
+  snapshotHash: 4c00d52fa737b48b29e97356c6cc8d8256603da1226e7e40ee4d84bc7c5563bf
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-87588760-2bce8d7ec21d
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%B3%B4&oldid=87588760#Glyph_origin
+  externalId: 鳴
+  locator: Chinese / Glyph origin
+  revision: '87588760'
+  snapshotHash: 2bce8d7ec21dda92bcf5aa02238b0abc427a12173bc475f010b6592502fcee9b
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-87963527-c1ef21034e27
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%86%8A&oldid=87963527#Glyph_origin
+  externalId: 冊
+  locator: Chinese / Glyph origin
+  revision: '87963527'
+  snapshotHash: c1ef21034e27a48d328641ce2187af68fcf21e0d3e13e5b2dccaeee946b0c16e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-88127672-df3f19576344
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%85%B5&oldid=88127672#Glyph_origin
+  externalId: 酵
+  locator: Chinese / Glyph origin
+  revision: '88127672'
+  snapshotHash: df3f1957634440ab20d1741b866268278ee18d2faed9722a11145d65c3b76dd1
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-89922818-7ed127cb33e5
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%AC%A0&oldid=89922818#Glyph_origin
+  externalId: 欠
+  locator: Chinese / Glyph origin
+  revision: '89922818'
+  snapshotHash: 7ed127cb33e50bfa2f50cf1fc6da4f66da02a54d3848063929be339f183b35b7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-90013237-3af7b7e33cfd
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%96%97&oldid=90013237#Glyph_origin
+  externalId: 斗
+  locator: Chinese / Glyph origin
+  revision: '90013237'
+  snapshotHash: 3af7b7e33cfdfe774056bff0949785af503b55a7da5ebd9c0cba38f6b75a24bd
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-90901000-4ecc72f00fc1
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%BE%A9&oldid=90901000#Glyph_origin
+  externalId: 義
+  locator: Chinese / Glyph origin
+  revision: '90901000'
+  snapshotHash: 4ecc72f00fc1916311fc81dee3530ded07ee2bffe1236933cebec1e70e6add5a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91363336-56ada3b61372
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B1%95&oldid=91363336#Glyph_origin
+  externalId: 豕
+  locator: Chinese / Glyph origin
+  revision: '91363336'
+  snapshotHash: 56ada3b61372f279cdcac4a97c2c3d93c2cce807953dc98d9e79671518cfe2f8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91428245-0b0ec459d4b9
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%97&oldid=91428245#Glyph_origin
+  externalId: 街
+  locator: Chinese / Glyph origin
+  revision: '91428245'
+  snapshotHash: 0b0ec459d4b904ca2c71d393a9ee2129582a797a64e114d4e13d83bc51f7021d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91776784-422682f67781
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8D%A0&oldid=91776784#Glyph_origin
+  externalId: 占
+  locator: Chinese / Glyph origin
+  revision: '91776784'
+  snapshotHash: 422682f677816ee38429c2a056f46d46f2f8f8d47c8bfa3312e0c39e118d4deb
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91811867-025deca9fd36
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%90%A0&oldid=91811867#Glyph_origin
+  externalId: 吠
+  locator: Chinese / Glyph origin
+  revision: '91811867'
+  snapshotHash: 025deca9fd36a06a3a9957687c5e6b23601a77be34ec3a00e62f50225e8a062d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91933101-13e22264c9fd
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B1%80&oldid=91933101#Glyph_origin
+  externalId: 局
+  locator: Chinese / Glyph origin
+  revision: '91933101'
+  snapshotHash: 13e22264c9fd2a689968fcaf33b8d35456e90c1fe83f458553d3eff37e15098a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91974966-9535ed6765b6
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%84%8A&oldid=91974966#Glyph_origin
+  externalId: 脊
+  locator: Chinese / Glyph origin
+  revision: '91974966'
+  snapshotHash: 9535ed6765b64bf2de382c1892d817cb5c360d779fea92df9e2731a78e9e3632
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-91979180-b6fc88833f15
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B5%B0&oldid=91979180#Glyph_origin
+  externalId: 走
+  locator: Chinese / Glyph origin
+  revision: '91979180'
+  snapshotHash: b6fc88833f153da952dab07097e6e5e3baa72f392cd65e342763c85164d3f2cd
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92160260-2000bf063b6f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%85%8D&oldid=92160260#Glyph_origin
+  externalId: 免
+  locator: Chinese / Glyph origin
+  revision: '92160260'
+  snapshotHash: 2000bf063b6f30f8504f4af2bd9e5c75b020289ed97ce344b64b0896403fe5e2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92160411-a5f0cd30c010
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8B%9D&oldid=92160411#Glyph_origin
+  externalId: 勝
+  locator: Chinese / Glyph origin
+  revision: '92160411'
+  snapshotHash: a5f0cd30c0105ea8bc654fca6e97a7fa435bc6bdfca963bf83b24a3f0dbef12d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92160982-58b4379df324
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B0%BF&oldid=92160982#Glyph_origin
+  externalId: 尿
+  locator: Chinese / Glyph origin
+  revision: '92160982'
+  snapshotHash: 58b4379df3240d0cdbf3400f376691ebd1cdb839a12dae34106570f5500826a8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92161035-8d43afb83959
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B7%BE&oldid=92161035#Glyph_origin
+  externalId: 巾
+  locator: Chinese / Glyph origin
+  revision: '92161035'
+  snapshotHash: 8d43afb83959c1732e2e62a1748fe70af77ad8737bf129677eb7339e13eba8c7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92161428-8f4dba5664a7
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%96%99&oldid=92161428#Glyph_origin
+  externalId: 料
+  locator: Chinese / Glyph origin
+  revision: '92161428'
+  snapshotHash: 8f4dba5664a73aa3ccb0de62572f54769db3fc42a989893d0784e7b5634b5fdf
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92161935-c5a5a8f8366f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%82%8E&oldid=92161935#Glyph_origin
+  externalId: 炎
+  locator: Chinese / Glyph origin
+  revision: '92161935'
+  snapshotHash: c5a5a8f8366f4577912050848f36e78a0ed20400aef4de4c6ef0ec1e167baadf
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92162673-3aa3b93ec65a
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%85%BA&oldid=92162673#Glyph_origin
+  externalId: 腺
+  locator: Japanese / Glyph origin
+  revision: '92162673'
+  snapshotHash: 3aa3b93ec65a5eadb0a215d17848911163e27060fa21f13307c1c2d3a9989c0c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92163032-80a213126ce5
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%BA%BE&oldid=92163032#Glyph_origin
+  externalId: 躾
+  locator: Japanese / Glyph origin
+  revision: '92163032'
+  snapshotHash: 80a213126ce5dfc9069b4f56fae7e7bac87f65742ea4575950bd4557ea414b92
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92199939-3a4a34ad5bde
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%83%8D&oldid=92199939#Glyph_origin
+  externalId: 働
+  locator: Japanese / Glyph origin
+  revision: '92199939'
+  snapshotHash: 3a4a34ad5bde5d60d1903dc7bf4a15ae74cf8f0da463c3a7b8429cf9d3a274ba
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92199988-1042c44b2444
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%88%9D&oldid=92199988#Glyph_origin
+  externalId: 初
+  locator: Chinese / Glyph origin
+  revision: '92199988'
+  snapshotHash: 1042c44b2444ebbad886eb94479c35d5313f7392afa265631505fea7d3f495b4
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200257-086b90651b3b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A4%95&oldid=92200257#Glyph_origin
+  externalId: 夕
+  locator: Chinese / Glyph origin
+  revision: '92200257'
+  snapshotHash: 086b90651b3b238b0f986ea8a5ac868fd6781e1904a45ccca98af61d061d5e39
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200382-7150048aa756
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B7%9E&oldid=92200382#Glyph_origin
+  externalId: 州
+  locator: Chinese / Glyph origin
+  revision: '92200382'
+  snapshotHash: 7150048aa756948c0d2a7405d30a518888bd74438f3c6c6e9ba000dddbfa6a6c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200519-76bc88109552
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%89%8D&oldid=92200519#Glyph_origin
+  externalId: 才
+  locator: Chinese / Glyph origin
+  revision: '92200519'
+  snapshotHash: 76bc8810955267288944158654c73db8f626a47506769210cc59081ea6b357da
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200676-d3f06740356b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%99%B4&oldid=92200676#Glyph_origin
+  externalId: 晴
+  locator: Chinese / Glyph origin
+  revision: '92200676'
+  snapshotHash: d3f06740356b27abb2f2132fd3e3f102f78504af7fd66e40dff7b034d896db75
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200720-643012a62584
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9C%AA&oldid=92200720#Glyph_origin
+  externalId: 未
+  locator: Chinese / Glyph origin
+  revision: '92200720'
+  snapshotHash: 643012a62584732a686a1e0eef82cb5e67c3e63c2cdf2beafe4272b59e11a0ca
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200751-cd79cbc77b70
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9F%90&oldid=92200751#Glyph_origin
+  externalId: 某
+  locator: Chinese / Glyph origin
+  revision: '92200751'
+  snapshotHash: cd79cbc77b70f5a115f533b5c410d5aadca1badcec00b1e3c35a3026229e1c15
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92200775-57904a7d6b06
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%A1%91&oldid=92200775#Glyph_origin
+  externalId: 桑
+  locator: Chinese / Glyph origin
+  revision: '92200775'
+  snapshotHash: 57904a7d6b06fc9cbc62c374c732c704bd6cc8031b241c96eecdb4bc81ef080c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201083-b06b4630fc09
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8E%89&oldid=92201083#Glyph_origin
+  externalId: 玉
+  locator: Chinese / Glyph origin
+  revision: '92201083'
+  snapshotHash: b06b4630fc09c184e7e3a95c39ae6495ae601a9a923822f10d55d6feec33f142
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201102-062e9f25122b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%93%A6&oldid=92201102#Glyph_origin
+  externalId: 瓦
+  locator: Chinese / Glyph origin
+  revision: '92201102'
+  snapshotHash: 062e9f25122b966db8e0a79b6bea917238925b2afbfb252fb5ad39aa3b786e6b
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201108-96fc1d2eb5d2
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%94%B3&oldid=92201108#Glyph_origin
+  externalId: 申
+  locator: Chinese / Glyph origin
+  revision: '92201108'
+  snapshotHash: 96fc1d2eb5d28d799b6133b571a2fa9ff7cdbba618857d1aae4ddc0055f55b15
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201173-690c1f5bae78
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9B%BE&oldid=92201173#Glyph_origin
+  externalId: 盾
+  locator: Chinese / Glyph origin
+  revision: '92201173'
+  snapshotHash: 690c1f5bae78d28a82440cbdeb8cf1cc6a53acb716309ecbb86c5e51267385a2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201412-53961c3b3f41
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%80%90&oldid=92201412#Glyph_origin
+  externalId: 耐
+  locator: Chinese / Glyph origin
+  revision: '92201412'
+  snapshotHash: 53961c3b3f41eaf65afcf1b147b254283203f803668f2f8f2e6a97a634c0e7ec
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201464-15fad151ad8b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%87%A3&oldid=92201464#Glyph_origin
+  externalId: 臣
+  locator: Chinese / Glyph origin
+  revision: '92201464'
+  snapshotHash: 15fad151ad8b16e23c98c90e8c1e283ecb74740f2cf88f70ceb1b0ce44c7c797
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201499-eeec67fa475b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%8B%97&oldid=92201499#Glyph_origin
+  externalId: 苗
+  locator: Chinese / Glyph origin
+  revision: '92201499'
+  snapshotHash: eeec67fa475bfd795fb9515101ca000420176fa5278b2ed8e5b0690b9b4e8235
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201717-04c0b8f8111e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A6%8B&oldid=92201717#Glyph_origin
+  externalId: 見
+  locator: Chinese / Glyph origin
+  revision: '92201717'
+  snapshotHash: 04c0b8f8111e63fe1fcb270857a7930c3868b449c5469c323e91048ece584bc3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201721-2dc1257d9977
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A8%8E&oldid=92201721#Glyph_origin
+  externalId: 討
+  locator: Chinese / Glyph origin
+  revision: '92201721'
+  snapshotHash: 2dc1257d997720887e5b51e244bceae00003881b0993f12db20a21e5674f6f1f
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201757-12ddeee228ff
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%AA%9E&oldid=92201757#Glyph_origin
+  externalId: 語
+  locator: Chinese / Glyph origin
+  revision: '92201757'
+  snapshotHash: 12ddeee228ff28251db18bad40e4a50e10a70355286fff5ffd90295b7b1ec6bc
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201888-86fef63c0a85
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%BA%AB&oldid=92201888#Glyph_origin
+  externalId: 身
+  locator: Chinese / Glyph origin
+  revision: '92201888'
+  snapshotHash: 86fef63c0a851aca9775771af9c8b9fd357838f8fd8605e760a8169a06a5c113
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92201914-9d52c5e769ef
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%BE%BC&oldid=92201914#Glyph_origin
+  externalId: 込
+  locator: Japanese / Glyph origin
+  revision: '92201914'
+  snapshotHash: 9d52c5e769eff1aa7c9c0c36ea4929186baf825722d4e99135c2dc06d1db163d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92202129-30384e13d9d3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9B%86&oldid=92202129#Glyph_origin
+  externalId: 集
+  locator: Chinese / Glyph origin
+  revision: '92202129'
+  snapshotHash: 30384e13d9d360d9444e223a0e028458e4b1b67923f027f8b285090a8ae74666
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92351896-a72ca1b515ff
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B1%9A&oldid=92351896#Glyph_origin
+  externalId: 豚
+  locator: Chinese / Glyph origin
+  revision: '92351896'
+  snapshotHash: a72ca1b515ff71e049610939385606f370e165702457730ce2c12071ec26ef5f
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92368480-614a3d25adc6
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9B%B8&oldid=92368480#Glyph_origin
+  externalId: 相
+  locator: Chinese / Glyph origin
+  revision: '92368480'
+  snapshotHash: 614a3d25adc6f7657f14c0eab43b82a8846a54fe096152a673e681f8bb3d8b6c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92378812-7a7830b63702
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%99%8E&oldid=92378812#Glyph_origin
+  externalId: 虎
+  locator: Chinese / Glyph origin
+  revision: '92378812'
+  snapshotHash: 7a7830b63702b05e3030f72a8b4acdbe4dd4e3f2669d2747c46d2e2e5caf4ee3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92432576-f56d8a3a24f6
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%A0%97&oldid=92432576#Glyph_origin
+  externalId: 栗
+  locator: Chinese / Glyph origin
+  revision: '92432576'
+  snapshotHash: f56d8a3a24f606ca1aa9c25bfea8eea1a4b8d65a5054c6dee5e6f5e90772bbc1
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92474276-6206736dd721
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%AB%8B&oldid=92474276#Glyph_origin
+  externalId: 立
+  locator: Chinese / Glyph origin
+  revision: '92474276'
+  snapshotHash: 6206736dd721cb0570216a500df9722e894468ece72037a2e70838139b58f053
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92490451-167a97b3f31c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%BE%BD&oldid=92490451#Glyph_origin
+  externalId: 羽
+  locator: Chinese / Glyph origin
+  revision: '92490451'
+  snapshotHash: 167a97b3f31c485beca639e6e2edac1d943e3beb072f8226ea2f39446467a86e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92491083-3d8f0f057c51
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%99%BB&oldid=92491083#Glyph_origin
+  externalId: 登
+  locator: Chinese / Glyph origin
+  revision: '92491083'
+  snapshotHash: 3d8f0f057c513c2bc883e1afd9cdc7209c897b9735b031b4dc299bd59895e94b
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92491778-2b5db443ef63
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%87%BA&oldid=92491778#Glyph_origin
+  externalId: 出
+  locator: Chinese / Glyph origin
+  revision: '92491778'
+  snapshotHash: 2b5db443ef63d6b40a0a5d89283c62eba4ae5bc11b0f3d78bdee5eec94fc1560
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92512667-8de48273cdea
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A9%B1&oldid=92512667#Glyph_origin
+  externalId: 話
+  locator: Chinese / Glyph origin
+  revision: '92512667'
+  snapshotHash: 8de48273cdea29acb5efd74c6f91874dba268ce411126e30c0ade4a038af1bc0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92529984-55e07baf99ec
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%BE%8E&oldid=92529984#Glyph_origin
+  externalId: 美
+  locator: Chinese / Glyph origin
+  revision: '92529984'
+  snapshotHash: 55e07baf99ec19028623129d294bc12d02a7dc832ec835b2d48edfe9750ab10d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92536807-15b20d84df33
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%BE%8A&oldid=92536807#Glyph_origin
+  externalId: 羊
+  locator: Chinese / Glyph origin
+  revision: '92536807'
+  snapshotHash: 15b20d84df331b4a480e8ea953879a259aad06ba22a970ea29ef4f909a6261a2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92618269-5419ea2e0b15
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9F%B3&oldid=92618269#Glyph_origin
+  externalId: 石
+  locator: Chinese / Glyph origin
+  revision: '92618269'
+  snapshotHash: 5419ea2e0b15b35bc6c020a1c5e0dddb39e1c61c6ca71f5ab1de075c9e72a1f9
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92623713-cd49c021e463
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8D%88&oldid=92623713#Glyph_origin
+  externalId: 午
+  locator: Chinese / Glyph origin
+  revision: '92623713'
+  snapshotHash: cd49c021e4634aa31fa0e5371577b69f3464611469f24c78cd3d128af78dadd7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92642053-e740ed13df0d
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%8C&oldid=92642053#Glyph_origin
+  externalId: 行
+  locator: Chinese / Glyph origin
+  revision: '92642053'
+  snapshotHash: e740ed13df0dc2e085d41f3df4f01f6c5b1a4d35d218433817832e0777be24ec
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92678306-7a7dd059a747
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%A3%9B&oldid=92678306#Glyph_origin
+  externalId: 飛
+  locator: Chinese / Glyph origin
+  revision: '92678306'
+  snapshotHash: 7a7dd059a747e65df6acf1dd9d3ed1f25001443152babbb0fae1bfbc0720c296
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92678570-81a749209882
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8F%A0&oldid=92678570#Glyph_origin
+  externalId: 珠
+  locator: Chinese / Glyph origin
+  revision: '92678570'
+  snapshotHash: 81a74920988250ddb2463076514b4b478be8156770fa33a96904e552d0fd957a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92684097-709792afe926
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%9B%9E&oldid=92684097#Glyph_origin
+  externalId: 回
+  locator: Chinese / Glyph origin
+  revision: '92684097'
+  snapshotHash: 709792afe92674d8d6a744ccdb9f9e842b46658010c6890b33984f534752e334
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92685950-02d30ab0c6cc
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%BC%93&oldid=92685950#Glyph_origin
+  externalId: 鼓
+  locator: Chinese / Glyph origin
+  revision: '92685950'
+  snapshotHash: 02d30ab0c6cc2a736ebdf2655389a64ae5997d508b37a4190641c9c12d346818
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92691450-f0e9d90ccd60
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%87%AA&oldid=92691450#Glyph_origin
+  externalId: 自
+  locator: Chinese / Glyph origin
+  revision: '92691450'
+  snapshotHash: f0e9d90ccd60f81a90c66cec9f8d183e47edf6a41d8336c22bcc93695662051e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92691725-659feee1347c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%89%9B&oldid=92691725#Glyph_origin
+  externalId: 牛
+  locator: Chinese / Glyph origin
+  revision: '92691725'
+  snapshotHash: 659feee1347c992b2b53fa8bfa16dfac72c0dfbdbd07cb77f0789c516aa1c389
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92695569-f63665d588ac
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%88%86&oldid=92695569#Glyph_origin
+  externalId: 分
+  locator: Chinese / Glyph origin
+  revision: '92695569'
+  snapshotHash: f63665d588ac9fddd76281be383518360089f838afd4c98e1d63a640a4a267b1
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92701689-0242064bab56
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%B1%82&oldid=92701689#Glyph_origin
+  externalId: 求
+  locator: Chinese / Glyph origin
+  revision: '92701689'
+  snapshotHash: 0242064bab5600c9dc13e79b0ef193de6a7d4dc2e0eef4a91cc3f5949a192e77
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92720584-f2d2109e8830
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%B9%BF&oldid=92720584#Glyph_origin
+  externalId: 鹿
+  locator: Chinese / Glyph origin
+  revision: '92720584'
+  snapshotHash: f2d2109e88304fa18362361e30de051c9722a58f8c6e0eb6227fdb1bf57bfa03
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92724746-f594d7a1c165
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%88%83&oldid=92724746#Glyph_origin
+  externalId: 刃
+  locator: Chinese / Glyph origin
+  revision: '92724746'
+  snapshotHash: f594d7a1c165ae236bb866a87728669304bd582f1541d50c26c22a1d6f6fad88
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92730138-1705553b8b1c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%85%89&oldid=92730138#Glyph_origin
+  externalId: 酉
+  locator: Chinese / Glyph origin
+  revision: '92730138'
+  snapshotHash: 1705553b8b1cab510745591cfd0a2ca405d1eb6fc5bede4a3c79556e4b4a8dc3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92731919-3ffbeba477f2
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%99%AB&oldid=92731919#Glyph_origin
+  externalId: 虫
+  locator: Chinese / Glyph origin
+  revision: '92731919'
+  snapshotHash: 3ffbeba477f20546c070f5605334d37b1dceebdb643611a140e08beed3849fe7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92739176-859d4dfee7f3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%94%B7&oldid=92739176#Glyph_origin
+  externalId: 男
+  locator: Chinese / Glyph origin
+  revision: '92739176'
+  snapshotHash: 859d4dfee7f33cebdeaab70024182ebea09ad92d7d6260837f748853700b2167
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92739223-77ee17a0ca33
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A5%B3&oldid=92739223#Glyph_origin
+  externalId: 女
+  locator: Chinese / Glyph origin
+  revision: '92739223'
+  snapshotHash: 77ee17a0ca33e817978b34a754dcc78799eff86a505dc08011789423b96c0f1a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92754596-2458903a96b3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%83%83&oldid=92754596#Glyph_origin
+  externalId: 胃
+  locator: Chinese / Glyph origin
+  revision: '92754596'
+  snapshotHash: 2458903a96b353597564f31960d1d131b8dd133de029a67600808500df207858
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92775687-d415d7f6ed5f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%A3&oldid=92775687#Glyph_origin
+  externalId: 衣
+  locator: Chinese / Glyph origin
+  revision: '92775687'
+  snapshotHash: d415d7f6ed5f3d905704b941e50771a754596e9bfcbde35c64724d5ff3ea0537
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92810007-1875eb6c0617
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%AB%B9&oldid=92810007#Glyph_origin
+  externalId: 竹
+  locator: Chinese / Glyph origin
+  revision: '92810007'
+  snapshotHash: 1875eb6c0617a0251b519814a7b2da817255e3cb48483b3b4136b80726851c60
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92852816-a3dbbf714d43
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%BF%85&oldid=92852816#Glyph_origin
+  externalId: 必
+  locator: Chinese / Glyph origin
+  revision: '92852816'
+  snapshotHash: a3dbbf714d4300642e309ce866e362ed29e6b196aec4c1a455fc1399c4adfdc1
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92917941-6a5af274543c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B7%9D&oldid=92917941#Glyph_origin
+  externalId: 川
+  locator: Chinese / Glyph origin
+  revision: '92917941'
+  snapshotHash: 6a5af274543c8662b80ca42004379823eb21e4db967488142076346a1b1fe6e2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92924034-7199910df4b8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%88%A9&oldid=92924034#Glyph_origin
+  externalId: 利
+  locator: Chinese / Glyph origin
+  revision: '92924034'
+  snapshotHash: 7199910df4b837d6904756072dcb61f31be0b52ff73de1a1531e3a8605608a3e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92930290-76a22b4b60d3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8D%87&oldid=92930290#Glyph_origin
+  externalId: 升
+  locator: Chinese / Glyph origin
+  revision: '92930290'
+  snapshotHash: 76a22b4b60d305d0059c848b57048ebcab521c76b4021c2b0d82a0f20a551d2c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92937046-255afd2a0c2f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9D%A2&oldid=92937046#Glyph_origin
+  externalId: 面
+  locator: Chinese / Glyph origin
+  revision: '92937046'
+  snapshotHash: 255afd2a0c2f9b5cb172fe54727bbf3b67a5c325f24a3a77f2350fc80859f16d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-92982727-c3a30f05bf09
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8F%88&oldid=92982727#Glyph_origin
+  externalId: 又
+  locator: Chinese / Glyph origin
+  revision: '92982727'
+  snapshotHash: c3a30f05bf09fe87e09644d00d994690a27e935f979a66b70eb863e3b82c9e76
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93297076-32fa068ac0bd
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%AD%A2&oldid=93297076#Glyph_origin
+  externalId: 止
+  locator: Chinese / Glyph origin
+  revision: '93297076'
+  snapshotHash: 32fa068ac0bd5976051a45f37d1ddd819f0d84f59b2a8d47d648c5d7c12209e9
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93318256-7b4265a94f15
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%85%8E&oldid=93318256#Glyph_origin
+  externalId: 腎
+  locator: Chinese / Glyph origin
+  revision: '93318256'
+  snapshotHash: 7b4265a94f15adc339bd2b7e27a4c6ce542a6c8c93057912bc60a3b4521e3fdc
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93363725-1c4de1adfb29
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9A%AE&oldid=93363725#Glyph_origin
+  externalId: 皮
+  locator: Chinese / Glyph origin
+  revision: '93363725'
+  snapshotHash: 1c4de1adfb293ea1451bd17cd18454017136f1cdc28c63e1196ed8a23eb13d96
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93374847-9ecc724c85ba
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%80&oldid=93374847#Glyph_origin
+  externalId: 血
+  locator: Chinese / Glyph origin
+  revision: '93374847'
+  snapshotHash: 9ecc724c85bac51da8e298340f0f267c8e726bec2c4ffaa5c4ff9fb3b11d73cf
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93378193-eb4ea20a4dba
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B6%B3&oldid=93378193#Glyph_origin
+  externalId: 足
+  locator: Chinese / Glyph origin
+  revision: '93378193'
+  snapshotHash: eb4ea20a4dbab2e0674b3d7df019b9bf5cb913c62f70e6a1eef5e323da8a8eb2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93381761-017099c56580
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8F%8D&oldid=93381761#Glyph_origin
+  externalId: 珍
+  locator: Chinese / Glyph origin
+  revision: '93381761'
+  snapshotHash: 017099c56580ee4512a897d913144733c671cbba423423935848a0e0b0c2c0cc
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93383877-b5292c2359b4
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%85%83&oldid=93383877#Glyph_origin
+  externalId: 元
+  locator: Chinese / Glyph origin
+  revision: '93383877'
+  snapshotHash: b5292c2359b41f81d82a9275712cab8f599a2f95b146b69f67fbe2ef2914634e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93384308-37a3dff8d472
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%82%BA&oldid=93384308#Glyph_origin
+  externalId: 肺
+  locator: Chinese / Glyph origin
+  revision: '93384308'
+  snapshotHash: 37a3dff8d472ecd81c38deb208a9c5a616025290a9557149799d7ac5a607c397
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93388184-75ce86708472
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%B5%B7&oldid=93388184#Glyph_origin
+  externalId: 海
+  locator: Chinese / Glyph origin
+  revision: '93388184'
+  snapshotHash: 75ce867084722a67d639e99c0367a63de62efc2f567fae7e320881c496e0b17c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93388368-547255b2b247
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%A6%AC&oldid=93388368#Glyph_origin
+  externalId: 馬
+  locator: Chinese / Glyph origin
+  revision: '93388368'
+  snapshotHash: 547255b2b247bd4cd1092deb60441e01978848066b0a889298545469dffcc83c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93404553-e3d41de3dc85
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%BF%83&oldid=93404553#Glyph_origin
+  externalId: 心
+  locator: Chinese / Glyph origin
+  revision: '93404553'
+  snapshotHash: e3d41de3dc85f99c8a575e316a27de7c0d5b5c7e7fcc1dec56ffc097de33ab47
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93407573-72436f711374
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%88%B4&oldid=93407573#Glyph_origin
+  externalId: 戴
+  locator: Chinese / Glyph origin
+  revision: '93407573'
+  snapshotHash: 72436f7113741d6a871fdb2ad308700553c19ab958dbbac70c20eb4315a200b8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93408319-0a55322b6d53
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%97%A5&oldid=93408319#Glyph_origin
+  externalId: 日
+  locator: Chinese / Glyph origin
+  revision: '93408319'
+  snapshotHash: 0a55322b6d5333b713cb586abe69b34bc2511a70651bb83af2bf4d254f4015bb
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93421465-2f83fadb2863
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%AB%98&oldid=93421465#Glyph_origin
+  externalId: 高
+  locator: Chinese / Glyph origin
+  revision: '93421465'
+  snapshotHash: 2f83fadb2863289655b8d4714251c64c84c22a16229579232c6fdbc0418e38b3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93428147-6a052299cfb5
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9C%88&oldid=93428147#Glyph_origin
+  externalId: 月
+  locator: Chinese / Glyph origin
+  revision: '93428147'
+  snapshotHash: 6a052299cfb51e4dc417583e2fab546ed71a4734614c21807b5203f6538d8509
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93428248-5a4a3d3cb237
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B1%86&oldid=93428248#Glyph_origin
+  externalId: 豆
+  locator: Chinese / Glyph origin
+  revision: '93428248'
+  snapshotHash: 5a4a3d3cb237a5b81d5dd1660fb913c0c27bad06664029dba1bf5a8ba7bf8d63
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93428468-65237f34563b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%BA%97&oldid=93428468#Glyph_origin
+  externalId: 店
+  locator: Chinese / Glyph origin
+  revision: '93428468'
+  snapshotHash: 65237f34563b1e8ea376408e7f775972f6d76861a3090ee68683e5121e27a386
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93429888-99694b87c63f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8F%96&oldid=93429888#Glyph_origin
+  externalId: 取
+  locator: Chinese / Glyph origin
+  revision: '93429888'
+  snapshotHash: 99694b87c63f19a98105071e210d95e8a6e9f2b03bc5e69f9ca1f1beac3414ac
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93434345-0012ca8d62ee
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%82%89&oldid=93434345#Glyph_origin
+  externalId: 肉
+  locator: Chinese / Glyph origin
+  revision: '93434345'
+  snapshotHash: 0012ca8d62ee1101c7d81d0c63705e1929c2d2d5935b73ac5cdd23eb5e708043
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93434475-e8dfcaed9e05
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%87%BC&oldid=93434475#Glyph_origin
+  externalId: 臼
+  locator: Chinese / Glyph origin
+  revision: '93434475'
+  snapshotHash: e8dfcaed9e0530d07c81441c46da9d3fb4f4b901a261746c0f0e4953cb3d8d0e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93436916-b4a41c495f4b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%95%B7&oldid=93436916#Glyph_origin
+  externalId: 長
+  locator: Chinese / Glyph origin
+  revision: '93436916'
+  snapshotHash: b4a41c495f4b7d226590751c7a666d4c5aad262019626c132bd6aefe7f54ac83
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93443704-7eae76211a61
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%82%8C&oldid=93443704#Glyph_origin
+  externalId: 肌
+  locator: Chinese / Glyph origin
+  revision: '93443704'
+  snapshotHash: 7eae76211a610725ceda483b50b09597e5833fb87ada862441fe1e291800079b
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93443720-d622f00630d3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9F%BB&oldid=93443720#Glyph_origin
+  externalId: 韻
+  locator: Chinese / Glyph origin
+  revision: '93443720'
+  snapshotHash: d622f00630d31b631d188a2cb43d20c87d86333fd0fcd3c5551d2251b16db8e0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93443726-4739a664fc37
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%88%9F&oldid=93443726#Glyph_origin
+  externalId: 舟
+  locator: Chinese / Glyph origin
+  revision: '93443726'
+  snapshotHash: 4739a664fc37384f42340dd9e163a79b5b07bb226511e45ff57e824b08c223d3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93443874-fe2c5bb8ca59
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%A0%88&oldid=93443874#Glyph_origin
+  externalId: 須
+  locator: Chinese / Glyph origin
+  revision: '93443874'
+  snapshotHash: fe2c5bb8ca59d629e34c26e5c28c74f28704e3a64453ed793ce25f8172860002
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93444039-065fa3f4e9c8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%88%B5&oldid=93444039#Glyph_origin
+  externalId: 爵
+  locator: Chinese / Glyph origin
+  revision: '93444039'
+  snapshotHash: 065fa3f4e9c82dff423fc2521ad6d2a186b8d2f6f8e3ce35fc6784fe81513b3c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93444158-1343139545b0
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A8%BA&oldid=93444158#Glyph_origin
+  externalId: 診
+  locator: Chinese / Glyph origin
+  revision: '93444158'
+  snapshotHash: 1343139545b01833eee8b90996abab7f690b1952fafc81da50d1b4664ae3d4ae
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93444252-e047671b3d3a
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%8C%BE&oldid=93444252#Glyph_origin
+  externalId: 挾
+  locator: Chinese / Glyph origin
+  revision: '93444252'
+  snapshotHash: e047671b3d3ae604e5194124c185528b035d9993bd5968d8457267712253bd9a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93444454-1c143a37f1e8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%A2&oldid=93444454#Glyph_origin
+  externalId: 衢
+  locator: Chinese / Glyph origin
+  revision: '93444454'
+  snapshotHash: 1c143a37f1e88f1d3a74ebca1154bcdaab182757e1ea5fe7aa2b50de2711b837
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93447933-8ba18422431f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%AE%B4&oldid=93447933#Glyph_origin
+  externalId: 宴
+  locator: Chinese / Glyph origin
+  revision: '93447933'
+  snapshotHash: 8ba18422431ffccf01ba62c5557dd79876f469c9b9c808a5860c888ee98a86b5
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93447945-45f9cf69b581
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B0%96&oldid=93447945#Glyph_origin
+  externalId: 尖
+  locator: Chinese / Glyph origin
+  revision: '93447945'
+  snapshotHash: 45f9cf69b5810d8df300c46cd6a568bdae2663b65a35d8bedc7e4bffd5ff8633
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93447953-1d4344d1424e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B0%BB&oldid=93447953#Glyph_origin
+  externalId: 尻
+  locator: Chinese / Glyph origin
+  revision: '93447953'
+  snapshotHash: 1d4344d1424e8487209781d5c51d3257878b46fb1d949381a9f23cf1632f8a34
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93448317-a770a29189b0
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%9B%9A&oldid=93448317#Glyph_origin
+  externalId: 囚
+  locator: Chinese / Glyph origin
+  revision: '93448317'
+  snapshotHash: a770a29189b014cd6c15a40f8c43a4883690124006f54af61b23c03332f1a4b7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93448473-4f01cfa3cf4a
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A5%BD&oldid=93448473#Glyph_origin
+  externalId: 好
+  locator: Chinese / Glyph origin
+  revision: '93448473'
+  snapshotHash: 4f01cfa3cf4af8909748ce94f57e0f7d47e1727df0f0c1604a277b43a9dccdf9
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93449098-97c5ead14fbc
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%95%91&oldid=93449098#Glyph_origin
+  externalId: 畑
+  locator: Japanese / Glyph origin
+  revision: '93449098'
+  snapshotHash: 97c5ead14fbc577f85f71eee5f5c26e12cf3bf5a89729161f932ed4a25ad416f
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93449307-58c1a4ce0af7
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B3%BD&oldid=93449307#Glyph_origin
+  externalId: 峽
+  locator: Chinese / Glyph origin
+  revision: '93449307'
+  snapshotHash: 58c1a4ce0af7972a2a9d1f385a1cde1bd9d66951acde2f2032dbabc5236b150d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93449853-48f7fc015cc2
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9A%BB&oldid=93449853#Glyph_origin
+  externalId: 隻
+  locator: Chinese / Glyph origin
+  revision: '93449853'
+  snapshotHash: 48f7fc015cc2f85018060ef126cb8f8c74141c8e9472b7acf96c2b0527ff3e7f
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93466925-151e616ab8cc
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A1%B0&oldid=93466925#Glyph_origin
+  externalId: 衰
+  locator: Chinese / Glyph origin
+  revision: '93466925'
+  snapshotHash: 151e616ab8cc881fb13398312f223f71444cd11251b5b7801414a5b15ac29dce
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93469992-1bf2cfd01fc8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9C%AB&oldid=93469992#Glyph_origin
+  externalId: 末
+  locator: Chinese / Glyph origin
+  revision: '93469992'
+  snapshotHash: 1bf2cfd01fc8a0dd2a9482af8342b7d82a06be8a67346b19d589aef785e4aa8d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93473045-ff6bbc837480
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9B%A8&oldid=93473045#Glyph_origin
+  externalId: 雨
+  locator: Chinese / Glyph origin
+  revision: '93473045'
+  snapshotHash: ff6bbc837480eca4cff42316e36ebe02f2cdc2e574fe849c1adde67c5d297804
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93473994-1161c81814d8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%BC%93&oldid=93473994#Glyph_origin
+  externalId: 弓
+  locator: Chinese / Glyph origin
+  revision: '93473994'
+  snapshotHash: 1161c81814d81adb1094d3c4a4de4e97be9c25388ee0b5cdaaa0a5c30eca5f2c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93474726-b65ee59e1f51
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A7%A3&oldid=93474726#Glyph_origin
+  externalId: 解
+  locator: Chinese / Glyph origin
+  revision: '93474726'
+  snapshotHash: b65ee59e1f51527ea74377fca0dbe58cd88a51f0323b2c12443be6640b674136
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93475815-ade6d5f00255
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B1%AF&oldid=93475815#Glyph_origin
+  externalId: 屯
+  locator: Chinese / Glyph origin
+  revision: '93475815'
+  snapshotHash: ade6d5f00255813ef3a2e0822a86b3c655094b07b94426243ec6e2d1f53bd231
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93477201-1be03af9be5a
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9E%9C&oldid=93477201#Glyph_origin
+  externalId: 果
+  locator: Chinese / Glyph origin
+  revision: '93477201'
+  snapshotHash: 1be03af9be5a04581080b76f121ea1bb911a1125fc2cfc2c4e606617c02f8792
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93485711-5a0e29f6e0c0
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B0%BC&oldid=93485711#Glyph_origin
+  externalId: 尼
+  locator: Chinese / Glyph origin
+  revision: '93485711'
+  snapshotHash: 5a0e29f6e0c0cfb02791da0c12a53c8001c8a7ac03008ae041a98c6b68a5d801
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93505387-56707551436c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%BC%A2&oldid=93505387#Glyph_origin
+  externalId: 漢
+  locator: Chinese / Glyph origin
+  revision: '93505387'
+  snapshotHash: 56707551436cd28ca6eeb8300c1f0eec1610a919ff6deb1f7456b62e47bf2af4
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93506827-4b172edff9f7
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8B%B9&oldid=93506827#Glyph_origin
+  externalId: 狹
+  locator: Chinese / Glyph origin
+  revision: '93506827'
+  snapshotHash: 4b172edff9f7799a5bfe075474485e3dfaf25ee13958956dd32cc51762c2a855
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93531259-f3b33eb20406
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%89&oldid=93531259#Glyph_origin
+  externalId: 三
+  locator: Chinese / Glyph origin
+  revision: '93531259'
+  snapshotHash: f3b33eb20406f75e8232c8a9ec61271e48783bbb2b9d7ac0fd5b77e9767273b0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93531290-61ac1ff98916
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8D%81&oldid=93531290#Glyph_origin
+  externalId: 十
+  locator: Chinese / Glyph origin
+  revision: '93531290'
+  snapshotHash: 61ac1ff98916e7f3403e39e8e39d62f29657cbd7115703f7127fd1b7b1ae6625
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93531344-6ef688e36184
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A4%A7&oldid=93531344#Glyph_origin
+  externalId: 大
+  locator: Chinese / Glyph origin
+  revision: '93531344'
+  snapshotHash: 6ef688e361849488c831b36add9309d7dc94d978af3ba6db8791cdd4efdcdfe7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93544920-3e5cb97d9270
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%B1%B3&oldid=93544920#Glyph_origin
+  externalId: 米
+  locator: Chinese / Glyph origin
+  revision: '93544920'
+  snapshotHash: 3e5cb97d9270979ab0cf371b6992023e14fd7d0a31b67281ae9169fac798c37a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93546319-db35b7df3da1
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%83%BD&oldid=93546319#Glyph_origin
+  externalId: 能
+  locator: Chinese / Glyph origin
+  revision: '93546319'
+  snapshotHash: db35b7df3da16adf5391c011a71be2160a8577547945829bd24940fddbb48929
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93549154-f7653a2c83c4
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%94%B0&oldid=93549154#Glyph_origin
+  externalId: 田
+  locator: Chinese / Glyph origin
+  revision: '93549154'
+  snapshotHash: f7653a2c83c42da9f4f15dc52163b70424d3e4b55da4b2d963ec9248e532a30a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93549729-6fcd5f8104c8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%B7%8A&oldid=93549729#Glyph_origin
+  externalId: 緊
+  locator: Chinese / Glyph origin
+  revision: '93549729'
+  snapshotHash: 6fcd5f8104c8a17aef76e59d63be3c9defa81650ff30fc1d9b1835d13aeab87e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93556123-c9b0e5c36e78
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%A6%BE&oldid=93556123#Glyph_origin
+  externalId: 禾
+  locator: Chinese / Glyph origin
+  revision: '93556123'
+  snapshotHash: c9b0e5c36e7812d1e4c2d8991b07dbc7fd6f7e897ec3ca88351b7fb3218aa349
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93556183-d89c6493d3f6
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%88%91&oldid=93556183#Glyph_origin
+  externalId: 我
+  locator: Chinese / Glyph origin
+  revision: '93556183'
+  snapshotHash: d89c6493d3f6f8f5e0f4ace6848719c1e464525bfb5d9e3cb90592dac2d8d6dd
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93556891-5617776d729d
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B1%A1&oldid=93556891#Glyph_origin
+  externalId: 象
+  locator: Chinese / Glyph origin
+  revision: '93556891'
+  snapshotHash: 5617776d729df658e6baefb6307e64d19b61f874f9fb1a5273f7f81f68e01ce0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93573707-122405318137
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B2%9E&oldid=93573707#Glyph_origin
+  externalId: 貞
+  locator: Chinese / Glyph origin
+  revision: '93573707'
+  snapshotHash: 122405318137809866a2cf53a5022fcef2315f03cb3ab65ad054d149d3792f1e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93576349-03d58309beea
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%8F%AF&oldid=93576349#Glyph_origin
+  externalId: 華
+  locator: Chinese / Glyph origin
+  revision: '93576349'
+  snapshotHash: 03d58309beeacd27bacd190d4db6fa1a8a8cadf63b34e686a2e21794012af11d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93580139-165ee4d81dfc
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%84%9B&oldid=93580139#Glyph_origin
+  externalId: 愛
+  locator: Chinese / Glyph origin
+  revision: '93580139'
+  snapshotHash: 165ee4d81dfc28b8e9c83ce0f7024431e69b93d3c63d5ab1f9e28215ef7003ae
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93594668-5b047d3e9a6c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%87%90&oldid=93594668#Glyph_origin
+  externalId: 釐
+  locator: Chinese / Glyph origin
+  revision: '93594668'
+  snapshotHash: 5b047d3e9a6c0f6aad5012cec86f4de5906c448b65a1288456832721e2cb474a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93594705-fc4a95e9c74b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%A4%BA&oldid=93594705#Glyph_origin
+  externalId: 示
+  locator: Chinese / Glyph origin
+  revision: '93594705'
+  snapshotHash: fc4a95e9c74b10d894f2eddc6b54d57eafc2f8bd463341fa88b8da5cd17414a7
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93600917-a7683a6e107d
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%85%B9&oldid=93600917#Glyph_origin
+  externalId: 腹
+  locator: Chinese / Glyph origin
+  revision: '93600917'
+  snapshotHash: a7683a6e107dede752a783ae7325c68acc78ca82e6f788584f99e35f5808a044
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606002-981f932f611e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%BC%BB&oldid=93606002#Glyph_origin
+  externalId: 鼻
+  locator: Chinese / Glyph origin
+  revision: '93606002'
+  snapshotHash: 981f932f611e8ab8d9aaef84a49ccd965bd9e2f8914fed69484e1ac1a790281c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606013-eaf0c4a3e10d
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%8F%A3&oldid=93606013#Glyph_origin
+  externalId: 口
+  locator: Chinese / Glyph origin
+  revision: '93606013'
+  snapshotHash: eaf0c4a3e10d19ecf52f758a64e5b58f73eaf88e2299aff99f1cc85bc1db74b0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606014-3fb35d52c81c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%80%B3&oldid=93606014#Glyph_origin
+  externalId: 耳
+  locator: Chinese / Glyph origin
+  revision: '93606014'
+  snapshotHash: 3fb35d52c81c893f9f136adf0c046637e6f2d758143537fd1c000fa5f9542aa8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606022-6be2f3036eff
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%A6%96&oldid=93606022#Glyph_origin
+  externalId: 首
+  locator: Chinese / Glyph origin
+  revision: '93606022'
+  snapshotHash: 6be2f3036eff2ac7ef703a64ead0c27cba85bb151cdc12f0a682a92d70e703bc
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606084-5096a431f7ac
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%82%A9&oldid=93606084#Glyph_origin
+  externalId: 肩
+  locator: Chinese / Glyph origin
+  revision: '93606084'
+  snapshotHash: 5096a431f7ac9d9349cad245a40571e7d3f34ba04fa9e4b76cee244cce1bd8ef
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93606098-4206a8ce44ac
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%85%95&oldid=93606098#Glyph_origin
+  externalId: 腕
+  locator: Chinese / Glyph origin
+  revision: '93606098'
+  snapshotHash: 4206a8ce44ac6ef8c1408774c26e3233f7a181ca903631625c67a8646c8ab97d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93620773-f1167db163f9
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%93%81&oldid=93620773#Glyph_origin
+  externalId: 品
+  locator: Chinese / Glyph origin
+  revision: '93620773'
+  snapshotHash: f1167db163f93b5d49935c0113826caaddeff636d64057d43610f57378ef6959
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93626463-50f65c175e26
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%8A&oldid=93626463#Glyph_origin
+  externalId: 上
+  locator: Chinese / Glyph origin
+  revision: '93626463'
+  snapshotHash: 50f65c175e2694954c4dcfda1f5c44381fb870f9312abd8f04fabacc07ed481e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93626471-8f4d984bc81b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%8B&oldid=93626471#Glyph_origin
+  externalId: 下
+  locator: Chinese / Glyph origin
+  revision: '93626471'
+  snapshotHash: 8f4d984bc81b513f1c830c5ee113269794eb8cdd539fe7174ca4cf05f72a548c
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93628973-55d7105e1e4b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%A6&oldid=93628973#Glyph_origin
+  externalId: 並
+  locator: Chinese / Glyph origin
+  revision: '93628973'
+  snapshotHash: 55d7105e1e4b58459191634fc8655f9f65b4a08b92f83911ced552ac7557a91d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93629034-5f2d0481d4dd
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%B2&oldid=93629034#Glyph_origin
+  externalId: 串
+  locator: Chinese / Glyph origin
+  revision: '93629034'
+  snapshotHash: 5f2d0481d4dd7c4c404c35f9f44dae711006606dc69e9ca7fbea3d637632e02b
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93634495-ced0de0bc53e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%BE%BB&oldid=93634495#Glyph_origin
+  externalId: 辻
+  locator: Japanese / Glyph origin
+  revision: '93634495'
+  snapshotHash: ced0de0bc53e9e21c28147e29e4c6bee25358a616f7dc74e2a7eb856e2f2f874
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93647839-35430946e206
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%A7%92&oldid=93647839#Glyph_origin
+  externalId: 角
+  locator: Chinese / Glyph origin
+  revision: '93647839'
+  snapshotHash: 35430946e206c55163fca88d0fc69f620b5228cde0e70fbd437a4a0d67f73683
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93647842-05fae22c9b95
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%9D%A9&oldid=93647842#Glyph_origin
+  externalId: 革
+  locator: Chinese / Glyph origin
+  revision: '93647842'
+  snapshotHash: 05fae22c9b958c3f5654d6007a6087a707f1412912567f660ffaa1403f722a42
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93648103-938b90196667
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9A%BF&oldid=93648103#Glyph_origin
+  externalId: 皿
+  locator: Chinese / Glyph origin
+  revision: '93648103'
+  snapshotHash: 938b9019666747c3ff794c5fcf136c07f71f7c8f484789c91160ac3aa1730f10
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93659367-b221bb39972c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%88%AA&oldid=93659367#Glyph_origin
+  externalId: 爪
+  locator: Chinese / Glyph origin
+  revision: '93659367'
+  snapshotHash: b221bb39972c2070a50c984aeebdf3766d0e6b6735966232c4faf26efcc79101
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93659552-7b445bf523ee
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%AF%9B&oldid=93659552#Glyph_origin
+  externalId: 毛
+  locator: Chinese / Glyph origin
+  revision: '93659552'
+  snapshotHash: 7b445bf523ee93cefcf9a3cde79c8b74057bb5516bd1416a9c444b4c73e001bf
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93659566-64675194b879
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%89%8B&oldid=93659566#Glyph_origin
+  externalId: 手
+  locator: Chinese / Glyph origin
+  revision: '93659566'
+  snapshotHash: 64675194b8798283ce40edfbdbb316471f5360064edfb5636fa690809a62177e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93660939-59d5a9bfa7c1
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%BC%B6&oldid=93660939#Glyph_origin
+  externalId: 缶
+  locator: Chinese / Glyph origin
+  revision: '93660939'
+  snapshotHash: 59d5a9bfa7c11a3f6a683211253f3bb109adf430ec60793f4cca007888351f78
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93664179-8bb56ac70194
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B9%B3&oldid=93664179#Glyph_origin
+  externalId: 乳
+  locator: Chinese / Glyph origin
+  revision: '93664179'
+  snapshotHash: 8bb56ac701940bf40e62f093c61946972ca10fabb1af0617e0d7e9127dc90604
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93665649-5f1ca94ccf34
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BA%8C&oldid=93665649#Glyph_origin
+  externalId: 二
+  locator: Chinese / Glyph origin
+  revision: '93665649'
+  snapshotHash: 5f1ca94ccf34b7b25a199b634468dbe2d77563121c20b2ce5ccc7e28480ca384
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93737662-d28f289fbec4
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%84%A1&oldid=93737662#Glyph_origin
+  externalId: 無
+  locator: Chinese / Glyph origin
+  revision: '93737662'
+  snapshotHash: d28f289fbec46dc8b509ec0079a1c5dba6e553462376e9d51f088fa6c52d70a2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93737692-6a87adf69beb
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%99%82&oldid=93737692#Glyph_origin
+  externalId: 時
+  locator: Chinese / Glyph origin
+  revision: '93737692'
+  snapshotHash: 6a87adf69bebd78f0c1b38bcf2bb0a5817458afa3363e6e93e8a4f637dc5b4df
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93750960-6fe566a58142
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%B3%A5&oldid=93750960#Glyph_origin
+  externalId: 鳥
+  locator: Chinese / Glyph origin
+  revision: '93750960'
+  snapshotHash: 6fe566a5814208f86721fb62c5d32e08c3db22f63ca7f624f2fc59bb835d38f2
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93753295-beb7323767b0
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%88%80&oldid=93753295#Glyph_origin
+  externalId: 刀
+  locator: Chinese / Glyph origin
+  revision: '93753295'
+  snapshotHash: beb7323767b0b016f39bb9c1aee6195ac87e183f9384f3f1a47c45966affbebb
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93754743-033fdece235e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BA%AB&oldid=93754743#Glyph_origin
+  externalId: 享
+  locator: Chinese / Glyph origin
+  revision: '93754743'
+  snapshotHash: 033fdece235e90bb8b3dc7f411ddfba28c6b38ae12e4ef5ebb33246c50ff4f4d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93756604-dc614aa8199b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BA%AC&oldid=93756604#Glyph_origin
+  externalId: 京
+  locator: Chinese / Glyph origin
+  revision: '93756604'
+  snapshotHash: dc614aa8199b5f9d409f084d566c74554c8a03044666cb8bbe7fce29958f2ad8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93756827-34b6290a1232
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A3%AB&oldid=93756827#Glyph_origin
+  externalId: 士
+  locator: Chinese / Glyph origin
+  revision: '93756827'
+  snapshotHash: 34b6290a12321fd05e1cbb0a87bc4e52e18033322adfbd790b13238308091eb0
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93756831-671d653bc6d4
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BA%BA&oldid=93756831#Glyph_origin
+  externalId: 人
+  locator: Chinese / Glyph origin
+  revision: '93756831'
+  snapshotHash: 671d653bc6d42ace6ad39e4d0964bf4dcf4884829a7caddfaaf95fa1214d950a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93763142-20baf7f5594b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%AD%90&oldid=93763142#Glyph_origin
+  externalId: 子
+  locator: Chinese / Glyph origin
+  revision: '93763142'
+  snapshotHash: 20baf7f5594b159742b7804cf34ed0e0f94b5209e8f39188734f05e2e15e1d6a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93764048-29aea29bb59c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9F%A2&oldid=93764048#Glyph_origin
+  externalId: 矢
+  locator: Chinese / Glyph origin
+  revision: '93764048'
+  snapshotHash: 29aea29bb59caf172b4871bd7e127735c7c147186d59e9d45b3f3faa65572496
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93764053-34e95d80f66f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%B3%B8&oldid=93764053#Glyph_origin
+  externalId: 糸
+  locator: Chinese / Glyph origin
+  revision: '93764053'
+  snapshotHash: 34e95d80f66f56b67bb5b1bd1b20247605f4eeef01df7c7a5e2f3b4f95d1f940
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93768172-80fc9d26f9b1
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BB%98&oldid=93768172#Glyph_origin
+  externalId: 付
+  locator: Chinese / Glyph origin
+  revision: '93768172'
+  snapshotHash: 80fc9d26f9b1b639bf2958ebde66e7ba11a08d43b74ad6f66ee4c49239e5e196
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93769916-5a4741b1172b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%AD%9A&oldid=93769916#Glyph_origin
+  externalId: 魚
+  locator: Chinese / Glyph origin
+  revision: '93769916'
+  snapshotHash: 5a4741b1172b0385665511c00cb7b57c89170709bcda78a3079f467d19e18005
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93776654-30bec5091a5e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9D%B1&oldid=93776654#Glyph_origin
+  externalId: 東
+  locator: Chinese / Glyph origin
+  revision: '93776654'
+  snapshotHash: 30bec5091a5ec3aba9ef2be6a9e5c2a264e75197f88993a9fa466d757a3330a3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93778250-67da09479b73
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%AF%8D&oldid=93778250#Glyph_origin
+  externalId: 母
+  locator: Chinese / Glyph origin
+  revision: '93778250'
+  snapshotHash: 67da09479b731ed2089e709d965d008f55a6bdaf23da9bd29adee002e39a8110
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93779711-08de2517921b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BC%81&oldid=93779711#Glyph_origin
+  externalId: 企
+  locator: Chinese / Glyph origin
+  revision: '93779711'
+  snapshotHash: 08de2517921b6a61878b723f6c24fe3bd99c9a3ff73e0263e6ad5adff4f057e8
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93803440-47f36eb76c67
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%9C%AC&oldid=93803440#Glyph_origin
+  externalId: 本
+  locator: Chinese / Glyph origin
+  revision: '93803440'
+  snapshotHash: 47f36eb76c67f68e1b2e58dd825eb7c6641d03c5c8ddc9e1b641c7606f3e790a
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93807524-1ef9bddbb6cf
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%88%B6&oldid=93807524#Glyph_origin
+  externalId: 父
+  locator: Chinese / Glyph origin
+  revision: '93807524'
+  snapshotHash: 1ef9bddbb6cf2d811f8ea97f2d6d32ad4be8a2460574154472fb0e9b2e99b687
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93807539-2aa8e2de496b
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BA%A4&oldid=93807539#Glyph_origin
+  externalId: 交
+  locator: Chinese / Glyph origin
+  revision: '93807539'
+  snapshotHash: 2aa8e2de496be8d8efeb81844dd2dcc06308d741434c7d21d8174248f05d9097
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93813320-227809e9f8a8
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%B7%B1&oldid=93813320#Glyph_origin
+  externalId: 己
+  locator: Chinese / Glyph origin
+  revision: '93813320'
+  snapshotHash: 227809e9f8a832637696a2a8d12178f49adb5b3b1c1d1707853f5535f7e9b8e3
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93870631-74106a2245d3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%BD%8E&oldid=93870631#Glyph_origin
+  externalId: 低
+  locator: Chinese / Glyph origin
+  revision: '93870631'
+  snapshotHash: 74106a2245d35cbcf5b8a311a56b32cc1ad53f2a0d05cc81c63ad2e64e2da98e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93934800-da88aa03f856
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E4%B8%80&oldid=93934800#Glyph_origin
+  externalId: 一
+  locator: Chinese / Glyph origin
+  revision: '93934800'
+  snapshotHash: da88aa03f85689a9482b8c1cd60f2c62836d0a8432f13cfe0107b43d72014463
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93934987-84b2f297944f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%B5%A4&oldid=93934987#Glyph_origin
+  externalId: 赤
+  locator: Chinese / Glyph origin
+  revision: '93934987'
+  snapshotHash: 84b2f297944fe87748dec08f75ed97b3e72c99f42108b9ac775a2a6d7ccac656
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93935005-815cef2ba1ea
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%AE%88&oldid=93935005#Glyph_origin
+  externalId: 守
+  locator: Chinese / Glyph origin
+  revision: '93935005'
+  snapshotHash: 815cef2ba1eaa390e307786081a0cbe2b9e1cf671ce49eec83aa65d8683af135
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-93947436-4f9b7883f44c
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%9B%AE&oldid=93947436#Glyph_origin
+  externalId: 目
+  locator: Chinese / Glyph origin
+  revision: '93947436'
+  snapshotHash: 4f9b7883f44c28f8e5ac4495f4b71c39acc60d98dac97cf0692d160e9c271138
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94100401-e2e243d975ca
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8A%AC&oldid=94100401#Glyph_origin
+  externalId: 犬
+  locator: Chinese / Glyph origin
+  revision: '94100401'
+  snapshotHash: e2e243d975cabf8b8e5dd03ba011268c3157ba98f7dc342ff199b73dc110c71d
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94253206-aed56679c1d7
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%BC%9F&oldid=94253206#Glyph_origin
+  externalId: 弟
+  locator: Chinese / Glyph origin
+  revision: '94253206'
+  snapshotHash: aed56679c1d7e452223517efcdb45a2be9f9a97b7dcef0a205dc27487147589e
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94389091-efcc6b91759e
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%8E%8B&oldid=94389091#Glyph_origin
+  externalId: 王
+  locator: Chinese / Glyph origin
+  revision: '94389091'
+  snapshotHash: efcc6b91759e10f105aabe273beefd8307d11c206408f708287c641b69e2cc97
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94507178-82eec6723712
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E7%81%AB&oldid=94507178#Glyph_origin
+  externalId: 火
+  locator: Chinese / Glyph origin
+  revision: '94507178'
+  snapshotHash: 82eec67237124f4f0916aa4dd1988cdf925b1855edf593f6188242860cc30d89
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94507192-27ede412a6fe
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E6%B0%B4&oldid=94507192#Glyph_origin
+  externalId: 水
+  locator: Chinese / Glyph origin
+  revision: '94507192'
+  snapshotHash: 27ede412a6fe2f93584af94f0fa1ce96f4ebf87f17eed8228e83cb267896d283
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94507204-8ea2dd0050dd
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%9C%9F&oldid=94507204#Glyph_origin
+  externalId: 土
+  locator: Chinese / Glyph origin
+  revision: '94507204'
+  snapshotHash: 8ea2dd0050ddec2a698970dfdd84d88e1fac5ba566ba707552d7670254de1ae9
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94513764-50e457d1818f
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E8%BB%8A&oldid=94513764#Glyph_origin
+  externalId: 車
+  locator: Chinese / Glyph origin
+  revision: '94513764'
+  snapshotHash: 50e457d1818fdc6d7dde12b01d796b94e83e22d6d3141215625803c0b32d1a58
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94513836-f427e70de322
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E9%96%80&oldid=94513836#Glyph_origin
+  externalId: 門
+  locator: Chinese / Glyph origin
+  revision: '94513836'
+  snapshotHash: f427e70de322bfae7f5a4783fd57cb7dae196889d0b7d49ece363031f2fc29f4
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: wikt-origin-94530013-1fac8409a7c3
+  source: enwiktionary-glyph-origin
+  url: https://en.wiktionary.org/w/index.php?title=%E5%A0%85&oldid=94530013#Glyph_origin
+  externalId: 堅
+  locator: Chinese / Glyph origin
+  revision: '94530013'
+  snapshotHash: 1fac8409a7c38a47a450fb41558c3537799f8e593ac821dd7b449e0f01709b90
+  retrievedAt: '2026-11-27T00:00:00Z'
+  supports:
+  - Historical formation under the cited language heading
+- id: "codh-te00039-u56db-description"
+  source: "codh-tensho-v2-te00039"
+  url: "https://codh.rois.ac.jp/tensho/unicode/U+56DB/"
+  externalId: "U+56DB_TE00039_0614_1_X2308_Y0845.jpg"
+  locator: "U+56DB_TE00039_0614_1_X2308_Y0845.jpg"
+  revision: "v2/TE00039"
+  snapshotHash: "548c1d9e4fb7097608c6541b1a7aa17b7b722bd8c9fefd7dbfa28125846eb720"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["record and script classification"]
+- id: "codh-te00039-u56db-media"
+  source: "codh-tensho-v2-te00039"
+  url: "https://codh.rois.ac.jp/tensho/book/TE00039/characters/U+56DB/U+56DB_TE00039_0614_1_X2308_Y0845.jpg"
+  externalId: "U+56DB_TE00039_0614_1_X2308_Y0845.jpg"
+  locator: "U+56DB_TE00039_0614_1_X2308_Y0845.jpg"
+  revision: "v2/TE00039"
+  snapshotHash: "c3ddf871d6ff831290316b6e1566d187a8734360df968f90a722cdb98a779eae"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["selected glyph bytes"]
+- id: "sinica-42-ed55-u65e5-description"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/char/?fontcode=42.ED55"
+  externalId: "fontcode=42.ED55"
+  locator: "fontcode=42.ED55"
+  revision: "8c273d02b4ea445c4c7af7003ddd813d10deea5b992342c87364eae83d389456"
+  snapshotHash: "8c273d02b4ea445c4c7af7003ddd813d10deea5b992342c87364eae83d389456"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["record and script classification"]
+- id: "sinica-42-ed55-u65e5-media"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%ee%b5%95&font=%e4%b8%ad%e7%a0%94%e9%99%a2%e7%94%b2%e9%aa%a8%e6%96%87%e9%87%8d%e6%96%87%e4%ba%8c&size=48&style=regular&color=%23000000&resolution=96"
+  externalId: "fontcode=42.ED55"
+  locator: "fontcode=42.ED55"
+  revision: "8c273d02b4ea445c4c7af7003ddd813d10deea5b992342c87364eae83d389456"
+  snapshotHash: "f3c6834451346667d950394adb7fd398ca3ee8ca3e9fc5aa73c536262dcc17f8"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["selected glyph bytes"]
+- id: "sinica-31-eaa5-u518a-description"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/char/?fontcode=31.EAA5"
+  externalId: "fontcode=31.EAA5"
+  locator: "fontcode=31.EAA5"
+  revision: "45e115ca170369d1605cc16b5cd84cbc44554753f86d005159fae12acdeb7d1a"
+  snapshotHash: "45e115ca170369d1605cc16b5cd84cbc44554753f86d005159fae12acdeb7d1a"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["record and script classification"]
+- id: "sinica-31-eaa5-u518a-media"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%ee%aa%a5&font=%e4%b8%ad%e7%a0%94%e9%99%a2%e9%87%91%e6%96%87%e9%87%8d%e6%96%87%e4%b8%80&size=48&style=regular&color=%23000000&resolution=96"
+  externalId: "fontcode=31.EAA5"
+  locator: "fontcode=31.EAA5"
+  revision: "45e115ca170369d1605cc16b5cd84cbc44554753f86d005159fae12acdeb7d1a"
+  snapshotHash: "e18792ad8bff8e8fe069002206699d5706a5c5a705aff319a85a96dadec8c3ab"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["selected glyph bytes"]
+- id: "sinica-27-6c99-u6c99-description"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/char/?fontcode=27.6C99"
+  externalId: "fontcode=27.6C99"
+  locator: "fontcode=27.6C99"
+  revision: "33d4d433eeff11b9b9f0650bfced870dea491f8858b90399c171ba8565c2aea1"
+  snapshotHash: "33d4d433eeff11b9b9f0650bfced870dea491f8858b90399c171ba8565c2aea1"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["record and script classification"]
+- id: "sinica-27-6c99-u6c99-media"
+  source: "sinica-xiaoxuetang-query"
+  url: "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%e6%b2%99&font=%e5%8c%97%e5%b8%ab%e5%a4%a7%e8%aa%aa%e6%96%87%e5%b0%8f%e7%af%86&size=48&style=regular&color=%23000000&resolution=96"
+  externalId: "fontcode=27.6C99"
+  locator: "fontcode=27.6C99"
+  revision: "33d4d433eeff11b9b9f0650bfced870dea491f8858b90399c171ba8565c2aea1"
+  snapshotHash: "e86841b0eabaf942c0635edd1094a01c472b86ba9cb7dc7cd9f0eb261f954e65"
+  retrievedAt: "2026-11-27T18:25:42.737Z"
+  supports: ["selected glyph bytes"]
+- id: "dong-dictionary-2025-12-27"
+  source: "dong-character-wiki"
+  url: "https://data.dong-chinese.com/dump/dictionary_char_2025-12-27.jsonl"
+  externalId: "dictionary_char_2025-12-27.jsonl"
+  locator: "JSONL line, character and components array index in candidate selectors"
+  revision: "2025-12-27"
+  snapshotHash: "046249581c3414baa12b6eff4a8d3c31ef1be7f70634fe919dfa1c01e99ab3eb"
+  retrievedAt: "2026-11-27T19:20:20.072Z"
+  supports: ["Chinese source-reported component relationship candidate"]

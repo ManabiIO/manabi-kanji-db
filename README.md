@@ -47,6 +47,8 @@ does not approve a source or claim. It never edits authored content.
 
 - `sources/registry.yaml` records source grants and exact public references.
 - `data/` stores source pinned character identities and visible structures.
+- `data/coverage/` records import totals, source dispositions and component
+  lookup gaps; `data/imports/` contains unpublishable source candidates.
 - `content/` stores authored, revisioned claims and localized text.
 - `intake/` holds typed unresolved provenance and rights work, excluded from
   approved learner projections.
@@ -62,6 +64,20 @@ scenes are labeled as fiction and bind to exact component occurrences and
 source backed labels.
 
 ## Scope and attribution
+
+The [reuse catalogue](sources/reuse-scopes.json) records field and asset restrictions across
+45 researched sources. The [registry](sources/registry.yaml) records the pins used by the database.
+The [coverage manifests](data/coverage) identify imported donor rows, public passage bindings,
+component naming gaps, example-reading decisions, and source candidates awaiting review.
+
+### Using a snapshot
+
+Verify the archive checksums and the database schema version before opening the SQLite file
+read-only. Join Reader's existing KANJIDIC2 entry to `character` by exact literal and codepoint.
+Use `current_approved_claim` for localized learner text. For a mnemonic, follow each
+`story_occurrence` to its versioned structure, occurrence ID, and reviewed label. For a
+citation, follow `claim_evidence.reference_id` to `reference` and then to `source`.
+These joins preserve repeated components and provide access to exact source selectors.
 
 Initial structural coverage follows the pinned KanjiVG release and the
 KANJIDIC2 identity baseline. Each release includes the generated database,

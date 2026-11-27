@@ -7,7 +7,7 @@ subject:
   codepoint: U+9285
 revision: 467a51f5597ab922d3472150330aebadaed1b3ca03dd63eb7232fd39e03428b6
 localizedRevision: 8637f7390ac464b0dc568677f067c58860886f5eeac0ce701c9731afd4b09c6e
-status: candidate
+status: approved
 claimText: A locksmith dropped two keys made from the same metal in a fountain and came back to find copper-colored
   fish.
 targetLanguage: ja
@@ -36,8 +36,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 467a51f5597ab922d3472150330aebadaed1b3ca03dd63eb7232fd39e03428b6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c34230d150fe67603c96da6bca0fe15eaf0a91a647cb3c295c80775df2221b14|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c34230d150fe67603c96da6bca0fe15eaf0a91a647cb3c295c80775df2221b14
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

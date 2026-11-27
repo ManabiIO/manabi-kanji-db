@@ -1,0 +1,28 @@
+id: donor-5c86cab875758810b171eea8
+kind: historical-origin
+subject:
+  type: character
+  literal: 矢
+  codepoint: U+77E2
+revision: 7d98bcddaaf4ec299d76038e9a8e1ecafbf5d64bf83e75dd23836eff75b3f5e1
+localizedRevision: 4a350aee2bed671913395080f1fd862e80475122dd4882fd526b36e6419fc31d
+status: candidate
+claimText: 矢 began as an arrow picture, clearer in older forms.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93764048-29aea29bb59c
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/矢/1
+review:
+  state: pending

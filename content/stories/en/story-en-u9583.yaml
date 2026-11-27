@@ -7,7 +7,7 @@ subject:
   codepoint: U+9583
 revision: 5c74d03b025199571f43e18a1a0d84f762c7b22cc335dc2d7cab8803a73eadbf
 localizedRevision: 176e66240512c17974cc0e8b1e6dbbe2514875b6019902822d3c07716d638744
-status: candidate
+status: approved
 claimText: A flash of lightning showed a person slipping through the gate with a crate of apples.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 5c74d03b025199571f43e18a1a0d84f762c7b22cc335dc2d7cab8803a73eadbf
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4d091b264995e4ea542129ebf6488c854bd64918a68ca298965f41a5c2bdee20|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4d091b264995e4ea542129ebf6488c854bd64918a68ca298965f41a5c2bdee20
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -1,0 +1,29 @@
+id: donor-458412f2410fad4cd5807df2
+kind: historical-origin
+subject:
+  type: character
+  literal: 美
+  codepoint: U+7F8E
+revision: 7c7dc455076c8e35988af2724042da56814d8dea13f03a59c8272df17e10831c
+localizedRevision: 0d5c0cd0c10bb9c4450bcc8aafdb46d9c655b415e4fe687f6b10e00aa080740a
+status: candidate
+claimText: The older form pictures a person wearing a headdress of feathers or ram's horns. That headdress is now
+  written as 羊.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92529984-55e07baf99ec
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/美/1
+review:
+  state: pending

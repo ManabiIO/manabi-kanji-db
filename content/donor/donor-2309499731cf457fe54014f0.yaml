@@ -1,0 +1,28 @@
+id: donor-2309499731cf457fe54014f0
+kind: historical-origin
+subject:
+  type: character
+  literal: 男
+  codepoint: U+7537
+revision: b88accbde55c6901cc66918a601351622a72f925ec68033f2e73ed70355f168c
+localizedRevision: bfb5749c7fba1441068dd99b1afcc32410ac32abc74716a58c01e4285553f00b
+status: candidate
+claimText: 男 joins 田 (field) and 力 (strength), linking its older meaning of man with physical work in a field.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92739176-859d4dfee7f3
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/男/1
+review:
+  state: pending

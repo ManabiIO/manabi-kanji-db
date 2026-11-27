@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F4F
 revision: 7c5cefb9de9dd53de69384ad6d45bcb1e328c6a82739f90ec552ed501f109936
 localizedRevision: d2d9ff1f8a64796f7825dc32b5c293c6b30ba2119d133b2f1c911631afe9bdc5
-status: candidate
+status: approved
 claimText: A person asked the lord of the castle for permission to dwell in its abandoned bell tower.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 7c5cefb9de9dd53de69384ad6d45bcb1e328c6a82739f90ec552ed501f109936
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d8d64e79830d95d1a09bd3bfffbcf08c31899b0ba99d815fb55b2332742d28ed|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d8d64e79830d95d1a09bd3bfffbcf08c31899b0ba99d815fb55b2332742d28ed
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

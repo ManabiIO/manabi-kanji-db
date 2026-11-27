@@ -1,0 +1,32 @@
+id: donor-48793636f72eb13e0b191536
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-6642
+  occurrence: kvg:06642-g1
+revision: d5c7504fde5a8d3b08f550497e1e01b1252d92272ff1249cbd47009be9f4f180
+localizedRevision: c4f38a7ed8240394178b669a217eb9bfccdb0e22d6da1c33b543b5f2a965da90
+status: candidate
+claimText: 日 represents the sun or a day. It contributes meaning to 時, time.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93737692-6a87adf69beb
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/時/1
+- reference: kanjivg-6642
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06642-g1
+review:
+  state: pending

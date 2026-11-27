@@ -7,7 +7,7 @@ subject:
   codepoint: U+7554
 revision: 6011451750fa30f206e20fbefcc90c1bf6bc9b8a733b946250f6b7a2c76f7cec
 localizedRevision: 69147712da158224f320406b833036769a0ac3e595e62519f39bf26674e16351
-status: candidate
+status: approved
 claimText: A paddy ridge divided the rice field in half so each family could flood its own side.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 6011451750fa30f206e20fbefcc90c1bf6bc9b8a733b946250f6b7a2c76f7cec
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6e77bcb4e3b692818ccac2274e440f62d39106d036f94809f0d628befe62bfea|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6e77bcb4e3b692818ccac2274e440f62d39106d036f94809f0d628befe62bfea
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

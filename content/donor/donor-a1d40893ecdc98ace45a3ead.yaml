@@ -1,0 +1,32 @@
+id: donor-a1d40893ecdc98ace45a3ead
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-9175
+  occurrence: kvg:09175-g5
+revision: 761b85a60772c6a5e3a9861c284066340f6159b92b62c56a7170b2bcf1553883
+localizedRevision: 3d04692f5a4f75b47daeb730be1bae23741c51e498a57ae20a15681fd831ed67
+status: candidate
+claimText: 孝 serves as a sound clue in an older form; its Japanese readings may differ.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-88127672-df3f19576344
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/酵/2
+- reference: kanjivg-9175
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09175-g5
+review:
+  state: pending

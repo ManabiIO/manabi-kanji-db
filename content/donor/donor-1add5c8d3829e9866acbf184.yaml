@@ -1,0 +1,28 @@
+id: donor-1add5c8d3829e9866acbf184
+kind: historical-origin
+subject:
+  type: character
+  literal: 京
+  codepoint: U+4EAC
+revision: 0ed94adbe7959815b1f256b5501ff7a0107ed3c3411798fb1367ac7245ac97b4
+localizedRevision: ecd84bcf8b804354835996a96255b02636bc0bb6557151ff319cb0876754b241
+status: candidate
+claimText: The older form of 京 pictures a tall building.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93756604-dc614aa8199b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/京/1
+review:
+  state: pending

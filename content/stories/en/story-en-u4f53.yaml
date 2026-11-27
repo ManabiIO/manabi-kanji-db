@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F53
 revision: 13be37dcda2fac5ea00d102e98642ee4b6ed26273bf63ff22b2af73b9547add0
 localizedRevision: 3d1791627bd46d61276dd3624344776da0c86b872b0010e30d360b9acbe5a3b6
-status: candidate
+status: approved
 claimText: A person fell asleep on an open book and woke with a map printed across his body.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 13be37dcda2fac5ea00d102e98642ee4b6ed26273bf63ff22b2af73b9547add0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4cc244e39dbf1e87b26a41c95123f91123146b15fdba5006e2945216e79c902a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4cc244e39dbf1e87b26a41c95123f91123146b15fdba5006e2945216e79c902a
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

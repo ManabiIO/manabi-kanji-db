@@ -7,7 +7,7 @@ subject:
   codepoint: U+8A2A
 revision: f62e6fb32be820f12b0f3890d476ca5109b0eab934061449389ff7eec6c48b2c
 localizedRevision: 4cf1ac45d4b5757e75deda5c2deb6258c051a0fd3ac4169582530ac19ebbdb52
-status: candidate
+status: approved
 claimText: A sign spelled out which direction to go to visit the lighthouse that sang in the fog.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f62e6fb32be820f12b0f3890d476ca5109b0eab934061449389ff7eec6c48b2c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c006bcaaf7b8d68318173d8c9b536e98f08213843cd5aeb54f5307c6c8f2a502|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c006bcaaf7b8d68318173d8c9b536e98f08213843cd5aeb54f5307c6c8f2a502
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

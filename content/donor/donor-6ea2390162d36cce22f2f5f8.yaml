@@ -1,0 +1,32 @@
+id: donor-6ea2390162d36cce22f2f5f8
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-72ed
+  occurrence: kvg:072ed-g2
+revision: a41d0141d0745816a39142109780bd28345a0e388423e0c831d1635bcec285a7
+localizedRevision: 08a8bf2b6692bb601a2d6f379414b3ba9f6e186ae6dffdac6858f579e11bd006
+status: candidate
+claimText: 狭 uses the 夹-shaped component corresponding to 夾 as a historical sound clue; Japanese readings can differ.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93506827-4b172edff9f7
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/狭/1
+- reference: kanjivg-72ed
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:072ed-g2
+review:
+  state: pending

@@ -1,0 +1,29 @@
+id: donor-3600da6d83a75565757a88cc
+kind: historical-origin
+subject:
+  type: character
+  literal: 象
+  codepoint: U+8C61
+revision: f66252167a754d4d453be11c5e12b54560db25f6c4b7c6216f97fc3c7bbe1ba6
+localizedRevision: f47118596781eea476de1f49f841e2bebf512c2e46609be74a24eb78af4ace60
+status: candidate
+claimText: 象 began as an elephant picture. The upper ⺈-shaped part represents its trunk; the lower shapes represent
+  its head and body.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93556891-5617776d729d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/象/1
+review:
+  state: pending

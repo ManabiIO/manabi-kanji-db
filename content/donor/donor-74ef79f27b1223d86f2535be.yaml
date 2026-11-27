@@ -1,0 +1,28 @@
+id: donor-74ef79f27b1223d86f2535be
+kind: historical-origin
+subject:
+  type: character
+  literal: 首
+  codepoint: U+9996
+revision: 39eff59cd347543fc5cf76d1d9fded6963c019fe5c3c3e45f6fcc413df7b16bb
+localizedRevision: 96bf1875154045b4b89117e71e5a7cb34e982e86497dffec10766978913b2e26
+status: candidate
+claimText: The older form pictures a head. Its upper strokes developed from a hair-like shape.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93606022-6be2f3036eff
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/首/1
+review:
+  state: pending

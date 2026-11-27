@@ -1,0 +1,28 @@
+id: donor-cba44a1c955784e194a83dca
+kind: historical-origin
+subject:
+  type: character
+  literal: 舟
+  codepoint: U+821F
+revision: d8c552723ac0dae56e5d27fe88596fe5013a8f6efb13722a03516071f0be7c03
+localizedRevision: 5d22532f160d059a54ffe1d911f4361248ace4da11f3de523271fb9d8a797580
+status: candidate
+claimText: An early picture of a boat.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93443726-4739a664fc37
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/舟/1
+review:
+  state: pending

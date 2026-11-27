@@ -1,0 +1,28 @@
+id: donor-e19b0572d9240e1916d240cf
+kind: historical-origin
+subject:
+  type: character
+  literal: 角
+  codepoint: U+89D2
+revision: 4611c0eed89eececc3f139baf4e2be16659e7915267b567fabb2125677abe9b7
+localizedRevision: bb5abdfe8c64e52690a40d15ec5e89fd8a45e61afb474d8513d8af83c54090e1
+status: candidate
+claimText: 角 began as a picture of a horn.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93647839-35430946e206
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/角/1
+review:
+  state: pending

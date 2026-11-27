@@ -1,0 +1,28 @@
+id: donor-b49d4549abe212e4ef1a07b3
+kind: historical-origin
+subject:
+  type: character
+  literal: 米
+  codepoint: U+7C73
+revision: 49e0dff278fdc824dacef710ac4e198a726cd5eceada361ff865bd253f22f7b7
+localizedRevision: 892703d34dec11775083d0be0cc22ca43898e4cc31f60e5e4dbcb82c17884c60
+status: candidate
+claimText: A picture of rice grains.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93544920-3e5cb97d9270
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/米/1
+review:
+  state: pending

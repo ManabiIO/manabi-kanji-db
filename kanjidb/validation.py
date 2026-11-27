@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import re
 from datetime import date, datetime
 from pathlib import Path
@@ -13,6 +15,8 @@ LOCALE = re.compile(r"^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-(?:[A-Z]{2}|[0-9]{3}))?(
 KINDS = {"visual-name", "semantic-function", "historical-phonetic", "modern-japanese-sound", "historical-origin", "reading-example", "mnemonic"}
 STATUSES = {"candidate", "approved", "rejected", "stale", "withheld"}
 REVIEW_STATES = {"pending", "approved", "rejected", "stale"}
+SHA256 = re.compile(r"[0-9a-f]{64}")
+REVIEWED_REVISIONS = Path("data/reviewed-claim-revisions.yaml")
 
 
 class ValidationError(ValueError):
@@ -32,6 +36,10 @@ def exact_keys(obj: Any, keys: set[str], path: Path, field: str = "") -> None:
 
 def nonempty(value: Any, path: Path, field: str) -> None:
     need(isinstance(value, str) and bool(value.strip()), path, field, "must be a nonempty string")
+
+
+def is_scalar(value: Any) -> bool:
+    return isinstance(value, str) and len(value) == 1 and not 0xD800 <= ord(value) <= 0xDFFF
 
 
 def validate_locale(value: Any, path: Path, field: str) -> None:
@@ -106,7 +114,7 @@ def validate_claim(doc: Any, path: Path, refs: dict[str, dict]) -> dict:
     if subject_type == "character":
         exact_keys(subject, {"type", "literal", "codepoint"}, path, "subject")
         literal = subject.get("literal")
-        need(isinstance(literal, str) and len(literal) == 1, path, "subject.literal", "must be one literal Unicode scalar")
+        need(is_scalar(literal), path, "subject.literal", "must be one literal Unicode scalar")
         need(subject.get("codepoint") == f"U+{ord(literal):04X}", path, "subject.codepoint", "must match the literal")
     elif subject_type == "component":
         exact_keys(subject, {"type", "id"}, path, "subject")
@@ -136,29 +144,36 @@ def validate_claim(doc: Any, path: Path, refs: dict[str, dict]) -> dict:
     need(doc.get("license") == "CC-BY-SA-4.0", path, "license", "new community content uses CC-BY-SA-4.0")
     evidence = doc.get("evidence")
     need(isinstance(evidence, list) and evidence, path, "evidence", "must bind this claim to at least one exact reference")
-    seen: set[str] = set()
     for i, item in enumerate(evidence):
         field = f"evidence[{i}]"
         exact_keys(item, {"reference", "claimField", "supportType", "selector"}, path, field)
         ref = item.get("reference")
-        need(ref in refs, path, f"{field}.reference", "unknown reference id")
+        need(isinstance(ref, str) and ref in refs, path, f"{field}.reference", "unknown reference id")
         nonempty(item.get("claimField"), path, f"{field}.claimField")
         nonempty(item.get("supportType"), path, f"{field}.supportType")
         nonempty(item.get("selector"), path, f"{field}.selector")
-        seen.add(ref)
     review = doc.get("review")
     exact_keys(review, {"state", "reviewer", "reviewedAt", "claimRevision", "sourceRevision", "rationale"}, path, "review")
     need(review.get("state") in REVIEW_STATES, path, "review.state", "unknown review state")
-    if review.get("state") == "approved" or doc.get("status") == "approved":
+    if doc["status"] == "approved":
+        need(review["state"] == "approved", path, "review.state", "approved status requires an approved review")
+    if review["state"] == "approved":
         nonempty(review.get("reviewer"), path, "review.reviewer")
         nonempty(review.get("reviewedAt"), path, "review.reviewedAt")
         nonempty(review.get("claimRevision"), path, "review.claimRevision")
         nonempty(review.get("sourceRevision"), path, "review.sourceRevision")
         nonempty(review.get("rationale"), path, "review.rationale")
-        need(review.get("claimRevision") == doc.get("revision"), path, "review.claimRevision", "approved review must bind the current claim revision")
         need(review.get("reviewer") != author.get("name"), path, "review.reviewer", "the reviewer must be a distinct person or review agent")
-        expected_source_revision = "|".join(sorted(f"{refs[item['reference']]['source']}:{refs[item['reference']]['revision']}:{refs[item['reference']]['snapshotHash']}" for item in evidence))
+    if doc["status"] == "approved":
+        need(review.get("claimRevision") == doc.get("revision"), path, "review.claimRevision", "approved review must bind the current claim revision")
+        expected_source_revision = source_revision(evidence, refs)
         need(review.get("sourceRevision") == expected_source_revision, path, "review.sourceRevision", "approved review must bind the exact current evidence revisions")
+    translation = doc.get("translationOf")
+    if translation is not None:
+        exact_keys(translation, {"claim", "locale", "textRevision"}, path, "translationOf")
+        nonempty(translation.get("claim"), path, "translationOf.claim")
+        validate_locale(translation.get("locale"), path, "translationOf.locale")
+        nonempty(translation.get("textRevision"), path, "translationOf.textRevision")
     if doc.get("kind") == "mnemonic":
         exact_keys(doc.get("story"), {"locale", "originality", "targetReference", "targetSelector", "occurrences", "fiction", "textRevision"}, path, "story")
         story = doc["story"]
@@ -174,11 +189,62 @@ def validate_claim(doc: Any, path: Path, refs: dict[str, dict]) -> dict:
         need(isinstance(occurrences, list) and occurrences, path, "story.occurrences", "must bind to exact component occurrences")
         for i, occurrence in enumerate(occurrences):
             exact_keys(occurrence, {"structure", "occurrence", "labelClaim", "authoredForm", "crosswalk"}, path, f"story.occurrences[{i}]")
-            for key in ("structure", "occurrence", "labelClaim", "authoredForm"):
+            for key in ("structure", "occurrence", "labelClaim"):
                 nonempty(occurrence.get(key), path, f"story.occurrences[{i}].{key}")
-            need(occurrence.get("crosswalk") is None or isinstance(occurrence.get("crosswalk"), dict), path, f"story.occurrences[{i}].crosswalk", "must be null or an explicit crosswalk")
+            need(is_scalar(occurrence.get("authoredForm")), path, f"story.occurrences[{i}].authoredForm", "must be one literal Unicode scalar")
+            need("crosswalk" in occurrence and (occurrence["crosswalk"] is None or isinstance(occurrence["crosswalk"], dict)),
+                 path, f"story.occurrences[{i}].crosswalk", "must be null or an explicit crosswalk")
         need(doc.get("locale") == story.get("locale"), path, "locale", "must match the story locale")
     return doc
+
+
+def source_revision(evidence: list[dict], refs: dict[str, dict]) -> str:
+    snapshots = [refs[item["reference"]] for item in evidence]
+    return "|".join(sorted(f"{ref['source']}:{ref['revision']}:{ref['snapshotHash']}" for ref in snapshots))
+
+
+def _reviewable_claim(claim: dict, refs: dict[str, dict]) -> dict:
+    return {
+        "claim": {key: value for key, value in claim.items() if key not in {"status", "review"}},
+        "references": [refs[item["reference"]] for item in claim["evidence"]],
+    }
+
+
+def claim_review_fingerprint(claim: dict, claims: dict[str, dict], refs: dict[str, dict], structures: dict[str, dict]) -> str:
+    """Hash the exact inputs covered by editorial review using canonical JSON."""
+    payload = _reviewable_claim(claim, refs)
+    translation = claim.get("translationOf")
+    if translation is not None:
+        base = claims[translation["claim"]]
+        payload["translatedText"] = {key: base[key] for key in ("locale", "localizedRevision", "claimText")}
+    if claim["kind"] == "mnemonic":
+        bindings = []
+        for binding in claim["story"]["occurrences"]:
+            structure = structures[binding["structure"]]
+            occurrence = next(item for item in structure["occurrences"] if item["id"] == binding["occurrence"])
+            bindings.append({
+                "structure": {key: value for key, value in structure.items() if key != "occurrences"},
+                "occurrence": occurrence,
+                "label": _reviewable_claim(claims[binding["labelClaim"]], refs),
+            })
+        payload["bindings"] = bindings
+    encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"), default=str).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def load_reviewed_fingerprints(root: Path) -> dict[str, str]:
+    path = root / REVIEWED_REVISIONS
+    need(not path.is_symlink(), path, "$", "reviewed fingerprints must be stored in a regular repository file")
+    if not path.exists():
+        return {}
+    doc = load(path)
+    exact_keys(doc, {"version", "revisions"}, path)
+    revisions = doc.get("revisions")
+    need(doc.get("version") == 1 and isinstance(revisions, dict), path, "$", "requires version 1 and a revisions mapping")
+    for cid, fingerprint in revisions.items():
+        need(ID.fullmatch(cid) and isinstance(fingerprint, str) and SHA256.fullmatch(fingerprint), path, cid,
+             "must map a claim ID to a lowercase SHA-256 fingerprint")
+    return revisions
 
 
 def load_project(root: Path) -> tuple[list[dict], dict[str, dict], dict[str, dict]]:
@@ -194,6 +260,130 @@ def load_project(root: Path) -> tuple[list[dict], dict[str, dict], dict[str, dic
     return claims, source_by_id, ref_by_id
 
 
+def _validate_claim_graph(
+    root: Path,
+    claims: list[dict],
+    refs: dict[str, dict],
+    imported: tuple,
+    assets: list[dict],
+) -> None:
+    by_id = {claim["id"]: claim for claim in claims}
+    characters = {row["literal"] for row in imported[0]}
+    components = {row["id"] for row in imported[1]}
+    structures = {row["id"]: row for row in imported[2]}
+    occurrences = {
+        (structure["id"], occurrence["id"]): occurrence
+        for structure in structures.values()
+        for occurrence in structure["occurrences"]
+    }
+    asset_ids = {row["id"] for row in assets}
+
+    translations = {}
+    for claim in claims:
+        cid = claim["id"]
+        subject = claim["subject"]
+        kind = subject["type"]
+        if kind == "character":
+            exists = subject["literal"] in characters
+        elif kind == "component":
+            exists = subject["id"] in components
+        elif kind == "occurrence":
+            exists = (subject["structure"], subject["occurrence"]) in occurrences
+        elif kind == "asset":
+            exists = subject["id"] in asset_ids
+        else:
+            # Reading and sense candidates do not yet have a canonical subject index.
+            exists = False
+        need(exists, root, f"subject.{cid}", f"unknown {kind} subject")
+
+        translation = claim.get("translationOf")
+        if translation is not None:
+            field = f"translationOf.{cid}"
+            base_id = translation["claim"]
+            base = by_id.get(base_id)
+            need(base is not None, root, field, "unknown source claim")
+            need(translation["locale"] == base["locale"], root, f"{field}.locale", "must match the source claim locale")
+            need(claim["locale"] != base["locale"], root, f"{field}.locale", "translation must have a different locale from its source")
+            for key in ("kind", "subject", "targetLanguage"):
+                need(claim[key] == base[key], root, field, f"translation must preserve the source claim's {key}")
+            translations[cid] = base_id
+
+    walked: set[str] = set()
+    for start in translations:
+        trail: set[str] = set()
+        cid = start
+        while cid in translations and cid not in walked:
+            need(cid not in trail, root, f"translationOf.{cid}", "translation cycle")
+            trail.add(cid)
+            cid = translations[cid]
+        walked.update(trail)
+
+    for claim in claims:
+        cid = claim["id"]
+        approved = claim["status"] == "approved"
+        if approved and cid in translations:
+            base = by_id[translations[cid]]
+            need(base["status"] == "approved", root, f"translationOf.{cid}", "approved translation requires a currently approved source claim")
+            need(claim["translationOf"]["textRevision"] == base["localizedRevision"], root, f"translationOf.{cid}",
+                 "approved translation is stale against its source text revision")
+        if claim["kind"] == "mnemonic":
+            _validate_story(root, claim, by_id, structures, occurrences)
+
+    reviewed = load_reviewed_fingerprints(root)
+    for claim in claims:
+        if claim["status"] != "approved":
+            continue
+        fingerprint = claim_review_fingerprint(claim, by_id, refs, structures)
+        need(reviewed.get(claim["id"]) == fingerprint, root, f"review.{claim['id']}",
+             "approved claim material or dependencies changed without a matching reviewed fingerprint")
+
+
+def _validate_story(root: Path, claim: dict, claims: dict[str, dict], structures: dict, occurrences: dict) -> None:
+    cid = claim["id"]
+    subject = claim["subject"]
+    story = claim["story"]
+    need(subject["type"] == "character", root, f"subject.{cid}", "mnemonics must target a character")
+    need(any(item["claimField"] == "story.targetReference" and item["reference"] == story["targetReference"]
+             and item["selector"] == story["targetSelector"] for item in claim["evidence"]),
+         root, f"story.{cid}.targetSelector", "must match the exact cited target evidence")
+    seen: set[tuple[str, str]] = set()
+    for i, binding in enumerate(story["occurrences"]):
+        field = f"story.{cid}.occurrences[{i}]"
+        struct = structures.get(binding["structure"])
+        need(struct is not None, root, f"{field}.structure", "unknown structure ID")
+        need(struct["literal"] == subject["literal"], root, f"{field}.structure", "structure must belong to the mnemonic's target character")
+        key = binding["structure"], binding["occurrence"]
+        occurrence = occurrences.get(key)
+        need(occurrence is not None, root, f"{field}.occurrence", "unknown exact occurrence ID")
+        need(key not in seen, root, f"{field}.occurrence", "duplicate occurrence binding")
+        seen.add(key)
+        crosswalk = binding["crosswalk"]
+        actual_form, authored_form = occurrence["form"], binding["authoredForm"]
+        need(authored_form == actual_form or crosswalk is not None, root, f"{field}.authoredForm",
+             "a different authored glyph must have an explicit source crosswalk")
+        if crosswalk is not None:
+            crosswalk_field = f"{field}.crosswalk"
+            exact_keys(crosswalk, {"fromCodepoint", "toCodepoint", "sourceAttribute", "reference"}, root, crosswalk_field)
+            need(is_scalar(actual_form) and crosswalk.get("fromCodepoint") == f"U+{ord(actual_form):04X}", root,
+                 f"{crosswalk_field}.fromCodepoint", "must identify the rendered group form exactly")
+            need(crosswalk.get("toCodepoint") == f"U+{ord(authored_form):04X}", root,
+                 f"{crosswalk_field}.toCodepoint", "must identify the authored selector glyph exactly")
+            need(crosswalk.get("sourceAttribute") == "original" and crosswalk.get("reference") == struct["reference"], root,
+                 crosswalk_field, "must cite the exact KanjiVG original attribute on the same structure")
+            need(struct["source"].startswith("kanjivg-") and occurrence["attributes"].get("original") == authored_form, root, crosswalk_field,
+                 "authored glyph must match the bound occurrence's recorded original attribute")
+        label = claims.get(binding["labelClaim"])
+        need(label is not None, root, f"{field}.labelClaim", "unknown label claim")
+        need(label["kind"] == "visual-name" and label["subject"]["type"] == "component", root,
+             f"{field}.labelClaim", "must bind to a component visual-name claim")
+        need(label["subject"]["id"] == occurrence["component"], root, f"{field}.labelClaim",
+             "label claim does not name the bound occurrence's component")
+        if claim["status"] == "approved":
+            need(label["status"] == "approved", root, f"{field}.labelClaim", "approved story requires a currently approved label")
+            need(label["locale"] == claim["locale"] and label["targetLanguage"] == claim["targetLanguage"], root,
+                 f"{field}.labelClaim", "approved story and label must have the same locale and target language")
+
+
 def validate(root: Path, *, preloaded: tuple | None = None) -> tuple[int, int, int]:
     if preloaded is None:
         claims, sources, refs = load_project(root)
@@ -206,50 +396,6 @@ def validate(root: Path, *, preloaded: tuple | None = None) -> tuple[int, int, i
         imported = _imports(root, sources)
     _intake(root, refs)
     _imported_candidates(root, sources, refs)
-    _assets(root, sources, refs)
-    # Translations bind to exact localized-text revisions; an independently written locale has no translation edge.
-    by_id = {claim["id"]: claim for claim in claims}
-    for claim in claims:
-        translation = claim.get("translationOf")
-        if translation is not None:
-            exact_keys(translation, {"claim", "locale", "textRevision"}, root / "content" / (claim["id"] + ".yaml"), "translationOf")
-            base = by_id.get(translation.get("claim"))
-            need(base is not None, root, f"translationOf.{claim['id']}", "unknown source claim")
-            validate_locale(translation.get("locale"), root, f"translationOf.{claim['id']}.locale")
-            nonempty(translation.get("textRevision"), root, f"translationOf.{claim['id']}.textRevision")
-            stale = translation.get("textRevision") != base.get("localizedRevision")
-            need(not (claim.get("status") == "approved" and stale), root, f"translationOf.{claim['id']}", "approved translation is stale against its source text revision")
-    structures_path = root / "data" / "structures.yaml"
-    structures: dict[str, dict] = {}
-    occurrences: dict[tuple[str, str], dict] = {}
-    imported_structures = imported[2] if imported else []
-    if imported_structures:
-        for structure in imported_structures:
-            structures[structure["id"]] = structure
-            for occurrence in structure.get("occurrences", []):
-                occurrences[(structure["id"], occurrence["id"])] = occurrence
-    for claim in claims:
-        if claim["kind"] != "mnemonic":
-            continue
-        subject = claim["subject"]
-        need(subject["type"] == "character", root, f"subject.{claim['id']}", "mnemonics must target a character")
-        for i, binding in enumerate(claim["story"]["occurrences"]):
-            struct = structures.get(binding["structure"])
-            need(struct is not None, root, f"story.occurrences[{i}].structure", "unknown structure ID")
-            need(struct["literal"] == subject["literal"], root, f"story.occurrences[{i}].structure", "structure must belong to the mnemonic's target character")
-            occurrence = occurrences.get((binding["structure"], binding["occurrence"]))
-            need(occurrence is not None, root, f"story.occurrences[{i}].occurrence", "unknown exact occurrence ID")
-            need(binding["authoredForm"] == occurrence["form"] or binding["crosswalk"] is not None,
-                 root, f"story.occurrences[{i}].authoredForm", "a different authored glyph must have an explicit source crosswalk")
-            if binding["crosswalk"] is not None:
-                crosswalk = binding["crosswalk"]
-                exact_keys(crosswalk, {"fromCodepoint", "toCodepoint", "sourceAttribute", "reference"}, root, f"story.occurrences[{i}].crosswalk")
-                need(crosswalk.get("fromCodepoint") == f"U+{ord(occurrence['form']):04X}", root, f"story.occurrences[{i}].crosswalk.fromCodepoint", "must identify the rendered group form exactly")
-                need(crosswalk.get("toCodepoint") == f"U+{ord(binding['authoredForm']):04X}", root, f"story.occurrences[{i}].crosswalk.toCodepoint", "must identify the authored selector glyph exactly")
-                need(crosswalk.get("sourceAttribute") == "original" and crosswalk.get("reference") == struct["reference"], root, f"story.occurrences[{i}].crosswalk", "must cite the exact KanjiVG original attribute on the same structure")
-            label = by_id.get(binding["labelClaim"])
-            need(label is not None, root, f"story.occurrences[{i}].labelClaim", "unknown label claim")
-            need(label["kind"] == "visual-name" and label["subject"].get("type") == "component", root,
-                 f"story.occurrences[{i}].labelClaim", "must bind to a component visual-name claim")
-            need(label["subject"]["id"] == occurrence["component"], root, f"story.occurrences[{i}].labelClaim", "label claim does not name the bound occurrence's component")
+    assets = _assets(root, sources, refs)
+    _validate_claim_graph(root, claims, refs, imported, assets)
     return len(claims), len(sources), len(refs)

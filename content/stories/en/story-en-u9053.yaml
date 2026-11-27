@@ -7,7 +7,7 @@ subject:
   codepoint: U+9053
 revision: c33678775e8ce807236b3f39bda623c68e637ce34ef95d3b7c7cb48c9a6477c9
 localizedRevision: 5d7519a748f684ccfcdb4bd16b36a054edd411e43cc096b64cf0b41c5df10f48
-status: candidate
+status: approved
 claimText: A walker carried a statue's missing head down the road to the museum in a shopping basket.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: c33678775e8ce807236b3f39bda623c68e637ce34ef95d3b7c7cb48c9a6477c9
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:826fd1adbf301491c5c726fedb4d3dec4089760dd40a6824c83403f0c4b86418|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:826fd1adbf301491c5c726fedb4d3dec4089760dd40a6824c83403f0c4b86418
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

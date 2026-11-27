@@ -7,7 +7,7 @@ subject:
   codepoint: U+8CA8
 revision: b90d910f5f4b7b8a6e5f15058006e046e67c5994ce633b142c804ff8f1b608ef
 localizedRevision: 92a339a55b83d181a4700e339b3d3872e553dbb0f5a2dcac90e0c82be315e3e1
-status: candidate
+status: approved
 claimText: Every shell in the ship's freight changed into a china teacup as it crossed the equator.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: b90d910f5f4b7b8a6e5f15058006e046e67c5994ce633b142c804ff8f1b608ef
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5836724df089937275c1c18fb7605b922fe35bad559fb2c0346e2df74a789496
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

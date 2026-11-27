@@ -1,0 +1,4406 @@
+{
+  "schemaVersion": 1,
+  "kind": "donor-global-label-evidence",
+  "donor": {
+    "sourceReference": "manabidictionaries-reviewed-v26",
+    "revision": "1f6357d491bdf2b81e9f87faaa45ca403ac25576",
+    "sha256": "5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525",
+    "license": "CC-BY-SA-4.0",
+    "candidateFile": "data/imports/donor-v26.jsonl",
+    "candidateSHA256": "edd2a522583981485b1521878f06f5781e2f27f1c1048ec84140a2a710603056",
+    "field": "/meaningLabels"
+  },
+  "reviewedBy": {
+    "name": "OpenAI Codex agent /root/sources",
+    "type": "agent",
+    "date": "2026-11-27"
+  },
+  "scope": {
+    "purpose": "Source evidence for donor global label wording and review dispositions.",
+    "lexicalSenses": "Character selectors are meaning fields for the cited Japanese character. They establish the selected lexical sense.",
+    "radicalNames": "Radical names and form labels draw on the specific form entry or the cited Kanji Alive radical row. Column indicators select a term in the Meaning field. CSV row numbering starts at 1 and includes the header.",
+    "visualCues": "Reviewed cues are authored mnemonic labels. A link reuses or relates a cue within its approved mnemonic scope.",
+    "publication": "Coverage evidence only. Occurrence-level semantic, phonetic, etymological and historical claims require their own evidence and review.",
+    "sourceText": "Exact lexical senses are identified by selector. Any supported wording is the reviewer’s proposed English rendering."
+  },
+  "reviewedCueManifest": {
+    "file": "data/story-seed-manifest.yaml",
+    "sha256": "98501a2a71f6a491740fef14a4367f9bb105ce7b56326f196dac7a3393bf4ce1",
+    "visualCueCount": 141
+  },
+  "sourceRecords": {
+    "kanjidic2-identity-snapshot": {
+      "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "artifact": "KANJIDIC2 compressed XML",
+      "revision": "2026-331",
+      "sha256": "af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773",
+      "source": "kanjidic2-2026-331",
+      "license": "CC-BY-SA-4.0"
+    },
+    "kanji-alive-radicals-csv": {
+      "url": "https://raw.githubusercontent.com/kanjialive/kanji-data-media/966def0104648e83c3f95538c414c4862cba1bbf/language-data/japanese-radicals.csv",
+      "artifact": "language-data/japanese-radicals.csv",
+      "revision": "966def0104648e83c3f95538c414c4862cba1bbf",
+      "sha256": "7c24ce865b286576d4239d5d9d3811c21c4f022afd764472cdde7894bb0df8b0",
+      "source": "kanji-alive-radicals-v2.4",
+      "license": "CC-BY-4.0"
+    },
+    "kanji-alive-radicals-ids-csv": {
+      "url": "https://raw.githubusercontent.com/kanjialive/kanji-data-media/966def0104648e83c3f95538c414c4862cba1bbf/language-data/japanese-radicals-ids.csv",
+      "artifact": "language-data/japanese-radicals-ids.csv",
+      "revision": "966def0104648e83c3f95538c414c4862cba1bbf",
+      "sha256": "ac1bf5273527e35fc15e1de34cc20c39af06416993d29d69432706a08848299b",
+      "source": "kanji-alive-radicals-v2.4",
+      "license": "CC-BY-4.0"
+    }
+  },
+  "totals": {
+    "rows": 129,
+    "terms": 163,
+    "rowDispositions": {
+      "supported": 95,
+      "partially-supported": 19,
+      "reword": 10,
+      "withheld": 5
+    },
+    "termDispositions": {
+      "supported": 127,
+      "withheld": 20,
+      "reword": 16
+    },
+    "cueRelationships": {
+      "same-localized-cue": 33,
+      "same-cue-concept": 6,
+      "authored-cue-only": 2,
+      "related-narrower-authored-cue": 1
+    }
+  },
+  "rows": [
+    {
+      "candidateId": "cand-5246c80ab3872b776e3318da",
+      "donorSelector": "/meaningLabels/人",
+      "candidateSelector": "/global-meaning-label/人",
+      "literal": "人",
+      "codepoint": "U+4EBA",
+      "donorLabel": "person",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "person",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='人']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u4eba-person",
+            "revision": "35805d066410178f6b2774191725009d667ed2ec5527bf9d8da49a3e44a274b7",
+            "localizedRevision": "35805d066410178f6b2774191725009d667ed2ec5527bf9d8da49a3e44a274b7",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-a299ea7125edda4a1be88d5b",
+      "donorSelector": "/meaningLabels/心",
+      "candidateSelector": "/global-meaning-label/心",
+      "literal": "心",
+      "codepoint": "U+5FC3",
+      "donorLabel": "heart; feelings",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "heart",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='心']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5fc3-heart",
+            "revision": "304805b00546d7ec85eb9695bad00ebd08d20f8ed566d77e62dce95f32be3ea1",
+            "localizedRevision": "304805b00546d7ec85eb9695bad00ebd08d20f8ed566d77e62dce95f32be3ea1",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "feelings",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='心']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='心']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=93; literal=⼼; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=93; ID=92; literal=⼼"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The selected descriptions name heart, mind and spirit. Their scope does not establish a separate feelings gloss."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-aea828f804fc2d5040c5a175",
+      "donorSelector": "/meaningLabels/日",
+      "candidateSelector": "/global-meaning-label/日",
+      "literal": "日",
+      "codepoint": "U+65E5",
+      "donorLabel": "sun; day",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "sun",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='日']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u65e5-sun",
+            "revision": "9dda3de0a643144dd4718509f6e8ebaea2e7e952b2c05ad911225d7ed3642e27",
+            "localizedRevision": "9dda3de0a643144dd4718509f6e8ebaea2e7e952b2c05ad911225d7ed3642e27",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "day",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='日']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3c4a31608830f2f49313e74b",
+      "donorSelector": "/meaningLabels/月",
+      "candidateSelector": "/global-meaning-label/月",
+      "literal": "月",
+      "codepoint": "U+6708",
+      "donorLabel": "moon",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "moon",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='月']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u6708-moon",
+            "revision": "815b24cdd19e6869eab13731499e51278aa18600f24c8869d7ef44f18ae362f8",
+            "localizedRevision": "815b24cdd19e6869eab13731499e51278aa18600f24c8869d7ef44f18ae362f8",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-43ef1920604670b1ff8f5f2f",
+      "donorSelector": "/meaningLabels/木",
+      "candidateSelector": "/global-meaning-label/木",
+      "literal": "木",
+      "codepoint": "U+6728",
+      "donorLabel": "tree; wood",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "tree",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='木']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u6728-tree",
+            "revision": "d47c8c12c76b1c09394a9454c885e682926950bea357a90bd0d2fa0a869073fc",
+            "localizedRevision": "d47c8c12c76b1c09394a9454c885e682926950bea357a90bd0d2fa0a869073fc",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "wood",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='木']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2f094ca0a93ff3e9b63a41e7",
+      "donorSelector": "/meaningLabels/水",
+      "candidateSelector": "/global-meaning-label/水",
+      "literal": "水",
+      "codepoint": "U+6C34",
+      "donorLabel": "water",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "water",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='水']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u6c34-water",
+            "revision": "3d5461ce9487cde444ea9c271ea7ad31c7b5e278b54c47c8fc3c370fd0d29c33",
+            "localizedRevision": "3d5461ce9487cde444ea9c271ea7ad31c7b5e278b54c47c8fc3c370fd0d29c33",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-c1a6a64d0f487baf1b006f60",
+      "donorSelector": "/meaningLabels/火",
+      "candidateSelector": "/global-meaning-label/火",
+      "literal": "火",
+      "codepoint": "U+706B",
+      "donorLabel": "fire",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "fire",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='火']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u706b-fire",
+            "revision": "80c057a9d5038e6387de6ea01c6cb6964cefe7807890db6ba77fa57acf426f4e",
+            "localizedRevision": "80c057a9d5038e6387de6ea01c6cb6964cefe7807890db6ba77fa57acf426f4e",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-23bab1f48dc21a135928bd4a",
+      "donorSelector": "/meaningLabels/土",
+      "candidateSelector": "/global-meaning-label/土",
+      "literal": "土",
+      "codepoint": "U+571F",
+      "donorLabel": "earth; soil",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "earth",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='土']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "soil",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='土']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-7c663ba7a61d70cf667d57e4",
+      "donorSelector": "/meaningLabels/金",
+      "candidateSelector": "/global-meaning-label/金",
+      "literal": "金",
+      "codepoint": "U+91D1",
+      "donorLabel": "metal",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "metal",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=261; literal=⾦; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=261; ID=260; literal=⾦"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u91d1-metal",
+            "revision": "bb38e79f09946f4e632a23adaceaaad58ccdb1a26772ada4d337ed6918982789",
+            "localizedRevision": "bb38e79f09946f4e632a23adaceaaad58ccdb1a26772ada4d337ed6918982789",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2ee877ebb910b324238a6ddf",
+      "donorSelector": "/meaningLabels/石",
+      "candidateSelector": "/global-meaning-label/石",
+      "literal": "石",
+      "codepoint": "U+77F3",
+      "donorLabel": "stone",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "stone",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='石']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-194c654951034e58bccd78fd",
+      "donorSelector": "/meaningLabels/山",
+      "candidateSelector": "/global-meaning-label/山",
+      "literal": "山",
+      "codepoint": "U+5C71",
+      "donorLabel": "mountain",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "mountain",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='山']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-e8749914021ee0f4d7633f92",
+      "donorSelector": "/meaningLabels/雨",
+      "candidateSelector": "/global-meaning-label/雨",
+      "literal": "雨",
+      "codepoint": "U+96E8",
+      "donorLabel": "rain",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "rain",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='雨']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0dd3213835222be0eb22ce5d",
+      "donorSelector": "/meaningLabels/艸",
+      "candidateSelector": "/global-meaning-label/艸",
+      "literal": "艸",
+      "codepoint": "U+8278",
+      "donorLabel": "plants; grass",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "plants",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='艸']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "grass",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='艸']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-573856af7e9675b057fe0d34",
+      "donorSelector": "/meaningLabels/竹",
+      "candidateSelector": "/global-meaning-label/竹",
+      "literal": "竹",
+      "codepoint": "U+7AF9",
+      "donorLabel": "bamboo",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bamboo",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='竹']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0a7da2eebd8a18fdb14f48ea",
+      "donorSelector": "/meaningLabels/米",
+      "candidateSelector": "/global-meaning-label/米",
+      "literal": "米",
+      "codepoint": "U+7C73",
+      "donorLabel": "rice",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "rice",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='米']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0c93c543586719f7fd64b172",
+      "donorSelector": "/meaningLabels/禾",
+      "candidateSelector": "/global-meaning-label/禾",
+      "literal": "禾",
+      "codepoint": "U+79BE",
+      "donorLabel": "grain",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "grain",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=174; literal=⽲; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=174; ID=173; literal=⽲"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u79be-grain",
+            "revision": "3ed8a25d157e08df85e56eb938666c840f434be4620059376010fc5ecd211b5e",
+            "localizedRevision": "3ed8a25d157e08df85e56eb938666c840f434be4620059376010fc5ecd211b5e",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9b54eb94d126dcbd82d7a85f",
+      "donorSelector": "/meaningLabels/田",
+      "candidateSelector": "/global-meaning-label/田",
+      "literal": "田",
+      "codepoint": "U+7530",
+      "donorLabel": "field",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "field",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='田']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The cited ordinary Japanese gloss specifically identifies a rice field.",
+          "supportedWording": "rice field",
+          "reviewedCue": {
+            "id": "visual-u7530-rice-field",
+            "revision": "6497f9d19b678f222e6ea02e5a4ce6738d9ae17ba53a7d8371fd9f82f749a5b1",
+            "localizedRevision": "6497f9d19b678f222e6ea02e5a4ce6738d9ae17ba53a7d8371fd9f82f749a5b1",
+            "relationship": "same-cue-concept"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-72ec8bde0006d04bf634610a",
+      "donorSelector": "/meaningLabels/口",
+      "candidateSelector": "/global-meaning-label/口",
+      "literal": "口",
+      "codepoint": "U+53E3",
+      "donorLabel": "mouth",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "mouth",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='口']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u53e3-mouth",
+            "revision": "134caf268182c478d8102895972f33bbd9a5df4307f41537cac8066abd7f8eb1",
+            "localizedRevision": "134caf268182c478d8102895972f33bbd9a5df4307f41537cac8066abd7f8eb1",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-662ec9c84bd414b166d37a78",
+      "donorSelector": "/meaningLabels/言",
+      "candidateSelector": "/global-meaning-label/言",
+      "literal": "言",
+      "codepoint": "U+8A00",
+      "donorLabel": "speech; words",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "speech",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=229; literal=⾔; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=229; ID=228; literal=⾔"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "Speech in the sense of speaking, using the radical's cited to-speak meaning."
+        },
+        {
+          "term": "words",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=229; literal=⾔; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=229; ID=228; literal=⾔"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u8a00-word",
+            "revision": "125b636838ea8bc738ff097612c073a05166a49ad0715545985083d61f0a1cfc",
+            "localizedRevision": "125b636838ea8bc738ff097612c073a05166a49ad0715545985083d61f0a1cfc",
+            "relationship": "same-cue-concept"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3e17a4b2701a1e929ab177f3",
+      "donorSelector": "/meaningLabels/手",
+      "candidateSelector": "/global-meaning-label/手",
+      "literal": "手",
+      "codepoint": "U+624B",
+      "donorLabel": "hand",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "hand",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='手']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5596030765ebee7549d1a0a5",
+      "donorSelector": "/meaningLabels/足",
+      "candidateSelector": "/global-meaning-label/足",
+      "literal": "足",
+      "codepoint": "U+8DB3",
+      "donorLabel": "foot",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "foot",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='足']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-c6d1d5558f9681f1fd2e2669",
+      "donorSelector": "/meaningLabels/止",
+      "candidateSelector": "/global-meaning-label/止",
+      "literal": "止",
+      "codepoint": "U+6B62",
+      "donorLabel": "foot; stopping",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "foot",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='止']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='止']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The selected Japanese glosses describe halting. The sources examined give no foot sense for this standalone character and no cited Japanese occurrence carrying that role."
+        },
+        {
+          "term": "stopping",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='止']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-81ab7cff69ed4b34734eaf1e",
+      "donorSelector": "/meaningLabels/目",
+      "candidateSelector": "/global-meaning-label/目",
+      "literal": "目",
+      "codepoint": "U+76EE",
+      "donorLabel": "eye",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "eye",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='目']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0fac9dcfb871f557aa5ce7cf",
+      "donorSelector": "/meaningLabels/耳",
+      "candidateSelector": "/global-meaning-label/耳",
+      "literal": "耳",
+      "codepoint": "U+8033",
+      "donorLabel": "ear",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "ear",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='耳']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u8033-ear",
+            "revision": "7ea03ca683e8478b8df16f78e5985b36f5c34c57b866177f8355ecbead9717af",
+            "localizedRevision": "7ea03ca683e8478b8df16f78e5985b36f5c34c57b866177f8355ecbead9717af",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9d116fb4cf21d57fe6440b63",
+      "donorSelector": "/meaningLabels/肉",
+      "candidateSelector": "/global-meaning-label/肉",
+      "literal": "肉",
+      "codepoint": "U+8089",
+      "donorLabel": "flesh; body",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "flesh",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=204; literal=⾁; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=204; ID=203; literal=⾁"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        },
+        {
+          "term": "body",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='肉']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=204; literal=⾁; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=204; ID=203; literal=⾁"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The examined entries support flesh or meat. A whole body is a broader referent."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-97ac8ec065096db7c4aae419",
+      "donorSelector": "/meaningLabels/骨",
+      "candidateSelector": "/global-meaning-label/骨",
+      "literal": "骨",
+      "codepoint": "U+9AA8",
+      "donorLabel": "bone",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bone",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='骨']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b83ee2b52288a210dafc92eb",
+      "donorSelector": "/meaningLabels/血",
+      "candidateSelector": "/global-meaning-label/血",
+      "literal": "血",
+      "codepoint": "U+8840",
+      "donorLabel": "blood",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "blood",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='血']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3183a66ff82215d119392af5",
+      "donorSelector": "/meaningLabels/食",
+      "candidateSelector": "/global-meaning-label/食",
+      "literal": "食",
+      "codepoint": "U+98DF",
+      "donorLabel": "food; eating",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "food",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='食']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "eating",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='食']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-48aa5b182704bdf566ecf53f",
+      "donorSelector": "/meaningLabels/糸",
+      "candidateSelector": "/global-meaning-label/糸",
+      "literal": "糸",
+      "codepoint": "U+7CF8",
+      "donorLabel": "thread; silk",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "thread",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='糸']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u7cf8-thread",
+            "revision": "14452164884a73f4a899baa7d2f8f3a17a18e5b9bf966d2a76d3c4fbf7c32ee2",
+            "localizedRevision": "14452164884a73f4a899baa7d2f8f3a17a18e5b9bf966d2a76d3c4fbf7c32ee2",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "silk",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='糸']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=190; literal=⽷; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=190; ID=189; literal=⽷"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The pinned sources describe thread. Silk is one possible fiber, and the sources examined give no silk-material sense for 糸."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-d8f0abe5612fe40918bf5a67",
+      "donorSelector": "/meaningLabels/衣",
+      "candidateSelector": "/global-meaning-label/衣",
+      "literal": "衣",
+      "codepoint": "U+8863",
+      "donorLabel": "clothing",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "clothing",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=222; literal=⾐; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=222; ID=221; literal=⾐"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b48604db38bc710174980f0e",
+      "donorSelector": "/meaningLabels/革",
+      "candidateSelector": "/global-meaning-label/革",
+      "literal": "革",
+      "codepoint": "U+9769",
+      "donorLabel": "hide; leather",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "hide",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='革']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "leather",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='革']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9500cb6d33492ae4498279dc",
+      "donorSelector": "/meaningLabels/皮",
+      "candidateSelector": "/global-meaning-label/皮",
+      "literal": "皮",
+      "codepoint": "U+76AE",
+      "donorLabel": "skin; hide",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "skin",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='皮']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u76ae-skin",
+            "revision": "b469fcf75f970261c06e061ec9220b092f60f9db69e3ecc9bda196d9bd7fad68",
+            "localizedRevision": "b469fcf75f970261c06e061ec9220b092f60f9db69e3ecc9bda196d9bd7fad68",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "hide",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='皮']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2e484bcb23aedcca63d5b6ca",
+      "donorSelector": "/meaningLabels/貝",
+      "candidateSelector": "/global-meaning-label/貝",
+      "literal": "貝",
+      "codepoint": "U+8C9D",
+      "donorLabel": "shell; valuables",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "shell",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=237; literal=⾙; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=237; ID=236; literal=⾙"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u8c9d-shell",
+            "revision": "b1299c565046dad15daeeb078d4345a99a1d05b974014cb3201f59b7618afed0",
+            "localizedRevision": "b1299c565046dad15daeeb078d4345a99a1d05b974014cb3201f59b7618afed0",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "valuables",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=237; literal=⾙; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=237; ID=236; literal=⾙"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "Wealth in the radical label is the applicable sense of valuables."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-baa94d72b985d2e9a7c477d5",
+      "donorSelector": "/meaningLabels/玉",
+      "candidateSelector": "/global-meaning-label/玉",
+      "literal": "玉",
+      "codepoint": "U+7389",
+      "donorLabel": "jade; precious stone",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "jade",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='玉']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=147; literal=⽟; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=147; ID=146; literal=⽟"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The ordinary sense is jewel, and the radical entry names jewelry. Neither pins jade as a specific ordinary sense. Jade is independently retained as an authored visual cue.",
+          "reviewedCue": {
+            "id": "visual-u7389-jade",
+            "revision": "463e5b70a8fd17610515c0c80d137fa9cc815b962b2275130a777175f3857919",
+            "localizedRevision": "463e5b70a8fd17610515c0c80d137fa9cc815b962b2275130a777175f3857919",
+            "relationship": "authored-cue-only"
+          }
+        },
+        {
+          "term": "precious stone",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='玉']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-42322bc3e846b8098937dfc1",
+      "donorSelector": "/meaningLabels/刀",
+      "candidateSelector": "/global-meaning-label/刀",
+      "literal": "刀",
+      "codepoint": "U+5200",
+      "donorLabel": "knife; cutting",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "knife",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='刀']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "cutting",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='刀']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='刀']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The selected senses name blades. Their function does not substantiate an ordinary meaning of cutting."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-bc98fd91ef4f44220e7021ee",
+      "donorSelector": "/meaningLabels/力",
+      "candidateSelector": "/global-meaning-label/力",
+      "literal": "力",
+      "codepoint": "U+529B",
+      "donorLabel": "strength",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "strength",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='力']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u529b-strength",
+            "revision": "3028601e17dd04fa95a5aa461b2fb44373fde18d8ee3c6f5f929ed1c0d6fd70c",
+            "localizedRevision": "3028601e17dd04fa95a5aa461b2fb44373fde18d8ee3c6f5f929ed1c0d6fd70c",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-e91f90ebed1becae9003001d",
+      "donorSelector": "/meaningLabels/女",
+      "candidateSelector": "/global-meaning-label/女",
+      "literal": "女",
+      "codepoint": "U+5973",
+      "donorLabel": "woman",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "woman",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='女']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5973-woman",
+            "revision": "71554755d09b760230ddbb514bcd06e7e30a7fa905cdba17414e38c7b4b6457a",
+            "localizedRevision": "71554755d09b760230ddbb514bcd06e7e30a7fa905cdba17414e38c7b4b6457a",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-d1c30daa93d61190ea15bd2f",
+      "donorSelector": "/meaningLabels/子",
+      "candidateSelector": "/global-meaning-label/子",
+      "literal": "子",
+      "codepoint": "U+5B50",
+      "donorLabel": "child",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "child",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='子']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5b50-child",
+            "revision": "e416b581b709de34af3db4238de091dbba3b6441f135749ef7a0d76d06a7d089",
+            "localizedRevision": "e416b581b709de34af3db4238de091dbba3b6441f135749ef7a0d76d06a7d089",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-4256c36d175f03b2e0a270db",
+      "donorSelector": "/meaningLabels/犬",
+      "candidateSelector": "/global-meaning-label/犬",
+      "literal": "犬",
+      "codepoint": "U+72AC",
+      "donorLabel": "dog",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "dog",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='犬']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-c2df7cdeffb3c939fb534955",
+      "donorSelector": "/meaningLabels/牛",
+      "candidateSelector": "/global-meaning-label/牛",
+      "literal": "牛",
+      "codepoint": "U+725B",
+      "donorLabel": "cattle",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "cattle",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=139; literal=⽜; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=139; ID=138; literal=⽜"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical name identifies the domestic bovine by the everyday singular cow."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b2fbb1bd29f31d2115540ecd",
+      "donorSelector": "/meaningLabels/羊",
+      "candidateSelector": "/global-meaning-label/羊",
+      "literal": "羊",
+      "codepoint": "U+7F8A",
+      "donorLabel": "sheep",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "sheep",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='羊']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u7f8a-sheep",
+            "revision": "7cac6dbb3630eb4388f82a734bb79805b3474ce7f9e3851d4f31b851abaaab05",
+            "localizedRevision": "7cac6dbb3630eb4388f82a734bb79805b3474ce7f9e3851d4f31b851abaaab05",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-705942fca4211d8d015df6af",
+      "donorSelector": "/meaningLabels/馬",
+      "candidateSelector": "/global-meaning-label/馬",
+      "literal": "馬",
+      "codepoint": "U+99AC",
+      "donorLabel": "horse",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "horse",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='馬']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u99ac-horse",
+            "revision": "97f7fb12d4b0aeeb21896b54cf6c1972a3046bc9a9cdbfa12621053c8a143539",
+            "localizedRevision": "97f7fb12d4b0aeeb21896b54cf6c1972a3046bc9a9cdbfa12621053c8a143539",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-143a1064d1a72929af83dab0",
+      "donorSelector": "/meaningLabels/鳥",
+      "candidateSelector": "/global-meaning-label/鳥",
+      "literal": "鳥",
+      "codepoint": "U+9CE5",
+      "donorLabel": "bird",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bird",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='鳥']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u9ce5-bird",
+            "revision": "69240bb0a9d3233827c7d68f8898652c56278c0990f891124eabe39379484f6a",
+            "localizedRevision": "69240bb0a9d3233827c7d68f8898652c56278c0990f891124eabe39379484f6a",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-8ab419b1197eb55d8fb31a09",
+      "donorSelector": "/meaningLabels/魚",
+      "candidateSelector": "/global-meaning-label/魚",
+      "literal": "魚",
+      "codepoint": "U+9B5A",
+      "donorLabel": "fish",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "fish",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='魚']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u9b5a-fish",
+            "revision": "32196b32f306b9910c67cf5c1ac9696e3fef5a08dffe5c1d948dcee831ffbdcc",
+            "localizedRevision": "32196b32f306b9910c67cf5c1ac9696e3fef5a08dffe5c1d948dcee831ffbdcc",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-eaf744c0817365320332ff1d",
+      "donorSelector": "/meaningLabels/虫",
+      "candidateSelector": "/global-meaning-label/虫",
+      "literal": "虫",
+      "codepoint": "U+866B",
+      "donorLabel": "creature; insect",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "creature",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='虫']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='虫']/reading_meaning/rmgroup[1]/meaning[10]",
+              "fieldLanguage": "es",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=218; literal=⾍; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=218; ID=217; literal=⾍"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The selected Japanese senses identify insects and similar small creatures. The unqualified English word creature extends beyond that recorded sense."
+        },
+        {
+          "term": "insect",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='虫']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-140d9c0142f4161270e09795",
+      "donorSelector": "/meaningLabels/車",
+      "candidateSelector": "/global-meaning-label/車",
+      "literal": "車",
+      "codepoint": "U+8ECA",
+      "donorLabel": "vehicle",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "vehicle",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=246; literal=⾞; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=246; ID=245; literal=⾞"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-734b5dd13ba10d51c6851bef",
+      "donorSelector": "/meaningLabels/舟",
+      "candidateSelector": "/global-meaning-label/舟",
+      "literal": "舟",
+      "codepoint": "U+821F",
+      "donorLabel": "boat",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "boat",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='舟']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-c0ca31d42aad2c2d8447fb16",
+      "donorSelector": "/meaningLabels/門",
+      "candidateSelector": "/global-meaning-label/門",
+      "literal": "門",
+      "codepoint": "U+9580",
+      "donorLabel": "gate",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "gate",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='門']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u9580-gate",
+            "revision": "f8d3ca892bf652a62540fdeb5416a4adc9a80f34a634510c2026ef65a77afe3b",
+            "localizedRevision": "f8d3ca892bf652a62540fdeb5416a4adc9a80f34a634510c2026ef65a77afe3b",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-009c45aa504b33bb7d5ee207",
+      "donorSelector": "/meaningLabels/戶",
+      "candidateSelector": "/global-meaning-label/戶",
+      "literal": "戶",
+      "codepoint": "U+6236",
+      "donorLabel": "door",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "door",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=96; literal=⼾; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=96; ID=95; literal=⼾"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0ce401b056fcf594fecd1ad5",
+      "donorSelector": "/meaningLabels/宀",
+      "candidateSelector": "/global-meaning-label/宀",
+      "literal": "宀",
+      "codepoint": "U+5B80",
+      "donorLabel": "roof; building",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "roof",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=53; literal=⼧; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=53; ID=52; literal=⼧"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5b80-roof",
+            "revision": "710030a79c200db5b80e6c7bda4db93eb3c196d950de24845076d7287ab072b9",
+            "localizedRevision": "710030a79c200db5b80e6c7bda4db93eb3c196d950de24845076d7287ab072b9",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "building",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=53; literal=⼧; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=53; ID=52; literal=⼧"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical row specifies a roof or house. House is the supported wording for the proposed building sense.",
+          "supportedWording": "house"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-e40023643f3f19e53aea3525",
+      "donorSelector": "/meaningLabels/囗",
+      "candidateSelector": "/global-meaning-label/囗",
+      "literal": "囗",
+      "codepoint": "U+56D7",
+      "donorLabel": "enclosure",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "enclosure",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='囗']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-4a493ddcc7e97ed5494c982e",
+      "donorSelector": "/meaningLabels/疒",
+      "candidateSelector": "/global-meaning-label/疒",
+      "literal": "疒",
+      "codepoint": "U+7592",
+      "donorLabel": "illness",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "illness",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=157; literal=⽧; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=157; ID=156; literal=⽧"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9efb83b05dee779594787c1a",
+      "donorSelector": "/meaningLabels/辵",
+      "candidateSelector": "/global-meaning-label/辵",
+      "literal": "辵",
+      "codepoint": "U+8FB5",
+      "donorLabel": "movement; walking",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "movement",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=250; literal=⾡; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=250; ID=249; literal=⾡"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical row supplies directed movement, expressed as moving ahead. Its scope is more specific than general movement.",
+          "supportedWording": "move ahead"
+        },
+        {
+          "term": "walking",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='辵']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-d4d750dc7480483eb3a6e303",
+      "donorSelector": "/meaningLabels/走",
+      "candidateSelector": "/global-meaning-label/走",
+      "literal": "走",
+      "codepoint": "U+8D70",
+      "donorLabel": "running",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "running",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='走']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-08f7a74c524ef932cfde3172",
+      "donorSelector": "/meaningLabels/示",
+      "candidateSelector": "/global-meaning-label/示",
+      "literal": "示",
+      "codepoint": "U+793A",
+      "donorLabel": "ritual; deity",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "ritual",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=172; literal=⽰; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=172; ID=171; literal=⽰"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical source describes religious service. This supports ritual as radical nomenclature."
+        },
+        {
+          "term": "deity",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=172; literal=⽰; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=172; ID=171; literal=⽰"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=172; literal=⽰; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=172; ID=171; literal=⽰"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='示']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The radical row names an altar and ritual activity. It does not identify a deity as a sense."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-22b56cbb81e1f4793821472c",
+      "donorSelector": "/meaningLabels/邑",
+      "candidateSelector": "/global-meaning-label/邑",
+      "literal": "邑",
+      "codepoint": "U+9091",
+      "donorLabel": "settlement",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "settlement",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='邑']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The selected rural-community sense is a settlement."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5ca62413f429db98bf2b94c8",
+      "donorSelector": "/meaningLabels/阜",
+      "candidateSelector": "/global-meaning-label/阜",
+      "literal": "阜",
+      "codepoint": "U+961C",
+      "donorLabel": "mound; hill",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "mound",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='阜']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "hill",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='阜']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-92eff4021d4228bf1a48d1c4",
+      "donorSelector": "/meaningLabels/穴",
+      "candidateSelector": "/global-meaning-label/穴",
+      "literal": "穴",
+      "codepoint": "U+7A74",
+      "donorLabel": "cave; opening",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "cave",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='穴']/reading_meaning/rmgroup[1]/meaning[4]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "opening",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='穴']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "Opening refers to the selected aperture sense."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-dc767ffc08ae660802fc7a26",
+      "donorSelector": "/meaningLabels/网",
+      "candidateSelector": "/global-meaning-label/网",
+      "literal": "网",
+      "codepoint": "U+7F51",
+      "donorLabel": "net",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "net",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='网']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3d4d1376f9898dec57ec4e85",
+      "donorSelector": "/meaningLabels/巾",
+      "candidateSelector": "/global-meaning-label/巾",
+      "literal": "巾",
+      "codepoint": "U+5DFE",
+      "donorLabel": "cloth",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "cloth",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=69; literal=⼱; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=69; ID=68; literal=⼱"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-7ee032dcec676806eac5cdff",
+      "donorSelector": "/meaningLabels/酉",
+      "candidateSelector": "/global-meaning-label/酉",
+      "literal": "酉",
+      "codepoint": "U+9149",
+      "donorLabel": "wine; vessel",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "wine",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=252; literal=⾣; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=252; ID=251; literal=⾣"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='酉']/reading_meaning/rmgroup[1]/meaning[6]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The pinned sources name sake as part of a radical label or refer to a sake jar. They do not give wine as a standalone ordinary sense of 酉."
+        },
+        {
+          "term": "vessel",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=252; literal=⾣; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=252; ID=251; literal=⾣"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical row identifies the specific vessel as a sake jar.",
+          "supportedWording": "sake jar"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b885e56831166ed8c46b1697",
+      "donorSelector": "/meaningLabels/皿",
+      "candidateSelector": "/global-meaning-label/皿",
+      "literal": "皿",
+      "codepoint": "U+76BF",
+      "donorLabel": "dish; vessel",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "dish",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='皿']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "vessel",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=162; literal=⽫; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=162; ID=161; literal=⽫"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical meanings specify a plate and bowl. Bowl is a suitable specific replacement here.",
+          "supportedWording": "bowl"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-df1872e453bc9580b803d9be",
+      "donorSelector": "/meaningLabels/欠",
+      "candidateSelector": "/global-meaning-label/欠",
+      "literal": "欠",
+      "codepoint": "U+6B20",
+      "donorLabel": "open mouth; breath",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "open mouth",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=116; literal=⽋; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=116; ID=115; literal=⽋"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical entry names yawning. An open mouth is a possible visual cue for yawning, while the record supports the more specific action.",
+          "supportedWording": "yawn"
+        },
+        {
+          "term": "breath",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='欠']/reading_meaning/rmgroup[1]/meaning[4]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=116; literal=⽋; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=116; ID=115; literal=⽋"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The pinned radical and dictionary senses support yawning. They do not separately identify breath."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2289d98d80f01104ceb52ed9",
+      "donorSelector": "/meaningLabels/氵",
+      "candidateSelector": "/global-meaning-label/氵",
+      "literal": "氵",
+      "codepoint": "U+6C35",
+      "donorLabel": "water",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "water",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='氵']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u6c35-water",
+            "revision": "19b0568fb05fd3941f8e7b8c963d78b8fc96e9d8583d1ae3a591de270f477005",
+            "localizedRevision": "19b0568fb05fd3941f8e7b8c963d78b8fc96e9d8583d1ae3a591de270f477005",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-49366e8dae218456480097ca",
+      "donorSelector": "/meaningLabels/忄",
+      "candidateSelector": "/global-meaning-label/忄",
+      "literal": "忄",
+      "codepoint": "U+5FC4",
+      "donorLabel": "heart; feelings",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "heart",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='忄']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "feelings",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='忄']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=89; literal=⺖; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=89; ID=88; literal=⺖"
+              },
+              "literalRelationship": "Matching Japanese radical variant"
+            }
+          ],
+          "rationale": "The form entry names heart, and the associated radical lists heart, mind and spirit. The cited senses do not establish a separate feelings gloss."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-7f8f54733452aef46a6fdbc2",
+      "donorSelector": "/meaningLabels/扌",
+      "candidateSelector": "/global-meaning-label/扌",
+      "literal": "扌",
+      "codepoint": "U+624C",
+      "donorLabel": "hand",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "hand",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='扌']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u624c-hand",
+            "revision": "14fb68824d666093945c0a7a47965371694697af49f4e2895a025f86a293d2d1",
+            "localizedRevision": "14fb68824d666093945c0a7a47965371694697af49f4e2895a025f86a293d2d1",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2396c3dd7313b8c95472605d",
+      "donorSelector": "/meaningLabels/艹",
+      "candidateSelector": "/global-meaning-label/艹",
+      "literal": "艹",
+      "codepoint": "U+8279",
+      "donorLabel": "plants; grass",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "plants",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=84; literal=⺾; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=84; ID=83; literal=⺾"
+              },
+              "literalRelationship": "Matching Japanese radical variant"
+            }
+          ],
+          "rationale": "The exact form and radical variant records support grass. Replace the broader term plants with grass and collapse the redundant terms.",
+          "supportedWording": "grass",
+          "reviewedCue": {
+            "id": "visual-u8279-grass",
+            "revision": "ad1b47a4368eb64a78161dfaf33ef10ccfe165cde7c34caa7df31b2de84acedc",
+            "localizedRevision": "ad1b47a4368eb64a78161dfaf33ef10ccfe165cde7c34caa7df31b2de84acedc",
+            "relationship": "same-cue-concept"
+          }
+        },
+        {
+          "term": "grass",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='艹']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u8279-grass",
+            "revision": "ad1b47a4368eb64a78161dfaf33ef10ccfe165cde7c34caa7df31b2de84acedc",
+            "localizedRevision": "ad1b47a4368eb64a78161dfaf33ef10ccfe165cde7c34caa7df31b2de84acedc",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-d945a9f164929a815a6f8ba4",
+      "donorSelector": "/meaningLabels/礻",
+      "candidateSelector": "/global-meaning-label/礻",
+      "literal": "礻",
+      "codepoint": "U+793B",
+      "donorLabel": "ritual; deity",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "ritual",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=143; literal=⺭; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=143; ID=142; literal=⺭"
+              },
+              "literalRelationship": "Matching Japanese radical variant"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='礻']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "form-identity"
+            }
+          ],
+          "rationale": "The pinned form entry identifies this as the showing radical. The linked Kanji Alive variant names religious service."
+        },
+        {
+          "term": "deity",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='礻']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=143; literal=⺭; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=143; ID=142; literal=⺭"
+              },
+              "literalRelationship": "Matching Japanese radical variant"
+            }
+          ],
+          "rationale": "The exact form and linked radical records name an altar or religious practice. A deity is a distinct referent."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-bb9d1a865328c090b87211d0",
+      "donorSelector": "/meaningLabels/衤",
+      "candidateSelector": "/global-meaning-label/衤",
+      "literal": "衤",
+      "codepoint": "U+8864",
+      "donorLabel": "clothing",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "clothing",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='衤']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-593285a8d9187e950870c4ac",
+      "donorSelector": "/meaningLabels/灬",
+      "candidateSelector": "/global-meaning-label/灬",
+      "literal": "灬",
+      "codepoint": "U+706C",
+      "donorLabel": "fire",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "fire",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='灬']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u706c-fire",
+            "revision": "2fdb265eaed8d82fd23bc6405ed47a313cf11bf6650a227e7bbef43713b03f35",
+            "localizedRevision": "2fdb265eaed8d82fd23bc6405ed47a313cf11bf6650a227e7bbef43713b03f35",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-a9a916cd05a43c6e7c3d7f24",
+      "donorSelector": "/meaningLabels/犭",
+      "candidateSelector": "/global-meaning-label/犭",
+      "literal": "犭",
+      "codepoint": "U+72AD",
+      "donorLabel": "dog",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "dog",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='犭']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-be04957bf28110296a7be028",
+      "donorSelector": "/meaningLabels/⺮",
+      "candidateSelector": "/global-meaning-label/⺮",
+      "literal": "⺮",
+      "codepoint": "U+2EAE",
+      "donorLabel": "bamboo",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bamboo",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=187; literal=⺮; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=187; ID=186; literal=⺮"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9d9bca9578de0d44136f2974",
+      "donorSelector": "/meaningLabels/罒",
+      "candidateSelector": "/global-meaning-label/罒",
+      "literal": "罒",
+      "codepoint": "U+7F52",
+      "donorLabel": "net",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "net",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='罒']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u7f52-net",
+            "revision": "b6f258f9977387559b8d1e0ee5110303c6aa3344f81af9284ef116dcdde49786",
+            "localizedRevision": "b6f258f9977387559b8d1e0ee5110303c6aa3344f81af9284ef116dcdde49786",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-79004e2be7313ef8abc71d79",
+      "donorSelector": "/meaningLabels/⻌",
+      "candidateSelector": "/global-meaning-label/⻌",
+      "literal": "⻌",
+      "codepoint": "U+2ECC",
+      "donorLabel": "movement; walking",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "movement",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=85; literal=⻌; column=Meaning; term=3",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=85; ID=84; literal=⻌"
+              }
+            }
+          ],
+          "rationale": "The sourced radical row describes walking or advancing. The recorded action to advance is a specific replacement for general movement.",
+          "supportedWording": "advance"
+        },
+        {
+          "term": "walking",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=85; literal=⻌; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=85; ID=84; literal=⻌"
+              }
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u2ecc-walk",
+            "revision": "ca8bd8233005447f878ad446fb6652ffcf4053e5d50968e4f9e88bd6988cef0d",
+            "localizedRevision": "ca8bd8233005447f878ad446fb6652ffcf4053e5d50968e4f9e88bd6988cef0d",
+            "relationship": "same-cue-concept"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3d01436ddbdec0e8ac372ca7",
+      "donorSelector": "/meaningLabels/飠",
+      "candidateSelector": "/global-meaning-label/飠",
+      "literal": "飠",
+      "codepoint": "U+98E0",
+      "donorLabel": "food; eating",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "food",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='飠']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "eating",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='飠']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-ac831c52bc84032706e15f6e",
+      "donorSelector": "/meaningLabels/彳",
+      "candidateSelector": "/global-meaning-label/彳",
+      "literal": "彳",
+      "codepoint": "U+5F73",
+      "donorLabel": "steps; movement",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "steps",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=83; literal=⼻; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=83; ID=82; literal=⼻"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        },
+        {
+          "term": "movement",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=83; literal=⼻; column=Meaning; term=4",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=83; ID=82; literal=⼻"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical row describes stepping, striding and going. Its named action is more specific than movement in general.",
+          "supportedWording": "go"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5dc6471b7898fca20e823951",
+      "donorSelector": "/meaningLabels/匚",
+      "candidateSelector": "/global-meaning-label/匚",
+      "literal": "匚",
+      "codepoint": "U+531A",
+      "donorLabel": "container",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "container",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=30; literal=⼕; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=30; ID=29; literal=⼕"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical row gives box, a specific kind of container.",
+          "supportedWording": "box"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-37ea84fb1cd7308f17e6e0f5",
+      "donorSelector": "/meaningLabels/多",
+      "candidateSelector": "/global-meaning-label/多",
+      "literal": "多",
+      "codepoint": "U+591A",
+      "donorLabel": "many",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "many",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='多']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u591a-many",
+            "revision": "f9498ad1897a175cd0b47e4599f55fecbbc267ee46f393d7df6383bd0b25c363",
+            "localizedRevision": "f9498ad1897a175cd0b47e4599f55fecbbc267ee46f393d7df6383bd0b25c363",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-f6ba7bd446dc2ba127777049",
+      "donorSelector": "/meaningLabels/市",
+      "candidateSelector": "/global-meaning-label/市",
+      "literal": "市",
+      "codepoint": "U+5E02",
+      "donorLabel": "market",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "market",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='市']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-8ab29dbb6d88f6357a8cc44b",
+      "donorSelector": "/meaningLabels/帛",
+      "candidateSelector": "/global-meaning-label/帛",
+      "literal": "帛",
+      "codepoint": "U+5E1B",
+      "donorLabel": "silk",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "silk",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='帛']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The pinned Japanese entry gives cloth without specifying its fiber. The broader cloth gloss is supported.",
+          "supportedWording": "cloth"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-8b94f7c18c9e92a6a7f65475",
+      "donorSelector": "/meaningLabels/弓",
+      "candidateSelector": "/global-meaning-label/弓",
+      "literal": "弓",
+      "codepoint": "U+5F13",
+      "donorLabel": "bow",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bow",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=77; literal=⼸; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=77; ID=76; literal=⼸"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-869100a100963a47babcb523",
+      "donorSelector": "/meaningLabels/戈",
+      "candidateSelector": "/global-meaning-label/戈",
+      "literal": "戈",
+      "codepoint": "U+6208",
+      "donorLabel": "weapon",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "weapon",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=95; literal=⼽; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=95; ID=94; literal=⼽"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5a406e00a190d3b06beb8435",
+      "donorSelector": "/meaningLabels/斤",
+      "candidateSelector": "/global-meaning-label/斤",
+      "literal": "斤",
+      "codepoint": "U+65A4",
+      "donorLabel": "axe",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "axe",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='斤']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u65a4-ax",
+            "revision": "bf33100d51281f7f2aec3b198d7801ccb10bcbbddcb906bbb6e46b2f7e223cbc",
+            "localizedRevision": "bf33100d51281f7f2aec3b198d7801ccb10bcbbddcb906bbb6e46b2f7e223cbc",
+            "relationship": "same-cue-concept"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-925e4d44b1a724c4ecd792a4",
+      "donorSelector": "/meaningLabels/毛",
+      "candidateSelector": "/global-meaning-label/毛",
+      "literal": "毛",
+      "codepoint": "U+6BDB",
+      "donorLabel": "hair",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "hair",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='毛']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-1c1363d4598f5fa0a0e8fa48",
+      "donorSelector": "/meaningLabels/气",
+      "candidateSelector": "/global-meaning-label/气",
+      "literal": "气",
+      "codepoint": "U+6C14",
+      "donorLabel": "air",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "air",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=125; literal=⽓; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=125; ID=124; literal=⽓"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-ce9bfd195977e8a0d127159e",
+      "donorSelector": "/meaningLabels/瓦",
+      "candidateSelector": "/global-meaning-label/瓦",
+      "literal": "瓦",
+      "codepoint": "U+74E6",
+      "donorLabel": "pottery; tile",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "pottery",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='瓦']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=149; literal=⽡; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=149; ID=148; literal=⽡"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The pinned entries identify tiles. They do not establish a general pottery sense."
+        },
+        {
+          "term": "tile",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='瓦']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5914c9bfcff47d174202bdf2",
+      "donorSelector": "/meaningLabels/甘",
+      "candidateSelector": "/global-meaning-label/甘",
+      "literal": "甘",
+      "codepoint": "U+7518",
+      "donorLabel": "sweet",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "sweet",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='甘']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b1a44699104b18750b658c73",
+      "donorSelector": "/meaningLabels/病",
+      "candidateSelector": "/global-meaning-label/病",
+      "literal": "病",
+      "codepoint": "U+75C5",
+      "donorLabel": "illness",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "illness",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='病']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-51214ceb465f897ef22f3f21",
+      "donorSelector": "/meaningLabels/白",
+      "candidateSelector": "/global-meaning-label/白",
+      "literal": "白",
+      "codepoint": "U+767D",
+      "donorLabel": "white; bright",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "white",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='白']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u767d-white",
+            "revision": "3d7c11699b3b198d41fbdebac1718181c196284dd924e0936ed17a98d374d3ad",
+            "localizedRevision": "3d7c11699b3b198d41fbdebac1718181c196284dd924e0936ed17a98d374d3ad",
+            "relationship": "same-localized-cue"
+          }
+        },
+        {
+          "term": "bright",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='白']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=159; literal=⽩; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=159; ID=158; literal=⽩"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The pinned entries identify the color white. The broader brightness sense lacks a cited match."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-e9fe0e7acc5e7a747ca0870c",
+      "donorSelector": "/meaningLabels/矢",
+      "candidateSelector": "/global-meaning-label/矢",
+      "literal": "矢",
+      "codepoint": "U+77E2",
+      "donorLabel": "arrow",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "arrow",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='矢']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-a98020023acae497527ec8ca",
+      "donorSelector": "/meaningLabels/立",
+      "candidateSelector": "/global-meaning-label/立",
+      "literal": "立",
+      "codepoint": "U+7ACB",
+      "donorLabel": "standing",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "standing",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=177; literal=⽴; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=177; ID=176; literal=⽴"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-b96bdbf26695e344e5d31660",
+      "donorSelector": "/meaningLabels/羽",
+      "candidateSelector": "/global-meaning-label/羽",
+      "literal": "羽",
+      "codepoint": "U+7FBD",
+      "donorLabel": "feathers; wings",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "feathers",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='羽']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        },
+        {
+          "term": "wings",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=197; literal=⽻; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=197; ID=196; literal=⽻"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-5811d1fa0d8e34eade96aa6f",
+      "donorSelector": "/meaningLabels/舌",
+      "candidateSelector": "/global-meaning-label/舌",
+      "literal": "舌",
+      "codepoint": "U+820C",
+      "donorLabel": "tongue",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "tongue",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='舌']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u820c-tongue",
+            "revision": "b16830ba81d11e496d9210f6b4e69c587ecff7beb42d13534f421879fe85a38d",
+            "localizedRevision": "b16830ba81d11e496d9210f6b4e69c587ecff7beb42d13534f421879fe85a38d",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0aa660a6d2027eeac4450eae",
+      "donorSelector": "/meaningLabels/角",
+      "candidateSelector": "/global-meaning-label/角",
+      "literal": "角",
+      "codepoint": "U+89D2",
+      "donorLabel": "horn",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "horn",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='角']/reading_meaning/rmgroup[1]/meaning[4]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-39620499906ba5c348da4a20",
+      "donorSelector": "/meaningLabels/豸",
+      "candidateSelector": "/global-meaning-label/豸",
+      "literal": "豸",
+      "codepoint": "U+8C78",
+      "donorLabel": "animal",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "animal",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=236; literal=⾘; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=236; ID=235; literal=⾘"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical source identifies a badger, and the Japanese dictionary lists specific animal senses. Animal in general loses that scope.",
+          "supportedWording": "badger"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-03ce54b29b8e75924897b994",
+      "donorSelector": "/meaningLabels/釆",
+      "candidateSelector": "/global-meaning-label/釆",
+      "literal": "釆",
+      "codepoint": "U+91C6",
+      "donorLabel": "distinguishing",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "distinguishing",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='釆']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The pinned Japanese senses give separating or dividing. Use the recorded sense separate for an ordinary lexical description.",
+          "supportedWording": "separate"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-f57f91f3a335617de0b22632",
+      "donorSelector": "/meaningLabels/隹",
+      "candidateSelector": "/global-meaning-label/隹",
+      "literal": "隹",
+      "codepoint": "U+96B9",
+      "donorLabel": "bird",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "bird",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='隹']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-ef216aff310a40d2c537a319",
+      "donorSelector": "/meaningLabels/頁",
+      "candidateSelector": "/global-meaning-label/頁",
+      "literal": "頁",
+      "codepoint": "U+9801",
+      "donorLabel": "head",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "head",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=280; literal=⾴; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=280; ID=279; literal=⾴"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "Head is supported as radical nomenclature. The ordinary character entry separately concerns pages."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-7701bb2fa14c136e450f631a",
+      "donorSelector": "/meaningLabels/髟",
+      "candidateSelector": "/global-meaning-label/髟",
+      "literal": "髟",
+      "codepoint": "U+9ADF",
+      "donorLabel": "long hair",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "long hair",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=291; literal=⾽; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=291; ID=290; literal=⾽"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9703063c2a23b2062b0cc809",
+      "donorSelector": "/meaningLabels/鬥",
+      "candidateSelector": "/global-meaning-label/鬥",
+      "literal": "鬥",
+      "codepoint": "U+9B25",
+      "donorLabel": "fighting",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "fighting",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=292; literal=⾾; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=292; ID=291; literal=⾾"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2e3db01e9e4101284e9a3586",
+      "donorSelector": "/meaningLabels/鬼",
+      "candidateSelector": "/global-meaning-label/鬼",
+      "literal": "鬼",
+      "codepoint": "U+9B3C",
+      "donorLabel": "ghost",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "ghost",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='鬼']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-257f81f84895831577f39e6d",
+      "donorSelector": "/meaningLabels/鹵",
+      "candidateSelector": "/global-meaning-label/鹵",
+      "literal": "鹵",
+      "codepoint": "U+9E75",
+      "donorLabel": "salt",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "salt",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='鹵']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-8a52174544380fafb2fef668",
+      "donorSelector": "/meaningLabels/鹿",
+      "candidateSelector": "/global-meaning-label/鹿",
+      "literal": "鹿",
+      "codepoint": "U+9E7F",
+      "donorLabel": "deer",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "deer",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='鹿']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-0476565d8afa9687a34c4550",
+      "donorSelector": "/meaningLabels/麥",
+      "candidateSelector": "/global-meaning-label/麥",
+      "literal": "麥",
+      "codepoint": "U+9EA5",
+      "donorLabel": "wheat",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "wheat",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='麥']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-e1a8607e72a29aaf1989c4fe",
+      "donorSelector": "/meaningLabels/黍",
+      "candidateSelector": "/global-meaning-label/黍",
+      "literal": "黍",
+      "codepoint": "U+9ECD",
+      "donorLabel": "millet",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "millet",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='黍']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-374f4ae25be890d7692f7e2d",
+      "donorSelector": "/meaningLabels/鼻",
+      "candidateSelector": "/global-meaning-label/鼻",
+      "literal": "鼻",
+      "codepoint": "U+9F3B",
+      "donorLabel": "nose",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "nose",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='鼻']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3e33d1fb1a1f454fe4a68f8f",
+      "donorSelector": "/meaningLabels/齒",
+      "candidateSelector": "/global-meaning-label/齒",
+      "literal": "齒",
+      "codepoint": "U+9F52",
+      "donorLabel": "teeth",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "teeth",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='齒']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-1c3ffae835f16af725abc5a0",
+      "donorSelector": "/meaningLabels/一",
+      "candidateSelector": "/global-meaning-label/一",
+      "literal": "一",
+      "codepoint": "U+4E00",
+      "donorLabel": "one",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "one",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='一']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-acf0c49533037c8390e0f43c",
+      "donorSelector": "/meaningLabels/二",
+      "candidateSelector": "/global-meaning-label/二",
+      "literal": "二",
+      "codepoint": "U+4E8C",
+      "donorLabel": "two",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "two",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='二']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-3b5b3827bc2072790519914a",
+      "donorSelector": "/meaningLabels/大",
+      "candidateSelector": "/global-meaning-label/大",
+      "literal": "大",
+      "codepoint": "U+5927",
+      "donorLabel": "big",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "big",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='大']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5927-big",
+            "revision": "ec3e81cd586d7dd98141b43b2b09d3eddee736501bf937e98831bebf9a41f75a",
+            "localizedRevision": "ec3e81cd586d7dd98141b43b2b09d3eddee736501bf937e98831bebf9a41f75a",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-dd1aeaf7db4d75102ace7260",
+      "donorSelector": "/meaningLabels/广",
+      "candidateSelector": "/global-meaning-label/广",
+      "literal": "广",
+      "codepoint": "U+5E7F",
+      "donorLabel": "building",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "building",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=73; literal=⼴; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=73; ID=72; literal=⼴"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The radical is named for a slanting roof in the selected record. Building is broader than the evidenced label.",
+          "supportedWording": "slanting roof"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-35f114c9fc3bcfbe568e5e31",
+      "donorSelector": "/meaningLabels/攴",
+      "candidateSelector": "/global-meaning-label/攴",
+      "literal": "攴",
+      "codepoint": "U+6534",
+      "donorLabel": "striking",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "striking",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='攴']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-946c2fee565e4d834320cb72",
+      "donorSelector": "/meaningLabels/片",
+      "candidateSelector": "/global-meaning-label/片",
+      "literal": "片",
+      "codepoint": "U+7247",
+      "donorLabel": "piece",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "piece",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='片']/reading_meaning/rmgroup[1]/meaning[11]",
+              "fieldLanguage": "es",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The Spanish gloss pedazo in the pinned Japanese entry supports the English sense piece."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-ca3b34774a71b08ae1797b5e",
+      "donorSelector": "/meaningLabels/黽",
+      "candidateSelector": "/global-meaning-label/黽",
+      "literal": "黽",
+      "codepoint": "U+9EFD",
+      "donorLabel": "frog; toad",
+      "disposition": "partially-supported",
+      "terms": [
+        {
+          "term": "frog",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=313; literal=⿌; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=313; ID=312; literal=⿌"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        },
+        {
+          "term": "toad",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='黽']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=313; literal=⿌; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=313; ID=312; literal=⿌"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The sources identify a frog. The separate term toad has no match in the selected Japanese dictionary and radical records."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-a7910f2bbc1795bd59127975",
+      "donorSelector": "/meaningLabels/卜",
+      "candidateSelector": "/global-meaning-label/卜",
+      "literal": "卜",
+      "codepoint": "U+535C",
+      "donorLabel": "divination",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "divination",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='卜']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-c128569aaaeb14c4c6f52726",
+      "donorSelector": "/meaningLabels/又",
+      "candidateSelector": "/global-meaning-label/又",
+      "literal": "又",
+      "codepoint": "U+53C8",
+      "donorLabel": "hand",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "hand",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=37; literal=⼜; column=Meaning; term=2",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=37; ID=36; literal=⼜"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The cited named radical sense specifies the right hand."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-2657d89906bedccf6a0f019b",
+      "donorSelector": "/meaningLabels/反",
+      "candidateSelector": "/global-meaning-label/反",
+      "literal": "反",
+      "codepoint": "U+53CD",
+      "donorLabel": "reversal",
+      "disposition": "withheld",
+      "terms": [
+        {
+          "term": "reversal",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='反']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='反']/reading_meaning/rmgroup[1]/meaning[4]",
+              "fieldLanguage": "es",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='反']/reading_meaning/rmgroup[1]/meaning[5]",
+              "fieldLanguage": "es",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The consulted meanings describe opposition or returning. They do not give a specific reversal noun sense. The authored reverse cue remains a separate mnemonic.",
+          "reviewedCue": {
+            "id": "visual-u53cd-reverse",
+            "revision": "6a4d693b9e1ce2a1e06d04dd2ecf569044f332da281c6e75168b1b9967e43975",
+            "localizedRevision": "6a4d693b9e1ce2a1e06d04dd2ecf569044f332da281c6e75168b1b9967e43975",
+            "relationship": "authored-cue-only"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-37d177d741093783567d8a9c",
+      "donorSelector": "/meaningLabels/垂",
+      "candidateSelector": "/global-meaning-label/垂",
+      "literal": "垂",
+      "codepoint": "U+5782",
+      "donorLabel": "far away",
+      "disposition": "withheld",
+      "terms": [
+        {
+          "term": "far away",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='垂']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='垂']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='垂']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The pinned meanings describe drooping, hanging or suspension. None describes distance."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-10b239a13e5b249d6559efc2",
+      "donorSelector": "/meaningLabels/工",
+      "candidateSelector": "/global-meaning-label/工",
+      "literal": "工",
+      "codepoint": "U+5DE5",
+      "donorLabel": "work",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "work",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=66; literal=⼯; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=66; ID=65; literal=⼯"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-38d54271153167aaf78370fc",
+      "donorSelector": "/meaningLabels/帚",
+      "candidateSelector": "/global-meaning-label/帚",
+      "literal": "帚",
+      "codepoint": "U+5E1A",
+      "donorLabel": "broom",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "broom",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='帚']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u5e1a-broom",
+            "revision": "17522295151fc27c5d0137571f98c4a196c8b34f8ad52798a568bb9e04293eb6",
+            "localizedRevision": "17522295151fc27c5d0137571f98c4a196c8b34f8ad52798a568bb9e04293eb6",
+            "relationship": "same-localized-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-7d28f1f14269a1b6410955e1",
+      "donorSelector": "/meaningLabels/彡",
+      "candidateSelector": "/global-meaning-label/彡",
+      "literal": "彡",
+      "codepoint": "U+5F61",
+      "donorLabel": "decoration",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "decoration",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='彡']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The Japanese entry specifies a hair ornament. A general decoration sense is broader than this record.",
+          "supportedWording": "hair ornament"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-264bbc2334c2c75f3f9bddd3",
+      "donorSelector": "/meaningLabels/敕",
+      "candidateSelector": "/global-meaning-label/敕",
+      "literal": "敕",
+      "codepoint": "U+6555",
+      "donorLabel": "warning",
+      "disposition": "withheld",
+      "terms": [
+        {
+          "term": "warning",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='敕']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The Japanese entry identifies an imperial order or decree. Warning is a different kind of communication."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-db1e598bf3392b0439070397",
+      "donorSelector": "/meaningLabels/林",
+      "candidateSelector": "/global-meaning-label/林",
+      "literal": "林",
+      "codepoint": "U+6797",
+      "donorLabel": "woods",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "woods",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='林']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The selected forest sense supports woods; the existing grove cue uses a narrower image of the same wooded area.",
+          "reviewedCue": {
+            "id": "visual-u6797-grove",
+            "revision": "b1c211d9dd6319a08f1b465330ed7802fff5673ec92de904772a68e2ac1d963e",
+            "localizedRevision": "b1c211d9dd6319a08f1b465330ed7802fff5673ec92de904772a68e2ac1d963e",
+            "relationship": "related-narrower-authored-cue"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9e726a8d2dd4dfe1a081012b",
+      "donorSelector": "/meaningLabels/死",
+      "candidateSelector": "/global-meaning-label/死",
+      "literal": "死",
+      "codepoint": "U+6B7B",
+      "donorLabel": "death",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "death",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='死']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-66a91195aa2c3a47643bd728",
+      "donorSelector": "/meaningLabels/爪",
+      "candidateSelector": "/global-meaning-label/爪",
+      "literal": "爪",
+      "codepoint": "U+722A",
+      "donorLabel": "hand",
+      "disposition": "withheld",
+      "terms": [
+        {
+          "term": "hand",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='爪']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='爪']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='爪']/reading_meaning/rmgroup[1]/meaning[3]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanji-alive-radicals-csv",
+              "selector": "row=130; literal=⽖; column=Meaning; term=1",
+              "fieldLanguage": "en",
+              "scope": "radical-or-form-name",
+              "purpose": "consulted",
+              "radicalIdentity": {
+                "reference": "kanji-alive-radicals-ids-csv",
+                "selector": "row=130; ID=129; literal=⽖"
+              },
+              "literalRelationship": "Kangxi compatibility character for the donor form"
+            }
+          ],
+          "rationale": "The sources identify a claw, nail or talon. They do not give hand as the ordinary meaning of 爪."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-8bc62e8d0eaf598a1046e347",
+      "donorSelector": "/meaningLabels/牙",
+      "candidateSelector": "/global-meaning-label/牙",
+      "literal": "牙",
+      "codepoint": "U+7259",
+      "donorLabel": "tooth",
+      "disposition": "reword",
+      "terms": [
+        {
+          "term": "tooth",
+          "disposition": "reword",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='牙']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "rationale": "The selected Japanese meaning names a tusk. The donor's general tooth sense is broader than the cited source.",
+          "supportedWording": "tusk"
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-bbfbdcb280ab03733def70c4",
+      "donorSelector": "/meaningLabels/系",
+      "candidateSelector": "/global-meaning-label/系",
+      "literal": "系",
+      "codepoint": "U+7CFB",
+      "donorLabel": "continuing",
+      "disposition": "withheld",
+      "terms": [
+        {
+          "term": "continuing",
+          "disposition": "withheld",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='系']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='系']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            },
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='系']/reading_meaning/rmgroup[1]/meaning[6]",
+              "fieldLanguage": "es",
+              "scope": "character-lexical-sense",
+              "purpose": "consulted"
+            }
+          ],
+          "rationale": "The pinned meanings cover lineage, system and connection. None expresses the ordinary action of continuing."
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-4d24ea40cf30e7f285c126ec",
+      "donorSelector": "/meaningLabels/至",
+      "candidateSelector": "/global-meaning-label/至",
+      "literal": "至",
+      "codepoint": "U+81F3",
+      "donorLabel": "arrival",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "arrival",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='至']/reading_meaning/rmgroup[1]/meaning[2]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ],
+          "reviewedCue": {
+            "id": "visual-u81f3-arrive",
+            "revision": "886b4f10e20d053908ba71540e3e77d382f81956cf857585df251ce11cf37396",
+            "localizedRevision": "886b4f10e20d053908ba71540e3e77d382f81956cf857585df251ce11cf37396",
+            "relationship": "same-cue-concept"
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "cand-9ee602dc327a4386d3dc9d14",
+      "donorSelector": "/meaningLabels/見",
+      "candidateSelector": "/global-meaning-label/見",
+      "literal": "見",
+      "codepoint": "U+898B",
+      "donorLabel": "seeing",
+      "disposition": "supported",
+      "terms": [
+        {
+          "term": "seeing",
+          "disposition": "supported",
+          "evidence": [
+            {
+              "reference": "kanjidic2-identity-snapshot",
+              "selector": "character[literal='見']/reading_meaning/rmgroup[1]/meaning[1]",
+              "fieldLanguage": "en",
+              "scope": "character-lexical-sense",
+              "purpose": "supports-sense"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

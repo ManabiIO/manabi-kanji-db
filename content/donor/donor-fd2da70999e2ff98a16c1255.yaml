@@ -1,0 +1,28 @@
+id: donor-fd2da70999e2ff98a16c1255
+kind: historical-origin
+subject:
+  type: character
+  literal: 面
+  codepoint: U+9762
+revision: c966d0e39109d8fab7f04d617f1563584378ed67c17e9d4d43cb67f70be0d279
+localizedRevision: cf9a91e8c70f597eacfe3a41d098256d8f10a7905308fbc98bdff90212ed9acf
+status: candidate
+claimText: 面 began as a face with an emphasized eye. The top horizontal stroke was added later.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92937046-255afd2a0c2f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/面/1
+review:
+  state: pending

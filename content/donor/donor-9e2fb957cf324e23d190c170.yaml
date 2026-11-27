@@ -1,0 +1,28 @@
+id: donor-9e2fb957cf324e23d190c170
+kind: historical-origin
+subject:
+  type: character
+  literal: 飛
+  codepoint: U+98DB
+revision: 46b3c50766d73e78e632c0c94fb49aefd3dace4bae586b5d5fe18e8c1f0e2bc7
+localizedRevision: 59345ae049f0940af3f37cbfdfdfbe3f4c26185d573041d89bbd578af3a34cf2
+status: candidate
+claimText: The older form of 飛 pictures a bird flying upward.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92678306-7a7dd059a747
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/飛/1
+review:
+  state: pending

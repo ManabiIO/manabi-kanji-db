@@ -1,0 +1,28 @@
+id: donor-6fa2924aa1648c65690a8915
+kind: historical-origin
+subject:
+  type: character
+  literal: 州
+  codepoint: U+5DDE
+revision: 2682ed7a4d4781ac9adf31542cfca09f553aca129722b4ccc6ce77a3671326b2
+localizedRevision: 7cd669a644df72a80a9d696883632689b5749c3a2f04cf5da85152b63a37a79a
+status: candidate
+claimText: The older form of 州 pictures a small island in a river.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92200382-7150048aa756
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/州/1
+review:
+  state: pending

@@ -1,0 +1,43 @@
+---
+id: sound-u7cbe-u9752-sei
+kind: modern-japanese-sound
+subject:
+  type: occurrence
+  structure: kv-7cbe
+  occurrence: kvg:07cbe-g2
+revision: b6fc84fe6c37713a8355de97831e82d4996bef59e8d45f373121e31a04e9ed8d
+localizedRevision: 4cb1d5c4294978f06996b674bab6f0780e13cd8c79ec44a3fd3b0276157e1f4e
+status: approved
+claimText: The right-hand 青 helps you remember the on reading セイ in 精.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-7cbe
+  claimField: subject.occurrence
+  supportType: exact-component-occurrence
+  selector: kanji/07cbe.svg#kvg:07cbe-g2; kvg:element=青; kvg:position=right
+- reference: kanjium-kanjidict
+  claimField: claimText
+  supportType: phonetic-family-membership
+  selector: line=1530; kanji=精; phonetic=青; type=Phono-semantic compound
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-component-on-reading
+  selector: character[literal='青']/reading_meaning/rmgroup/reading[@r_type='ja_on' and text()='セイ']
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-on-reading
+  selector: character[literal='精']/reading_meaning/rmgroup/reading[@r_type='ja_on' and text()='セイ']
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root
+  reviewedAt: '2026-11-27'
+  claimRevision: b6fc84fe6c37713a8355de97831e82d4996bef59e8d45f373121e31a04e9ed8d
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjium-data:9ebca4589565c696e7c39e089e2e928ad65f678c:78afcdee20b3291268ef1a85595b2e33c415547beb98b02413097ac759886419|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:396a9800930605181315cb9d887be4e7017056fd8e0d7be9b0516a4775a1676a
+  rationale: Exact right-hand 青 group, Kanjium phonetic column, and selected KANJIDIC2 on/kun selectors were verified;
+    historical and modern claims are separately scoped.

@@ -1,0 +1,29 @@
+id: donor-e3f62eac5e378d92afdbd74c
+kind: historical-origin
+subject:
+  type: character
+  literal: 好
+  codepoint: U+597D
+revision: 4eb28c6d243e63cf53178a1b9331add4eb5657b6517570d258e8e9934640484f
+localizedRevision: 01d4464c3c950821b8c4bbfa141809959213692855c08e2dec74a7365ae73c81
+status: candidate
+claimText: 好 combines 女 (woman) and 子 (child). Affection between mother and child is one proposed explanation; the
+  original reason for combining these parts is uncertain.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93448473-4f01cfa3cf4a
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/好/1
+review:
+  state: pending

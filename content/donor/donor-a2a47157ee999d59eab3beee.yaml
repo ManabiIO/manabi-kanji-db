@@ -1,0 +1,28 @@
+id: donor-a2a47157ee999d59eab3beee
+kind: historical-origin
+subject:
+  type: character
+  literal: 盾
+  codepoint: U+76FE
+revision: d98e1c79f791b670b2ff9dc0c415f08c8ba48828ac7a33850a6ae8357e41d0b6
+localizedRevision: cba709b9e4f43542b39e190ddbc7eda82c1e05e9ee139eecad46841f8bf0157b
+status: candidate
+claimText: The older form of 盾 pictures a shield.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201173-690c1f5bae78
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/盾/1
+review:
+  state: pending

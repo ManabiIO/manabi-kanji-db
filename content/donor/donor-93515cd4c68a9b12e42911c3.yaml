@@ -1,0 +1,28 @@
+id: donor-93515cd4c68a9b12e42911c3
+kind: historical-origin
+subject:
+  type: character
+  literal: 豚
+  codepoint: U+8C5A
+revision: c696235b87601a25df38e673e3d815eb6d9a052b44d5891dfe6e37a6fdf90aaf
+localizedRevision: 06cf1cd5d1fb0636e79991a468f595434d0b04ad45b2617c3099011d44c10049
+status: candidate
+claimText: 豚 combines 肉 flesh, written as the 月-shaped left part, with 豕 pig.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92351896-a72ca1b515ff
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/豚/1
+review:
+  state: pending

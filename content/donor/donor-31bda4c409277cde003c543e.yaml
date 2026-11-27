@@ -1,0 +1,28 @@
+id: donor-31bda4c409277cde003c543e
+kind: historical-origin
+subject:
+  type: character
+  literal: 斗
+  codepoint: U+6597
+revision: bab9046f476af05d3cc3debd9f3224b045830e800f458bd38058a298de24c4e4
+localizedRevision: 0733da86c617d75280d57dddd45759e8b5861cf272845e4ab2dd5bd24793c2e9
+status: candidate
+claimText: The older form pictures a ladle or dipper used to measure grain, held in a hand.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-90013237-3af7b7e33cfd
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/斗/1
+review:
+  state: pending

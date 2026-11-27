@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F8D
 revision: 7940a406ff1fb174c5af9eb85633fc3d25f8b57a57830376f3183c1067d6956b
 localizedRevision: e06b082035820609da4c411ecb7272814dd9270693287661890647e17f429985
-status: candidate
+status: approved
 claimText: The lone person shoveling snow at the temple gate was a samurai taking the first watch.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 7940a406ff1fb174c5af9eb85633fc3d25f8b57a57830376f3183c1067d6956b
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:267f98fb72cd36cbbcca09d9540a00b7ada8e1812060cd10c1668dd66974e7ed|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:267f98fb72cd36cbbcca09d9540a00b7ada8e1812060cd10c1668dd66974e7ed
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

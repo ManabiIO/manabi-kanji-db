@@ -7,7 +7,7 @@ subject:
   codepoint: U+6797
 revision: d63191c2169d32449c2b6fa1fec584bd76cd3b9071784a63a98301ff4959c8de
 localizedRevision: a75bdbbafd283bc1bc4ea5e616aa1ceb706bf36477b6612f89f6b6275808ae8c
-status: candidate
+status: approved
 claimText: Two trees at the bus stop dropped so many seeds that a grove grew around the bench.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d63191c2169d32449c2b6fa1fec584bd76cd3b9071784a63a98301ff4959c8de
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:fb69cdedd8e29005d076ecab3c64496cde1e6285f3e408f1157cde88f7212d64|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:fb69cdedd8e29005d076ecab3c64496cde1e6285f3e408f1157cde88f7212d64
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

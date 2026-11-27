@@ -1,0 +1,37 @@
+---
+version: 1
+items:
+- id: donor-example-u96ea
+  kind: unresolved-reading-example
+  subject:
+    type: character
+    literal: "雪"
+    codepoint: U+96EA
+    spelling: "雪国"
+    reading: "ゆきぐに"
+    donorSelector: "/ordinaryExamples/雪"
+  references:
+  - manabidictionaries-reviewed-v26
+  - jmdict-e-2026-11-27-spelling-reading
+  - jmdict-furigana-2.3.1-2026-10-25-ruby
+  reason: "The exact pair 雪国 (ゆきぐに) is legal in JMdict entries 1386590 and 5458517. The donor row leaves the intended entry unresolved."
+  nextAction: "Identify the intended lexical entry with a source-backed sense, then recheck the selected alignment."
+  disposition: withheld
+  publishable: false
+- id: donor-example-u65e5
+  kind: unresolved-reading-example
+  subject:
+    type: character
+    literal: "日"
+    codepoint: U+65E5
+    spelling: "日本"
+    reading: "にほん"
+    donorSelector: "/ordinaryExamples/日"
+  references:
+  - manabidictionaries-reviewed-v26
+  - jmdict-e-2026-11-27-spelling-reading
+  - jmdict-furigana-2.3.1-2026-10-25-ruby
+  reason: "JMdict entry 1582710 attests 日本 (にほん). JmdictFurigana row 60220 aligns にほん to the entire spelling 日本."
+  nextAction: "Choose a different attested vocabulary example with ruby for 日 alone, or approve the original as a whole-word example."
+  disposition: withheld
+  publishable: false

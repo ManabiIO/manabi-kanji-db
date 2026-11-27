@@ -7,7 +7,7 @@ subject:
   codepoint: U+5B89
 revision: ee87e19de0a0907df158c8f6d6e05041b7f92af5614c29d9948b4d476da9b2d5
 localizedRevision: 4d01ac1a036342fc378736a92e86ba8ab1dbcb3e13454dd2195925e31197f414
-status: candidate
+status: approved
 claimText: A woman could finally relax under a solid roof after spending a week in a leaking tent.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: ee87e19de0a0907df158c8f6d6e05041b7f92af5614c29d9948b4d476da9b2d5
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2dff2e544150fad00e69b90ab25fa02e65324fb0ac31e40e1fd11bfcba8a4e4a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2dff2e544150fad00e69b90ab25fa02e65324fb0ac31e40e1fd11bfcba8a4e4a
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

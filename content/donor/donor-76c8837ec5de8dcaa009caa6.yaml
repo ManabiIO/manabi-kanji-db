@@ -1,0 +1,28 @@
+id: donor-76c8837ec5de8dcaa009caa6
+kind: historical-origin
+subject:
+  type: character
+  literal: 身
+  codepoint: U+8EAB
+revision: 38b05714a7243a12742e3b46920102910ee9f3749bb3d552cc072a5013520d29
+localizedRevision: f6275f6153d66133176138c9cdf608fdb28a06de9e828470d62e4f28d7abc315
+status: candidate
+claimText: The older form of 身 pictures a pregnant woman.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201888-86fef63c0a85
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/身/1
+review:
+  state: pending

@@ -1,0 +1,32 @@
+id: donor-8b8e8cdf20067675f43e7ca2
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-8155
+  occurrence: kvg:08155-g1
+revision: 38299f9ff63dc9d1234fc49d3e319e37e779b92e3b2c513221d0586f054d8043
+localizedRevision: 0759a4a2f0e62fae8e4cc4426311a8536651a0488a2d7edd669b6e3b8c346fd4
+status: candidate
+claimText: The 月-shaped part in 腕 represents 肉, flesh. Here it relates to the body, not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93606098-4206a8ce44ac
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/腕/1
+- reference: kanjivg-8155
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08155-g1
+review:
+  state: pending

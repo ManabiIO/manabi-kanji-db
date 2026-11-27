@@ -1,0 +1,28 @@
+id: donor-9445cabffc42b57dbc7a5cd6
+kind: historical-origin
+subject:
+  type: character
+  literal: 畑
+  codepoint: U+7551
+revision: ecc87f109fcdb5db86b62263058ead17193bb2222f5a47bb5193b342a5aa8a85
+localizedRevision: c87da06960f74130f20334eb000f9df53969fb58a054dfd19c803fc65a90fea9
+status: candidate
+claimText: A Japanese-created character combining 火, fire, and 田, field.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93449098-97c5ead14fbc
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Japanese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/畑/1
+review:
+  state: pending

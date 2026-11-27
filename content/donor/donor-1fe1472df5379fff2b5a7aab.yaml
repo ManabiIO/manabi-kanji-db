@@ -1,0 +1,28 @@
+id: donor-1fe1472df5379fff2b5a7aab
+kind: historical-origin
+subject:
+  type: character
+  literal: 集
+  codepoint: U+96C6
+revision: 5253d004dfdf6f14b9c8eb51286d6bc19edfa38675821dd04dd4da5cbd8674f4
+localizedRevision: 3159ff8a6af1ecdbb5d92e4821f3025be069cf33f4cc946d25cdbaea0fc21e9c
+status: candidate
+claimText: 集 combines a bird and a tree.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92202129-30384e13d9d3
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/集/1
+review:
+  state: pending

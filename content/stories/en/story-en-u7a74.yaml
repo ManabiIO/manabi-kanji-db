@@ -7,7 +7,7 @@ subject:
   codepoint: U+7A74
 revision: 37c7b66da016bbe429d6b9bbddddc6da2fb1935e2e0e7b607a49c660416af1a0
 localizedRevision: 585c6d5968581106f5e5ff589dd91939eb3911b7877b42891ece31d0eda23a9e
-status: candidate
+status: approved
 claimText: Eight mice squeezed through a hole in the roof to watch the dancers below.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 37c7b66da016bbe429d6b9bbddddc6da2fb1935e2e0e7b607a49c660416af1a0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a1f774a08766dda8c9960df733884372913c03f053898b207fd494696e49053d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a1f774a08766dda8c9960df733884372913c03f053898b207fd494696e49053d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

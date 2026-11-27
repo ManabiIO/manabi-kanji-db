@@ -1,0 +1,28 @@
+id: donor-1e40b58b7aa8b5d44d47ce8f
+kind: historical-origin
+subject:
+  type: character
+  literal: 某
+  codepoint: U+67D0
+revision: 17cbbe139ba8a7f80e8f8c50159e7f17f52f9019b851b1233951da14017bcb89
+localizedRevision: 6c7ad6bd98b07c59bfdbc4848e3b98689fd047be8def6a76b10c5d92d944bf96
+status: candidate
+claimText: 某 combines 甘, sweet, with 木, tree; it originally wrote the plum tree.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92200751-cd79cbc77b70
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/某/1
+review:
+  state: pending

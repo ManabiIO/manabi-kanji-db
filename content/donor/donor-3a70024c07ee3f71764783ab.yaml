@@ -1,0 +1,28 @@
+id: donor-3a70024c07ee3f71764783ab
+kind: historical-origin
+subject:
+  type: character
+  literal: 爪
+  codepoint: U+722A
+revision: 06a5d9417f8a66e33313fe5592d295e32d43d88a98c94bb719c740fbcff614a8
+localizedRevision: 4df4aa0a5d28f7666b5ea4a0c57b4ba0fef75f4a5ba68b472cfbd8e663714bd2
+status: candidate
+claimText: 爪 depicts a human hand grabbing from above; it can also indicate a claw.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93659367-b221bb39972c
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/爪/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+68DF
 revision: 4d45d841a1c3617189b4cd187225feb0c4dd939d06b8037a99496d10baf4ec97
 localizedRevision: 24b503ed101800671b0a20973344592bea973be7c13bb5a48e5d952414bc844b
-status: candidate
+status: approved
 claimText: A tree split in a storm, and the carpenter used the piece that fell east to make the ridgepole.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 4d45d841a1c3617189b4cd187225feb0c4dd939d06b8037a99496d10baf4ec97
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ec7954feae1110be1bf28a1d0ea829b97e872cf74ee0708a5ba33692c39dbeb6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ec7954feae1110be1bf28a1d0ea829b97e872cf74ee0708a5ba33692c39dbeb6
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

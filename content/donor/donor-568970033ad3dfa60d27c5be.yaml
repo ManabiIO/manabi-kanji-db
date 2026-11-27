@@ -1,0 +1,28 @@
+id: donor-568970033ad3dfa60d27c5be
+kind: historical-origin
+subject:
+  type: character
+  literal: 肉
+  codepoint: U+8089
+revision: 1f53944c9ab44b5cc224ee43025b86139edf61da143495ec665636cc5a09f677
+localizedRevision: 171b3cc02f1c19206bbaa13c8b8791a53cef53d63e16365b6fe406f7007d014e
+status: candidate
+claimText: An early picture of flesh. Its component form can resemble 月.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93434345-0012ca8d62ee
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/肉/1
+review:
+  state: pending

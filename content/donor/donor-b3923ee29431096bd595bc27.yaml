@@ -1,0 +1,32 @@
+id: donor-b3923ee29431096bd595bc27
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-7fa9
+  occurrence: kvg:07fa9-g1
+revision: 7fc17c56e9b9de7813014cf0e8418bd55079909b8b48bf1d7f43495f42165e4e
+localizedRevision: 563cdff758659e2da58299f0aa22d614b551a501004fce9f665561c778b2a925
+status: candidate
+claimText: One reading of the older form links 羊 with goodness.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-90901000-4ecc72f00fc1
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/義/1
+- reference: kanjivg-7fa9
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07fa9-g1
+review:
+  state: pending

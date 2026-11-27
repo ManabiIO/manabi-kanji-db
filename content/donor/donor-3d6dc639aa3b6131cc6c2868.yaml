@@ -1,0 +1,29 @@
+id: donor-3d6dc639aa3b6131cc6c2868
+kind: historical-origin
+subject:
+  type: character
+  literal: 須
+  codepoint: U+9808
+revision: 1f5a148dd79dceda15e5256d93f6807cc1d6dd01e73d2aa2ee5a52b691dd13bc
+localizedRevision: d295066301957c80d8b2b3604b65e90822390048fa7e35d43873c09c6838ae23
+status: candidate
+claimText: '須 began as a single picture of a head with hair at its side: a beard or whiskers. The picture later
+  became more abstract.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93443874-fe2c5bb8ca59
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/須/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+7167
 revision: 0d551fa246ed4f52843bad4fda9902a608ae931c4a72218db58d81cd98a508ba
 localizedRevision: 218b52042b789952a0271b58ae7537923f90fa81e60b70f3995541443ce1b40e
-status: candidate
+status: approved
 claimText: A shining mirror above the fire tilted to illuminate the map painted on the ceiling.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0d551fa246ed4f52843bad4fda9902a608ae931c4a72218db58d81cd98a508ba
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:db62d619ccf8ec6a83aeed154eb81bd035a7627c9e562d9b1159342d6f9af06f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:db62d619ccf8ec6a83aeed154eb81bd035a7627c9e562d9b1159342d6f9af06f
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

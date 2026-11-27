@@ -1,0 +1,35 @@
+---
+id: historical-phonetic-u6e05-u9752
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-6e05
+  occurrence: kvg:06e05-g2
+revision: 96fed33ec0b35e464a2ab7501fbb3c21240d692bb19626b8f004cc8c354538ec
+localizedRevision: 0df4b92bbb6f9a42006bff5faac2e5849ba3c98eb357986b875cf85e82c9cd52
+status: approved
+claimText: The right-hand 青 supplied the sound element in the historical formation of 清.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6e05
+  claimField: subject.occurrence
+  supportType: exact-component-occurrence
+  selector: kanji/06e05.svg#kvg:06e05-g2; kvg:element=青; kvg:position=right; kvg:phon=青
+- reference: kanjium-kanjidict
+  claimField: claimText
+  supportType: phonetic-family-membership
+  selector: line=1526; kanji=清; phonetic=青; type=Phono-semantic compound
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root
+  reviewedAt: '2026-11-27'
+  claimRevision: 96fed33ec0b35e464a2ab7501fbb3c21240d692bb19626b8f004cc8c354538ec
+  sourceRevision: kanjium-data:9ebca4589565c696e7c39e089e2e928ad65f678c:78afcdee20b3291268ef1a85595b2e33c415547beb98b02413097ac759886419|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:dbd235d55dcf13cebe3e5c7fcab6275ca0c85e78068529804925169022c6c987
+  rationale: Exact right-hand 青 group, Kanjium phonetic column, and selected KANJIDIC2 on/kun selectors were verified;
+    historical and modern claims are separately scoped.

@@ -7,7 +7,7 @@ subject:
   codepoint: U+5B9D
 revision: 9b069eb51a0221e303bc69244dd57cda44deb9316351d92156561cb8b2985602
 localizedRevision: 5bbb754c136e8c2c3cddcd1c5de36ba03d814cb38af3de72254d457d10b6e36f
-status: candidate
+status: approved
 claimText: A jeweler hid her treasure by replacing a missing roof tile with a slab of jade.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9b069eb51a0221e303bc69244dd57cda44deb9316351d92156561cb8b2985602
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:970b578af758d220446bbea455ebe3f32dc6313ecf63cbf27556d67fdbc8ff5f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:970b578af758d220446bbea455ebe3f32dc6313ecf63cbf27556d67fdbc8ff5f
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

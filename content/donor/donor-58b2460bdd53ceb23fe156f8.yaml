@@ -1,0 +1,32 @@
+id: donor-58b2460bdd53ceb23fe156f8
+kind: historical-phonetic
+subject:
+  type: occurrence
+  structure: kv-73e0
+  occurrence: kvg:073e0-g2
+revision: f77f556eceef1fa1591a28f6ea53019bf209bbc4361731a4cf1cedfc5dd4b96e
+localizedRevision: a329260875884fa10b7252e757ba48c06739d29cf43164e71e95ad881013024e
+status: candidate
+claimText: 朱 supplies the sound element in 珠; Japanese readings depend on the word.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92678570-81a749209882
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/珠/2
+- reference: kanjivg-73e0
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:073e0-g2
+review:
+  state: pending

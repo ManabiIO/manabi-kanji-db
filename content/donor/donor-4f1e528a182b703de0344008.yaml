@@ -1,0 +1,28 @@
+id: donor-4f1e528a182b703de0344008
+kind: historical-origin
+subject:
+  type: character
+  literal: 元
+  codepoint: U+5143
+revision: 9f042c0d7e9be3b6c41a048254dd7d31423d0b11963ce8daba2359f4bf041199
+localizedRevision: 13585eee7bcb181598ec1c017405300ce3b585fef4a83044fc6d4fb5de504095
+status: candidate
+claimText: 元 pictures a person with two strokes emphasizing the head, one attached to the body and one above.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93383877-b5292c2359b4
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/元/1
+review:
+  state: pending

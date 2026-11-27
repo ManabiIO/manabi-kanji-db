@@ -1,0 +1,28 @@
+id: donor-1bb0f5dc7d00aa2079576ff4
+kind: historical-origin
+subject:
+  type: character
+  literal: 本
+  codepoint: U+672C
+revision: db099e65138323251f047cafabb38b3f681ab745be955005ccb74a73c7da9f77
+localizedRevision: 94d1956b391c76da3846ea4778d6f65486f40321e30db9cd386234878ab2a4bd
+status: candidate
+claimText: 本 adds a stroke near the base of 木, tree, to mark its roots.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93803440-47f36eb76c67
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/本/1
+review:
+  state: pending

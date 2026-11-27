@@ -1,0 +1,28 @@
+id: donor-e29d377e6eaaec06ee0c36b3
+kind: historical-origin
+subject:
+  type: character
+  literal: 羊
+  codepoint: U+7F8A
+revision: 0578cc02da3c2c66c1d7bd745ec343023eaa415be1b960ec6cb413a82d42c51c
+localizedRevision: 0f113b14ee9a444af5c9ef7e7f98abf84b268cca09867c7afabb176014d1bfb9
+status: candidate
+claimText: A picture of a ram’s head.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92536807-15b20d84df33
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/羊/1
+review:
+  state: pending

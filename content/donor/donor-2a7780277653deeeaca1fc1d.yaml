@@ -1,0 +1,28 @@
+id: donor-2a7780277653deeeaca1fc1d
+kind: historical-origin
+subject:
+  type: character
+  literal: 才
+  codepoint: U+624D
+revision: 364d718219fe29c3c483496cb824b45a4086296e8ce49b6d80c11faac9d732a3
+localizedRevision: 867164ab9e0bbc0c8876b971c2efb6a26df1bd47ddc24c3c79f5d9f2d33ec993
+status: candidate
+claimText: The older form of 才 pictures a sharp peg.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92200519-76bc88109552
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/才/1
+review:
+  state: pending

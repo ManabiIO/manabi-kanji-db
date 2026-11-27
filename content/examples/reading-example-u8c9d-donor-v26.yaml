@@ -1,0 +1,40 @@
+---
+id: reading-example-u8c9d-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 貝
+  codepoint: U+8C9D
+revision: 3f6abf0fa74542006974a77125e1ef37f08d229c94576354770ee636b329d144
+localizedRevision: 039f4fe1fc7759cb3dca10e8f8025d6a827a89370c9afa8b4fe2ec92cf0b3792
+status: approved
+claimText: In 貝殻 (かいがら), 貝 is read かい.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1203130; keb=貝殻; reb=かいがら; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=9042; text=貝殻; reading=かいがら; Unicode scalar index=0 (zero-based); ruby=貝; rt=かい
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/貝
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 3f6abf0fa74542006974a77125e1ef37f08d229c94576354770ee636b329d144
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

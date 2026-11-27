@@ -1,0 +1,28 @@
+id: donor-bec49cc02874d6c64d6b0bb7
+kind: historical-origin
+subject:
+  type: character
+  literal: 乳
+  codepoint: U+4E73
+revision: 787e4f1b0fdb73960cd6bbc71610ed32f3f294a42dd5508186b5a84e9e3f9150
+localizedRevision: 8e44a047a41c59d1710d6c982040ba345abed0c829a7f882486749d5edb94f86
+status: candidate
+claimText: The older picture shows a kneeling woman breastfeeding a child; the woman resembles 母.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93664179-8bb56ac70194
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/乳/1
+review:
+  state: pending

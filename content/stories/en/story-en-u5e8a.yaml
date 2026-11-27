@@ -7,7 +7,7 @@ subject:
   codepoint: U+5E8A
 revision: c62a889ff1f703530ec162b871ec84f5091cd341559365703ecca6bcb7a4135b
 localizedRevision: dba51b1d8e35ea5d47619922682401c7bed7d38565fb25c3d52e4f5aed8249f4
-status: candidate
+status: approved
 claimText: A traveler dragged a fallen tree under the shelter of a cliff and slept on it like a bed.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: c62a889ff1f703530ec162b871ec84f5091cd341559365703ecca6bcb7a4135b
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9d3bbeede32cbde2bd39081e534d043c25a3a9cfa9f5f10253975bb0d01cd0e5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9d3bbeede32cbde2bd39081e534d043c25a3a9cfa9f5f10253975bb0d01cd0e5
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

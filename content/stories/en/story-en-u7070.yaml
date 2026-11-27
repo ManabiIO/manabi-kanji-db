@@ -7,7 +7,7 @@ subject:
   codepoint: U+7070
 revision: e5ad8ef8ea198dc6da2475c82ce2976ded603056f4258a91fbf36efd7924feef
 localizedRevision: dfccaf39f88772c208f67dbf9af687f3d37fa547bc1ef8756e892d6fda1c71c1
-status: candidate
+status: approved
 claimText: At dawn, the fire beneath the cliff had burned down to ashes, and a fox warmed its paws in the dust.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: e5ad8ef8ea198dc6da2475c82ce2976ded603056f4258a91fbf36efd7924feef
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f23e9587815fc38b3efe2a50b6a9f59897bc2d64c2a866c3163b54c7dbec9599|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f23e9587815fc38b3efe2a50b6a9f59897bc2d64c2a866c3163b54c7dbec9599
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

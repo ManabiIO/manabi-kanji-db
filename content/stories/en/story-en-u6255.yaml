@@ -7,7 +7,7 @@ subject:
   codepoint: U+6255
 revision: d87b361d65d461e730f61d96ca5e5e9864ceb1dc50fe2e098e2793f5547d0655
 localizedRevision: 2518eb353fa5983dfa87320bf3a05b427605b6e78d493c1bfdcb76a7efc5b35b
-status: candidate
+status: approved
 claimText: A customer put her hand through a private booth's curtain to pay for a secret fortune.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d87b361d65d461e730f61d96ca5e5e9864ceb1dc50fe2e098e2793f5547d0655
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3dd362b06e9af798535f97958ec8cfef2c07a50ee481e2ab9a0572c4ce278d59|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3dd362b06e9af798535f97958ec8cfef2c07a50ee481e2ab9a0572c4ce278d59
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

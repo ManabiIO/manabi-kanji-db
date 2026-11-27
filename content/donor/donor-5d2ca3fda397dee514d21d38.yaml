@@ -1,0 +1,32 @@
+id: donor-5d2ca3fda397dee514d21d38
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-8a0e
+  occurrence: kvg:08a0e-g1
+revision: fe09c38548aca8772b12714c75ba15a97f831268e6e05f5ef480663b72f75939
+localizedRevision: 123cfebdbb02b939f8978f7e82147cfbb4b7869de43cc4598b5c5ca3387fce47
+status: candidate
+claimText: 言 contributes the meaning of speech or words in 討.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201721-2dc1257d9977
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/討/1
+- reference: kanjivg-8a0e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08a0e-g1
+review:
+  state: pending

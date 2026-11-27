@@ -1,0 +1,28 @@
+id: donor-2a0b855fea5fd31d6b4ef753
+kind: historical-origin
+subject:
+  type: character
+  literal: 鹿
+  codepoint: U+9E7F
+revision: da2faedca824df4f3610f9a4141aa6a981b0d215b65a58ed4f9441e673a5f466
+localizedRevision: 804d37df7788aafb810232a987fcc8aa594a625fef69993d29dad773d7c277c6
+status: candidate
+claimText: 'The deer picture changed over time: its legs became the modern 比-shaped base.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92720584-f2d2109e8830
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/鹿/1
+review:
+  state: pending

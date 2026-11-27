@@ -1,0 +1,28 @@
+id: donor-29931c23b80baf3d1ccdacc5
+kind: historical-origin
+subject:
+  type: character
+  literal: 手
+  codepoint: U+624B
+revision: 3221e619bd39a7902cbc73787bc38488f0617a75b82ba377b66db7de4a7269d6
+localizedRevision: a069ded6923d1f60012b05c7f599ebdb1e1f8949922fe86012d76ac74c9dae4e
+status: candidate
+claimText: A picture of a hand and fingers.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93659566-64675194b879
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/手/1
+review:
+  state: pending

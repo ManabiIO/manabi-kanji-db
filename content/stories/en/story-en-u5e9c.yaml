@@ -7,7 +7,7 @@ subject:
   codepoint: U+5E9C
 revision: fe4bb7ed78ceb2dd1e70e2f2a050b7458656b91f9d79d6c0d8f05217e80fbca4
 localizedRevision: 82005e1a99a4fcb9801c2b5409020241b6ad4e9b5b9965a6bf83f8f76e6b2432
-status: candidate
+status: approved
 claimText: A clerk attached a copper sign to a rain shelter and declared it the new government office.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: fe4bb7ed78ceb2dd1e70e2f2a050b7458656b91f9d79d6c0d8f05217e80fbca4
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5338b1e558eabdc301e3d5a2ceba011f57885f3f9deff46491647800506de371|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5338b1e558eabdc301e3d5a2ceba011f57885f3f9deff46491647800506de371
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

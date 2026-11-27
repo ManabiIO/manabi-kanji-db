@@ -1,0 +1,28 @@
+id: donor-36cf1b3d93b9b8f47f6e26b9
+kind: historical-origin
+subject:
+  type: character
+  literal: 升
+  codepoint: U+5347
+revision: 899f05bd49fb522483bd94b3a82e78a47a516dd10443623ab13e575649e49e50
+localizedRevision: a8e858cf70a4f634df54e5b5c1f28ca288e5b3c8166af1d6ad4dec92398e1275
+status: candidate
+claimText: The older form pictures a dipper, comparable to 斗.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92930290-76a22b4b60d3
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/升/1
+review:
+  state: pending

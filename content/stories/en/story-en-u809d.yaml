@@ -7,7 +7,7 @@ subject:
   codepoint: U+809D
 revision: fa20417458a68e1e6413398e4082bce12407c9245d228f39b55e3b0f938e82f9
 localizedRevision: a1567e2cefd526c6202393d2fb223460d6bd33b51ebc5a4cf52c0c4835caf8ff
-status: candidate
+status: approved
 claimText: A fox hung a slice of liver out to dry, and the piece of flesh grew two tiny wings.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: fa20417458a68e1e6413398e4082bce12407c9245d228f39b55e3b0f938e82f9
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:60b018e3c2e50226782d0c34a84cc7a8d3430d0aa5eac894a2a006653f2a8414|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:60b018e3c2e50226782d0c34a84cc7a8d3430d0aa5eac894a2a006653f2a8414
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

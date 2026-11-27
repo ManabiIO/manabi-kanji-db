@@ -1,0 +1,29 @@
+id: donor-d0f4b0ede493fb577000444c
+kind: historical-origin
+subject:
+  type: character
+  literal: 貞
+  codepoint: U+8C9E
+revision: a91c216d9eedd95e05617f16ad10d97adec69e98ce33c8991ff07762cd54491f
+localizedRevision: 86cdc5ceb3242fc5f8e0e27d051ac43eed24a17e5fe3594331d234059be84625
+status: candidate
+claimText: 貞 developed from a picture of a tripod cauldron, with 卜 later added for divination. The lower part changed
+  into the modern 貝 shape.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93573707-122405318137
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/貞/1
+review:
+  state: pending

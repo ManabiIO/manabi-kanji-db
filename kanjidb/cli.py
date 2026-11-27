@@ -14,6 +14,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(prog="python -m kanjidb")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("validate", help="validate YAML, sources, claims, and relationships")
+    draft = sub.add_parser("draft-history", help="print an independently authored historical claim as candidate YAML")
+    for name in ("id", "literal", "text", "reference", "selector", "author"):
+        draft.add_argument("--" + name, required=True)
+    draft.add_argument("--locale", default="en")
+    draft.add_argument("--author-type", choices=["human", "agent", "community"], required=True)
     build_parser = sub.add_parser("build", help="build a deterministic SQLite snapshot")
     build_parser.add_argument("--output", type=Path, default=Path("dist/kanji.sqlite"))
     sub.add_parser("verify-reproducible", help="build twice in a clean temporary directory and compare hashes")
@@ -27,6 +32,29 @@ def main() -> int:
     args = parser.parse_args()
     root = Path.cwd()
     try:
+        if args.command == "draft-history":
+            from datetime import date
+            import yaml
+            from .validation import validate_claim, validate_registry
+            from .yamlio import load
+
+            registry = root / "sources/registry.yaml"
+            _, refs = validate_registry(load(registry), registry)
+            if len(args.literal) != 1:
+                parser.error("--literal requires one Unicode character")
+            subject = {"type": "character", "literal": args.literal, "codepoint": f"U+{ord(args.literal):04X}"}
+            binding = {"reference": args.reference, "selector": args.selector,
+                       "claimField": "claimText", "supportType": "factual-evidence"}
+            statement = json.dumps([subject, binding, args.text], ensure_ascii=False, sort_keys=True)
+            claim = {"id": args.id, "kind": "historical-origin", "subject": subject,
+                     "revision": hashlib.sha256(statement.encode()).hexdigest(),
+                     "localizedRevision": hashlib.sha256(args.text.encode()).hexdigest(),
+                     "status": "candidate", "claimText": args.text, "targetLanguage": "ja", "locale": args.locale,
+                     "author": {"name": args.author, "type": args.author_type, "recordedAt": date.today().isoformat()},
+                     "license": "CC-BY-SA-4.0", "evidence": [binding], "review": {"state": "pending"}}
+            validate_claim(claim, Path("<draft>"), refs)
+            print(yaml.safe_dump(claim, allow_unicode=True, sort_keys=False), end="")
+            return 0
         if args.command == "validate":
             claims, sources, refs = validate(root)
             print(f"valid: {claims} claims, {sources} sources, {refs} exact references")

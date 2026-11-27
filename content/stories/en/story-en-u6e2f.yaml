@@ -7,7 +7,7 @@ subject:
   codepoint: U+6E2F
 revision: e437fc7adf8139dd16e4ec7c97f9110b7315c2793481378f2eaa2a921b6eca29
 localizedRevision: 57a272f4680510bfa56cc92b4a2cd37787389e5082749ce3f4b186d69b67a4a7
-status: candidate
+status: approved
 claimText: A cobbled lane led down to the water, where floating lanterns marked the entrance to the harbor.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: e437fc7adf8139dd16e4ec7c97f9110b7315c2793481378f2eaa2a921b6eca29
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:262ee5c24fc2281053e3b87816b295f100d988028eb40965dd496a618f87f295|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:262ee5c24fc2281053e3b87816b295f100d988028eb40965dd496a618f87f295
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

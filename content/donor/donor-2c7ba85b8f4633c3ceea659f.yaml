@@ -1,0 +1,28 @@
+id: donor-2c7ba85b8f4633c3ceea659f
+kind: historical-origin
+subject:
+  type: character
+  literal: 栗
+  codepoint: U+6817
+revision: 0db8513e28acfb00cd24cfa2ce4a80f3741161c258fb5b22b7ea6f2593840844
+localizedRevision: e0fbbd79e8341972d06a2e215d30e165402f8576ef68365262aa8caa5d78f318
+status: candidate
+claimText: The older form of 栗 pictures chestnuts growing on a tree.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92432576-f56d8a3a24f6
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/栗/1
+review:
+  state: pending

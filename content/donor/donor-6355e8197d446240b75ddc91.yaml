@@ -1,0 +1,28 @@
+id: donor-6355e8197d446240b75ddc91
+kind: historical-origin
+subject:
+  type: character
+  literal: 腹
+  codepoint: U+8179
+revision: 2e621490faa0f06ffd46086cf54a016b75f85f3d2e6c8f56c7a5ce303dba6fee
+localizedRevision: fb7ccc4dd6e78510a0fc32251f07e844d8d18ecb20609a989c10c2cecc85fda2
+status: candidate
+claimText: In 腹, belly, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93600917-a7683a6e107d
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/腹/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+6A4B
 revision: d63925277165790aabb513acc729f6dff8ccdbe4e2e7454da3279a9b91d0f0cd
 localizedRevision: f94ee5441e596ef02685ecabd55fbfe941d19a45e572663a49cfa39aa9ba0df8
-status: candidate
+status: approved
 claimText: A tree tall enough to reach the far bank fell across the ravine and became a bridge.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d63925277165790aabb513acc729f6dff8ccdbe4e2e7454da3279a9b91d0f0cd
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:93d3e59745e57d49dd7a35848698702bc55abe9aa90eb4e0eb683454431f49c5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:93d3e59745e57d49dd7a35848698702bc55abe9aa90eb4e0eb683454431f49c5
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

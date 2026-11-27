@@ -1,0 +1,1866 @@
+[
+  {
+    "candidate": "cand-428897a585374b4244a64327",
+    "character": "酵",
+    "reference": "wikt-origin-88127672-df3f19576344",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "02bc8e8c390026f4a86edf23f7da90d075724985f11d7782d3a241f514dfdf7d",
+    "sectionSHA256": "df3f1957634440ab20d1741b866268278ee18d2faed9722a11145d65c3b76dd1",
+    "claim": "donor-428897a585374b4244a64327"
+  },
+  {
+    "candidate": "cand-a1d40893ecdc98ace45a3ead",
+    "character": "酵",
+    "reference": "wikt-origin-88127672-df3f19576344",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "02bc8e8c390026f4a86edf23f7da90d075724985f11d7782d3a241f514dfdf7d",
+    "sectionSHA256": "df3f1957634440ab20d1741b866268278ee18d2faed9722a11145d65c3b76dd1",
+    "claim": "donor-a1d40893ecdc98ace45a3ead"
+  },
+  {
+    "candidate": "cand-b3923ee29431096bd595bc27",
+    "character": "義",
+    "reference": "wikt-origin-90901000-4ecc72f00fc1",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c07cc662bce25bce2d4cdde422192ec99fc6ddcba00d88ccc1907432ef7505bb",
+    "sectionSHA256": "4ecc72f00fc1916311fc81dee3530ded07ee2bffe1236933cebec1e70e6add5a",
+    "claim": "donor-b3923ee29431096bd595bc27"
+  },
+  {
+    "candidate": "cand-9e16dc30c14cd91f606233ff",
+    "character": "勝",
+    "reference": "wikt-origin-92160411-a5f0cd30c010",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "12b55e6b88b909c5aa2ff99664c10e0b5f98cdcc38f4bc7fc140be63af58ed77",
+    "sectionSHA256": "a5f0cd30c0105ea8bc654fca6e97a7fa435bc6bdfca963bf83b24a3f0dbef12d",
+    "claim": "donor-9e16dc30c14cd91f606233ff"
+  },
+  {
+    "candidate": "cand-d51c9a4906e09456b628360d",
+    "character": "愛",
+    "reference": "wikt-origin-93580139-165ee4d81dfc",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "873e8e6b493161a5e704602655742a740e06dc77a5d51b5436b05827bce2b53c",
+    "sectionSHA256": "165ee4d81dfc28b8e9c83ce0f7024431e69b93d3c63d5ab1f9e28215ef7003ae",
+    "claim": "donor-d51c9a4906e09456b628360d"
+  },
+  {
+    "candidate": "cand-48793636f72eb13e0b191536",
+    "character": "時",
+    "reference": "wikt-origin-93737692-6a87adf69beb",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1b886e368513e76f5a2e913d732a42f09330b81f6832c55e1f92f8b3f97d53aa",
+    "sectionSHA256": "6a87adf69bebd78f0c1b38bcf2bb0a5817458afa3363e6e93e8a4f637dc5b4df",
+    "claim": "donor-48793636f72eb13e0b191536"
+  },
+  {
+    "candidate": "cand-899910d273a4ef1de4eb6867",
+    "character": "晴",
+    "reference": "wikt-origin-92200676-d3f06740356b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1e40cad6ea6e21f8f8f470a10c80a4baff7d962587420087e2566ad43fd50895",
+    "sectionSHA256": "d3f06740356b27abb2f2132fd3e3f102f78504af7fd66e40dff7b034d896db75",
+    "claim": "donor-899910d273a4ef1de4eb6867"
+  },
+  {
+    "candidate": "cand-b3c4154eb473631f83dfe716",
+    "character": "語",
+    "reference": "wikt-origin-92201757-12ddeee228ff",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fe99b162ca0482121d3d51225159ab06f620cbaf14ef0e58eefd905274f0d815",
+    "sectionSHA256": "12ddeee228ff28251db18bad40e4a50e10a70355286fff5ffd90295b7b1ec6bc",
+    "claim": "donor-b3c4154eb473631f83dfe716"
+  },
+  {
+    "candidate": "cand-071fa6a658f3ec09c1d9919f",
+    "character": "海",
+    "reference": "wikt-origin-93388184-75ce86708472",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "81edad8e182ccc353438bd42870c57115f009137c4dbf75feef869697840ce81",
+    "sectionSHA256": "75ce867084722a67d639e99c0367a63de62efc2f567fae7e320881c496e0b17c",
+    "claim": "donor-071fa6a658f3ec09c1d9919f"
+  },
+  {
+    "candidate": "cand-fcbf3408f74053ad71d09385",
+    "character": "話",
+    "reference": "wikt-origin-92512667-8de48273cdea",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "3bb5491df8c47c6f9b9542aca5174deaef1db41bacbf640bf8adb1d475ea1e20",
+    "sectionSHA256": "8de48273cdea29acb5efd74c6f91874dba268ce411126e30c0ade4a038af1bc0",
+    "claim": "donor-fcbf3408f74053ad71d09385"
+  },
+  {
+    "candidate": "cand-8b8e8cdf20067675f43e7ca2",
+    "character": "腕",
+    "reference": "wikt-origin-93606098-4206a8ce44ac",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "86ee08543c317cb6c600309e037984069a90b41d896007231a154f245470e58e",
+    "sectionSHA256": "4206a8ce44ac6ef8c1408774c26e3233f7a181ca903631625c67a8646c8ab97d",
+    "claim": "donor-8b8e8cdf20067675f43e7ca2"
+  },
+  {
+    "candidate": "cand-2042157a8d3636d5e9dff704",
+    "character": "腹",
+    "reference": "wikt-origin-93600917-a7683a6e107d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2d32322dc612264ae4765cbdfdc405509ee7960a2e30a9dd7c6ba4f583dec41b",
+    "sectionSHA256": "a7683a6e107dede752a783ae7325c68acc78ca82e6f788584f99e35f5808a044",
+    "claim": "donor-2042157a8d3636d5e9dff704"
+  },
+  {
+    "candidate": "cand-d767b5f6c854768f16b29946",
+    "character": "肺",
+    "reference": "wikt-origin-93384308-37a3dff8d472",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6ab1456ab93ded409531cc8d578554ab83da8f66db979b5aa43bcca12fc217a2",
+    "sectionSHA256": "37a3dff8d472ecd81c38deb208a9c5a616025290a9557149799d7ac5a607c397",
+    "claim": "donor-d767b5f6c854768f16b29946"
+  },
+  {
+    "candidate": "cand-5f151a6a12821f096ab0d456",
+    "character": "肌",
+    "reference": "wikt-origin-93443704-7eae76211a61",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0ba6f889d2b84d81f909ddbcb949d35ea456cb9cf4e556b7cbcda2ae4de7a5a9",
+    "sectionSHA256": "7eae76211a610725ceda483b50b09597e5833fb87ada862441fe1e291800079b",
+    "claim": "donor-5f151a6a12821f096ab0d456"
+  },
+  {
+    "candidate": "cand-6277ba9c20bff885659281e5",
+    "character": "占",
+    "reference": "wikt-origin-91776784-422682f67781",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "093e6651a0ee4c71ad328d07cca468e50f7c0a285809441a3a878af6edf28740",
+    "sectionSHA256": "422682f677816ee38429c2a056f46d46f2f8f8d47c8bfa3312e0c39e118d4deb",
+    "claim": "donor-6277ba9c20bff885659281e5"
+  },
+  {
+    "candidate": "cand-5d2ca3fda397dee514d21d38",
+    "character": "討",
+    "reference": "wikt-origin-92201721-2dc1257d9977",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "857be419617412aacd985c1814d4adc90cfa173f66ee1c414efdc48dda29bd6f",
+    "sectionSHA256": "2dc1257d997720887e5b51e244bceae00003881b0993f12db20a21e5674f6f1f",
+    "claim": "donor-5d2ca3fda397dee514d21d38"
+  },
+  {
+    "candidate": "cand-9cf675e1ca835d1de732d11e",
+    "character": "釐",
+    "reference": "wikt-origin-93594668-5b047d3e9a6c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "740b2043767b9aa601a6015dddbf6600ba9617e19a35dfc5c62e8723f636d336",
+    "sectionSHA256": "5b047d3e9a6c0f6aad5012cec86f4de5906c448b65a1288456832721e2cb474a",
+    "claim": "donor-9cf675e1ca835d1de732d11e"
+  },
+  {
+    "candidate": "cand-92938658e22f1319eaf3310f",
+    "character": "腺",
+    "reference": "wikt-origin-92162673-3aa3b93ec65a",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "3422d46a9985ea0fb978338d89919ac4efdf83c348e06c68a84e5c825d418c77",
+    "sectionSHA256": "3aa3b93ec65a5eadb0a215d17848911163e27060fa21f13307c1c2d3a9989c0c",
+    "claim": "donor-92938658e22f1319eaf3310f"
+  },
+  {
+    "candidate": "cand-07b3ad64b354e1e164ea26b1",
+    "character": "腺",
+    "reference": "wikt-origin-92162673-3aa3b93ec65a",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "3422d46a9985ea0fb978338d89919ac4efdf83c348e06c68a84e5c825d418c77",
+    "sectionSHA256": "3aa3b93ec65a5eadb0a215d17848911163e27060fa21f13307c1c2d3a9989c0c",
+    "claim": "donor-07b3ad64b354e1e164ea26b1"
+  },
+  {
+    "candidate": "cand-8e318b6e9681c0711dcefc3d",
+    "character": "峡",
+    "reference": "wikt-origin-93449307-58c1a4ce0af7",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fd863c7b3587dba2b4c92bc2709dff34b68eeee7902ae5231e4d43809ca6ee21",
+    "sectionSHA256": "58c1a4ce0af7972a2a9d1f385a1cde1bd9d66951acde2f2032dbabc5236b150d",
+    "claim": "donor-8e318b6e9681c0711dcefc3d"
+  },
+  {
+    "candidate": "cand-6f3957e844dc0eadb1b6e82e",
+    "character": "挟",
+    "reference": "wikt-origin-93444252-e047671b3d3a",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8910b91687ac3d5af0c882f3fbe1ff4883ac043e045994886047755cfe22d81a",
+    "sectionSHA256": "e047671b3d3ae604e5194124c185528b035d9993bd5968d8457267712253bd9a",
+    "claim": "donor-6f3957e844dc0eadb1b6e82e"
+  },
+  {
+    "candidate": "cand-6ea2390162d36cce22f2f5f8",
+    "character": "狭",
+    "reference": "wikt-origin-93506827-4b172edff9f7",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "21617608c24a108cb1e73d467d9d9d50abab617afabdb89e54535664010600ed",
+    "sectionSHA256": "4b172edff9f7799a5bfe075474485e3dfaf25ee13958956dd32cc51762c2a855",
+    "claim": "donor-6ea2390162d36cce22f2f5f8"
+  },
+  {
+    "candidate": "cand-6662b6513f4c1cdfe4c9e9e3",
+    "character": "狹",
+    "reference": "wikt-origin-93506827-4b172edff9f7",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "21617608c24a108cb1e73d467d9d9d50abab617afabdb89e54535664010600ed",
+    "sectionSHA256": "4b172edff9f7799a5bfe075474485e3dfaf25ee13958956dd32cc51762c2a855",
+    "claim": "donor-6662b6513f4c1cdfe4c9e9e3"
+  },
+  {
+    "candidate": "cand-d5dbbc74b7667d8791158eac",
+    "character": "珠",
+    "reference": "wikt-origin-92678570-81a749209882",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6564e97ea58f00abacc75f309ee8eb804d7c7601a870b5b36147c0f5b28bbf7e",
+    "sectionSHA256": "81a74920988250ddb2463076514b4b478be8156770fa33a96904e552d0fd957a",
+    "claim": "donor-d5dbbc74b7667d8791158eac"
+  },
+  {
+    "candidate": "cand-58b2460bdd53ceb23fe156f8",
+    "character": "珠",
+    "reference": "wikt-origin-92678570-81a749209882",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6564e97ea58f00abacc75f309ee8eb804d7c7601a870b5b36147c0f5b28bbf7e",
+    "sectionSHA256": "81a74920988250ddb2463076514b4b478be8156770fa33a96904e552d0fd957a",
+    "claim": "donor-58b2460bdd53ceb23fe156f8"
+  },
+  {
+    "candidate": "cand-30365deb1ca6b2994e1debbc",
+    "character": "愛",
+    "reference": "wikt-origin-93580139-165ee4d81dfc",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "873e8e6b493161a5e704602655742a740e06dc77a5d51b5436b05827bce2b53c",
+    "sectionSHA256": "165ee4d81dfc28b8e9c83ce0f7024431e69b93d3c63d5ab1f9e28215ef7003ae",
+    "claim": "donor-30365deb1ca6b2994e1debbc"
+  },
+  {
+    "candidate": "cand-223d91cb3f87b80df43e228e",
+    "character": "日",
+    "reference": "wikt-origin-93408319-0a55322b6d53",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4beaf111fbb646b55d5f25e6d7b98f0f3e4fa79adec0ba10291cf05aa467594c",
+    "sectionSHA256": "0a55322b6d5333b713cb586abe69b34bc2511a70651bb83af2bf4d254f4015bb",
+    "claim": "donor-223d91cb3f87b80df43e228e"
+  },
+  {
+    "candidate": "cand-c9bde4966ff87938a9dfb9fd",
+    "character": "月",
+    "reference": "wikt-origin-93428147-6a052299cfb5",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "67be496ef5bb9927e793408d3ad1a91e21127d6cec65dcc7a497eb953f050689",
+    "sectionSHA256": "6a052299cfb51e4dc417583e2fab546ed71a4734614c21807b5203f6538d8509",
+    "claim": "donor-c9bde4966ff87938a9dfb9fd"
+  },
+  {
+    "candidate": "cand-468e47d9586eb99c09a143d6",
+    "character": "目",
+    "reference": "wikt-origin-93947436-4f9b7883f44c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a208fb6cb5ede7454b327810c4dd956c35f3cdda9021dbb57668b9ec8197838f",
+    "sectionSHA256": "4f9b7883f44c28f8e5ac4495f4b71c39acc60d98dac97cf0692d160e9c271138",
+    "claim": "donor-468e47d9586eb99c09a143d6"
+  },
+  {
+    "candidate": "cand-66d67b95c85e6acef932078f",
+    "character": "鳥",
+    "reference": "wikt-origin-93750960-6fe566a58142",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a3314a7de69d0a09be237d99edc4c10b505f18b6d715460a1f96f645c7489cf4",
+    "sectionSHA256": "6fe566a5814208f86721fb62c5d32e08c3db22f63ca7f624f2fc59bb835d38f2",
+    "claim": "donor-66d67b95c85e6acef932078f"
+  },
+  {
+    "candidate": "cand-eba12bad2a3ed0ad45966f1c",
+    "character": "馬",
+    "reference": "wikt-origin-93388368-547255b2b247",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b0dcfe4fa6798cc936494e36a09f0ca64b03cd4d7033b3ceaf8a9718e021d971",
+    "sectionSHA256": "547255b2b247bd4cd1092deb60441e01978848066b0a889298545469dffcc83c",
+    "claim": "donor-eba12bad2a3ed0ad45966f1c"
+  },
+  {
+    "candidate": "cand-888507f7f59f655a189a84b0",
+    "character": "水",
+    "reference": "wikt-origin-94507192-27ede412a6fe",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f4ab5343a662d5ec4109a7f21dfd38eb5acf65fcb99b64ba5b1fb52b83020a90",
+    "sectionSHA256": "27ede412a6fe2f93584af94f0fa1ce96f4ebf87f17eed8228e83cb267896d283",
+    "claim": "donor-888507f7f59f655a189a84b0"
+  },
+  {
+    "candidate": "cand-a09897a3f9ae8acaee4fdf3b",
+    "character": "火",
+    "reference": "wikt-origin-94507178-82eec6723712",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fe55983c1b2ac373ad360e10740f97447398c5638d63908686949d244de071e0",
+    "sectionSHA256": "82eec67237124f4f0916aa4dd1988cdf925b1855edf593f6188242860cc30d89",
+    "claim": "donor-a09897a3f9ae8acaee4fdf3b"
+  },
+  {
+    "candidate": "cand-1bb0f5dc7d00aa2079576ff4",
+    "character": "本",
+    "reference": "wikt-origin-93803440-47f36eb76c67",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fabb839380f6c82540aa022ff754392a512196d9426c8080a1c6d0c8768dc9bf",
+    "sectionSHA256": "47f36eb76c67f68e1b2e58dd825eb7c6641d03c5c8ddc9e1b641c7606f3e790a",
+    "claim": "donor-1bb0f5dc7d00aa2079576ff4"
+  },
+  {
+    "candidate": "cand-b625c57c41d1030721a2406b",
+    "character": "人",
+    "reference": "wikt-origin-93756831-671d653bc6d4",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "e4adf9079b5b236b6934cb81315b66286d76c119c4e71e9a561fa658de28fdbe",
+    "sectionSHA256": "671d653bc6d42ace6ad39e4d0964bf4dcf4884829a7caddfaaf95fa1214d950a",
+    "claim": "donor-b625c57c41d1030721a2406b"
+  },
+  {
+    "candidate": "cand-dcec7e178011bcc2d43c934d",
+    "character": "大",
+    "reference": "wikt-origin-93531344-6ef688e36184",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a3bfb714218c341940cb3f42b4a54f89cf1d8dbe6cfe50e8cbe42e225c915a19",
+    "sectionSHA256": "6ef688e361849488c831b36add9309d7dc94d978af3ba6db8791cdd4efdcdfe7",
+    "claim": "donor-dcec7e178011bcc2d43c934d"
+  },
+  {
+    "candidate": "cand-b8a14a47c71ba47b314ea436",
+    "character": "口",
+    "reference": "wikt-origin-93606013-eaf0c4a3e10d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b4a1248f12e413d9e510f6f7bd5602c9e5fc86b6498c2042e13cdf04e528a2cf",
+    "sectionSHA256": "eaf0c4a3e10d19ecf52f758a64e5b58f73eaf88e2299aff99f1cc85bc1db74b0",
+    "claim": "donor-b8a14a47c71ba47b314ea436"
+  },
+  {
+    "candidate": "cand-aa1dcc8ea179695cf9f86b34",
+    "character": "耳",
+    "reference": "wikt-origin-93606014-3fb35d52c81c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "27c78e6ef9bb9ec0fb282602d826e3e83819a524e28f2e282d0face54517d02a",
+    "sectionSHA256": "3fb35d52c81c893f9f136adf0c046637e6f2d758143537fd1c000fa5f9542aa8",
+    "claim": "donor-aa1dcc8ea179695cf9f86b34"
+  },
+  {
+    "candidate": "cand-29931c23b80baf3d1ccdacc5",
+    "character": "手",
+    "reference": "wikt-origin-93659566-64675194b879",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "04f6e475b409d20fa3d6caeff729e543e6453eea8bb1fa389eaa0a7804e5de76",
+    "sectionSHA256": "64675194b8798283ce40edfbdbb316471f5360064edfb5636fa690809a62177e",
+    "claim": "donor-29931c23b80baf3d1ccdacc5"
+  },
+  {
+    "candidate": "cand-5b7c8c39415b4d33c4ae5336",
+    "character": "足",
+    "reference": "wikt-origin-93378193-eb4ea20a4dba",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fb75b01e7e8a169d99882cafdb1f7cfe85f5c49462e4fe283542cb359fb358f2",
+    "sectionSHA256": "eb4ea20a4dbab2e0674b3d7df019b9bf5cb913c62f70e6a1eef5e323da8a8eb2",
+    "claim": "donor-5b7c8c39415b4d33c4ae5336"
+  },
+  {
+    "candidate": "cand-6e876288beac94d62e8eb88f",
+    "character": "川",
+    "reference": "wikt-origin-92917941-6a5af274543c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f326ec86171bfe6b29bb3d7f342b0c7936c9231e1d18e6080ba362cc2f80416e",
+    "sectionSHA256": "6a5af274543c8662b80ca42004379823eb21e4db967488142076346a1b1fe6e2",
+    "claim": "donor-6e876288beac94d62e8eb88f"
+  },
+  {
+    "candidate": "cand-1e4bb14a5094955af20a0239",
+    "character": "漢",
+    "reference": "wikt-origin-93505387-56707551436c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8f392bce99071d94a371e937ac7f137b2afc5fa87ca7ade14daad5cbd83e2d20",
+    "sectionSHA256": "56707551436cd28ca6eeb8300c1f0eec1610a919ff6deb1f7456b62e47bf2af4",
+    "claim": "donor-1e4bb14a5094955af20a0239"
+  },
+  {
+    "candidate": "cand-4a97b23f62a2258e76eb9ecc",
+    "character": "田",
+    "reference": "wikt-origin-93549154-f7653a2c83c4",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b38bd80e69510f4c3c755c45c38d3eb31e8fe685f6ad48cadd0a35df0a0363e1",
+    "sectionSHA256": "f7653a2c83c42da9f4f15dc52163b70424d3e4b55da4b2d963ec9248e532a30a",
+    "claim": "donor-4a97b23f62a2258e76eb9ecc"
+  },
+  {
+    "candidate": "cand-93d90922ac7b7911b88b283d",
+    "character": "雨",
+    "reference": "wikt-origin-93473045-ff6bbc837480",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "5895ef02d617be7233815d5e678c5e59995f989ebdb1cc9905fc78aba1eb006f",
+    "sectionSHA256": "ff6bbc837480eca4cff42316e36ebe02f2cdc2e574fe849c1adde67c5d297804",
+    "claim": "donor-93d90922ac7b7911b88b283d"
+  },
+  {
+    "candidate": "cand-a0e52781dccc51881b439b5f",
+    "character": "土",
+    "reference": "wikt-origin-94507204-8ea2dd0050dd",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f25d898f269eda387659acfd4a1274ee17efb14141af498087c3a2912bdb26e8",
+    "sectionSHA256": "8ea2dd0050ddec2a698970dfdd84d88e1fac5ba566ba707552d7670254de1ae9",
+    "claim": "donor-a0e52781dccc51881b439b5f"
+  },
+  {
+    "candidate": "cand-89a315331c7251dcca60f3e1",
+    "character": "竹",
+    "reference": "wikt-origin-92810007-1875eb6c0617",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7346c446de76b02ae41e8821ce5fa8c2a3be8f19b68d65073bb93b2bf654b94f",
+    "sectionSHA256": "1875eb6c0617a0251b519814a7b2da817255e3cb48483b3b4136b80726851c60",
+    "claim": "donor-89a315331c7251dcca60f3e1"
+  },
+  {
+    "candidate": "cand-b49d4549abe212e4ef1a07b3",
+    "character": "米",
+    "reference": "wikt-origin-93544920-3e5cb97d9270",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f8a8556d40e7ce3f013495939f2796e2e03320d685b4696e32722a211693f1b7",
+    "sectionSHA256": "3e5cb97d9270979ab0cf371b6992023e14fd7d0a31b67281ae9169fac798c37a",
+    "claim": "donor-b49d4549abe212e4ef1a07b3"
+  },
+  {
+    "candidate": "cand-5da16b71d00eb16e06de1ca4",
+    "character": "糸",
+    "reference": "wikt-origin-93764053-34e95d80f66f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ec2b6a0c75a53ac1bffb0aa5ff33daba30f9b5de7b494874a3e21258b1341474",
+    "sectionSHA256": "34e95d80f66f56b67bb5b1bd1b20247605f4eeef01df7c7a5e2f3b4f95d1f940",
+    "claim": "donor-5da16b71d00eb16e06de1ca4"
+  },
+  {
+    "candidate": "cand-eb6c3e238388524bcb678ef5",
+    "character": "牛",
+    "reference": "wikt-origin-92691725-659feee1347c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b427924eddfeaa9daaf43df11c291326cd19c89d5c25c38844238d203508f246",
+    "sectionSHA256": "659feee1347c992b2b53fa8bfa16dfac72c0dfbdbd07cb77f0789c516aa1c389",
+    "claim": "donor-eb6c3e238388524bcb678ef5"
+  },
+  {
+    "candidate": "cand-e29d377e6eaaec06ee0c36b3",
+    "character": "羊",
+    "reference": "wikt-origin-92536807-15b20d84df33",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4855984c85c2f558e50dda21dcc212783940cf402f2457ee7afee9becf5653e7",
+    "sectionSHA256": "15b20d84df331b4a480e8ea953879a259aad06ba22a970ea29ef4f909a6261a2",
+    "claim": "donor-e29d377e6eaaec06ee0c36b3"
+  },
+  {
+    "candidate": "cand-c531ddcb3a22837795e80718",
+    "character": "犬",
+    "reference": "wikt-origin-94100401-e2e243d975ca",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "90f93aafa5730598141cabdfa6ae6d32871955447c9ecd21bfb904789bb70c17",
+    "sectionSHA256": "e2e243d975cabf8b8e5dd03ba011268c3157ba98f7dc342ff199b73dc110c71d",
+    "claim": "donor-c531ddcb3a22837795e80718"
+  },
+  {
+    "candidate": "cand-c5d18e6ffd35216e7c3351cd",
+    "character": "魚",
+    "reference": "wikt-origin-93769916-5a4741b1172b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "680185e067e3650f0b852d2fe505d29af382837e5e3bd3515e2bcdffaf0c912b",
+    "sectionSHA256": "5a4741b1172b0385665511c00cb7b57c89170709bcda78a3079f467d19e18005",
+    "claim": "donor-c5d18e6ffd35216e7c3351cd"
+  },
+  {
+    "candidate": "cand-ff3e5f6b954ab3aa849b5a10",
+    "character": "車",
+    "reference": "wikt-origin-94513764-50e457d1818f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "536e77a734f3cb55044d62f1c5aeb85dff44c9c497732c2c8ed43c3675403484",
+    "sectionSHA256": "50e457d1818fdc6d7dde12b01d796b94e83e22d6d3141215625803c0b32d1a58",
+    "claim": "donor-ff3e5f6b954ab3aa849b5a10"
+  },
+  {
+    "candidate": "cand-cba44a1c955784e194a83dca",
+    "character": "舟",
+    "reference": "wikt-origin-93443726-4739a664fc37",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1c87169dcf78ac722bd27b09df94b0941f63d6eb8d9160bdf42a11e17d92af88",
+    "sectionSHA256": "4739a664fc37384f42340dd9e163a79b5b07bb226511e45ff57e824b08c223d3",
+    "claim": "donor-cba44a1c955784e194a83dca"
+  },
+  {
+    "candidate": "cand-96bf7263bffdfaa67b14fd7a",
+    "character": "門",
+    "reference": "wikt-origin-94513836-f427e70de322",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c162d82a74d79a4398a6a5583c1d6c9a8ece3e648178b16042fe141dbbb7c57e",
+    "sectionSHA256": "f427e70de322bfae7f5a4783fd57cb7dae196889d0b7d49ece363031f2fc29f4",
+    "claim": "donor-96bf7263bffdfaa67b14fd7a"
+  },
+  {
+    "candidate": "cand-f4e8c5687484fad6151d3db5",
+    "character": "刀",
+    "reference": "wikt-origin-93753295-beb7323767b0",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "33eb2baa664222c182f599f403a6985f10c3b522833456e744883eade4a6aea4",
+    "sectionSHA256": "beb7323767b0b016f39bb9c1aee6195ac87e183f9384f3f1a47c45966affbebb",
+    "claim": "donor-f4e8c5687484fad6151d3db5"
+  },
+  {
+    "candidate": "cand-eb42a20e18f7819e8cf75c4c",
+    "character": "弓",
+    "reference": "wikt-origin-93473994-1161c81814d8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7a34441fcfe335f56644d86c99906c3a0d0fbaae96a08e3148455143c8949115",
+    "sectionSHA256": "1161c81814d81adb1094d3c4a4de4e97be9c25388ee0b5cdaaa0a5c30eca5f2c",
+    "claim": "donor-eb42a20e18f7819e8cf75c4c"
+  },
+  {
+    "candidate": "cand-568970033ad3dfa60d27c5be",
+    "character": "肉",
+    "reference": "wikt-origin-93434345-0012ca8d62ee",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "51abf7b0f6190093ab702182f8578c9ffa1f0e052b88f88c80c9696409f18c5f",
+    "sectionSHA256": "0012ca8d62ee1101c7d81d0c63705e1929c2d2d5935b73ac5cdd23eb5e708043",
+    "claim": "donor-568970033ad3dfa60d27c5be"
+  },
+  {
+    "candidate": "cand-48b2a76c9bd1ea25d6ed755b",
+    "character": "心",
+    "reference": "wikt-origin-93404553-e3d41de3dc85",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "e078267979c0efb54bfc497113d82114a76d6c1015c63e369052e557f75b99e2",
+    "sectionSHA256": "e3d41de3dc85f99c8a575e316a27de7c0d5b5c7e7fcc1dec56ffc097de33ab47",
+    "claim": "donor-48b2a76c9bd1ea25d6ed755b"
+  },
+  {
+    "candidate": "cand-48122b43471b53b25b9dd16b",
+    "character": "立",
+    "reference": "wikt-origin-92474276-6206736dd721",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6b722bd3655d4dafef0dffb46d4bc26772ab05b9f43b2d38891a4d5c6e1fb09b",
+    "sectionSHA256": "6206736dd721cb0570216a500df9722e894468ece72037a2e70838139b58f053",
+    "claim": "donor-48122b43471b53b25b9dd16b"
+  },
+  {
+    "candidate": "cand-3b7484ca193155a85f5216e1",
+    "character": "高",
+    "reference": "wikt-origin-93421465-2f83fadb2863",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4e11b0d0b77618a459db5d70493eaef1798279af7a6be2ee0a952dc2dff60e13",
+    "sectionSHA256": "2f83fadb2863289655b8d4714251c64c84c22a16229579232c6fdbc0418e38b3",
+    "claim": "donor-3b7484ca193155a85f5216e1"
+  },
+  {
+    "candidate": "cand-96e4e90111bcce94fbc43c2e",
+    "character": "長",
+    "reference": "wikt-origin-93436916-b4a41c495f4b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6c6d0a27659a827738c270e9ea319072e12a2eb96bd82cd561e06bf4890e59a9",
+    "sectionSHA256": "b4a41c495f4b7d226590751c7a666d4c5aad262019626c132bd6aefe7f54ac83",
+    "claim": "donor-96e4e90111bcce94fbc43c2e"
+  },
+  {
+    "candidate": "cand-fec5d10c1a46eb1adefc75d1",
+    "character": "上",
+    "reference": "wikt-origin-93626463-50f65c175e26",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f1d1feee5c9599f6c1c3586774a51a1836f7e3aa56e90f64eae630587df510e2",
+    "sectionSHA256": "50f65c175e2694954c4dcfda1f5c44381fb870f9312abd8f04fabacc07ed481e",
+    "claim": "donor-fec5d10c1a46eb1adefc75d1"
+  },
+  {
+    "candidate": "cand-779ecf7d365625e2caf35e16",
+    "character": "下",
+    "reference": "wikt-origin-93626471-8f4d984bc81b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2c7340b7b453f0536b85194e93e5cc5fad1c3eba93478fcb043bac1e00341013",
+    "sectionSHA256": "8f4d984bc81b513f1c830c5ee113269794eb8cdd539fe7174ca4cf05f72a548c",
+    "claim": "donor-779ecf7d365625e2caf35e16"
+  },
+  {
+    "candidate": "cand-46f4c3f6a3b3a6b1cfcb45bb",
+    "character": "一",
+    "reference": "wikt-origin-93934800-da88aa03f856",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "14484a6f1aa4868fb05c77e57cf20debe6cbd5638dee250e4e826da9e1c5a3d3",
+    "sectionSHA256": "da88aa03f85689a9482b8c1cd60f2c62836d0a8432f13cfe0107b43d72014463",
+    "claim": "donor-46f4c3f6a3b3a6b1cfcb45bb"
+  },
+  {
+    "candidate": "cand-36077b453d5f4fa4de11bda3",
+    "character": "二",
+    "reference": "wikt-origin-93665649-5f1ca94ccf34",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4f5d8fd297cc770616dfd4c01d762aabc00555213016f06c16546ee0a63853d7",
+    "sectionSHA256": "5f1ca94ccf34b7b25a199b634468dbe2d77563121c20b2ce5ccc7e28480ca384",
+    "claim": "donor-36077b453d5f4fa4de11bda3"
+  },
+  {
+    "candidate": "cand-27d2281ef227ab2dbac56c2a",
+    "character": "三",
+    "reference": "wikt-origin-93531259-f3b33eb20406",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "078ee087d769e1577d5f57e51f6aed3862f4b3778851386aed19e88fc64fa068",
+    "sectionSHA256": "f3b33eb20406f75e8232c8a9ec61271e48783bbb2b9d7ac0fd5b77e9767273b0",
+    "claim": "donor-27d2281ef227ab2dbac56c2a"
+  },
+  {
+    "candidate": "cand-8b064b06315cb0a9dcd64ac1",
+    "character": "末",
+    "reference": "wikt-origin-93469992-1bf2cfd01fc8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b5aea63540d1c2b2e0bb46febda72ca49492c49a0200ee72dc684aee5c54ee3d",
+    "sectionSHA256": "1bf2cfd01fc8a0dd2a9482af8342b7d82a06be8a67346b19d589aef785e4aa8d",
+    "claim": "donor-8b064b06315cb0a9dcd64ac1"
+  },
+  {
+    "candidate": "cand-c69ef20922b47998bc9f7c65",
+    "character": "刃",
+    "reference": "wikt-origin-92724746-f594d7a1c165",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "08dc37f7cc807495cb801efdd29340097ace3d22d13d410ae5cd71a2f6334e53",
+    "sectionSHA256": "f594d7a1c165ae236bb866a87728669304bd582f1541d50c26c22a1d6f6fad88",
+    "claim": "donor-c69ef20922b47998bc9f7c65"
+  },
+  {
+    "candidate": "cand-9445cabffc42b57dbc7a5cd6",
+    "character": "畑",
+    "reference": "wikt-origin-93449098-97c5ead14fbc",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "2906cbb0ba174a7c9e1e9ab35818f1fead8d556f8a47fc970421cc667eb15d67",
+    "sectionSHA256": "97c5ead14fbc577f85f71eee5f5c26e12cf3bf5a89729161f932ed4a25ad416f",
+    "claim": "donor-9445cabffc42b57dbc7a5cd6"
+  },
+  {
+    "candidate": "cand-cc6c71c550f65a87e33be041",
+    "character": "働",
+    "reference": "wikt-origin-92199939-3a4a34ad5bde",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "9681b252bdec5e81384b2b15555c981b1bc6661b4aa44f37db2dd6051851df14",
+    "sectionSHA256": "3a4a34ad5bde5d60d1903dc7bf4a15ae74cf8f0da463c3a7b8429cf9d3a274ba",
+    "claim": "donor-cc6c71c550f65a87e33be041"
+  },
+  {
+    "candidate": "cand-b397cabf056564e66917f1f4",
+    "character": "込",
+    "reference": "wikt-origin-92201914-9d52c5e769ef",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "c7f196a5f4aea91270e48b8645fc1f048f630e70ace6847494c9c53cb98d8a30",
+    "sectionSHA256": "9d52c5e769eff1aa7c9c0c36ea4929186baf825722d4e99135c2dc06d1db163d",
+    "claim": "donor-b397cabf056564e66917f1f4"
+  },
+  {
+    "candidate": "cand-675bdab7bb1593ed5445a782",
+    "character": "出",
+    "reference": "wikt-origin-92491778-2b5db443ef63",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fe578a5b67f680af2df0d54ddc5529cb3a1b64dcbfa96d3dcdc23bb1a063f7a8",
+    "sectionSHA256": "2b5db443ef63d6b40a0a5d89283c62eba4ae5bc11b0f3d78bdee5eec94fc1560",
+    "claim": "donor-675bdab7bb1593ed5445a782"
+  },
+  {
+    "candidate": "cand-e3f62eac5e378d92afdbd74c",
+    "character": "好",
+    "reference": "wikt-origin-93448473-4f01cfa3cf4a",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "169325e2d0bfb8878b3d4fe818added27da916918623bd1af5479b4fe7f91cae",
+    "sectionSHA256": "4f01cfa3cf4af8909748ce94f57e0f7d47e1727df0f0c1604a277b43a9dccdf9",
+    "claim": "donor-e3f62eac5e378d92afdbd74c"
+  },
+  {
+    "candidate": "cand-2309499731cf457fe54014f0",
+    "character": "男",
+    "reference": "wikt-origin-92739176-859d4dfee7f3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "e105c227ce763d104257579cdc5e5bad81e857ffe691e2bbede3a666cb85c69f",
+    "sectionSHA256": "859d4dfee7f33cebdeaab70024182ebea09ad92d7d6260837f748853700b2167",
+    "claim": "donor-2309499731cf457fe54014f0"
+  },
+  {
+    "candidate": "cand-46efd38af62446d47874c3b7",
+    "character": "品",
+    "reference": "wikt-origin-93620773-f1167db163f9",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6600e84b8e2044a95ef1a603cbb6355de2bfe4c856797eb6f13fb57a42286dd9",
+    "sectionSHA256": "f1167db163f93b5d49935c0113826caaddeff636d64057d43610f57378ef6959",
+    "claim": "donor-46efd38af62446d47874c3b7"
+  },
+  {
+    "candidate": "cand-2da9166ca32e6c3fefb0903a",
+    "character": "腕",
+    "reference": "wikt-origin-93606098-4206a8ce44ac",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "86ee08543c317cb6c600309e037984069a90b41d896007231a154f245470e58e",
+    "sectionSHA256": "4206a8ce44ac6ef8c1408774c26e3233f7a181ca903631625c67a8646c8ab97d",
+    "claim": "donor-2da9166ca32e6c3fefb0903a"
+  },
+  {
+    "candidate": "cand-6355e8197d446240b75ddc91",
+    "character": "腹",
+    "reference": "wikt-origin-93600917-a7683a6e107d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2d32322dc612264ae4765cbdfdc405509ee7960a2e30a9dd7c6ba4f583dec41b",
+    "sectionSHA256": "a7683a6e107dede752a783ae7325c68acc78ca82e6f788584f99e35f5808a044",
+    "claim": "donor-6355e8197d446240b75ddc91"
+  },
+  {
+    "candidate": "cand-d5046d02ac120e54fde629c8",
+    "character": "肺",
+    "reference": "wikt-origin-93384308-37a3dff8d472",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6ab1456ab93ded409531cc8d578554ab83da8f66db979b5aa43bcca12fc217a2",
+    "sectionSHA256": "37a3dff8d472ecd81c38deb208a9c5a616025290a9557149799d7ac5a607c397",
+    "claim": "donor-d5046d02ac120e54fde629c8"
+  },
+  {
+    "candidate": "cand-ab45fb87c56c0de32aea271f",
+    "character": "肌",
+    "reference": "wikt-origin-93443704-7eae76211a61",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0ba6f889d2b84d81f909ddbcb949d35ea456cb9cf4e556b7cbcda2ae4de7a5a9",
+    "sectionSHA256": "7eae76211a610725ceda483b50b09597e5833fb87ada862441fe1e291800079b",
+    "claim": "donor-ab45fb87c56c0de32aea271f"
+  },
+  {
+    "candidate": "cand-e627ef97818b01104da7ad5a",
+    "character": "胃",
+    "reference": "wikt-origin-92754596-2458903a96b3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1c798ea5e738978e6d1f300a2366b2af2b39e4bb8e6a31aa2beeb4bb9c5c72a8",
+    "sectionSHA256": "2458903a96b353597564f31960d1d131b8dd133de029a67600808500df207858",
+    "claim": "donor-e627ef97818b01104da7ad5a"
+  },
+  {
+    "candidate": "cand-cfd9892d59ded81bafce96e6",
+    "character": "尖",
+    "reference": "wikt-origin-93447945-45f9cf69b581",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0ee37efa278a1f98b0629211a7223ade33ba2a37b872185250e361e9ea1132a8",
+    "sectionSHA256": "45f9cf69b5810d8df300c46cd6a568bdae2663b65a35d8bedc7e4bffd5ff8633",
+    "claim": "donor-cfd9892d59ded81bafce96e6"
+  },
+  {
+    "candidate": "cand-7fc012d5a16682ae94ddb968",
+    "character": "炎",
+    "reference": "wikt-origin-92161935-c5a5a8f8366f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "09ec4b34baa360545fd23a0ec1dfd31fee74277ae2bfa271693a528db8c77f29",
+    "sectionSHA256": "c5a5a8f8366f4577912050848f36e78a0ed20400aef4de4c6ef0ec1e167baadf",
+    "claim": "donor-7fc012d5a16682ae94ddb968"
+  },
+  {
+    "candidate": "cand-aac04c16bd324b274ebc67af",
+    "character": "回",
+    "reference": "wikt-origin-92684097-709792afe926",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ae6f1e196d3492d3716204d8ad37762d2e29379eca5453af250640930f273d93",
+    "sectionSHA256": "709792afe92674d8d6a744ccdb9f9e842b46658010c6890b33984f534752e334",
+    "claim": "donor-aac04c16bd324b274ebc67af"
+  },
+  {
+    "candidate": "cand-134228a46e2d961b430df328",
+    "character": "囚",
+    "reference": "wikt-origin-93448317-a770a29189b0",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9bdae75f7cff2dc228153c45510167993464c80de9038833aec9ac0f368b8a99",
+    "sectionSHA256": "a770a29189b014cd6c15a40f8c43a4883690124006f54af61b23c03332f1a4b7",
+    "claim": "donor-134228a46e2d961b430df328"
+  },
+  {
+    "candidate": "cand-28954b558885ff741ae6d166",
+    "character": "吠",
+    "reference": "wikt-origin-91811867-025deca9fd36",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f1e1f1441d7589f75f82cd97010886f8d9598a43a674f4ae489f615af169f17e",
+    "sectionSHA256": "025deca9fd36a06a3a9957687c5e6b23601a77be34ec3a00e62f50225e8a062d",
+    "claim": "donor-28954b558885ff741ae6d166"
+  },
+  {
+    "candidate": "cand-8bbf6cfc802d73989db8d4cc",
+    "character": "鳴",
+    "reference": "wikt-origin-87588760-2bce8d7ec21d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9f3077670f62c3c6364b03e1656500b67334c36e097dddf923c196a8d2df7fe4",
+    "sectionSHA256": "2bce8d7ec21dda92bcf5aa02238b0abc427a12173bc475f010b6592502fcee9b",
+    "claim": "donor-8bbf6cfc802d73989db8d4cc"
+  },
+  {
+    "candidate": "cand-63caf949569489e0c3e3322b",
+    "character": "初",
+    "reference": "wikt-origin-92199988-1042c44b2444",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "11d9b74038b918716f7bde4719d5d904d7f3be508ad4599fe2beedbd3e3cbc20",
+    "sectionSHA256": "1042c44b2444ebbad886eb94479c35d5313f7392afa265631505fea7d3f495b4",
+    "claim": "donor-63caf949569489e0c3e3322b"
+  },
+  {
+    "candidate": "cand-13688470f7da8dfd5b796410",
+    "character": "取",
+    "reference": "wikt-origin-93429888-99694b87c63f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "74520a969f76e05680a714d4e3296690cdf1e0bf80c51f667c7be8be9f1ea4db",
+    "sectionSHA256": "99694b87c63f19a98105071e210d95e8a6e9f2b03bc5e69f9ca1f1beac3414ac",
+    "claim": "donor-13688470f7da8dfd5b796410"
+  },
+  {
+    "candidate": "cand-bae4e853f8051360b06d1b09",
+    "character": "分",
+    "reference": "wikt-origin-92695569-f63665d588ac",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "723d9319ceed4baba1a193123658b1e09939d5d4cac7dc729c5f1ab1208df61d",
+    "sectionSHA256": "f63665d588ac9fddd76281be383518360089f838afd4c98e1d63a640a4a267b1",
+    "claim": "donor-bae4e853f8051360b06d1b09"
+  },
+  {
+    "candidate": "cand-5f4ccee07c70b81a3b7681b3",
+    "character": "赤",
+    "reference": "wikt-origin-93934987-84b2f297944f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f88816c5dacba9cd0c4363623af5883130e99e6ef5f7115d9fa1db9899d95245",
+    "sectionSHA256": "84b2f297944fe87748dec08f75ed97b3e72c99f42108b9ac775a2a6d7ccac656",
+    "claim": "donor-5f4ccee07c70b81a3b7681b3"
+  },
+  {
+    "candidate": "cand-e1ad22411f517aed0043dbe3",
+    "character": "走",
+    "reference": "wikt-origin-91979180-b6fc88833f15",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0d32947f3c275e46c082132c421fefac046f145255c089771957d1e3e03e088f",
+    "sectionSHA256": "b6fc88833f153da952dab07097e6e5e3baa72f392cd65e342763c85164d3f2cd",
+    "claim": "donor-e1ad22411f517aed0043dbe3"
+  },
+  {
+    "candidate": "cand-92624b91892df55faa2692f4",
+    "character": "止",
+    "reference": "wikt-origin-93297076-32fa068ac0bd",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "17de28d6a3d52fdd7311c740496deb98d7b255cb6e0d351cb6750d987b6fe17b",
+    "sectionSHA256": "32fa068ac0bd5976051a45f37d1ddd819f0d84f59b2a8d47d648c5d7c12209e9",
+    "claim": "donor-92624b91892df55faa2692f4"
+  },
+  {
+    "candidate": "cand-125136badad726d68ee28c1c",
+    "character": "並",
+    "reference": "wikt-origin-93628973-55d7105e1e4b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "55bae3af1310e6c67714a2b86a0b45aa5896b076d0b5914dfd4682ce3a23e437",
+    "sectionSHA256": "55d7105e1e4b58459191634fc8655f9f65b4a08b92f83911ced552ac7557a91d",
+    "claim": "donor-125136badad726d68ee28c1c"
+  },
+  {
+    "candidate": "cand-359cc8a8a4a7fdf7111c7370",
+    "character": "父",
+    "reference": "wikt-origin-93807524-1ef9bddbb6cf",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7b85d1d62c830d9fe3bc41e19c4b1937a1ca1f790b34b6b14a96587a836238f3",
+    "sectionSHA256": "1ef9bddbb6cf2d811f8ea97f2d6d32ad4be8a2460574154472fb0e9b2e99b687",
+    "claim": "donor-359cc8a8a4a7fdf7111c7370"
+  },
+  {
+    "candidate": "cand-5fa314521484583336e40bd4",
+    "character": "母",
+    "reference": "wikt-origin-93778250-67da09479b73",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "cbc7517974a90193cfd4abfddbcb3ee1b40d8abc8d70caa00a10a5ff2ebbbfd8",
+    "sectionSHA256": "67da09479b731ed2089e709d965d008f55a6bdaf23da9bd29adee002e39a8110",
+    "claim": "donor-5fa314521484583336e40bd4"
+  },
+  {
+    "candidate": "cand-59bc42a9b74dc3fc2ade693d",
+    "character": "欠",
+    "reference": "wikt-origin-89922818-7ed127cb33e5",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a0887a7dbdd279df309a002d688dfb840acf5028e39846d86fee4ec80ec928b4",
+    "sectionSHA256": "7ed127cb33e50bfa2f50cf1fc6da4f66da02a54d3848063929be339f183b35b7",
+    "claim": "donor-59bc42a9b74dc3fc2ade693d"
+  },
+  {
+    "candidate": "cand-970e5f42b4956124f44f0f6c",
+    "character": "臣",
+    "reference": "wikt-origin-92201464-15fad151ad8b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ef7043d7ae9c9dc9b7dd49cde5df1ee13a8ef17d0ee92c47a27da73c7313b21c",
+    "sectionSHA256": "15fad151ad8b16e23c98c90e8c1e283ecb74740f2cf88f70ceb1b0ce44c7c797",
+    "claim": "donor-970e5f42b4956124f44f0f6c"
+  },
+  {
+    "candidate": "cand-7e1e8ceb1104db5719386229",
+    "character": "自",
+    "reference": "wikt-origin-92691450-f0e9d90ccd60",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c1f038ecc2631d711680ba9ac6bcff50dab64b4bbfc256ac7227e13dadca0d4f",
+    "sectionSHA256": "f0e9d90ccd60f81a90c66cec9f8d183e47edf6a41d8336c22bcc93695662051e",
+    "claim": "donor-7e1e8ceb1104db5719386229"
+  },
+  {
+    "candidate": "cand-fd2da70999e2ff98a16c1255",
+    "character": "面",
+    "reference": "wikt-origin-92937046-255afd2a0c2f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "622942812e330c6304e883fbeb9d375f42049962f14d504df11a5fb47bcd3687",
+    "sectionSHA256": "255afd2a0c2f9b5cb172fe54727bbf3b67a5c325f24a3a77f2350fc80859f16d",
+    "claim": "donor-fd2da70999e2ff98a16c1255"
+  },
+  {
+    "candidate": "cand-44d21fefc73ef6beb0876c88",
+    "character": "鼻",
+    "reference": "wikt-origin-93606002-981f932f611e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c257d5a53ab8c80bc4995c53d3416e86790af227db6c61f429f12eedb71a4349",
+    "sectionSHA256": "981f932f611e8ab8d9aaef84a49ccd965bd9e2f8914fed69484e1ac1a790281c",
+    "claim": "donor-44d21fefc73ef6beb0876c88"
+  },
+  {
+    "candidate": "cand-1bde753e94a9203e11c2dd7e",
+    "character": "見",
+    "reference": "wikt-origin-92201717-04c0b8f8111e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "99b4926ede2cfcdc3e618d950b7ea029acba9f69f3e93682ad456146611f8a54",
+    "sectionSHA256": "04c0b8f8111e63fe1fcb270857a7930c3868b449c5469c323e91048ece584bc3",
+    "claim": "donor-1bde753e94a9203e11c2dd7e"
+  },
+  {
+    "candidate": "cand-510a509b46026d322f52ce7e",
+    "character": "禾",
+    "reference": "wikt-origin-93556123-c9b0e5c36e78",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "22e6cbd49428508267aca243d3099348546bbc1be9252e50b0c155214e833926",
+    "sectionSHA256": "c9b0e5c36e7812d1e4c2d8991b07dbc7fd6f7e897ec3ca88351b7fb3218aa349",
+    "claim": "donor-510a509b46026d322f52ce7e"
+  },
+  {
+    "candidate": "cand-4e602d1b094b9191e9705a02",
+    "character": "衣",
+    "reference": "wikt-origin-92775687-d415d7f6ed5f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7dca01ab9e6fe375ac17db1e55f87637a5d5d7793e70bcff1dc60d998c921307",
+    "sectionSHA256": "d415d7f6ed5f3d905704b941e50771a754596e9bfcbde35c64724d5ff3ea0537",
+    "claim": "donor-4e602d1b094b9191e9705a02"
+  },
+  {
+    "candidate": "cand-3ccce25eb3b2f4209e8503cd",
+    "character": "示",
+    "reference": "wikt-origin-93594705-fc4a95e9c74b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "56400fc5b20bdb8b1ca6ddf654790924cca3d9dca6dde058cfd05fd2d41a4b46",
+    "sectionSHA256": "fc4a95e9c74b10d894f2eddc6b54d57eafc2f8bd463341fa88b8da5cd17414a7",
+    "claim": "donor-3ccce25eb3b2f4209e8503cd"
+  },
+  {
+    "candidate": "cand-25d78214527061f3b7c05475",
+    "character": "冊",
+    "reference": "wikt-origin-87963527-c1ef21034e27",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "239bc1cc3b1ded3cdbd8dd1067aec2c8d413275bb2681a132b063cef214913c3",
+    "sectionSHA256": "c1ef21034e27a48d328641ce2187af68fcf21e0d3e13e5b2dccaeee946b0c16e",
+    "claim": "donor-25d78214527061f3b7c05475"
+  },
+  {
+    "candidate": "cand-2a0b855fea5fd31d6b4ef753",
+    "character": "鹿",
+    "reference": "wikt-origin-92720584-f2d2109e8830",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "02d7e5d2c28d317a26b5384b0c7df09c0640b3512ef412026f606836ce3f252e",
+    "sectionSHA256": "f2d2109e88304fa18362361e30de051c9722a58f8c6e0eb6227fdb1bf57bfa03",
+    "claim": "donor-2a0b855fea5fd31d6b4ef753"
+  },
+  {
+    "candidate": "cand-b4bdeeda98257e32a6c6d065",
+    "character": "豕",
+    "reference": "wikt-origin-91363336-56ada3b61372",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a2966fbb21b5cd0e07387764a43f152d52d5c6913ee61891be097e6e506d9d79",
+    "sectionSHA256": "56ada3b61372f279cdcac4a97c2c3d93c2cce807953dc98d9e79671518cfe2f8",
+    "claim": "donor-b4bdeeda98257e32a6c6d065"
+  },
+  {
+    "candidate": "cand-93515cd4c68a9b12e42911c3",
+    "character": "豚",
+    "reference": "wikt-origin-92351896-a72ca1b515ff",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f80a97f9b4a98fa850f39747c9fd86a9976cb23524865aa380762a989e3f79f6",
+    "sectionSHA256": "a72ca1b515ff71e049610939385606f370e165702457730ce2c12071ec26ef5f",
+    "claim": "donor-93515cd4c68a9b12e42911c3"
+  },
+  {
+    "candidate": "cand-3600da6d83a75565757a88cc",
+    "character": "象",
+    "reference": "wikt-origin-93556891-5617776d729d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "50c7a5947a0a2afe6daaa37339ffa3b4997f633979c088ba3ceab76b8990a214",
+    "sectionSHA256": "5617776d729df658e6baefb6307e64d19b61f874f9fb1a5273f7f81f68e01ce0",
+    "claim": "donor-3600da6d83a75565757a88cc"
+  },
+  {
+    "candidate": "cand-d673386a39000fbec471184a",
+    "character": "虎",
+    "reference": "wikt-origin-92378812-7a7830b63702",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "d4d14f0f3f11e84e46fe74d9c8c020b514acc6b1bfe462ffa71ffca5f53c1d8d",
+    "sectionSHA256": "7a7830b63702b05e3030f72a8b4acdbe4dd4e3f2669d2747c46d2e2e5caf4ee3",
+    "claim": "donor-d673386a39000fbec471184a"
+  },
+  {
+    "candidate": "cand-3a70024c07ee3f71764783ab",
+    "character": "爪",
+    "reference": "wikt-origin-93659367-b221bb39972c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a4c98e2240dcbfe604372f1c879136d4b2ddb9e749280a498635ffcf70a14977",
+    "sectionSHA256": "b221bb39972c2070a50c984aeebdf3766d0e6b6735966232c4faf26efcc79101",
+    "claim": "donor-3a70024c07ee3f71764783ab"
+  },
+  {
+    "candidate": "cand-e19b0572d9240e1916d240cf",
+    "character": "角",
+    "reference": "wikt-origin-93647839-35430946e206",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b0a2d0bb400abfa8c164510f5f502e759bb8fd7ab6540b76871f7b0ffd464634",
+    "sectionSHA256": "35430946e206c55163fca88d0fc69f620b5228cde0e70fbd437a4a0d67f73683",
+    "claim": "donor-e19b0572d9240e1916d240cf"
+  },
+  {
+    "candidate": "cand-84c02baf9ca53e2a72316ff1",
+    "character": "羽",
+    "reference": "wikt-origin-92490451-167a97b3f31c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "3f94d0f67ebfee38aa384791cb5be31feec4b9eea45c2a267d5d5cd92d2cc1d4",
+    "sectionSHA256": "167a97b3f31c485beca639e6e2edac1d943e3beb072f8226ea2f39446467a86e",
+    "claim": "donor-84c02baf9ca53e2a72316ff1"
+  },
+  {
+    "candidate": "cand-5c86cab875758810b171eea8",
+    "character": "矢",
+    "reference": "wikt-origin-93764048-29aea29bb59c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "433599e547be1c2983e46cbe8980a59fad055c71dad08c5159820502be5aa5b5",
+    "sectionSHA256": "29aea29bb59caf172b4871bd7e127735c7c147186d59e9d45b3f3faa65572496",
+    "claim": "donor-5c86cab875758810b171eea8"
+  },
+  {
+    "candidate": "cand-80af31cf0d1f2cfc88433c5f",
+    "character": "缶",
+    "reference": "wikt-origin-93660939-59d5a9bfa7c1",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4410de3afb5b5f78143a7bd4ece1ddec92b475a0c2cf00298ab390e08347887b",
+    "sectionSHA256": "59d5a9bfa7c11a3f6a683211253f3bb109adf430ec60793f4cca007888351f78",
+    "claim": "donor-80af31cf0d1f2cfc88433c5f"
+  },
+  {
+    "candidate": "cand-c2250e03f5df4e55c4d1a48d",
+    "character": "皿",
+    "reference": "wikt-origin-93648103-938b90196667",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8263cda317814213cfd7fe0b6fca852bd219dc7fd9a79dca913f4d443482168f",
+    "sectionSHA256": "938b9019666747c3ff794c5fcf136c07f71f7c8f484789c91160ac3aa1730f10",
+    "claim": "donor-c2250e03f5df4e55c4d1a48d"
+  },
+  {
+    "candidate": "cand-a1193fe44ab414bd30a979c2",
+    "character": "玉",
+    "reference": "wikt-origin-92201083-b06b4630fc09",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "690c39a3d1600e51aeba5c20670d524a8fdc0ca3d3d72110649276e47cb50959",
+    "sectionSHA256": "b06b4630fc09c184e7e3a95c39ae6495ae601a9a923822f10d55d6feec33f142",
+    "claim": "donor-a1193fe44ab414bd30a979c2"
+  },
+  {
+    "candidate": "cand-2ed4a080d2a7e4709a2e8f81",
+    "character": "血",
+    "reference": "wikt-origin-93374847-9ecc724c85ba",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "13ceaf58144b7082e15a2adac2fc09e5f3cf375e0fddee99d2a206e319f6b643",
+    "sectionSHA256": "9ecc724c85bac51da8e298340f0f267c8e726bec2c4ffaa5c4ff9fb3b11d73cf",
+    "claim": "donor-2ed4a080d2a7e4709a2e8f81"
+  },
+  {
+    "candidate": "cand-8d966b2dd5eb3172a7a6c40e",
+    "character": "串",
+    "reference": "wikt-origin-93629034-5f2d0481d4dd",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6d73b6042042a60bd228720cde1efc98ddc122ceccc1001b95e663d0081b8fb3",
+    "sectionSHA256": "5f2d0481d4dd7c4c404c35f9f44dae711006606dc69e9ca7fbea3d637632e02b",
+    "claim": "donor-8d966b2dd5eb3172a7a6c40e"
+  },
+  {
+    "candidate": "cand-a8c4db0400506a5fe2b57069",
+    "character": "女",
+    "reference": "wikt-origin-92739223-77ee17a0ca33",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8ce3b1925de4509090467ed2608a25a7fbd594b3691e925e43164b2a85b5ed67",
+    "sectionSHA256": "77ee17a0ca33e817978b34a754dcc78799eff86a505dc08011789423b96c0f1a",
+    "claim": "donor-a8c4db0400506a5fe2b57069"
+  },
+  {
+    "candidate": "cand-ddd404b339b952dc8d98136f",
+    "character": "子",
+    "reference": "wikt-origin-93763142-20baf7f5594b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9de3225dc8923e122b1bd5f72795a34a121fc22d1ee097bfa10752312e36b6fb",
+    "sectionSHA256": "20baf7f5594b159742b7804cf34ed0e0f94b5209e8f39188734f05e2e15e1d6a",
+    "claim": "donor-ddd404b339b952dc8d98136f"
+  },
+  {
+    "candidate": "cand-d1547aee4a308e5a648ccb5b",
+    "character": "交",
+    "reference": "wikt-origin-93807539-2aa8e2de496b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2ae9eb1f8064abd6678f8ac77ec0a203c77a87c57fd28ecaad87fe6aa08d9580",
+    "sectionSHA256": "2aa8e2de496be8d8efeb81844dd2dcc06308d741434c7d21d8174248f05d9097",
+    "claim": "donor-d1547aee4a308e5a648ccb5b"
+  },
+  {
+    "candidate": "cand-1add5c8d3829e9866acbf184",
+    "character": "京",
+    "reference": "wikt-origin-93756604-dc614aa8199b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "e1f18ba2fd6c6c6c5ddbc805771dce0805b980734b4d51fe8993f4002d50ffd0",
+    "sectionSHA256": "dc614aa8199b5f9d409f084d566c74554c8a03044666cb8bbe7fce29958f2ad8",
+    "claim": "donor-1add5c8d3829e9866acbf184"
+  },
+  {
+    "candidate": "cand-bec49cc02874d6c64d6b0bb7",
+    "character": "乳",
+    "reference": "wikt-origin-93664179-8bb56ac70194",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7bec0dfba7d88cd52fb50a25ad24f30cf87bb1e6dd251d0d679d7489bce4c6e5",
+    "sectionSHA256": "8bb56ac701940bf40e62f093c61946972ca10fabb1af0617e0d7e9127dc90604",
+    "claim": "donor-bec49cc02874d6c64d6b0bb7"
+  },
+  {
+    "candidate": "cand-4f1e528a182b703de0344008",
+    "character": "元",
+    "reference": "wikt-origin-93383877-b5292c2359b4",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ef68dbf96503616542ff8623a1015425f888ed21cf0326ec608debc889642b14",
+    "sectionSHA256": "b5292c2359b41f81d82a9275712cab8f599a2f95b146b69f67fbe2ef2914634e",
+    "claim": "donor-4f1e528a182b703de0344008"
+  },
+  {
+    "candidate": "cand-8d261509bf110a157f9d1aa5",
+    "character": "果",
+    "reference": "wikt-origin-93477201-1be03af9be5a",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "823e78bd466d2e723ffc9becfb7ddbd7672ebd68e9f37183aceac5cf6c965310",
+    "sectionSHA256": "1be03af9be5a04581080b76f121ea1bb911a1125fc2cfc2c4e606617c02f8792",
+    "claim": "donor-8d261509bf110a157f9d1aa5"
+  },
+  {
+    "candidate": "cand-e81fa69d263e8e7b4fad2647",
+    "character": "毛",
+    "reference": "wikt-origin-93659552-7b445bf523ee",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f537b2c99e63a33883bbd941c447c5b5ab03d543627284e1b19a46559c5b8728",
+    "sectionSHA256": "7b445bf523ee93cefcf9a3cde79c8b74057bb5516bd1416a9c444b4c73e001bf",
+    "claim": "donor-e81fa69d263e8e7b4fad2647"
+  },
+  {
+    "candidate": "cand-76c8837ec5de8dcaa009caa6",
+    "character": "身",
+    "reference": "wikt-origin-92201888-86fef63c0a85",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2ea78b2ac24b78a3e1c4743ce40b9e156525c2d47f394e763953948811a24aa5",
+    "sectionSHA256": "86fef63c0a851aca9775771af9c8b9fd357838f8fd8605e760a8169a06a5c113",
+    "claim": "donor-76c8837ec5de8dcaa009caa6"
+  },
+  {
+    "candidate": "cand-afec1291320d88c66747e55d",
+    "character": "皮",
+    "reference": "wikt-origin-93363725-1c4de1adfb29",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "33891125615be295c165f2470daebf006a9be39d54e434cf5d2984c514ddd641",
+    "sectionSHA256": "1c4de1adfb293ea1451bd17cd18454017136f1cdc28c63e1196ed8a23eb13d96",
+    "claim": "donor-afec1291320d88c66747e55d"
+  },
+  {
+    "candidate": "cand-ae45c8f908421d31a35be0be",
+    "character": "革",
+    "reference": "wikt-origin-93647842-05fae22c9b95",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "13852aee156ac3cac484aca99da609c9319a354c659a6ed140c42f9edab87039",
+    "sectionSHA256": "05fae22c9b958c3f5654d6007a6087a707f1412912567f660ffaa1403f722a42",
+    "claim": "donor-ae45c8f908421d31a35be0be"
+  },
+  {
+    "candidate": "cand-ca9de146d8fb44140009affc",
+    "character": "行",
+    "reference": "wikt-origin-92642053-e740ed13df0d",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "81e1130dcdb9a54e6481b740871fee44c6cad5f5d94d3700f9e9ee30e1ccc903",
+    "sectionSHA256": "e740ed13df0dc2e085d41f3df4f01f6c5b1a4d35d218433817832e0777be24ec",
+    "claim": "donor-ca9de146d8fb44140009affc"
+  },
+  {
+    "candidate": "cand-9e2fb957cf324e23d190c170",
+    "character": "飛",
+    "reference": "wikt-origin-92678306-7a7dd059a747",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "38b06d0be663fa5605152537fb5bc5962e50dde8bcc35a8ac9e0e9805038e816",
+    "sectionSHA256": "7a7dd059a747e65df6acf1dd9d3ed1f25001443152babbb0fae1bfbc0720c296",
+    "claim": "donor-9e2fb957cf324e23d190c170"
+  },
+  {
+    "candidate": "cand-52db2e0e426ca68166389855",
+    "character": "能",
+    "reference": "wikt-origin-93546319-db35b7df3da1",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2a9b04de245efc213ea8e3c62202b8d8aa6c99a5cd8cd2c28e9474536677128b",
+    "sectionSHA256": "db35b7df3da16adf5391c011a71be2160a8577547945829bd24940fddbb48929",
+    "claim": "donor-52db2e0e426ca68166389855"
+  },
+  {
+    "candidate": "cand-dfadd70ef0ae9a46b6875faa",
+    "character": "夕",
+    "reference": "wikt-origin-92200257-086b90651b3b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1a8cdf92138928f2845da01d6be89201d98be81fa2f52940caefc8a70d1aaa3c",
+    "sectionSHA256": "086b90651b3b238b0f986ea8a5ac868fd6781e1904a45ccca98af61d061d5e39",
+    "claim": "donor-dfadd70ef0ae9a46b6875faa"
+  },
+  {
+    "candidate": "cand-6fa2924aa1648c65690a8915",
+    "character": "州",
+    "reference": "wikt-origin-92200382-7150048aa756",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "800fac18e8c009bd0111b19d5de0d2e1885ef800f1f6fa2ba9e320c53a089da0",
+    "sectionSHA256": "7150048aa756948c0d2a7405d30a518888bd74438f3c6c6e9ba000dddbfa6a6c",
+    "claim": "donor-6fa2924aa1648c65690a8915"
+  },
+  {
+    "candidate": "cand-458412f2410fad4cd5807df2",
+    "character": "美",
+    "reference": "wikt-origin-92529984-55e07baf99ec",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "34fe9e4cccac1933f26e7a4c1a34e8af4729a8d1185563453618141164d4b1ce",
+    "sectionSHA256": "55e07baf99ec19028623129d294bc12d02a7dc832ec835b2d48edfe9750ab10d",
+    "claim": "donor-458412f2410fad4cd5807df2"
+  },
+  {
+    "candidate": "cand-be343a16d8025c5f4cdb9296",
+    "character": "巾",
+    "reference": "wikt-origin-92161035-8d43afb83959",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1d0c0f1517413780c40b0ce0ea77959756b7fa166947e83226bbab391e0f4c0c",
+    "sectionSHA256": "8d43afb83959c1732e2e62a1748fe70af77ad8737bf129677eb7339e13eba8c7",
+    "claim": "donor-be343a16d8025c5f4cdb9296"
+  },
+  {
+    "candidate": "cand-70e76bd0dbc0afa1530bd3c4",
+    "character": "桑",
+    "reference": "wikt-origin-92200775-57904a7d6b06",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "68f2e1048e0d3399c82f6d5810472ed3167682a9b9e3cef45117521bc2900e7d",
+    "sectionSHA256": "57904a7d6b06fc9cbc62c374c732c704bd6cc8031b241c96eecdb4bc81ef080c",
+    "claim": "donor-70e76bd0dbc0afa1530bd3c4"
+  },
+  {
+    "candidate": "cand-2c7ba85b8f4633c3ceea659f",
+    "character": "栗",
+    "reference": "wikt-origin-92432576-f56d8a3a24f6",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "5887fa53ed0bba7fcf7c83feca8ca147c6f67a299466747481e48686c95e49e8",
+    "sectionSHA256": "f56d8a3a24f606ca1aa9c25bfea8eea1a4b8d65a5054c6dee5e6f5e90772bbc1",
+    "claim": "donor-2c7ba85b8f4633c3ceea659f"
+  },
+  {
+    "candidate": "cand-25d97d4dd3b9493fcea3e13e",
+    "character": "享",
+    "reference": "wikt-origin-93754743-033fdece235e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9eb7f54227c01b481d92842604e53ebb90f987dc7e4deb5cc5ced77ba5d9bb1a",
+    "sectionSHA256": "033fdece235e90bb8b3dc7f411ddfba28c6b38ae12e4ef5ebb33246c50ff4f4d",
+    "claim": "donor-25d97d4dd3b9493fcea3e13e"
+  },
+  {
+    "candidate": "cand-953bdb644daa453d3be2fadb",
+    "character": "免",
+    "reference": "wikt-origin-92160260-2000bf063b6f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f4020356b325c18c27f299bf8b5fc6744f619ce3bb64322403955e89482d106a",
+    "sectionSHA256": "2000bf063b6f30f8504f4af2bd9e5c75b020289ed97ce344b64b0896403fe5e2",
+    "claim": "donor-953bdb644daa453d3be2fadb"
+  },
+  {
+    "candidate": "cand-a5d1cfa8a5d46245fa49920d",
+    "character": "士",
+    "reference": "wikt-origin-93756827-34b6290a1232",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "791da2c2d2fea4f9b25517ff75b5d92d1d2f5ac4171bfb11a4e041c75c54435e",
+    "sectionSHA256": "34b6290a12321fd05e1cbb0a87bc4e52e18033322adfbd790b13238308091eb0",
+    "claim": "donor-a5d1cfa8a5d46245fa49920d"
+  },
+  {
+    "candidate": "cand-df46199b4c6246fc1d896c6c",
+    "character": "尻",
+    "reference": "wikt-origin-93447953-1d4344d1424e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6f0c574d64614f847c3e57721d17851bc4030da15aa53eca9e192c9cef171e0b",
+    "sectionSHA256": "1d4344d1424e8487209781d5c51d3257878b46fb1d949381a9f23cf1632f8a34",
+    "claim": "donor-df46199b4c6246fc1d896c6c"
+  },
+  {
+    "candidate": "cand-5e1c4f37e9e4fc7148f3872f",
+    "character": "尿",
+    "reference": "wikt-origin-92160982-58b4379df324",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "01f20421d57adb5f7a052f3dac27f4523b81f226cbda471fb1a52ebfcab86550",
+    "sectionSHA256": "58b4379df3240d0cdbf3400f376691ebd1cdb839a12dae34106570f5500826a8",
+    "claim": "donor-5e1c4f37e9e4fc7148f3872f"
+  },
+  {
+    "candidate": "cand-ea37a82c56167eae4d7f2713",
+    "character": "屯",
+    "reference": "wikt-origin-93475815-ade6d5f00255",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c9782fb6dba2c0ac897d4c8f7cd989f0d22a06e19f79a14639d071d95d5f7fba",
+    "sectionSHA256": "ade6d5f00255813ef3a2e0822a86b3c655094b07b94426243ec6e2d1f53bd231",
+    "claim": "donor-ea37a82c56167eae4d7f2713"
+  },
+  {
+    "candidate": "cand-93bc956c01e2cfb1e62dc627",
+    "character": "己",
+    "reference": "wikt-origin-93813320-227809e9f8a8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c5a384e31e7c76e4275f6ccaa71bd320a346e6dd3f16a9463efd984e35ea9e11",
+    "sectionSHA256": "227809e9f8a832637696a2a8d12178f49adb5b3b1c1d1707853f5535f7e9b8e3",
+    "claim": "donor-93bc956c01e2cfb1e62dc627"
+  },
+  {
+    "candidate": "cand-fd7172f9bfcc1f0ff1020f64",
+    "character": "弟",
+    "reference": "wikt-origin-94253206-aed56679c1d7",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "87b30d4f4c37ba09da2fd25b43a5aead41c456aaa0d73956bf91d002fd4de9ad",
+    "sectionSHA256": "aed56679c1d7e452223517efcdb45a2be9f9a97b7dcef0a205dc27487147589e",
+    "claim": "donor-fd7172f9bfcc1f0ff1020f64"
+  },
+  {
+    "candidate": "cand-31bda4c409277cde003c543e",
+    "character": "斗",
+    "reference": "wikt-origin-90013237-3af7b7e33cfd",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4245b595386c0e89efe6f187214580ae07611c211dc8857159fdb669d45cd7e5",
+    "sectionSHA256": "3af7b7e33cfdfe774056bff0949785af503b55a7da5ebd9c0cba38f6b75a24bd",
+    "claim": "donor-31bda4c409277cde003c543e"
+  },
+  {
+    "candidate": "cand-2a7780277653deeeaca1fc1d",
+    "character": "才",
+    "reference": "wikt-origin-92200519-76bc88109552",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "d1432e88afa35f54c0da0f322b97f96ca9b5fdc3e7e57096279d2c6c633b16ac",
+    "sectionSHA256": "76bc8810955267288944158654c73db8f626a47506769210cc59081ea6b357da",
+    "claim": "donor-2a7780277653deeeaca1fc1d"
+  },
+  {
+    "candidate": "cand-f6c592744afab8cfe8ff0011",
+    "character": "未",
+    "reference": "wikt-origin-92200720-643012a62584",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7f613d792af5b8d1dd6f199a3af741b1d9a5d16481e42f76ece569bc6e5743a0",
+    "sectionSHA256": "643012a62584732a686a1e0eef82cb5e67c3e63c2cdf2beafe4272b59e11a0ca",
+    "claim": "donor-f6c592744afab8cfe8ff0011"
+  },
+  {
+    "candidate": "cand-36cf1b3d93b9b8f47f6e26b9",
+    "character": "升",
+    "reference": "wikt-origin-92930290-76a22b4b60d3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6001a1c56266308a8004eeb0d79ca5caede097b1d9c55dd4f2aaacd9c9abbc0c",
+    "sectionSHA256": "76a22b4b60d305d0059c848b57048ebcab521c76b4021c2b0d82a0f20a551d2c",
+    "claim": "donor-36cf1b3d93b9b8f47f6e26b9"
+  },
+  {
+    "candidate": "cand-7f0f776a6a97dae249bb046a",
+    "character": "午",
+    "reference": "wikt-origin-92623713-cd49c021e463",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a7986a6ae8d868ad6dbba3943321be029ed55c12905c5d796120cedcb1c743bc",
+    "sectionSHA256": "cd49c021e4634aa31fa0e5371577b69f3464611469f24c78cd3d128af78dadd7",
+    "claim": "donor-7f0f776a6a97dae249bb046a"
+  },
+  {
+    "candidate": "cand-ade657f4669583a7487f96fc",
+    "character": "又",
+    "reference": "wikt-origin-92982727-c3a30f05bf09",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a81f088b7d3cd892815bdf1f956d691e6b40481f28ffe9662a5137d231965bfb",
+    "sectionSHA256": "c3a30f05bf09fe87e09644d00d994690a27e935f979a66b70eb863e3b82c9e76",
+    "claim": "donor-ade657f4669583a7487f96fc"
+  },
+  {
+    "candidate": "cand-472059720728ab22860853db",
+    "character": "必",
+    "reference": "wikt-origin-92852816-a3dbbf714d43",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "679f96fc954ecf72dc359b1372738f165cecd8f71c203c425b4c11af7ef3eaa0",
+    "sectionSHA256": "a3dbbf714d4300642e309ce866e362ed29e6b196aec4c1a455fc1399c4adfdc1",
+    "claim": "donor-472059720728ab22860853db"
+  },
+  {
+    "candidate": "cand-9cef986fe3ce656f04ab6b9b",
+    "character": "我",
+    "reference": "wikt-origin-93556183-d89c6493d3f6",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9b55bb3c4f3ed5b9ef7f069910adb1b75da03952a309a93910619d52783b124e",
+    "sectionSHA256": "d89c6493d3f6f8f5e0f4ace6848719c1e464525bfb5d9e3cb90592dac2d8d6dd",
+    "claim": "donor-9cef986fe3ce656f04ab6b9b"
+  },
+  {
+    "candidate": "cand-cc0407b150ea7266e8b002d4",
+    "character": "東",
+    "reference": "wikt-origin-93776654-30bec5091a5e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0dd5931abbdd031457a76cd280e5455a3853e906e783979afd5e212640644d65",
+    "sectionSHA256": "30bec5091a5ec3aba9ef2be6a9e5c2a264e75197f88993a9fa466d757a3330a3",
+    "claim": "donor-cc0407b150ea7266e8b002d4"
+  },
+  {
+    "candidate": "cand-90f46ab18d7e7a2fe9f2dc53",
+    "character": "求",
+    "reference": "wikt-origin-92701689-0242064bab56",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ded79007f2306633993e7c98200bdb2b5aacad0be2152011b1d10b77f2055b7e",
+    "sectionSHA256": "0242064bab5600c9dc13e79b0ef193de6a7d4dc2e0eef4a91cc3f5949a192e77",
+    "claim": "donor-90f46ab18d7e7a2fe9f2dc53"
+  },
+  {
+    "candidate": "cand-a5bea964d644e24df3b39564",
+    "character": "無",
+    "reference": "wikt-origin-93737662-d28f289fbec4",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0232b21c08cf43ef844a110fb72cc37a543dc2780d233d145014a77fe5110267",
+    "sectionSHA256": "d28f289fbec46dc8b509ec0079a1c5dba6e553462376e9d51f088fa6c52d70a2",
+    "claim": "donor-a5bea964d644e24df3b39564"
+  },
+  {
+    "candidate": "cand-3f6f931ee401ee377434dcc5",
+    "character": "爵",
+    "reference": "wikt-origin-93444039-065fa3f4e9c8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "0a23d06918a56e56e5c8cdf7d78ec1fff315e757944fac357c1ea9989668d869",
+    "sectionSHA256": "065fa3f4e9c82dff423fc2521ad6d2a186b8d2f6f8e3ce35fc6784fe81513b3c",
+    "claim": "donor-3f6f931ee401ee377434dcc5"
+  },
+  {
+    "candidate": "cand-0c4d8f0e810d78f2f3bfb201",
+    "character": "王",
+    "reference": "wikt-origin-94389091-efcc6b91759e",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ff8c7de0e387ac37627836add3eff61f2e7d38e6063a12f328c1cccf45f4d1bb",
+    "sectionSHA256": "efcc6b91759e10f105aabe273beefd8307d11c206408f708287c641b69e2cc97",
+    "claim": "donor-0c4d8f0e810d78f2f3bfb201"
+  },
+  {
+    "candidate": "cand-f1a31375bf6165bb23b6f642",
+    "character": "瓦",
+    "reference": "wikt-origin-92201102-062e9f25122b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "3f78c26716eea08690e5e69cbe616de4ae67b0eed313da3b84bbeb3156a47020",
+    "sectionSHA256": "062e9f25122b966db8e0a79b6bea917238925b2afbfb252fb5ad39aa3b786e6b",
+    "claim": "donor-f1a31375bf6165bb23b6f642"
+  },
+  {
+    "candidate": "cand-cf681f9b4f942ef4c04631a2",
+    "character": "申",
+    "reference": "wikt-origin-92201108-96fc1d2eb5d2",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9ec7cc4d8f65fe1efe1d5cf0435b856f3b09cd3a5566a55cfa35595e5969373f",
+    "sectionSHA256": "96fc1d2eb5d28d799b6133b571a2fa9ff7cdbba618857d1aae4ddc0055f55b15",
+    "claim": "donor-cf681f9b4f942ef4c04631a2"
+  },
+  {
+    "candidate": "cand-a2a47157ee999d59eab3beee",
+    "character": "盾",
+    "reference": "wikt-origin-92201173-690c1f5bae78",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "5d5c2ff3c9ec5f2e4fc434761ba66da566fb91614b6ca6cbc70954cfb4a53d2b",
+    "sectionSHA256": "690c1f5bae78d28a82440cbdeb8cf1cc6a53acb716309ecbb86c5e51267385a2",
+    "claim": "donor-a2a47157ee999d59eab3beee"
+  },
+  {
+    "candidate": "cand-bab5979c6a4ffeb4bf846f58",
+    "character": "石",
+    "reference": "wikt-origin-92618269-5419ea2e0b15",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "5d0a8761f6ca0f07d67313410d4838e9ba3318a8596c23a85d7d9e807976a510",
+    "sectionSHA256": "5419ea2e0b15b35bc6c020a1c5e0dddb39e1c61c6ca71f5ab1de075c9e72a1f9",
+    "claim": "donor-bab5979c6a4ffeb4bf846f58"
+  },
+  {
+    "candidate": "cand-f277ab66d1e6c9d52bd593f6",
+    "character": "臼",
+    "reference": "wikt-origin-93434475-e8dfcaed9e05",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4e5ddbbe0dd846d3268bd689d65cbf5e52e8f54692df2f02ef12c13e76bc6a66",
+    "sectionSHA256": "e8dfcaed9e0530d07c81441c46da9d3fb4f4b901a261746c0f0e4953cb3d8d0e",
+    "claim": "donor-f277ab66d1e6c9d52bd593f6"
+  },
+  {
+    "candidate": "cand-4df0231c9dc52de90996661a",
+    "character": "虫",
+    "reference": "wikt-origin-92731919-3ffbeba477f2",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ebae315ada5d54603f6ace602612b2517730c633dfd661f1eb83488bc4c73983",
+    "sectionSHA256": "3ffbeba477f20546c070f5605334d37b1dceebdb643611a140e08beed3849fe7",
+    "claim": "donor-4df0231c9dc52de90996661a"
+  },
+  {
+    "candidate": "cand-ad6559e65deaaef1e3bceb99",
+    "character": "衰",
+    "reference": "wikt-origin-93466925-151e616ab8cc",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6be268924f05873334b8f733346e80b497e317969b7f067d9f53b2d80766cd18",
+    "sectionSHA256": "151e616ab8cc881fb13398312f223f71444cd11251b5b7801414a5b15ac29dce",
+    "claim": "donor-ad6559e65deaaef1e3bceb99"
+  },
+  {
+    "candidate": "cand-7d4d1cbb53fda07673e8c9b6",
+    "character": "豆",
+    "reference": "wikt-origin-93428248-5a4a3d3cb237",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "e9a3ba7fd77b02c61aa79961e12cb4c9685d8499f4a98fbf23d84e793b56abb6",
+    "sectionSHA256": "5a4a3d3cb237a5b81d5dd1660fb913c0c27bad06664029dba1bf5a8ba7bf8d63",
+    "claim": "donor-7d4d1cbb53fda07673e8c9b6"
+  },
+  {
+    "candidate": "cand-74ef79f27b1223d86f2535be",
+    "character": "首",
+    "reference": "wikt-origin-93606022-6be2f3036eff",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "030195e15e6d52628983f2d41962a36d96648e0dadcfe8a1a5601d88ec1d157a",
+    "sectionSHA256": "6be2f3036eff2ac7ef703a64ead0c27cba85bb151cdc12f0a682a92d70e703bc",
+    "claim": "donor-74ef79f27b1223d86f2535be"
+  },
+  {
+    "candidate": "cand-0cb06fd49006b0f0a7ce2ba4",
+    "character": "脊",
+    "reference": "wikt-origin-91974966-9535ed6765b6",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4902c46a057dabd819fcce1022382e36ce6323c118021fe7e9c7d831bf2a7f9f",
+    "sectionSHA256": "9535ed6765b64bf2de382c1892d817cb5c360d779fea92df9e2731a78e9e3632",
+    "claim": "donor-0cb06fd49006b0f0a7ce2ba4"
+  },
+  {
+    "candidate": "cand-d28f2176742a730fd3d72f46",
+    "character": "肩",
+    "reference": "wikt-origin-93606084-5096a431f7ac",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "2c9a11cee99bc9d393cab12616599c394082e03039d3310d3b29615e5cecb791",
+    "sectionSHA256": "5096a431f7ac9d9349cad245a40571e7d3f34ba04fa9e4b76cee244cce1bd8ef",
+    "claim": "donor-d28f2176742a730fd3d72f46"
+  },
+  {
+    "candidate": "cand-be16ef2cdded6889c2c75518",
+    "character": "華",
+    "reference": "wikt-origin-93576349-03d58309beea",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "16d686a852eff6485bbd9eabb56d2f584746b1a4e29e76e3864cd47e83b4fc6e",
+    "sectionSHA256": "03d58309beeacd27bacd190d4db6fa1a8a8cadf63b34e686a2e21794012af11d",
+    "claim": "donor-be16ef2cdded6889c2c75518"
+  },
+  {
+    "candidate": "cand-d0f4b0ede493fb577000444c",
+    "character": "貞",
+    "reference": "wikt-origin-93573707-122405318137",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "857fc7f306909593af266ced360fb97061c486d05b944769211a9a2b42b33d84",
+    "sectionSHA256": "122405318137809866a2cf53a5022fcef2315f03cb3ab65ad054d149d3792f1e",
+    "claim": "donor-d0f4b0ede493fb577000444c"
+  },
+  {
+    "candidate": "cand-29873cc572a2e4bf3e44bfed",
+    "character": "付",
+    "reference": "wikt-origin-93768172-80fc9d26f9b1",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "5ec0870bcf2d902075889e417c480e76dbdb0e3af4e4967394934df3777ffc65",
+    "sectionSHA256": "80fc9d26f9b1b639bf2958ebde66e7ba11a08d43b74ad6f66ee4c49239e5e196",
+    "claim": "donor-29873cc572a2e4bf3e44bfed"
+  },
+  {
+    "candidate": "cand-adda57606a16654715b972c1",
+    "character": "企",
+    "reference": "wikt-origin-93779711-08de2517921b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8cbce842a0cada95a9091b6f1967449220fa031cfc6e2635772553618f28b98a",
+    "sectionSHA256": "08de2517921b6a61878b723f6c24fe3bd99c9a3ff73e0263e6ad5adff4f057e8",
+    "claim": "donor-adda57606a16654715b972c1"
+  },
+  {
+    "candidate": "cand-8f9ad4c2299812743a8f41b7",
+    "character": "利",
+    "reference": "wikt-origin-92924034-7199910df4b8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1948610d200ec286ad06b0a9f43f4bd1a44128a6be32d7ca2d7a9c21a572b035",
+    "sectionSHA256": "7199910df4b837d6904756072dcb61f31be0b52ff73de1a1531e3a8605608a3e",
+    "claim": "donor-8f9ad4c2299812743a8f41b7"
+  },
+  {
+    "candidate": "cand-db238be0afa9610ef9396205",
+    "character": "守",
+    "reference": "wikt-origin-93935005-815cef2ba1ea",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4e4af889ff44eb105c52c609fadca2194c76800d59c7133aa0adcd2761bfb408",
+    "sectionSHA256": "815cef2ba1eaa390e307786081a0cbe2b9e1cf671ce49eec83aa65d8683af135",
+    "claim": "donor-db238be0afa9610ef9396205"
+  },
+  {
+    "candidate": "cand-04e5b05bc91c6176d30787ab",
+    "character": "尼",
+    "reference": "wikt-origin-93485711-5a0e29f6e0c0",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "42f8565532b5ccf334b7b467e83cf42a7a278f8c6cc464b50209f923d9c0fdcc",
+    "sectionSHA256": "5a0e29f6e0c0cfb02791da0c12a53c8001c8a7ac03008ae041a98c6b68a5d801",
+    "claim": "donor-04e5b05bc91c6176d30787ab"
+  },
+  {
+    "candidate": "cand-458936888d1a54fa80a7eb99",
+    "character": "戴",
+    "reference": "wikt-origin-93407573-72436f711374",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "282c94295024c67f3794633c7acccc3fe5a215c1bc8a8c101c34b2c602dd6c4e",
+    "sectionSHA256": "72436f7113741d6a871fdb2ad308700553c19ab958dbbac70c20eb4315a200b8",
+    "claim": "donor-458936888d1a54fa80a7eb99"
+  },
+  {
+    "candidate": "cand-13c3317c64f3b7c085981390",
+    "character": "料",
+    "reference": "wikt-origin-92161428-8f4dba5664a7",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c5a3613e07e101541f6ff7f1e06b48a970b291b854eed738cb618eec28ee8b94",
+    "sectionSHA256": "8f4dba5664a73aa3ccb0de62572f54769db3fc42a989893d0784e7b5634b5fdf",
+    "claim": "donor-13c3317c64f3b7c085981390"
+  },
+  {
+    "candidate": "cand-1e40b58b7aa8b5d44d47ce8f",
+    "character": "某",
+    "reference": "wikt-origin-92200751-cd79cbc77b70",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "185cb3cc1c4d27a2ccadca565d3a709e90d187ed74db3ac3b8a10072bf95b3df",
+    "sectionSHA256": "cd79cbc77b70f5a115f533b5c410d5aadca1badcec00b1e3c35a3026229e1c15",
+    "claim": "donor-1e40b58b7aa8b5d44d47ce8f"
+  },
+  {
+    "candidate": "cand-09e5db10f49803a44274eae4",
+    "character": "登",
+    "reference": "wikt-origin-92491083-3d8f0f057c51",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "cf042d94b18adc0aec7d158b6e4bee8f77b3ea8b7e29290d567350a810311f61",
+    "sectionSHA256": "3d8f0f057c513c2bc883e1afd9cdc7209c897b9735b031b4dc299bd59895e94b",
+    "claim": "donor-09e5db10f49803a44274eae4"
+  },
+  {
+    "candidate": "cand-6b04d9f8c4007146e2b80818",
+    "character": "相",
+    "reference": "wikt-origin-92368480-614a3d25adc6",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "682e165a438b139d5eeb84a91777a5bed25a8439905f93bbb59a3b0dbc6d5d06",
+    "sectionSHA256": "614a3d25adc6f7657f14c0eab43b82a8846a54fe096152a673e681f8bb3d8b6c",
+    "claim": "donor-6b04d9f8c4007146e2b80818"
+  },
+  {
+    "candidate": "cand-aad96a48cc1b20c587cc2249",
+    "character": "苗",
+    "reference": "wikt-origin-92201499-eeec67fa475b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "1479d81ee92cbd77c2167d68e1dc605d29ef162c160b6c0759814c2e59b4294f",
+    "sectionSHA256": "eeec67fa475bfd795fb9515101ca000420176fa5278b2ed8e5b0690b9b4e8235",
+    "claim": "donor-aad96a48cc1b20c587cc2249"
+  },
+  {
+    "candidate": "cand-dee7df86f4d35750ad101875",
+    "character": "解",
+    "reference": "wikt-origin-93474726-b65ee59e1f51",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "396b1db3683a9c0d39394a3abd310939ce45f82d5b7d07f35fbc6d4ce02beeb3",
+    "sectionSHA256": "b65ee59e1f51527ea74377fca0dbe58cd88a51f0323b2c12443be6640b674136",
+    "claim": "donor-dee7df86f4d35750ad101875"
+  },
+  {
+    "candidate": "cand-0647b305cf82b11348ee2bdd",
+    "character": "隻",
+    "reference": "wikt-origin-93449853-48f7fc015cc2",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "393ed707362434711411a51e9de997906acb1f822211d2524681391c5b5674a2",
+    "sectionSHA256": "48f7fc015cc2f85018060ef126cb8f8c74141c8e9472b7acf96c2b0527ff3e7f",
+    "claim": "donor-0647b305cf82b11348ee2bdd"
+  },
+  {
+    "candidate": "cand-1fe1472df5379fff2b5a7aab",
+    "character": "集",
+    "reference": "wikt-origin-92202129-30384e13d9d3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "3ea79ea4288c8b976610d115eab536579ddebe19e102be2e53d050d3ce688221",
+    "sectionSHA256": "30384e13d9d360d9444e223a0e028458e4b1b67923f027f8b285090a8ae74666",
+    "claim": "donor-1fe1472df5379fff2b5a7aab"
+  },
+  {
+    "candidate": "cand-3d6dc639aa3b6131cc6c2868",
+    "character": "須",
+    "reference": "wikt-origin-93443874-fe2c5bb8ca59",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "bb16254f29f299846470287d7d1da809cd9192ed6f24dd2312c20bcc04c3202b",
+    "sectionSHA256": "fe2c5bb8ca59d629e34c26e5c28c74f28704e3a64453ed793ce25f8172860002",
+    "claim": "donor-3d6dc639aa3b6131cc6c2868"
+  },
+  {
+    "candidate": "cand-eda43146ca92dc11ec9362ed",
+    "character": "鼓",
+    "reference": "wikt-origin-92685950-02d30ab0c6cc",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a912a8ff30a125afb49d212064aad43c6aeec6fe97698aedeb87468ea18d5218",
+    "sectionSHA256": "02d30ab0c6cc2a736ebdf2655389a64ae5997d508b37a4190641c9c12d346818",
+    "claim": "donor-eda43146ca92dc11ec9362ed"
+  },
+  {
+    "candidate": "cand-8b01c111e1b03a84fa88baec",
+    "character": "辻",
+    "reference": "wikt-origin-93634495-ced0de0bc53e",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "291162a685be25760e7f7b02c1927bb852748d73e847d1f36effa0e09de637ca",
+    "sectionSHA256": "ced0de0bc53e9e21c28147e29e4c6bee25358a616f7dc74e2a7eb856e2f2f874",
+    "claim": "donor-8b01c111e1b03a84fa88baec"
+  },
+  {
+    "candidate": "cand-0e113a84ec8a207c76aa4ef6",
+    "character": "躾",
+    "reference": "wikt-origin-92163032-80a213126ce5",
+    "selector": "Japanese / Glyph origin",
+    "pageSHA256": "59df243eb76a120675fc858fc514c3f7f1c82350931064039d217cabec549ffa",
+    "sectionSHA256": "80a213126ce5dfc9069b4f56fae7e7bac87f65742ea4575950bd4557ea414b92",
+    "claim": "donor-0e113a84ec8a207c76aa4ef6"
+  },
+  {
+    "candidate": "cand-38bc96a3ba73f14c098fb0f9",
+    "character": "診",
+    "reference": "wikt-origin-93444158-1343139545b0",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "9714ee0bc0d9836ad4d30b4dd4e61a53f1c7d751229b8bd5614e1744f2d51987",
+    "sectionSHA256": "1343139545b01833eee8b90996abab7f690b1952fafc81da50d1b4664ae3d4ae"
+  },
+  {
+    "candidate": "cand-dc147396fff27a55dfba4232",
+    "character": "珍",
+    "reference": "wikt-origin-93381761-017099c56580",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f003bc06a43af6f233e3bbd24d7ad31d4088e459b515c81d19eedc4a8ad14e38",
+    "sectionSHA256": "017099c56580ee4512a897d913144733c671cbba423423935848a0e0b0c2c0cc"
+  },
+  {
+    "candidate": "cand-cd81d80222219ecc607a88e6",
+    "character": "菌",
+    "reference": "wikt-origin-87587250-4c00d52fa737",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "7409ebdc4b464d71ea026d8c906e7444c2278d2f1a8251c006455f8d3aa0b771",
+    "sectionSHA256": "4c00d52fa737b48b29e97356c6cc8d8256603da1226e7e40ee4d84bc7c5563bf"
+  },
+  {
+    "candidate": "cand-9af7086693033960ba415b67",
+    "character": "低",
+    "reference": "wikt-origin-93870631-74106a2245d3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "6a1f08a1b4f52cec4f11262d8508b7d13df449acd711957329df876b82d7c96b",
+    "sectionSHA256": "74106a2245d35cbcf5b8a311a56b32cc1ad53f2a0d05cc81c63ad2e64e2da98e"
+  },
+  {
+    "candidate": "cand-9740eba5145d35ecead83264",
+    "character": "宴",
+    "reference": "wikt-origin-93447933-8ba18422431f",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "218c0d965730024fc672e28e122f3ce9421843c794a896fb44728ea6ed6e6f0b",
+    "sectionSHA256": "8ba18422431ffccf01ba62c5557dd79876f469c9b9c808a5860c888ee98a86b5"
+  },
+  {
+    "candidate": "cand-d2796c2e9bbf153533ddf9d0",
+    "character": "堅",
+    "reference": "wikt-origin-94530013-1fac8409a7c3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "dabdf626699bb8a21e3e59d5a38d319cfd8f06e0267b7444eafa5a8270e0a0e6",
+    "sectionSHA256": "1fac8409a7c38a47a450fb41558c3537799f8e593ac821dd7b449e0f01709b90"
+  },
+  {
+    "candidate": "cand-5eab6549f4f927d758db75dc",
+    "character": "緊",
+    "reference": "wikt-origin-93549729-6fcd5f8104c8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "a2018ee81bb2ab1d3993980d709f9e346dc66298b5d1b2b0f6e1ad5e972cd685",
+    "sectionSHA256": "6fcd5f8104c8a17aef76e59d63be3c9defa81650ff30fc1d9b1835d13aeab87e"
+  },
+  {
+    "candidate": "cand-8bfe206ec9c74b16e9585346",
+    "character": "腎",
+    "reference": "wikt-origin-93318256-7b4265a94f15",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "4ab0999933c860bca8fcb6a0f1e5ffe80f5d9dccdfd7b2224f26301b0e9e874f",
+    "sectionSHA256": "7b4265a94f15adc339bd2b7e27a4c6ce542a6c8c93057912bc60a3b4521e3fdc"
+  },
+  {
+    "candidate": "cand-2304e03b070d8baacc441d22",
+    "character": "酵",
+    "reference": "wikt-origin-92730138-1705553b8b1c",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "b2e3dec7b7df421d8a9ffefe14a0c9503cec0f406ef9b3932a09f3b0567a68dd",
+    "sectionSHA256": "1705553b8b1cab510745591cfd0a2ca405d1eb6fc5bede4a3c79556e4b4a8dc3"
+  },
+  {
+    "candidate": "cand-8517145e110ae66f9cb6b912",
+    "character": "義",
+    "reference": "wikt-origin-90901000-4ecc72f00fc1",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "c07cc662bce25bce2d4cdde422192ec99fc6ddcba00d88ccc1907432ef7505bb",
+    "sectionSHA256": "4ecc72f00fc1916311fc81dee3530ded07ee2bffe1236933cebec1e70e6add5a"
+  },
+  {
+    "candidate": "cand-32b3ffe7627627fcd3eacb9b",
+    "character": "店",
+    "reference": "wikt-origin-93428468-65237f34563b",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "f8810677690296014b214f497ccd131cc23853ea23a007c27e26b2204799cf85",
+    "sectionSHA256": "65237f34563b1e8ea376408e7f775972f6d76861a3090ee68683e5121e27a386"
+  },
+  {
+    "candidate": "cand-27cf1a82bd9a733041b486e7",
+    "character": "耐",
+    "reference": "wikt-origin-92201412-53961c3b3f41",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "fc86bd12cfe46b70f03e5b48cb96c31b389e4207d795c91bd6f36453d88f8492",
+    "sectionSHA256": "53961c3b3f41eaf65afcf1b147b254283203f803668f2f8f2e6a97a634c0e7ec"
+  },
+  {
+    "candidate": "cand-1739b96a92826333fa716a3b",
+    "character": "局",
+    "reference": "wikt-origin-91933101-13e22264c9fd",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "834404e5f839b9caffc9f9c78afa9fbce7f3433cc3be1c2f1a4d34610a29222b",
+    "sectionSHA256": "13e22264c9fd2a689968fcaf33b8d35456e90c1fe83f458553d3eff37e15098a"
+  },
+  {
+    "candidate": "cand-6c1bb844a3b77fc718e926ec",
+    "character": "街",
+    "reference": "wikt-origin-91428245-0b0ec459d4b9",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "8bf1d349d2e617c161273b01c3598a8203d6cda33640cde48d65fa4e4b27f41c",
+    "sectionSHA256": "0b0ec459d4b904ca2c71d393a9ee2129582a797a64e114d4e13d83bc51f7021d"
+  },
+  {
+    "candidate": "cand-f7097f39d24bcdbb352997ac",
+    "character": "衢",
+    "reference": "wikt-origin-93444454-1c143a37f1e8",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "dd3d8133688497edf6c6cfe819dbf9c048860a618ffc38593958f03f0aa1b7f8",
+    "sectionSHA256": "1c143a37f1e88f1d3a74ebca1154bcdaab182757e1ea5fe7aa2b50de2711b837"
+  },
+  {
+    "candidate": "cand-86b9ef969eaa27b987d6711d",
+    "character": "什",
+    "reference": "wikt-origin-93531290-61ac1ff98916",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "804177d66c9b287d4c1d5a907885a8becf65ff33703ea0caf360e7b8b492881b",
+    "sectionSHA256": "61ac1ff98916e7f3403e39e8e39d62f29657cbd7115703f7127fd1b7b1ae6625"
+  },
+  {
+    "candidate": "cand-24609e93b3b4a896054876b3",
+    "character": "韻",
+    "reference": "wikt-origin-93443720-d622f00630d3",
+    "selector": "Chinese / Glyph origin",
+    "pageSHA256": "ae571816d3910929bae927ad6d002698e9361ad19f1ced8502191d2d8dcc3f4e",
+    "sectionSHA256": "d622f00630d31b631d188a2cb43d20c87d86333fd0fcd3c5551d2251b16db8e0"
+  }
+]

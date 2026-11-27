@@ -1,0 +1,40 @@
+---
+id: reading-example-u60c5-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 情
+  codepoint: U+60C5
+revision: a1f20e6f4421b4e3276e5b506843e4201db1a10f01b046f071ae81e311649253
+localizedRevision: 69a33193fea32ee313c24190404c63865979fc57280d1d73495d6b2aea123ff0
+status: approved
+claimText: In 情報 (じょうほう), 情 is read じょう.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1356370; keb=情報; reb=じょうほう; applicable sense indices=1,2,3
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=29276; text=情報; reading=じょうほう; Unicode scalar index=0 (zero-based); ruby=情; rt=じょう
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/情
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: a1f20e6f4421b4e3276e5b506843e4201db1a10f01b046f071ae81e311649253
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

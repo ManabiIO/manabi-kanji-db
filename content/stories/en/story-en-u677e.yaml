@@ -7,7 +7,7 @@ subject:
   codepoint: U+677E
 revision: 878cc6931c191ce9286bfe0d694485b087b65a6db662b09c9da3992ae92eab7c
 localizedRevision: e22922e7eb6e16b4b467b04c5dfaa6051ad86f33403d29cdb3351bf39fb7356a
-status: candidate
+status: approved
 claimText: In the public square, a pine tree grew straight through the roof of a telephone booth.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 878cc6931c191ce9286bfe0d694485b087b65a6db662b09c9da3992ae92eab7c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e37194c1ccf303c0df0d6dec6d1448b05e6a512860d4b9837a1afda27c764714|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e37194c1ccf303c0df0d6dec6d1448b05e6a512860d4b9837a1afda27c764714
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

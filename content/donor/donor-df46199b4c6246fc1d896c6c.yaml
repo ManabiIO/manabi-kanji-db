@@ -1,0 +1,29 @@
+id: donor-df46199b4c6246fc1d896c6c
+kind: historical-origin
+subject:
+  type: character
+  literal: 尻
+  codepoint: U+5C3B
+revision: 12d3373dafc0ac08f844e7c9ad3ac94f3a05f58609fbc1e3ac2977236195a5e7
+localizedRevision: 3541de7e91a5908a9aeba205edf08a96bc57a24a80528abba3c8965b75ea2489
+status: candidate
+claimText: The early form pictures a person with the buttocks emphasized. The later written form combines a body
+  component with the historical sound component 九.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93447953-1d4344d1424e
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/尻/1
+review:
+  state: pending

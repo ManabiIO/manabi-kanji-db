@@ -1,0 +1,32 @@
+id: donor-d51c9a4906e09456b628360d
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-611b
+  occurrence: kvg:0611b-g4
+revision: 5ce56c44f1d2ef8317c78665d15d68ca2fe39663b620912908e1141d19701edf
+localizedRevision: 53847a8c6512111401c5e456535132da43ffad53214930ab870472f44e01f2ce
+status: candidate
+claimText: 心 represents the heart and contributes meaning to 愛, love or affection.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93580139-165ee4d81dfc
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/愛/1
+- reference: kanjivg-611b
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0611b-g4
+review:
+  state: pending

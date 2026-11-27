@@ -1,0 +1,40 @@
+---
+id: reading-example-u7406-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 理
+  codepoint: U+7406
+revision: a8842b841f0a4d9b4b88ad5e960711430ec14918cff172b539a021acab0a1d6e
+localizedRevision: 05adaa2c1a2d6b8401659ef6b36f9fe7ed8e77704908d49fef9bbd78550e9640
+status: approved
+claimText: In 理由 (りゆう), 理 is read り.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1550140; keb=理由; reb=りゆう; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=54700; text=理由; reading=りゆう; Unicode scalar index=0 (zero-based); ruby=理; rt=り
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/理
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: a8842b841f0a4d9b4b88ad5e960711430ec14918cff172b539a021acab0a1d6e
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

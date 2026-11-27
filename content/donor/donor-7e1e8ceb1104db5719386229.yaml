@@ -1,0 +1,28 @@
+id: donor-7e1e8ceb1104db5719386229
+kind: historical-origin
+subject:
+  type: character
+  literal: 自
+  codepoint: U+81EA
+revision: 56797ad0361af4018a4f8196095f9f2cafd6e0f1a6895f3714e7d67659fcf783
+localizedRevision: 0c09c3c11ff60ef2fc35eeafe1fd897d34921b7d75202ac4395253fcb88c52f2
+status: candidate
+claimText: 自 began as a nose picture and was later borrowed for the word self.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92691450-f0e9d90ccd60
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/自/1
+review:
+  state: pending

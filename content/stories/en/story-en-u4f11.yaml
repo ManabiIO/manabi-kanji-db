@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F11
 revision: 81e9883c247421da3f79f2829fe6b541f61f6ead7817c3ff5c9f75d8f6788748
 localizedRevision: f655ab7fee0a9680e7fd4affe2065575d336bf2b3265b2751f01455862469058
-status: candidate
+status: approved
 claimText: A cyclist leaned against a tree to rest while a squirrel inspected her front basket.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 81e9883c247421da3f79f2829fe6b541f61f6ead7817c3ff5c9f75d8f6788748
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:be956019696c26e090b62cc30f9eeece24cc6134bbc4282ca6d7754a1d3c73c1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:be956019696c26e090b62cc30f9eeece24cc6134bbc4282ca6d7754a1d3c73c1
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

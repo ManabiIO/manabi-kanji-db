@@ -7,7 +7,7 @@ subject:
   codepoint: U+8A71
 revision: f5ac89b55a5ab3dfbe9c403d265cea0921812ef8a6ee0d7f57e969831b5d96c6
 localizedRevision: 92925d26b263162dce6bed70c4b72be2830089ca5dee9cf51c7d803114243663
-status: candidate
+status: approved
 claimText: A parrot twisted its tongue around the words until it could talk like the station announcer.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f5ac89b55a5ab3dfbe9c403d265cea0921812ef8a6ee0d7f57e969831b5d96c6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2a4556d82072466aa35680e76752beb9273c62f615699606465ee459044c0494|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2a4556d82072466aa35680e76752beb9273c62f615699606465ee459044c0494
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

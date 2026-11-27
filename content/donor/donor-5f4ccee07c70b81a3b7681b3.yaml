@@ -1,0 +1,28 @@
+id: donor-5f4ccee07c70b81a3b7681b3
+kind: historical-origin
+subject:
+  type: character
+  literal: 赤
+  codepoint: U+8D64
+revision: 7c35b9124bed068813616435de3a015d7e6e1147b65bea2eebe5a0ed20733820
+localizedRevision: c2bb2f5781e5501f9f49b523942edcd843c82e004d050e26f33b0e2bf8b6b14e
+status: candidate
+claimText: 赤 combines the older 大 and 火 shapes, linking the form to fire and red. Both parts later changed shape.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93934987-84b2f297944f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/赤/1
+review:
+  state: pending

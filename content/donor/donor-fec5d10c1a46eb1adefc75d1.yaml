@@ -1,0 +1,28 @@
+id: donor-fec5d10c1a46eb1adefc75d1
+kind: historical-origin
+subject:
+  type: character
+  literal: 上
+  codepoint: U+4E0A
+revision: 623e7e139f921c4b7e152f9f15d41f9f3b51d772ca8cdb71777ffe8f2ddff62b
+localizedRevision: f60df84950e588f70d6fb5d3833d679431891947b24b2c098670728664145bb7
+status: candidate
+claimText: A short mark above a longer line represents above.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93626463-50f65c175e26
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/上/1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-e1ad22411f517aed0043dbe3
+kind: historical-origin
+subject:
+  type: character
+  literal: 走
+  codepoint: U+8D70
+revision: 7a3271e3f63dd0910cdc96ee78931e383b71f89cc7181721ca4093c58cd8b98a
+localizedRevision: da17f2838149652e6e9b31d5a5099935ae76b3afe0365432f21efe251385b532
+status: candidate
+claimText: 走 began with a running person; a foot was added below. Its 土-shaped top is a changed person shape.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-91979180-b6fc88833f15
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/走/1
+review:
+  state: pending

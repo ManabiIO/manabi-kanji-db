@@ -7,7 +7,7 @@ subject:
   codepoint: U+6790
 revision: 9aca31434eb81f5f2d9023e33ea474fdcce4cbf526d0d8ec8b0363cff1ef758f
 localizedRevision: 096df9c2bad61953533d69b99cd7968132841337cd5456399753ba92a709914b
-status: candidate
+status: approved
 claimText: The woodcutter used an ax to chop a hollow tree in two, and ten bats flew out.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9aca31434eb81f5f2d9023e33ea474fdcce4cbf526d0d8ec8b0363cff1ef758f
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:eef12c1dde7f692ac2e65d8f0ea312ffa4e23c3451eae094f1c51e9aadcc7c7b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:eef12c1dde7f692ac2e65d8f0ea312ffa4e23c3451eae094f1c51e9aadcc7c7b
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

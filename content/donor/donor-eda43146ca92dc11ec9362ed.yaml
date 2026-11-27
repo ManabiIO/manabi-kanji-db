@@ -1,0 +1,28 @@
+id: donor-eda43146ca92dc11ec9362ed
+kind: historical-origin
+subject:
+  type: character
+  literal: 鼓
+  codepoint: U+9F13
+revision: a362f29be426c9ae8ee7e7afac38a1a01c457845f3c589c9a60a6b791bd26576
+localizedRevision: b5e3dba2fa5b42a730cdf6076adc2f57782e133b916891c13a807c61a52b0179
+status: candidate
+claimText: 鼓 combines a drum with a hand holding a drumstick.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92685950-02d30ab0c6cc
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/鼓/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+5316
 revision: 01048b25c8a620e372991717e22c1f9b2dc1c0a7caedb1d0ab11a86ee09251f8
 localizedRevision: e80a0ba56954ebb53e4ef865ca5719f73da8e8c1a8f995e7ca2746613c623c0a
-status: candidate
+status: approved
 claimText: A person stirred the pond with a silver spoon and watched the water change into ink.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 01048b25c8a620e372991717e22c1f9b2dc1c0a7caedb1d0ab11a86ee09251f8
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:839e2d5100af3d1ffe56c0dea3d01dd9393b8921bae0b4b9915c06a8666cc332|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:839e2d5100af3d1ffe56c0dea3d01dd9393b8921bae0b4b9915c06a8666cc332
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

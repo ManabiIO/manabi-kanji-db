@@ -1,0 +1,40 @@
+---
+id: reading-example-u5317-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 北
+  codepoint: U+5317
+revision: 5a6b7966b6688dfdc83507ed0b775d3ce12377ef62219a48b5ac3d600cceb247
+localizedRevision: f9baba0764e6e94a52895b34caa8547aff9c25ed02da7863d2a6f387ca4133a5
+status: approved
+claimText: In 北口 (きたぐち), 北 is read きた.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1520970; keb=北口; reb=きたぐち; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=50963; text=北口; reading=きたぐち; Unicode scalar index=0 (zero-based); ruby=北; rt=きた
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/北
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 5a6b7966b6688dfdc83507ed0b775d3ce12377ef62219a48b5ac3d600cceb247
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

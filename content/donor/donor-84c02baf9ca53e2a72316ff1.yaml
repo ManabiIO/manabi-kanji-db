@@ -1,0 +1,28 @@
+id: donor-84c02baf9ca53e2a72316ff1
+kind: historical-origin
+subject:
+  type: character
+  literal: 羽
+  codepoint: U+7FBD
+revision: 5eb684ebae7fe4e8227004939b7c52925e2d0ab4cbfe9bb1c57a3337c23fe5b6
+localizedRevision: f4dd13d5479d68e9b4a2743570255a4f909f36c1cde00e89dc954053efaa05c5
+status: candidate
+claimText: 羽 pictures wings or feathers, shown as paired shapes.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92490451-167a97b3f31c
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/羽/1
+review:
+  state: pending

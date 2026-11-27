@@ -7,7 +7,7 @@ subject:
   codepoint: U+66DC
 revision: d02a695e2685875b00c1304dcd0108854bb5e89e4606c036f716904e4f035862
 localizedRevision: 7f1a1c30068fa7881d30d0068e2c53db4cd0fde6e485b0e2360be7756ae1775b
-status: candidate
+status: approved
 claimText: A pheasant circled the sun once for each day—Monday, Tuesday, Wednesday, Thursday, Friday, Saturday,
   and Sunday—so the village could count the full week.
 targetLanguage: ja
@@ -36,8 +36,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d02a695e2685875b00c1304dcd0108854bb5e89e4606c036f716904e4f035862
   sourceRevision: kanji-alive-scoped-kmeaning:966def0104648e83c3f95538c414c4862cba1bbf:7b463876a0837bfb1f754a4e1bec43617b62f92b9839bbdf060d6ad0d8dbaf65|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ada763c6685e1e685c7f532a000e171335e4146c16f746d40c2de7b72ede7d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ada763c6685e1e685c7f532a000e171335e4146c16f746d40c2de7b72ede7d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

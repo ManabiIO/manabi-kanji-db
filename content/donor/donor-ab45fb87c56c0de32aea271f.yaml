@@ -1,0 +1,28 @@
+id: donor-ab45fb87c56c0de32aea271f
+kind: historical-origin
+subject:
+  type: character
+  literal: 肌
+  codepoint: U+808C
+revision: 92ee1d466a9408e3e87b3a6a2844817e953a7c90ee1f788109781f047307f5ea
+localizedRevision: 543e487ab3db04da742e9aca6ed6192d2ce1f1ca317d2bdf37d7fd6031c5adbc
+status: candidate
+claimText: In 肌, skin, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93443704-7eae76211a61
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/肌/1
+review:
+  state: pending

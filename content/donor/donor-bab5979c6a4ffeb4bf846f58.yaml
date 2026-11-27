@@ -1,0 +1,28 @@
+id: donor-bab5979c6a4ffeb4bf846f58
+kind: historical-origin
+subject:
+  type: character
+  literal: 石
+  codepoint: U+77F3
+revision: d7bdc02986eb1af5315da3e847f0dee4a43fc1dac025c528475c191e561ac651
+localizedRevision: bf32046cd43bf66f4edb53e5bf143d9915bb52deee4f762b6572b772942ee798
+status: candidate
+claimText: 石 began as a picture of a stone chime; the 口-shaped part was added later as decoration.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92618269-5419ea2e0b15
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/石/1
+review:
+  state: pending

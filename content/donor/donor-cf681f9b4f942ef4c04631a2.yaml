@@ -1,0 +1,28 @@
+id: donor-cf681f9b4f942ef4c04631a2
+kind: historical-origin
+subject:
+  type: character
+  literal: 申
+  codepoint: U+7533
+revision: 94ed94cee264c2455299b5a2e191f03103cd0eff8e4e68de560d405d3e93319c
+localizedRevision: d96cffc4ecf644a91f6e0fe0e6c7e7088fb5a02109ee135d24337ffd1a8d0bb2
+status: candidate
+claimText: The older form of 申 pictures a lightning bolt.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201108-96fc1d2eb5d2
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/申/1
+review:
+  state: pending

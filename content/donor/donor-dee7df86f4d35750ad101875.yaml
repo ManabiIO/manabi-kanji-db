@@ -1,0 +1,28 @@
+id: donor-dee7df86f4d35750ad101875
+kind: historical-origin
+subject:
+  type: character
+  literal: 解
+  codepoint: U+89E3
+revision: 0f2bc0806d007ada3c50b98be08e3385d1190bd5eacef06a25bad66f7b13077a
+localizedRevision: 5647482540bc16995a9d5be97c686f52761e3c3a8ed198ca4ed83552eac1be31
+status: candidate
+claimText: '解 combines a horn, a knife and a cow: a knife separating the horn from the animal.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93474726-b65ee59e1f51
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/解/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+67F1
 revision: 049c9f5828546b04d9837c18bdcde6c5de0c4dbd98ddda15d519ae645222454c
 localizedRevision: 22d83d2af72083c787d66c3912307859cfaa058965fb5a2153a89bad6f129701
-status: candidate
+status: approved
 claimText: The lord of the castle carved an entire tree into the pillar that held up his balcony.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 049c9f5828546b04d9837c18bdcde6c5de0c4dbd98ddda15d519ae645222454c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6cd5b31e769e0a093bcab40c792c2ae13e4bb6a9240306731b6edab4f55425d4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6cd5b31e769e0a093bcab40c792c2ae13e4bb6a9240306731b6edab4f55425d4
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

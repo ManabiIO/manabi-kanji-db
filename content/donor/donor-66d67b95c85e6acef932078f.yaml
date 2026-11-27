@@ -1,0 +1,28 @@
+id: donor-66d67b95c85e6acef932078f
+kind: historical-origin
+subject:
+  type: character
+  literal: 鳥
+  codepoint: U+9CE5
+revision: 0db80161c1806cfefe5f8d0948963007c78afb11f1cc3171559d795864d5137a
+localizedRevision: 32dfffc7a0d2a395f24e8a1661986c55af8e1f9a665c380c4afc6e0d2ad756ae
+status: candidate
+claimText: Older forms show a bird with a head, body and hanging tail.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93750960-6fe566a58142
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/鳥/1
+review:
+  state: pending

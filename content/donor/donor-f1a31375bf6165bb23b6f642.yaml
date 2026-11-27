@@ -1,0 +1,28 @@
+id: donor-f1a31375bf6165bb23b6f642
+kind: historical-origin
+subject:
+  type: character
+  literal: 瓦
+  codepoint: U+74E6
+revision: 479803166386f0c0e93171298d5f97db44c6770dbe3e4bb77a4ed2688cd69312
+localizedRevision: cd53bf74f54447dc6cc1cf028b2f9f4612b66fcfbb64eed1dfd02ce26f858d31
+status: candidate
+claimText: The older form pictures fired pottery or a tile.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201102-062e9f25122b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/瓦/1
+review:
+  state: pending

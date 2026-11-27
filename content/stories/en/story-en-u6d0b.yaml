@@ -7,7 +7,7 @@ subject:
   codepoint: U+6D0B
 revision: 9890c27b35a91d0c43f462e2a90d424eadad25976bf03a59f963a3e9a679286e
 localizedRevision: 425a6dce1d165e12116f6337a864cf914517a03ca9bbd954f0bd79229d9537eb
-status: candidate
+status: approved
 claimText: A sheep dipped a hoof in the water and sent a ripple across the entire ocean.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 9890c27b35a91d0c43f462e2a90d424eadad25976bf03a59f963a3e9a679286e
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:56f8558a94a7fa9f72e68e8448f55e03823531dd45bc26b527c9abcb0ee364f5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:56f8558a94a7fa9f72e68e8448f55e03823531dd45bc26b527c9abcb0ee364f5
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

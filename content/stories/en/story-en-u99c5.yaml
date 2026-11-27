@@ -7,7 +7,7 @@ subject:
   codepoint: U+99C5
 revision: f701c5976c6484cdbc5bb94418464723d77bab694e07530331c457618f2ecc47
 localizedRevision: 41d9c18855b54f9d096933d24939d85fbb54eb00d074113cfe91e1ba14050521
-status: candidate
+status: approved
 claimText: A horse used a ruler to mark where the platform of the train station ought to end.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: f701c5976c6484cdbc5bb94418464723d77bab694e07530331c457618f2ecc47
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a3eec84d7f07d22db7b6f81725ddb52d1a1395b8fb25d5a93d910ed83731e559|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a3eec84d7f07d22db7b6f81725ddb52d1a1395b8fb25d5a93d910ed83731e559
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

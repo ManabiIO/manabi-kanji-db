@@ -1,0 +1,28 @@
+id: donor-ade657f4669583a7487f96fc
+kind: historical-origin
+subject:
+  type: character
+  literal: 又
+  codepoint: U+53C8
+revision: 33dba65c7e2d3a1bdcb0f4d3e7dee899de516c286b27622a81aad841da019a0e
+localizedRevision: a8fe105d06b0898f684605490c133dbdc80c9f18572a1cf5ec4247017342ebae
+status: candidate
+claimText: The older form of 又 pictures a right hand.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92982727-c3a30f05bf09
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/又/1
+review:
+  state: pending

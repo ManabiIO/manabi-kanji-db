@@ -7,7 +7,7 @@ subject:
   codepoint: U+6CF3
 revision: 3f89f2ebf3f92b00555dd05e15b06530022c0d881eda37e8bbcc83f25761ca4e
 localizedRevision: 0ddf5ad18038e00e85782e3d060c93ea939268c4e01bcf6d4ac44e07908c5196
-status: candidate
+status: approved
 claimText: In enchanted water, a turtle could swim forever without growing tired.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3f89f2ebf3f92b00555dd05e15b06530022c0d881eda37e8bbcc83f25761ca4e
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8a31479b602f35e66c29f1d5772fe2907ce9ee45d7c4780288d026ede8cffdb0|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8a31479b602f35e66c29f1d5772fe2907ce9ee45d7c4780288d026ede8cffdb0
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

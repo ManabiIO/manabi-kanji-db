@@ -7,7 +7,7 @@ subject:
   codepoint: U+79CB
 revision: 884453776df095b0f0540e8962d397bc470eab0cf3fa1f98f6b55689c82a1e4d
 localizedRevision: ef21d1f20e7481942bdfce9b34430b4cedf58a6c733b80e778389d85e1ff719b
-status: candidate
+status: approved
 claimText: In autumn, the farmer lit a fire beside the grain field and roasted chestnuts at dusk.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 884453776df095b0f0540e8962d397bc470eab0cf3fa1f98f6b55689c82a1e4d
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:23babbf0a3a699a3cd39a7430114dd8719ef39ba1080c76047f9dc2a3deb20be|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:23babbf0a3a699a3cd39a7430114dd8719ef39ba1080c76047f9dc2a3deb20be
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

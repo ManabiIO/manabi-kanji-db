@@ -1,0 +1,28 @@
+id: donor-472059720728ab22860853db
+kind: historical-origin
+subject:
+  type: character
+  literal: 必
+  codepoint: U+5FC5
+revision: 8fe840f53c3c3fed62ae6cca5d473413bafe184a267ea20b2ef5278ea40292aa
+localizedRevision: 385f23e6ad49f9ce08ba3e6bc0d7c3522116890394471b94ef745fce2e3e5322
+status: candidate
+claimText: 必 probably pictures a weapon handle with two decorative strokes. It did not develop from 心.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92852816-a3dbbf714d43
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/必/1
+review:
+  state: pending

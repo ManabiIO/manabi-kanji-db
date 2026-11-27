@@ -7,7 +7,7 @@ subject:
   codepoint: U+7D30
 revision: 3d3c0c2533d2df34b3f906fd22552b87ac3aba3d4ce0d0e2d0d11249e5f0cb9b
 localizedRevision: 8ad8ac4580dbdb7eacc7d10a9a13658a9ef127fc8dc7618af847dbe64d120105
-status: candidate
+status: approved
 claimText: A farmer stretched a slender thread across the rice field, and a mouse used it as a tightrope.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 3d3c0c2533d2df34b3f906fd22552b87ac3aba3d4ce0d0e2d0d11249e5f0cb9b
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f3f96199042dcf435479386fc0a0d692b4442cb754df17c8b0faac0338611540|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f3f96199042dcf435479386fc0a0d692b4442cb754df17c8b0faac0338611540
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

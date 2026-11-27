@@ -1,0 +1,28 @@
+id: donor-953bdb644daa453d3be2fadb
+kind: historical-origin
+subject:
+  type: character
+  literal: 免
+  codepoint: U+514D
+revision: 5059ad533c7e305f8eaa63beae984d9c5db4d39341af1ca48e51346724322496
+localizedRevision: aa214c46a9c329b31f3c0e533592344df8e8b7bd5378e1f1872f37126aa26e5b
+status: candidate
+claimText: The older form pictures a person wearing a ceremonial hat.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92160260-2000bf063b6f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/免/1
+review:
+  state: pending

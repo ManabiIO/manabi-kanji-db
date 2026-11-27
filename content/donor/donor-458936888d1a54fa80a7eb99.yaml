@@ -1,0 +1,29 @@
+id: donor-458936888d1a54fa80a7eb99
+kind: historical-origin
+subject:
+  type: character
+  literal: 戴
+  codepoint: U+6234
+revision: a326409d80ea72fc31543d2321ce336f43e311a119cd9037c803a07e89e12744
+localizedRevision: f61bf0cfeb37acc4ee1fcb70e3eb33394d8c629382b8b84ccb43c954ebe276eb
+status: candidate
+claimText: The oracle-bone form pictures a person holding something on their head with both hands. The later form
+  also acquired a sound element.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93407573-72436f711374
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/戴/1
+review:
+  state: pending

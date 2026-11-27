@@ -7,7 +7,7 @@ subject:
   codepoint: U+4FDD
 revision: 2a130e0a93899d83aa82e65e529b2b9e216dee2c572aaa8554a204c4cb15955f
 localizedRevision: 74c66ba054a59f589b8bf4d4d158e5a69ce82a53b84084ef415b3a80d6387fe4
-status: candidate
+status: approved
 claimText: A person raised a helmet to protect a stunned owl from falling hail.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 2a130e0a93899d83aa82e65e529b2b9e216dee2c572aaa8554a204c4cb15955f
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f79a768e1fc486fc16fa80a8c8b9d61eca3aa47aff2620a2781830b5543eb88d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f79a768e1fc486fc16fa80a8c8b9d61eca3aa47aff2620a2781830b5543eb88d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

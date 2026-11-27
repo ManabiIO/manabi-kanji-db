@@ -1,0 +1,28 @@
+id: donor-36077b453d5f4fa4de11bda3
+kind: historical-origin
+subject:
+  type: character
+  literal: 二
+  codepoint: U+4E8C
+revision: d64437ae427cd24d4cdd13b3219b99319687f7bca439205f8003cd79d37d54f7
+localizedRevision: c520a771459b79c0b827b45d671b88527b43314b871b89d27a961b44785208df
+status: candidate
+claimText: Two strokes represent two.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93665649-5f1ca94ccf34
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/二/1
+review:
+  state: pending

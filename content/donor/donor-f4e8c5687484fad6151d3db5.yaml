@@ -1,0 +1,28 @@
+id: donor-f4e8c5687484fad6151d3db5
+kind: historical-origin
+subject:
+  type: character
+  literal: 刀
+  codepoint: U+5200
+revision: 1dde70297367d6acfe1b377f7dfb4d9aa7ecfc7cc8253266aa5f34cfa26aa71e
+localizedRevision: 8b9ce59c63f5cf7303e2eaed84f8c923590f853a5d17743ec4e72710297b236e
+status: candidate
+claimText: An early picture of a knife.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93753295-beb7323767b0
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/刀/1
+review:
+  state: pending

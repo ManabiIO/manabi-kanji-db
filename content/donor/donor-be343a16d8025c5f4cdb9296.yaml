@@ -1,0 +1,28 @@
+id: donor-be343a16d8025c5f4cdb9296
+kind: historical-origin
+subject:
+  type: character
+  literal: 巾
+  codepoint: U+5DFE
+revision: b3c5c74b4760927f91a4f4f87f411b712463b007c1b88a5be135fb66387b8a4d
+localizedRevision: 31c9ed8ac56fc7abf1afd8413da0293ab30eede998ee65da8f0978aa276cff52
+status: candidate
+claimText: The older form of 巾 pictures a hanging piece of cloth.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92161035-8d43afb83959
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/巾/1
+review:
+  state: pending

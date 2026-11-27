@@ -1,0 +1,28 @@
+id: donor-5da16b71d00eb16e06de1ca4
+kind: historical-origin
+subject:
+  type: character
+  literal: 糸
+  codepoint: U+7CF8
+revision: 9cdaabfb70e4532b723ab8f6fb47b7f4c7e9469d8acfe5e385765143dff3e434
+localizedRevision: 0d9b856e73220f7d9b477b9680cf2de3eac65e8c4e18f5d8b9b7006863feb767
+status: candidate
+claimText: A picture of a bundle of silk thread.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93764053-34e95d80f66f
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/糸/1
+review:
+  state: pending

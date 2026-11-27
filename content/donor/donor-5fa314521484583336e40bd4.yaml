@@ -1,0 +1,28 @@
+id: donor-5fa314521484583336e40bd4
+kind: historical-origin
+subject:
+  type: character
+  literal: 母
+  codepoint: U+6BCD
+revision: 387c7636711f15059a2d864d6003436bad9320473b0348deed643b032e733aa9
+localizedRevision: 8c336b1f797d33af6a95a18ba2b7d3b6d2335011a7051a3b779fdcde656e9567
+status: candidate
+claimText: 母 differentiates the older 女 woman shape with distinguishing dots.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93778250-67da09479b73
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/母/1
+review:
+  state: pending

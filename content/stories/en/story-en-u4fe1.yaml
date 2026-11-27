@@ -7,7 +7,7 @@ subject:
   codepoint: U+4FE1
 revision: d5dd512eb50f3513a3acec0e006045087ce2df92bdda4e6ddb4eae780a555cfb
 localizedRevision: c85cbe187171063f4e91ae426a3867842f149f2ae964221ef4c0ced816141ff9
-status: candidate
+status: approved
 claimText: A stranded hiker had to trust a stranger's word that the tiny boat would float.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: d5dd512eb50f3513a3acec0e006045087ce2df92bdda4e6ddb4eae780a555cfb
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e9fb1566c4beb716b88ac8da317d9a6e2684eee7b1a00bff5941a46a595f71b4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e9fb1566c4beb716b88ac8da317d9a6e2684eee7b1a00bff5941a46a595f71b4
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

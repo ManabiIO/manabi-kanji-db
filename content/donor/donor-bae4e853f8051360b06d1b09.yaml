@@ -1,0 +1,28 @@
+id: donor-bae4e853f8051360b06d1b09
+kind: historical-origin
+subject:
+  type: character
+  literal: 分
+  codepoint: U+5206
+revision: 16e64ab293c66f1ea057f31bc2c493663bda46559fce8d1f8089272f62b3f654
+localizedRevision: e0718a17817c9c0e72a68b90597e88372ba87d2aaada51c26ce6d8931e35f1b2
+status: candidate
+claimText: '分 combines 八, separating, with 刀, a knife: to divide.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92695569-f63665d588ac
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/分/1
+review:
+  state: pending

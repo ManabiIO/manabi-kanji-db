@@ -1,0 +1,28 @@
+id: donor-a5bea964d644e24df3b39564
+kind: historical-origin
+subject:
+  type: character
+  literal: 無
+  codepoint: U+7121
+revision: 83d6604551565c456c696ce82c911706020b697a347b51b69ebbcef152424d93
+localizedRevision: 25f0eb5f5cdcf8e2d765ea559df05cac00a6d3efdbad47a7cc1fb0e8a523260f
+status: candidate
+claimText: The older form pictures a person dancing with objects held in both hands.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93737662-d28f289fbec4
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/無/1
+review:
+  state: pending

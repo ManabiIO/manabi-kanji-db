@@ -7,7 +7,7 @@ subject:
   codepoint: U+4ED5
 revision: ab3787400d965674bb93799d42e14c5405ecfe01f5855315d77ccf15ccf7d039
 localizedRevision: 008e8fe01398e40af6784a40eef1d504989df80c32b67695e346a11f1cbd4465
-status: candidate
+status: approved
 claimText: A person volunteered to serve tea to the samurai guarding the snowbound bridge.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: ab3787400d965674bb93799d42e14c5405ecfe01f5855315d77ccf15ccf7d039
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d26b28b31f810ab6d4342f953de386f14d9090e0f8dc49a3f49bdd7d48f7a61a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d26b28b31f810ab6d4342f953de386f14d9090e0f8dc49a3f49bdd7d48f7a61a
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

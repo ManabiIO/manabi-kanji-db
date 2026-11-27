@@ -7,7 +7,7 @@ subject:
   codepoint: U+8CC0
 revision: 7644daaeff4b47d8411e59b8491cf7b185a460819abd497e4551b42abd301468
 localizedRevision: e596fd6596d0139daac26ddc07aca3d77be6675a51801b7303251b4e6e66de25
-status: candidate
+status: approved
 claimText: Guests added shells to a mosaic to spell out congratulations to the newlyweds.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 7644daaeff4b47d8411e59b8491cf7b185a460819abd497e4551b42abd301468
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7313ae631e2beea463850b23e8ecc54f30cc36ed7d70c11d9642d8415463cbda|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7313ae631e2beea463850b23e8ecc54f30cc36ed7d70c11d9642d8415463cbda
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

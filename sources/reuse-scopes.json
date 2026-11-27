@@ -1,0 +1,1093 @@
+{
+  "purpose": "Source selection and scoped reuse evidence. Current imported records, pins and review decisions are in registry.yaml and data/coverage.",
+  "researchDate": "2026-11-26",
+  "sources": [
+    {
+      "id": "manabi-kanji-explanations",
+      "name": "Manabi KanjiExplanation contributions",
+      "homepage_url": "https://github.com/ManabiIO/manabi-kanji-db",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Community editorial data and per-asset notices",
+          "license_id": "CC-BY-SA-4.0",
+          "disposition": "see per-field source registry"
+        }
+      ]
+    },
+    {
+      "id": "kanjidic2",
+      "name": "KANJIDIC2",
+      "homepage_url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+      "license_scopes": [
+        {
+          "fields_or_assets": "KANJIDIC2 dictionary data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "baseline_reference",
+          "evidence_urls": [
+            "https://www.edrdg.org/edrdg/licence.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jmdict",
+      "name": "JMdict / EDICT",
+      "homepage_url": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Japanese/English dictionary data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "baseline_reference",
+          "evidence_urls": [
+            "https://www.edrdg.org/edrdg/licence.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanjivg",
+      "name": "KanjiVG",
+      "homepage_url": "https://kanjivg.tagaini.net/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "KanjiVG SVGs and structure data",
+          "license_id": "CC-BY-SA-3.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/KanjiVG/kanjivg",
+            "https://kanjivg.tagaini.net/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji_alive",
+      "name": "Kanji Alive open exports",
+      "homepage_url": "https://github.com/kanjialive/kanji-data-media",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Exported original language data and eligible original media",
+          "license_id": "CC-BY-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/kanjialive/kanji-data-media",
+            "https://kanjialive.com/credits/"
+          ]
+        },
+        {
+          "fields_or_assets": "Mnemonic hints and associated graphics",
+          "license_id": null,
+          "grant_status": "explicit_exception",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://kanjialive.com/credits/"
+          ]
+        },
+        {
+          "fields_or_assets": "Classic Nelson/Kodansha indices, textbook chapter mappings and commercial font assets",
+          "license_id": "per-owner",
+          "grant_status": "explicit_exception",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/kanjialive/kanji-data-media/blob/master/language-data/README.md",
+            "https://kanjialive.com/credits/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanjium",
+      "name": "Kanjium data tables",
+      "homepage_url": "https://github.com/mifunetoshiro/kanjium",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Data tables and project additions, with upstream notices",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/mifunetoshiro/kanjium/blob/master/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Fonts and generated stroke-order media",
+          "license_id": "per-asset",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/mifunetoshiro/kanjium/blob/master/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Origin image composites from chineseetymology.org",
+          "license_id": null,
+          "grant_status": "separate_rights_notice",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/mifunetoshiro/kanjium/blob/master/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji_db_com",
+      "name": "kanji-db.com / uball synthesized data",
+      "homepage_url": "https://kanji-db.com/data",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published synthesized data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://kanji-db.com/data",
+            "https://kanji-db.com/licenses",
+            "https://kanji-db.com/about"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diglabo_kanji_data",
+      "name": "make1s/diglabo-kanji-data",
+      "homepage_url": "https://github.com/make1s/diglabo-kanji-data",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Kanji/kana data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/make1s/diglabo-kanji-data"
+          ]
+        },
+        {
+          "fields_or_assets": "Runtime code",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/make1s/diglabo-kanji-data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wiktionary",
+      "name": "English and Japanese Wiktionary",
+      "homepage_url": "https://ja.wiktionary.org/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Contributor-authored entry text",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://en.wiktionary.org/wiki/Wiktionary:Copyrights"
+          ]
+        },
+        {
+          "fields_or_assets": "Embedded third-party quotations, media and licensed extracts",
+          "license_id": "per-object",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://en.wiktionary.org/wiki/Wiktionary:Copyrights"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ids_input_names",
+      "name": "IDS Input selected component-name data",
+      "homepage_url": "https://github.com/mkpoli/ids-input",
+      "license_scopes": [
+        {
+          "fields_or_assets": "component-names.tsv as a combined file",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/mkpoli/ids-input/blob/main/data/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Application code",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/mkpoli/ids-input"
+          ]
+        },
+        {
+          "fields_or_assets": "Other datasets, fonts, outlines and CHISE-derived files",
+          "license_id": "per-file",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/mkpoli/ids-input/blob/main/data/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yi_bai_ids",
+      "name": "Yi Bai IDS",
+      "homepage_url": "https://github.com/yi-bai/ids",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published IDS tables",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/yi-bai/ids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "babelstone_ids",
+      "name": "BabelStone IDS",
+      "homepage_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+      "license_scopes": [
+        {
+          "fields_or_assets": "IDS presentation/data covered by the author waiver",
+          "license_id": "LicenseRef-BabelStone-IDS-Waiver",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.babelstone.co.uk/CJK/IDS.TXT"
+          ]
+        },
+        {
+          "fields_or_assets": "BabelStone fonts and extracted outlines",
+          "license_id": "per-font",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://www.babelstone.co.uk/CJK/IDS.TXT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unihan",
+      "name": "Unicode Unihan Database",
+      "homepage_url": "https://www.unicode.org/reports/tr38/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Unicode data files and associated documentation",
+          "license_id": "Unicode-3.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.unicode.org/license.txt",
+            "https://www.unicode.org/reports/tr38/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mimneko_kanji_data",
+      "name": "mimneko/kanji-data",
+      "homepage_url": "https://github.com/mimneko/kanji-data",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Repository-authored/transcribed data under its declaration",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/mimneko/kanji-data/blob/main/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onkun",
+      "name": "marmooo/onkun and official Japanese reading-stage tables",
+      "homepage_url": "https://github.com/marmooo/onkun",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Repository transcription/code contribution",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/marmooo/onkun/blob/main/LICENSE"
+          ]
+        },
+        {
+          "fields_or_assets": "Underlying official tables and Unihan-derived fields",
+          "license_id": "per-source",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/marmooo/onkun/blob/main/README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krad_radk",
+      "name": "KRADFILE / RADKFILE",
+      "homepage_url": "https://www.edrdg.org/krad/kradinf.html",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Primary KRADFILE/RADKFILE data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.edrdg.org/krad/kradinf.html",
+            "https://www.edrdg.org/edrdg/licence.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons_acc",
+      "name": "Wikimedia Commons Ancient Chinese Characters assets",
+      "homepage_url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Individual ACC-tagged modern SVGs with the explicit creator release",
+          "license_id": "LicenseRef-ACC-Public-Domain-with-Fallback",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://commons.wikimedia.org/wiki/Template:ACClicense"
+          ]
+        },
+        {
+          "fields_or_assets": "Other Commons files and upstream source images",
+          "license_id": "per-asset",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sinica_xiaoxuetang",
+      "name": "Academia Sinica 小學堂 glyph images and attributes",
+      "homepage_url": "https://xiaoxue.iis.sinica.edu.tw/guide/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Glyph images at all resolutions returned by the query system and glyph attribute information",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://xiaoxue.iis.sinica.edu.tw/License/License"
+          ]
+        },
+        {
+          "fields_or_assets": "Unrelated site prose, audio, fonts and third-party objects outside the named grant",
+          "license_id": null,
+          "grant_status": "outside_verified_scope",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://xiaoxue.iis.sinica.edu.tw/License/License"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codh_tensho",
+      "name": "CODH 篆書字体データセット",
+      "homepage_url": "https://codh.rois.ac.jp/tensho/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "CC BY-SA bundle: dataset IDs TE00001–TE00021 and TE00024–TE00039 in the observed table",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://codh.rois.ac.jp/tensho/",
+            "https://codh.rois.ac.jp/tensho/book/"
+          ]
+        },
+        {
+          "fields_or_assets": "CC BY-NC-SA bundle: TE00040–TE00058 in the observed table",
+          "license_id": "CC-BY-NC-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://codh.rois.ac.jp/tensho/book/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codh_kuzushiji",
+      "name": "CODH 日本古典籍くずし字データセット",
+      "homepage_url": "https://codh.rois.ac.jp/char-shape/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published dataset images and associated data",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://codh.rois.ac.jp/char-shape/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyphwiki",
+      "name": "GlyphWiki glyph data dump",
+      "homepage_url": "https://glyphwiki.org/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Official dump data files and its license text",
+          "license_id": "LicenseRef-GlyphWiki-Data",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://glyphwiki.org/dump.tar.gz",
+            "https://glyphwiki.org/wiki/GlyphWiki:データ・記事のライセンス"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oracle_bone_jgw_1203",
+      "name": "Oracle-Bone Glyphs: Parametric Vector Dataset",
+      "homepage_url": "https://github.com/aylqs2025/oracle-bone-jgw-1203",
+      "license_scopes": [
+        {
+          "fields_or_assets": "/data and /figs",
+          "license_id": "CC-BY-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/aylqs2025/oracle-bone-jgw-1203/blob/main/LICENSE-DATA"
+          ]
+        },
+        {
+          "fields_or_assets": "/src code",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/aylqs2025/oracle-bone-jgw-1203"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hanzi_glyphs_svg",
+      "name": "zhouyongh/hanzi-glyphs-svg",
+      "homepage_url": "https://github.com/zhouyongh/hanzi-glyphs-svg",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Repository-authored code, documents and index contribution",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/zhouyongh/hanzi-glyphs-svg/blob/main/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        {
+          "fields_or_assets": "JGW oracle-bone batch",
+          "license_id": "CC-BY-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/zhouyongh/hanzi-glyphs-svg/blob/main/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Six modern font layers",
+          "license_id": "OFL-1.1",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/zhouyongh/hanzi-glyphs-svg/blob/main/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Other ancient batches claimed CC0 through HanDian/Sinica",
+          "license_id": "CC0-1.0",
+          "grant_status": "claimed_with_upstream_limits",
+          "disposition": "candidate",
+          "evidence_urls": [
+            "https://github.com/zhouyongh/hanzi-glyphs-svg/blob/main/THIRD_PARTY_NOTICES.md",
+            "https://zdic.net/terms/",
+            "https://xiaoxue.iis.sinica.edu.tw/License/License"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animcjk",
+      "name": "AnimCJK",
+      "homepage_url": "https://github.com/parsimonhi/animCJK",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Character SVG files and graphics* text files",
+          "license_id": "Arphic-1999",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/parsimonhi/animCJK/blob/master/licenses/COPYING.txt"
+          ]
+        },
+        {
+          "fields_or_assets": "Other files",
+          "license_id": "LGPL-3.0-or-later",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/parsimonhi/animCJK/blob/master/licenses/COPYING.txt"
+          ]
+        },
+        {
+          "fields_or_assets": "Kana, Bopomofo and basic-stroke SVGs",
+          "license_id": "LGPL-3.0-or-later",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/parsimonhi/animCJK/blob/master/licenses/COPYING.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dong_character_wiki",
+      "name": "Dong Chinese Character Wiki and dated character dump",
+      "homepage_url": "https://www.dong-chinese.com/wiki/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Current wiki-authored text and editorial explanatory content, including reviewed adaptations",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.dong-chinese.com/wiki/"
+          ]
+        },
+        {
+          "fields_or_assets": "Short normalized component-role facts and flags",
+          "license_id": "source_lineage_required",
+          "grant_status": "factual_claims_with_dataset_context",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.dong-chinese.com/wiki/"
+          ]
+        },
+        {
+          "fields_or_assets": "Sinica historical glyph images/attributes linked in records",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://xiaoxue.iis.sinica.edu.tw/License/License"
+          ]
+        },
+        {
+          "fields_or_assets": "Embedded Make Me a Hanzi vectors/graphics and other upstream fields",
+          "license_id": "per-source",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/skishore/makemeahanzi/blob/master/COPYING",
+            "https://www.dong-chinese.com/wiki/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dong_legacy_repository",
+      "name": "peterolson/chinese-lexicon legacy repository",
+      "homepage_url": "https://github.com/peterolson/chinese-lexicon",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Package-level declaration in package.json",
+          "license_id": "ISC",
+          "grant_status": "package_declaration",
+          "disposition": "reference_only",
+          "evidence_urls": [
+            "https://github.com/peterolson/chinese-lexicon/blob/master/package.json"
+          ]
+        },
+        {
+          "fields_or_assets": "Mixed legacy dictionary/content payload",
+          "license_id": null,
+          "grant_status": "content_scope_unresolved",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/peterolson/chinese-lexicon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wikibooks_japanese_mnemonics",
+      "name": "Wikibooks Japanese/Kanji selected mnemonic lessons",
+      "homepage_url": "https://en.wikibooks.org/wiki/Japanese/Kanji",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Contributor-authored lesson text",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://en.wikibooks.org/wiki/Japanese/Kanji/Lesson_8",
+            "https://creativecommons.org/licenses/by-sa/4.0/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cjkvi_data_family",
+      "name": "CJKVI IDS and dictionary / Kanji Database Project",
+      "homepage_url": "https://kanji-database.sourceforge.net/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "cjkvi-ids ids.txt derived from CHISE",
+          "license_id": "GPL-2.0-or-later",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/cjkvi/cjkvi-ids/blob/master/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "Other cjkvi-ids files governed by its GPL statement",
+          "license_id": "GPL-2.0",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/cjkvi/cjkvi-ids/blob/master/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "IDS Extension C/D/E subset identified as not GPL-restricted",
+          "license_id": "LicenseRef-CJKVI-Extension-Statement",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://github.com/cjkvi/cjkvi-ids/blob/master/README.md"
+          ]
+        },
+        {
+          "fields_or_assets": "cjkvi-dict and project GPL group including Shuowen Jiezi Zhu, Guangyun and student dictionary",
+          "license_id": "GPL-2.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/cjkvi/cjkvi-dict",
+            "https://kanji-database.sourceforge.net/"
+          ]
+        },
+        {
+          "fields_or_assets": "Project datasets expressly listed under MIT, including selected 解字/Daikanwa/variant material",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://kanji-database.sourceforge.net/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chise_ids",
+      "name": "CHISE IDS and character ontology data",
+      "homepage_url": "https://www.chise.org/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "CHISE IDS tables identified in the audit",
+          "license_id": "GPL-2.0-or-later",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://gitlab.chise.org/CHISE/ids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata structured data",
+      "homepage_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Structured data in relevant entity namespaces",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://www.wikidata.org/wiki/Wikidata:Licensing"
+          ]
+        },
+        {
+          "fields_or_assets": "Nonstructured page text and linked assets",
+          "license_id": "per-object",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://www.wikidata.org/wiki/Wikidata:Licensing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hanabira_content",
+      "name": "Hanabira Japanese content repository",
+      "homepage_url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Content repository contribution",
+          "license_id": "CC-BY-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/tristcoil/hanabira.org-japanese-content/blob/main/LICENSE"
+          ]
+        },
+        {
+          "fields_or_assets": "Separate hanabira.org application code",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "reference_only",
+          "evidence_urls": [
+            "https://github.com/tristcoil/hanabira.org"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tatoeba",
+      "name": "Tatoeba sentence corpus",
+      "homepage_url": "https://tatoeba.org/en/downloads",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Default sentence text contribution",
+          "license_id": "CC-BY-2.0-FR",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus"
+          ]
+        },
+        {
+          "fields_or_assets": "Explicit CC0 sentence subset",
+          "license_id": "CC0-1.0",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus"
+          ]
+        },
+        {
+          "fields_or_assets": "Audio recordings",
+          "license_id": "per-record",
+          "grant_status": "explicit",
+          "disposition": "scoped_review",
+          "evidence_urls": [
+            "https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji_koohii",
+      "name": "Kanji Koohii stories and software",
+      "homepage_url": "https://kanji.koohii.com/about",
+      "license_scopes": [
+        {
+          "fields_or_assets": "User-contributed stories",
+          "license_id": "CC-BY-NC-SA-3.0",
+          "grant_status": "explicit",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://kanji.koohii.com/about",
+            "https://kanji.koohii.com/about/license"
+          ]
+        },
+        {
+          "fields_or_assets": "Software code",
+          "license_id": "AGPL-3.0",
+          "grant_status": "explicit",
+          "disposition": "reference_only",
+          "evidence_urls": [
+            "https://github.com/fabd/kanji-koohii"
+          ]
+        },
+        {
+          "fields_or_assets": "RTK index/keyword material and development sample rights",
+          "license_id": null,
+          "grant_status": "expressly_limited_permission",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/fabd/kanji-koohii"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "migaku_kanji_addon",
+      "name": "Migaku Kanji Addon",
+      "homepage_url": "https://github.com/migaku-official/Migaku-Kanji-Addon",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Anki add-on code",
+          "license_id": "GPL-3.0",
+          "grant_status": "explicit",
+          "disposition": "reference_only",
+          "evidence_urls": [
+            "https://github.com/migaku-official/Migaku-Kanji-Addon"
+          ]
+        },
+        {
+          "fields_or_assets": "Bundled database stories/keywords",
+          "license_id": null,
+          "grant_status": "content_grant_not_established",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/migaku-official/Migaku-Kanji-Addon",
+            "https://github.com/migaku-official/Migaku-Kanji-Addon/blob/main/tools/db_merge_tsv.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outlier",
+      "name": "Outlier Linguistics dictionaries",
+      "homepage_url": "https://www.outlier-linguistics.com/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Dictionary prose, explanations and assets",
+          "license_id": null,
+          "grant_status": "open_reuse_grant_not_verified",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://www.outlier-linguistics.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanjidatabase_com",
+      "name": "Kanji Database at kanjidatabase.com",
+      "homepage_url": "https://www.kanjidatabase.com/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Website/database content covered by the current home-page declaration",
+          "license_id": "CC-BY-NC-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://www.kanjidatabase.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waseda_dhsjr",
+      "name": "Waseda Database of Historical Sino-Japanese Readings",
+      "homepage_url": "https://dhsjr.w.waseda.jp/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published database covered by site declaration",
+          "license_id": "CC-BY-NC-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://dhsjr.w.waseda.jp/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make_me_a_hanzi",
+      "name": "Make Me a Hanzi",
+      "homepage_url": "https://github.com/skishore/makemeahanzi",
+      "license_scopes": [
+        {
+          "fields_or_assets": "dictionary.txt and dictionary data covered by COPYING",
+          "license_id": "LGPL-3.0-or-later",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/skishore/makemeahanzi/blob/master/COPYING"
+          ]
+        },
+        {
+          "fields_or_assets": "graphics.txt and glyph outlines",
+          "license_id": "Arphic-1999",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/skishore/makemeahanzi/blob/master/COPYING"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linguamigo",
+      "name": "Linguamigo derived kanji data",
+      "homepage_url": "https://github.com/linguamigo/linguamigo-kanji-derived-data",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Released derived names/inventory and decompositions",
+          "license_id": "CC-BY-SA-3.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/linguamigo/linguamigo-kanji-derived-data"
+          ]
+        },
+        {
+          "fields_or_assets": "Stories, sound hooks, examples and English glosses",
+          "license_id": null,
+          "grant_status": "explicitly_excluded",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://github.com/linguamigo/linguamigo-kanji-derived-data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yagays_kanjivg_radical",
+      "name": "yagays/kanjivg-radical",
+      "homepage_url": "https://github.com/yagays/kanjivg-radical",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Project-derived dataset",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/yagays/kanjivg-radical"
+          ]
+        },
+        {
+          "fields_or_assets": "Underlying KanjiVG source",
+          "license_id": "CC-BY-SA-3.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://kanjivg.tagaini.net/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese_moe_component_standard",
+      "name": "Chinese MOE 现代常用字部件及部件名称规范",
+      "homepage_url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/moe_1485/tnull_45766.html",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published standard tables and naming material",
+          "license_id": null,
+          "grant_status": "open_reuse_grant_not_verified",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/moe_1485/tnull_45766.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanjidamage",
+      "name": "KanjiDamage",
+      "homepage_url": "https://www.kanjidamage.com/",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Mnemonic stories, explanations and site content",
+          "license_id": null,
+          "grant_status": "open_reuse_grant_not_verified",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://www.kanjidamage.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jmdict_furigana",
+      "name": "JmdictFurigana alignment data",
+      "homepage_url": "https://github.com/Doublevil/JmdictFurigana",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Furigana resource/data, licensed on the same terms as JMdict",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/Doublevil/JmdictFurigana#licence",
+            "https://raw.githubusercontent.com/Doublevil/JmdictFurigana/2.3.1%2B2026-10-25/README.md",
+            "https://www.edrdg.org/edrdg/licence.html"
+          ]
+        },
+        {
+          "fields_or_assets": "Repository software",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/Doublevil/JmdictFurigana/blob/master/LICENSE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jiten_frequency",
+      "name": "Jiten published frequency dictionaries",
+      "homepage_url": "https://jiten.moe/frequency-dictionaries",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Published frequency data exports covered by terms section 6.1",
+          "license_id": "CC-BY-SA-4.0",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://jiten.moe/frequency-dictionaries",
+            "https://jiten.moe/terms"
+          ]
+        },
+        {
+          "fields_or_assets": "Underlying raw media corpus and separately quoted text",
+          "license_id": null,
+          "grant_status": "outside_frequency_grant",
+          "disposition": "excluded_initial",
+          "evidence_urls": [
+            "https://jiten.moe/terms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anzumura_kanji_tools",
+      "name": "anzumura/kanji-tools selected radical names",
+      "homepage_url": "https://github.com/anzumura/kanji-tools",
+      "license_scopes": [
+        {
+          "fields_or_assets": "Repository contribution and selected radical-name source",
+          "license_id": "MIT",
+          "grant_status": "explicit",
+          "disposition": "eligible",
+          "evidence_urls": [
+            "https://github.com/anzumura/kanji-tools",
+            "https://github.com/mkpoli/ids-input/blob/main/data/README.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

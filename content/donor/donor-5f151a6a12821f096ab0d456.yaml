@@ -1,0 +1,32 @@
+id: donor-5f151a6a12821f096ab0d456
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-808c
+  occurrence: kvg:0808c-g1
+revision: 628640688a17bd2d67641580aebf535040aee22e7a24baeffd0c7c42215a18f7
+localizedRevision: e2af1af5d0b7c185bfbe2bd3f06d57bed56d10aa4adf7554556e1070efbe0774
+status: candidate
+claimText: The 月-shaped part in 肌 represents 肉, flesh. Here it relates to the body, not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93443704-7eae76211a61
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/肌/1
+- reference: kanjivg-808c
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0808c-g1
+review:
+  state: pending

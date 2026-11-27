@@ -1,0 +1,28 @@
+id: donor-8d261509bf110a157f9d1aa5
+kind: historical-origin
+subject:
+  type: character
+  literal: 果
+  codepoint: U+679C
+revision: e8e2962a6af639a37ff1585f0572f56e99558ef4351d14baa65c5edc066db4c2
+localizedRevision: d7dcceb625e3deab994011d11d425458e0a22d7675b0935689a303205529e11b
+status: candidate
+claimText: 果 began as a picture of fruit growing on a tree.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93477201-1be03af9be5a
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/果/1
+review:
+  state: pending

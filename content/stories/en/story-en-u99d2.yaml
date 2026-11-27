@@ -7,7 +7,7 @@ subject:
   codepoint: U+99D2
 revision: 4ba1059d4538cd95a5c1d0b73535153778a592ec3f6fb54d7f44b6d6a425a610
 localizedRevision: c50abec4fa45e66a124db5e6c0369d51957a022272d7b5e64c68e2d6d3b82059
-status: candidate
+status: approved
 claimText: The horse played a musical phrase on the piano each time the pony tapped its hoof.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 4ba1059d4538cd95a5c1d0b73535153778a592ec3f6fb54d7f44b6d6a425a610
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:869eb117042eaa3fb801654d2ad43e0f805b0d421ef2ef83756009925f33f0f8|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:869eb117042eaa3fb801654d2ad43e0f805b0d421ef2ef83756009925f33f0f8
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -7,7 +7,7 @@ subject:
   codepoint: U+5B57
 revision: e2a803b8600ae5e76f945b0d2371e3e8dbd550d1a73a4fa12cc65f7d2be7d7d3
 localizedRevision: e532af706a7f8b3fa32cdd9a66c3d9c9e8de132efe8d69fde447b554ba4a4f5c
-status: candidate
+status: approved
 claimText: A child painted a different character on every shingle of the roof so birds could practice reading.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: e2a803b8600ae5e76f945b0d2371e3e8dbd550d1a73a4fa12cc65f7d2be7d7d3
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a1142bba30e88b181fd2e84615d739a28d522e0b4cc1282cd4b72cd69c67255b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a1142bba30e88b181fd2e84615d739a28d522e0b4cc1282cd4b72cd69c67255b
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

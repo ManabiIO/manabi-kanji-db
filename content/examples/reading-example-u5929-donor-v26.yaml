@@ -1,0 +1,40 @@
+---
+id: reading-example-u5929-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 天
+  codepoint: U+5929
+revision: b629700a2c1ae909f08ddc1eb2c53812dc2f15ed4c5974b3eafeb15b1ef9e559
+localizedRevision: 0246e46d0a7c85df397cf4f0df1a7b74f7beab25098311557e76e9f61b17742c
+status: approved
+claimText: In 天井 (てんじょう), 天 is read てん.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1438340; keb=天井; reb=てんじょう; applicable sense indices=1,2
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=40209; text=天井; reading=てんじょう; Unicode scalar index=0 (zero-based); ruby=天; rt=てん
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/天
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: b629700a2c1ae909f08ddc1eb2c53812dc2f15ed4c5974b3eafeb15b1ef9e559
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

@@ -1,0 +1,28 @@
+id: donor-fd7172f9bfcc1f0ff1020f64
+kind: historical-origin
+subject:
+  type: character
+  literal: 弟
+  codepoint: U+5F1F
+revision: 2a2c2e5e8306840a64b9f1e09eeda4f19da5fdf847a2f797fae1d28532392604
+localizedRevision: 0923ba22cb6453f7b649bd15dc03bc943186a54d541f82583289d788b7fae603
+status: candidate
+claimText: The older form pictures a spear handle wrapped in a leather strap.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94253206-aed56679c1d7
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/弟/1
+review:
+  state: pending

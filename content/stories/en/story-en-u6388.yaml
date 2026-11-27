@@ -7,7 +7,7 @@ subject:
   codepoint: U+6388
 revision: 133bd4137c7d93fdc1d0bcdfa1c25090251a4aae09dd08d0dc0d9344ce978c37
 localizedRevision: 487eb33e730df3e90a70535a1a927cee8aa6bff09d431fcf62870a06014b50da
-status: candidate
+status: approved
 claimText: A student held out both hands to receive the key that would grant access to the tower.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 133bd4137c7d93fdc1d0bcdfa1c25090251a4aae09dd08d0dc0d9344ce978c37
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4cab3fab862fa43db3600c8d331c08b4886f76579331ce74d789365065d382b3|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4cab3fab862fa43db3600c8d331c08b4886f76579331ce74d789365065d382b3
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

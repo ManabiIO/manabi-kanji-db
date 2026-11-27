@@ -7,7 +7,7 @@ subject:
   codepoint: U+80C6
 revision: b37a894163ba4daeb77246d8527cb80623da0a6e1dc191f43a55ed2c08b9a36c
 localizedRevision: 11523c0893f214f5ad4c3bf31c180a028a1e9cf9d5cec35dedf4be1d5cc5ec8c
-status: candidate
+status: approved
 claimText: At dawn, a cook bought a cut of meat for a stew she swore would give her the guts to sing in public.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: b37a894163ba4daeb77246d8527cb80623da0a6e1dc191f43a55ed2c08b9a36c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:37204669f8d34cbd16cf2ad798814e5b93382ccd314b83d36f20442c67fe9d5f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:37204669f8d34cbd16cf2ad798814e5b93382ccd314b83d36f20442c67fe9d5f
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

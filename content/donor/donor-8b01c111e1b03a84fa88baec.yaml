@@ -1,0 +1,28 @@
+id: donor-8b01c111e1b03a84fa88baec
+kind: historical-origin
+subject:
+  type: character
+  literal: 辻
+  codepoint: U+8FBB
+revision: 85ec0154972a4e80f7fb4124129e5d89d88b72bb57bdbe503c8affd5ef14490c
+localizedRevision: 60cb733d80557221f09f514793c2d3093a4a7b81acdaa6ceb258a2033c76582e
+status: candidate
+claimText: 辻 was created in Japan for a crossroads. 辶 gives the idea of a road, and 十 shows two paths crossing.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93634495-ced0de0bc53e
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Japanese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/辻/1
+review:
+  state: pending

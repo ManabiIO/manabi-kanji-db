@@ -1,0 +1,28 @@
+id: donor-510a509b46026d322f52ce7e
+kind: historical-origin
+subject:
+  type: character
+  literal: 禾
+  codepoint: U+79BE
+revision: 2c9fe2d12465403703535a743a956c024a966021bae591b0c84797261c02b63c
+localizedRevision: 16f1a50ee37f5b3866455f517a627124865f619822cfc268c9f5dad2a436c8db
+status: candidate
+claimText: 禾 began as a picture of a plant stalk, more recognizable in older forms.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93556123-c9b0e5c36e78
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/禾/1
+review:
+  state: pending

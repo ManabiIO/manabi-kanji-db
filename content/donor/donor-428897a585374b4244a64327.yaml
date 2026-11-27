@@ -1,0 +1,32 @@
+id: donor-428897a585374b4244a64327
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-9175
+  occurrence: kvg:09175-g1
+revision: 3ea9082e938e9ec6909bb70ee45624d2e67d66c260bee0561f87b62ee3422bf3
+localizedRevision: bf34b0b4cd3d61015309b92ed345f4b20ab334c52efb8473aa9147f2ba21ddd0
+status: candidate
+claimText: 酉 is a wine jar used for fermentation.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-88127672-df3f19576344
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/酵/1
+- reference: kanjivg-9175
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09175-g1
+review:
+  state: pending

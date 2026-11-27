@@ -1,0 +1,28 @@
+id: donor-09e5db10f49803a44274eae4
+kind: historical-origin
+subject:
+  type: character
+  literal: 登
+  codepoint: U+767B
+revision: 43881b8151367f31a70bf7b1abb9a8b446658bc75dc03fb0edfe6c48a140989b
+localizedRevision: 2b079877b640232d8f6ba8930d3d3dd3b8f191256bdce284a7b469e0debfa809
+status: candidate
+claimText: 登 combines two feet with a raised object or stepping stone. Some earlier forms also had two hands below.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92491083-3d8f0f057c51
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/登/1
+review:
+  state: pending

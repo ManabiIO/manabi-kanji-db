@@ -7,7 +7,7 @@ subject:
   codepoint: U+82B1
 revision: aa58d4044009ba43f324d8533adb3d1a97e9913d81e23352c8105a58d83007ac
 localizedRevision: 70fd11d2ec91ace43f93508e1c75f01b98e979431a95dacd12e60be2afbf64d7
-status: candidate
+status: approved
 claimText: At midnight, a blade of grass changed into a flower that smelled like peppermint.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: aa58d4044009ba43f324d8533adb3d1a97e9913d81e23352c8105a58d83007ac
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b5bf5496057c317fd2abb7954fe60abd194e5dbea2bd7a614db5290106aa129d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b5bf5496057c317fd2abb7954fe60abd194e5dbea2bd7a614db5290106aa129d
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

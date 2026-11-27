@@ -1,0 +1,29 @@
+id: donor-db238be0afa9610ef9396205
+kind: historical-origin
+subject:
+  type: character
+  literal: 守
+  codepoint: U+5B88
+revision: 701412166dfd2f6d1e361658cc15c8688edbafcae38c1f444c5a2a5aa5fb17db
+localizedRevision: 9dade66257244bc26478ef7c32730c3506021d21cc5c7a4cf6a9fc043ea5e126
+status: candidate
+claimText: 守 combines a building's roof with a hand to express guarding or defending a place. The hand element may
+  also have supplied sound.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93935005-815cef2ba1ea
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/守/1
+review:
+  state: pending

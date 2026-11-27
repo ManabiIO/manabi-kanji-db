@@ -1,0 +1,28 @@
+id: donor-8b064b06315cb0a9dcd64ac1
+kind: historical-origin
+subject:
+  type: character
+  literal: 末
+  codepoint: U+672B
+revision: 938b892692652dcf3b4d527a6403fa56376610a0516533b6193f5a838efa4c50
+localizedRevision: 560074fdbb694ff99c5b1db1626aff4aa53b5d791961e271f64c29e42335fadf
+status: candidate
+claimText: '末 marks the top of 木, tree, with an extra stroke: the tip or end.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93469992-1bf2cfd01fc8
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/末/1
+review:
+  state: pending

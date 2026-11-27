@@ -1,0 +1,28 @@
+id: donor-3f6f931ee401ee377434dcc5
+kind: historical-origin
+subject:
+  type: character
+  literal: 爵
+  codepoint: U+7235
+revision: b0491ba765f4a00d87747a5521e0aafa38d5c6796def067e276c5cbe6c2118ca
+localizedRevision: 7b879671912923c34b00d59db1319bbee624d18457edac82f78eb383c6d9ec47
+status: candidate
+claimText: The older form pictures a vessel held in a hand. The hand became the modern 寸-shaped part.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93444039-065fa3f4e9c8
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/爵/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+677F
 revision: 7c18b04c5afaf998b01112248a94c21cec11f46f1a2ebc5dbfd8d1d71f3f0fc8
 localizedRevision: aec766352f2eec26173297cd54575f3b13571f5f09cd117d25a3d6f70b8654c1
-status: candidate
+status: approved
 claimText: The carpenter turned over a board cut from a crooked tree and found a map carved on the reverse.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 7c18b04c5afaf998b01112248a94c21cec11f46f1a2ebc5dbfd8d1d71f3f0fc8
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:184112c393195dcad7bf55ac98fc457c33cf369e4330251bb05035f90895d5e4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:184112c393195dcad7bf55ac98fc457c33cf369e4330251bb05035f90895d5e4
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -1,0 +1,28 @@
+id: donor-3ccce25eb3b2f4209e8503cd
+kind: historical-origin
+subject:
+  type: character
+  literal: 示
+  codepoint: U+793A
+revision: 8880fddf8625f99004dd0482b9d74400c1c322f7fe462e80059d9b2956d67089
+localizedRevision: 7fe3391efdafb0eda3183e2ee8c1e092eaaada256a2b5c940fef9888ed5b017b
+status: candidate
+claimText: 示 pictures a ritual object, interpreted as an altar or memorial tablet.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93594705-fc4a95e9c74b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/示/1
+review:
+  state: pending

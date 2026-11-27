@@ -7,7 +7,7 @@ subject:
   codepoint: U+6CC9
 revision: e88f1bc87fb63d9cfd13e1d804dec474d3445f00fcc41c3bac36458c7179b536
 localizedRevision: 32aba45c62aa5bdfb63a16477e85145842cc19190759e31c312429b1d9a7c89c
-status: candidate
+status: approved
 claimText: A white pebble tumbled from the cave when water from the spring burst out.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: e88f1bc87fb63d9cfd13e1d804dec474d3445f00fcc41c3bac36458c7179b536
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d9e2a1e6ad6b90517c31b8fe9b1f45bb5a540d2963d0af2ef898146c0cf28cf9|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d9e2a1e6ad6b90517c31b8fe9b1f45bb5a540d2963d0af2ef898146c0cf28cf9
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

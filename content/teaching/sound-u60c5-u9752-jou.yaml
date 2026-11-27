@@ -1,0 +1,47 @@
+---
+id: sound-u60c5-u9752-jou
+kind: modern-japanese-sound
+subject:
+  type: occurrence
+  structure: kv-60c5
+  occurrence: kvg:060c5-g2
+revision: 5368b9b0fd3a4b1c07d15896cbfb5defd56a2dc876b3639d5b3a3173ec0395d6
+localizedRevision: 6690252f92d19ef5cdedd8eebb91adc32a30231b12d6a8c44bf35cb16ecd8e03
+status: approved
+claimText: In the 青 family, 情 has the on reading ジョウ. Learn なさけ as a separate kun reading.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-60c5
+  claimField: subject.occurrence
+  supportType: exact-component-occurrence
+  selector: kanji/060c5.svg#kvg:060c5-g2; kvg:element=青; kvg:position=right
+- reference: kanjium-kanjidict
+  claimField: claimText
+  supportType: phonetic-family-membership
+  selector: line=1396; kanji=情; phonetic=青; type=Phono-semantic compound
+- reference: kanjium-phonetics
+  claimField: claimText
+  supportType: mixed-on-reading-family
+  selector: line=15; phonetic=青; reading includes ジョウ
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-on-reading
+  selector: character[literal='情']/reading_meaning/rmgroup/reading[@r_type='ja_on' and text()='ジョウ']
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-kun-reading
+  selector: character[literal='情']/reading_meaning/rmgroup/reading[@r_type='ja_kun' and text()='なさ.け']
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root
+  reviewedAt: '2026-11-27'
+  claimRevision: 5368b9b0fd3a4b1c07d15896cbfb5defd56a2dc876b3639d5b3a3173ec0395d6
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjium-data:9ebca4589565c696e7c39e089e2e928ad65f678c:78afcdee20b3291268ef1a85595b2e33c415547beb98b02413097ac759886419|kanjium-data:9ebca4589565c696e7c39e089e2e928ad65f678c:a98e4ccec7bc379de9e035f0463ab481f05669850f9c39ff79a0f3b0fb8a18df|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:14879c0bbc38d983dd5add58bb81a75d93e42e80df053ec8de2b301beb8e0ce3
+  rationale: Exact right-hand 青 group, Kanjium phonetic column, and selected KANJIDIC2 on/kun selectors were verified;
+    historical and modern claims are separately scoped.

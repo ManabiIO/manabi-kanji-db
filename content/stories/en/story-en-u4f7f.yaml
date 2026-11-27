@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F7F
 revision: 25b6aa4f40113f850203844359b0d90fe3920f934aa233a2549d34abf2d9f12e
 localizedRevision: 53d17b36ab292215264ee082a6590cc2a28e68d12138f8117598598083e0c51c
-status: candidate
+status: approved
 claimText: At customs, a traveler had to use a silver whistle to call the officer down from his tower.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 25b6aa4f40113f850203844359b0d90fe3920f934aa233a2549d34abf2d9f12e
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b8cb4df515c6257c1a43810d09acfa8dd0797dd353bba9ae8c9fb94759a46c33|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b8cb4df515c6257c1a43810d09acfa8dd0797dd353bba9ae8c9fb94759a46c33
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

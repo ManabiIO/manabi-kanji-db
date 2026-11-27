@@ -1,0 +1,28 @@
+id: donor-cc6c71c550f65a87e33be041
+kind: historical-origin
+subject:
+  type: character
+  literal: 働
+  codepoint: U+50CD
+revision: 4cf11f7c2b33ed00f306aa303ea066702ebca3573a8087ed78b18dc5073ae74b
+localizedRevision: 4b6b507e0a52021108cb95e01ff43cb445bae2ae6500aee32801f8731b17a311
+status: candidate
+claimText: 'A Japanese-created character: 人 means person, and 動 supplies the onyomi ドウ.'
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92199939-3a4a34ad5bde
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Japanese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/働/1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-7f0f776a6a97dae249bb046a
+kind: historical-origin
+subject:
+  type: character
+  literal: 午
+  codepoint: U+5348
+revision: 6bdc355efc055079565467c749aa6ce7ee07c9b3e95902274d4d288e4c890371
+localizedRevision: f430bb91322db04aaf2d791a3694e2e50e0190efea322cc94eda453f845e5027
+status: candidate
+claimText: The older form pictures a pestle. It has a different origin from the similar-looking 干.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92623713-cd49c021e463
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/午/1
+review:
+  state: pending

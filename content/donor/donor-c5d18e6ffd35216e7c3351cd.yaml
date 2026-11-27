@@ -1,0 +1,28 @@
+id: donor-c5d18e6ffd35216e7c3351cd
+kind: historical-origin
+subject:
+  type: character
+  literal: 魚
+  codepoint: U+9B5A
+revision: bd87f4c30935cc70932b21ff00ae24415b96f74c8fca3ad429da991262f22601
+localizedRevision: 4e13cddcedb16c006a541ffa9a3b28bfa61f26316ff1d9535634f628cf713da1
+status: candidate
+claimText: An early picture of a fish.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93769916-5a4741b1172b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/魚/1
+review:
+  state: pending

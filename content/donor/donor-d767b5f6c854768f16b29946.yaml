@@ -1,0 +1,32 @@
+id: donor-d767b5f6c854768f16b29946
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-80ba
+  occurrence: kvg:080ba-g1
+revision: 7918996b45b075823bc40f125ca65bf6a688e69e2d367c49bd1b904b2457f85c
+localizedRevision: b4752ec8c75fd45249a21b8b2623e1d1a5095d6c58d2a973416318f11b4a220c
+status: candidate
+claimText: The 月-shaped part in 肺 represents 肉, flesh. Here it relates to the body, not the moon.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93384308-37a3dff8d472
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/肺/1
+- reference: kanjivg-80ba
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:080ba-g1
+review:
+  state: pending

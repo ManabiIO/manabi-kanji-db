@@ -7,7 +7,7 @@ subject:
   codepoint: U+8CC7
 revision: dfef96ecee53067a224975a1c1e5b9af08c18062bedc783ae59df75044073488
 localizedRevision: bc16e5d2be7ff1a38631179286859bd4155ae5a78bfc185e59f9b294221c61b7
-status: candidate
+status: approved
 claimText: The next chest of shells gave the village enough resources to repair its bridge.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: dfef96ecee53067a224975a1c1e5b9af08c18062bedc783ae59df75044073488
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6683bf1377bcae4022a54c2e3d68baf0a4f23fae0ce86ed39b6969374e42fb23|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6683bf1377bcae4022a54c2e3d68baf0a4f23fae0ce86ed39b6969374e42fb23
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

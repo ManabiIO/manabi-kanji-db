@@ -1,0 +1,28 @@
+id: donor-6b04d9f8c4007146e2b80818
+kind: historical-origin
+subject:
+  type: character
+  literal: 相
+  codepoint: U+76F8
+revision: a605ee7f8de1e5fe7ce1a69fd4ac479f303bdfbb96d5e1a21771be99af284ec1
+localizedRevision: 36ce3fffd40657e26dbf529927b778c91686899a1b62e9be4f5554ce46a8e068
+status: candidate
+claimText: 相 combines an eye with a tree, expressing looking at a tree.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92368480-614a3d25adc6
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/相/1
+review:
+  state: pending

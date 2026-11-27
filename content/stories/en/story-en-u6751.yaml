@@ -7,7 +7,7 @@ subject:
   codepoint: U+6751
 revision: 58a5e8570422da7db90749a82c258b4811b7f8161485096d300d2f0f99e6f291
 localizedRevision: 5d09531ba5238e71fef78b98dd88469afbf798ba314d8c93621d57c1d7b6955d
-status: candidate
+status: approved
 claimText: In a village where everything stood one inch tall, a fallen tree blocked three streets.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 58a5e8570422da7db90749a82c258b4811b7f8161485096d300d2f0f99e6f291
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5e21663e3749a54887a55172c4cd589eb548194724e535032b5b96ac250f4902|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5e21663e3749a54887a55172c4cd589eb548194724e535032b5b96ac250f4902
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

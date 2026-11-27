@@ -1,0 +1,28 @@
+id: donor-48b2a76c9bd1ea25d6ed755b
+kind: historical-origin
+subject:
+  type: character
+  literal: 心
+  codepoint: U+5FC3
+revision: 06508d5753cafaca55fadc91815f6eacd8445ae99b718089dff5cf10dbd49335
+localizedRevision: 1daebf9f6aa1b5cd7d58b88070165bae92983cdf1d37b5b2acb2d8ea95149dc6
+status: candidate
+claimText: An early picture of a heart, now highly stylized.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93404553-e3d41de3dc85
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/心/1
+review:
+  state: pending

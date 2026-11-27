@@ -1,0 +1,11 @@
+{
+  "snapshotURL": "https://data.dong-chinese.com/dump/dictionary_char_2025-12-27.jsonl",
+  "sha256": "046249581c3414baa12b6eff4a8d3c31ef1be7f70634fe919dfa1c01e99ab3eb",
+  "bytes": 76840045,
+  "rows": 93850,
+  "charactersInScope": 26,
+  "outlierRecordsExcluded": 0,
+  "charactersWithEligibleRoles": 21,
+  "sourceRelationshipCandidates": 42,
+  "approvedTeachingClaims": 0
+}

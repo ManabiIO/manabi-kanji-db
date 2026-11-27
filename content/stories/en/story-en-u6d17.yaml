@@ -7,7 +7,7 @@ subject:
   codepoint: U+6D17
 revision: 80af72245a2eeaefeee4d1a79a27e93e26330459e31026f9ffe39dca64ce16b1
 localizedRevision: 3cc6c61b0f834a23bcc9da363596899d3090e524fb1860b0bf9dbff4f30db6ef
-status: candidate
+status: approved
 claimText: The camp cook turned on the water and asked the children to wash their muddy hands first.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 80af72245a2eeaefeee4d1a79a27e93e26330459e31026f9ffe39dca64ce16b1
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d190f3efed34da1ad8e5879665777bbe72b0468ec1d74a528f2ae56d5d3d6312|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d190f3efed34da1ad8e5879665777bbe72b0468ec1d74a528f2ae56d5d3d6312
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

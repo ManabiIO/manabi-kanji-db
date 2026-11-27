@@ -1,0 +1,40 @@
+---
+id: reading-example-u571f-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 土
+  codepoint: U+571F
+revision: 7491176a4730f06e30be66cca42a0d67565c46ccdebb53d8b7abf32becdd8a4f
+localizedRevision: 5630b81d20d45341aa89f40d356077d505aac8a4aef5481b3aab22a9b9770e6f
+status: approved
+claimText: In 土地 (とち), 土 is read と.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1445470; keb=土地; reb=とち; applicable sense indices=1,2
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=41115; text=土地; reading=とち; Unicode scalar index=0 (zero-based); ruby=土; rt=と
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/土
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: 7491176a4730f06e30be66cca42a0d67565c46ccdebb53d8b7abf32becdd8a4f
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.

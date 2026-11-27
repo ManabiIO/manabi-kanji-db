@@ -7,7 +7,7 @@ subject:
   codepoint: U+4F55
 revision: 017c9ae88c8a673c7bf3765af13d2975d3a07f34dc113c5d2347b1deecd51733
 localizedRevision: 985c80d4f0a22b5ee252840d9b10e01a9ee9bd848ee7f907fb347187bcdc0aad
-status: candidate
+status: approved
 claimText: A person found a crate stamped APPROVED and asked what was inside when it began to sneeze.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 017c9ae88c8a673c7bf3765af13d2975d3a07f34dc113c5d2347b1deecd51733
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c4cb0c8ff921fed54ea1e05a328a734822db7783ba28aa50770369e8251b713b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c4cb0c8ff921fed54ea1e05a328a734822db7783ba28aa50770369e8251b713b
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

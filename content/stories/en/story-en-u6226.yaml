@@ -7,7 +7,7 @@ subject:
   codepoint: U+6226
 revision: 0b0e297457e5e9842365b1c9fa41e52f6a0520f02d4e8a12e82a9a2802914c44
 localizedRevision: 23b5eb9c3379aa795294d24e90c6e51ff50c13b9ccdb3faa4881339c3193e9b6
-status: candidate
+status: approved
 claimText: In the toy army's war, a single tin spear served as a bridge over the moat.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0b0e297457e5e9842365b1c9fa41e52f6a0520f02d4e8a12e82a9a2802914c44
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5fd657242f979bdd604e7fb2d7bf6b18cb0c4dc70aa4a23f607d4d3913668219|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5fd657242f979bdd604e7fb2d7bf6b18cb0c4dc70aa4a23f607d4d3913668219
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

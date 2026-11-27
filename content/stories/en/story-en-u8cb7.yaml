@@ -7,7 +7,7 @@ subject:
   codepoint: U+8CB7
 revision: dae43d4343799aa31f7c2a15e7e5407e5e95bc63a78e87c1395a38a82f12eb3d
 localizedRevision: eb1d79799cf9ec4234b89a3a5571ca4e7566d4aa962b8b0cc027d44ae12b9182
-status: candidate
+status: approved
 claimText: At the beach market, a diver used one large shell to buy a net with a silver handle.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: dae43d4343799aa31f7c2a15e7e5407e5e95bc63a78e87c1395a38a82f12eb3d
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a8668adf6c3b9980249db2868131c4b8d4b563cb550266485d7c2fd30ee94cd8|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a8668adf6c3b9980249db2868131c4b8d4b563cb550266485d7c2fd30ee94cd8
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

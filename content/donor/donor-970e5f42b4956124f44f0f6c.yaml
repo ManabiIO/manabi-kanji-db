@@ -1,0 +1,28 @@
+id: donor-970e5f42b4956124f44f0f6c
+kind: historical-origin
+subject:
+  type: character
+  literal: 臣
+  codepoint: U+81E3
+revision: 4ed7751402cd99181a47d0d5e33fd1be10da49aad67ae333ac2a2d17daaa23a6
+localizedRevision: 5b93aee4d085bce94c26446e918d021298a3653a5fb3ffce3a122d4bf543b278
+status: candidate
+claimText: The older shape is a vertical eye looking downward. It acquired the meanings servant and minister.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92201464-15fad151ad8b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/臣/1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-d1547aee4a308e5a648ccb5b
+kind: historical-origin
+subject:
+  type: character
+  literal: 交
+  codepoint: U+4EA4
+revision: cc6f9c7ff7ebb57fa651a3637f46ca21b9a6f9f11db6acabb1d269cc4c45aed4
+localizedRevision: c9b90617efdc80ce3a824d59f5133ebb8a329a84bd4a06871b5c41a533f0b82f
+status: candidate
+claimText: 交 pictures a person with crossed legs. The upper body now resembles 立.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93807539-2aa8e2de496b
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/交/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+7D1A
 revision: ba0fc3bd03e9c2ee04c19b446e6d9dc6a22a66406c843ca893c523af1fb866b6
 localizedRevision: 3d75c01fdfd30aa2106d1b2b0746b15ec85ee3b2e1171a39926c31baffb37793
-status: candidate
+status: approved
 claimText: An apprentice could reach the next rank by spinning a thread long enough to cross the hall.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: ba0fc3bd03e9c2ee04c19b446e6d9dc6a22a66406c843ca893c523af1fb866b6
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3a47387ac00474ed725574ff1597b927ed78bb69b3688f5cfde6d95771b50c4c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3a47387ac00474ed725574ff1597b927ed78bb69b3688f5cfde6d95771b50c4c
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

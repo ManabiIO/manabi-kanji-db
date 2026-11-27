@@ -7,7 +7,7 @@ subject:
   codepoint: U+6821
 revision: 6ab5a17aae3f4ecf25da1d75ce0681b4a7e301730ae15e3be8ff896ac1d7b012
 localizedRevision: 5574387da31630b4782dce871b03dfa0ddcf742bae32a6e9f895a2607b51a054
-status: candidate
+status: approved
 claimText: At the school fair, pupils from every grade mingled under a tree hung with paper goldfish.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 6ab5a17aae3f4ecf25da1d75ce0681b4a7e301730ae15e3be8ff896ac1d7b012
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b3a22720ca44fe8389062bd550cf4a83b8cc6847948a44f5d7c63c1bba86f4ea|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b3a22720ca44fe8389062bd550cf4a83b8cc6847948a44f5d7c63c1bba86f4ea
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

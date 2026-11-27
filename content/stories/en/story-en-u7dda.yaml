@@ -7,7 +7,7 @@ subject:
   codepoint: U+7DDA
 revision: 6bf2e46dc743043c0a93c41321830c1ed2bc3be06d02a4ddd025d3434bd1c562
 localizedRevision: ffadbaca9975cf93ea1bea5e1937bdb8cf4d93dfc8adcd20412872678d821517
-status: candidate
+status: approved
 claimText: A child stretched a thread across the spring and watched its straight line bend whenever a frog hopped
   over it.
 targetLanguage: ja
@@ -36,8 +36,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 6bf2e46dc743043c0a93c41321830c1ed2bc3be06d02a4ddd025d3434bd1c562
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1c403c0ec912451fd418f6f92b40c7497b01c152bbb4d4b09d201abd39b5ed9a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1c403c0ec912451fd418f6f92b40c7497b01c152bbb4d4b09d201abd39b5ed9a
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

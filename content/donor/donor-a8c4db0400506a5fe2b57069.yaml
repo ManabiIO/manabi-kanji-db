@@ -1,0 +1,29 @@
+id: donor-a8c4db0400506a5fe2b57069
+kind: historical-origin
+subject:
+  type: character
+  literal: 女
+  codepoint: U+5973
+revision: ff7db6c9b746b801640a982786f88cf567f79ab36280f2bea54281643ec0b74a
+localizedRevision: b16012ec51d780cb5f8bc3fb5d1c96bdc2108f8709cd7c0bede2a73ae95f3221
+status: candidate
+claimText: The older form pictures a woman with folded arms. Its orientation and arm shapes changed in the modern
+  character.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92739223-77ee17a0ca33
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/女/1
+review:
+  state: pending

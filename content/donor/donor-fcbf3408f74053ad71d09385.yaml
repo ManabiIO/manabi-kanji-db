@@ -1,0 +1,32 @@
+id: donor-fcbf3408f74053ad71d09385
+kind: semantic-function
+subject:
+  type: occurrence
+  structure: kv-8a71
+  occurrence: kvg:08a71-g1
+revision: 4eeee63cc48f94bf384511d29b58d63b3a69c733bda947fc4030467457f7bf37
+localizedRevision: 41d9eb8fc79454fc3cac4c84aa53d99f912d4e05b7fe1736056d8bc6539bacfa
+status: candidate
+claimText: 言 supplies the meaning of speech or words.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92512667-8de48273cdea
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/話/1
+- reference: kanjivg-8a71
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08a71-g1
+review:
+  state: pending

@@ -1,0 +1,28 @@
+id: donor-cfd9892d59ded81bafce96e6
+kind: historical-origin
+subject:
+  type: character
+  literal: 尖
+  codepoint: U+5C16
+revision: 2a9d0ee1c5b75dc986ddc6903b8002e4f934eed65fa3d0b88ba20458fb44e133
+localizedRevision: e2fe1da3c7db82d9912e9911137b5f7200b6f3b0335c4877ba66b5bfc01952f9
+status: candidate
+claimText: 小 small above 大 large outlines a shape that widens from its tip to its base.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93447945-45f9cf69b581
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/尖/1
+review:
+  state: pending

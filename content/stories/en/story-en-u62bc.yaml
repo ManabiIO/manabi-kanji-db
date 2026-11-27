@@ -7,7 +7,7 @@ subject:
   codepoint: U+62BC
 revision: 70a85ee1d187f58ad480a21edbf34be3499b5980a6bc09d3e8f99271a9b9fae0
 localizedRevision: db0f261d4a43e7c4685cb7232c2439f4c7878a2ef14d0f08630816fc21f97f95
-status: candidate
+status: approved
 claimText: A knight used one hand to push a suit of armor through the revolving door.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 70a85ee1d187f58ad480a21edbf34be3499b5980a6bc09d3e8f99271a9b9fae0
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1b063afb845262f7e5b36dfec6ceddf96a63f25da5e5bfb1c9765685146df520|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1b063afb845262f7e5b36dfec6ceddf96a63f25da5e5bfb1c9765685146df520
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

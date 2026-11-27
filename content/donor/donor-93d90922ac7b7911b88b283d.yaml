@@ -1,0 +1,28 @@
+id: donor-93d90922ac7b7911b88b283d
+kind: historical-origin
+subject:
+  type: character
+  literal: 雨
+  codepoint: U+96E8
+revision: 1ca75995f3be3c92e731ae873eaae6ada72f9520c49e651ca8dcd56067adbe38
+localizedRevision: 933b9848804e1be0bfd8f4c97ee73cbdfb6701ff389e811b20d9ca9398070929
+status: candidate
+claimText: The dots represent rain falling from a cloud.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93473045-ff6bbc837480
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/雨/1
+review:
+  state: pending

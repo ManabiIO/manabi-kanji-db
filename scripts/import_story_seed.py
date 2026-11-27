@@ -125,6 +125,11 @@ def main() -> int:
     if cue_path.is_symlink() or cue_path.parent != (root / "data").resolve(strict=True):
         raise SystemExit("story cue input must be a non-symlink file directly under data/")
     cue_hash = sha(cue_path.read_bytes())
+    prior_manifest_path = root / "data" / "story-seed-manifest.yaml"
+    if prior_manifest_path.is_symlink():
+        raise SystemExit("refusing symlink prior story review manifest")
+    prior_manifest = yaml.safe_load(prior_manifest_path.read_text(encoding="utf-8")) if prior_manifest_path.is_file() else {}
+    prior_reviews = {item["id"]: item for item in prior_manifest.get("claims", [])}
 
     rows = []
     inputs = [{"batch": cue_path.name, "sha256": cue_hash}]
@@ -239,13 +244,68 @@ def main() -> int:
     if issues:
         raise SystemExit("story import needs source/editorial decisions before writing:\n" + "\n".join(issues[:60]))
     all_claims = list(claims.values()) + story_claims
+    import sys
+    sys.path.insert(0, str(root))
+    from kanjidb.validation import claim_review_fingerprint, load_reviewed_fingerprints
+
+    reviewed_fingerprints = load_reviewed_fingerprints(root)
+    generated_by_id = {claim["id"]: claim for claim in all_claims}
+    structures_by_id = {structure["id"]: structure for structure in structures}
+    reviewed_claims = 0
+    invalidated_reviews = 0
+    for claim in all_claims:
+        old = prior_reviews.get(claim["id"], {})
+        review = old.get("review", {})
+        if review.get("state") != "approved":
+            continue
+        if (old.get("revision") != claim["revision"] or old.get("localizedRevision") != claim["localizedRevision"]
+                or review.get("claimRevision", old.get("revision")) != claim["revision"]):
+            invalidated_reviews += 1
+            continue
+        expected_source_revision = source_revision(claim["evidence"], refs)
+        if review.get("sourceRevision") != expected_source_revision:
+            invalidated_reviews += 1
+            continue
+        fingerprint = claim_review_fingerprint(claim, generated_by_id, refs, structures_by_id)
+        if reviewed_fingerprints.get(claim["id"]) != fingerprint:
+            invalidated_reviews += 1
+            continue
+        reviewer = review.get("reviewer")
+        reviewed_at = review.get("reviewedAt")
+        if not reviewer or reviewer == claim["author"]["name"] or not reviewed_at:
+            continue
+        rationale = review.get("rationale") or (
+            "Approved as an original fictional mnemonic cue bound to exact Japanese glyph occurrences; no ordinary dictionary meaning or historical component function is asserted."
+            if claim["kind"] == "visual-name" else
+            "Approved as an original fictional mnemonic with an independently sourced Japanese target sense and exact component occurrence evidence."
+        )
+        claim["status"] = "approved"
+        claim["review"] = {"state": "approved", "reviewer": reviewer, "reviewedAt": reviewed_at,
+                            "claimRevision": claim["revision"], "sourceRevision": expected_source_revision,
+                            "rationale": rationale}
+        old["review"] = {"state": "approved", "reviewer": reviewer, "reviewedAt": reviewed_at,
+                          "claimRevision": claim["revision"], "sourceRevision": expected_source_revision,
+                          "rationale": rationale}
+        reviewed_claims += 1
     out: dict[Path, bytes] = {}
     manifest = {"version": 1, "author": "OpenAI Codex agent /root/stories", "license": "CC-BY-SA-4.0",
-                "status": "candidate-pending-distinct-review", "sourceInputs": inputs,
+                "status": "independently-reviewed-candidates" if reviewed_claims else "candidate-pending-distinct-review", "sourceInputs": inputs,
                 "storyCount": len(story_claims), "distinctComponentLabelClaims": len(claims),
                 "claims": [{"id": claim["id"], "kind": claim["kind"], "revision": claim["revision"],
-                            "localizedRevision": claim["localizedRevision"]} for claim in all_claims],
+                            "localizedRevision": claim["localizedRevision"],
+                            **({"review": claim["review"]} if claim["review"]["state"] == "approved" else {})}
+                           for claim in all_claims],
                 "targetSenseSelectors": sense_choices}
+    if reviewed_claims:
+        reviewed_labels = sum(c["kind"] == "visual-name" and c["review"]["state"] == "approved" for c in all_claims)
+        reviewed_stories = sum(c["kind"] == "mnemonic" and c["review"]["state"] == "approved" for c in all_claims)
+        reviewers = sorted({c["review"]["reviewer"] for c in all_claims if c["review"]["state"] == "approved"})
+        reviewed_dates = sorted({c["review"]["reviewedAt"] for c in all_claims if c["review"]["state"] == "approved"})
+        manifest["reviewDisposition"] = {"reviewers": reviewers, "reviewedAt": reviewed_dates,
+            "result": "approved" if reviewed_claims == len(all_claims) else "partial",
+            "approvedStoryCount": reviewed_stories, "approvedVisualNameCount": reviewed_labels,
+            "excludedUnlistedClaims": True,
+            "rationale": "Review binds exact claim and localized revisions; visual labels are fictional mnemonic cues and story targets use independent Japanese sense evidence."}
     out[root / "data" / "story-seed-manifest.yaml"] = yaml_bytes(manifest)
     for claim in sorted(claims.values(), key=lambda item: item["id"]):
         out[root / "content" / "labels" / f"{claim['id']}.yaml"] = yaml_bytes(claim)
@@ -261,7 +321,9 @@ def main() -> int:
         path.parent.mkdir(parents=True, exist_ok=True)
         if not path.exists() or path.read_bytes() != content:
             path.write_bytes(content)
-    print(f"Generated {len(story_claims)} original story claims and {len(claims)} sourced visual-label candidates; all remain pending independent review")
+    print(f"Generated {len(story_claims)} original stories and {len(claims)} sourced visual labels; {reviewed_claims} exact claim revisions carry their recorded independent review")
+    if invalidated_reviews:
+        print(f"Review reset to pending for {invalidated_reviews} claims whose content, evidence, or dependencies differ from the frozen review")
     print(f"Candidate review projection: data/story-seed-manifest.yaml")
     return 0
 

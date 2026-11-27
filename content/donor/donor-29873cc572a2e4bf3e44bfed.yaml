@@ -1,0 +1,28 @@
+id: donor-29873cc572a2e4bf3e44bfed
+kind: historical-origin
+subject:
+  type: character
+  literal: 付
+  codepoint: U+4ED8
+revision: b0449a93c4fb17b9c2dcd4b7745443355a9f79d0470df5bd9ba6d5bf8885eab0
+localizedRevision: c82164ceb8a340aa5ae7424ca24a7f8cc74482d1f18b110b3011d35ff92a813e
+status: candidate
+claimText: 付 combines a person with a hand, expressing giving or delivering something to someone.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93768172-80fc9d26f9b1
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/付/1
+review:
+  state: pending

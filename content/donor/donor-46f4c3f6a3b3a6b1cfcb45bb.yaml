@@ -1,0 +1,28 @@
+id: donor-46f4c3f6a3b3a6b1cfcb45bb
+kind: historical-origin
+subject:
+  type: character
+  literal: 一
+  codepoint: U+4E00
+revision: 80cca579e83f72de187fa9689faee399d46ffb97f96dee2a4ae5993727fa7740
+localizedRevision: 064b85d092021b84c6358ee5da5986260287f2cfa5dbd12e39f63ccec2592ed2
+status: candidate
+claimText: One stroke represents one.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93934800-da88aa03f856
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/一/1
+review:
+  state: pending

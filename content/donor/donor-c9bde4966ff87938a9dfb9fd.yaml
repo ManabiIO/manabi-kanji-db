@@ -1,0 +1,29 @@
+id: donor-c9bde4966ff87938a9dfb9fd
+kind: historical-origin
+subject:
+  type: character
+  literal: 月
+  codepoint: U+6708
+revision: 06db2834d707d06905adb74f9a1058b207faf448c7835b9ccf188e8f925f4adf
+localizedRevision: b9b6d309c33a131e16e44f0217ba0b4bbf7ad53460b3eecd4b5773a672095ae8
+status: candidate
+claimText: 月 began as a crescent-moon picture. Similar 月-shaped parts in other kanji can represent other things,
+  such as 肉, flesh.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93428147-6a052299cfb5
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/月/1
+review:
+  state: pending

@@ -7,7 +7,7 @@ subject:
   codepoint: U+5B88
 revision: 0c0183c3c584922db85b28d1684dfe3d1ae59a1ca66cc9df68479c5b1541fdc7
 localizedRevision: f08e7077411c51983fb010cf0977d897174c27b4c084d64b5493b0c02bb5b076
-status: candidate
+status: approved
 claimText: The guard patrolled every inch of the roof after a hawk stole the king's hat.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0c0183c3c584922db85b28d1684dfe3d1ae59a1ca66cc9df68479c5b1541fdc7
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6770c3b88d78a3d9b3f69543290d9706314b3f07ceca1fad690044501e59133e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6770c3b88d78a3d9b3f69543290d9706314b3f07ceca1fad690044501e59133e
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

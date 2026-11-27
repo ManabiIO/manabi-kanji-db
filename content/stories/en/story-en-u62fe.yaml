@@ -7,7 +7,7 @@ subject:
   codepoint: U+62FE
 revision: 38774ead23110d347317c66dd3c7a56faba9d582876cd46e70741a6437b7b3a8
 localizedRevision: 3ed19728f041cfedf0a90e4e8d27ec95c1a1c43088243259ed6d1073f97de4f7
-status: candidate
+status: approved
 claimText: When the last two pieces fit together, an enormous hand reached down to pick up the puzzle.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 38774ead23110d347317c66dd3c7a56faba9d582876cd46e70741a6437b7b3a8
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:79d5eacc2bf279d57e419c33e09716eec7254bfdb0f365d1556e90951e56887b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:79d5eacc2bf279d57e419c33e09716eec7254bfdb0f365d1556e90951e56887b
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

@@ -7,7 +7,7 @@ subject:
   codepoint: U+8A69
 revision: 0338a4064cfb4a0ca38f2a3761e589524b5806d822c8b05fa61f8c633599d66c
 localizedRevision: fbf79034a1e726dc557f779fbfd4c4b6e8d279d12dce4ffe70daefaeb78571dd
-status: candidate
+status: approved
 claimText: Each word of the poem was painted on a separate tile along the temple steps.
 targetLanguage: ja
 locale: en
@@ -35,8 +35,8 @@ review:
   reviewedAt: '2026-11-27'
   claimRevision: 0338a4064cfb4a0ca38f2a3761e589524b5806d822c8b05fa61f8c633599d66c
   sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e3d0e24df6b1a637996afbcc15fbaf9154a3a5a756c75a2008f824327bc5d686|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e3d0e24df6b1a637996afbcc15fbaf9154a3a5a756c75a2008f824327bc5d686
-  rationale: Approved as an original fictional mnemonic whose target sense is independently sourced and whose component
-    occurrences match the cited Japanese glyph strokes.
+  rationale: Approved as an original fictional mnemonic with an independently sourced Japanese target sense and
+    exact component occurrence evidence.
 story:
   locale: en
   originality: original

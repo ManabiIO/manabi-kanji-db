@@ -1,0 +1,29 @@
+id: donor-d673386a39000fbec471184a
+kind: historical-origin
+subject:
+  type: character
+  literal: 虎
+  codepoint: U+864E
+revision: 072b827d0a432ace6c93ad7bee6c36913ecebc8f05ea14cbadc066d8cd5dc493
+localizedRevision: 249b73030a128209fcec72b525a8761a6394f0325da2e9373f9e92c607e988cf
+status: candidate
+claimText: The older tiger picture lost its torso; its legs and tail changed into the lower 儿-shaped part. The upper
+  虍 is the head.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92378812-7a7830b63702
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/虎/1
+review:
+  state: pending

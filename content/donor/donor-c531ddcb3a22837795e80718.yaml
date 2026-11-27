@@ -1,0 +1,28 @@
+id: donor-c531ddcb3a22837795e80718
+kind: historical-origin
+subject:
+  type: character
+  literal: 犬
+  codepoint: U+72AC
+revision: d7898659ab00a08b2eb4af740c5e9e791613aeef77222de66cf9821c2408dda0
+localizedRevision: 63ced7fbdb45c0e6587d8a7bc462c2bf19fe041cf28a5a238e9838699e28ea08
+status: candidate
+claimText: A picture of a dog seen from the side.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-94100401-e2e243d975ca
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/犬/1
+review:
+  state: pending

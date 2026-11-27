@@ -1,0 +1,28 @@
+id: donor-4df0231c9dc52de90996661a
+kind: historical-origin
+subject:
+  type: character
+  literal: 虫
+  codepoint: U+866B
+revision: f6a114739c9c8c3462b2994317a72bcf559fe9d71201dc96ad3f16374b83c092
+localizedRevision: 4a1b4ab88ce927c160851cd4652dc115b06cd9fddae20c0b29504a642ca0ea2c
+status: candidate
+claimText: The older form pictures a snake. 虫 was later used for insects as well.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92731919-3ffbeba477f2
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/虫/1
+review:
+  state: pending

@@ -1,0 +1,32 @@
+id: donor-6277ba9c20bff885659281e5
+kind: historical-origin
+subject:
+  type: occurrence
+  structure: kv-5360
+  occurrence: kvg:05360-g1
+revision: 654b28ef1d7ba2089afe5096b2587aae24e3cb4f2ca3f8fef38f9a5ff04845e1
+localizedRevision: 1ff3799186235836e99d8c5e7e04e066fdb7a6d7f43ae1b85853ff912b55c7d0
+status: candidate
+claimText: 卜 pictures a crack used in fortune-telling.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-91776784-422682f67781
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /occurrenceReviews/占/1
+- reference: kanjivg-5360
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05360-g1
+review:
+  state: pending

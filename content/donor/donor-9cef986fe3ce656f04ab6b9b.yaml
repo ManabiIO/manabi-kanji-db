@@ -1,0 +1,28 @@
+id: donor-9cef986fe3ce656f04ab6b9b
+kind: historical-origin
+subject:
+  type: character
+  literal: 我
+  codepoint: U+6211
+revision: 15aa2b3c30a98161a6b5e5223d4199b46d5b78b842763f95d31a5e7667682db1
+localizedRevision: 75e14f3ce22c32280c70218feb2a88317465cc39c307ba15eb3593fdce12d418
+status: candidate
+claimText: The older form pictures a three-pronged weapon or tool.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-93556183-d89c6493d3f6
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/我/1
+review:
+  state: pending

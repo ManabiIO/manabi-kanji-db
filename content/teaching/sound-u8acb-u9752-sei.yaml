@@ -1,0 +1,47 @@
+---
+id: sound-u8acb-u9752-sei
+kind: modern-japanese-sound
+subject:
+  type: occurrence
+  structure: kv-8acb
+  occurrence: kvg:08acb-g3
+revision: 54987715e31a607b31309866545107b651e437f4c660d4a71ae1a4a0e25a99dc
+localizedRevision: 97ff30c56eb9435763b3cf74bde12b69f86720d2f9b1c945c60d49fcadbb9843
+status: approved
+claimText: Use the right-hand 青 to remember the on reading セイ in 請. Learn こう as a separate kun reading.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8acb
+  claimField: subject.occurrence
+  supportType: exact-component-occurrence
+  selector: kanji/08acb.svg#kvg:08acb-g3; kvg:element=青; kvg:position=right
+- reference: kanjium-kanjidict
+  claimField: claimText
+  supportType: phonetic-family-membership
+  selector: line=1537; kanji=請; phonetic=青; type=Phono-semantic compound
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-component-on-reading
+  selector: character[literal='青']/reading_meaning/rmgroup/reading[@r_type='ja_on' and text()='セイ']
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-on-reading
+  selector: character[literal='請']/reading_meaning/rmgroup/reading[@r_type='ja_on' and text()='セイ']
+- reference: kanjidic2-selected-japanese-readings
+  claimField: claimText
+  supportType: selected-japanese-kun-reading
+  selector: character[literal='請']/reading_meaning/rmgroup/reading[@r_type='ja_kun' and text()='こ.う']
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root
+  reviewedAt: '2026-11-27'
+  claimRevision: 54987715e31a607b31309866545107b651e437f4c660d4a71ae1a4a0e25a99dc
+  sourceRevision: kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjidic2-2026-331:2026-331:af6fafd267da4c807914420ca2393836e26efa66bf8fe911f6dc967a71283773|kanjium-data:9ebca4589565c696e7c39e089e2e928ad65f678c:78afcdee20b3291268ef1a85595b2e33c415547beb98b02413097ac759886419|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:905e9211ee934e85d523085b191f2536faa91864cd7c6ef0739351cdedf30635
+  rationale: Exact right-hand 青 group, Kanjium phonetic column, and selected KANJIDIC2 on/kun selectors were verified;
+    historical and modern claims are separately scoped.

@@ -1,0 +1,28 @@
+id: donor-6e876288beac94d62e8eb88f
+kind: historical-origin
+subject:
+  type: character
+  literal: 川
+  codepoint: U+5DDD
+revision: 0f414b38af3bf78363a0f10efcdb1889031c597f4153980a41dbb2724001750d
+localizedRevision: 3c6cbed4e7569536fbb5cd7ba94d81d3b4565ccc693208b1b46cbefed3115b65
+status: candidate
+claimText: The flowing lines represent a river.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92917941-6a5af274543c
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/川/1
+review:
+  state: pending

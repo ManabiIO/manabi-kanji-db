@@ -1,0 +1,28 @@
+id: donor-f6c592744afab8cfe8ff0011
+kind: historical-origin
+subject:
+  type: character
+  literal: 未
+  codepoint: U+672A
+revision: 819e8265f7ec422be062aad1beab66e04421bcea4700eeedf634f7547ca41596
+localizedRevision: c42efc06d1987ed7c7829bb168a3c1f915a6d8b559d9a2306c5b94f441c84b1e
+status: candidate
+claimText: 未 pictures a tree with additional or lush branches.
+targetLanguage: ja
+locale: en
+author:
+  name: Manabi KanjiExplanation contributors
+  type: community
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: wikt-origin-92200720-643012a62584
+  claimField: claimText
+  supportType: factual-evidence
+  selector: Chinese / Glyph origin
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: adapted-wording
+  selector: /wholeCharacterLessons/未/1
+review:
+  state: pending

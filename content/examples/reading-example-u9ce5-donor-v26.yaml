@@ -1,0 +1,40 @@
+---
+id: reading-example-u9ce5-donor-v26
+kind: reading-example
+subject:
+  type: character
+  literal: 鳥
+  codepoint: U+9CE5
+revision: f4b3b691d0376452fbcda3955683bd0f4353dee0dd1fcbe078649b1758ead1ee
+localizedRevision: c30ca561b5609b0048969a52f4876072b5f5a1e830c1b5fb9e3cf3eb846aa223
+status: approved
+claimText: In 小鳥 (ことり), 鳥 is read とり.
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/evidence
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: jmdict-e-2026-11-27-spelling-reading
+  claimField: claimText
+  supportType: exact-jmdict-spelling-reading-pair
+  selector: ent_seq=1348530; keb=小鳥; reb=ことり; applicable sense indices=1
+- reference: jmdict-furigana-2.3.1-2026-10-25-ruby
+  claimField: claimText
+  supportType: exact-single-character-ruby
+  selector: row=28204; text=小鳥; reading=ことり; Unicode scalar index=1 (zero-based); ruby=鳥; rt=とり
+- reference: manabidictionaries-reviewed-v26
+  claimField: claimText
+  supportType: donor-example-attribution
+  selector: /ordinaryExamples/鳥
+review:
+  state: approved
+  reviewer: OpenAI Codex agent /root/validation
+  reviewedAt: '2026-11-27'
+  claimRevision: f4b3b691d0376452fbcda3955683bd0f4353dee0dd1fcbe078649b1758ead1ee
+  sourceRevision: jmdict-e-2026-11-27:2026-11-27:3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43|jmdict-furigana-2.3.1-2026-10-25:2.3.1+2026-10-25:e208c2b398821332303fc561f0b6afab2d79c84175b57bef2bd0af59b3e12472|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: JMdict attests the exact spelling and full Japanese reading at the cited entry and applicable senses.
+    The cited JmdictFurigana row reconstructs the full spelling and reading and assigns the stated reading to the
+    target character alone in this word. The English text confines the claim to this vocabulary example.
