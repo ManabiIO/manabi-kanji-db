@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:06674-g1
 revision: d05fb3ea1ce69e83f68f686b4d4bdf89ee67727f8b65b7c10d4c565a54a37eac
 localizedRevision: b1ad89b7901425a445cbd32d7b56b3e21a80cf6d781a72b871f1a347022c9bbf
-status: candidate
+status: approved
 claimText: 日 represents the sun in 晴, clear weather.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:06674-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d05fb3ea1ce69e83f68f686b4d4bdf89ee67727f8b65b7c10d4c565a54a37eac
+  sourceRevision: enwiktionary-glyph-origin:92200676:d3f06740356b27abb2f2132fd3e3f102f78504af7fd66e40dff7b034d896db75|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:8d92bcc62a8ef381873e409d76a463092db196e94526bad763f7e9e1fdfd78e1|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

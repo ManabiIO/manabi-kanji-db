@@ -6,7 +6,7 @@ subject:
   codepoint: U+5DFE
 revision: b3c5c74b4760927f91a4f4f87f411b712463b007c1b88a5be135fb66387b8a4d
 localizedRevision: 31c9ed8ac56fc7abf1afd8413da0293ab30eede998ee65da8f0978aa276cff52
-status: candidate
+status: approved
 claimText: The older form of 巾 pictures a hanging piece of cloth.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/巾/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b3c5c74b4760927f91a4f4f87f411b712463b007c1b88a5be135fb66387b8a4d
+  sourceRevision: enwiktionary-glyph-origin:92161035:8d43afb83959c1732e2e62a1748fe70af77ad8737bf129677eb7339e13eba8c7|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

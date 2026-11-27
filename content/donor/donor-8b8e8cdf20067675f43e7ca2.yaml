@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:08155-g1
 revision: 38299f9ff63dc9d1234fc49d3e319e37e779b92e3b2c513221d0586f054d8043
 localizedRevision: 0759a4a2f0e62fae8e4cc4426311a8536651a0488a2d7edd669b6e3b8c346fd4
-status: candidate
+status: approved
 claimText: The 月-shaped part in 腕 represents 肉, flesh. Here it relates to the body, not the moon.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:08155-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 38299f9ff63dc9d1234fc49d3e319e37e779b92e3b2c513221d0586f054d8043
+  sourceRevision: enwiktionary-glyph-origin:93606098:4206a8ce44ac6ef8c1408774c26e3233f7a181ca903631625c67a8646c8ab97d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3c3e1d7b25f40fd704a8053b2d264299c1b92b73def97667486eea7f0e3e40e3|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

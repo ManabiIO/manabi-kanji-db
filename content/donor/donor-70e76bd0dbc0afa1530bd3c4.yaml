@@ -6,7 +6,7 @@ subject:
   codepoint: U+6851
 revision: 3ea7377563f709b564be0c12f58b3cee138f278afc5dac2c6f946feb4e4b943c
 localizedRevision: acb46daef1c7547e4412d97a1185d728db2771afe9c8f241d4fb9016f0b998fd
-status: candidate
+status: approved
 claimText: 桑 began as a mulberry-tree picture; its foliage became the modern 叒-shaped top.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/桑/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3ea7377563f709b564be0c12f58b3cee138f278afc5dac2c6f946feb4e4b943c
+  sourceRevision: enwiktionary-glyph-origin:92200775:57904a7d6b06fc9cbc62c374c732c704bd6cc8031b241c96eecdb4bc81ef080c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

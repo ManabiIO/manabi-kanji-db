@@ -6,7 +6,7 @@ subject:
   codepoint: U+738B
 revision: 3187ab1a9113862baeee42a401b88beaeaef41c00272ff5166a4c64ba1012b3e
 localizedRevision: f8cc7f3af33e609b869c7b92241061b1c09fbe7849bf03d62ae67ed96c4189cd
-status: candidate
+status: approved
 claimText: The older form pictures a ritual axe, a symbol of royal power. It has a different origin from 玉, jade.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/王/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3187ab1a9113862baeee42a401b88beaeaef41c00272ff5166a4c64ba1012b3e
+  sourceRevision: enwiktionary-glyph-origin:94389091:efcc6b91759e10f105aabe273beefd8307d11c206408f708287c641b69e2cc97|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

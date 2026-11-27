@@ -6,7 +6,7 @@ subject:
   codepoint: U+74E6
 revision: 479803166386f0c0e93171298d5f97db44c6770dbe3e4bb77a4ed2688cd69312
 localizedRevision: cd53bf74f54447dc6cc1cf028b2f9f4612b66fcfbb64eed1dfd02ce26f858d31
-status: candidate
+status: approved
 claimText: The older form pictures fired pottery or a tile.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/瓦/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 479803166386f0c0e93171298d5f97db44c6770dbe3e4bb77a4ed2688cd69312
+  sourceRevision: enwiktionary-glyph-origin:92201102:062e9f25122b966db8e0a79b6bea917238925b2afbfb252fb5ad39aa3b786e6b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

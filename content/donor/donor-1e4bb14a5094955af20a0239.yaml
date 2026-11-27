@@ -6,9 +6,8 @@ subject:
   codepoint: U+6F22
 revision: 00c0b5b5839b76e331705f5e0b59fa8b13cb594348ea97d17ebd0eaef360e3b7
 localizedRevision: 73df7e8a2f9458d3f731f7fc4db5fb172923be3c9899e16fcc9dc52fc968996d
-status: candidate
-claimText: '氵 marks water: 漢 first appears in early Western Zhou bronze inscriptions as a river name. The later
-  use of 漢 for the Chinese people is linked to the prestige of the Han dynasty.'
+status: approved
+claimText: '氵 marks water: 漢 first appears in early Western Zhou bronze inscriptions as a river name. The later use of 漢 for the Chinese people is linked to the prestige of the Han dynasty.'
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/漢/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 00c0b5b5839b76e331705f5e0b59fa8b13cb594348ea97d17ebd0eaef360e3b7
+  sourceRevision: enwiktionary-glyph-origin:93505387:56707551436cd28ca6eeb8300c1f0eec1610a919ff6deb1f7456b62e47bf2af4|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

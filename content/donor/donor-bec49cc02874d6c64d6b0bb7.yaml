@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E73
 revision: 787e4f1b0fdb73960cd6bbc71610ed32f3f294a42dd5508186b5a84e9e3f9150
 localizedRevision: 8e44a047a41c59d1710d6c982040ba345abed0c829a7f882486749d5edb94f86
-status: candidate
+status: approved
 claimText: The older picture shows a kneeling woman breastfeeding a child; the woman resembles 母.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/乳/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 787e4f1b0fdb73960cd6bbc71610ed32f3f294a42dd5508186b5a84e9e3f9150
+  sourceRevision: enwiktionary-glyph-origin:93664179:8bb56ac701940bf40e62f093c61946972ca10fabb1af0617e0d7e9127dc90604|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

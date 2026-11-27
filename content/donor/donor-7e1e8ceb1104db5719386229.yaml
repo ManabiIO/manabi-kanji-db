@@ -6,7 +6,7 @@ subject:
   codepoint: U+81EA
 revision: 56797ad0361af4018a4f8196095f9f2cafd6e0f1a6895f3714e7d67659fcf783
 localizedRevision: 0c09c3c11ff60ef2fc35eeafe1fd897d34921b7d75202ac4395253fcb88c52f2
-status: candidate
+status: approved
 claimText: 自 began as a nose picture and was later borrowed for the word self.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/自/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 56797ad0361af4018a4f8196095f9f2cafd6e0f1a6895f3714e7d67659fcf783
+  sourceRevision: enwiktionary-glyph-origin:92691450:f0e9d90ccd60f81a90c66cec9f8d183e47edf6a41d8336c22bcc93695662051e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+624B
 revision: 3221e619bd39a7902cbc73787bc38488f0617a75b82ba377b66db7de4a7269d6
 localizedRevision: a069ded6923d1f60012b05c7f599ebdb1e1f8949922fe86012d76ac74c9dae4e
-status: candidate
+status: approved
 claimText: A picture of a hand and fingers.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/手/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3221e619bd39a7902cbc73787bc38488f0617a75b82ba377b66db7de4a7269d6
+  sourceRevision: enwiktionary-glyph-origin:93659566:64675194b8798283ce40edfbdbb316471f5360064edfb5636fa690809a62177e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

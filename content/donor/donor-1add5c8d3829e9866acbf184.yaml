@@ -6,7 +6,7 @@ subject:
   codepoint: U+4EAC
 revision: 0ed94adbe7959815b1f256b5501ff7a0107ed3c3411798fb1367ac7245ac97b4
 localizedRevision: ecd84bcf8b804354835996a96255b02636bc0bb6557151ff319cb0876754b241
-status: candidate
+status: approved
 claimText: The older form of 京 pictures a tall building.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/京/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0ed94adbe7959815b1f256b5501ff7a0107ed3c3411798fb1367ac7245ac97b4
+  sourceRevision: enwiktionary-glyph-origin:93756604:dc614aa8199b5f9d409f084d566c74554c8a03044666cb8bbe7fce29958f2ad8|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

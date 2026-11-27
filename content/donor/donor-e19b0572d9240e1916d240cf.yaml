@@ -6,7 +6,7 @@ subject:
   codepoint: U+89D2
 revision: 4611c0eed89eececc3f139baf4e2be16659e7915267b567fabb2125677abe9b7
 localizedRevision: bb5abdfe8c64e52690a40d15ec5e89fd8a45e61afb474d8513d8af83c54090e1
-status: candidate
+status: approved
 claimText: 角 began as a picture of a horn.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/角/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4611c0eed89eececc3f139baf4e2be16659e7915267b567fabb2125677abe9b7
+  sourceRevision: enwiktionary-glyph-origin:93647839:35430946e206c55163fca88d0fc69f620b5228cde0e70fbd437a4a0d67f73683|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

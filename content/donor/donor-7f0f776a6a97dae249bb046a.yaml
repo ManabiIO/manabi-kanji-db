@@ -6,7 +6,7 @@ subject:
   codepoint: U+5348
 revision: 6bdc355efc055079565467c749aa6ce7ee07c9b3e95902274d4d288e4c890371
 localizedRevision: f430bb91322db04aaf2d791a3694e2e50e0190efea322cc94eda453f845e5027
-status: candidate
+status: approved
 claimText: The older form pictures a pestle. It has a different origin from the similar-looking 干.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/午/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 6bdc355efc055079565467c749aa6ce7ee07c9b3e95902274d4d288e4c890371
+  sourceRevision: enwiktionary-glyph-origin:92623713:cd49c021e4634aa31fa0e5371577b69f3464611469f24c78cd3d128af78dadd7|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

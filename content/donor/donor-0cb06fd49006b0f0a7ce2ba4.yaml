@@ -6,9 +6,8 @@ subject:
   codepoint: U+810A
 revision: efe24bff1d8df68b1c0d9830a02531986480d1611b8f08de5a8d462743fd5b86
 localizedRevision: 875836a9d761b1a15853adbd777d85d6ee2134d3d6c16053dddc9eab9c236d61
-status: candidate
-claimText: The older form pictures a fish's spine. 肉, flesh, was added later, and the upper part changed into the
-  modern shape.
+status: approved
+claimText: The older form pictures a fish's spine. 肉, flesh, was added later, and the upper part changed into the modern shape.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/脊/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: efe24bff1d8df68b1c0d9830a02531986480d1611b8f08de5a8d462743fd5b86
+  sourceRevision: enwiktionary-glyph-origin:91974966:9535ed6765b64bf2de382c1892d817cb5c360d779fea92df9e2731a78e9e3632|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

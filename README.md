@@ -68,7 +68,8 @@ source backed labels.
 The [reuse catalogue](sources/reuse-scopes.json) records field and asset restrictions across
 45 researched sources. The [registry](sources/registry.yaml) records the pins used by the database.
 The [coverage manifests](data/coverage) identify imported donor rows, public passage bindings,
-component naming gaps, example-reading decisions, and source candidates awaiting review.
+component naming gaps, example-reading decisions, 181 independently approved donor claims,
+11 held revisions, and source candidates awaiting review.
 
 ### Using a snapshot
 

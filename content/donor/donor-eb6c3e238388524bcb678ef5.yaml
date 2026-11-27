@@ -6,7 +6,7 @@ subject:
   codepoint: U+725B
 revision: 2ca5b689b5222c1e64996d51cb7c2907f617078fd60fdbde5d33f09383301a70
 localizedRevision: 5b815271ca3cbb5732a0efe97bc4f7ab3a06d7c10d21583d65ccb63328b202cf
-status: candidate
+status: approved
 claimText: A picture of a bull’s head with horns.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/牛/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2ca5b689b5222c1e64996d51cb7c2907f617078fd60fdbde5d33f09383301a70
+  sourceRevision: enwiktionary-glyph-origin:92691725:659feee1347c992b2b53fa8bfa16dfac72c0dfbdbd07cb77f0789c516aa1c389|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

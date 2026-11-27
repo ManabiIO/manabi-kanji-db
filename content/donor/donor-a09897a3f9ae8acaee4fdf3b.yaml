@@ -6,7 +6,7 @@ subject:
   codepoint: U+706B
 revision: 2e9025d492834b2da55989ed0b804cf6326b53c25b13605d5ab855a2ee9af077
 localizedRevision: 5416a7b2f946cdc9fafe216ea69bb308e68a178c4ecaa7e2a02394e5b02bd3ca
-status: candidate
+status: approved
 claimText: 火 began as a picture of fire, with strokes spreading upward like flames.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/火/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2e9025d492834b2da55989ed0b804cf6326b53c25b13605d5ab855a2ee9af077
+  sourceRevision: enwiktionary-glyph-origin:94507178:82eec67237124f4f0916aa4dd1988cdf925b1855edf593f6188242860cc30d89|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

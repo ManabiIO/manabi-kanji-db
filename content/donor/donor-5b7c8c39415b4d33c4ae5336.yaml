@@ -6,7 +6,7 @@ subject:
   codepoint: U+8DB3
 revision: 7bcc220b3dc322c3e79d9a1f499c0b2767b8069771ff89df0f86cda7305e7c4b
 localizedRevision: 45fe6626185e8c0906b60633be59993c98302b5016bb761b928b1840d289c4cb
-status: candidate
+status: approved
 claimText: An early picture of a leg.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/足/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7bcc220b3dc322c3e79d9a1f499c0b2767b8069771ff89df0f86cda7305e7c4b
+  sourceRevision: enwiktionary-glyph-origin:93378193:eb4ea20a4dbab2e0674b3d7df019b9bf5cb913c62f70e6a1eef5e323da8a8eb2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+54C1
 revision: 2eb73e8575a23325171fff32e949fe453a5ff4bae7e214c1ec748b52ba8543d1
 localizedRevision: f540866e00797eccdcd859b52d923375d19312aee9a526e6ff292bdf2c93a164
-status: candidate
+status: approved
 claimText: The three 口-shaped boxes in 品 represent various objects together, rather than three mouths.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/品/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2eb73e8575a23325171fff32e949fe453a5ff4bae7e214c1ec748b52ba8543d1
+  sourceRevision: enwiktionary-glyph-origin:93620773:f1167db163f93b5d49935c0113826caaddeff636d64057d43610f57378ef6959|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

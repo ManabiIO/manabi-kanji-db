@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:08a71-g1
 revision: 4eeee63cc48f94bf384511d29b58d63b3a69c733bda947fc4030467457f7bf37
 localizedRevision: 41d9eb8fc79454fc3cac4c84aa53d99f912d4e05b7fe1736056d8bc6539bacfa
-status: candidate
+status: approved
 claimText: 言 supplies the meaning of speech or words.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:08a71-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4eeee63cc48f94bf384511d29b58d63b3a69c733bda947fc4030467457f7bf37
+  sourceRevision: enwiktionary-glyph-origin:92512667:8de48273cdea29acb5efd74c6f91874dba268ce411126e30c0ade4a038af1bc0|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2a4556d82072466aa35680e76752beb9273c62f615699606465ee459044c0494|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

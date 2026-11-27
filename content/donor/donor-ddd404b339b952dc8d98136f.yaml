@@ -6,7 +6,7 @@ subject:
   codepoint: U+5B50
 revision: 5fe1fc798335bc1456538aeac60435948d9fe28788a59ba62b50db78d5633abc
 localizedRevision: 8ff3b0e56a04c51403f4e69d0e56736dfed1cf5c36d237b4cd5f2d001d9a9adc
-status: candidate
+status: approved
 claimText: The older picture shows a baby with a large head, spread arms and wrapped legs.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/子/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5fe1fc798335bc1456538aeac60435948d9fe28788a59ba62b50db78d5633abc
+  sourceRevision: enwiktionary-glyph-origin:93763142:20baf7f5594b159742b7804cf34ed0e0f94b5209e8f39188734f05e2e15e1d6a|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

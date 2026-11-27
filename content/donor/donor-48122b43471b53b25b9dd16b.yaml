@@ -6,7 +6,7 @@ subject:
   codepoint: U+7ACB
 revision: 40c2215f1e060494d4391d3132a19a6d7400107ac6d293dfe5444f8b06c6eea4
 localizedRevision: 70b07fcfa7849f813b4c45abeb1a245d2fed6182456af66fe945126eb89254af
-status: candidate
+status: approved
 claimText: A picture of a person standing on the ground.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/立/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 40c2215f1e060494d4391d3132a19a6d7400107ac6d293dfe5444f8b06c6eea4
+  sourceRevision: enwiktionary-glyph-origin:92474276:6206736dd721cb0570216a500df9722e894468ece72037a2e70838139b58f053|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

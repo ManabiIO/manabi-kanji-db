@@ -6,9 +6,8 @@ subject:
   codepoint: U+83EF
 revision: 5321b37fc1b99678750815042e371f808dacede33b4e83b2c1d4ad10450d4aad
 localizedRevision: 55af082cf49f28efcccc2c5c629fdb50e25d3903180729e482cc56eae0ecbfb6
-status: candidate
-claimText: The early form shows flowers above a plant's stalk and leaves. A plant component was added at the top
-  later.
+status: approved
+claimText: The early form shows flowers above a plant's stalk and leaves. A plant component was added at the top later.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/華/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5321b37fc1b99678750815042e371f808dacede33b4e83b2c1d4ad10450d4aad
+  sourceRevision: enwiktionary-glyph-origin:93576349:03d58309beeacd27bacd190d4db6fa1a8a8cadf63b34e686a2e21794012af11d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

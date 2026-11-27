@@ -28,6 +28,7 @@ def _release_files(root: Path, database: Path) -> dict[str, bytes]:
                 if path.is_file() and not path.is_symlink():
                     files[path.relative_to(root).as_posix()] = path.read_bytes()
     files["sources/registry.yaml"] = (root / "sources/registry.yaml").read_bytes()
+    files["sources/reuse-scopes.json"] = (root / "sources/reuse-scopes.json").read_bytes()
     return files
 
 

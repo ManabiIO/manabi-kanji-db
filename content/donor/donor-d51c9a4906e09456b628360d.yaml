@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:0611b-g4
 revision: 5ce56c44f1d2ef8317c78665d15d68ca2fe39663b620912908e1141d19701edf
 localizedRevision: 53847a8c6512111401c5e456535132da43ffad53214930ab870472f44e01f2ce
-status: candidate
+status: approved
 claimText: 心 represents the heart and contributes meaning to 愛, love or affection.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:0611b-g4
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5ce56c44f1d2ef8317c78665d15d68ca2fe39663b620912908e1141d19701edf
+  sourceRevision: enwiktionary-glyph-origin:93580139:165ee4d81dfc28b8e9c83ce0f7024431e69b93d3c63d5ab1f9e28215ef7003ae|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b7f015c472c2675292d766416575c70f6083a3fff611cc23c7c2d0cfe7b05294|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

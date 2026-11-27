@@ -6,7 +6,7 @@ subject:
   codepoint: U+76FE
 revision: d98e1c79f791b670b2ff9dc0c415f08c8ba48828ac7a33850a6ae8357e41d0b6
 localizedRevision: cba709b9e4f43542b39e190ddbc7eda82c1e05e9ee139eecad46841f8bf0157b
-status: candidate
+status: approved
 claimText: The older form of 盾 pictures a shield.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/盾/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d98e1c79f791b670b2ff9dc0c415f08c8ba48828ac7a33850a6ae8357e41d0b6
+  sourceRevision: enwiktionary-glyph-origin:92201173:690c1f5bae78d28a82440cbdeb8cf1cc6a53acb716309ecbb86c5e51267385a2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

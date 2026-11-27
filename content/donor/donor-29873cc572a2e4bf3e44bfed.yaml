@@ -6,7 +6,7 @@ subject:
   codepoint: U+4ED8
 revision: b0449a93c4fb17b9c2dcd4b7745443355a9f79d0470df5bd9ba6d5bf8885eab0
 localizedRevision: c82164ceb8a340aa5ae7424ca24a7f8cc74482d1f18b110b3011d35ff92a813e
-status: candidate
+status: approved
 claimText: 付 combines a person with a hand, expressing giving or delivering something to someone.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/付/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b0449a93c4fb17b9c2dcd4b7745443355a9f79d0470df5bd9ba6d5bf8885eab0
+  sourceRevision: enwiktionary-glyph-origin:93768172:80fc9d26f9b1b639bf2958ebde66e7ba11a08d43b74ad6f66ee4c49239e5e196|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

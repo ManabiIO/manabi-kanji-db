@@ -6,9 +6,8 @@ subject:
   codepoint: U+597D
 revision: 4eb28c6d243e63cf53178a1b9331add4eb5657b6517570d258e8e9934640484f
 localizedRevision: 01d4464c3c950821b8c4bbfa141809959213692855c08e2dec74a7365ae73c81
-status: candidate
-claimText: 好 combines 女 (woman) and 子 (child). Affection between mother and child is one proposed explanation; the
-  original reason for combining these parts is uncertain.
+status: approved
+claimText: 好 combines 女 (woman) and 子 (child). Affection between mother and child is one proposed explanation; the original reason for combining these parts is uncertain.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/好/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4eb28c6d243e63cf53178a1b9331add4eb5657b6517570d258e8e9934640484f
+  sourceRevision: enwiktionary-glyph-origin:93448473:4f01cfa3cf4af8909748ce94f57e0f7d47e1727df0f0c1604a277b43a9dccdf9|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

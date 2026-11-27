@@ -6,7 +6,7 @@ subject:
   codepoint: U+672B
 revision: 938b892692652dcf3b4d527a6403fa56376610a0516533b6193f5a838efa4c50
 localizedRevision: 560074fdbb694ff99c5b1db1626aff4aa53b5d791961e271f64c29e42335fadf
-status: candidate
+status: approved
 claimText: '末 marks the top of 木, tree, with an extra stroke: the tip or end.'
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/末/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 938b892692652dcf3b4d527a6403fa56376610a0516533b6193f5a838efa4c50
+  sourceRevision: enwiktionary-glyph-origin:93469992:1bf2cfd01fc8a0dd2a9482af8342b7d82a06be8a67346b19d589aef785e4aa8d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

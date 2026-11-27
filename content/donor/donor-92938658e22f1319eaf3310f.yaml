@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:0817a-g1
 revision: b6c4179fdd4a41a2481f0588e52266b73f64e936418ae73152b4e3c403b69316
 localizedRevision: 8dcc18e6981d19e950a9354c4a4aa5431800b6c2886045de517ccafa79655a37
-status: candidate
+status: approved
 claimText: The left side is the flesh component 肉 in its 月-shaped form. It marks 腺, a gland, as a body part.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:0817a-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b6c4179fdd4a41a2481f0588e52266b73f64e936418ae73152b4e3c403b69316
+  sourceRevision: enwiktionary-glyph-origin:92162673:3aa3b93ec65a5eadb0a215d17848911163e27060fa21f13307c1c2d3a9989c0c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:91064f27fe90f409028b422552471afb2653a4b025ad246ebe47b228af642ce4|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

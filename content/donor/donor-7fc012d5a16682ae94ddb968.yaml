@@ -6,7 +6,7 @@ subject:
   codepoint: U+708E
 revision: 99f2f0c2389ace4368f04a4b9d99f3fd400a4aa17b0d7c61d3aafa619e542a80
 localizedRevision: 53f8d24ef05fe3afc4555d31460fb4f10dd1ed10c12571844d18170b38c0e444
-status: candidate
+status: approved
 claimText: 炎 stacks two 火 fire shapes, one above the other.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/炎/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 99f2f0c2389ace4368f04a4b9d99f3fd400a4aa17b0d7c61d3aafa619e542a80
+  sourceRevision: enwiktionary-glyph-origin:92161935:c5a5a8f8366f4577912050848f36e78a0ed20400aef4de4c6ef0ec1e167baadf|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

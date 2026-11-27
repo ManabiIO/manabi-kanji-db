@@ -6,7 +6,7 @@ subject:
   codepoint: U+8840
 revision: 6f33c4d5fb4192694aa0f0d286c79e767bcf455d5f4f4f85b5bd2e31e08ee877
 localizedRevision: 136e9be139b60ea5182d7a252c23fa425539f38817f042a7a7887db6e014a655
-status: candidate
+status: approved
 claimText: 血 combines a blood-drop mark with 皿, a container.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/血/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 6f33c4d5fb4192694aa0f0d286c79e767bcf455d5f4f4f85b5bd2e31e08ee877
+  sourceRevision: enwiktionary-glyph-origin:93374847:9ecc724c85bac51da8e298340f0f267c8e726bec2c4ffaa5c4ff9fb3b11d73cf|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

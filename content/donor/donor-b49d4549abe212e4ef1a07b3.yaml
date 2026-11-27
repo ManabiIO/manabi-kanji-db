@@ -6,7 +6,7 @@ subject:
   codepoint: U+7C73
 revision: 49e0dff278fdc824dacef710ac4e198a726cd5eceada361ff865bd253f22f7b7
 localizedRevision: 892703d34dec11775083d0be0cc22ca43898e4cc31f60e5e4dbcb82c17884c60
-status: candidate
+status: approved
 claimText: A picture of rice grains.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/米/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 49e0dff278fdc824dacef710ac4e198a726cd5eceada361ff865bd253f22f7b7
+  sourceRevision: enwiktionary-glyph-origin:93544920:3e5cb97d9270979ab0cf371b6992023e14fd7d0a31b67281ae9169fac798c37a|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

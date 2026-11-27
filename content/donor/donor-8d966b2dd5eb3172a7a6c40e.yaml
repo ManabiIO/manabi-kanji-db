@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E32
 revision: 0e399a4d57d2aabfa5c9ea56292e0923f1b298206d562b70388aa3dd485e47c1
 localizedRevision: 8ea86d7ba36419728d9a2189847e87a20c2d530f475b855b9d1987aeb2721614
-status: candidate
+status: approved
 claimText: 串 pictures objects strung together, like pieces on a skewer.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/串/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0e399a4d57d2aabfa5c9ea56292e0923f1b298206d562b70388aa3dd485e47c1
+  sourceRevision: enwiktionary-glyph-origin:93629034:5f2d0481d4dd7c4c404c35f9f44dae711006606dc69e9ca7fbea3d637632e02b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+6C34
 revision: 2fc9080fdc2977cb3b225fa862eb872cc1c2d983741a494101115610cb343ece
 localizedRevision: e0425b2061df9efd4bef39b787c688d4efc5eae9003e4a5662fb9e2a515e82e7
-status: candidate
+status: approved
 claimText: The older form pictures flowing water. Its central flowing line and side marks help you remember 水.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/水/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2fc9080fdc2977cb3b225fa862eb872cc1c2d983741a494101115610cb343ece
+  sourceRevision: enwiktionary-glyph-origin:94507192:27ede412a6fe2f93584af94f0fa1ce96f4ebf87f17eed8228e83cb267896d283|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

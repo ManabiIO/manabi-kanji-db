@@ -6,7 +6,7 @@ subject:
   codepoint: U+6211
 revision: 15aa2b3c30a98161a6b5e5223d4199b46d5b78b842763f95d31a5e7667682db1
 localizedRevision: 75e14f3ce22c32280c70218feb2a88317465cc39c307ba15eb3593fdce12d418
-status: candidate
+status: approved
 claimText: The older form pictures a three-pronged weapon or tool.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/我/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 15aa2b3c30a98161a6b5e5223d4199b46d5b78b842763f95d31a5e7667682db1
+  sourceRevision: enwiktionary-glyph-origin:93556183:d89c6493d3f6f8f5e0f4ace6848719c1e464525bfb5d9e3cb90592dac2d8d6dd|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

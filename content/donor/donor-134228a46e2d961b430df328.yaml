@@ -6,7 +6,7 @@ subject:
   codepoint: U+56DA
 revision: fd0580319554bdb666a914aa17e20e95a22b7925fbc308df25a3df7aff1d497f
 localizedRevision: 66970e7151452fa7482d3b5dbd50296fdee43713249694cab26bf88a211bed15
-status: candidate
+status: approved
 claimText: A person 人 inside an enclosure 囗 represents a prisoner.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/囚/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: fd0580319554bdb666a914aa17e20e95a22b7925fbc308df25a3df7aff1d497f
+  sourceRevision: enwiktionary-glyph-origin:93448317:a770a29189b014cd6c15a40f8c43a4883690124006f54af61b23c03332f1a4b7|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

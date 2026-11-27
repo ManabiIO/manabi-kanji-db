@@ -6,7 +6,7 @@ subject:
   codepoint: U+51FA
 revision: e2e7477dbab298cd621c9006e763d151e27b5aa43ea36110e963de4b5de6b686
 localizedRevision: 3e82402791e6b3ca2fcd898c464f7a766da47532a966d911c049d7708328f82a
-status: candidate
+status: approved
 claimText: The older form shows a foot stepping out of a cave.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/出/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: e2e7477dbab298cd621c9006e763d151e27b5aa43ea36110e963de4b5de6b686
+  sourceRevision: enwiktionary-glyph-origin:92491778:2b5db443ef63d6b40a0a5d89283c62eba4ae5bc11b0f3d78bdee5eec94fc1560|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

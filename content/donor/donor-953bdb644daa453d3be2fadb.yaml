@@ -6,7 +6,7 @@ subject:
   codepoint: U+514D
 revision: 5059ad533c7e305f8eaa63beae984d9c5db4d39341af1ca48e51346724322496
 localizedRevision: aa214c46a9c329b31f3c0e533592344df8e8b7bd5378e1f1872f37126aa26e5b
-status: candidate
+status: approved
 claimText: The older form pictures a person wearing a ceremonial hat.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/免/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5059ad533c7e305f8eaa63beae984d9c5db4d39341af1ca48e51346724322496
+  sourceRevision: enwiktionary-glyph-origin:92160260:2000bf063b6f30f8504f4af2bd9e5c75b020289ed97ce344b64b0896403fe5e2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

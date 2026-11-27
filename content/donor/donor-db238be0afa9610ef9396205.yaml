@@ -6,9 +6,8 @@ subject:
   codepoint: U+5B88
 revision: 701412166dfd2f6d1e361658cc15c8688edbafcae38c1f444c5a2a5aa5fb17db
 localizedRevision: 9dade66257244bc26478ef7c32730c3506021d21cc5c7a4cf6a9fc043ea5e126
-status: candidate
-claimText: 守 combines a building's roof with a hand to express guarding or defending a place. The hand element may
-  also have supplied sound.
+status: approved
+claimText: 守 combines a building's roof with a hand to express guarding or defending a place. The hand element may also have supplied sound.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/守/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 701412166dfd2f6d1e361658cc15c8688edbafcae38c1f444c5a2a5aa5fb17db
+  sourceRevision: enwiktionary-glyph-origin:93935005:815cef2ba1eaa390e307786081a0cbe2b9e1cf671ce49eec83aa65d8683af135|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

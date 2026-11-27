@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E0A
 revision: 623e7e139f921c4b7e152f9f15d41f9f3b51d772ca8cdb71777ffe8f2ddff62b
 localizedRevision: f60df84950e588f70d6fb5d3833d679431891947b24b2c098670728664145bb7
-status: candidate
+status: approved
 claimText: A short mark above a longer line represents above.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/上/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 623e7e139f921c4b7e152f9f15d41f9f3b51d772ca8cdb71777ffe8f2ddff62b
+  sourceRevision: enwiktionary-glyph-origin:93626463:50f65c175e2694954c4dcfda1f5c44381fb870f9312abd8f04fabacc07ed481e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

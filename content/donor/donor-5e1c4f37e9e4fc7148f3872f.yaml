@@ -6,7 +6,7 @@ subject:
   codepoint: U+5C3F
 revision: 19beac1efb21d1c4cde76c1028a9363bfbfaab5fd4aeba6683282d56864ffad3
 localizedRevision: 88c0af400b9e9a2c01d67fa3410297c3a2735ab1dfb0faaec634ec15504fec30
-status: candidate
+status: approved
 claimText: The early form pictures a person urinating. Its later written form combines a body-shaped part with water.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/尿/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 19beac1efb21d1c4cde76c1028a9363bfbfaab5fd4aeba6683282d56864ffad3
+  sourceRevision: enwiktionary-glyph-origin:92160982:58b4379df3240d0cdbf3400f376691ebd1cdb839a12dae34106570f5500826a8|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+8C46
 revision: 103cdb131be52eccd9c2dad771bed055084a58f1823664f66c5a745c0a0811af
 localizedRevision: dc7c1b664bc788a2205fa7e0f439f9521dac95276ea9adb59b5a799ab7732c8d
-status: candidate
+status: approved
 claimText: The older form of 豆 pictures a container.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/豆/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 103cdb131be52eccd9c2dad771bed055084a58f1823664f66c5a745c0a0811af
+  sourceRevision: enwiktionary-glyph-origin:93428248:5a4a3d3cb237a5b81d5dd1660fb913c0c27bad06664029dba1bf5a8ba7bf8d63|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

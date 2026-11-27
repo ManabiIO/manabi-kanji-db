@@ -6,7 +6,7 @@ subject:
   codepoint: U+5DDD
 revision: 0f414b38af3bf78363a0f10efcdb1889031c597f4153980a41dbb2724001750d
 localizedRevision: 3c6cbed4e7569536fbb5cd7ba94d81d3b4565ccc693208b1b46cbefed3115b65
-status: candidate
+status: approved
 claimText: The flowing lines represent a river.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/川/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0f414b38af3bf78363a0f10efcdb1889031c597f4153980a41dbb2724001750d
+  sourceRevision: enwiktionary-glyph-origin:92917941:6a5af274543c8662b80ca42004379823eb21e4db967488142076346a1b1fe6e2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

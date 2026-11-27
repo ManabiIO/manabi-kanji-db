@@ -6,7 +6,7 @@ subject:
   codepoint: U+7389
 revision: ab55fa44a96a571f486a2ad39c5495c30ccaa47fe94279aa962c6108a5f6b20d
 localizedRevision: 50a8ce73d6b75b99904c60d750f1e9dfea0049a58ffc37f43527bc1bcca5bb8e
-status: candidate
+status: approved
 claimText: 玉 and 王 once had very similar shapes. A distinguishing dot separates 玉, jade, from 王, king.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/玉/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: ab55fa44a96a571f486a2ad39c5495c30ccaa47fe94279aa962c6108a5f6b20d
+  sourceRevision: enwiktionary-glyph-origin:92201083:b06b4630fc09c184e7e3a95c39ae6495ae601a9a923822f10d55d6feec33f142|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

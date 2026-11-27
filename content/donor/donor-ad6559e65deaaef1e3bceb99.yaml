@@ -6,7 +6,7 @@ subject:
   codepoint: U+8870
 revision: fde4b958a9ec73aa7c0947f55143276e89cf7bb67fc00c69ed1602f111f270ce
 localizedRevision: a684141539ec09597edb393a3f98ca332ef7e446725f7d2f5298e41f3492f1fa
-status: candidate
+status: approved
 claimText: The older form pictures a raincoat woven from plant fibers.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/衰/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: fde4b958a9ec73aa7c0947f55143276e89cf7bb67fc00c69ed1602f111f270ce
+  sourceRevision: enwiktionary-glyph-origin:93466925:151e616ab8cc881fb13398312f223f71444cd11251b5b7801414a5b15ac29dce|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

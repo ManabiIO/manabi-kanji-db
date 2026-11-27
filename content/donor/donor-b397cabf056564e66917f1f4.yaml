@@ -6,7 +6,7 @@ subject:
   codepoint: U+8FBC
 revision: 88c967e3c0388644ee79ec44f40c3ebb4442fa4612afce8eead7eace23bc3acc
 localizedRevision: 20a0fcd0fe45683da8e00d532ca0f7ad5bacdd5b1f0ad6e84fe34ce77bf74b15
-status: candidate
+status: approved
 claimText: A Japanese-created character combining 辵, movement, and 入, enter.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/込/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 88c967e3c0388644ee79ec44f40c3ebb4442fa4612afce8eead7eace23bc3acc
+  sourceRevision: enwiktionary-glyph-origin:92201914:9d52c5e769eff1aa7c9c0c36ea4929186baf825722d4e99135c2dc06d1db163d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

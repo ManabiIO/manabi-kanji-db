@@ -6,7 +6,7 @@ subject:
   codepoint: U+4EA4
 revision: cc6f9c7ff7ebb57fa651a3637f46ca21b9a6f9f11db6acabb1d269cc4c45aed4
 localizedRevision: c9b90617efdc80ce3a824d59f5133ebb8a329a84bd4a06871b5c41a533f0b82f
-status: candidate
+status: approved
 claimText: 交 pictures a person with crossed legs. The upper body now resembles 立.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/交/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: cc6f9c7ff7ebb57fa651a3637f46ca21b9a6f9f11db6acabb1d269cc4c45aed4
+  sourceRevision: enwiktionary-glyph-origin:93807539:2aa8e2de496be8d8efeb81844dd2dcc06308d741434c7d21d8174248f05d9097|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

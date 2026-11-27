@@ -6,7 +6,7 @@ subject:
   codepoint: U+5915
 revision: f7b4b985dcfdedf87f77f438fc44df380fc8e81734d12c417a93c259947c06dc
 localizedRevision: 0125377db199f0e2e37c0461c1a61c3311d275c5c4fae0e3eb0dddc53edcb08d
-status: candidate
+status: approved
 claimText: The older form of 夕 pictures a crescent moon. It is a historical variant of 月.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/夕/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: f7b4b985dcfdedf87f77f438fc44df380fc8e81734d12c417a93c259947c06dc
+  sourceRevision: enwiktionary-glyph-origin:92200257:086b90651b3b238b0f986ea8a5ac868fd6781e1904a45ccca98af61d061d5e39|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

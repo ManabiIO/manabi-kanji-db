@@ -6,7 +6,7 @@ subject:
   codepoint: U+5C6F
 revision: 07b0451ee7db81824f643d44f95c1f5bd1e5ffdca20133f5a6a61db2aa1ab677
 localizedRevision: 231a5b5db2defb34376404c09e777a5761a6a5e7bd153b7f29dd3925119b9d00
-status: candidate
+status: approved
 claimText: The older form pictures a swollen bud or sprout beginning to emerge.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/屯/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 07b0451ee7db81824f643d44f95c1f5bd1e5ffdca20133f5a6a61db2aa1ab677
+  sourceRevision: enwiktionary-glyph-origin:93475815:ade6d5f00255813ef3a2e0822a86b3c655094b07b94426243ec6e2d1f53bd231|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

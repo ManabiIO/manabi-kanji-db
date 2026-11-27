@@ -6,7 +6,7 @@ subject:
   codepoint: U+808C
 revision: 92ee1d466a9408e3e87b3a6a2844817e953a7c90ee1f788109781f047307f5ea
 localizedRevision: 543e487ab3db04da742e9aca6ed6192d2ce1f1ca317d2bdf37d7fd6031c5adbc
-status: candidate
+status: approved
 claimText: In 肌, skin, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/肌/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 92ee1d466a9408e3e87b3a6a2844817e953a7c90ee1f788109781f047307f5ea
+  sourceRevision: enwiktionary-glyph-origin:93443704:7eae76211a610725ceda483b50b09597e5833fb87ada862441fe1e291800079b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

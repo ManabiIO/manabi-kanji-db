@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:09175-g1
 revision: 3ea9082e938e9ec6909bb70ee45624d2e67d66c260bee0561f87b62ee3422bf3
 localizedRevision: bf34b0b4cd3d61015309b92ed345f4b20ab334c52efb8473aa9147f2ba21ddd0
-status: candidate
+status: approved
 claimText: 酉 is a wine jar used for fermentation.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:09175-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3ea9082e938e9ec6909bb70ee45624d2e67d66c260bee0561f87b62ee3422bf3
+  sourceRevision: enwiktionary-glyph-origin:88127672:df3f1957634440ab20d1741b866268278ee18d2faed9722a11145d65c3b76dd1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4585c20bc46eff3fdd8f3811bdd245be60d86ab0439a2a88397c9f22f0f13398|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

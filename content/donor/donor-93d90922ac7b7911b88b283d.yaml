@@ -6,7 +6,7 @@ subject:
   codepoint: U+96E8
 revision: 1ca75995f3be3c92e731ae873eaae6ada72f9520c49e651ca8dcd56067adbe38
 localizedRevision: 933b9848804e1be0bfd8f4c97ee73cbdfb6701ff389e811b20d9ca9398070929
-status: candidate
+status: approved
 claimText: The dots represent rain falling from a cloud.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/雨/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 1ca75995f3be3c92e731ae873eaae6ada72f9520c49e651ca8dcd56067adbe38
+  sourceRevision: enwiktionary-glyph-origin:93473045:ff6bbc837480eca4cff42316e36ebe02f2cdc2e574fe849c1adde67c5d297804|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

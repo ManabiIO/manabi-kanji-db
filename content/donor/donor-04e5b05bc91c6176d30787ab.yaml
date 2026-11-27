@@ -6,7 +6,7 @@ subject:
   codepoint: U+5C3C
 revision: 9f98291fb6d5b74c6b6e04b8bd4f4d3ee32d39c6772eff608f15c087f7ae60bd
 localizedRevision: 89449fc69347da343a8dd25c6756516a070f4dc2088a4b4038795ce8def3306e
-status: candidate
+status: approved
 claimText: Both 尸 and the 匕-shaped part represent people in this character.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/尼/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 9f98291fb6d5b74c6b6e04b8bd4f4d3ee32d39c6772eff608f15c087f7ae60bd
+  sourceRevision: enwiktionary-glyph-origin:93485711:5a0e29f6e0c0cfb02791da0c12a53c8001c8a7ac03008ae041a98c6b68a5d801|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+5206
 revision: 16e64ab293c66f1ea057f31bc2c493663bda46559fce8d1f8089272f62b3f654
 localizedRevision: e0718a17817c9c0e72a68b90597e88372ba87d2aaada51c26ce6d8931e35f1b2
-status: candidate
+status: approved
 claimText: '分 combines 八, separating, with 刀, a knife: to divide.'
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/分/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 16e64ab293c66f1ea057f31bc2c493663bda46559fce8d1f8089272f62b3f654
+  sourceRevision: enwiktionary-glyph-origin:92695569:f63665d588ac9fddd76281be383518360089f838afd4c98e1d63a640a4a267b1|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

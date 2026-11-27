@@ -6,7 +6,7 @@ subject:
   codepoint: U+58EB
 revision: a4db4abb49edba57629620db4d7ba4498117ad5ff45ffb0655e4c4e038ecd009
 localizedRevision: 1403f26fa2e9e28a9c809a6766dd08ce44bca108297533cd02e938f45dba9bc4
-status: candidate
+status: approved
 claimText: The older form of 士 pictures a war axe.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/士/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a4db4abb49edba57629620db4d7ba4498117ad5ff45ffb0655e4c4e038ecd009
+  sourceRevision: enwiktionary-glyph-origin:93756827:34b6290a12321fd05e1cbb0a87bc4e52e18033322adfbd790b13238308091eb0|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

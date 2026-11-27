@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E26
 revision: afdcfbd0cfa50865e226a0a87a392a725323485732aef86a08e563b9a3d201b9
 localizedRevision: 098873c93515e304a6a564a6960ad2cdec59c25dc149bad1ebdd342e240798b5
-status: candidate
+status: approved
 claimText: 並 developed from 竝, which depicted two people standing side by side.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/並/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: afdcfbd0cfa50865e226a0a87a392a725323485732aef86a08e563b9a3d201b9
+  sourceRevision: enwiktionary-glyph-origin:93628973:55d7105e1e4b58459191634fc8655f9f65b4a08b92f83911ced552ac7557a91d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

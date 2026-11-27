@@ -6,7 +6,7 @@ subject:
   codepoint: U+672A
 revision: 819e8265f7ec422be062aad1beab66e04421bcea4700eeedf634f7547ca41596
 localizedRevision: c42efc06d1987ed7c7829bb168a3c1f915a6d8b559d9a2306c5b94f441c84b1e
-status: candidate
+status: approved
 claimText: 未 pictures a tree with additional or lush branches.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/未/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 819e8265f7ec422be062aad1beab66e04421bcea4700eeedf634f7547ca41596
+  sourceRevision: enwiktionary-glyph-origin:92200720:643012a62584732a686a1e0eef82cb5e67c3e63c2cdf2beafe4272b59e11a0ca|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+96BB
 revision: 085d9583def20d520bacb16a19032868eb62c1a9c5a5d961ce3509f5528a89b1
 localizedRevision: 61974972de5bb02ad1a619404245bad063099cb6c1438f7f9807fa17b19d30f2
-status: candidate
+status: approved
 claimText: 隻 combines a bird and a hand, expressing holding one bird.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/隻/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 085d9583def20d520bacb16a19032868eb62c1a9c5a5d961ce3509f5528a89b1
+  sourceRevision: enwiktionary-glyph-origin:93449853:48f7fc015cc2f85018060ef126cb8f8c74141c8e9472b7acf96c2b0527ff3e7f|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,9 +6,8 @@ subject:
   codepoint: U+99AC
 revision: 4a95d505d27397a12d5dbb5a81e3d3eec159a77022388ded0483485b76e5064f
 localizedRevision: 741c4e6403580c58756f394b9ca3ae33d71dc5e59b8a03a867547941f45b63c2
-status: candidate
-claimText: The older form pictures a horse with a head, mane and legs. The bottom dots in 馬 developed from legs;
-  they do not mean fire here.
+status: approved
+claimText: The older form pictures a horse with a head, mane and legs. The bottom dots in 馬 developed from legs; they do not mean fire here.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/馬/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4a95d505d27397a12d5dbb5a81e3d3eec159a77022388ded0483485b76e5064f
+  sourceRevision: enwiktionary-glyph-origin:93388368:547255b2b247bd4cd1092deb60441e01978848066b0a889298545469dffcc83c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

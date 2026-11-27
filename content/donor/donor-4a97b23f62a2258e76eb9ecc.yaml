@@ -6,7 +6,7 @@ subject:
   codepoint: U+7530
 revision: 76331b53bc016a230dd44bf76b6d321c467b7c6e0facd818f967f986c6c6e3f4
 localizedRevision: 8b98e5dc7ca31a04f93b5327c94844f3c0e550d27e17e0c005778d8698ada227
-status: candidate
+status: approved
 claimText: A picture of a field divided into sections.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/田/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 76331b53bc016a230dd44bf76b6d321c467b7c6e0facd818f967f986c6c6e3f4
+  sourceRevision: enwiktionary-glyph-origin:93549154:f7653a2c83c42da9f4f15dc52163b70424d3e4b55da4b2d963ec9248e532a30a|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

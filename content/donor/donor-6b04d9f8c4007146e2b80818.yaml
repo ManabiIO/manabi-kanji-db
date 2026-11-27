@@ -6,7 +6,7 @@ subject:
   codepoint: U+76F8
 revision: a605ee7f8de1e5fe7ce1a69fd4ac479f303bdfbb96d5e1a21771be99af284ec1
 localizedRevision: 36ce3fffd40657e26dbf529927b778c91686899a1b62e9be4f5554ce46a8e068
-status: candidate
+status: approved
 claimText: 相 combines an eye with a tree, expressing looking at a tree.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/相/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a605ee7f8de1e5fe7ce1a69fd4ac479f303bdfbb96d5e1a21771be99af284ec1
+  sourceRevision: enwiktionary-glyph-origin:92368480:614a3d25adc6f7657f14c0eab43b82a8846a54fe096152a673e681f8bb3d8b6c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

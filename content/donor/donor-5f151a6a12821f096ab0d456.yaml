@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:0808c-g1
 revision: 628640688a17bd2d67641580aebf535040aee22e7a24baeffd0c7c42215a18f7
 localizedRevision: e2af1af5d0b7c185bfbe2bd3f06d57bed56d10aa4adf7554556e1070efbe0774
-status: candidate
+status: approved
 claimText: The 月-shaped part in 肌 represents 肉, flesh. Here it relates to the body, not the moon.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:0808c-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 628640688a17bd2d67641580aebf535040aee22e7a24baeffd0c7c42215a18f7
+  sourceRevision: enwiktionary-glyph-origin:93443704:7eae76211a610725ceda483b50b09597e5833fb87ada862441fe1e291800079b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:76a7bec115211d4b4e0cbc89b85231644e86999bfd74e3da7a52048b5daba506|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

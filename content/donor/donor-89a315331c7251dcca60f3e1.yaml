@@ -6,7 +6,7 @@ subject:
   codepoint: U+7AF9
 revision: 5965aafbbab916597a405002c63189f939f10d0d81c12b4e27e4095c97695ff2
 localizedRevision: 44cc0144efb2eed31f7f3ae6d001cceac1826950cdbefcdc238bc0fd4760e837
-status: candidate
+status: approved
 claimText: Two bamboo stalks with leaves.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/竹/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5965aafbbab916597a405002c63189f939f10d0d81c12b4e27e4095c97695ff2
+  sourceRevision: enwiktionary-glyph-origin:92810007:1875eb6c0617a0251b519814a7b2da817255e3cb48483b3b4136b80726851c60|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+8EAB
 revision: 38b05714a7243a12742e3b46920102910ee9f3749bb3d552cc072a5013520d29
 localizedRevision: f6275f6153d66133176138c9cdf608fdb28a06de9e828470d62e4f28d7abc315
-status: candidate
+status: approved
 claimText: The older form of 身 pictures a pregnant woman.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/身/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 38b05714a7243a12742e3b46920102910ee9f3749bb3d552cc072a5013520d29
+  sourceRevision: enwiktionary-glyph-origin:92201888:86fef63c0a851aca9775771af9c8b9fd357838f8fd8605e760a8169a06a5c113|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

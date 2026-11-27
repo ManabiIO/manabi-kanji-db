@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:073e0-g2
 revision: f77f556eceef1fa1591a28f6ea53019bf209bbc4361731a4cf1cedfc5dd4b96e
 localizedRevision: a329260875884fa10b7252e757ba48c06739d29cf43164e71e95ad881013024e
-status: candidate
+status: approved
 claimText: 朱 supplies the sound element in 珠; Japanese readings depend on the word.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:073e0-g2
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: f77f556eceef1fa1591a28f6ea53019bf209bbc4361731a4cf1cedfc5dd4b96e
+  sourceRevision: enwiktionary-glyph-origin:92678570:81a74920988250ddb2463076514b4b478be8156770fa33a96904e552d0fd957a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b50bb88b96882ac92f900319a2cc0b69518d07220b3f0c65c5f8db9d01f1272b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

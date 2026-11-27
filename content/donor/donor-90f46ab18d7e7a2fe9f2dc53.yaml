@@ -6,7 +6,7 @@ subject:
   codepoint: U+6C42
 revision: 7ccd954d135d62f53b94ec57dd35957231f49ce861b3c6b4c20e1d14192366d0
 localizedRevision: c54c4d63380dbe6e6d9d2239f22f99caf54392b9eb21896557253accd4a8a44d
-status: candidate
+status: approved
 claimText: The older form of 求 pictures a centipede.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/求/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7ccd954d135d62f53b94ec57dd35957231f49ce861b3c6b4c20e1d14192366d0
+  sourceRevision: enwiktionary-glyph-origin:92701689:0242064bab5600c9dc13e79b0ef193de6a7d4dc2e0eef4a91cc3f5949a192e77|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

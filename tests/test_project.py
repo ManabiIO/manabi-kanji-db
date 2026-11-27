@@ -40,7 +40,7 @@ class StrictYamlTests(unittest.TestCase):
 
 class ProjectValidationTests(unittest.TestCase):
     def test_project_validates_with_reviewed_story_content(self) -> None:
-        self.assertEqual(validate(ROOT), (709, 16, 6681))
+        self.assertEqual(validate(ROOT), (709, 17, 6682))
         manifest = yaml.safe_load((ROOT / "data/story-seed-manifest.yaml").read_text())
         self.assertEqual(manifest["reviewDisposition"]["approvedStoryCount"], 150)
         self.assertEqual(manifest["reviewDisposition"]["approvedVisualNameCount"], 141)
@@ -52,6 +52,15 @@ class ProjectValidationTests(unittest.TestCase):
         self.assertEqual(len(manifest["items"]), 100)
         self.assertEqual(sum("claim" in item for item in manifest["items"]), 98)
         self.assertEqual(sum("intake" in item for item in manifest["items"]), 2)
+
+    def test_donor_claim_review_manifest_matches_fingerprint_ledger(self) -> None:
+        manifest = yaml.safe_load((ROOT / "data/coverage/donor-claim-review.yaml").read_text())
+        revisions = yaml.safe_load((ROOT / "data/reviewed-claim-revisions.yaml").read_text())["revisions"]
+        approved = manifest["approvedClaims"]
+        self.assertEqual(manifest["counts"], {"reviewedCandidates": 192, "approved": 181, "heldForRevision": 11})
+        self.assertEqual(len(approved), len(set(approved)))
+        self.assertTrue(set(approved) <= revisions.keys())
+        self.assertEqual(len(manifest["holds"]), 11)
 
     def test_upstream_source_snapshots_are_excluded_from_build_inputs(self) -> None:
         paths = input_files(ROOT)

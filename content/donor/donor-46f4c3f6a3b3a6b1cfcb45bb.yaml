@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E00
 revision: 80cca579e83f72de187fa9689faee399d46ffb97f96dee2a4ae5993727fa7740
 localizedRevision: 064b85d092021b84c6358ee5da5986260287f2cfa5dbd12e39f63ccec2592ed2
-status: candidate
+status: approved
 claimText: One stroke represents one.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/一/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 80cca579e83f72de187fa9689faee399d46ffb97f96dee2a4ae5993727fa7740
+  sourceRevision: enwiktionary-glyph-origin:93934800:da88aa03f85689a9482b8c1cd60f2c62836d0a8432f13cfe0107b43d72014463|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

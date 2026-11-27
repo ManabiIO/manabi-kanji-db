@@ -6,7 +6,7 @@ subject:
   codepoint: U+8179
 revision: 2e621490faa0f06ffd46086cf54a016b75f85f3d2e6c8f56c7a5ce303dba6fee
 localizedRevision: fb7ccc4dd6e78510a0fc32251f07e844d8d18ecb20609a989c10c2cecc85fda2
-status: candidate
+status: approved
 claimText: In 腹, belly, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/腹/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2e621490faa0f06ffd46086cf54a016b75f85f3d2e6c8f56c7a5ce303dba6fee
+  sourceRevision: enwiktionary-glyph-origin:93600917:a7683a6e107dede752a783ae7325c68acc78ca82e6f788584f99e35f5808a044|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

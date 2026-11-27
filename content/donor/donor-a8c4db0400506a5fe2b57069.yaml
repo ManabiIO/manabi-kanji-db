@@ -6,9 +6,8 @@ subject:
   codepoint: U+5973
 revision: ff7db6c9b746b801640a982786f88cf567f79ab36280f2bea54281643ec0b74a
 localizedRevision: b16012ec51d780cb5f8bc3fb5d1c96bdc2108f8709cd7c0bede2a73ae95f3221
-status: candidate
-claimText: The older form pictures a woman with folded arms. Its orientation and arm shapes changed in the modern
-  character.
+status: approved
+claimText: The older form pictures a woman with folded arms. Its orientation and arm shapes changed in the modern character.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/女/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: ff7db6c9b746b801640a982786f88cf567f79ab36280f2bea54281643ec0b74a
+  sourceRevision: enwiktionary-glyph-origin:92739223:77ee17a0ca33e817978b34a754dcc78799eff86a505dc08011789423b96c0f1a|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

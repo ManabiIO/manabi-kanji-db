@@ -6,7 +6,7 @@ subject:
   codepoint: U+96C6
 revision: 5253d004dfdf6f14b9c8eb51286d6bc19edfa38675821dd04dd4da5cbd8674f4
 localizedRevision: 3159ff8a6af1ecdbb5d92e4821f3025be069cf33f4cc946d25cdbaea0fc21e9c
-status: candidate
+status: approved
 claimText: 集 combines a bird and a tree.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/集/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5253d004dfdf6f14b9c8eb51286d6bc19edfa38675821dd04dd4da5cbd8674f4
+  sourceRevision: enwiktionary-glyph-origin:92202129:30384e13d9d360d9444e223a0e028458e4b1b67923f027f8b285090a8ae74666|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

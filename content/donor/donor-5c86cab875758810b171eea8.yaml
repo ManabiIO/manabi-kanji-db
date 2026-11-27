@@ -6,7 +6,7 @@ subject:
   codepoint: U+77E2
 revision: 7d98bcddaaf4ec299d76038e9a8e1ecafbf5d64bf83e75dd23836eff75b3f5e1
 localizedRevision: 4a350aee2bed671913395080f1fd862e80475122dd4882fd526b36e6419fc31d
-status: candidate
+status: approved
 claimText: 矢 began as an arrow picture, clearer in older forms.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/矢/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7d98bcddaaf4ec299d76038e9a8e1ecafbf5d64bf83e75dd23836eff75b3f5e1
+  sourceRevision: enwiktionary-glyph-origin:93764048:29aea29bb59caf172b4871bd7e127735c7c147186d59e9d45b3f3faa65572496|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+6599
 revision: b00f4b4d986b69371502f324c6404f50992acc9e1d91a280fa3992786b14a7e7
 localizedRevision: 1f017ab322c5034c3190b999506b3e4fc376536d38f6dab9c040b821a5d7545c
-status: candidate
+status: approved
 claimText: 料 combines rice with a dipper, expressing measuring or gauging.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/料/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b00f4b4d986b69371502f324c6404f50992acc9e1d91a280fa3992786b14a7e7
+  sourceRevision: enwiktionary-glyph-origin:92161428:8f4dba5664a73aa3ccb0de62572f54769db3fc42a989893d0784e7b5634b5fdf|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

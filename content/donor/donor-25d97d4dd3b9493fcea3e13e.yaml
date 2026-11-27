@@ -6,7 +6,7 @@ subject:
   codepoint: U+4EAB
 revision: 251c288e8e91684925c4914bfdcdc130a7b19d6ad3e4a921503951d191a10c73
 localizedRevision: 74dade22f1c25d9418f766ea241132dc7b5230e20467a48a4c56aa212dcfe008
-status: candidate
+status: approved
 claimText: The older form of 享 pictures an ancestral shrine.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/享/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 251c288e8e91684925c4914bfdcdc130a7b19d6ad3e4a921503951d191a10c73
+  sourceRevision: enwiktionary-glyph-origin:93754743:033fdece235e90bb8b3dc7f411ddfba28c6b38ae12e4ef5ebb33246c50ff4f4d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

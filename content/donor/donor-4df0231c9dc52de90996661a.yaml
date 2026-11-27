@@ -6,7 +6,7 @@ subject:
   codepoint: U+866B
 revision: f6a114739c9c8c3462b2994317a72bcf559fe9d71201dc96ad3f16374b83c092
 localizedRevision: 4a1b4ab88ce927c160851cd4652dc115b06cd9fddae20c0b29504a642ca0ea2c
-status: candidate
+status: approved
 claimText: The older form pictures a snake. 虫 was later used for insects as well.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/虫/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: f6a114739c9c8c3462b2994317a72bcf559fe9d71201dc96ad3f16374b83c092
+  sourceRevision: enwiktionary-glyph-origin:92731919:3ffbeba477f20546c070f5605334d37b1dceebdb643611a140e08beed3849fe7|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

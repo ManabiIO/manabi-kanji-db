@@ -6,7 +6,7 @@ subject:
   codepoint: U+5F1F
 revision: 2a2c2e5e8306840a64b9f1e09eeda4f19da5fdf847a2f797fae1d28532392604
 localizedRevision: 0923ba22cb6453f7b649bd15dc03bc943186a54d541f82583289d788b7fae603
-status: candidate
+status: approved
 claimText: The older form pictures a spear handle wrapped in a leather strap.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/弟/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2a2c2e5e8306840a64b9f1e09eeda4f19da5fdf847a2f797fae1d28532392604
+  sourceRevision: enwiktionary-glyph-origin:94253206:aed56679c1d7e452223517efcdb45a2be9f9a97b7dcef0a205dc27487147589e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+77F3
 revision: d7bdc02986eb1af5315da3e847f0dee4a43fc1dac025c528475c191e561ac651
 localizedRevision: bf32046cd43bf66f4edb53e5bf143d9915bb52deee4f762b6572b772942ee798
-status: candidate
+status: approved
 claimText: 石 began as a picture of a stone chime; the 口-shaped part was added later as decoration.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/石/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d7bdc02986eb1af5315da3e847f0dee4a43fc1dac025c528475c191e561ac651
+  sourceRevision: enwiktionary-glyph-origin:92618269:5419ea2e0b15b35bc6c020a1c5e0dddb39e1c61c6ca71f5ab1de075c9e72a1f9|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

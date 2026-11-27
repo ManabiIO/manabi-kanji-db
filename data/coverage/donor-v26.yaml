@@ -18,13 +18,14 @@ counts:
   parentMappings: 8
   historyPresentationSettings: 3
   candidateRowsPreserved: 491
-disposition: All reviewed.json fields preserved as nonpublishable imported candidates. Source-level prior review
-  labels are retained only as provenance; new independent evidence, Japanese-applicability and editorial review
-  are required before promotion.
+disposition: All reviewed.json fields are preserved with source lineage. Of 192 authored claims derived from its
+  passages and lessons, independent review approved 181 exact revisions and held 11 for targeted revision. Global
+  labels and remaining imported relations stay candidates; upstream review is provenance, not approval.
 pendingWork:
 - See donor-global-label-evidence.json for term-specific evidence and decisions on all 129 global labels
 - See donor-passages.json for verified public revisions and passage selectors for lessons, occurrences and mappings
 - See donor-v26-reading-examples.yaml for exact JMdict and ruby bindings for 98 examples and the two withheld decisions
+- See donor-claim-review.yaml for the independent decisions on 192 donor-derived claims, including 11 held revisions
 - Parent mappings require exact source-to-KanjiVG group verification
 relationshipImports:
   Kanjium:

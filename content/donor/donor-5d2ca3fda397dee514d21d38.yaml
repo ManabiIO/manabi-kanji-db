@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:08a0e-g1
 revision: fe09c38548aca8772b12714c75ba15a97f831268e6e05f5ef480663b72f75939
 localizedRevision: 123cfebdbb02b939f8978f7e82147cfbb4b7869de43cc4598b5c5ca3387fce47
-status: candidate
+status: approved
 claimText: 言 contributes the meaning of speech or words in 討.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:08a0e-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: fe09c38548aca8772b12714c75ba15a97f831268e6e05f5ef480663b72f75939
+  sourceRevision: enwiktionary-glyph-origin:92201721:2dc1257d997720887e5b51e244bceae00003881b0993f12db20a21e5674f6f1f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:93b07926ea3ba15b208152e744c426911b9f76c23bb04994e4944ed7b1015f8f|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

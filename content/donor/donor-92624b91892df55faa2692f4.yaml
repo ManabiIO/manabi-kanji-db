@@ -6,7 +6,7 @@ subject:
   codepoint: U+6B62
 revision: 3671409a62d5157a4810358f4e10f4e785a9b42343044c4779595395c4bded8a
 localizedRevision: fc7d0587c3d78fffbb13465bb820910a4c59a6dd642cfb4492dbdfc5c232f77e
-status: candidate
+status: approved
 claimText: 止 began as a footprint with three toes and a sole.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/止/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3671409a62d5157a4810358f4e10f4e785a9b42343044c4779595395c4bded8a
+  sourceRevision: enwiktionary-glyph-origin:93297076:32fa068ac0bd5976051a45f37d1ddd819f0d84f59b2a8d47d648c5d7c12209e9|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

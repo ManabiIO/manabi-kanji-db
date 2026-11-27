@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:06d77-g1
 revision: 2f750c00f56c6e99dba069ffeb86bcc559441c617c842d64f9b1d7694b987973
 localizedRevision: 6ed648e043cad3163ff90f7a9f0f1e23390d125608f389b524dfc39a8b32801f
-status: candidate
+status: approved
 claimText: 氵 is the water component in 海, sea.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:06d77-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2f750c00f56c6e99dba069ffeb86bcc559441c617c842d64f9b1d7694b987973
+  sourceRevision: enwiktionary-glyph-origin:93388184:75ce867084722a67d639e99c0367a63de62efc2f567fae7e320881c496e0b17c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:86800497691d6d66e7009be9acf574ad65b20fa915e102df8453c2b12c7af31c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

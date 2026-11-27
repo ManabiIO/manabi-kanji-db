@@ -6,7 +6,7 @@ subject:
   codepoint: U+5347
 revision: 899f05bd49fb522483bd94b3a82e78a47a516dd10443623ab13e575649e49e50
 localizedRevision: a8e858cf70a4f634df54e5b5c1f28ca288e5b3c8166af1d6ad4dec92398e1275
-status: candidate
+status: approved
 claimText: The older form pictures a dipper, comparable to 斗.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/升/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 899f05bd49fb522483bd94b3a82e78a47a516dd10443623ab13e575649e49e50
+  sourceRevision: enwiktionary-glyph-origin:92930290:76a22b4b60d305d0059c848b57048ebcab521c76b4021c2b0d82a0f20a551d2c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

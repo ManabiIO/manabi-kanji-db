@@ -6,7 +6,7 @@ subject:
   codepoint: U+5DDE
 revision: 2682ed7a4d4781ac9adf31542cfca09f553aca129722b4ccc6ce77a3671326b2
 localizedRevision: 7cd669a644df72a80a9d696883632689b5749c3a2f04cf5da85152b63a37a79a
-status: candidate
+status: approved
 claimText: The older form of 州 pictures a small island in a river.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/州/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2682ed7a4d4781ac9adf31542cfca09f553aca129722b4ccc6ce77a3671326b2
+  sourceRevision: enwiktionary-glyph-origin:92200382:7150048aa756948c0d2a7405d30a518888bd74438f3c6c6e9ba000dddbfa6a6c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:07fa9-g1
 revision: 7fc17c56e9b9de7813014cf0e8418bd55079909b8b48bf1d7f43495f42165e4e
 localizedRevision: 563cdff758659e2da58299f0aa22d614b551a501004fce9f665561c778b2a925
-status: candidate
+status: approved
 claimText: One reading of the older form links 羊 with goodness.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:07fa9-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7fc17c56e9b9de7813014cf0e8418bd55079909b8b48bf1d7f43495f42165e4e
+  sourceRevision: enwiktionary-glyph-origin:90901000:4ecc72f00fc1916311fc81dee3530ded07ee2bffe1236933cebec1e70e6add5a|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9e9b2a1b70dc617c0a61cbd8b66aea4e343d50428aa966bc27ca7f519265f7de|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

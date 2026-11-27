@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:06642-g1
 revision: d5c7504fde5a8d3b08f550497e1e01b1252d92272ff1249cbd47009be9f4f180
 localizedRevision: c4f38a7ed8240394178b669a217eb9bfccdb0e22d6da1c33b543b5f2a965da90
-status: candidate
+status: approved
 claimText: 日 represents the sun or a day. It contributes meaning to 時, time.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:06642-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d5c7504fde5a8d3b08f550497e1e01b1252d92272ff1249cbd47009be9f4f180
+  sourceRevision: enwiktionary-glyph-origin:93737692:6a87adf69bebd78f0c1b38bcf2bb0a5817458afa3363e6e93e8a4f637dc5b4df|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:60cf47d21e23a15ac8f9c83603e1789be9a3a4e37371f8f5290b0f170973ec6d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+9F13
 revision: a362f29be426c9ae8ee7e7afac38a1a01c457845f3c589c9a60a6b791bd26576
 localizedRevision: b5e3dba2fa5b42a730cdf6076adc2f57782e133b916891c13a807c61a52b0179
-status: candidate
+status: approved
 claimText: 鼓 combines a drum with a hand holding a drumstick.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/鼓/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a362f29be426c9ae8ee7e7afac38a1a01c457845f3c589c9a60a6b791bd26576
+  sourceRevision: enwiktionary-glyph-origin:92685950:02d30ab0c6cc2a736ebdf2655389a64ae5997d508b37a4190641c9c12d346818|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

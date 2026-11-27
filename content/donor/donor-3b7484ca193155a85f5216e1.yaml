@@ -6,7 +6,7 @@ subject:
   codepoint: U+9AD8
 revision: cf84a8d7afd7cc6094b3d45c209ed3673d026a39bc9d9ae390fce9bace90373b
 localizedRevision: ffddef754cd2949fe3f0a822b793c71978c19e054892f8d7dce1c3d9068223df
-status: candidate
+status: approved
 claimText: An early picture of a tall building.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/高/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: cf84a8d7afd7cc6094b3d45c209ed3673d026a39bc9d9ae390fce9bace90373b
+  sourceRevision: enwiktionary-glyph-origin:93421465:2f83fadb2863289655b8d4714251c64c84c22a16229579232c6fdbc0418e38b3|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+8089
 revision: 1f53944c9ab44b5cc224ee43025b86139edf61da143495ec665636cc5a09f677
 localizedRevision: 171b3cc02f1c19206bbaa13c8b8791a53cef53d63e16365b6fe406f7007d014e
-status: candidate
+status: approved
 claimText: An early picture of flesh. Its component form can resemble 月.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/肉/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 1f53944c9ab44b5cc224ee43025b86139edf61da143495ec665636cc5a09f677
+  sourceRevision: enwiktionary-glyph-origin:93434345:0012ca8d62ee1101c7d81d0c63705e1929c2d2d5935b73ac5cdd23eb5e708043|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

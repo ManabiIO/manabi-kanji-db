@@ -6,7 +6,7 @@ subject:
   codepoint: U+5229
 revision: 9925fe60d3565c48d7b54cd55d8bd77e5039d8b61a8aa5906af25c0bac34d5cc
 localizedRevision: d76f0dd8782eaa7776f5abf5cd85ddb00e038f86b297fff64f71fc22ef228f6d
-status: candidate
+status: approved
 claimText: 利 combines grain and a knife, expressing reaping grain.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/利/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 9925fe60d3565c48d7b54cd55d8bd77e5039d8b61a8aa5906af25c0bac34d5cc
+  sourceRevision: enwiktionary-glyph-origin:92924034:7199910df4b837d6904756072dcb61f31be0b52ff73de1a1531e3a8605608a3e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

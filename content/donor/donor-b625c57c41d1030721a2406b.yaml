@@ -6,7 +6,7 @@ subject:
   codepoint: U+4EBA
 revision: 28852b3fa1800e70833191f917d5b62a420038b8e1b71b487f78d94a472633ee
 localizedRevision: cfb677e246bc7e8bad51ac120411d974dbbfd68cbbc33f62bfa845e0c3d44866
-status: candidate
+status: approved
 claimText: A picture of a standing person seen from the side.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/人/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 28852b3fa1800e70833191f917d5b62a420038b8e1b71b487f78d94a472633ee
+  sourceRevision: enwiktionary-glyph-origin:93756831:671d653bc6d42ace6ad39e4d0964bf4dcf4884829a7caddfaaf95fa1214d950a|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

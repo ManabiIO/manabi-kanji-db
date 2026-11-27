@@ -6,7 +6,7 @@ subject:
   codepoint: U+679C
 revision: e8e2962a6af639a37ff1585f0572f56e99558ef4351d14baa65c5edc066db4c2
 localizedRevision: d7dcceb625e3deab994011d11d425458e0a22d7675b0935689a303205529e11b
-status: candidate
+status: approved
 claimText: 果 began as a picture of fruit growing on a tree.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/果/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: e8e2962a6af639a37ff1585f0572f56e99558ef4351d14baa65c5edc066db4c2
+  sourceRevision: enwiktionary-glyph-origin:93477201:1be03af9be5a04581080b76f121ea1bb911a1125fc2cfc2c4e606617c02f8792|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

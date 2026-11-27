@@ -6,9 +6,8 @@ subject:
   codepoint: U+611B
 revision: a184a2388b95096c9c318a662ad61d35f2b0026ca9444d574dfb90498e35a666
 localizedRevision: 189e656b8c77ca7c75ecf5af37000e3dfc90890eed58d6e8bcad575f1348e78f
-status: candidate
-claimText: Earlier forms combined 心, heart, with a sound element written 旡. The upper shape changed over time; 心
-  remains recognizable.
+status: approved
+claimText: Earlier forms combined 心, heart, with a sound element written 旡. The upper shape changed over time; 心 remains recognizable.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/愛/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a184a2388b95096c9c318a662ad61d35f2b0026ca9444d574dfb90498e35a666
+  sourceRevision: enwiktionary-glyph-origin:93580139:165ee4d81dfc28b8e9c83ce0f7024431e69b93d3c63d5ab1f9e28215ef7003ae|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

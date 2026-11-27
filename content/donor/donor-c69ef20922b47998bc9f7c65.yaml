@@ -6,7 +6,7 @@ subject:
   codepoint: U+5203
 revision: 152ed58152a697b1b86d67ea3c3d07632cbe77a2d56ca40cdccc3bfbc0a3398d
 localizedRevision: eff057d89e43de0ffaeb1ab641b19284f945877677cfd557417b7726c47c4a57
-status: candidate
+status: approved
 claimText: 刃 adds a mark to 刀, knife, to identify the blade.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/刃/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 152ed58152a697b1b86d67ea3c3d07632cbe77a2d56ca40cdccc3bfbc0a3398d
+  sourceRevision: enwiktionary-glyph-origin:92724746:f594d7a1c165ae236bb866a87728669304bd582f1541d50c26c22a1d6f6fad88|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

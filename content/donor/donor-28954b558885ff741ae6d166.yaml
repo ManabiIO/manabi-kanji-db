@@ -6,7 +6,7 @@ subject:
   codepoint: U+5420
 revision: b9edf72a32f172b24abb4d294565189c45edb58b3f00a3476a66c24c9ab06d45
 localizedRevision: 850ea3e45935d19e8e2f18ed881b02899296ea803f3dff4662841169a7e21fde
-status: candidate
+status: approved
 claimText: 口 mouth combines with 犬 dog to express barking.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/吠/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b9edf72a32f172b24abb4d294565189c45edb58b3f00a3476a66c24c9ab06d45
+  sourceRevision: enwiktionary-glyph-origin:91811867:025deca9fd36a06a3a9957687c5e6b23601a77be34ec3a00e62f50225e8a062d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

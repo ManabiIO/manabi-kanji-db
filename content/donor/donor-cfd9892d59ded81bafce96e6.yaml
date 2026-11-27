@@ -6,7 +6,7 @@ subject:
   codepoint: U+5C16
 revision: 2a9d0ee1c5b75dc986ddc6903b8002e4f934eed65fa3d0b88ba20458fb44e133
 localizedRevision: e2fe1da3c7db82d9912e9911137b5f7200b6f3b0335c4877ba66b5bfc01952f9
-status: candidate
+status: approved
 claimText: 小 small above 大 large outlines a shape that widens from its tip to its base.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/尖/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2a9d0ee1c5b75dc986ddc6903b8002e4f934eed65fa3d0b88ba20458fb44e133
+  sourceRevision: enwiktionary-glyph-origin:93447945:45f9cf69b5810d8df300c46cd6a568bdae2663b65a35d8bedc7e4bffd5ff8633|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

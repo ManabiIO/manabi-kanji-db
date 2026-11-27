@@ -6,7 +6,7 @@ subject:
   codepoint: U+6597
 revision: bab9046f476af05d3cc3debd9f3224b045830e800f458bd38058a298de24c4e4
 localizedRevision: 0733da86c617d75280d57dddd45759e8b5861cf272845e4ab2dd5bd24793c2e9
-status: candidate
+status: approved
 claimText: The older form pictures a ladle or dipper used to measure grain, held in a hand.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/斗/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: bab9046f476af05d3cc3debd9f3224b045830e800f458bd38058a298de24c4e4
+  sourceRevision: enwiktionary-glyph-origin:90013237:3af7b7e33cfdfe774056bff0949785af503b55a7da5ebd9c0cba38f6b75a24bd|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+6B20
 revision: 02ee097ee2c574dc9739185984efef8f0ead712b68428a5c828a158e7e3baebb
 localizedRevision: 9f7a200420a149619c9878ae8423fd0f4a10ddf32c9d5970eab73a7f8403503f
-status: candidate
+status: approved
 claimText: The older form pictures a kneeling person with an open mouth.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/欠/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 02ee097ee2c574dc9739185984efef8f0ead712b68428a5c828a158e7e3baebb
+  sourceRevision: enwiktionary-glyph-origin:89922818:7ed127cb33e50bfa2f50cf1fc6da4f66da02a54d3848063929be339f183b35b7|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

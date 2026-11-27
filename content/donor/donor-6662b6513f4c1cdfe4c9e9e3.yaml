@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:072f9-g2
 revision: c3393627d5fc8c66fc4c47f4ec9a56dbc1c07c6bf9c9af817d63eccc39639ecf
 localizedRevision: 44abc4eedc248e1bee033646d754f63030088d3740d975015063c1ae91ec5b40
-status: candidate
+status: approved
 claimText: 夾 supplies the historical sound clue in 狹; Japanese readings can differ.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:072f9-g2
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: c3393627d5fc8c66fc4c47f4ec9a56dbc1c07c6bf9c9af817d63eccc39639ecf
+  sourceRevision: enwiktionary-glyph-origin:93506827:4b172edff9f7799a5bfe075474485e3dfaf25ee13958956dd32cc51762c2a855|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:652c29c195998c77e6d922093b0052ee90e5e62cb3ed735ba948c7381e544c93|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

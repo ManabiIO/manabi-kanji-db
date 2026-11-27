@@ -6,7 +6,7 @@ subject:
   codepoint: U+9769
 revision: fea45966164cc1690e08c447141de55e49e7bd78e799a0f33170f97fe2bae24a
 localizedRevision: f180d1aac4cd2b36f66876ce5bde88e11989175d585ac9c620c014ea2899a92b
-status: candidate
+status: approved
 claimText: The older form pictures a stretched animal hide, with its head above and tail and legs below.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/革/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: fea45966164cc1690e08c447141de55e49e7bd78e799a0f33170f97fe2bae24a
+  sourceRevision: enwiktionary-glyph-origin:93647842:05fae22c9b958c3f5654d6007a6087a707f1412912567f660ffaa1403f722a42|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:08179-g1
 revision: 64f160dd738f2de36e8c554c7c13b85bb5b000832bcbfb2b84f1a1625b0e7353
 localizedRevision: d5f244328de687beb01ad56ebac2260333741c3d32f8c03eb89119f2cbb214f1
-status: candidate
+status: approved
 claimText: The 月-shaped part in 腹 represents 肉, flesh. Here it relates to the body, not the moon.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:08179-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 64f160dd738f2de36e8c554c7c13b85bb5b000832bcbfb2b84f1a1625b0e7353
+  sourceRevision: enwiktionary-glyph-origin:93600917:a7683a6e107dede752a783ae7325c68acc78ca82e6f788584f99e35f5808a044|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1612ed8132d2f5ca3b6e098892fadc75dce40a96ef825fd5b7103fceac04fa2b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

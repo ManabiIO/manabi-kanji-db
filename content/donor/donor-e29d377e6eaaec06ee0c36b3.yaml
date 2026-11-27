@@ -6,7 +6,7 @@ subject:
   codepoint: U+7F8A
 revision: 0578cc02da3c2c66c1d7bd745ec343023eaa415be1b960ec6cb413a82d42c51c
 localizedRevision: 0f113b14ee9a444af5c9ef7e7f98abf84b268cca09867c7afabb176014d1bfb9
-status: candidate
+status: approved
 claimText: A picture of a ram’s head.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/羊/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0578cc02da3c2c66c1d7bd745ec343023eaa415be1b960ec6cb413a82d42c51c
+  sourceRevision: enwiktionary-glyph-origin:92536807:15b20d84df331b4a480e8ea953879a259aad06ba22a970ea29ef4f909a6261a2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

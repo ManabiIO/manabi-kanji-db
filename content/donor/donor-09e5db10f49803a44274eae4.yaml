@@ -6,7 +6,7 @@ subject:
   codepoint: U+767B
 revision: 43881b8151367f31a70bf7b1abb9a8b446658bc75dc03fb0edfe6c48a140989b
 localizedRevision: 2b079877b640232d8f6ba8930d3d3dd3b8f191256bdce284a7b469e0debfa809
-status: candidate
+status: approved
 claimText: 登 combines two feet with a raised object or stepping stone. Some earlier forms also had two hands below.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/登/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 43881b8151367f31a70bf7b1abb9a8b446658bc75dc03fb0edfe6c48a140989b
+  sourceRevision: enwiktionary-glyph-origin:92491083:3d8f0f057c513c2bc883e1afd9cdc7209c897b9735b031b4dc299bd59895e94b|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

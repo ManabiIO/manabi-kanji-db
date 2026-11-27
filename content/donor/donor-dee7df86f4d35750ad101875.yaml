@@ -6,7 +6,7 @@ subject:
   codepoint: U+89E3
 revision: 0f2bc0806d007ada3c50b98be08e3385d1190bd5eacef06a25bad66f7b13077a
 localizedRevision: 5647482540bc16995a9d5be97c686f52761e3c3a8ed198ca4ed83552eac1be31
-status: candidate
+status: approved
 claimText: '解 combines a horn, a knife and a cow: a knife separating the horn from the animal.'
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/解/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0f2bc0806d007ada3c50b98be08e3385d1190bd5eacef06a25bad66f7b13077a
+  sourceRevision: enwiktionary-glyph-origin:93474726:b65ee59e1f51527ea74377fca0dbe58cd88a51f0323b2c12443be6640b674136|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

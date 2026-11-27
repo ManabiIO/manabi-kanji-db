@@ -6,7 +6,7 @@ subject:
   codepoint: U+76EE
 revision: 2a40ff6015e3976e5fdea0f9289b00efe205b251887360a9821209db003e3de9
 localizedRevision: 003fc2ba402c44643ccf72eb15970eafe30a6fca67cc1ac3c624dd56b1632dfc
-status: candidate
+status: approved
 claimText: The older form pictures an eye. The modern 目 writes that eye upright.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/目/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2a40ff6015e3976e5fdea0f9289b00efe205b251887360a9821209db003e3de9
+  sourceRevision: enwiktionary-glyph-origin:93947436:4f9b7883f44c28f8e5ac4495f4b71c39acc60d98dac97cf0692d160e9c271138|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+8C5A
 revision: c696235b87601a25df38e673e3d815eb6d9a052b44d5891dfe6e37a6fdf90aaf
 localizedRevision: 06cf1cd5d1fb0636e79991a468f595434d0b04ad45b2617c3099011d44c10049
-status: candidate
+status: approved
 claimText: 豚 combines 肉 flesh, written as the 月-shaped left part, with 豕 pig.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/豚/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: c696235b87601a25df38e673e3d815eb6d9a052b44d5891dfe6e37a6fdf90aaf
+  sourceRevision: enwiktionary-glyph-origin:92351896:a72ca1b515ff71e049610939385606f370e165702457730ce2c12071ec26ef5f|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

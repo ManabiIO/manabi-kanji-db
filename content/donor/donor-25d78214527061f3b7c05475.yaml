@@ -6,7 +6,7 @@ subject:
   codepoint: U+518A
 revision: cbc12ef51aee1249e1a8eee1ad5929b959c2b465296ab0f74b34906cd53a2921
 localizedRevision: 0f16b0adfbfa3a605ba94fe6a16b27ad8602d2e7c33822995ce474cd47b0c91d
-status: candidate
+status: approved
 claimText: 冊 pictures bamboo slips strung together.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/冊/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: cbc12ef51aee1249e1a8eee1ad5929b959c2b465296ab0f74b34906cd53a2921
+  sourceRevision: enwiktionary-glyph-origin:87963527:c1ef21034e27a48d328641ce2187af68fcf21e0d3e13e5b2dccaeee946b0c16e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

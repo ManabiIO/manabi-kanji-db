@@ -6,7 +6,7 @@ subject:
   codepoint: U+5FC3
 revision: 06508d5753cafaca55fadc91815f6eacd8445ae99b718089dff5cf10dbd49335
 localizedRevision: 1daebf9f6aa1b5cd7d58b88070165bae92983cdf1d37b5b2acb2d8ea95149dc6
-status: candidate
+status: approved
 claimText: An early picture of a heart, now highly stylized.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/心/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 06508d5753cafaca55fadc91815f6eacd8445ae99b718089dff5cf10dbd49335
+  sourceRevision: enwiktionary-glyph-origin:93404553:e3d41de3dc85f99c8a575e316a27de7c0d5b5c7e7fcc1dec56ffc097de33ab47|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

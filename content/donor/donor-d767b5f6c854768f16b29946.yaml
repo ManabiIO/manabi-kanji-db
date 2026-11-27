@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:080ba-g1
 revision: 7918996b45b075823bc40f125ca65bf6a688e69e2d367c49bd1b904b2457f85c
 localizedRevision: b4752ec8c75fd45249a21b8b2623e1d1a5095d6c58d2a973416318f11b4a220c
-status: candidate
+status: approved
 claimText: The 月-shaped part in 肺 represents 肉, flesh. Here it relates to the body, not the moon.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:080ba-g1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7918996b45b075823bc40f125ca65bf6a688e69e2d367c49bd1b904b2457f85c
+  sourceRevision: enwiktionary-glyph-origin:93384308:37a3dff8d472ecd81c38deb208a9c5a616025290a9557149799d7ac5a607c397|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:dc6b24686683960fc9692a2490ec73e899d181a7d2b80e17c32541ebc56cd5db|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+8EBE
 revision: 48844a00eff1c72a7cd3a7fe3132ea4c1314c99c9176eedd7d03ec0eb2b242d0
 localizedRevision: f4056c11fd1924cf0c10e9170fc08bebc51d4d2bb4d35c6a780d47c5f79fd29d
-status: candidate
+status: approved
 claimText: 躾 combines 身 (body) and 美 (beauty) in a Japanese-created character for discipline or upbringing.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/躾/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 48844a00eff1c72a7cd3a7fe3132ea4c1314c99c9176eedd7d03ec0eb2b242d0
+  sourceRevision: enwiktionary-glyph-origin:92163032:80a213126ce5dfc9069b4f56fae7e7bac87f65742ea4575950bd4557ea414b92|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

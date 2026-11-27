@@ -6,7 +6,7 @@ subject:
   codepoint: U+8ECA
 revision: 0bdaaf84fc36c918625e3f7e4bfeed5162dee9101363ed83e21e8a2f554fe2ee
 localizedRevision: 87d6ef996b68bfd19e866d4ec275790d1254ae2aae852f671edab792a9d5b12f
-status: candidate
+status: approved
 claimText: An early picture of a carriage seen from above, with wheels on either side.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/車/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0bdaaf84fc36c918625e3f7e4bfeed5162dee9101363ed83e21e8a2f554fe2ee
+  sourceRevision: enwiktionary-glyph-origin:94513764:50e457d1818fdc6d7dde12b01d796b94e83e22d6d3141215625803c0b32d1a58|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

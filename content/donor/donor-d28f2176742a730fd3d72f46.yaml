@@ -6,7 +6,7 @@ subject:
   codepoint: U+80A9
 revision: 7c6633d2814a41d87d3921b1dd065ab197d26e5a4105419e630b818396ff8f25
 localizedRevision: a6924508c7ddaa45c9ccf75df15f8978495ed69f1c0e99142a73ca5a73b84940
-status: candidate
+status: approved
 claimText: The top began as a shoulder picture; the lower 月-shaped part represents flesh.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/肩/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 7c6633d2814a41d87d3921b1dd065ab197d26e5a4105419e630b818396ff8f25
+  sourceRevision: enwiktionary-glyph-origin:93606084:5096a431f7ac9d9349cad245a40571e7d3f34ba04fa9e4b76cee244cce1bd8ef|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

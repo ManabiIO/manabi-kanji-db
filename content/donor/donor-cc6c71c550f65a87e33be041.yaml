@@ -6,7 +6,7 @@ subject:
   codepoint: U+50CD
 revision: 4cf11f7c2b33ed00f306aa303ea066702ebca3573a8087ed78b18dc5073ae74b
 localizedRevision: 4b6b507e0a52021108cb95e01ff43cb445bae2ae6500aee32801f8731b17a311
-status: candidate
+status: approved
 claimText: 'A Japanese-created character: 人 means person, and 動 supplies the onyomi ドウ.'
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/働/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4cf11f7c2b33ed00f306aa303ea066702ebca3573a8087ed78b18dc5073ae74b
+  sourceRevision: enwiktionary-glyph-origin:92199939:3a4a34ad5bde5d60d1903dc7bf4a15ae74cf8f0da463c3a7b8429cf9d3a274ba|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

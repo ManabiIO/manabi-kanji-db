@@ -6,7 +6,7 @@ subject:
   codepoint: U+79BE
 revision: 2c9fe2d12465403703535a743a956c024a966021bae591b0c84797261c02b63c
 localizedRevision: 16f1a50ee37f5b3866455f517a627124865f619822cfc268c9f5dad2a436c8db
-status: candidate
+status: approved
 claimText: 禾 began as a picture of a plant stalk, more recognizable in older forms.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/禾/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 2c9fe2d12465403703535a743a956c024a966021bae591b0c84797261c02b63c
+  sourceRevision: enwiktionary-glyph-origin:93556123:c9b0e5c36e7812d1e4c2d8991b07dbc7fd6f7e897ec3ca88351b7fb3218aa349|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

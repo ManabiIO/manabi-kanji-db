@@ -6,7 +6,7 @@ subject:
   codepoint: U+80BA
 revision: e59356a5923a271b32bd7075ce54a24b025be56c695d9b2b99b6efd57dd431f0
 localizedRevision: 51992d59270f4f3208180c1c1114900b3d66c49e1497eac0ee6878181d69afa2
-status: candidate
+status: approved
 claimText: In 肺, lung, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/肺/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: e59356a5923a271b32bd7075ce54a24b025be56c695d9b2b99b6efd57dd431f0
+  sourceRevision: enwiktionary-glyph-origin:93384308:37a3dff8d472ecd81c38deb208a9c5a616025290a9557149799d7ac5a607c397|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

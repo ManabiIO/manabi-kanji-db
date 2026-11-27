@@ -6,9 +6,8 @@ subject:
   codepoint: U+8C9E
 revision: a91c216d9eedd95e05617f16ad10d97adec69e98ce33c8991ff07762cd54491f
 localizedRevision: 86cdc5ceb3242fc5f8e0e27d051ac43eed24a17e5fe3594331d234059be84625
-status: candidate
-claimText: 貞 developed from a picture of a tripod cauldron, with 卜 later added for divination. The lower part changed
-  into the modern 貝 shape.
+status: approved
+claimText: 貞 developed from a picture of a tripod cauldron, with 卜 later added for divination. The lower part changed into the modern 貝 shape.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/貞/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a91c216d9eedd95e05617f16ad10d97adec69e98ce33c8991ff07762cd54491f
+  sourceRevision: enwiktionary-glyph-origin:93573707:122405318137809866a2cf53a5022fcef2315f03cb3ab65ad054d149d3792f1e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

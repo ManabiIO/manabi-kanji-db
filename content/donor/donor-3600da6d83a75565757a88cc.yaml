@@ -6,9 +6,8 @@ subject:
   codepoint: U+8C61
 revision: f66252167a754d4d453be11c5e12b54560db25f6c4b7c6216f97fc3c7bbe1ba6
 localizedRevision: f47118596781eea476de1f49f841e2bebf512c2e46609be74a24eb78af4ace60
-status: candidate
-claimText: 象 began as an elephant picture. The upper ⺈-shaped part represents its trunk; the lower shapes represent
-  its head and body.
+status: approved
+claimText: 象 began as an elephant picture. The upper ⺈-shaped part represents its trunk; the lower shapes represent its head and body.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/象/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: f66252167a754d4d453be11c5e12b54560db25f6c4b7c6216f97fc3c7bbe1ba6
+  sourceRevision: enwiktionary-glyph-origin:93556891:5617776d729df658e6baefb6307e64d19b61f874f9fb1a5273f7f81f68e01ce0|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

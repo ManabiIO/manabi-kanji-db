@@ -6,7 +6,7 @@ subject:
   codepoint: U+9580
 revision: 3ff82dde0d75a7925122c8017b21598dad202e409dc53f2c773b4febb91dd5e9
 localizedRevision: 2a66d6abdc2acf7b89336751ee74c1427b0a6098bcfdcb784291393eb81d59c1
-status: candidate
+status: approved
 claimText: A picture of a gate. 戶 represents a single door.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/門/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3ff82dde0d75a7925122c8017b21598dad202e409dc53f2c773b4febb91dd5e9
+  sourceRevision: enwiktionary-glyph-origin:94513836:f427e70de322bfae7f5a4783fd57cb7dae196889d0b7d49ece363031f2fc29f4|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+53E3
 revision: bc60ef2be7296e13dc66507e1d352e5741da5a36d4e2a9031bd8ef8c4c654b32
 localizedRevision: 36a405755a00d91495cd3701bb194eb0f98ffaf348649288913cc51d949d96a2
-status: candidate
+status: approved
 claimText: The outline represents an open mouth.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/口/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: bc60ef2be7296e13dc66507e1d352e5741da5a36d4e2a9031bd8ef8c4c654b32
+  sourceRevision: enwiktionary-glyph-origin:93606013:eaf0c4a3e10d19ecf52f758a64e5b58f73eaf88e2299aff99f1cc85bc1db74b0|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

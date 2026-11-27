@@ -6,9 +6,8 @@ subject:
   codepoint: U+884C
 revision: bb4e90dc18d8bbf432ed520aae6b09ee5d5c12921fb990116d7752541ea3608c
 localizedRevision: 5c17b2c631e7f132aca944ba2e4f0e1a1fe9c59820309dc64505fcbccdac7235
-status: candidate
-claimText: The older form pictures a street intersection. Modern 行 writes its two sides as 彳 and 亍; it was originally
-  one picture.
+status: approved
+claimText: The older form pictures a street intersection. Modern 行 writes its two sides as 彳 and 亍; it was originally one picture.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/行/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: bb4e90dc18d8bbf432ed520aae6b09ee5d5c12921fb990116d7752541ea3608c
+  sourceRevision: enwiktionary-glyph-origin:92642053:e740ed13df0dc2e085d41f3df4f01f6c5b1a4d35d218433817832e0777be24ec|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

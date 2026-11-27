@@ -6,7 +6,7 @@ subject:
   codepoint: U+53C8
 revision: 33dba65c7e2d3a1bdcb0f4d3e7dee899de516c286b27622a81aad841da019a0e
 localizedRevision: a8fe105d06b0898f684605490c133dbdc80c9f18572a1cf5ec4247017342ebae
-status: candidate
+status: approved
 claimText: The older form of 又 pictures a right hand.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/又/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 33dba65c7e2d3a1bdcb0f4d3e7dee899de516c286b27622a81aad841da019a0e
+  sourceRevision: enwiktionary-glyph-origin:92982727:c3a30f05bf09fe87e09644d00d994690a27e935f979a66b70eb863e3b82c9e76|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

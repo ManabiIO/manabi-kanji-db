@@ -6,7 +6,7 @@ subject:
   codepoint: U+6817
 revision: 0db8513e28acfb00cd24cfa2ce4a80f3741161c258fb5b22b7ea6f2593840844
 localizedRevision: e0fbbd79e8341972d06a2e215d30e165402f8576ef68365262aa8caa5d78f318
-status: candidate
+status: approved
 claimText: The older form of 栗 pictures chestnuts growing on a tree.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/栗/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0db8513e28acfb00cd24cfa2ce4a80f3741161c258fb5b22b7ea6f2593840844
+  sourceRevision: enwiktionary-glyph-origin:92432576:f56d8a3a24f606ca1aa9c25bfea8eea1a4b8d65a5054c6dee5e6f5e90772bbc1|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

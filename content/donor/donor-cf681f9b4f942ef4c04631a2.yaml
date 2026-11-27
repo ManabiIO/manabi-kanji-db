@@ -6,7 +6,7 @@ subject:
   codepoint: U+7533
 revision: 94ed94cee264c2455299b5a2e191f03103cd0eff8e4e68de560d405d3e93319c
 localizedRevision: d96cffc4ecf644a91f6e0fe0e6c7e7088fb5a02109ee135d24337ffd1a8d0bb2
-status: candidate
+status: approved
 claimText: The older form of 申 pictures a lightning bolt.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/申/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 94ed94cee264c2455299b5a2e191f03103cd0eff8e4e68de560d405d3e93319c
+  sourceRevision: enwiktionary-glyph-origin:92201108:96fc1d2eb5d28d799b6133b571a2fa9ff7cdbba618857d1aae4ddc0055f55b15|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

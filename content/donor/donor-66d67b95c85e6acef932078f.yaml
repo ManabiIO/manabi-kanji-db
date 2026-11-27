@@ -6,7 +6,7 @@ subject:
   codepoint: U+9CE5
 revision: 0db80161c1806cfefe5f8d0948963007c78afb11f1cc3171559d795864d5137a
 localizedRevision: 32dfffc7a0d2a395f24e8a1661986c55af8e1f9a665c380c4afc6e0d2ad756ae
-status: candidate
+status: approved
 claimText: Older forms show a bird with a head, body and hanging tail.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/鳥/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 0db80161c1806cfefe5f8d0948963007c78afb11f1cc3171559d795864d5137a
+  sourceRevision: enwiktionary-glyph-origin:93750960:6fe566a5814208f86721fb62c5d32e08c3db22f63ca7f624f2fc59bb835d38f2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

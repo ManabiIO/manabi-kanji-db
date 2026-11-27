@@ -6,7 +6,7 @@ subject:
   codepoint: U+82D7
 revision: 51d6feb9774803fa95c15eb04bcb7f34249e51f1ef403e0cac1bc9780086f461
 localizedRevision: 38513cd326524f88b0057a7d243df2830800ec6f1cfa3a93201f2f7a45ce689d
-status: candidate
+status: approved
 claimText: 苗 combines grass with a field.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/苗/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 51d6feb9774803fa95c15eb04bcb7f34249e51f1ef403e0cac1bc9780086f461
+  sourceRevision: enwiktionary-glyph-origin:92201499:eeec67fa475bfd795fb9515101ca000420176fa5278b2ed8e5b0690b9b4e8235|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

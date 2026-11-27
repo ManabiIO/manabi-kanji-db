@@ -6,7 +6,7 @@ subject:
   codepoint: U+8155
 revision: 16cb84a89cce5d103db3e8bb4b86321d29fefad23e433abce9323165df3bf0e2
 localizedRevision: 646bfc98485dc048d681e9fba845d376ab961673d592678feb2ba04530824c37
-status: candidate
+status: approved
 claimText: In 腕, arm, the 月-shaped part is 肉 (flesh), marking a body part. It is not the moon.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/腕/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 16cb84a89cce5d103db3e8bb4b86321d29fefad23e433abce9323165df3bf0e2
+  sourceRevision: enwiktionary-glyph-origin:93606098:4206a8ce44ac6ef8c1408774c26e3233f7a181ca903631625c67a8646c8ab97d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

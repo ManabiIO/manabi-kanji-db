@@ -6,7 +6,7 @@ subject:
   codepoint: U+8FBB
 revision: 85ec0154972a4e80f7fb4124129e5d89d88b72bb57bdbe503c8affd5ef14490c
 localizedRevision: 60cb733d80557221f09f514793c2d3093a4a7b81acdaa6ceb258a2033c76582e
-status: candidate
+status: approved
 claimText: 辻 was created in Japan for a crossroads. 辶 gives the idea of a road, and 十 shows two paths crossing.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/辻/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 85ec0154972a4e80f7fb4124129e5d89d88b72bb57bdbe503c8affd5ef14490c
+  sourceRevision: enwiktionary-glyph-origin:93634495:ced0de0bc53e9e21c28147e29e4c6bee25358a616f7dc74e2a7eb856e2f2f874|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

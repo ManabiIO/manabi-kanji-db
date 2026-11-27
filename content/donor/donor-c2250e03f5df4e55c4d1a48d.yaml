@@ -6,7 +6,7 @@ subject:
   codepoint: U+76BF
 revision: 65d0ebe7ab79ff1947dc8e741faa05ff8c5b40e93345dea13cd6fbf27b9cd1ae
 localizedRevision: 56fe34dd266d3f698555c0a3845a6382d037513ae1891274c07df81ddbaee2e6
-status: candidate
+status: approved
 claimText: 皿 began as a picture of an empty container; its handles joined in the modern shape.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/皿/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 65d0ebe7ab79ff1947dc8e741faa05ff8c5b40e93345dea13cd6fbf27b9cd1ae
+  sourceRevision: enwiktionary-glyph-origin:93648103:938b9019666747c3ff794c5fcf136c07f71f7c8f484789c91160ac3aa1730f10|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

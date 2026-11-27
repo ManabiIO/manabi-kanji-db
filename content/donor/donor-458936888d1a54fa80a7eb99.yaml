@@ -6,9 +6,8 @@ subject:
   codepoint: U+6234
 revision: a326409d80ea72fc31543d2321ce336f43e311a119cd9037c803a07e89e12744
 localizedRevision: f61bf0cfeb37acc4ee1fcb70e3eb33394d8c629382b8b84ccb43c954ebe276eb
-status: candidate
-claimText: The oracle-bone form pictures a person holding something on their head with both hands. The later form
-  also acquired a sound element.
+status: approved
+claimText: The oracle-bone form pictures a person holding something on their head with both hands. The later form also acquired a sound element.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/戴/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a326409d80ea72fc31543d2321ce336f43e311a119cd9037c803a07e89e12744
+  sourceRevision: enwiktionary-glyph-origin:93407573:72436f7113741d6a871fdb2ad308700553c19ab958dbbac70c20eb4315a200b8|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

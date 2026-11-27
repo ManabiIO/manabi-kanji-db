@@ -6,7 +6,7 @@ subject:
   codepoint: U+81E3
 revision: 4ed7751402cd99181a47d0d5e33fd1be10da49aad67ae333ac2a2d17daaa23a6
 localizedRevision: 5b93aee4d085bce94c26446e918d021298a3653a5fb3ffce3a122d4bf543b278
-status: candidate
+status: approved
 claimText: The older shape is a vertical eye looking downward. It acquired the meanings servant and minister.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/臣/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 4ed7751402cd99181a47d0d5e33fd1be10da49aad67ae333ac2a2d17daaa23a6
+  sourceRevision: enwiktionary-glyph-origin:92201464:15fad151ad8b16e23c98c90e8c1e283ecb74740f2cf88f70ceb1b0ce44c7c797|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

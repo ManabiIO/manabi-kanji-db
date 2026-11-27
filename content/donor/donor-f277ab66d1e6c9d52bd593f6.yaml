@@ -6,7 +6,7 @@ subject:
   codepoint: U+81FC
 revision: 68e83ff08e3f9954df01f6acd2026a501b7900003b7fe5556612c45b3275ecfa
 localizedRevision: 7e10c614b50f9829aa33bce26d6a3c7f7308de6c9a6991dcb3e75acf00dd00e3
-status: candidate
+status: approved
 claimText: The older form pictures a mortar, the bowl used with a pestle.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/臼/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 68e83ff08e3f9954df01f6acd2026a501b7900003b7fe5556612c45b3275ecfa
+  sourceRevision: enwiktionary-glyph-origin:93434475:e8dfcaed9e0530d07c81441c46da9d3fb4f4b901a261746c0f0e4953cb3d8d0e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

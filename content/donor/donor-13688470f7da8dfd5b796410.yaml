@@ -6,7 +6,7 @@ subject:
   codepoint: U+53D6
 revision: 8b4298f9566d07500dd30e5158081929e531765012d3027847f23e98f3b84d72
 localizedRevision: 52268df75fc922167d25c4322e87c7cbee495857956887298c94ca7793f7a79e
-status: candidate
+status: approved
 claimText: 耳 ear and 又 hand show taking an ear.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/取/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 8b4298f9566d07500dd30e5158081929e531765012d3027847f23e98f3b84d72
+  sourceRevision: enwiktionary-glyph-origin:93429888:99694b87c63f19a98105071e210d95e8a6e9f2b03bc5e69f9ca1f1beac3414ac|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

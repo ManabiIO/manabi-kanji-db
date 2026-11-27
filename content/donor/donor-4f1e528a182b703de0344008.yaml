@@ -6,7 +6,7 @@ subject:
   codepoint: U+5143
 revision: 9f042c0d7e9be3b6c41a048254dd7d31423d0b11963ce8daba2359f4bf041199
 localizedRevision: 13585eee7bcb181598ec1c017405300ce3b585fef4a83044fc6d4fb5de504095
-status: candidate
+status: approved
 claimText: 元 pictures a person with two strokes emphasizing the head, one attached to the body and one above.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/元/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 9f042c0d7e9be3b6c41a048254dd7d31423d0b11963ce8daba2359f4bf041199
+  sourceRevision: enwiktionary-glyph-origin:93383877:b5292c2359b41f81d82a9275712cab8f599a2f95b146b69f67fbe2ef2914634e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

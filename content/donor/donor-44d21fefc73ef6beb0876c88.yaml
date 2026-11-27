@@ -6,7 +6,7 @@ subject:
   codepoint: U+9F3B
 revision: 3e50fee6afb58b70e915f1407e4371e90dfc4c89b71077ba0b7ac5363227e351
 localizedRevision: f187fee117aba562acb983afee6805bc042d3e7d16241beb671b39a58dffed69
-status: candidate
+status: approved
 claimText: The top 自 preserves the older nose shape; its use for self came later.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/鼻/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3e50fee6afb58b70e915f1407e4371e90dfc4c89b71077ba0b7ac5363227e351
+  sourceRevision: enwiktionary-glyph-origin:93606002:981f932f611e8ab8d9aaef84a49ccd965bd9e2f8914fed69484e1ac1a790281c|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

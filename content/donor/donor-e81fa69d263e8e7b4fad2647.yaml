@@ -6,7 +6,7 @@ subject:
   codepoint: U+6BDB
 revision: 706e3ea7b665d600bef673f0e644509ca204a207d3645600d618d7e8b9bf7fc0
 localizedRevision: d3805580697ea0e3c57d6639ddfe40d76ade6eb896de489cec64233597fcdb64
-status: candidate
+status: approved
 claimText: The older form of 毛 pictures hair or a feather.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/毛/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 706e3ea7b665d600bef673f0e644509ca204a207d3645600d618d7e8b9bf7fc0
+  sourceRevision: enwiktionary-glyph-origin:93659552:7b445bf523ee93cefcf9a3cde79c8b74057bb5516bd1416a9c444b4c73e001bf|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

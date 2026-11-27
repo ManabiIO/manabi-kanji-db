@@ -6,7 +6,7 @@ subject:
   codepoint: U+56DE
 revision: b27cc35ce5436e1c463226773f903969747bb10c7f9a5169b53748e8e2de0b3c
 localizedRevision: 0fde2f5ac64851c42b0e18a9e0cb5d0e1086076e57f4beeb023e94966b3b2681
-status: candidate
+status: approved
 claimText: The older form was a spiral representing rotation; the modern outline is squared.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/回/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b27cc35ce5436e1c463226773f903969747bb10c7f9a5169b53748e8e2de0b3c
+  sourceRevision: enwiktionary-glyph-origin:92684097:709792afe92674d8d6a744ccdb9f9e842b46658010c6890b33984f534752e334|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

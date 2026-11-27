@@ -6,7 +6,7 @@ subject:
   codepoint: U+67D0
 revision: 17cbbe139ba8a7f80e8f8c50159e7f17f52f9019b851b1233951da14017bcb89
 localizedRevision: 6c7ad6bd98b07c59bfdbc4848e3b98689fd047be8def6a76b10c5d92d944bf96
-status: candidate
+status: approved
 claimText: 某 combines 甘, sweet, with 木, tree; it originally wrote the plum tree.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/某/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 17cbbe139ba8a7f80e8f8c50159e7f17f52f9019b851b1233951da14017bcb89
+  sourceRevision: enwiktionary-glyph-origin:92200751:cd79cbc77b70f5a115f533b5c410d5aadca1badcec00b1e3c35a3026229e1c15|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

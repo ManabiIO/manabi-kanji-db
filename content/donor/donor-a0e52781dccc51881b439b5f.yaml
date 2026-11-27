@@ -6,7 +6,7 @@ subject:
   codepoint: U+571F
 revision: 3b0dc9f50afa590d2b9458e4227b86e6ee9a4366888a00da38b7789000a61dab
 localizedRevision: 0e60bbca221dae7b640251631eb9923dff149f47713f477a3fef95eab44408d0
-status: candidate
+status: approved
 claimText: An early picture of a mound of earth.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/土/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 3b0dc9f50afa590d2b9458e4227b86e6ee9a4366888a00da38b7789000a61dab
+  sourceRevision: enwiktionary-glyph-origin:94507204:8ea2dd0050ddec2a698970dfdd84d88e1fac5ba566ba707552d7670254de1ae9|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

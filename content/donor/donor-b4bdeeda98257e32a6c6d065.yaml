@@ -6,7 +6,7 @@ subject:
   codepoint: U+8C55
 revision: 63b791ebd914105713cc34b003cd2883ea3f85ed2a6425280027439c9f2d5b93
 localizedRevision: d1395375cab065e26f19612adc208eb0cb64e473c59dc5f4199c0889350351b2
-status: candidate
+status: approved
 claimText: 豕 began as a picture of a pig.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/豕/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 63b791ebd914105713cc34b003cd2883ea3f85ed2a6425280027439c9f2d5b93
+  sourceRevision: enwiktionary-glyph-origin:91363336:56ada3b61372f279cdcac4a97c2c3d93c2cce807953dc98d9e79671518cfe2f8|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

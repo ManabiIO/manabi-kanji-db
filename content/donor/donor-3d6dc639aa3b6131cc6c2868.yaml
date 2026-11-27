@@ -6,9 +6,8 @@ subject:
   codepoint: U+9808
 revision: 1f5a148dd79dceda15e5256d93f6807cc1d6dd01e73d2aa2ee5a52b691dd13bc
 localizedRevision: d295066301957c80d8b2b3604b65e90822390048fa7e35d43873c09c6838ae23
-status: candidate
-claimText: '須 began as a single picture of a head with hair at its side: a beard or whiskers. The picture later
-  became more abstract.'
+status: approved
+claimText: '須 began as a single picture of a head with hair at its side: a beard or whiskers. The picture later became more abstract.'
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/須/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 1f5a148dd79dceda15e5256d93f6807cc1d6dd01e73d2aa2ee5a52b691dd13bc
+  sourceRevision: enwiktionary-glyph-origin:93443874:fe2c5bb8ca59d629e34c26e5c28c74f28704e3a64453ed793ce25f8172860002|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

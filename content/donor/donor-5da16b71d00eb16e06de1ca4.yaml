@@ -6,7 +6,7 @@ subject:
   codepoint: U+7CF8
 revision: 9cdaabfb70e4532b723ab8f6fb47b7f4c7e9469d8acfe5e385765143dff3e434
 localizedRevision: 0d9b856e73220f7d9b477b9680cf2de3eac65e8c4e18f5d8b9b7006863feb767
-status: candidate
+status: approved
 claimText: A picture of a bundle of silk thread.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/糸/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 9cdaabfb70e4532b723ab8f6fb47b7f4c7e9469d8acfe5e385765143dff3e434
+  sourceRevision: enwiktionary-glyph-origin:93764053:34e95d80f66f56b67bb5b1bd1b20247605f4eeef01df7c7a5e2f3b4f95d1f940|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

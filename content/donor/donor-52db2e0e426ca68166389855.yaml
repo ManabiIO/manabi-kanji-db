@@ -6,9 +6,8 @@ subject:
   codepoint: U+80FD
 revision: 1e0a628b7e8bd04b9f49c1befe0a13c0c427c4c2e2c4ecb991610713c7cbd5b3
 localizedRevision: fafcfab8ffc78a0386b248cb1d0ffdc6ee2ee6551f15385b82a7dab121ef66ef
-status: candidate
-claimText: 能 began as a bear picture. The two 匕-shaped parts represent paws, and the 月-shaped part developed from
-  its face and open mouth.
+status: approved
+claimText: 能 began as a bear picture. The two 匕-shaped parts represent paws, and the 月-shaped part developed from its face and open mouth.
 targetLanguage: ja
 locale: en
 author:
@@ -26,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/能/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 1e0a628b7e8bd04b9f49c1befe0a13c0c427c4c2e2c4ecb991610713c7cbd5b3
+  sourceRevision: enwiktionary-glyph-origin:93546319:db35b7df3da16adf5391c011a71be2160a8577547945829bd24940fddbb48929|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

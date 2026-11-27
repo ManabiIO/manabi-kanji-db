@@ -6,7 +6,7 @@ subject:
   codepoint: U+9762
 revision: c966d0e39109d8fab7f04d617f1563584378ed67c17e9d4d43cb67f70be0d279
 localizedRevision: cf9a91e8c70f597eacfe3a41d098256d8f10a7905308fbc98bdff90212ed9acf
-status: candidate
+status: approved
 claimText: 面 began as a face with an emphasized eye. The top horizontal stroke was added later.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/面/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: c966d0e39109d8fab7f04d617f1563584378ed67c17e9d4d43cb67f70be0d279
+  sourceRevision: enwiktionary-glyph-origin:92937046:255afd2a0c2f9b5cb172fe54727bbf3b67a5c325f24a3a77f2350fc80859f16d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

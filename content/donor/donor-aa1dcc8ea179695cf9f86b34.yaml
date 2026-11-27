@@ -6,7 +6,7 @@ subject:
   codepoint: U+8033
 revision: 758fe1d2e19ccc63270f5c37da49016ad1dafb28bc3e730d4f864531af8d97e4
 localizedRevision: 8e4a20afa8eab2f91b9569da8467922b94fd660f55ebfe934fecb06428caaed2
-status: candidate
+status: approved
 claimText: A picture of an ear.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/耳/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 758fe1d2e19ccc63270f5c37da49016ad1dafb28bc3e730d4f864531af8d97e4
+  sourceRevision: enwiktionary-glyph-origin:93606014:3fb35d52c81c893f9f136adf0c046637e6f2d758143537fd1c000fa5f9542aa8|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

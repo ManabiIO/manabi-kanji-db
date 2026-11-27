@@ -6,7 +6,7 @@ subject:
   codepoint: U+9E7F
 revision: da2faedca824df4f3610f9a4141aa6a981b0d215b65a58ed4f9441e673a5f466
 localizedRevision: 804d37df7788aafb810232a987fcc8aa594a625fef69993d29dad773d7c277c6
-status: candidate
+status: approved
 claimText: 'The deer picture changed over time: its legs became the modern 比-shaped base.'
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/鹿/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: da2faedca824df4f3610f9a4141aa6a981b0d215b65a58ed4f9441e673a5f466
+  sourceRevision: enwiktionary-glyph-origin:92720584:f2d2109e88304fa18362361e30de051c9722a58f8c6e0eb6227fdb1bf57bfa03|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

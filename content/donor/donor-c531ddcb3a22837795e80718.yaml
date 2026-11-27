@@ -6,7 +6,7 @@ subject:
   codepoint: U+72AC
 revision: d7898659ab00a08b2eb4af740c5e9e791613aeef77222de66cf9821c2408dda0
 localizedRevision: 63ced7fbdb45c0e6587d8a7bc462c2bf19fe041cf28a5a238e9838699e28ea08
-status: candidate
+status: approved
 claimText: A picture of a dog seen from the side.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/犬/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d7898659ab00a08b2eb4af740c5e9e791613aeef77222de66cf9821c2408dda0
+  sourceRevision: enwiktionary-glyph-origin:94100401:e2e243d975cabf8b8e5dd03ba011268c3157ba98f7dc342ff199b73dc110c71d|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

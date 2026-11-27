@@ -6,7 +6,7 @@ subject:
   codepoint: U+9996
 revision: 39eff59cd347543fc5cf76d1d9fded6963c019fe5c3c3e45f6fcc413df7b16bb
 localizedRevision: 96bf1875154045b4b89117e71e5a7cb34e982e86497dffec10766978913b2e26
-status: candidate
+status: approved
 claimText: The older form pictures a head. Its upper strokes developed from a hair-like shape.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/首/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 39eff59cd347543fc5cf76d1d9fded6963c019fe5c3c3e45f6fcc413df7b16bb
+  sourceRevision: enwiktionary-glyph-origin:93606022:6be2f3036eff2ac7ef703a64ead0c27cba85bb151cdc12f0a682a92d70e703bc|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

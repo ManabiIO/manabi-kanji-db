@@ -6,7 +6,7 @@ subject:
   codepoint: U+65E5
 revision: aff355a4e91cc56e4ce0a0676a1124278ba790daeeab9c37d82d84cc9eb50412
 localizedRevision: d9c651295a17d1650ecbd29d1e12f8bac76b30e6f35762259aed8fd803e9cc6c
-status: candidate
+status: approved
 claimText: The older round sun picture has a mark in its center. 日 keeps that central mark inside a squared outline.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/日/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: aff355a4e91cc56e4ce0a0676a1124278ba790daeeab9c37d82d84cc9eb50412
+  sourceRevision: enwiktionary-glyph-origin:93408319:0a55322b6d5333b713cb586abe69b34bc2511a70651bb83af2bf4d254f4015bb|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

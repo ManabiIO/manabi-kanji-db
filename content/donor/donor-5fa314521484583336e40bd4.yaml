@@ -6,7 +6,7 @@ subject:
   codepoint: U+6BCD
 revision: 387c7636711f15059a2d864d6003436bad9320473b0348deed643b032e733aa9
 localizedRevision: 8c336b1f797d33af6a95a18ba2b7d3b6d2335011a7051a3b779fdcde656e9567
-status: candidate
+status: approved
 claimText: 母 differentiates the older 女 woman shape with distinguishing dots.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/母/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 387c7636711f15059a2d864d6003436bad9320473b0348deed643b032e733aa9
+  sourceRevision: enwiktionary-glyph-origin:93778250:67da09479b731ed2089e709d965d008f55a6bdaf23da9bd29adee002e39a8110|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

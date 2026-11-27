@@ -1,0 +1,236 @@
+---
+version: 1
+reviewer: OpenAI Codex agent /root/evidence
+reviewerType: agent
+reviewedAt: '2026-11-27'
+counts:
+  reviewedCandidates: 192
+  approved: 181
+  heldForRevision: 11
+approvedClaims:
+- donor-04e5b05bc91c6176d30787ab
+- donor-0647b305cf82b11348ee2bdd
+- donor-071fa6a658f3ec09c1d9919f
+- donor-07b3ad64b354e1e164ea26b1
+- donor-09e5db10f49803a44274eae4
+- donor-0c4d8f0e810d78f2f3bfb201
+- donor-0cb06fd49006b0f0a7ce2ba4
+- donor-0e113a84ec8a207c76aa4ef6
+- donor-125136badad726d68ee28c1c
+- donor-134228a46e2d961b430df328
+- donor-13688470f7da8dfd5b796410
+- donor-13c3317c64f3b7c085981390
+- donor-1add5c8d3829e9866acbf184
+- donor-1bb0f5dc7d00aa2079576ff4
+- donor-1e40b58b7aa8b5d44d47ce8f
+- donor-1e4bb14a5094955af20a0239
+- donor-1fe1472df5379fff2b5a7aab
+- donor-2042157a8d3636d5e9dff704
+- donor-223d91cb3f87b80df43e228e
+- donor-2309499731cf457fe54014f0
+- donor-25d78214527061f3b7c05475
+- donor-25d97d4dd3b9493fcea3e13e
+- donor-27d2281ef227ab2dbac56c2a
+- donor-28954b558885ff741ae6d166
+- donor-29873cc572a2e4bf3e44bfed
+- donor-29931c23b80baf3d1ccdacc5
+- donor-2a0b855fea5fd31d6b4ef753
+- donor-2a7780277653deeeaca1fc1d
+- donor-2c7ba85b8f4633c3ceea659f
+- donor-2da9166ca32e6c3fefb0903a
+- donor-2ed4a080d2a7e4709a2e8f81
+- donor-30365deb1ca6b2994e1debbc
+- donor-31bda4c409277cde003c543e
+- donor-3600da6d83a75565757a88cc
+- donor-36077b453d5f4fa4de11bda3
+- donor-36cf1b3d93b9b8f47f6e26b9
+- donor-3a70024c07ee3f71764783ab
+- donor-3b7484ca193155a85f5216e1
+- donor-3d6dc639aa3b6131cc6c2868
+- donor-428897a585374b4244a64327
+- donor-44d21fefc73ef6beb0876c88
+- donor-458412f2410fad4cd5807df2
+- donor-458936888d1a54fa80a7eb99
+- donor-468e47d9586eb99c09a143d6
+- donor-46efd38af62446d47874c3b7
+- donor-46f4c3f6a3b3a6b1cfcb45bb
+- donor-472059720728ab22860853db
+- donor-48122b43471b53b25b9dd16b
+- donor-48793636f72eb13e0b191536
+- donor-48b2a76c9bd1ea25d6ed755b
+- donor-4a97b23f62a2258e76eb9ecc
+- donor-4df0231c9dc52de90996661a
+- donor-4e602d1b094b9191e9705a02
+- donor-4f1e528a182b703de0344008
+- donor-510a509b46026d322f52ce7e
+- donor-52db2e0e426ca68166389855
+- donor-568970033ad3dfa60d27c5be
+- donor-58b2460bdd53ceb23fe156f8
+- donor-59bc42a9b74dc3fc2ade693d
+- donor-5b7c8c39415b4d33c4ae5336
+- donor-5c86cab875758810b171eea8
+- donor-5d2ca3fda397dee514d21d38
+- donor-5da16b71d00eb16e06de1ca4
+- donor-5e1c4f37e9e4fc7148f3872f
+- donor-5f151a6a12821f096ab0d456
+- donor-5f4ccee07c70b81a3b7681b3
+- donor-5fa314521484583336e40bd4
+- donor-6355e8197d446240b75ddc91
+- donor-63caf949569489e0c3e3322b
+- donor-6662b6513f4c1cdfe4c9e9e3
+- donor-66d67b95c85e6acef932078f
+- donor-675bdab7bb1593ed5445a782
+- donor-6b04d9f8c4007146e2b80818
+- donor-6e876288beac94d62e8eb88f
+- donor-6fa2924aa1648c65690a8915
+- donor-70e76bd0dbc0afa1530bd3c4
+- donor-74ef79f27b1223d86f2535be
+- donor-76c8837ec5de8dcaa009caa6
+- donor-779ecf7d365625e2caf35e16
+- donor-7d4d1cbb53fda07673e8c9b6
+- donor-7e1e8ceb1104db5719386229
+- donor-7f0f776a6a97dae249bb046a
+- donor-7fc012d5a16682ae94ddb968
+- donor-80af31cf0d1f2cfc88433c5f
+- donor-84c02baf9ca53e2a72316ff1
+- donor-888507f7f59f655a189a84b0
+- donor-899910d273a4ef1de4eb6867
+- donor-89a315331c7251dcca60f3e1
+- donor-8b01c111e1b03a84fa88baec
+- donor-8b064b06315cb0a9dcd64ac1
+- donor-8b8e8cdf20067675f43e7ca2
+- donor-8bbf6cfc802d73989db8d4cc
+- donor-8d261509bf110a157f9d1aa5
+- donor-8d966b2dd5eb3172a7a6c40e
+- donor-8f9ad4c2299812743a8f41b7
+- donor-90f46ab18d7e7a2fe9f2dc53
+- donor-92624b91892df55faa2692f4
+- donor-92938658e22f1319eaf3310f
+- donor-93515cd4c68a9b12e42911c3
+- donor-93bc956c01e2cfb1e62dc627
+- donor-93d90922ac7b7911b88b283d
+- donor-9445cabffc42b57dbc7a5cd6
+- donor-953bdb644daa453d3be2fadb
+- donor-96bf7263bffdfaa67b14fd7a
+- donor-96e4e90111bcce94fbc43c2e
+- donor-970e5f42b4956124f44f0f6c
+- donor-9cef986fe3ce656f04ab6b9b
+- donor-9e16dc30c14cd91f606233ff
+- donor-9e2fb957cf324e23d190c170
+- donor-a09897a3f9ae8acaee4fdf3b
+- donor-a0e52781dccc51881b439b5f
+- donor-a1193fe44ab414bd30a979c2
+- donor-a2a47157ee999d59eab3beee
+- donor-a5bea964d644e24df3b39564
+- donor-a5d1cfa8a5d46245fa49920d
+- donor-a8c4db0400506a5fe2b57069
+- donor-aa1dcc8ea179695cf9f86b34
+- donor-aac04c16bd324b274ebc67af
+- donor-aad96a48cc1b20c587cc2249
+- donor-ab45fb87c56c0de32aea271f
+- donor-ad6559e65deaaef1e3bceb99
+- donor-adda57606a16654715b972c1
+- donor-ade657f4669583a7487f96fc
+- donor-ae45c8f908421d31a35be0be
+- donor-afec1291320d88c66747e55d
+- donor-b3923ee29431096bd595bc27
+- donor-b397cabf056564e66917f1f4
+- donor-b3c4154eb473631f83dfe716
+- donor-b49d4549abe212e4ef1a07b3
+- donor-b4bdeeda98257e32a6c6d065
+- donor-b625c57c41d1030721a2406b
+- donor-b8a14a47c71ba47b314ea436
+- donor-bab5979c6a4ffeb4bf846f58
+- donor-bae4e853f8051360b06d1b09
+- donor-be16ef2cdded6889c2c75518
+- donor-be343a16d8025c5f4cdb9296
+- donor-bec49cc02874d6c64d6b0bb7
+- donor-c2250e03f5df4e55c4d1a48d
+- donor-c531ddcb3a22837795e80718
+- donor-c5d18e6ffd35216e7c3351cd
+- donor-c69ef20922b47998bc9f7c65
+- donor-c9bde4966ff87938a9dfb9fd
+- donor-ca9de146d8fb44140009affc
+- donor-cba44a1c955784e194a83dca
+- donor-cc0407b150ea7266e8b002d4
+- donor-cc6c71c550f65a87e33be041
+- donor-cf681f9b4f942ef4c04631a2
+- donor-cfd9892d59ded81bafce96e6
+- donor-d0f4b0ede493fb577000444c
+- donor-d1547aee4a308e5a648ccb5b
+- donor-d28f2176742a730fd3d72f46
+- donor-d5046d02ac120e54fde629c8
+- donor-d51c9a4906e09456b628360d
+- donor-d5dbbc74b7667d8791158eac
+- donor-d673386a39000fbec471184a
+- donor-d767b5f6c854768f16b29946
+- donor-db238be0afa9610ef9396205
+- donor-dcec7e178011bcc2d43c934d
+- donor-ddd404b339b952dc8d98136f
+- donor-dee7df86f4d35750ad101875
+- donor-df46199b4c6246fc1d896c6c
+- donor-dfadd70ef0ae9a46b6875faa
+- donor-e19b0572d9240e1916d240cf
+- donor-e1ad22411f517aed0043dbe3
+- donor-e29d377e6eaaec06ee0c36b3
+- donor-e3f62eac5e378d92afdbd74c
+- donor-e81fa69d263e8e7b4fad2647
+- donor-ea37a82c56167eae4d7f2713
+- donor-eb42a20e18f7819e8cf75c4c
+- donor-eb6c3e238388524bcb678ef5
+- donor-eba12bad2a3ed0ad45966f1c
+- donor-eda43146ca92dc11ec9362ed
+- donor-f1a31375bf6165bb23b6f642
+- donor-f277ab66d1e6c9d52bd593f6
+- donor-f4e8c5687484fad6151d3db5
+- donor-f6c592744afab8cfe8ff0011
+- donor-fcbf3408f74053ad71d09385
+- donor-fd2da70999e2ff98a16c1255
+- donor-fd7172f9bfcc1f0ff1020f64
+- donor-fec5d10c1a46eb1adefc75d1
+- donor-ff3e5f6b954ab3aa849b5a10
+holds:
+- id: donor-1bde753e94a9203e11c2dd7e
+  literal: 見
+  kind: historical-origin
+  rationale: The passage gives one interpretation of the early person element, 卩 as a kneeling figure. It supplies no second historical account to support the claim that historical sources identify that shape differently.
+- id: donor-359cc8a8a4a7fdf7111c7370
+  literal: 父
+  kind: historical-origin
+  rationale: The cited passage identifies a hand holding a stone blade and connects it with a stone axe. It gives no rod interpretation.
+- id: donor-3ccce25eb3b2f4209e8503cd
+  literal: 示
+  kind: historical-origin
+  rationale: The cited passage identifies an altar. It provides no memorial-tablet interpretation.
+- id: donor-3f6f931ee401ee377434dcc5
+  literal: 爵
+  kind: historical-origin
+  rationale: The passage interprets the original picture as a vessel and says many later variants show a hand holding it. Qualify the holding hand as present in some older forms.
+- id: donor-6277ba9c20bff885659281e5
+  literal: 占
+  kind: historical-origin
+  rationale: The cited 占 passage names 卜 as a divination element. It does not identify what 卜 depicts. Bind the crack claim to a direct evidence passage on 卜.
+- id: donor-6ea2390162d36cce22f2f5f8
+  literal: 狭
+  kind: historical-phonetic
+  rationale: The historical passage describes 狹. The Japanese group identifies 夹 as a variant of 夾. Cite the exact 狭–狹 written-form pair to bind the old character's formation to this simplified Japanese character.
+- id: donor-6f3957e844dc0eadb1b6e82e
+  literal: 挟
+  kind: historical-phonetic
+  rationale: The historical passage describes 挾. The Japanese group identifies 夹 as a variant of 夾. Cite the exact 挟–挾 written-form pair to bind the old character's formation to this simplified Japanese character.
+- id: donor-8e318b6e9681c0711dcefc3d
+  literal: 峡
+  kind: historical-phonetic
+  rationale: The historical passage describes 峽. The Japanese group identifies 夹 as a variant of 夾. Cite the exact 峡–峽 written-form pair to bind the old character's formation to this simplified Japanese character.
+- id: donor-9cf675e1ca835d1de732d11e
+  literal: 釐
+  kind: historical-phonetic
+  rationale: The cited formation marks 𠩺 as phonetic and 里 as semantic. It gives no competing analysis that would establish a dispute over 𠩺's meaning contribution.
+- id: donor-a1d40893ecdc98ace45a3ead
+  literal: 酵
+  kind: historical-phonetic
+  rationale: The cited formation identifies 孝 as phonetic in 酵. It does not document a distinct older written form. State the historical phonetic role directly and give any Japanese-reading comparison its own exact evidence.
+- id: donor-e627ef97818b01104da7ad5a
+  literal: 胃
+  kind: historical-origin
+  rationale: The cited passage distinguishes the early concentric-circle graph from the later internal rice-grain shape. Separate the general stomach picture from the later form explicitly showing grains.

@@ -6,7 +6,7 @@ subject:
   codepoint: U+4E8C
 revision: d64437ae427cd24d4cdd13b3219b99319687f7bca439205f8003cd79d37d54f7
 localizedRevision: c520a771459b79c0b827b45d671b88527b43314b871b89d27a961b44785208df
-status: candidate
+status: approved
 claimText: Two strokes represent two.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/二/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d64437ae427cd24d4cdd13b3219b99319687f7bca439205f8003cd79d37d54f7
+  sourceRevision: enwiktionary-glyph-origin:93665649:5f1ca94ccf34b7b25a199b634468dbe2d77563121c20b2ce5ccc7e28480ca384|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

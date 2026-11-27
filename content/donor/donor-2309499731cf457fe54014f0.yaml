@@ -6,7 +6,7 @@ subject:
   codepoint: U+7537
 revision: b88accbde55c6901cc66918a601351622a72f925ec68033f2e73ed70355f168c
 localizedRevision: bfb5749c7fba1441068dd99b1afcc32410ac32abc74716a58c01e4285553f00b
-status: candidate
+status: approved
 claimText: 男 joins 田 (field) and 力 (strength), linking its older meaning of man with physical work in a field.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/男/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: b88accbde55c6901cc66918a601351622a72f925ec68033f2e73ed70355f168c
+  sourceRevision: enwiktionary-glyph-origin:92739176:859d4dfee7f33cebdeaab70024182ebea09ad92d7d6260837f748853700b2167|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

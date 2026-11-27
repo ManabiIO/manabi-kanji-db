@@ -6,7 +6,7 @@ subject:
   codepoint: U+98DB
 revision: 46b3c50766d73e78e632c0c94fb49aefd3dace4bae586b5d5fe18e8c1f0e2bc7
 localizedRevision: 59345ae049f0940af3f37cbfdfdfbe3f4c26185d573041d89bbd578af3a34cf2
-status: candidate
+status: approved
 claimText: The older form of 飛 pictures a bird flying upward.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/飛/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 46b3c50766d73e78e632c0c94fb49aefd3dace4bae586b5d5fe18e8c1f0e2bc7
+  sourceRevision: enwiktionary-glyph-origin:92678306:7a7dd059a747e65df6acf1dd9d3ed1f25001443152babbb0fae1bfbc0720c296|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

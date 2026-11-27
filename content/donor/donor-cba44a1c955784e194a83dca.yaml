@@ -6,7 +6,7 @@ subject:
   codepoint: U+821F
 revision: d8c552723ac0dae56e5d27fe88596fe5013a8f6efb13722a03516071f0be7c03
 localizedRevision: 5d22532f160d059a54ffe1d911f4361248ace4da11f3de523271fb9d8a797580
-status: candidate
+status: approved
 claimText: An early picture of a boat.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/舟/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: d8c552723ac0dae56e5d27fe88596fe5013a8f6efb13722a03516071f0be7c03
+  sourceRevision: enwiktionary-glyph-origin:93443726:4739a664fc37384f42340dd9e163a79b5b07bb226511e45ff57e824b08c223d3|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

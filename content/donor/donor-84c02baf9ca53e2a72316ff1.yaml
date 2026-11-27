@@ -6,7 +6,7 @@ subject:
   codepoint: U+7FBD
 revision: 5eb684ebae7fe4e8227004939b7c52925e2d0ab4cbfe9bb1c57a3337c23fe5b6
 localizedRevision: f4dd13d5479d68e9b4a2743570255a4f909f36c1cde00e89dc954053efaa05c5
-status: candidate
+status: approved
 claimText: 羽 pictures wings or feathers, shown as paired shapes.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/羽/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 5eb684ebae7fe4e8227004939b7c52925e2d0ab4cbfe9bb1c57a3337c23fe5b6
+  sourceRevision: enwiktionary-glyph-origin:92490451:167a97b3f31c485beca639e6e2edac1d943e3beb072f8226ea2f39446467a86e|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

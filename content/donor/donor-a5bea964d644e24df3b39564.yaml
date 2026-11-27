@@ -6,7 +6,7 @@ subject:
   codepoint: U+7121
 revision: 83d6604551565c456c696ce82c911706020b697a347b51b69ebbcef152424d93
 localizedRevision: 25f0eb5f5cdcf8e2d765ea559df05cac00a6d3efdbad47a7cc1fb0e8a523260f
-status: candidate
+status: approved
 claimText: The older form pictures a person dancing with objects held in both hands.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/無/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: 83d6604551565c456c696ce82c911706020b697a347b51b69ebbcef152424d93
+  sourceRevision: enwiktionary-glyph-origin:93737662:d28f289fbec46dc8b509ec0079a1c5dba6e553462376e9d51f088fa6c52d70a2|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

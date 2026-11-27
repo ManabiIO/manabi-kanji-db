@@ -6,7 +6,7 @@ subject:
   codepoint: U+7551
 revision: ecc87f109fcdb5db86b62263058ead17193bb2222f5a47bb5193b342a5aa8a85
 localizedRevision: c87da06960f74130f20334eb000f9df53969fb58a054dfd19c803fc65a90fea9
-status: candidate
+status: approved
 claimText: A Japanese-created character combining 火, fire, and 田, field.
 targetLanguage: ja
 locale: en
@@ -25,4 +25,9 @@ evidence:
   supportType: adapted-wording
   selector: /wholeCharacterLessons/畑/1
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: ecc87f109fcdb5db86b62263058ead17193bb2222f5a47bb5193b342a5aa8a85
+  sourceRevision: enwiktionary-glyph-origin:93449098:97c5ead14fbc577f85f71eee5f5c26e12cf3bf5a89729161f932ed4a25ad416f|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the stated historical formation against the pinned passage, the corresponding Japanese character identity and visual structure, and the attributed wording against the donor record.

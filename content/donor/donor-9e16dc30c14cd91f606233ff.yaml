@@ -6,7 +6,7 @@ subject:
   occurrence: kvg:052dd-g5
 revision: a60afdcf0d847a410fba1ebcf97909748e468549345edb13041c66ff2c0913d0
 localizedRevision: c4d5623dee3ae49cd913b406f8e9725fd1ccfca47d8247ca356d72600c8598cf
-status: candidate
+status: approved
 claimText: 力 means strength and contributes that meaning to 勝.
 targetLanguage: ja
 locale: en
@@ -29,4 +29,9 @@ evidence:
   supportType: visible-japanese-form
   selector: kvg:052dd-g5
 review:
-  state: pending
+  state: approved
+  reviewer: OpenAI Codex agent /root/evidence
+  reviewedAt: '2026-11-27'
+  claimRevision: a60afdcf0d847a410fba1ebcf97909748e468549345edb13041c66ff2c0913d0
+  sourceRevision: enwiktionary-glyph-origin:92160411:a5f0cd30c0105ea8bc654fca6e97a7fa435bc6bdfca963bf83b24a3f0dbef12d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6fc94f07950512e372e50f9a19b0af2d60f8b4fec2e73a29fa2c5f4d8f611a14|manabidictionaries-editorial-v26:1f6357d491bdf2b81e9f87faaa45ca403ac25576:5c07ece2a5ebc9736e0cea529497ee0185c33fa5864b43de7164b2d07faff525
+  rationale: Checked the cited formation against the pinned passage, its meaning or phonetic role against the exact Japanese KanjiVG group, and the attributed wording against the donor record.
