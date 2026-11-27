@@ -6,6 +6,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from .validation import validate_registry
 from .yamlio import load
@@ -32,22 +33,32 @@ def audit(root: Path, output: Path, *, refresh: bool, limit: int = 100, offset: 
             try:
                 with urllib.request.urlopen(req, timeout=12) as response:
                     content = response.read(16 * 1024 * 1024 + 1)
+                    headers = getattr(response, "headers", None)
+                    content_type = headers.get_content_type() if headers and hasattr(headers, "get_content_type") else None
+                    item.update(httpStatus=response.status, finalURL=response.geturl(), contentType=content_type)
                     if len(content) > 16 * 1024 * 1024:
-                        item.update(result="retrieved-too-large-to-hash", httpStatus=response.status,
-                                    reviewedByHuman=False, reviewReason="retrieved response exceeds the audit size limit")
+                        item.update(result="retrieved-too-large-to-hash", reviewedByHuman=False,
+                                    reviewReason="retrieved response exceeds the audit size limit")
                         queue.append(item)
                         continue
                     digest = hashlib.sha256(content).hexdigest()
                     url = ref["url"].lower()
+                    url_path = urlsplit(url).path
+                    raw_media = content_type is not None and (
+                        content_type.startswith(("image/", "audio/", "video/")) or
+                        content_type in {"application/pdf", "application/octet-stream"}
+                    )
                     raw_snapshot = ("raw.githubusercontent.com/" in url or "action=raw" in url or
-                                    "upload.wikimedia.org/" in url or url.endswith((".xml.gz", ".svg", ".csv", ".tsv", ".jsonl")))
+                                    "upload.wikimedia.org/" in url or
+                                    url_path.endswith((".xml.gz", ".svg", ".csv", ".tsv", ".jsonl")) or
+                                    raw_media)
                     if raw_snapshot:
-                        item.update(result="retrieved-raw-snapshot", httpStatus=response.status, retrievedHash=digest,
+                        item.update(result="retrieved-raw-snapshot", retrievedHash=digest,
                                     hashMatches=(digest == ref["snapshotHash"]), reviewedByHuman=False)
                         if digest != ref["snapshotHash"]:
                             item["reviewReason"] = "retrieved raw bytes differ from the pinned snapshot; human review required"
                     else:
-                        item.update(result="retrieved-revision-page", httpStatus=response.status, responseSHA256=digest,
+                        item.update(result="retrieved-revision-page", responseSHA256=digest,
                                     hashCompared=False, reviewedByHuman=False,
                                     reviewReason="page revision retrieved; source snapshot hash is not the rendered HTTP body hash")
             except (urllib.error.URLError, TimeoutError, ValueError) as exc:

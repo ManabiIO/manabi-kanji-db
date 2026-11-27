@@ -34,6 +34,7 @@ def _release_files(root: Path, database: Path) -> dict[str, bytes]:
 
 def release_manifest(root: Path, database: Path) -> dict:
     with sqlite3.connect(database) as connection:
+        database_schema_version = connection.execute("PRAGMA user_version").fetchone()[0]
         counts = {}
         for table in ("character", "component", "structure", "occurrence", "claim", "story", "source", "reference",
                       "written_form_pair", "radical_name", "imported_candidate", "candidate_relation", "asset", "intake"):
@@ -41,7 +42,7 @@ def release_manifest(root: Path, database: Path) -> dict:
         approved = connection.execute("SELECT count(*) FROM current_approved_claim").fetchone()[0]
         input_json = connection.execute("SELECT value FROM metadata WHERE key='inputManifest'").fetchone()[0]
     files = _release_files(root, database)
-    return {"schemaVersion": 1, "databaseSchemaVersion": 1, "databaseSHA256": _sha(files["kanji.sqlite"]),
+    return {"schemaVersion": 1, "databaseSchemaVersion": database_schema_version, "databaseSHA256": _sha(files["kanji.sqlite"]),
             "databaseBytes": len(files["kanji.sqlite"]), "approvedLocalizedClaims": approved,
             "counts": counts, "inputFiles": json.loads(input_json),
             "members": {name: {"bytes": len(data), "sha256": _sha(data)} for name, data in sorted(files.items())}}

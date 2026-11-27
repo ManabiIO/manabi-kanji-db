@@ -73,12 +73,16 @@ component naming gaps, example-reading decisions, 181 independently approved don
 
 ### Using a snapshot
 
-Verify the archive checksums and the database schema version before opening the SQLite file
-read-only. Join Reader's existing KANJIDIC2 entry to `character` by exact literal and codepoint.
-Use `current_approved_claim` for localized learner text. For a mnemonic, follow each
-`story_occurrence` to its versioned structure, occurrence ID, and reviewed label. For a
-citation, follow `claim_evidence.reference_id` to `reference` and then to `source`.
-These joins preserve repeated components and provide access to exact source selectors.
+Verify the archive checksums, then open the SQLite file read-only and check
+`PRAGMA user_version` against the supported `databaseSchemaVersion` in the
+release manifest. Join Reader's existing KANJIDIC2 entry to `character` by exact
+literal and codepoint.
+
+Use `current_approved_claim` for localized learner text. In database schema version 2,
+join an occurrence claim's `(subject_structure_id, subject_id)` to
+`occurrence` on `(structure_id, occurrence_id)`. For a mnemonic, follow each
+`story_occurrence` to its versioned structure, occurrence ID, and reviewed label.
+For a citation, follow `claim_evidence.reference_id` to `reference` and then to `source`.
 
 Initial structural coverage follows the pinned KanjiVG release and the
 KANJIDIC2 identity baseline. Each release includes the generated database,

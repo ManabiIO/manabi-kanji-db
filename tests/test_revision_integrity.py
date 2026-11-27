@@ -12,10 +12,19 @@ from kanjidb.validation import (
     claim_review_fingerprint,
     load_reviewed_fingerprints,
     validate_claim,
+    validate_url,
 )
 
 
 class RevisionIntegrityTests(unittest.TestCase):
+    def test_public_citation_urls(self) -> None:
+        for url in ("https://bad host/ref", "https://:443/ref", "https://host:99999/ref",
+                    "https://[broken/ref", "https://user:pass@host/ref", "https://host/%2",
+                    "https://host:/ref", "https://host\\path", "https://host/\nref"):
+            with self.subTest(url=url), self.assertRaisesRegex(ValidationError, "registry.yaml:url:"):
+                validate_url(url, Path("registry.yaml"), "url")
+        validate_url("https://例.jp:8443/wiki/%E6%B8%85?oldid=1#字源", Path("registry.yaml"), "url")
+
     def setUp(self) -> None:
         workspace = tempfile.TemporaryDirectory()
         self.addCleanup(workspace.cleanup)
