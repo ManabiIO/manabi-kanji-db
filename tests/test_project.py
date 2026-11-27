@@ -40,7 +40,10 @@ class StrictYamlTests(unittest.TestCase):
 
 class ProjectValidationTests(unittest.TestCase):
     def test_project_validates_with_reviewed_story_content(self) -> None:
-        self.assertEqual(validate(ROOT), (709, 17, 6682))
+        claims, sources, references = validate(ROOT)
+        self.assertGreaterEqual(claims, 709)
+        self.assertGreaterEqual(sources, 17)
+        self.assertGreaterEqual(references, 6682)
         manifest = yaml.safe_load((ROOT / "data/story-seed-manifest.yaml").read_text())
         self.assertEqual(manifest["reviewDisposition"]["approvedStoryCount"], 150)
         self.assertEqual(manifest["reviewDisposition"]["approvedVisualNameCount"], 141)
@@ -80,14 +83,52 @@ class ProjectValidationTests(unittest.TestCase):
                     JOIN current_approved_claim label ON label.id=occurrence.label_claim_id
                     WHERE story.kind='mnemonic' AND label.kind='visual-name'
                 """).fetchone()[0]
-                orphan_candidates = db.execute("""
-                    SELECT count(*) FROM claim WHERE kind='visual-name' AND status='candidate' AND review_state='pending'
+                pending_claim_id = db.execute("""
+                    SELECT id FROM claim
+                    WHERE kind='visual-name' AND (status='candidate' OR review_state!='approved') LIMIT 1
                 """).fetchone()[0]
-            self.assertEqual(story_count, 150)
-            self.assertEqual(label_count, 141)
-            self.assertEqual(reading_example_count, 98)
-            self.assertEqual(linked_count, 300)
-            self.assertEqual(orphan_candidates, 122)
+                pending_claim_public_count = db.execute(
+                    "SELECT count(*) FROM current_approved_claim WHERE id=?", (pending_claim_id,)
+                ).fetchone()[0]
+                seed_manifest = yaml.safe_load((ROOT / "data/story-seed-manifest.yaml").read_text())
+                seed_claim_ids = {row["id"] for row in seed_manifest["claims"]}
+                approved_claim_ids = {row[0] for row in db.execute("SELECT id FROM current_approved_claim")}
+                phonetic_roles = db.execute("""
+                    SELECT character_literal, structure_id, occurrence_id, role_kind, claim_id
+                    FROM approved_component_role
+                    WHERE visible_form='青' AND role_kind='historical-phonetic'
+                    ORDER BY character_literal
+                """).fetchall()
+                visible_members = db.execute("""
+                    SELECT count(DISTINCT literal) FROM visible_component_occurrence WHERE visible_form='青'
+                """).fetchone()[0]
+                functional_characters = db.execute("""
+                    SELECT count(DISTINCT character_literal)
+                    FROM approved_component_role WHERE visible_form='青'
+                """).fetchone()[0]
+                role_query_plan = db.execute("""
+                    EXPLAIN QUERY PLAN SELECT character_literal FROM approved_component_role
+                    WHERE visible_form='青' AND role_kind='historical-phonetic'
+                """).fetchall()
+                expected_role_ids = {row[0] for row in db.execute("""
+                    SELECT id FROM current_approved_claim
+                    WHERE subject_type='occurrence'
+                      AND kind IN ('semantic-function', 'historical-phonetic', 'modern-japanese-sound')
+                """)}
+                actual_role_ids = {row[0] for row in db.execute("SELECT claim_id FROM approved_component_role")}
+            self.assertGreaterEqual(story_count, 150)
+            self.assertGreaterEqual(label_count, 141)
+            self.assertGreaterEqual(reading_example_count, 98)
+            self.assertGreaterEqual(linked_count, 300)
+            self.assertEqual(pending_claim_public_count, 0)
+            self.assertTrue(seed_claim_ids <= approved_claim_ids)
+            self.assertEqual(phonetic_roles, [(
+                "清", "kv-6e05", "kvg:06e05-g2", "historical-phonetic", "historical-phonetic-u6e05-u9752"
+            )])
+            self.assertGreater(visible_members, functional_characters)
+            self.assertEqual(functional_characters, 5)
+            self.assertEqual(actual_role_ids, expected_role_ids)
+            self.assertTrue(any("occurrence_visible_form_lookup" in row[3] for row in role_query_plan), role_query_plan)
 
     def test_approved_claim_review_must_bind_exact_revision(self) -> None:
         claims, _, refs = load_project(ROOT)

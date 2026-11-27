@@ -78,11 +78,28 @@ Verify the archive checksums, then open the SQLite file read-only and check
 release manifest. Join Reader's existing KANJIDIC2 entry to `character` by exact
 literal and codepoint.
 
-Use `current_approved_claim` for localized learner text. In database schema version 2,
+Use `current_approved_claim` for localized learner text. In database schema version 3,
 join an occurrence claim's `(subject_structure_id, subject_id)` to
 `occurrence` on `(structure_id, occurrence_id)`. For a mnemonic, follow each
 `story_occurrence` to its versioned structure, occurrence ID, and reviewed label.
 For a citation, follow `claim_evidence.reference_id` to `reference` and then to `source`.
+
+To find approved component-role claims by the exact visible form, use the indexed
+`approved_component_role` view. This reports reviewed semantic functions,
+historical phonetic roles, and modern Japanese sound clues attached to the exact
+structure and occurrence:
+
+```sql
+SELECT character_literal, structure_id, occurrence_id, role_kind, claim_id, text
+FROM approved_component_role
+WHERE visible_form = '青'
+ORDER BY role_kind, character_literal;
+```
+
+This result is distinct from visible membership: `visible_component_occurrence`
+lists every glyph occurrence, whether or not a reviewed claim assigns a function.
+Join `claim_evidence` and `reference` by `claim_id` and `reference_id` to inspect
+the exact citation selectors behind each role.
 
 Initial structural coverage follows the pinned KanjiVG release and the
 KANJIDIC2 identity baseline. Each release includes the generated database,
