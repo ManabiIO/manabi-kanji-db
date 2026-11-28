@@ -1,0 +1,33 @@
+---
+id: visual-u2c037-capped-sunburst
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u2c037
+revision: 6b817f196ccc9cce79100f63b817e7384c75476912d0c297455f58aa896aed4f
+localizedRevision: 6b817f196ccc9cce79100f63b817e7384c75476912d0c297455f58aa896aed4f
+status: approved
+claimText: capped sunburst
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-50b7
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:050b7-g2; strokes=kvg:050b7-s3,kvg:050b7-s4,kvg:050b7-s5,kvg:050b7-s6,kvg:050b7-s7,kvg:050b7-s8,kvg:050b7-s9,kvg:050b7-s10,kvg:050b7-s11,kvg:050b7-s12,kvg:050b7-s13
+- reference: kanjivg-50b7
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:050b7-g2; strokes=kvg:050b7-s3,kvg:050b7-s4,kvg:050b7-s5,kvg:050b7-s6,kvg:050b7-s7,kvg:050b7-s8,kvg:050b7-s9,kvg:050b7-s10,kvg:050b7-s11,kvg:050b7-s12,kvg:050b7-s13
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 6b817f196ccc9cce79100f63b817e7384c75476912d0c297455f58aa896aed4f
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:26158002f98b074bc2c4b330392b768fb37a64be8ef9f8efe97fce95dc67c143|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:26158002f98b074bc2c4b330392b768fb37a64be8ef9f8efe97fce95dc67c143"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

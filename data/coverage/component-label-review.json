@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "reviewer": "OpenAI Codex agent /root/release_review",
+  "reviewedAt": "2026-11-27",
+  "sourceRevision": "d95a97627fd9fe5b2c8d06ca81e38149609c0c1e",
+  "approvedLabels": 64,
+  "withheld": [
+    {
+      "form": "CDP-8CB8",
+      "decision": "withhold",
+      "character": "武",
+      "structure": "kv-6b66",
+      "sourceGroups": ["kvg:06b66-g1", "kvg:06b66-g6"],
+      "reference": "kanjivg-6b66",
+      "source": "kanjivg-r20260714",
+      "sourceRevision": "d95a97627fd9fe5b2c8d06ca81e38149609c0c1e",
+      "sourceSHA256": "c9919f91f8aa30c915968f2cfeac5a344830457112f7e76e8551f28787aa1830",
+      "reason": "Both source groups in 武 are parts of one visible shape but use separate occurrence-local component subjects. A claim on either subject would name only a fragment."
+    }
+  ]
+}

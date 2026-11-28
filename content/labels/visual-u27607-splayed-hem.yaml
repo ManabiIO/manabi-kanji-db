@@ -1,0 +1,41 @@
+---
+id: visual-u27607-splayed-hem
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u27607
+revision: 5705b429b5c7d7bd9f6f040095f8014533dd3e82041d990bf69f595d690006df
+localizedRevision: 5705b429b5c7d7bd9f6f040095f8014533dd3e82041d990bf69f595d690006df
+status: approved
+claimText: splayed hem
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-74b0
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:074b0-g5; strokes=kvg:074b0-s14,kvg:074b0-s15,kvg:074b0-s16,kvg:074b0-s17
+- reference: kanjivg-74b0
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:074b0-g5; strokes=kvg:074b0-s14,kvg:074b0-s15,kvg:074b0-s16,kvg:074b0-s17
+- reference: kanjivg-8b72
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08b72-g12; strokes=kvg:08b72-s17,kvg:08b72-s18,kvg:08b72-s19,kvg:08b72-s20
+- reference: kanjivg-8b72
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08b72-g12; strokes=kvg:08b72-s17,kvg:08b72-s18,kvg:08b72-s19,kvg:08b72-s20
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 5705b429b5c7d7bd9f6f040095f8014533dd3e82041d990bf69f595d690006df
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0f2490a45f8316fd847a7da2d02168cc0e73ac2203e4963674adf176a6e553ba|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0f2490a45f8316fd847a7da2d02168cc0e73ac2203e4963674adf176a6e553ba|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:74a1e7f5804d501d109f70d4084c70c8761bba4ffe33ab44ab746764f90cfb8f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:74a1e7f5804d501d109f70d4084c70c8761bba4ffe33ab44ab746764f90cfb8f"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

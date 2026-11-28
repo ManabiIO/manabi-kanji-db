@@ -6,13 +6,22 @@ import os
 import re
 import sqlite3
 import tempfile
+import unicodedata
 from pathlib import Path
 from typing import Any
 
-from .validation import ValidationError, load_project, validate, need, exact_keys, nonempty
+from .validation import ValidationError, load_project, validate, need, exact_keys, nonempty, is_scalar
 from .yamlio import load
 
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
+
+# Semantic checksum of the independently reviewed appendix and its exact source
+# pins. JSON serialization below deliberately ignores YAML formatting/comments.
+JOYO_APPENDIX_FINGERPRINT = "d970897b2954361a8a5721295a7ebfb417cec6ac92423cb5e06241ccfcd1dbad"
+JOYO_APPENDIX_SOURCE_IDS = {"joyo-appendix-2010", "jmdict-e-2026-11-27"}
+JOYO_APPENDIX_REFERENCE_IDS = {
+    "joyo-appendix-2010-appendix", "jmdict-e-2026-11-27-spelling-reading"
+}
 
 DDL = """
 PRAGMA foreign_keys = ON;
@@ -82,6 +91,29 @@ CREATE TABLE written_form_pair(
 ) STRICT;
 CREATE INDEX written_form_new ON written_form_pair(new_form);
 CREATE INDEX written_form_old ON written_form_pair(old_form);
+CREATE TABLE joyo_appendix_reading(
+  id TEXT PRIMARY KEY, spelling TEXT NOT NULL, reading TEXT NOT NULL,
+  source_row INTEGER NOT NULL, role TEXT NOT NULL CHECK(role IN ('primary','alternate','example')),
+  source_id TEXT NOT NULL REFERENCES source(id), source_revision TEXT NOT NULL,
+  reference_id TEXT NOT NULL REFERENCES reference(id),
+  UNIQUE(source_row, spelling, reading, role)
+) STRICT;
+CREATE INDEX joyo_appendix_spelling_reading ON joyo_appendix_reading(spelling, reading);
+CREATE TABLE joyo_appendix_jmdict_entry(
+  reading_id TEXT NOT NULL REFERENCES joyo_appendix_reading(id),
+  entry_id INTEGER NOT NULL CHECK(entry_id > 0),
+  reference_id TEXT NOT NULL REFERENCES reference(id),
+  PRIMARY KEY(reading_id, entry_id)
+) STRICT;
+CREATE INDEX joyo_appendix_jmdict_entry_lookup ON joyo_appendix_jmdict_entry(entry_id);
+CREATE VIEW official_joyo_appendix_reading AS
+  SELECT r.id, r.spelling, r.reading, r.source_row, r.role,
+         r.source_id, r.source_revision, r.reference_id,
+         j.entry_id AS jmdict_entry_id, j.reference_id AS jmdict_reference_id,
+         jr.source_id AS jmdict_source_id
+  FROM joyo_appendix_reading r
+  LEFT JOIN joyo_appendix_jmdict_entry j ON j.reading_id=r.id
+  LEFT JOIN reference jr ON jr.id=j.reference_id;
 CREATE TABLE intake(
   id TEXT PRIMARY KEY, kind TEXT NOT NULL, subject_json TEXT NOT NULL CHECK(json_valid(subject_json)),
   references_json TEXT NOT NULL CHECK(json_valid(references_json)), reason TEXT NOT NULL,
@@ -208,7 +240,70 @@ def input_manifest(root: Path) -> list[dict[str, str]]:
     return rows
 
 
-def _imports(root: Path, sources: dict[str, dict]) -> tuple[list[dict], list[dict], list[dict]]:
+def _load_joyo_appendix(root: Path, sources: dict[str, dict]) -> dict:
+    path = root / "data" / "joyo-appendix.yaml"
+    registered = bool(JOYO_APPENDIX_SOURCE_IDS & sources.keys())
+    need(path.exists() or not registered, path, "$",
+         "registered Jōyō appendix sources require the canonical appendix data file")
+    return load(path) if path.exists() else {"version": 1, "items": []}
+
+
+def _validate_joyo_appendix(root: Path, registry: dict, sources: dict[str, dict], refs: dict[str, dict], doc: dict) -> list[dict]:
+    path = root / "data" / "joyo-appendix.yaml"
+    exact_keys(doc, {"version", "items"}, path)
+    need(doc.get("version") == 1 and isinstance(doc.get("items"), list), path, "$", "requires version 1 and an items list")
+    joyo_ids: set[str] = set()
+    joyo_pairs: set[tuple[str, str]] = set()
+    joyo_source = "joyo-appendix-2010"
+    joyo_reference = "joyo-appendix-2010-appendix"
+    need(doc["items"] or joyo_source not in sources, path, "items",
+         "registered Jōyō appendix source requires its reviewed canonical rows")
+    if doc["items"]:
+        need(joyo_source in sources, path, "source", "official Jōyō appendix source is missing from the registry")
+        need(joyo_reference in refs and refs[joyo_reference]["source"] == joyo_source,
+             path, "reference", "official appendix reference is missing or belongs to another source")
+        need("jmdict-e-2026-11-27" in sources and "jmdict-e-2026-11-27-spelling-reading" in refs
+             and refs["jmdict-e-2026-11-27-spelling-reading"]["source"] == "jmdict-e-2026-11-27",
+             path, "entryIDs", "the pinned JMdict entry reference is missing from the registry")
+    for i, row in enumerate(doc["items"]):
+        field = f"items[{i}]"
+        exact_keys(row, {"id", "spelling", "reading", "sourceRow", "role", "entryIDs"}, path, field)
+        nonempty(row.get("id"), path, field + ".id")
+        need(re.fullmatch(r"joyo-appendix-[0-9]{3}(?:-[a-z]+)?", row["id"]) is not None,
+             path, field + ".id", "must use the stable joyo-appendix source-row ID format")
+        need(row["id"] not in joyo_ids, path, field + ".id", "duplicate appendix reading ID")
+        joyo_ids.add(row["id"])
+        need(isinstance(row.get("spelling"), str) and row["spelling"] and all(is_scalar(ch) for ch in row["spelling"]),
+             path, field + ".spelling", "must be a non-empty string of Unicode scalars")
+        need(not any(ch.isspace() for ch in row["spelling"]), path, field + ".spelling", "must not contain whitespace")
+        need(isinstance(row.get("reading"), str) and row["reading"] and all(is_scalar(ch) for ch in row["reading"]),
+             path, field + ".reading", "must be a non-empty string of Unicode scalars")
+        need(all(unicodedata.name(ch, "").startswith("HIRAGANA LETTER ") for ch in row["reading"]),
+             path, field + ".reading", "must contain only hiragana reading characters")
+        pair = (row["spelling"], row["reading"])
+        need(pair not in joyo_pairs, path, field, f"duplicate appendix spelling/reading pair {pair!r}")
+        joyo_pairs.add(pair)
+        need(type(row.get("sourceRow")) is int and 1 <= row["sourceRow"] <= 116, path, field + ".sourceRow",
+             "must identify a one-based appendix source-row ordinal")
+        need(row.get("role") in {"primary", "alternate", "example"}, path, field + ".role", "unknown appendix listing role")
+        need(isinstance(row.get("entryIDs"), list) and row["entryIDs"], path, field + ".entryIDs", "must link to exact JMdict entries")
+        need(all(type(entry_id) is int and entry_id > 0 for entry_id in row["entryIDs"]), path, field + ".entryIDs",
+             "JMdict entry IDs must be positive integers")
+        need(len(row["entryIDs"]) == len(set(row["entryIDs"])), path, field + ".entryIDs", "duplicate JMdict entry ID")
+    if doc["items"]:
+        semantic_material = {
+            "items": doc["items"],
+            "sources": sorted((row for row in registry["sources"] if row["id"] in JOYO_APPENDIX_SOURCE_IDS), key=lambda row: row["id"]),
+            "references": sorted((row for row in registry["references"] if row["id"] in JOYO_APPENDIX_REFERENCE_IDS), key=lambda row: row["id"]),
+        }
+        fingerprint = hashlib.sha256(json.dumps(semantic_material, ensure_ascii=False, sort_keys=True,
+                                                separators=(",", ":")).encode("utf-8")).hexdigest()
+        need(fingerprint == JOYO_APPENDIX_FINGERPRINT, path, "$",
+             "appendix rows or pinned source metadata differ from the independently reviewed canonical material")
+    return doc["items"]
+
+
+def _imports(root: Path, sources: dict[str, dict]) -> tuple[list[dict], list[dict], list[dict], list[dict], list[dict], list[dict]]:
     registry = load(root / "sources" / "registry.yaml")
     refs = {item["id"]: item for item in registry["references"]}
     characters = load(root / "data" / "characters.yaml") if (root / "data" / "characters.yaml").exists() else {"version": 1, "items": []}
@@ -216,7 +311,8 @@ def _imports(root: Path, sources: dict[str, dict]) -> tuple[list[dict], list[dic
     structures = load(root / "data" / "structures.yaml") if (root / "data" / "structures.yaml").exists() else {"version": 1, "items": []}
     radicals = load(root / "data" / "radicals.yaml") if (root / "data" / "radicals.yaml").exists() else {"version": 1, "items": []}
     written_forms = load(root / "data" / "written-forms.yaml") if (root / "data" / "written-forms.yaml").exists() else {"version": 1, "items": []}
-    for name, doc in (("characters", characters), ("components", components), ("structures", structures), ("radicals", radicals), ("written-forms", written_forms)):
+    joyo_readings = _load_joyo_appendix(root, sources)
+    for name, doc in (("characters", characters), ("components", components), ("structures", structures), ("radicals", radicals), ("written-forms", written_forms), ("joyo-appendix", joyo_readings)):
         p = root / "data" / f"{name}.yaml"
         exact_keys(doc, {"version", "items"}, p)
         need(doc.get("version") == 1 and isinstance(doc.get("items"), list), p, "$", "requires version 1 and an items list")
@@ -307,7 +403,9 @@ def _imports(root: Path, sources: dict[str, dict]) -> tuple[list[dict], list[dic
         need(row.get("sourceStatus") == "candidate" and row.get("officialStatus") == "unverified", p, f, "do not promote source categories to official status")
     if written_forms["items"]:
         need(len(written_forms["items"]) == 452, root / "data" / "written-forms.yaml", "items", "pinned intake must retain all 452 exact pairs")
-    return list(char_by_literal.values()), list(component_by_id.values()), list(structures_by_id.values()), radicals["items"], written_forms["items"]
+    joyo_readings["items"] = _validate_joyo_appendix(root, registry, sources, refs, joyo_readings)
+    return (list(char_by_literal.values()), list(component_by_id.values()), list(structures_by_id.values()),
+            radicals["items"], written_forms["items"], joyo_readings["items"])
 
 
 def _intake(root: Path, references: dict[str, dict]) -> list[dict]:
@@ -424,7 +522,7 @@ def build(root: Path, output: Path) -> str:
     claims, sources, refs = load_project(root)
     imported = _imports(root, sources)
     validate(root, preloaded=(claims, sources, refs, imported))
-    chars, components, structures, radicals, written_forms = imported
+    chars, components, structures, radicals, written_forms, joyo_readings = imported
     intake = _intake(root, refs)
     imported_candidates = _imported_candidates(root, sources, refs)
     assets = _assets(root, sources, refs)
@@ -477,6 +575,17 @@ def build(root: Path, output: Path) -> str:
                     item["reference"], item["sourceStatus"], item["officialStatus"], int(item["newStructureAvailable"]),
                     int(item["oldStructureAvailable"]),
                 ))
+            for item in joyo_readings:
+                source_id = "joyo-appendix-2010"
+                reference_id = "joyo-appendix-2010-appendix"
+                conn.execute("INSERT INTO joyo_appendix_reading VALUES (?,?,?,?,?,?,?,?)", (
+                    item["id"], item["spelling"], item["reading"], item["sourceRow"], item["role"],
+                    source_id, sources[source_id]["revision"], reference_id,
+                ))
+                for entry_id in item["entryIDs"]:
+                    conn.execute("INSERT INTO joyo_appendix_jmdict_entry VALUES (?,?,?)", (
+                        item["id"], entry_id, "jmdict-e-2026-11-27-spelling-reading",
+                    ))
             for item in intake:
                 conn.execute("INSERT INTO intake VALUES (?,?,?,?,?,?,?,?)", (
                     item["id"], item["kind"], _json(item["subject"]), _json(item["references"]),

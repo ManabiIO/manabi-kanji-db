@@ -1,0 +1,41 @@
+---
+id: visual-u590b-triangle-over-crossed-legs
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u590b
+revision: 86bffa2ada18e735ea95591c67c125501c500d403fe4e2a3a8d68eda371546ec
+localizedRevision: 86bffa2ada18e735ea95591c67c125501c500d403fe4e2a3a8d68eda371546ec
+status: approved
+claimText: triangle over crossed legs
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-4fca
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04fca-g2; strokes=kvg:04fca-s3,kvg:04fca-s4,kvg:04fca-s5,kvg:04fca-s6,kvg:04fca-s7,kvg:04fca-s8,kvg:04fca-s9
+- reference: kanjivg-4fca
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04fca-g2; strokes=kvg:04fca-s3,kvg:04fca-s4,kvg:04fca-s5,kvg:04fca-s6,kvg:04fca-s7,kvg:04fca-s8,kvg:04fca-s9
+- reference: kanjivg-9178
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09178-g5; strokes=kvg:09178-s8,kvg:09178-s9,kvg:09178-s10,kvg:09178-s11,kvg:09178-s12,kvg:09178-s13,kvg:09178-s14
+- reference: kanjivg-9178
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09178-g5; strokes=kvg:09178-s8,kvg:09178-s9,kvg:09178-s10,kvg:09178-s11,kvg:09178-s12,kvg:09178-s13,kvg:09178-s14
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 86bffa2ada18e735ea95591c67c125501c500d403fe4e2a3a8d68eda371546ec
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1d1082533648568ebd6db3a9f162522f97bc73ce3c9a0c7d5621ca69e8e04124|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1d1082533648568ebd6db3a9f162522f97bc73ce3c9a0c7d5621ca69e8e04124|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:961f45f62506331f16270edc2d55d724216e4ec975a07fa5be9547cb3fd0d727|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:961f45f62506331f16270edc2d55d724216e4ec975a07fa5be9547cb3fd0d727"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

@@ -1,0 +1,33 @@
+---
+id: visual-kanjivg-6e90-06e90-g4-ticked-box-over-three-tails
+kind: visual-name
+subject:
+  type: component
+  id: cmp-kanjivg-6e90-06e90-g4
+revision: a7c95b5aa08168e0c404c978f669568bca75ab880c92e5e5ec35d996a268a8c0
+localizedRevision: a7c95b5aa08168e0c404c978f669568bca75ab880c92e5e5ec35d996a268a8c0
+status: approved
+claimText: ticked box over three tails
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6e90
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06e90-g4; strokes=kvg:06e90-s6,kvg:06e90-s7,kvg:06e90-s8,kvg:06e90-s9,kvg:06e90-s10,kvg:06e90-s11,kvg:06e90-s12,kvg:06e90-s13
+- reference: kanjivg-6e90
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06e90-g4; strokes=kvg:06e90-s6,kvg:06e90-s7,kvg:06e90-s8,kvg:06e90-s9,kvg:06e90-s10,kvg:06e90-s11,kvg:06e90-s12,kvg:06e90-s13
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: a7c95b5aa08168e0c404c978f669568bca75ab880c92e5e5ec35d996a268a8c0
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:122a4846a957b810cf01c5bafae5cbf1640cc4689d63f4235c3e75112496e968|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:122a4846a957b810cf01c5bafae5cbf1640cc4689d63f4235c3e75112496e968"
+  rationale: "The pinned Japanese glyph shows the tick above the box and all three strokes below it. The selector resolves to this exact occurrence-local component."

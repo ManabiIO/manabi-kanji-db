@@ -37,7 +37,8 @@ def release_manifest(root: Path, database: Path) -> dict:
         database_schema_version = connection.execute("PRAGMA user_version").fetchone()[0]
         counts = {}
         for table in ("character", "component", "structure", "occurrence", "claim", "story", "source", "reference",
-                      "written_form_pair", "radical_name", "imported_candidate", "candidate_relation", "asset", "intake"):
+                      "written_form_pair", "joyo_appendix_reading", "joyo_appendix_jmdict_entry",
+                      "radical_name", "imported_candidate", "candidate_relation", "asset", "intake"):
             counts[table] = connection.execute(f"SELECT count(*) FROM {table}").fetchone()[0]
         approved = connection.execute("SELECT count(*) FROM current_approved_claim").fetchone()[0]
         input_json = connection.execute("SELECT value FROM metadata WHERE key='inputManifest'").fetchone()[0]

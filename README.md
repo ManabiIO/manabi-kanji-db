@@ -47,6 +47,7 @@ does not approve a source or claim. It never edits authored content.
 
 - `sources/registry.yaml` records source grants and exact public references.
 - `data/` stores source pinned character identities and visible structures.
+- `data/joyo-appendix.yaml` stores official whole word readings and exact JMdict entry links.
 - `data/coverage/` records import totals, source dispositions and component
   lookup gaps; `data/imports/` contains unpublishable source candidates.
 - `content/` stores authored, revisioned claims and localized text.
@@ -78,7 +79,7 @@ Verify the archive checksums, then open the SQLite file read-only and check
 release manifest. Join Reader's existing KANJIDIC2 entry to `character` by exact
 literal and codepoint.
 
-Use `current_approved_claim` for localized learner text. In database schema version 3,
+Use `current_approved_claim` for localized learner text. In database schema version 4,
 join an occurrence claim's `(subject_structure_id, subject_id)` to
 `occurrence` on `(structure_id, occurrence_id)`. For a mnemonic, follow each
 `story_occurrence` to its versioned structure, occurrence ID, and reviewed label.
@@ -100,6 +101,17 @@ This result is distinct from visible membership: `visible_component_occurrence`
 lists every glyph occurrence, whether or not a reviewed claim assigns a function.
 Join `claim_evidence` and `reference` by `claim_id` and `reference_id` to inspect
 the exact citation selectors behind each role.
+
+Database schema version 4 adds the 2010 Jōyō Kanji appendix word-reading overlay.
+`official_joyo_appendix_reading` retains the exact spelling, reading, source
+row ordinal, and whether the pair is primary, an alternate explicitly given in a note,
+or a printed example. Its `jmdict_entry_id` links to the matching JMdict entry
+sequence; the overlay does not copy dictionary readings or meanings. Keep the
+reading-to-entry association when joining JMdict so its `re_restr` and
+`re_nokanji` fields remain authoritative for the exact spelling/reading pair.
+Apply `stagk` and `stagr` if a dictionary view also displays sense text. The
+appendix is word-level attestation and does not provide character reading
+alignments.
 
 Initial structural coverage follows the pinned KanjiVG release and the
 KANJIDIC2 identity baseline. Each release includes the generated database,

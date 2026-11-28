@@ -1,0 +1,41 @@
+---
+id: visual-u2099d-sun-between-crosses
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u2099d
+revision: 19f40b7efa9811b90fb17ebbf06d83706e2560764b6965da01793776e3d44553
+localizedRevision: 19f40b7efa9811b90fb17ebbf06d83706e2560764b6965da01793776e3d44553
+status: approved
+claimText: sun between crosses
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-671d
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0671d-g1; strokes=kvg:0671d-s1,kvg:0671d-s2,kvg:0671d-s3,kvg:0671d-s4,kvg:0671d-s5,kvg:0671d-s6,kvg:0671d-s7,kvg:0671d-s8
+- reference: kanjivg-671d
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0671d-g1; strokes=kvg:0671d-s1,kvg:0671d-s2,kvg:0671d-s3,kvg:0671d-s4,kvg:0671d-s5,kvg:0671d-s6,kvg:0671d-s7,kvg:0671d-s8
+- reference: kanjivg-5e79
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05e79-g1; strokes=kvg:05e79-s1,kvg:05e79-s2,kvg:05e79-s3,kvg:05e79-s4,kvg:05e79-s5,kvg:05e79-s6,kvg:05e79-s7,kvg:05e79-s8
+- reference: kanjivg-5e79
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05e79-g1; strokes=kvg:05e79-s1,kvg:05e79-s2,kvg:05e79-s3,kvg:05e79-s4,kvg:05e79-s5,kvg:05e79-s6,kvg:05e79-s7,kvg:05e79-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 19f40b7efa9811b90fb17ebbf06d83706e2560764b6965da01793776e3d44553
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9462d650d5585f13d46bfc8f71bc113bdbcbaf8b15d7d0fe2b9febe9b3067926|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:9462d650d5585f13d46bfc8f71bc113bdbcbaf8b15d7d0fe2b9febe9b3067926|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d689b0a41246dd43af760b1040c1a1c12169a89c7b5dae341c86e0c3e9351b53|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d689b0a41246dd43af760b1040c1a1c12169a89c7b5dae341c86e0c3e9351b53"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

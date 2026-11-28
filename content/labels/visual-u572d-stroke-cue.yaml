@@ -1,0 +1,29 @@
+---
+id: visual-u572d-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u572d
+revision: 603912a21a43b368171d1a829509a9b9b3e29561aea9ccf23d7ef63a0086c303
+localizedRevision: 2ce38ddea27f5b32a6fb13225d3599fccd3ae894337d1b9af9a0744cc6a6a274
+status: approved
+claimText: two 土 shapes stacked
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6842
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:06842-g2; strokes=kvg:06842-s5,kvg:06842-s6,kvg:06842-s7,kvg:06842-s8,kvg:06842-s9,kvg:06842-s10
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 603912a21a43b368171d1a829509a9b9b3e29561aea9ccf23d7ef63a0086c303
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f982999e5aacd2cb0e6970ba193a1464abdde20c45025162a5b7a4113d3e114b"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

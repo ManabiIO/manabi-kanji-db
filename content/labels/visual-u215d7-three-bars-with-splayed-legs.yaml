@@ -1,0 +1,41 @@
+---
+id: visual-u215d7-three-bars-with-splayed-legs
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u215d7
+revision: 929e22275a14dd0e7167bca9dccf64716e91db413ccbc26c5335490039f714d6
+localizedRevision: 929e22275a14dd0e7167bca9dccf64716e91db413ccbc26c5335490039f714d6
+status: approved
+claimText: three bars with splayed legs
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6625
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06625-g1; strokes=kvg:06625-s1,kvg:06625-s2,kvg:06625-s3,kvg:06625-s4,kvg:06625-s5
+- reference: kanjivg-6625
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06625-g1; strokes=kvg:06625-s1,kvg:06625-s2,kvg:06625-s3,kvg:06625-s4,kvg:06625-s5
+- reference: kanjivg-594f
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0594f-g1; strokes=kvg:0594f-s1,kvg:0594f-s2,kvg:0594f-s3,kvg:0594f-s4,kvg:0594f-s5
+- reference: kanjivg-594f
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0594f-g1; strokes=kvg:0594f-s1,kvg:0594f-s2,kvg:0594f-s3,kvg:0594f-s4,kvg:0594f-s5
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 929e22275a14dd0e7167bca9dccf64716e91db413ccbc26c5335490039f714d6
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:507a3d7ead6f47de67a14ddb6ac54bd68205ca6a8c75dd398dbd8aeb7d973130|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:507a3d7ead6f47de67a14ddb6ac54bd68205ca6a8c75dd398dbd8aeb7d973130|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ccfcb1078454ec788cc446799ef9ac94df23967135511338920e24869cc3c77d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ccfcb1078454ec788cc446799ef9ac94df23967135511338920e24869cc3c77d"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

@@ -1,0 +1,33 @@
+---
+id: visual-u4e9a-capped-rack
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e9a
+revision: a1d6db242e7303820ac560f9ea79ee6fd28193e2bab61886aec586879ed839f9
+localizedRevision: a1d6db242e7303820ac560f9ea79ee6fd28193e2bab61886aec586879ed839f9
+status: approved
+claimText: capped rack
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-970a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0970a-g3; strokes=kvg:0970a-s10,kvg:0970a-s11,kvg:0970a-s12,kvg:0970a-s13,kvg:0970a-s14,kvg:0970a-s15
+- reference: kanjivg-970a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0970a-g3; strokes=kvg:0970a-s10,kvg:0970a-s11,kvg:0970a-s12,kvg:0970a-s13,kvg:0970a-s14,kvg:0970a-s15
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: a1d6db242e7303820ac560f9ea79ee6fd28193e2bab61886aec586879ed839f9
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:412d4604d59b861fafe2eaacf22fd4b075e6ca6962745dafbfb8c42e08281158|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:412d4604d59b861fafe2eaacf22fd4b075e6ca6962745dafbfb8c42e08281158"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

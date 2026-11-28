@@ -1,0 +1,33 @@
+---
+id: visual-u99e6-horse-under-dotted-bars
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u99e6
+revision: bab4271212f2b65de461827009670c79b95b339b23737153da1e08d3207d9583
+localizedRevision: bab4271212f2b65de461827009670c79b95b339b23737153da1e08d3207d9583
+status: approved
+claimText: horse under dotted bars
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9a30
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09a30-g2; strokes=kvg:09a30-s5,kvg:09a30-s6,kvg:09a30-s7,kvg:09a30-s8,kvg:09a30-s9,kvg:09a30-s10,kvg:09a30-s11,kvg:09a30-s12,kvg:09a30-s13,kvg:09a30-s14,kvg:09a30-s15,kvg:09a30-s16,kvg:09a30-s17,kvg:09a30-s18,kvg:09a30-s19,kvg:09a30-s20
+- reference: kanjivg-9a30
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09a30-g2; strokes=kvg:09a30-s5,kvg:09a30-s6,kvg:09a30-s7,kvg:09a30-s8,kvg:09a30-s9,kvg:09a30-s10,kvg:09a30-s11,kvg:09a30-s12,kvg:09a30-s13,kvg:09a30-s14,kvg:09a30-s15,kvg:09a30-s16,kvg:09a30-s17,kvg:09a30-s18,kvg:09a30-s19,kvg:09a30-s20
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: bab4271212f2b65de461827009670c79b95b339b23737153da1e08d3207d9583
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4c7fa8b871653b9a5b4056dd02537d69aed9beabf107bc447585361ae29c334|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4c7fa8b871653b9a5b4056dd02537d69aed9beabf107bc447585361ae29c334"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

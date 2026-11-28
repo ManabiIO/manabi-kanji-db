@@ -1,0 +1,49 @@
+---
+id: visual-u20509-dotted-bars-with-splayed-legs
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u20509
+revision: ddea65b40a66c962e7803f465501e32128e52d313f65de90fdba7a4c98ca508c
+localizedRevision: ddea65b40a66c962e7803f465501e32128e52d313f65de90fdba7a4c98ca508c
+status: approved
+claimText: dotted bars with splayed legs
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5238
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05238-g1; strokes=kvg:05238-s1,kvg:05238-s2,kvg:05238-s3,kvg:05238-s4,kvg:05238-s5,kvg:05238-s6
+- reference: kanjivg-5238
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05238-g1; strokes=kvg:05238-s1,kvg:05238-s2,kvg:05238-s3,kvg:05238-s4,kvg:05238-s5,kvg:05238-s6
+- reference: kanjivg-5dfb
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05dfb-g1; strokes=kvg:05dfb-s1,kvg:05dfb-s2,kvg:05dfb-s3,kvg:05dfb-s4,kvg:05dfb-s5,kvg:05dfb-s6
+- reference: kanjivg-5dfb
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05dfb-g1; strokes=kvg:05dfb-s1,kvg:05dfb-s2,kvg:05dfb-s3,kvg:05dfb-s4,kvg:05dfb-s5,kvg:05dfb-s6
+- reference: kanjivg-85e4
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:085e4-g5; strokes=kvg:085e4-s8,kvg:085e4-s9,kvg:085e4-s10,kvg:085e4-s11,kvg:085e4-s12,kvg:085e4-s13
+- reference: kanjivg-85e4
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:085e4-g5; strokes=kvg:085e4-s8,kvg:085e4-s9,kvg:085e4-s10,kvg:085e4-s11,kvg:085e4-s12,kvg:085e4-s13
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: ddea65b40a66c962e7803f465501e32128e52d313f65de90fdba7a4c98ca508c
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:10cba307fa9587038c948bc725f143d772688149e538d9e954921001f8736d94|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:10cba307fa9587038c948bc725f143d772688149e538d9e954921001f8736d94|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3e62acb0be032f1c856285e5c9add41e720d665fb8e05290b252db7cf209f493|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:3e62acb0be032f1c856285e5c9add41e720d665fb8e05290b252db7cf209f493|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d5218cda62e4e2e16169018fe59d2269d763eacbc62e953321322c703a192087|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d5218cda62e4e2e16169018fe59d2269d763eacbc62e953321322c703a192087"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

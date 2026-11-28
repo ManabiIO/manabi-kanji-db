@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from import_story_seed import exact_sense
 from story_labels import component_label
+from audit_component_coverage import reviewed_label_disposition
 
 
 class StrictYamlTests(unittest.TestCase):
@@ -116,8 +117,11 @@ class ProjectValidationTests(unittest.TestCase):
                       AND kind IN ('semantic-function', 'historical-phonetic', 'modern-japanese-sound')
                 """)}
                 actual_role_ids = {row[0] for row in db.execute("SELECT claim_id FROM approved_component_role")}
+                component_label_review = reviewed_label_disposition(
+                    db, json.loads((ROOT / "data/coverage/component-label-review.json").read_text())
+                )
             self.assertGreaterEqual(story_count, 150)
-            self.assertGreaterEqual(label_count, 141)
+            self.assertEqual(label_count, 205)
             self.assertGreaterEqual(reading_example_count, 98)
             self.assertGreaterEqual(linked_count, 300)
             self.assertEqual(pending_claim_public_count, 0)
@@ -129,6 +133,9 @@ class ProjectValidationTests(unittest.TestCase):
             self.assertEqual(functional_characters, 5)
             self.assertEqual(actual_role_ids, expected_role_ids)
             self.assertTrue(any("occurrence_visible_form_lookup" in row[3] for row in role_query_plan), role_query_plan)
+            self.assertEqual(component_label_review["approvedLabels"], 64)
+            self.assertEqual(component_label_review["withheld"][0]["form"], "CDP-8CB8")
+            self.assertEqual(component_label_review["withheld"][0]["sourceGroups"], ["kvg:06b66-g1", "kvg:06b66-g6"])
 
     def test_approved_claim_review_must_bind_exact_revision(self) -> None:
         claims, _, refs = load_project(ROOT)

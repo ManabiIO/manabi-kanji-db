@@ -1,0 +1,33 @@
+---
+id: visual-u56d7-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u56d7
+revision: fd384b26d223144bf6d40169868b84b5bdce9a6936de9ab5b9f25e06cafa6f43
+localizedRevision: 8d3b1e8ddf251ba6d43b0d8b26ee8af30bf1e91decff6e79542ad0ad34757eb1
+status: approved
+claimText: outer enclosure
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-56fd
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:056fd-g1; strokes=kvg:056fd-s1,kvg:056fd-s2
+- reference: kanjivg-56fd
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:056fd-g5; strokes=kvg:056fd-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: fd384b26d223144bf6d40169868b84b5bdce9a6936de9ab5b9f25e06cafa6f43
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:20a5b306d0a2684fe593681caeffd62e312d863c7f4d9d4c4a65a7cbf284e5f0|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:20a5b306d0a2684fe593681caeffd62e312d863c7f4d9d4c4a65a7cbf284e5f0"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

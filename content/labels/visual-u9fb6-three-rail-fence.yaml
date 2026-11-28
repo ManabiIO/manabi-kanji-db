@@ -1,0 +1,41 @@
+---
+id: visual-u9fb6-three-rail-fence
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9fb6
+revision: 16c11d0871bfb0ee46a6ad804aeb8f0e20cc0ae8ff3a920163210e2a5eb1fc41
+localizedRevision: 16c11d0871bfb0ee46a6ad804aeb8f0e20cc0ae8ff3a920163210e2a5eb1fc41
+status: approved
+claimText: three-rail fence
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9752
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09752-g1; strokes=kvg:09752-s1,kvg:09752-s2,kvg:09752-s3,kvg:09752-s4
+- reference: kanjivg-9752
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09752-g1; strokes=kvg:09752-s1,kvg:09752-s2,kvg:09752-s3,kvg:09752-s4
+- reference: kanjivg-5951
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05951-g2; strokes=kvg:05951-s1,kvg:05951-s2,kvg:05951-s3,kvg:05951-s4
+- reference: kanjivg-5951
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05951-g2; strokes=kvg:05951-s1,kvg:05951-s2,kvg:05951-s3,kvg:05951-s4
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 16c11d0871bfb0ee46a6ad804aeb8f0e20cc0ae8ff3a920163210e2a5eb1fc41
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2dbc5678c4d4209bc9e71cab8d16bc565e2f45a45bf1db5872cc6494444eb9ba|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:2dbc5678c4d4209bc9e71cab8d16bc565e2f45a45bf1db5872cc6494444eb9ba|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d6b31f3d99989165e7bab430da299b594835a53b254c41725b5d7fb640c1540d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d6b31f3d99989165e7bab430da299b594835a53b254c41725b5d7fb640c1540d"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

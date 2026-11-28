@@ -1,0 +1,769 @@
+# 付表 from 常用漢字表（平成22年内閣告示第2号）, 2010-11-30.
+# https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf#page=162
+# Official PDF SHA-256: d9f28aeb4ce8250dbde07de20ac66cca71805ba09d94e4942c752dffa84d8d42
+# sourceRow counts reading rows in source order, left column then right.
+# PDF page 162 contains rows 1–54. PDF page 163 contains rows 55–116.
+# A second spelling shares its row number. A note or compound example uses
+# the row of its base spelling. Both compound examples appear on PDF page 162.
+# JMdict_e release 2026-11-27, gzip SHA-256:
+# 3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43
+# entryIDs match the exact keb and reb with re_restr and re_nokanji applied.
+# All 126 pairs matched one entry in that release.
+version: 1
+items:
+  - id: "joyo-appendix-001"
+    spelling: "明日"
+    reading: "あす"
+    sourceRow: 1
+    role: primary
+    entryIDs: [1584660]
+  - id: "joyo-appendix-002"
+    spelling: "小豆"
+    reading: "あずき"
+    sourceRow: 2
+    role: primary
+    entryIDs: [1348560]
+  - id: "joyo-appendix-003"
+    spelling: "海女"
+    reading: "あま"
+    sourceRow: 3
+    role: primary
+    entryIDs: [1201420]
+  - id: "joyo-appendix-003-b"
+    spelling: "海士"
+    reading: "あま"
+    sourceRow: 3
+    role: primary
+    entryIDs: [1772480]
+  - id: "joyo-appendix-004"
+    spelling: "硫黄"
+    reading: "いおう"
+    sourceRow: 4
+    role: primary
+    entryIDs: [1552840]
+  - id: "joyo-appendix-005"
+    spelling: "意気地"
+    reading: "いくじ"
+    sourceRow: 5
+    role: primary
+    entryIDs: [1156480]
+  - id: "joyo-appendix-006"
+    spelling: "田舎"
+    reading: "いなか"
+    sourceRow: 6
+    role: primary
+    entryIDs: [1442750]
+  - id: "joyo-appendix-007"
+    spelling: "息吹"
+    reading: "いぶき"
+    sourceRow: 7
+    role: primary
+    entryIDs: [1404410]
+  - id: "joyo-appendix-008"
+    spelling: "海原"
+    reading: "うなばら"
+    sourceRow: 8
+    role: primary
+    entryIDs: [1201340]
+  - id: "joyo-appendix-009"
+    spelling: "乳母"
+    reading: "うば"
+    sourceRow: 9
+    role: primary
+    entryIDs: [1582750]
+  - id: "joyo-appendix-010"
+    spelling: "浮気"
+    reading: "うわき"
+    sourceRow: 10
+    role: primary
+    entryIDs: [1497450]
+  - id: "joyo-appendix-011"
+    spelling: "浮つく"
+    reading: "うわつく"
+    sourceRow: 11
+    role: primary
+    entryIDs: [1588600]
+  - id: "joyo-appendix-012"
+    spelling: "笑顔"
+    reading: "えがお"
+    sourceRow: 12
+    role: primary
+    entryIDs: [1351400]
+  - id: "joyo-appendix-013"
+    spelling: "叔父"
+    reading: "おじ"
+    sourceRow: 13
+    role: primary
+    entryIDs: [1607070]
+  - id: "joyo-appendix-013-b"
+    spelling: "伯父"
+    reading: "おじ"
+    sourceRow: 13
+    role: primary
+    entryIDs: [1607070]
+  - id: "joyo-appendix-014"
+    spelling: "大人"
+    reading: "おとな"
+    sourceRow: 14
+    role: primary
+    entryIDs: [1414170]
+  - id: "joyo-appendix-015"
+    spelling: "乙女"
+    reading: "おとめ"
+    sourceRow: 15
+    role: primary
+    entryIDs: [2855480]
+  - id: "joyo-appendix-016"
+    spelling: "叔母"
+    reading: "おば"
+    sourceRow: 16
+    role: primary
+    entryIDs: [1607100]
+  - id: "joyo-appendix-016-b"
+    spelling: "伯母"
+    reading: "おば"
+    sourceRow: 16
+    role: primary
+    entryIDs: [1607100]
+  - id: "joyo-appendix-017"
+    spelling: "お巡りさん"
+    reading: "おまわりさん"
+    sourceRow: 17
+    role: primary
+    entryIDs: [1002120]
+  - id: "joyo-appendix-018"
+    spelling: "お神酒"
+    reading: "おみき"
+    sourceRow: 18
+    role: primary
+    entryIDs: [1002230]
+  - id: "joyo-appendix-019"
+    spelling: "母屋"
+    reading: "おもや"
+    sourceRow: 19
+    role: primary
+    entryIDs: [1589420]
+  - id: "joyo-appendix-019-b"
+    spelling: "母家"
+    reading: "おもや"
+    sourceRow: 19
+    role: primary
+    entryIDs: [1589420]
+  - id: "joyo-appendix-020"
+    spelling: "母さん"
+    reading: "かあさん"
+    sourceRow: 20
+    role: primary
+    entryIDs: [1609470]
+  - id: "joyo-appendix-021"
+    spelling: "神楽"
+    reading: "かぐら"
+    sourceRow: 21
+    role: primary
+    entryIDs: [1364480]
+  - id: "joyo-appendix-022"
+    spelling: "河岸"
+    reading: "かし"
+    sourceRow: 22
+    role: primary
+    entryIDs: [2836622]
+  - id: "joyo-appendix-022-example"
+    spelling: "魚河岸"
+    reading: "うおがし"
+    sourceRow: 22
+    role: example
+    entryIDs: [1810810]
+  - id: "joyo-appendix-023"
+    spelling: "鍛冶"
+    reading: "かじ"
+    sourceRow: 23
+    role: primary
+    entryIDs: [1419150]
+  - id: "joyo-appendix-024"
+    spelling: "風邪"
+    reading: "かぜ"
+    sourceRow: 24
+    role: primary
+    entryIDs: [1583720]
+  - id: "joyo-appendix-025"
+    spelling: "固唾"
+    reading: "かたず"
+    sourceRow: 25
+    role: primary
+    entryIDs: [2007650]
+  - id: "joyo-appendix-026"
+    spelling: "仮名"
+    reading: "かな"
+    sourceRow: 26
+    role: primary
+    entryIDs: [1590540]
+  - id: "joyo-appendix-027"
+    spelling: "蚊帳"
+    reading: "かや"
+    sourceRow: 27
+    role: primary
+    entryIDs: [1590620]
+  - id: "joyo-appendix-028"
+    spelling: "為替"
+    reading: "かわせ"
+    sourceRow: 28
+    role: primary
+    entryIDs: [1157330]
+  - id: "joyo-appendix-029"
+    spelling: "河原"
+    reading: "かわら"
+    sourceRow: 29
+    role: primary
+    entryIDs: [1590760]
+  - id: "joyo-appendix-029-b"
+    spelling: "川原"
+    reading: "かわら"
+    sourceRow: 29
+    role: primary
+    entryIDs: [1590760]
+  - id: "joyo-appendix-030"
+    spelling: "昨日"
+    reading: "きのう"
+    sourceRow: 30
+    role: primary
+    entryIDs: [1579260]
+  - id: "joyo-appendix-031"
+    spelling: "今日"
+    reading: "きょう"
+    sourceRow: 31
+    role: primary
+    entryIDs: [1579110]
+  - id: "joyo-appendix-032"
+    spelling: "果物"
+    reading: "くだもの"
+    sourceRow: 32
+    role: primary
+    entryIDs: [1193060]
+  - id: "joyo-appendix-033"
+    spelling: "玄人"
+    reading: "くろうと"
+    sourceRow: 33
+    role: primary
+    entryIDs: [1263430]
+  - id: "joyo-appendix-034"
+    spelling: "今朝"
+    reading: "けさ"
+    sourceRow: 34
+    role: primary
+    entryIDs: [1579100]
+  - id: "joyo-appendix-035"
+    spelling: "景色"
+    reading: "けしき"
+    sourceRow: 35
+    role: primary
+    entryIDs: [1250870]
+  - id: "joyo-appendix-036"
+    spelling: "心地"
+    reading: "ここち"
+    sourceRow: 36
+    role: primary
+    entryIDs: [1360820]
+  - id: "joyo-appendix-037"
+    spelling: "居士"
+    reading: "こじ"
+    sourceRow: 37
+    role: primary
+    entryIDs: [1717810]
+  - id: "joyo-appendix-037-example"
+    spelling: "一言居士"
+    reading: "いちげんこじ"
+    sourceRow: 37
+    role: example
+    entryIDs: [1162270]
+  - id: "joyo-appendix-038"
+    spelling: "今年"
+    reading: "ことし"
+    sourceRow: 38
+    role: primary
+    entryIDs: [1579130]
+  - id: "joyo-appendix-039"
+    spelling: "早乙女"
+    reading: "さおとめ"
+    sourceRow: 39
+    role: primary
+    entryIDs: [1844500]
+  - id: "joyo-appendix-040"
+    spelling: "雑魚"
+    reading: "ざこ"
+    sourceRow: 40
+    role: primary
+    entryIDs: [1299360]
+  - id: "joyo-appendix-041"
+    spelling: "桟敷"
+    reading: "さじき"
+    sourceRow: 41
+    role: primary
+    entryIDs: [1303670]
+  - id: "joyo-appendix-042"
+    spelling: "差し支える"
+    reading: "さしつかえる"
+    sourceRow: 42
+    role: primary
+    entryIDs: [1291180]
+  - id: "joyo-appendix-043"
+    spelling: "五月"
+    reading: "さつき"
+    sourceRow: 43
+    role: primary
+    entryIDs: [1299600]
+  - id: "joyo-appendix-044"
+    spelling: "早苗"
+    reading: "さなえ"
+    sourceRow: 44
+    role: primary
+    entryIDs: [1844650]
+  - id: "joyo-appendix-045"
+    spelling: "五月雨"
+    reading: "さみだれ"
+    sourceRow: 45
+    role: primary
+    entryIDs: [1578560]
+  - id: "joyo-appendix-046"
+    spelling: "時雨"
+    reading: "しぐれ"
+    sourceRow: 46
+    role: primary
+    entryIDs: [1315880]
+  - id: "joyo-appendix-047"
+    spelling: "尻尾"
+    reading: "しっぽ"
+    sourceRow: 47
+    role: primary
+    entryIDs: [1358800]
+  - id: "joyo-appendix-048"
+    spelling: "竹刀"
+    reading: "しない"
+    sourceRow: 48
+    role: primary
+    entryIDs: [1422340]
+  - id: "joyo-appendix-049"
+    spelling: "老舗"
+    reading: "しにせ"
+    sourceRow: 49
+    role: primary
+    entryIDs: [1585290]
+  - id: "joyo-appendix-050"
+    spelling: "芝生"
+    reading: "しばふ"
+    sourceRow: 50
+    role: primary
+    entryIDs: [1321650]
+  - id: "joyo-appendix-051"
+    spelling: "清水"
+    reading: "しみず"
+    sourceRow: 51
+    role: primary
+    entryIDs: [1378280]
+  - id: "joyo-appendix-052"
+    spelling: "三味線"
+    reading: "しゃみせん"
+    sourceRow: 52
+    role: primary
+    entryIDs: [1579450]
+  - id: "joyo-appendix-053"
+    spelling: "砂利"
+    reading: "じゃり"
+    sourceRow: 53
+    role: primary
+    entryIDs: [1291660]
+  - id: "joyo-appendix-054"
+    spelling: "数珠"
+    reading: "じゅず"
+    sourceRow: 54
+    role: primary
+    entryIDs: [1373080]
+  - id: "joyo-appendix-055"
+    spelling: "上手"
+    reading: "じょうず"
+    sourceRow: 55
+    role: primary
+    entryIDs: [1353320]
+  - id: "joyo-appendix-056"
+    spelling: "白髪"
+    reading: "しらが"
+    sourceRow: 56
+    role: primary
+    entryIDs: [1583050]
+  - id: "joyo-appendix-057"
+    spelling: "素人"
+    reading: "しろうと"
+    sourceRow: 57
+    role: primary
+    entryIDs: [1397270]
+  - id: "joyo-appendix-058"
+    spelling: "師走"
+    reading: "しわす"
+    sourceRow: 58
+    role: primary
+    entryIDs: [1579500]
+  - id: "joyo-appendix-058-alternate"
+    spelling: "師走"
+    reading: "しはす"
+    sourceRow: 58
+    role: alternate
+    entryIDs: [1579500]
+  - id: "joyo-appendix-059"
+    spelling: "数寄屋"
+    reading: "すきや"
+    sourceRow: 59
+    role: primary
+    entryIDs: [1595580]
+  - id: "joyo-appendix-059-b"
+    spelling: "数奇屋"
+    reading: "すきや"
+    sourceRow: 59
+    role: primary
+    entryIDs: [1595580]
+  - id: "joyo-appendix-060"
+    spelling: "相撲"
+    reading: "すもう"
+    sourceRow: 60
+    role: primary
+    entryIDs: [1401360]
+  - id: "joyo-appendix-061"
+    spelling: "草履"
+    reading: "ぞうり"
+    sourceRow: 61
+    role: primary
+    entryIDs: [1402060]
+  - id: "joyo-appendix-062"
+    spelling: "山車"
+    reading: "だし"
+    sourceRow: 62
+    role: primary
+    entryIDs: [1302910]
+  - id: "joyo-appendix-063"
+    spelling: "太刀"
+    reading: "たち"
+    sourceRow: 63
+    role: primary
+    entryIDs: [1408340]
+  - id: "joyo-appendix-064"
+    spelling: "立ち退く"
+    reading: "たちのく"
+    sourceRow: 64
+    role: primary
+    entryIDs: [1551420]
+  - id: "joyo-appendix-065"
+    spelling: "七夕"
+    reading: "たなばた"
+    sourceRow: 65
+    role: primary
+    entryIDs: [1579640]
+  - id: "joyo-appendix-066"
+    spelling: "足袋"
+    reading: "たび"
+    sourceRow: 66
+    role: primary
+    entryIDs: [1404920]
+  - id: "joyo-appendix-067"
+    spelling: "稚児"
+    reading: "ちご"
+    sourceRow: 67
+    role: primary
+    entryIDs: [1421780]
+  - id: "joyo-appendix-068"
+    spelling: "一日"
+    reading: "ついたち"
+    sourceRow: 68
+    role: primary
+    entryIDs: [2225040]
+  - id: "joyo-appendix-069"
+    spelling: "築山"
+    reading: "つきやま"
+    sourceRow: 69
+    role: primary
+    entryIDs: [1422150]
+  - id: "joyo-appendix-070"
+    spelling: "梅雨"
+    reading: "つゆ"
+    sourceRow: 70
+    role: primary
+    entryIDs: [1582960]
+  - id: "joyo-appendix-071"
+    spelling: "凸凹"
+    reading: "でこぼこ"
+    sourceRow: 71
+    role: primary
+    entryIDs: [1582410]
+  - id: "joyo-appendix-072"
+    spelling: "手伝う"
+    reading: "てつだう"
+    sourceRow: 72
+    role: primary
+    entryIDs: [1328190]
+  - id: "joyo-appendix-073"
+    spelling: "伝馬船"
+    reading: "てんません"
+    sourceRow: 73
+    role: primary
+    entryIDs: [1442390]
+  - id: "joyo-appendix-074"
+    spelling: "投網"
+    reading: "とあみ"
+    sourceRow: 74
+    role: primary
+    entryIDs: [1447360]
+  - id: "joyo-appendix-075"
+    spelling: "父さん"
+    reading: "とうさん"
+    sourceRow: 75
+    role: primary
+    entryIDs: [1610490]
+  - id: "joyo-appendix-076"
+    spelling: "十重二十重"
+    reading: "とえはたえ"
+    sourceRow: 76
+    role: primary
+    entryIDs: [1334790]
+  - id: "joyo-appendix-077"
+    spelling: "読経"
+    reading: "どきょう"
+    sourceRow: 77
+    role: primary
+    entryIDs: [1456390]
+  - id: "joyo-appendix-078"
+    spelling: "時計"
+    reading: "とけい"
+    sourceRow: 78
+    role: primary
+    entryIDs: [1316140]
+  - id: "joyo-appendix-079"
+    spelling: "友達"
+    reading: "ともだち"
+    sourceRow: 79
+    role: primary
+    entryIDs: [1540170]
+  - id: "joyo-appendix-080"
+    spelling: "仲人"
+    reading: "なこうど"
+    sourceRow: 80
+    role: primary
+    entryIDs: [1425960]
+  - id: "joyo-appendix-081"
+    spelling: "名残"
+    reading: "なごり"
+    sourceRow: 81
+    role: primary
+    entryIDs: [1531530]
+  - id: "joyo-appendix-082"
+    spelling: "雪崩"
+    reading: "なだれ"
+    sourceRow: 82
+    role: primary
+    entryIDs: [1386690]
+  - id: "joyo-appendix-083"
+    spelling: "兄さん"
+    reading: "にいさん"
+    sourceRow: 83
+    role: primary
+    entryIDs: [1249910]
+  - id: "joyo-appendix-084"
+    spelling: "姉さん"
+    reading: "ねえさん"
+    sourceRow: 84
+    role: primary
+    entryIDs: [1307640]
+  - id: "joyo-appendix-085"
+    spelling: "野良"
+    reading: "のら"
+    sourceRow: 85
+    role: primary
+    entryIDs: [1537660]
+  - id: "joyo-appendix-086"
+    spelling: "祝詞"
+    reading: "のりと"
+    sourceRow: 86
+    role: primary
+    entryIDs: [1337450]
+  - id: "joyo-appendix-087"
+    spelling: "博士"
+    reading: "はかせ"
+    sourceRow: 87
+    role: primary
+    entryIDs: [1474620]
+  - id: "joyo-appendix-088"
+    spelling: "二十"
+    reading: "はたち"
+    sourceRow: 88
+    role: primary
+    entryIDs: [1600790]
+  - id: "joyo-appendix-088-b"
+    spelling: "二十歳"
+    reading: "はたち"
+    sourceRow: 88
+    role: primary
+    entryIDs: [1600790]
+  - id: "joyo-appendix-089"
+    spelling: "二十日"
+    reading: "はつか"
+    sourceRow: 89
+    role: primary
+    entryIDs: [1600850]
+  - id: "joyo-appendix-090"
+    spelling: "波止場"
+    reading: "はとば"
+    sourceRow: 90
+    role: primary
+    entryIDs: [1471000]
+  - id: "joyo-appendix-091"
+    spelling: "一人"
+    reading: "ひとり"
+    sourceRow: 91
+    role: primary
+    entryIDs: [1576150]
+  - id: "joyo-appendix-092"
+    spelling: "日和"
+    reading: "ひより"
+    sourceRow: 92
+    role: primary
+    entryIDs: [1464950]
+  - id: "joyo-appendix-093"
+    spelling: "二人"
+    reading: "ふたり"
+    sourceRow: 93
+    role: primary
+    entryIDs: [1582670]
+  - id: "joyo-appendix-094"
+    spelling: "二日"
+    reading: "ふつか"
+    sourceRow: 94
+    role: primary
+    entryIDs: [1462900]
+  - id: "joyo-appendix-095"
+    spelling: "吹雪"
+    reading: "ふぶき"
+    sourceRow: 95
+    role: primary
+    entryIDs: [1370780]
+  - id: "joyo-appendix-096"
+    spelling: "下手"
+    reading: "へた"
+    sourceRow: 96
+    role: primary
+    entryIDs: [1185200]
+  - id: "joyo-appendix-097"
+    spelling: "部屋"
+    reading: "へや"
+    sourceRow: 97
+    role: primary
+    entryIDs: [1499320]
+  - id: "joyo-appendix-098"
+    spelling: "迷子"
+    reading: "まいご"
+    sourceRow: 98
+    role: primary
+    entryIDs: [1532750]
+  - id: "joyo-appendix-099"
+    spelling: "真面目"
+    reading: "まじめ"
+    sourceRow: 99
+    role: primary
+    entryIDs: [1364360]
+  - id: "joyo-appendix-100"
+    spelling: "真っ赤"
+    reading: "まっか"
+    sourceRow: 100
+    role: primary
+    entryIDs: [1363250]
+  - id: "joyo-appendix-101"
+    spelling: "真っ青"
+    reading: "まっさお"
+    sourceRow: 101
+    role: primary
+    entryIDs: [1604080]
+  - id: "joyo-appendix-102"
+    spelling: "土産"
+    reading: "みやげ"
+    sourceRow: 102
+    role: primary
+    entryIDs: [1445360]
+  - id: "joyo-appendix-103"
+    spelling: "息子"
+    reading: "むすこ"
+    sourceRow: 103
+    role: primary
+    entryIDs: [1404390]
+  - id: "joyo-appendix-104"
+    spelling: "眼鏡"
+    reading: "めがね"
+    sourceRow: 104
+    role: primary
+    entryIDs: [1577670]
+  - id: "joyo-appendix-105"
+    spelling: "猛者"
+    reading: "もさ"
+    sourceRow: 105
+    role: primary
+    entryIDs: [1534030]
+  - id: "joyo-appendix-106"
+    spelling: "紅葉"
+    reading: "もみじ"
+    sourceRow: 106
+    role: primary
+    entryIDs: [2857870]
+  - id: "joyo-appendix-107"
+    spelling: "木綿"
+    reading: "もめん"
+    sourceRow: 107
+    role: primary
+    entryIDs: [1534870]
+  - id: "joyo-appendix-108"
+    spelling: "最寄り"
+    reading: "もより"
+    sourceRow: 108
+    role: primary
+    entryIDs: [1293750]
+  - id: "joyo-appendix-109"
+    spelling: "八百長"
+    reading: "やおちょう"
+    sourceRow: 109
+    role: primary
+    entryIDs: [1476970]
+  - id: "joyo-appendix-110"
+    spelling: "八百屋"
+    reading: "やおや"
+    sourceRow: 110
+    role: primary
+    entryIDs: [1476960]
+  - id: "joyo-appendix-111"
+    spelling: "大和"
+    reading: "やまと"
+    sourceRow: 111
+    role: primary
+    entryIDs: [1585330]
+  - id: "joyo-appendix-112"
+    spelling: "弥生"
+    reading: "やよい"
+    sourceRow: 112
+    role: primary
+    entryIDs: [1537730]
+  - id: "joyo-appendix-113"
+    spelling: "浴衣"
+    reading: "ゆかた"
+    sourceRow: 113
+    role: primary
+    entryIDs: [1584990]
+  - id: "joyo-appendix-114"
+    spelling: "行方"
+    reading: "ゆくえ"
+    sourceRow: 114
+    role: primary
+    entryIDs: [1282180]
+  - id: "joyo-appendix-115"
+    spelling: "寄席"
+    reading: "よせ"
+    sourceRow: 115
+    role: primary
+    entryIDs: [1219790]
+  - id: "joyo-appendix-116"
+    spelling: "若人"
+    reading: "わこうど"
+    sourceRow: 116
+    role: primary
+    entryIDs: [1324370]

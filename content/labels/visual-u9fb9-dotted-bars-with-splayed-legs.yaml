@@ -1,0 +1,33 @@
+---
+id: visual-u9fb9-dotted-bars-with-splayed-legs
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9fb9
+revision: 18949b7f05bf506528a62e38068710dfd6e4b5f00840fa52d49ba3185fef5cc7
+localizedRevision: 18949b7f05bf506528a62e38068710dfd6e4b5f00840fa52d49ba3185fef5cc7
+status: approved
+claimText: dotted bars with splayed legs
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9a30
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09a30-g3; strokes=kvg:09a30-s5,kvg:09a30-s6,kvg:09a30-s7,kvg:09a30-s8,kvg:09a30-s9,kvg:09a30-s10
+- reference: kanjivg-9a30
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09a30-g3; strokes=kvg:09a30-s5,kvg:09a30-s6,kvg:09a30-s7,kvg:09a30-s8,kvg:09a30-s9,kvg:09a30-s10
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 18949b7f05bf506528a62e38068710dfd6e4b5f00840fa52d49ba3185fef5cc7
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4c7fa8b871653b9a5b4056dd02537d69aed9beabf107bc447585361ae29c334|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e4c7fa8b871653b9a5b4056dd02537d69aed9beabf107bc447585361ae29c334"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."
