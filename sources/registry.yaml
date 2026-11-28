@@ -209,6 +209,22 @@ sources:
   sha256: 3e798b3387e5667f240732dda5b6f0541b77fa700da90f235d680ffbd709de43
   acquisitionMethod: "Official EDRDG gzip archive, XML creation date and SHA-256 verified"
   retrievedAt: "2026-11-27T18:20:28Z"
+- id: joyo-appendix-2010
+  author: "Agency for Cultural Affairs, Government of Japan"
+  project: "常用漢字表 付表 (2010)"
+  url: https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+  license: Public-Domain
+  licenseVersion: "Japan Copyright Act Article 13"
+  licenseEvidenceURL: https://laws.e-gov.go.jp/law/345AC0000000048#Mp-At_13
+  scope: "Exact word spellings, readings, source-row ordinals, and listing roles on physical PDF pages 162–163 only"
+  attribution: "Agency for Cultural Affairs, Government of Japan, 常用漢字表 (2010)"
+  modifications: "Transcribed the appendix spellings and readings; assigned one-based row ordinals in source order; marked primary listings, the explicitly noted alternate 師走 reading, and printed compound examples; linked exact JMdict entry sequences"
+  sourceLanguage: ja
+  upstream: []
+  revision: "2010-11-30"
+  sha256: d9f28aeb4ce8250dbde07de20ac66cca71805ba09d94e4942c752dffa84d8d42
+  acquisitionMethod: "Official Agency for Cultural Affairs PDF; SHA-256 verified"
+  retrievedAt: "2026-11-28T06:19:59Z"
 - id: jmdict-furigana-2.3.1-2026-10-25
   author: "Doublevil and JmdictFurigana contributors, with upstream JMdict by EDRDG"
   project: "JmdictFurigana data"
@@ -65020,6 +65036,16 @@ references:
   retrievedAt: "2026-11-27T18:20:28Z"
   supports:
   - "Attested Japanese vocabulary spellings and matching readings, with applicable JMdict entry IDs"
+- id: joyo-appendix-2010-appendix
+  source: joyo-appendix-2010
+  url: https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+  externalId: joyokanjihyo_20101130.pdf
+  locator: "Physical PDF pages 162–163, ordered source-row ordinals 1–116; spelling, reading, and listing role"
+  revision: "2010-11-30"
+  snapshotHash: d9f28aeb4ce8250dbde07de20ac66cca71805ba09d94e4942c752dffa84d8d42
+  retrievedAt: "2026-11-28T06:19:59Z"
+  supports:
+  - "Official 2010 Jōyō Kanji appendix word-reading listings"
 - id: jmdict-furigana-2.3.1-2026-10-25-ruby
   source: jmdict-furigana-2.3.1-2026-10-25
   url: https://github.com/Doublevil/JmdictFurigana/releases/download/2.3.1%2B2026-10-25/JmdictFurigana.json.zip
