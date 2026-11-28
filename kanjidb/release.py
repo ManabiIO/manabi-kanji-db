@@ -38,6 +38,7 @@ def release_manifest(root: Path, database: Path) -> dict:
         counts = {}
         for table in ("character", "component", "structure", "occurrence", "claim", "story", "source", "reference",
                       "written_form_pair", "joyo_appendix_reading", "joyo_appendix_jmdict_entry",
+                      "joyo_appendix_character",
                       "radical_name", "imported_candidate", "candidate_relation", "asset", "intake"):
             counts[table] = connection.execute(f"SELECT count(*) FROM {table}").fetchone()[0]
         approved = connection.execute("SELECT count(*) FROM current_approved_claim").fetchone()[0]

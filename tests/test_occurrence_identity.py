@@ -80,10 +80,10 @@ class OccurrenceIdentityTests(unittest.TestCase):
             build(root, database)
 
             with closing(sqlite3.connect(database)) as connection:
-                self.assertEqual(connection.execute("PRAGMA user_version").fetchone(), (4,))
+                self.assertEqual(connection.execute("PRAGMA user_version").fetchone(), (5,))
                 self.assertEqual(connection.execute(
                     "SELECT value FROM metadata WHERE key = 'schemaVersion'"
-                ).fetchone(), ("4",))
+                ).fetchone(), ("5",))
                 self.assertEqual(connection.execute(
                     "SELECT count(*) FROM occurrence WHERE occurrence_id = 'g1'"
                 ).fetchone(), (2,))
@@ -102,4 +102,4 @@ class OccurrenceIdentityTests(unittest.TestCase):
                 with self.assertRaises(sqlite3.IntegrityError):
                     connection.execute("UPDATE claim SET subject_structure_id = NULL")
 
-            self.assertEqual(release_manifest(root, database)["databaseSchemaVersion"], 4)
+            self.assertEqual(release_manifest(root, database)["databaseSchemaVersion"], 5)

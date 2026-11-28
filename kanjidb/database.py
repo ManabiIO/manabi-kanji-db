@@ -13,7 +13,7 @@ from typing import Any
 from .validation import ValidationError, load_project, validate, need, exact_keys, nonempty, is_scalar
 from .yamlio import load
 
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 # Semantic checksum of the independently reviewed appendix and its exact source
 # pins. JSON serialization below deliberately ignores YAML formatting/comments.
@@ -99,6 +99,14 @@ CREATE TABLE joyo_appendix_reading(
   UNIQUE(source_row, spelling, reading, role)
 ) STRICT;
 CREATE INDEX joyo_appendix_spelling_reading ON joyo_appendix_reading(spelling, reading);
+CREATE TABLE joyo_appendix_character(
+  reading_id TEXT NOT NULL REFERENCES joyo_appendix_reading(id),
+  character_literal TEXT NOT NULL REFERENCES character(literal),
+  spelling_offset INTEGER NOT NULL CHECK(spelling_offset >= 0),
+  PRIMARY KEY(reading_id, spelling_offset)
+) STRICT;
+CREATE INDEX joyo_appendix_character_lookup
+  ON joyo_appendix_character(character_literal, reading_id, spelling_offset);
 CREATE TABLE joyo_appendix_jmdict_entry(
   reading_id TEXT NOT NULL REFERENCES joyo_appendix_reading(id),
   entry_id INTEGER NOT NULL CHECK(entry_id > 0),
@@ -523,6 +531,7 @@ def build(root: Path, output: Path) -> str:
     imported = _imports(root, sources)
     validate(root, preloaded=(claims, sources, refs, imported))
     chars, components, structures, radicals, written_forms, joyo_readings = imported
+    character_literals = {item["literal"] for item in chars}
     intake = _intake(root, refs)
     imported_candidates = _imported_candidates(root, sources, refs)
     assets = _assets(root, sources, refs)
@@ -582,6 +591,11 @@ def build(root: Path, output: Path) -> str:
                     item["id"], item["spelling"], item["reading"], item["sourceRow"], item["role"],
                     source_id, sources[source_id]["revision"], reference_id,
                 ))
+                for spelling_offset, character_literal in enumerate(item["spelling"]):
+                    if character_literal in character_literals:
+                        conn.execute("INSERT INTO joyo_appendix_character VALUES (?,?,?)", (
+                            item["id"], character_literal, spelling_offset,
+                        ))
                 for entry_id in item["entryIDs"]:
                     conn.execute("INSERT INTO joyo_appendix_jmdict_entry VALUES (?,?,?)", (
                         item["id"], entry_id, "jmdict-e-2026-11-27-spelling-reading",

@@ -106,6 +106,45 @@ class JoyoAppendixTests(unittest.TestCase):
                 self.assertEqual(entries("五月", "さつき"), [1299600])
                 self.assertEqual(entries("日本", "にほん"), [])
 
+                def members(character: str) -> list[tuple[str, int]]:
+                    return db.execute(
+                        "SELECT r.spelling, c.spelling_offset "
+                        "FROM joyo_appendix_character c "
+                        "JOIN joyo_appendix_reading r ON r.id=c.reading_id "
+                        "WHERE c.character_literal=? ORDER BY r.spelling, c.spelling_offset",
+                        (character,),
+                    ).fetchall()
+
+                sun_memberships = members("日")
+                self.assertIn(("一日", 1), sun_memberships)
+                self.assertIn(("今日", 1), sun_memberships)
+                self.assertIn(("明日", 1), sun_memberships)
+                self.assertNotEqual(
+                    [row for row in sun_memberships if row[0] == "一日"],
+                    [row for row in sun_memberships if row[0] == "今日"],
+                )
+                self.assertEqual(
+                    db.execute(
+                        "SELECT c.character_literal, c.spelling_offset "
+                        "FROM joyo_appendix_character c JOIN joyo_appendix_reading r ON r.id=c.reading_id "
+                        "WHERE r.spelling='十重二十重' ORDER BY c.spelling_offset"
+                    ).fetchall(),
+                    [("十", 0), ("重", 1), ("二", 2), ("十", 3), ("重", 4)],
+                )
+                self.assertEqual(
+                    db.execute(
+                        "SELECT c.character_literal, c.spelling_offset "
+                        "FROM joyo_appendix_character c JOIN joyo_appendix_reading r ON r.id=c.reading_id "
+                        "WHERE r.spelling='差し支える' ORDER BY c.spelling_offset"
+                    ).fetchall(),
+                    [("差", 0), ("支", 2)],
+                )
+                plan = db.execute(
+                    "EXPLAIN QUERY PLAN SELECT reading_id FROM joyo_appendix_character WHERE character_literal=?",
+                    ("日",),
+                ).fetchall()
+                self.assertTrue(any("joyo_appendix_character_lookup" in row[3] for row in plan), plan)
+
 
 if __name__ == "__main__":
     unittest.main()

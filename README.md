@@ -102,7 +102,8 @@ lists every glyph occurrence, whether or not a reviewed claim assigns a function
 Join `claim_evidence` and `reference` by `claim_id` and `reference_id` to inspect
 the exact citation selectors behind each role.
 
-Database schema version 4 adds the 2010 Jōyō Kanji appendix word-reading overlay.
+Database schema version 5 adds the 2010 Jōyō Kanji appendix word-reading overlay
+and an indexed character-membership relation.
 `official_joyo_appendix_reading` retains the exact spelling, reading, source
 row ordinal, and whether the pair is primary, an alternate explicitly given in a note,
 or a printed example. Its `jmdict_entry_id` links to the matching JMdict entry
@@ -111,7 +112,22 @@ reading-to-entry association when joining JMdict so its `re_restr` and
 `re_nokanji` fields remain authoritative for the exact spelling/reading pair.
 Apply `stagk` and `stagr` if a dictionary view also displays sense text. The
 appendix is word-level attestation and does not provide character reading
-alignments.
+alignments. `joyo_appendix_character` records each Jōyō kanji's zero-based
+Unicode scalar offset in the full spelling. It preserves repeated characters
+as separate occurrences and counts kana such as okurigana in the offset. This
+is spelling membership only; it does not assign any portion of a word reading
+to a character.
+
+For example, this lookup returns the specific word and exact location of every
+official appendix spelling containing 日, keeping 一日 and 今日 distinct:
+
+```sql
+SELECT r.spelling, r.reading, c.spelling_offset, r.role
+FROM joyo_appendix_character AS c
+JOIN joyo_appendix_reading AS r ON r.id = c.reading_id
+WHERE c.character_literal = '日'
+ORDER BY r.spelling, c.spelling_offset, r.reading;
+```
 
 Initial structural coverage follows the pinned KanjiVG release and the
 KANJIDIC2 identity baseline. Each release includes the generated database,
