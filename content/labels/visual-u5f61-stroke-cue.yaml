@@ -1,0 +1,29 @@
+---
+id: visual-u5f61-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5f61
+revision: 4ead17881ab202646658f2d6cf316605a39f0c6cfa1fa1bf940eb95978ed8153
+localizedRevision: c4cf438ebbd69f7368a2859b145ae32e33a2e415626522d0d5b00bc3e96fb4e2
+status: approved
+claimText: three slanting strokes
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5f62
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:05f62-g6; strokes=kvg:05f62-s5,kvg:05f62-s6,kvg:05f62-s7
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 4ead17881ab202646658f2d6cf316605a39f0c6cfa1fa1bf940eb95978ed8153
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e70d25df9ff9d2318379388c2ccf4f3e68889d5c39c9b11f21cfdbdc23da059e"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

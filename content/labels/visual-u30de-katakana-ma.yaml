@@ -1,0 +1,49 @@
+---
+id: visual-u30de-katakana-ma
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u30de
+revision: 31f909c4319433d8a69ac3473cfb92698ce6433b4bacd269a65cd74bfb9fc2e7
+localizedRevision: 31f909c4319433d8a69ac3473cfb92698ce6433b4bacd269a65cd74bfb9fc2e7
+status: approved
+claimText: katakana ma
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-4e88
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04e88-g1; strokes=kvg:04e88-s1,kvg:04e88-s2
+- reference: kanjivg-4e88
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04e88-g1; strokes=kvg:04e88-s1,kvg:04e88-s2
+- reference: kanjivg-4ee4
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04ee4-g4; strokes=kvg:04ee4-s4,kvg:04ee4-s5
+- reference: kanjivg-4ee4
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04ee4-g4; strokes=kvg:04ee4-s4,kvg:04ee4-s5
+- reference: kanjivg-901a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0901a-g2; strokes=kvg:0901a-s1,kvg:0901a-s2
+- reference: kanjivg-901a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0901a-g2; strokes=kvg:0901a-s1,kvg:0901a-s2
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 31f909c4319433d8a69ac3473cfb92698ce6433b4bacd269a65cd74bfb9fc2e7
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:49d0c65cbc179b884b68b58afb87952d024a9e77e41763e8ec5573eadfcbcef4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:49d0c65cbc179b884b68b58afb87952d024a9e77e41763e8ec5573eadfcbcef4|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7a3131ee562b0dd45cc7fdb67f459893be5903ca332c5af49725cca8658874b6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:7a3131ee562b0dd45cc7fdb67f459893be5903ca332c5af49725cca8658874b6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ba6eb981efca7afd161255aa65bffa492cb923ff965b7707a3a34f8440c0b808|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ba6eb981efca7afd161255aa65bffa492cb923ff965b7707a3a34f8440c0b808"
+  rationale: "All three cited Japanese groups match the visible shape of katakana マ. The cue describes the shape and does not assign a reading."

@@ -1,0 +1,49 @@
+---
+id: visual-u7535-grid-with-curled-tail
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u7535
+revision: 904701bfb74ca97fc900636c08d763e5e4785f9510322f0f57d419bc50d2a47a
+localizedRevision: 904701bfb74ca97fc900636c08d763e5e4785f9510322f0f57d419bc50d2a47a
+status: approved
+claimText: grid with curled tail
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-4ffa
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04ffa-g4; strokes=kvg:04ffa-s6,kvg:04ffa-s7,kvg:04ffa-s8,kvg:04ffa-s9,kvg:04ffa-s10
+- reference: kanjivg-4ffa
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04ffa-g4; strokes=kvg:04ffa-s6,kvg:04ffa-s7,kvg:04ffa-s8,kvg:04ffa-s9,kvg:04ffa-s10
+- reference: kanjivg-7e04
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:07e04-g2; strokes=kvg:07e04-s7,kvg:07e04-s8,kvg:07e04-s9,kvg:07e04-s10,kvg:07e04-s11,kvg:07e04-s12,kvg:07e04-s13,kvg:07e04-s14,kvg:07e04-s15
+- reference: kanjivg-7e04
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:07e04-g2; strokes=kvg:07e04-s7,kvg:07e04-s8,kvg:07e04-s9,kvg:07e04-s10,kvg:07e04-s11,kvg:07e04-s12,kvg:07e04-s13,kvg:07e04-s14,kvg:07e04-s15
+- reference: kanjivg-4e80
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:04e80-g2; strokes=kvg:04e80-s3,kvg:04e80-s4,kvg:04e80-s5,kvg:04e80-s6,kvg:04e80-s7,kvg:04e80-s8,kvg:04e80-s9,kvg:04e80-s10,kvg:04e80-s11
+- reference: kanjivg-4e80
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:04e80-g2; strokes=kvg:04e80-s3,kvg:04e80-s4,kvg:04e80-s5,kvg:04e80-s6,kvg:04e80-s7,kvg:04e80-s8,kvg:04e80-s9,kvg:04e80-s10,kvg:04e80-s11
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 904701bfb74ca97fc900636c08d763e5e4785f9510322f0f57d419bc50d2a47a
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:258d1df03fe03e8a39e31ac7b80bce459b4c4ea6876d9eead105995fd51bde7e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:258d1df03fe03e8a39e31ac7b80bce459b4c4ea6876d9eead105995fd51bde7e|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4da88988e7bf6e5b8261d4632a3b55e487b29ea89c76cdaca774ec10fd58b567|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4da88988e7bf6e5b8261d4632a3b55e487b29ea89c76cdaca774ec10fd58b567|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c3b6143d7254a9949a66ada9ece5a5ec22a5e52b3be1ba5ba9dae69de5bf6a96|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:c3b6143d7254a9949a66ada9ece5a5ec22a5e52b3be1ba5ba9dae69de5bf6a96"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

@@ -1,0 +1,33 @@
+---
+id: visual-u4a57-leather-beside-moon
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4a57
+revision: c0f50c5003c6c272addea06644bc3d6048624c609862f4fc5a356553b8e84e28
+localizedRevision: c0f50c5003c6c272addea06644bc3d6048624c609862f4fc5a356553b8e84e28
+status: approved
+claimText: leather beside moon
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8987
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08987-g2; strokes=kvg:08987-s7,kvg:08987-s8,kvg:08987-s9,kvg:08987-s10,kvg:08987-s11,kvg:08987-s12,kvg:08987-s13,kvg:08987-s14,kvg:08987-s15,kvg:08987-s16,kvg:08987-s17,kvg:08987-s18,kvg:08987-s19
+- reference: kanjivg-8987
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08987-g2; strokes=kvg:08987-s7,kvg:08987-s8,kvg:08987-s9,kvg:08987-s10,kvg:08987-s11,kvg:08987-s12,kvg:08987-s13,kvg:08987-s14,kvg:08987-s15,kvg:08987-s16,kvg:08987-s17,kvg:08987-s18,kvg:08987-s19
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: c0f50c5003c6c272addea06644bc3d6048624c609862f4fc5a356553b8e84e28
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:65a98147a5928ebf025dfd411808410cb4518ada045182e4ee9b1e4b82f61e13|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:65a98147a5928ebf025dfd411808410cb4518ada045182e4ee9b1e4b82f61e13"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

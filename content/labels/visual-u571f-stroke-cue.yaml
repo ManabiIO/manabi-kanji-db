@@ -1,0 +1,29 @@
+---
+id: visual-u571f-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u571f
+revision: 09e93c9a0702dfa35a7112a0edbbd92a497ecd1593c1412c38ac8e6625251f3b
+localizedRevision: 8e8b900a627f57e508b98b147bf39246c767183799ff9bc4492bf859955294c7
+status: approved
+claimText: cross on a base
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5730
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:05730-g1; strokes=kvg:05730-s1,kvg:05730-s2,kvg:05730-s3
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 09e93c9a0702dfa35a7112a0edbbd92a497ecd1593c1412c38ac8e6625251f3b
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:6be3bf63f420c707564bab1899c9435ce80df10b7bb51062829a45fdb8aa744e"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

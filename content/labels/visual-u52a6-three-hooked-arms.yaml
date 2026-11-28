@@ -1,0 +1,41 @@
+---
+id: visual-u52a6-three-hooked-arms
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u52a6
+revision: af88beaefdd8e4b24c8b24be386fdff84aaea6bc442f72c17ba80d3e2b4bfbc9
+localizedRevision: af88beaefdd8e4b24c8b24be386fdff84aaea6bc442f72c17ba80d3e2b4bfbc9
+status: approved
+claimText: three hooked arms
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5354
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05354-g2; strokes=kvg:05354-s3,kvg:05354-s4,kvg:05354-s5,kvg:05354-s6,kvg:05354-s7,kvg:05354-s8
+- reference: kanjivg-5354
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05354-g2; strokes=kvg:05354-s3,kvg:05354-s4,kvg:05354-s5,kvg:05354-s6,kvg:05354-s7,kvg:05354-s8
+- reference: kanjivg-8105
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08105-g1; strokes=kvg:08105-s1,kvg:08105-s2,kvg:08105-s3,kvg:08105-s4,kvg:08105-s5,kvg:08105-s6
+- reference: kanjivg-8105
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08105-g1; strokes=kvg:08105-s1,kvg:08105-s2,kvg:08105-s3,kvg:08105-s4,kvg:08105-s5,kvg:08105-s6
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: af88beaefdd8e4b24c8b24be386fdff84aaea6bc442f72c17ba80d3e2b4bfbc9
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:743ddc5a0744250800b81b80765b02484e16eeb083cd32cbc75bbdcc4189a0c5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:743ddc5a0744250800b81b80765b02484e16eeb083cd32cbc75bbdcc4189a0c5|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f7d8a247829694b4905571d3bd4fc830a1cae5804a773f84a93fa8599a910123|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:f7d8a247829694b4905571d3bd4fc830a1cae5804a773f84a93fa8599a910123"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

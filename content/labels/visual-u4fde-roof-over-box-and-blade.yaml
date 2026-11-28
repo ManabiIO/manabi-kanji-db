@@ -1,0 +1,41 @@
+---
+id: visual-u4fde-roof-over-box-and-blade
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4fde
+revision: fe201d073149870dc94a73eb47bd0396c43c10243ee640fee1a3a705293953ae
+localizedRevision: fe201d073149870dc94a73eb47bd0396c43c10243ee640fee1a3a705293953ae
+status: approved
+claimText: roof over box and blade
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8f38
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08f38-g2; strokes=kvg:08f38-s8,kvg:08f38-s9,kvg:08f38-s10,kvg:08f38-s11,kvg:08f38-s12,kvg:08f38-s13,kvg:08f38-s14,kvg:08f38-s15,kvg:08f38-s16
+- reference: kanjivg-8f38
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08f38-g2; strokes=kvg:08f38-s8,kvg:08f38-s9,kvg:08f38-s10,kvg:08f38-s11,kvg:08f38-s12,kvg:08f38-s13,kvg:08f38-s14,kvg:08f38-s15,kvg:08f38-s16
+- reference: kanjivg-8aed
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08aed-g3; strokes=kvg:08aed-s8,kvg:08aed-s9,kvg:08aed-s10,kvg:08aed-s11,kvg:08aed-s12,kvg:08aed-s13,kvg:08aed-s14,kvg:08aed-s15,kvg:08aed-s16
+- reference: kanjivg-8aed
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08aed-g3; strokes=kvg:08aed-s8,kvg:08aed-s9,kvg:08aed-s10,kvg:08aed-s11,kvg:08aed-s12,kvg:08aed-s13,kvg:08aed-s14,kvg:08aed-s15,kvg:08aed-s16
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: fe201d073149870dc94a73eb47bd0396c43c10243ee640fee1a3a705293953ae
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:87ebdcbaa08e9301e97304f9921146a4bc9ff676a3238465801d33e185e4a63f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:87ebdcbaa08e9301e97304f9921146a4bc9ff676a3238465801d33e185e4a63f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d178a15e44e8ab9f242489e6d45d4c1db2c5897aaa8eefde1bf6d3a02366efbd|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:d178a15e44e8ab9f242489e6d45d4c1db2c5897aaa8eefde1bf6d3a02366efbd"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

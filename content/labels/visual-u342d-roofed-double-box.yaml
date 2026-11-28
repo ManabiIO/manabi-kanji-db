@@ -1,0 +1,33 @@
+---
+id: visual-u342d-roofed-double-box
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u342d
+revision: 42b0d958a26657a0f0b85a735a91217693ded17d93d9c8666096368847857c02
+localizedRevision: 42b0d958a26657a0f0b85a735a91217693ded17d93d9c8666096368847857c02
+status: approved
+claimText: roofed double box
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-58c7
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:058c7-g3; strokes=kvg:058c7-s4,kvg:058c7-s5,kvg:058c7-s6,kvg:058c7-s7,kvg:058c7-s8,kvg:058c7-s9,kvg:058c7-s10,kvg:058c7-s11
+- reference: kanjivg-58c7
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:058c7-g3; strokes=kvg:058c7-s4,kvg:058c7-s5,kvg:058c7-s6,kvg:058c7-s7,kvg:058c7-s8,kvg:058c7-s9,kvg:058c7-s10,kvg:058c7-s11
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 42b0d958a26657a0f0b85a735a91217693ded17d93d9c8666096368847857c02
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ffe11b663041ecfbfaaecaaa294f8800c86b10c549070f30b1f174017ee5bf7b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:ffe11b663041ecfbfaaecaaa294f8800c86b10c549070f30b1f174017ee5bf7b"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

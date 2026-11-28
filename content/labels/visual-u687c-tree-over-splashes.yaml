@@ -1,0 +1,33 @@
+---
+id: visual-u687c-tree-over-splashes
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u687c
+revision: ca42777ebd1493a9230b0bb09889c72c9f00b6fbb8303a10a0e70ae108c36108
+localizedRevision: ca42777ebd1493a9230b0bb09889c72c9f00b6fbb8303a10a0e70ae108c36108
+status: approved
+claimText: tree over splashes
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-6f06
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06f06-g2; strokes=kvg:06f06-s4,kvg:06f06-s5,kvg:06f06-s6,kvg:06f06-s7,kvg:06f06-s8,kvg:06f06-s9,kvg:06f06-s10,kvg:06f06-s11,kvg:06f06-s12,kvg:06f06-s13,kvg:06f06-s14
+- reference: kanjivg-6f06
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06f06-g2; strokes=kvg:06f06-s4,kvg:06f06-s5,kvg:06f06-s6,kvg:06f06-s7,kvg:06f06-s8,kvg:06f06-s9,kvg:06f06-s10,kvg:06f06-s11,kvg:06f06-s12,kvg:06f06-s13,kvg:06f06-s14
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: ca42777ebd1493a9230b0bb09889c72c9f00b6fbb8303a10a0e70ae108c36108
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:193f9718fb65a10fe0d6863760a79c3256d8e4c3ef08302c198c1a820190734b|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:193f9718fb65a10fe0d6863760a79c3256d8e4c3ef08302c198c1a820190734b"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

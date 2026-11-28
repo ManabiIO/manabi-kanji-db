@@ -1,0 +1,29 @@
+---
+id: visual-u5ddb-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5ddb
+revision: 5b55ff662534bd2f0e0aeda921149991875794abe2249a128f35967ca714eaa4
+localizedRevision: 8e72510573407f43b0548d7e199ad88e1bd2c0c99048465a0bfbb00192cc4bc5
+status: approved
+claimText: three bent strokes
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5de1
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:05de1-g1; strokes=kvg:05de1-s1,kvg:05de1-s2,kvg:05de1-s3
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 5b55ff662534bd2f0e0aeda921149991875794abe2249a128f35967ca714eaa4
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:06650c9b4adf24c7ef86f0a9922b963902dfb9da7f8103870df3e410ec206a73"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

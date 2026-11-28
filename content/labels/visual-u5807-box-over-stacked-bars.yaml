@@ -1,0 +1,33 @@
+---
+id: visual-u5807-box-over-stacked-bars
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5807
+revision: f6d1e70549d8e15f41b927cd6c3060f3b8d8df7c3647fbac70d17114f52cb036
+localizedRevision: f6d1e70549d8e15f41b927cd6c3060f3b8d8df7c3647fbac70d17114f52cb036
+status: approved
+claimText: box over stacked bars
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-8b39
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:08b39-g3; strokes=kvg:08b39-s8,kvg:08b39-s9,kvg:08b39-s10,kvg:08b39-s11,kvg:08b39-s12,kvg:08b39-s13,kvg:08b39-s14,kvg:08b39-s15,kvg:08b39-s16,kvg:08b39-s17
+- reference: kanjivg-8b39
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:08b39-g3; strokes=kvg:08b39-s8,kvg:08b39-s9,kvg:08b39-s10,kvg:08b39-s11,kvg:08b39-s12,kvg:08b39-s13,kvg:08b39-s14,kvg:08b39-s15,kvg:08b39-s16,kvg:08b39-s17
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: f6d1e70549d8e15f41b927cd6c3060f3b8d8df7c3647fbac70d17114f52cb036
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5c5bb750d9aea61e0de780e6a22c4ee87f4f24081b82ed9ff7f27358d7bfebaf|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5c5bb750d9aea61e0de780e6a22c4ee87f4f24081b82ed9ff7f27358d7bfebaf"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

@@ -1,0 +1,41 @@
+---
+id: visual-u4e1a-four-prong-rack
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e1a
+revision: 4593aa5ca811afcc6b6363fc9174367cd995a290466d836ae7a96053d5ec2f1c
+localizedRevision: 4593aa5ca811afcc6b6363fc9174367cd995a290466d836ae7a96053d5ec2f1c
+status: approved
+claimText: four-prong rack
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-696d
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0696d-g1; strokes=kvg:0696d-s1,kvg:0696d-s2,kvg:0696d-s3,kvg:0696d-s4,kvg:0696d-s5
+- reference: kanjivg-696d
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0696d-g1; strokes=kvg:0696d-s1,kvg:0696d-s2,kvg:0696d-s3,kvg:0696d-s4,kvg:0696d-s5
+- reference: kanjivg-666e
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:0666e-g5; strokes=kvg:0666e-s4,kvg:0666e-s5,kvg:0666e-s6,kvg:0666e-s7,kvg:0666e-s8
+- reference: kanjivg-666e
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:0666e-g5; strokes=kvg:0666e-s4,kvg:0666e-s5,kvg:0666e-s6,kvg:0666e-s7,kvg:0666e-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 4593aa5ca811afcc6b6363fc9174367cd995a290466d836ae7a96053d5ec2f1c
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5bd1e6eed6c1765a8d192fd9c3fc0c22d2d80d54a2d18df734e70b611eaa1f56|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:5bd1e6eed6c1765a8d192fd9c3fc0c22d2d80d54a2d18df734e70b611eaa1f56|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a3fac89c9e878e9c4c26ff710f10480157ed7c320b65d5fe9940c07211a23581|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a3fac89c9e878e9c4c26ff710f10480157ed7c320b65d5fe9940c07211a23581"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

@@ -1,0 +1,29 @@
+---
+id: visual-u54c1-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u54c1
+revision: c4d97824dfbc966d6bb70b73c0ba5b436acf9530c3aba050b247926d10008d1e
+localizedRevision: a5bd6e96bc7ec38bf009220f217bea3b5ccaf70e8a1fff71af4b7b2b5c7c6a7d
+status: approved
+claimText: three boxes in a triangle
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-64cd
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:064cd-g3; strokes=kvg:064cd-s4,kvg:064cd-s5,kvg:064cd-s6,kvg:064cd-s7,kvg:064cd-s8,kvg:064cd-s9,kvg:064cd-s10,kvg:064cd-s11,kvg:064cd-s12
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: c4d97824dfbc966d6bb70b73c0ba5b436acf9530c3aba050b247926d10008d1e
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a699d6dab823811a582fe21b1a03a4cf97d97b23deb2dd34ba5feed1cce94784"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

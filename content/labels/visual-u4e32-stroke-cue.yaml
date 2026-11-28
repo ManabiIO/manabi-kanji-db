@@ -1,0 +1,29 @@
+---
+id: visual-u4e32-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e32
+revision: 1abbbae03eb921c3038c52ff790c01cf7f8c276817d6fce67707ed381b61f6ab
+localizedRevision: 9f29923691d614b092273c6143826d3b78b6bb55a427f1a93e655d3aa7105a7f
+status: approved
+claimText: two boxes on a skewer
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-60a3
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:060a3-g1; strokes=kvg:060a3-s1,kvg:060a3-s2,kvg:060a3-s3,kvg:060a3-s4,kvg:060a3-s5,kvg:060a3-s6,kvg:060a3-s7
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 1abbbae03eb921c3038c52ff790c01cf7f8c276817d6fce67707ed381b61f6ab
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:4d0a5e45d84952aaf2e40aadf9c0a1b8594b352b928296d9a40b30bde3af860f"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

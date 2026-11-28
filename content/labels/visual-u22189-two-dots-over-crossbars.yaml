@@ -1,0 +1,41 @@
+---
+id: visual-u22189-two-dots-over-crossbars
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u22189
+revision: f91afa501caa0c7dc480a31fcda6ab1bd5c71d23d1f6b3cfa2901efecad03c41
+localizedRevision: f91afa501caa0c7dc480a31fcda6ab1bd5c71d23d1f6b3cfa2901efecad03c41
+status: approved
+claimText: two dots over crossbars
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-5e78
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:05e78-g2; strokes=kvg:05e78-s4,kvg:05e78-s5,kvg:05e78-s6,kvg:05e78-s7,kvg:05e78-s8
+- reference: kanjivg-5e78
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:05e78-g2; strokes=kvg:05e78-s4,kvg:05e78-s5,kvg:05e78-s6,kvg:05e78-s7,kvg:05e78-s8
+- reference: kanjivg-57f7
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:057f7-g3; strokes=kvg:057f7-s4,kvg:057f7-s5,kvg:057f7-s6,kvg:057f7-s7,kvg:057f7-s8
+- reference: kanjivg-57f7
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:057f7-g3; strokes=kvg:057f7-s4,kvg:057f7-s5,kvg:057f7-s6,kvg:057f7-s7,kvg:057f7-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: f91afa501caa0c7dc480a31fcda6ab1bd5c71d23d1f6b3cfa2901efecad03c41
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:06f578d7b84c06776c0933651ab276c22907b3e2d45f8ce78dd8b4ecd8ddc07d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:06f578d7b84c06776c0933651ab276c22907b3e2d45f8ce78dd8b4ecd8ddc07d|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b1558607bdad3f9222634cead493c6f5dc10d0a7cd700cc2cab2237ffdf1f7f6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:b1558607bdad3f9222634cead493c6f5dc10d0a7cd700cc2cab2237ffdf1f7f6"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

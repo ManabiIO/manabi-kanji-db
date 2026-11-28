@@ -1,0 +1,41 @@
+---
+id: visual-u4e61-zigzag-with-slash
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e61
+revision: 737d4d2c653228882e3893ac3d4e2f325f89d644649102b6f6e8412e1a4d5b13
+localizedRevision: 737d4d2c653228882e3893ac3d4e2f325f89d644649102b6f6e8412e1a4d5b13
+status: approved
+claimText: zigzag with slash
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-90f7
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:090f7-g2; strokes=kvg:090f7-s1,kvg:090f7-s2,kvg:090f7-s3
+- reference: kanjivg-90f7
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:090f7-g2; strokes=kvg:090f7-s1,kvg:090f7-s2,kvg:090f7-s3
+- reference: kanjivg-64c1
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:064c1-g5; strokes=kvg:064c1-s6,kvg:064c1-s7,kvg:064c1-s8
+- reference: kanjivg-64c1
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:064c1-g5; strokes=kvg:064c1-s6,kvg:064c1-s7,kvg:064c1-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 737d4d2c653228882e3893ac3d4e2f325f89d644649102b6f6e8412e1a4d5b13
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0db5bb1bc1aa7d279a5e3df543d5cbe9273691cf613d90b186e7f8dbde7e2fbc|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0db5bb1bc1aa7d279a5e3df543d5cbe9273691cf613d90b186e7f8dbde7e2fbc|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e706141040f77da87cfbf8087634f16db4bc2b588148ebac221064d8d161153c|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:e706141040f77da87cfbf8087634f16db4bc2b588148ebac221064d8d161153c"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

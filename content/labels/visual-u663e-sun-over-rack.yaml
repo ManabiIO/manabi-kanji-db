@@ -1,0 +1,33 @@
+---
+id: visual-u663e-sun-over-rack
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u663e
+revision: 6cc3e19b804e96fd14c07ca9b06ebda89e099c0e3d7001e1935170b4c3dc1f4b
+localizedRevision: 6cc3e19b804e96fd14c07ca9b06ebda89e099c0e3d7001e1935170b4c3dc1f4b
+status: approved
+claimText: sun over rack
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9855
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09855-g1; strokes=kvg:09855-s1,kvg:09855-s2,kvg:09855-s3,kvg:09855-s4,kvg:09855-s5,kvg:09855-s6,kvg:09855-s7,kvg:09855-s8,kvg:09855-s9
+- reference: kanjivg-9855
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09855-g1; strokes=kvg:09855-s1,kvg:09855-s2,kvg:09855-s3,kvg:09855-s4,kvg:09855-s5,kvg:09855-s6,kvg:09855-s7,kvg:09855-s8,kvg:09855-s9
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 6cc3e19b804e96fd14c07ca9b06ebda89e099c0e3d7001e1935170b4c3dc1f4b
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ac05aff0109a3a5d415d3ada4d030c5244e794abdb0012c492f76ed25e86e1|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:11ac05aff0109a3a5d415d3ada4d030c5244e794abdb0012c492f76ed25e86e1"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

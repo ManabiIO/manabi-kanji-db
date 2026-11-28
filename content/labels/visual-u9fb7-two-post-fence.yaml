@@ -1,0 +1,41 @@
+---
+id: visual-u9fb7-two-post-fence
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u9fb7
+revision: 6ec056774ec529058e4e6a5ac9445435b7b3618656fbdc90157b44c5576a0c95
+localizedRevision: 6ec056774ec529058e4e6a5ac9445435b7b3618656fbdc90157b44c5576a0c95
+status: approved
+claimText: two-post fence
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-9ec4
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:09ec4-g1; strokes=kvg:09ec4-s1,kvg:09ec4-s2,kvg:09ec4-s3,kvg:09ec4-s4
+- reference: kanjivg-9ec4
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:09ec4-g1; strokes=kvg:09ec4-s1,kvg:09ec4-s2,kvg:09ec4-s3,kvg:09ec4-s4
+- reference: kanjivg-6a2a
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:06a2a-g3; strokes=kvg:06a2a-s5,kvg:06a2a-s6,kvg:06a2a-s7,kvg:06a2a-s8
+- reference: kanjivg-6a2a
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:06a2a-g3; strokes=kvg:06a2a-s5,kvg:06a2a-s6,kvg:06a2a-s7,kvg:06a2a-s8
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 6ec056774ec529058e4e6a5ac9445435b7b3618656fbdc90157b44c5576a0c95
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1e1d8ea2215bfbaf515dbf00c18908e372ab7d17fdbce850000b69bf420d72e6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:1e1d8ea2215bfbaf515dbf00c18908e372ab7d17fdbce850000b69bf420d72e6|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:dcb3ca34b01ba5db69538ffee86593c829aacdc6f75fb894dc4f2e76026375af|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:dcb3ca34b01ba5db69538ffee86593c829aacdc6f75fb894dc4f2e76026375af"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

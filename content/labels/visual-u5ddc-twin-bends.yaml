@@ -1,0 +1,33 @@
+---
+id: visual-u5ddc-twin-bends
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u5ddc
+revision: 6fec2ca855d5bd2866d5a2e4e0ab57529c45b2c394d1066932d3335fc29aa49a
+localizedRevision: 6fec2ca855d5bd2866d5a2e4e0ab57529c45b2c394d1066932d3335fc29aa49a
+status: approved
+claimText: twin bends
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-55a9
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:055a9-g7; strokes=kvg:055a9-s11,kvg:055a9-s12
+- reference: kanjivg-55a9
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:055a9-g7; strokes=kvg:055a9-s11,kvg:055a9-s12
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: 6fec2ca855d5bd2866d5a2e4e0ab57529c45b2c394d1066932d3335fc29aa49a
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a017682a0a7e125273469393b73559a623f355ca555d47071f1b092f042e165f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:a017682a0a7e125273469393b73559a623f355ca555d47071f1b092f042e165f"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."

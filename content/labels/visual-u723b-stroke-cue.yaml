@@ -1,0 +1,29 @@
+---
+id: visual-u723b-stroke-cue
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u723b
+revision: f0167b8879b52c3674ec73671c210a2a3ed1f49ae184d7285ed50041ad6f6650
+localizedRevision: 0bbf5ac721ab1c0028b37f7803649312f0cdca578e16dcf010254b7c2164ebfc
+status: approved
+claimText: stacked crosses
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex editorial agent
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-723d
+  claimField: claimText
+  supportType: editorial-visual-name
+  selector: kvg:0723d-g2; strokes=kvg:0723d-s2,kvg:0723d-s3,kvg:0723d-s4,kvg:0723d-s5
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: f0167b8879b52c3674ec73671c210a2a3ed1f49ae184d7285ed50041ad6f6650
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:53f601f6464f4e1308817a83d86d548b099567f7898b16eb4049b25442d13083"
+  rationale: "Checked the English visual cue against the exact Japanese KanjiVG group or split groups and all cited descendant strokes. The pinned SVG bytes match the registered source hash."

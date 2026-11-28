@@ -1,0 +1,33 @@
+---
+id: visual-u4e06-slash-then-crossbar
+kind: visual-name
+subject:
+  type: component
+  id: cmp-u4e06
+revision: ee5ee97193e2e97f864b3755ff9b27a721b916871d287b460a6fe098051ed945
+localizedRevision: ee5ee97193e2e97f864b3755ff9b27a721b916871d287b460a6fe098051ed945
+status: approved
+claimText: slash then crossbar
+targetLanguage: ja
+locale: en
+author:
+  name: OpenAI Codex agent /root/gap_labels
+  type: agent
+  recordedAt: '2026-11-27'
+license: CC-BY-SA-4.0
+evidence:
+- reference: kanjivg-53f3
+  claimField: claimText
+  supportType: selected-component-label
+  selector: kvg:053f3-g1; strokes=kvg:053f3-s1,kvg:053f3-s2
+- reference: kanjivg-53f3
+  claimField: subject
+  supportType: visible-japanese-form
+  selector: kvg:053f3-g1; strokes=kvg:053f3-s1,kvg:053f3-s2
+review:
+  state: approved
+  reviewer: "OpenAI Codex agent /root/release_review"
+  reviewedAt: "2026-11-27"
+  claimRevision: ee5ee97193e2e97f864b3755ff9b27a721b916871d287b460a6fe098051ed945
+  sourceRevision: "kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0f188c7909e6e7dfc21d92879e758c59cbfad3423442cf199006dd42f106f46f|kanjivg-r20260714:d95a97627fd9fe5b2c8d06ca81e38149609c0c1e:0f188c7909e6e7dfc21d92879e758c59cbfad3423442cf199006dd42f106f46f"
+  rationale: "Checked the English visual cue against every cited Japanese glyph occurrence and its full descendant strokes. The pinned SVG bytes match the registered source hash."
