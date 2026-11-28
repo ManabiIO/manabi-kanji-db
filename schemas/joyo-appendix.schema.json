@@ -18,9 +18,9 @@
       "additionalProperties": false,
       "required": ["id", "spelling", "reading", "sourceRow", "role", "entryIDs"],
       "properties": {
-        "id": {"type": "string", "minLength": 1},
-        "spelling": {"type": "string", "minLength": 1},
-        "reading": {"type": "string", "minLength": 1},
+        "id": {"type": "string", "pattern": "^joyo-appendix-[0-9]{3}(-[a-z]+)?$"},
+        "spelling": {"type": "string", "minLength": 1, "pattern": "^\\S+$"},
+        "reading": {"type": "string", "minLength": 1, "pattern": "^[\\u3041-\\u3096]+$"},
         "sourceRow": {"type": "integer", "minimum": 1, "maximum": 116},
         "role": {"enum": ["primary", "alternate", "example"]},
         "entryIDs": {

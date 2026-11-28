@@ -5,17 +5,30 @@ import sys
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
+from copy import deepcopy
 from contextlib import closing
 from pathlib import Path
+
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from kanjidb.database import build
+from kanjidb.database import _load_joyo_appendix, _validate_joyo_appendix, build
+from kanjidb.validation import ValidationError, validate_registry
+from kanjidb.yamlio import load
 from verify_joyo_jmdict import allowed_pairs
 
 
 class JoyoAppendixTests(unittest.TestCase):
+    def _assert_import_error(self, mutator, message: str) -> None:
+        registry = load(ROOT / "sources" / "registry.yaml")
+        sources, refs = validate_registry(registry, ROOT / "sources" / "registry.yaml")
+        doc = deepcopy(load(ROOT / "data" / "joyo-appendix.yaml"))
+        mutator(doc["items"])
+        with self.assertRaisesRegex(ValidationError, message):
+            _validate_joyo_appendix(ROOT, registry, sources, refs, doc)
+
     def test_jmdict_reading_pair_honors_restrictions_and_no_kanji(self) -> None:
         entry = ET.fromstring("""
             <entry>
@@ -25,6 +38,46 @@ class JoyoAppendixTests(unittest.TestCase):
             </entry>
         """)
         self.assertEqual(allowed_pairs(entry), {("五月", "さつき")})
+
+    def test_registered_appendix_cannot_silently_disappear(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "data").mkdir()
+            registry = load(ROOT / "sources" / "registry.yaml")
+            sources, _ = validate_registry(registry, ROOT / "sources" / "registry.yaml")
+            with self.assertRaisesRegex(ValidationError, "require the canonical appendix data file"):
+                _load_joyo_appendix(root, sources)
+
+    def test_registered_appendix_cannot_be_replaced_with_empty_items(self) -> None:
+        self._assert_import_error(lambda rows: rows.clear(), "requires its reviewed canonical rows")
+
+    def test_malformed_id_is_rejected_with_field_context(self) -> None:
+        self._assert_import_error(lambda rows: rows[0].update(id="joyo appendix"), r"items\[0\]\.id: must use")
+
+    def test_whitespace_only_spelling_is_rejected(self) -> None:
+        self._assert_import_error(lambda rows: rows[0].update(spelling=" 　"), r"items\[0\]\.spelling: must not contain whitespace")
+
+    def test_non_hiragana_reading_is_rejected(self) -> None:
+        self._assert_import_error(lambda rows: rows[0].update(reading="あす1"), r"items\[0\]\.reading: must contain only hiragana")
+
+    def test_duplicate_spelling_reading_pair_is_rejected(self) -> None:
+        self._assert_import_error(
+            lambda rows: rows[1].update(spelling=rows[0]["spelling"], reading=rows[0]["reading"]),
+            "duplicate appendix spelling/reading pair",
+        )
+
+    def test_noncanonical_jmdict_links_fail_offline_fingerprint(self) -> None:
+        self._assert_import_error(
+            lambda rows: rows[0].update(entryIDs=[99999999]),
+            "independently reviewed canonical material",
+        )
+
+    def test_semantic_fingerprint_allows_yaml_formatting_changes(self) -> None:
+        registry = load(ROOT / "sources" / "registry.yaml")
+        sources, refs = validate_registry(registry, ROOT / "sources" / "registry.yaml")
+        original = load(ROOT / "data" / "joyo-appendix.yaml")
+        reformatted = yaml.safe_load(yaml.safe_dump(original, allow_unicode=True, sort_keys=False))
+        self.assertEqual(len(_validate_joyo_appendix(ROOT, registry, sources, refs, reformatted)), 126)
 
     def test_joyo_rows_and_exact_jmdict_entry_links_reach_query_view(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
