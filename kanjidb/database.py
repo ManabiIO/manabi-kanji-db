@@ -12,7 +12,7 @@ from typing import Any
 from .validation import ValidationError, load_project, validate, need, exact_keys, nonempty
 from .yamlio import load
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 3
 
 DDL = """
 PRAGMA foreign_keys = ON;
@@ -59,6 +59,7 @@ CREATE TABLE occurrence(
   FOREIGN KEY(structure_id, parent_id) REFERENCES occurrence(structure_id, occurrence_id)
 ) STRICT;
 CREATE INDEX occurrence_component ON occurrence(component_id);
+CREATE INDEX occurrence_visible_form_lookup ON occurrence(visible_form, structure_id, occurrence_id);
 CREATE TABLE radical_name(
   id TEXT PRIMARY KEY, literal TEXT NOT NULL, codepoint TEXT NOT NULL, kangxi_number TEXT,
   english_meaning TEXT, reading_kana TEXT, reading_romanized TEXT,
@@ -116,12 +117,17 @@ CREATE TABLE asset(
 CREATE INDEX asset_subject_kind_status ON asset(subject, kind, status);
 CREATE TABLE claim(
   id TEXT PRIMARY KEY, kind TEXT NOT NULL, subject_type TEXT NOT NULL, subject_id TEXT NOT NULL,
-  subject_literal TEXT, subject_codepoint TEXT, revision TEXT NOT NULL,
+  subject_structure_id TEXT, subject_literal TEXT, subject_codepoint TEXT, revision TEXT NOT NULL,
   status TEXT NOT NULL, target_language TEXT NOT NULL, author TEXT NOT NULL,
   license TEXT NOT NULL, review_state TEXT NOT NULL, reviewer TEXT, review_date TEXT,
-  review_claim_revision TEXT, review_source_revision TEXT, review_rationale TEXT
+  review_claim_revision TEXT, review_source_revision TEXT, review_rationale TEXT,
+  CHECK((subject_type = 'occurrence') = (subject_structure_id IS NOT NULL)),
+  FOREIGN KEY(subject_structure_id, subject_id) REFERENCES occurrence(structure_id, occurrence_id)
 ) STRICT;
 CREATE INDEX claim_subject_kind_status ON claim(subject_type, subject_id, kind, status);
+CREATE INDEX claim_occurrence_subject ON claim(subject_structure_id, subject_id) WHERE subject_type = 'occurrence';
+CREATE INDEX claim_approved_occurrence_role ON claim(subject_structure_id, subject_id, kind)
+  WHERE subject_type = 'occurrence' AND status = 'approved' AND review_state = 'approved';
 CREATE TABLE claim_evidence(
   claim_id TEXT NOT NULL REFERENCES claim(id), reference_id TEXT NOT NULL REFERENCES reference(id),
   claim_field TEXT NOT NULL, support_type TEXT NOT NULL, selector TEXT NOT NULL,
@@ -155,6 +161,16 @@ CREATE VIEW visible_component_occurrence AS
   SELECT s.literal, o.structure_id, o.occurrence_id, o.component_id, o.parent_id,
          o.visible_form, o.group_id, o.stroke_ids_json, o.source_attributes_json
   FROM occurrence o JOIN structure s ON s.id=o.structure_id;
+CREATE VIEW approved_component_role AS
+  SELECT s.literal AS character_literal, o.structure_id, o.occurrence_id, o.component_id,
+         o.visible_form, c.kind AS role_kind, c.id AS claim_id, t.locale, t.text
+  FROM occurrence o
+  CROSS JOIN structure s ON s.id=o.structure_id
+  CROSS JOIN claim c ON c.subject_structure_id=o.structure_id AND c.subject_id=o.occurrence_id
+  JOIN localized_text t ON t.claim_id=c.id
+  WHERE c.subject_type='occurrence' AND c.status='approved' AND c.review_state='approved'
+    AND c.review_claim_revision=c.revision AND t.stale=0
+    AND c.kind IN ('semantic-function', 'historical-phonetic', 'modern-japanese-sound');
 CREATE VIEW candidate_component_relationship AS
   SELECT r.*, c.source_id, c.source_revision, c.reference_id, c.source_status, c.japanese_applicability, c.review_state
   FROM candidate_relation r JOIN imported_candidate c ON c.id=r.candidate_id
@@ -380,9 +396,17 @@ def _assets(root: Path, sources: dict[str, dict], refs: dict[str, dict]) -> list
             ref_id = row.get(ref_key)
             need(ref_id in refs and refs[ref_id]["source"] == row["source"], path, field + "." + ref_key,
                  "must resolve to this asset source")
+        media = refs[row["mediaReference"]]
+        if row["source"] == "kanji-alive-radical-media":
+            member_hash = re.search(r"(?:^|;\s*)memberSHA256=([0-9a-f]{64})(?:;|$)", row["selector"])
+            need(member_hash is not None and member_hash.group(1) == row["sha256"], path, field + ".selector",
+                 "the selected archive member hash must match the local asset bytes")
+        else:
+            need(row["sha256"] == media["snapshotHash"], path, field + ".mediaReference",
+                 "the media reference snapshot hash must match the local asset bytes")
         if row["source"] == "codh-tensho-v2-te00039":
-            media = refs[row["mediaReference"]]["url"]
-            need(media.startswith("https://codh.rois.ac.jp/tensho/book/TE00039/characters/") and
+            media_url = media["url"]
+            need(media_url.startswith("https://codh.rois.ac.jp/tensho/book/TE00039/characters/") and
                  "_TE00039_" in row["selector"], path, field + ".mediaReference",
                  "the scope of this source covers only crops from TE00039")
         need(row.get("status") == "candidate" and row.get("reviewState") == "pending-distinct-asset-review", path,
@@ -499,9 +523,10 @@ def build(root: Path, output: Path) -> str:
             for claim in claims:
                 review = claim["review"]
                 subject = claim["subject"]
-                subject_id = subject.get("id") or subject.get("literal") or subject.get("occurrence") or subject.get("structure")
-                conn.execute("INSERT INTO claim VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
-                    claim["id"], claim["kind"], subject["type"], subject_id, subject.get("literal"), subject.get("codepoint"),
+                subject_id = subject.get("id") or subject.get("literal") or subject["occurrence"]
+                conn.execute("INSERT INTO claim VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+                    claim["id"], claim["kind"], subject["type"], subject_id, subject.get("structure"),
+                    subject.get("literal"), subject.get("codepoint"),
                     claim["revision"], claim["status"], claim["targetLanguage"],
                     claim["author"]["name"], claim["license"], review["state"], review.get("reviewer"),
                     review.get("reviewedAt"), review.get("claimRevision"), review.get("sourceRevision"), review.get("rationale"),

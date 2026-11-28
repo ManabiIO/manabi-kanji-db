@@ -48,8 +48,20 @@ def validate_locale(value: Any, path: Path, field: str) -> None:
 
 def validate_url(value: Any, path: Path, field: str) -> None:
     need(isinstance(value, str), path, field, "must be an absolute HTTPS URL")
-    parsed = urlparse(value)
-    need(parsed.scheme == "https" and bool(parsed.netloc), path, field, "must be an absolute HTTPS URL")
+    need(not any(char.isspace() or ord(char) < 32 or ord(char) == 127 for char in value),
+         path, field, "URL contains whitespace or a control character")
+    need("\\" not in value and not re.search(r"%(?![0-9A-Fa-f]{2})", value),
+         path, field, "URL contains a backslash or malformed percent escape")
+    try:
+        parsed = urlparse(value)
+        host = parsed.hostname
+        # urllib validates an explicit port only when this property is accessed.
+        port = parsed.port
+    except ValueError as exc:
+        raise ValidationError(f"{path}:{field}: invalid URL authority: {exc}") from exc
+    need(parsed.scheme == "https" and bool(host), path, field, "must be an absolute HTTPS URL with a hostname")
+    need(parsed.username is None and parsed.password is None, path, field, "public citation URLs must omit credentials")
+    need(not parsed.netloc.endswith(":") and port != 0, path, field, "invalid URL port")
 
 
 def validate_registry(doc: Any, path: Path) -> tuple[dict[str, dict], dict[str, dict]]:
